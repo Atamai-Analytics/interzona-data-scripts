@@ -1,0 +1,618 @@
+﻿confidence,dist_km,mindat_name,mindat_id,db_name,depno,mindat_elements,mindat_has_refs,mindat_desc
+STRONG,0.0,Venus Mine,7816,Venus-Pilar,279,Mn-Pb-O-H-V-C-Zn-Fe-Al-Si-K-Cl-P,False,
+STRONG,0.0,Pan de Azucar Mine,22973,Pan de Azúcar,26,Al-O-K-S-H-Pb-As-Fe-Ag-Ge-Cu-C-Sb-Ca-Sn-F-Au-Cd-Si-Zn,True,"Miocene Pb-Zn-Ag deposit. Principal veins are the España, Pan de Azucar, and Potosí. The galena here contains up to 1.2%"
+STRONG,0.0,Arroyo Rojo and Sargent prospects,22988,Arroyo Rojo,11155,Al-Na-Si-O-Fe-Mg-Ti-K-F-H-Bi-S-Pb-Sb-Cu-Ca-C-Ag-Zn,True,Volcanogenic massive sulfide deposit. Lillianite here is selenian.
+STRONG,0.0,San Francisco de los Andes mine,22991,San Francisco de Los Andes,11136,Bi-Cu-Pb-S-As-Fe-Ag-O-H-Al-Mg-Si-Ti-K-F-Cl-C-Sn-Ca-Au-Sb-Te-Na-W-B-Zn-Zr-P,False,"Intrusive breccia pipes cemented by tourmaline, quartz and Cu-Bi ores. Related to emplacement of the Amancay granodiorit"
+STRONG,0.0,Julio Verne mine,23406,Julio Verne,3085,Bi-Cu-Pb-S-As-Fe-Ag-Sn-O-Sb-Au-Te-Se-Zn-Si,False,Subvolcanic bismuthian polymetallic hydrothermal veins related to a Mio-Pliocene andesitic-dacitic eruptive center hoste
+STRONG,0.0,Gualilan-Gualcamayo District,23505,Gualilán,326,Ag-S-Al-Si-O-K-H-Ca-Fe-As-Cu-C-Au-Pb-Zn-Te-U-Mn,False,"A gold mining district with skarn-hosted ores.  The Gualcamayo mine is one of the largest gold mines in Argentina and "
+STRONG,0.0,Gonzalito mine,28337,Mina Gonzalito,527,Pb-Zn-O-H-V-Ca-F-As-Cl-Si-Mo,False,"A lead mine in the 1940s, located 48 km north of Sierra Grande. Wulfenite here occurs as unusual bright red pseudo-octa"
+STRONG,0.0,Santa Isabel quarry,43570,Santa Isabel,11250,Ca-O-C-Sr-S,False,"Quarry for extraction of a beautiful green lapidary-grade calcite locally called ""onyx marble"". Pliocene beds, alternati"
+STRONG,0.0,Las Tapias Mine,54257,Las Tapias,4000,Bi-O-C-Ag-Br-Al-Be-Si-V-Cu-Pb-H-Fe-Na-B-Li,False,"A lithium deposit comprising a series of spodumene and niobium-tantalum-bearing pegmatites.  In 2018 the deposit was b"
+STRONG,0.0,Santa Ana Pegmatite,146382,Santa Ana,4029,Al-Na-Si-O-Fe-Mn-P-Be-H-Ca-F-Li-K-S-Mg-B-U-Nb,False,"Beryl type, beryl-columbite-phosphate subtype of rare-element pegmatite.  The pegmatite is exposed over ~1250 m², and "
+STRONG,0.0,Pachamama Mine,229541,Pachamama,5222,Al-Fe-Mg-Si-Ti-O-K-F-H-Cu-S-Ca-Mn-W-Zr-P,True,Located approximately 990m SE of the San Martin mine and 24 km northeast of Valcheta.
+STRONG,0.0,Ranquel Pegmatite,229714,Ranquel,4028,Al-Na-Si-O-Fe-Mg-Ti-K-F-H-Be-P-Li-Mn-Ca-U-B,True,4.5km east of Paso del Rey.
+STRONG,0.0,El Alisal,240694,El Alisal,3167,Au,False,"Porphyritic outcrops with gold. Elevation: 2634 metres above sea level."
+STRONG,0.0,Atos Pampa,240894,Athos Pampa,4012,O-Mg-Si-H-Ca-C-Cr-Fe-Al-Ti-Os-Ni-S-Pt-Na,False,"Elevation: 1077 m. above sea level.  Chromite: With ferromagnesian rocks, especially serpentinites, ultramafic perido"
+STRONG,0.0,La Torca Mine,242779,La Torca; Diana; Torca,75,Cu-O-C-H-Pb-Al-Si-S-Zn-V-Ca-As-Cl-P-Bi-Au,True,"In the zone oxidized a reservoir in the San Antonio de los Cobres Pb-Ag-Zn  district. The Mimetite is with Malachite, Ch"
+STRONG,0.0,Pumahuasi Mine,247535,Pumahuasi; Veta Pumahuasi Vieja,1,,False,Lead-zinc deposit.
+STRONG,0.0,Sol de Mayo Mine,247542,Sol de Mayo; Veta Sol de Mayo,3,,False,"Zinc deposit, located east of Pumahuasi."
+STRONG,0.0,Quebrada de Puca,247545,Quebrada de Puca,24807,Sn-O,True,"Alluvial tin workings (with additional minor gold and silver), covering 400 hectares, located at 4,100 meters elevation,"
+STRONG,0.0,Pampa coya Mine,247566,Pampa Coya,24808,Au,False,A gold deposit.
+STRONG,0.0,Pabellón mine,247567,Pabellón,24806,Au-Sb-S,False,"Located at 4,400 meters elevation. In 1940-1942, some 400 tons of concentrate with 68-69% Sb were extracted."
+STRONG,0.0,Santo Domingo Mine,247568,Santo Domingo,24799,Au,True,A gold mine.
+STRONG,0.0,Campanario mine,247570,Campanario,25363,Au,True,"The first link below provides GPS coordinates for ""Between Mina Campanario and Ojo Catal (Rinconada) 22º 42' S 66º ""42' "
+STRONG,0.0,Cema pegmatite,252300,CEMA,25146,Al-Na-Si-O-Mn-P-Be-Ca-K-H-Fe-Mg-Li-B,True,
+STRONG,0.0,San Sebastián deposit,257251,San Sebastián-Cuesta de Miranda,11100,Ca-O-P-H-U-Cu-C-Ba-S-Si-K-Fe-V-Al-Na-F-Mg-Se,False,Uranium deposit. This abandoned mine is near Sañogasta. You park at the western end of the village near RN40 at the last
+STRONG,0.0,Garibaldi deposit,259011,Garibaldi-Garibaldi Chica,266,Al-Si-O-K-H-Fe-S,True,
+STRONG,0.0,Yanzi deposit,270089,Yanzi (Bella Blenda) y Cristal Blenda,11142,Al-Ca-Fe-Si-O-H-Pb-S-Au-K-C-Zn,True,
+STRONG,0.0,María Elena pegmatite,308624,María Elena,25127,Al-Na-Si-O-Be-Ca-C-Mg-B-H-P-F-Nb-U-Mn-Ta-K-Fe-Zr,True,rare-element pegmatite of beryl type
+STRONG,0.0,Don Arturo pegmatite,419561,Don Arturo,25581,Al-Na-Si-O-Fe-Mg-Ti-K-F-H-Be-B-Zr,True,LCT pegmatite
+STRONG,0.0,La Bonita Mine,427400,La Bonita,521,Cu-Fe-S-Pb-C-Zn-Ca-Si-Ti-O,False,Located approximately 15.5 km NNE of Valcheta.
+STRONG,0.0,San Lorenzo Mine,427402,Cerro San Lorenzo,522,Al-Na-Si-O-Fe-Mg-Ti-K-F-H-S-Ca-Mn-C,False,The mine is located approximately 1.8km south of Valcheta.
+STRONG,0.0,Arcadia Mine,434757,Arcadia (Qda.La Petaca),11330,Ca-Fe-Mg-Si-O-H,True,"Located in the La Petaca ravine on the western flank of the Sierra de Pie de Palo, and is 54 km from the city of San Ju"
+STRONG,0.0,Cerro Alto Mine,434758,Mina Cerro Alto,24482,Mg-Si-O-H-Ca,True,"A talc mine located in the Piedras Pintadas ravine.  The mine is at an altitude of 911 metres."
+STRONG,0.0,Don León Mine,434759,Don Leon,24427,Mg-Si-O-H-Fe,True,A talc mine at 780 metres.
+STRONG,0.0,El Salto Mine,434760,El Salto,24432,Mg-Si-O-H,True,"A talc mine at an altitude of 1,000 metres and is approximately 660 metres east of the Don León mine."
+STRONG,0.0,Coyaguaima deposit,434819,Mina Coyaguaima,25364,Sb,False,An antimony deposit.
+STRONG,0.0,Miyuyo deposit,434820,Miyuyo I y II,24805,,True,"A group of three mines Miyuyo I, II, and III."
+STRONG,0.0,Pabellón Mine,434822,Pabellón,24806,,False,A gold and antimony mine.
+STRONG,0.0,Caucani-Solterío Mine,434823,Caucani-Solterío,5175,,True,A tin mine.
+STRONG,0.0,Colpitayoc Mine,434824,Colpitayoc,5177,,True,A tin mine.
+STRONG,0.0,Pircas deposit,434825,Pircas; los Siete Hermanos,24,,False,An alluvial tin deposit.
+STRONG,0.0,San Marcos deposit,434827,San Marcos; Roma; Londres; Varsovia; Buenos Aires,25,,True,A tin deposit.
+STRONG,0.0,Arenales deposit,434828,Arenales,25369,,False,A gold deposit.
+STRONG,0.0,Chajarahuaico deposit,434829,Chajarahuaico,24812,,True,An alluvial gold deposit.
+STRONG,0.0,Fray Bartolomé de Las Casas deposit,434832,Fray Bartolomé de las Casas,24815,,True,A gold deposit.
+STRONG,0.0,Las Pepas deposit,434833,Las Pepas,24811,,True,A gold deposit.
+STRONG,0.0,Pum Pum deposit,434847,Pum Pum,117,,True,
+STRONG,0.0,La Elsa pegmatite,436212,La Elsa,25188,Ca-F-Ce-O-P-Si,False,A small granite pegmatite.
+STRONG,0.0,Adelita Mine,438652,Adelita,25488,Al-Na-Si-O-K-S-H-Fe-Mg-Ti-F-Ca-Mn-C,False,An open pit quarry operation.
+STRONG,0.0,Veta Rica,452482,Veta Rica,275,Pb-Sb-S-O-C-Zn-Cu-Fe-Sn,False,Small abandoned mine on a Pb-Zn-Ag vein.
+STRONG,0.0,Rosario Mine,475851,Grupo Rosario( de Arriba y de Abajo),210,Ag-S-Ba-O-Pb-C-Cu-Fe-Cd-As-Sb-Si-Mn-Co-Zn,False,"Former ore mine with visible ruins and tunnel entrances at 3520m and 3560m. Lead, zinc and silver ores were mined in vei"
+STRONG,0.1,El Criollo Mine,10242,El Criollo;,11091,Al-Na-Si-O-Ti-Ca-P-H-U-Cu-C-Fe-Ba-S-Mn-Be-Bi-Ag-Br-K-V-Nb-F-Zn-I-Mo-Pb-Te-Zr,False,"Granite pegmatite quarry about 10 km from the town of Tanti.  NOTE: The blue Co-bearing genthelvite from here, now wide"
+STRONG,0.1,San Luis Mine,11465,San Luis,4022,Al-Na-Si-O-Mn-P-H-Fe-Mg-Ti-K-F-Be-Ca-C-Zn-Li-Ta-Nb-S-B-Zr,True,"Two juxtaposed pegmatites of different types called San Luis I and II. San Luis II pegmatite is of the complex spodumen"
+STRONG,0.1,Bajo de la Alumbrera Mine,34975,Bajo de La Alumbrera,3115,Ca-Fe-Mg-Si-O-H-Al-Na-S-Ti-K-F-Cu-C-Pb-Au-Mo-Zn-Zr-P,False,"An open pit Cu(-Au) mine.  Main Mineralization: World-class disseminated deposit of copper(-gold) porphyry type, with "
+STRONG,0.1,Las Cuevas pegmatite,209006,Las Cuevas,25019,Al-Na-Si-O-Li-P-F-Be-B-H-Mn-Ca-Fe-K-Ta-Nb,False,"Pegmatite with bismuth and uranium minerals.  The pegmatite was mined in seven small open pits, and with some undergro"
+STRONG,0.1,Navarro Mine,229542,Navarro; La Perlita,24595,Ca-F-Mn-O-W,True,"6,5 km SE of San Martin mine and 1km from each other."
+STRONG,0.1,El Pachón mine (El Pachón project),236879,El Pachón,3206,Cu,False,"Copper deposit, under exploration. Owned by Xstrata Copper.  A bi-national project being evaluated under the Mining I"
+STRONG,0.1,María Arsenita Mine,244240,Mutquín-Apoyaco-Río Siján; San Alfredo; María Arsenita,25048,Al-Si-O-H,True,"Elevation: 1,720 m. asl. Kaolinite Deposit. Exploited in 70´s by the company ""S.A.Y.M.A.""."
+STRONG,0.1,Quebrada de Quirón,257618,Quebrada de Quirón,11249,,True,"Elevation: 4,411 m. asl. Obsidian (var. Perlite) Deposit. Outcrops of volcanic glass (Obsidian) surrounded by Perlite "
+STRONG,0.1,San Carlos deposit,259012,San Carlos - La Golondrina - Pascualito,278,Pb-O-S-Sb-C-Cu-Fe-Zn,False,"In the Argentinian database of mineral localities, the pit is summarised with the La Golondrina and Pascualito pits, as "
+STRONG,0.1,Asuncion deposit,259015,Distrito El Guaico; El Guaico; Rara Fortuna; La Ballena; Buena Ventura; Asunción; Mogote Blanco; Garibaldi; Veta Rica,11114,,False,
+STRONG,0.1,La Esmeralda pegmatite,419550,La Esmeralda-La Violeta,25276,Al-Na-Si-O-Bi-Ca-C-Fe-Mg-Ti-K-F-H-Be-B-Zr-P,True,
+STRONG,0.1,San Patricio deposit,427397,San Patricio,3342,Cu-O-C-H-Al-Fe-Mg-Si-Ti-K-F-S-Zn-Na-Ca-P-Mn,False,
+STRONG,0.1,La Calera quarry,427420,Doña Amalia; La Calera,11062,,False,A marble quarry.
+STRONG,0.1,Promin quarry,435144,Cantera Promin S.A.,24648,,False,An active basalt quarry.
+STRONG,0.1,San Benito quarry,435146,Cantera San Benito,24649,,False,An aggregates quarry.
+STRONG,0.1,Lindero Property,439479,Lindero,3084,,False,A gold copper mine.
+STRONG,0.1,Escondida deposit,439486,La Escondida,96,,False,
+STRONG,0.1,Mina La Georgette,479894,Georgette,206,Ag-S-Ba-O-Cu-Fe-Pb-Sb-Si-Mn-C-Zn-Al-H,False,"Former ore mine with visible ruins and a tunnel entrance at 3730m. Lead, zinc and silver ores were mined in veins contai"
+STRONG,0.2,Chinchillas Mine,23339,Chinchillas,19,Ag-S-Al-Si-O-K-Na-Ti-Pb-As-Fe-Mg-F-H-Sb-C-Cu-Ca-P-B-Au-Sr-Ta-Zn-Zr-Sn,False,"Pb-Zn-Sn-Ag deposit in a mid-Miocene dacitic volcanic dome.    The Chinchillas mine was estimated to contain 11.7 mill"
+STRONG,0.2,La Concordia mine,23431,Concordia,111,Ag-S-Pb-O-As-Fe-Cu-Sb-C-Au-Ca-H-Al-Si-Zn,False,"La Concordia mining complex: located on the road between San Antonio de Los Cobres and the viaduct La Polvorilla.  Sil"
+STRONG,0.2,King Tut deposit,23484,King Tut,11106,As-Co-Fe-S-Ni-O-H-Bi-Cu-Au-Si-Te,False,"Hydrothermal veins, massive to brecciated, in lower Paleozoic low-grade metamorphic rocks. 58 km NW of Villa San José d"
+STRONG,0.2,Rara Fortuna mine (Rara Fortuna deposit),23507,Rara Fortuna,284,As-Fe-S-Si-O-Pb-H-Zn,False,The Rara Fortuna is the most important ore deposit in the El Guaico (qv) Pb-Zn-Ag district.
+STRONG,0.2,Martha mine,34976,Mina Martha,583,Ag-S-Al-Si-O-K-Cu-Sb-As-Fe-C-H-Cl-Pb-Au-P-Zn-Zr,False,Several fissured systems of silver veins. It was formed by intermediate sulfidation hydrothermal activity due to vulcani
+STRONG,0.2,San Martín Mine,69628,General San Martín,5225,Bi-Cu-Pb-S-As-Fe-Ca-O-C-Ag-Te-H-F-Mn-W-Al-Si-Sn-Zn-K-Ti-Sb,True,"Upper Permian (262 ± 5.2 Ma) granite pluton.  Located approximately 25km northeast of Valcheta.  A tungsten deposit."
+STRONG,0.2,Inca Viejo Cu-Au deposit,206312,Inca Viejo,3039,Cu-O-C-H-Al-Fe-Mg-Si-Ti-K-F-S-Au-Mo-B-P,True,Porphyry copper-gold deposit.
+STRONG,0.2,Los Avestruces mining district,229571,Los Avestruces,11097,Al-Fe-Mg-Si-Ti-O-K-F-H,True,Tungsten mining district.
+STRONG,0.2,Vince Mine,229585,Vince,98,Pb-Sb-S-Ag-Cl-Mn-O-K,True,"An epithermal polymetallic Ag, Pb, Zn deposit."
+STRONG,0.2,La Josefa deposit,229835,La Josefa,3135,,False,
+STRONG,0.2,Julia Mine,241461,La Casualidad; Julia,11314,S,False,"Volcanogenic sulphur ore. Located at 5,325 m above sea level, on the border with Chile. The ore was transported to Mina"
+STRONG,0.2,Cabeza de Toba quarry,241618,Cantera El Toba,11067,Ca-O-C,True,"Elevation: 774 m above sea level. Dolomitic limestones of the Yacoraite Formation.  Quarry ""Cabeza de Toba"", Sierra de"
+STRONG,0.2,Santa Elena pegmatite,242763,Santa Elena,4027,Al-Na-Si-O-Li-P-F-Bi-S-Be-Fe-H-B-Ca-Zn-K-Ta-Ce-Mn-U-Zr-Nb,True,"This pegmatite main minerals are quartz, plagioclase, microcline, to which is added Spodumene, Muscovite, Biotite, Beryl"
+STRONG,0.2,Rinconada town,247580,Rinconada,11001,Au,False,Rinconada is a rural municipality and village in Jujuy Province in Argentina. It is located in the west of the province 
+STRONG,0.2,Minas Azules,247586,Minas Azules,24824,Au,False,Located north of Puesto Grande and SE of Santa Catalina town.
+STRONG,0.2,Inca Viejo Cave,359208,Inca Viejo,3039,O-Al-Fe-Mg-Si-Ti-K-F-H-Cu-C-P-S-Ca-Na,True,"PreIncan cave in dacite that was enlarged by turquoise mining. Coordinates are for the summit, the cave is on the Wester"
+STRONG,0.2,Judith Mine,426785,Judith (claim name),2056,,False,An epithermal manganese deposit.
+STRONG,0.2,Luis Losi quarry,435145,Cantera Luis Losi S.A.,24674,,False,An basalt aggregates quarry
+STRONG,0.2,Arizaro Mine,439480,Arizaro,3083,,False,
+STRONG,0.3,Huemul Mine,51086,Huemul,11259,Ca-Na-O-C-H-U-P-Cu-Mg-Fe-S-K-V-Si-Pb-F-Zn,True,"Malargüe District (Province of Mendoza): In this region which covers an area of around 250 x 100 km and it extends from"
+STRONG,0.3,Calcatreu Gold project,229627,Calcatreu; Veta 49,530,Ag-S-Ca-O-C-Si-Au-Fe,False,"Epithermal Jurassic prospect. Vein 49, Nelson, Castro Sur, Belen and Viuda de Castro zones.  Calcatreu is a gold and "
+STRONG,0.3,Bajo Las Pampitas deposit,229838,Bajo de las Pampitas,3120,Al-Fe-Mg-Si-Ti-O-K-F-H-Ca,False,
+STRONG,0.3,San Virgilio,230017,Grupo San Virgilio,5121,,False,
+STRONG,0.3,El Cóndor placers,247563,El Cóndor,11273,Au,False,"Alluvial gold workings, located 4 km north of Rinconada."
+STRONG,0.3,Cóndor deposit,247577,El Cóndor,11273,Au,False,An alluvial gold deposit.
+STRONG,0.3,Cap-Oeste project,301180,Cap Oeste,24520,Ag-S-Al-Si-O-K-As-Fe-Br-Cl-Au-Cu-Sb-H-I,False,The Cap-Oeste Project is located within a structural corridor extending six kilometres from the La Pampa prospect in the
+STRONG,0.3,San Antonio deposit,434848,San Antonio,97,,True,A 600 metre uneconomic vein deposit. Mineralogy - cerussite.
+STRONG,0.3,Argentina deposit,439485,La Argentina,95,,False,
+STRONG,0.3,Ethel mining group,441841,Ethel,11258,Ca-O-C-Si-Mn-K-H-Ba-Na,False,"Group of manganese mines. Mines include: Mina Ethel; Mina Iris; Don Luis; Isabel; Beba; Rosana; Negrita; Piedra de Fueg"
+STRONG,0.3,Ethel mine,441842,Ethel,11258,Ca-O-C-Si-Mn-K-H-Ba-Na,False,The mine site is located directly next to the provincial road. There are still some ruined buildings and several incline
+STRONG,0.4,Restauradora vein,19635,"Capillitas (Restauradora, Ortiz, otras)",3118,Cu-O-S-H-As-Fe-Al-C-Pb-Au-Ca-Mn-W-Sn-Si-Zn,False,"A rhodochrosite ""Inca Rose"" mine. Located near Capillitas. Vein average thickness of 50 cm and a total measured length o"
+STRONG,0.4,Aguilar Mine,22977,El Aguilar,39,Ag-S-Ca-Fe-Mg-Si-O-H-Mn-C-Sb-As-Pb-Cu-Ni-Co-Al-F-Au-Be-Sn-Zn-B-Mo-K-Ti-P-Zr,True,Skarn-related mineralization where Ordovician sediments of the Acoyte Formation have been intruded by a Cretaceous grani
+STRONG,0.4,Cañada Honda,35057,Cañada Honda,11361,Al-Si-O-K-Na-Pb-S-Cu-C-H-Fe-Mg-Ti-F-Ca-Au-As-Cl-P-Zn-Zr,True,"Deformed Cambrian-Ordovician metamorphics, feldspar-quartz-biotite gneiss, and pegmatites intruded by Tertiary andesitic"
+STRONG,0.4,Macho Muerto deposit,229834,Macho Muerto,173,,False,
+STRONG,0.4,El Pantanito deposit,230020,Don Sixto; La Cabeza ; Pantanito,24344,Al-Si-O-K-As-Fe-S-Ba-N-H-Ca-C-Pb-Au-P-Na-Zn,True,Low sulfidation epithermal gold deposit.
+STRONG,0.4,Incahuasi Mine,239877,Incahuasi,11025,As-Fe-S-Cu-Si-O-H-Au-C-Al-K-Ti-B,True,"Coordinates: Latitude:  25º 25´ 59.60"" South. Longitude: 67º 10´ 56.24"" West. Elevation: 4070 meters over sea level."
+STRONG,0.4,Salina Grande,257299,Salina Grande,11024,Ca-Na-O-S-H-Cl,True,"Elevation: - 20 meters bsl. Halite, gypsum and scarce glauberite."
+STRONG,0.4,Salina Chica,257300,Salina Chica,11357,Ca-Na-O-S-H-Cl,True,"Elevation: 0 meters asl. Main mineralization: Halite, gypsum and glauberite."
+STRONG,0.4,Santo Domingo deposit,259010,Santo Domingo,256,,False,
+STRONG,0.4,Independencia Argentina pegmatite,265511,Independencia Argentina,25313,Al-Na-Si-O-Bi-Be-Fe-Nb-Ta-Ca-P-F-Mn-K-H-Ti-Li,True,
+STRONG,0.4,Lomada de Leiva mine,301179,Lomada de Leiva,24522,Au,False,"As of 2018, this mine was reported to be nearing the end of its life [Ref: http://www.patagoniagold.com/operations/lomad"
+STRONG,0.4,San Pedro mine,306063,Los Llantenes-San Pedro,25553,Ca-O-C-Pb-Se-Ag-Cu-Fe-Hg-H-Al-Cl,False,"A mine in the Cuesta de Los Llantenes mining district, NW Jagüé  (28°20–40’S, 68°30–45’W)."
+STRONG,0.4,Olacapato mine,426786,Olacapato (claim name),2069,,False,An epithermal manganese deposit.
+STRONG,0.4,Incahuasi project,426788,Incahuasi,11025,As-Fe-S-Cu-Si-O-H-Au-C-Al-K-Ti-B,False,A gold mining project.
+STRONG,0.4,Ivana prospect,427405,Ivana (VIII-F),24559,O-K-H-U-V-Si-Ca-S-Fe-Mg-Mn-C,True,"A uranium-vanadium prospect, that is part of the Amarillo Grande Project which comprises three disparate locality areas."
+STRONG,0.4,Cantera Jiménez deposit,434761,Jimenez,24456,,True,A talc deposit at an altitude of 775 metres.
+STRONG,0.5,Tincalayu Mine,51,Tincalayu,11267,Na-B-O-H-Mg-Ca-C-S-Cl-Ba-Si-Sr,False,"A borate mine in the Tincalayu borax deposit. Tincalayu comprises two open pits, the largest measures 1,500 meters wide,"
+STRONG,0.5,Salamanca mine,23512,Salamanca-La Rica,3291,Ca-Fe-Mg-Si-O-H-Ag-S-Cu-C-Cr-As-Co-Au-Ti-Mo-Ni-Zn,True,Copper deposit in ultrabasic rocks.
+STRONG,0.5,Agua Rica Mine,28448,Agua Rica; Mi Vida; Cerro Rico; Montenegro; Cerro Negro,3114,Ca-Fe-Mg-Si-O-H-Bi-Cu-Pb-S-Al-Na-K-Ba-Ti-F-As-V-Au-Sn-Mo-Mn-C-Zn-Sr-P-Sb-B-Cl,False,"World-class porphyry gold and copper deposit, owned (as of Sept. 2004) by Minero Aconcagua (Canada) and BHP Minerals (UK"
+STRONG,0.5,Los Cóndores mine,44541,Los Cóndores,5050,Cu-O-C-H-Bi-S-Fe-W-Ca-F-Au-Al-Si-K-Mo-Zn-Na-B-Sb-P,True,"Los Cóndores mine was worked for tungsten from 1898 (German Wikipedia says 1905) to 1965.  Located 14 km from Concarán."
+STRONG,0.5,Navidad project,156892,Navidad (claim name),24342,Ag-S-Al-Si-O-K-Na-Ca-Fe-C-As-Ba-H-Mg-Ti-F-Cu-Sr-Pb-Cl-Zn-Sb-Zr,False,"Silver deposit.  The Navidad Project is located about 35 km from the town of Gastre, in the department of the same nam"
+STRONG,0.5,Navidad Hill,156893,Navidad (claim name),24342,Ag-S-Pb-Cu,False,A silver deposit being developed by Pan American Silver Corp.
+STRONG,0.5,Pirita Mine,194549,Pirita,26090,,True,
+STRONG,0.5,Yalguaraz Cu deposit,206317,Yalguaraz; Yalguaraz I y II,3213,As-Fe-S-Al-Mg-Si-Ti-O-K-F-H-Cu-Ca-C-Mo-Zn-Sb-B,True,Porphyry copper deposit.
+STRONG,0.5,La Salvadora deposit,214470,Leonor; La Salvadora,442,Cu-Fe-S-Pb-O-Al-Si-K-H-Ag-Zn-Sb,True,Group of polymetallic veins linked to a porphyry copper deposit that shows a crude temperature zonation away from the po
+STRONG,0.5,Capillitas vein,222470,"Capillitas (Restauradora, Ortiz, otras)",3118,Cu-Au-Ag,False,"One of the principal veins in the district. Frequently referred to as Capillitas Mine (Mina Capillitas).  The coordin"
+STRONG,0.5,Las Bateas area,229467,Las Bateas,25653,Al-Na-Si-O-Ca-Ce-Fe-H-Mg-Ti-K-F,True,Small pegmatitic segregations in orthogneisses.
+STRONG,0.5,Virorco pegmatites,251763,Virorco (claim name),3203,Al-Na-Si-O-Be-Mg-B-H-Li-Ca-P-F-Zn-Ta-Mn-Nb-K-Cs-Ti-Fe-Th-U-Zr,True,Small dikes.
+STRONG,0.5,La Chinchilla granite,269722,La Chinchilla,25912,Al-Na-Si-O-K-Ti-Fe-Mg-F-H-Bi-C-Be-Ca-Zr-Sn-V-Nb-Y-P-Pb-S-Ba-Mn-Li-Th-U-Ta,False,"Leuco-monzogranite. A pegmatite outcrop."
+STRONG,0.5,El Sauce Quarry,280493,El Sauce,11051,Si-Zn-O,False,
+STRONG,0.5,Zapla mining district,282507,9 de octubre (claim name); Zapla,2013,Ca-O-C-Al-Fe-Si-H-S,False,
+STRONG,0.5,Filo del Sol mine,442541,Filo del Sol,24538,Ag-S-Si-O-Al-K-H-Ca-Cu-Au-Ba-Fe-Mg-Ti-F-Te-Sn-As-Cl-Hg-Co-Sb-Mo-Bi-Na-Zr,False,"Composite porphyry-epithermal deposit. The deposit is part of the 8.5-km-long, N- to NE-trending Filo del Sol alignment"
+STRONG,0.5,La Mejicana Mine,443142,La Mejicana,11246,Al-O-K-S-H-Cu-C-Ba-Fe-Pb-Sb-Ca-Si-As-V-Au-Te-Zn-Ag-Sn,False,The Mina La Mejicana is a former copper mine where large quantities of pyrite were also extracted. The mine is located a
+STRONG,0.6,Los Manantiales mining district,23509,Mina Ángela; Los Manantiales,11362,Al-Si-O-K-Bi-Cu-Pb-S-As-Fe-C-H-Ca-Ag-Te-Mg-Au-Zn-B-F-Na,True,Epithermal mineralization related to upper Jurassic volcanism of the Taquetren Formation. Most important veins are the A
+STRONG,0.6,Barcosconte prospect,227883,Barcosconte,3002,Cu-O-C-H,True,Porphyry copper deposit.
+STRONG,0.6,Ajedrez mine,247565,Ajedrez,5171,Au,False,"Possibly a village named ""Mina Ajedrez"" near the Arrojo Ajedrez (Ajedrez stream) and the Río Ajedrez (Ajedrez River). "
+STRONG,0.6,Rio Grande Cu-Au prospect,308546,Río Grande,11297,Ca-Fe-Mg-Si-O-H-S-Cu-C-Al-Ti-K-F-Au-Cl-Na-Mo,False,
+STRONG,0.6,Taron Project,309854,Taron,24564,O-Si-Mn-Pb-Cu-S-K-Fe-H-Ba-Al-As-Ca-Na-C-Cs,True,"A Cs-Tl epithermal geyserite deposit.  During the Second World War, and later in the 1950s, small scale manganese minin"
+STRONG,0.6,Castor deposit,426783,"Castor, pólux",2066,,False,An epithermal manganese deposit.
+STRONG,0.6,Casposo Mine,458396,Casposo,11336,Al-Si-O-K-S-H-Ca-C-Au-Na-Ag,False,"An open pit mine. The deposit is typical epithermal low sulphidation with multi-stage, open space filling events result"
+STRONG,0.7,Capillitas mining district,42,"Capillitas (Restauradora, Ortiz, otras)",3118,Ag-S-As-Zn-O-H-Bi-Cu-Pb-Sb-Al-K-Si-Fe-Ge-C-Ba-Au-Te-Ca-Sr-V-P-F-Mn-W-Sn-Ni-Na-Cl-In-Ti-Tl-N,False,"This mining district holds the famous occurrence of the banded layers, concretions, and stalactites of ""Inca Rose"" rhodo"
+STRONG,0.7,Ortiz vein,54,"Capillitas (Restauradora, Ortiz, otras)",3118,Ag-S-Ge-Cu-O-C-H-Ba-Pb-Fe-Al-As-Si-Mn-Zn-Sb,False,One of the vein deposits in the district.
+STRONG,0.7,Ángela mine,9722,Mina Ángela; Los Manantiales,11362,Al-Si-O-K-Bi-Cu-Pb-S-As-Fe-Ca-C-Ag-Te-Mg-H-Au-Zn-B-F,False,"A gold property. Produced 600 kg of gold (1984). Disseminated ore with silicification alteration in Cretaceous granitoi"
+STRONG,0.7,San Jorge Cu deposit,206318,San Jorge,3215,As-Fe-S-Cu-O-C-H-Al-Mg-Si-Ti-K-F-Bi-Ca-Na-B-Pb-Au-Mo-Mn-Zn-Te-P,True,Porphyry copper deposit.
+STRONG,0.7,Cerrito Blanco mining district,229573,Cerrito Blanco,5084,Al-Be-Si-O-K-H-Fe-S-Ca-W-B,False,Tungsten.
+STRONG,0.7,Andacolla mine,229699,"Grupo El Salto(Andacolla,Portezuelo Blanco, otras)",5151,Si-O-Fe-Mn-W,False,Tungsten mine.
+STRONG,0.7,Cabalonga mine,247564,Cabalonga,24485,Au,False,"Possibly near Cerro Cavalonga mountain (see links below).  GPS coordinates are provisionally set to the mountain."
+STRONG,0.7,Farallón mine,247579,Farillón; Farallón,24802,Au,False,A former gold mine.
+STRONG,0.7,El Hoyo mine,248148,Distrito Cerro Cacho; Portezuelo del Hoyo,11104,Cu-Se-Ca-O-C-Ag-Fe,False,"Worked for silver, with eucairite having been the main ore mineral."
+STRONG,0.7,Canteras El Sauce,289141,El Sauce,11051,Si-Zn-O,False,"Canteras El Sauce is a town located in the Colón department, Córdoba province, Argentina."
+STRONG,0.7,Las Picazas mine,435233,Río Diamante; Las Picazas,445,,False,
+STRONG,0.8,La Esperanza Mine,19903,Esperanza (ex-Chacabuco),124,Ca-Fe-O-C-Cu-H-Ba-S-Al-Si-Mg-Pb-As-Ni-Co-U-Zn-Sb,True,"Introduction: Mineralized fault fissures. It is a hydrothermal deposit in veins. Ore mine ""La Esperanza"", located at 60 "
+STRONG,0.8,La Aspereza mining district,229572,La Aspereza,5083,Al-Fe-Mg-Si-Ti-O-K-F-H-Cu-S-Ca-W-B,True,"Tungsten mining district.  In the abstract of Montenegro's paper, there is a mistake in the translation into English ("
+STRONG,0.8,Puesto la Peña alkaline complex,229590,Puesto La Peña,3295,Al-Na-Si-O-Ca-Fe-Mg-Ti-K-F-H-C-Cu-S-P-Cl-Zr-Mn,False,"19 km x 5 km massif within the Precordillera. Petrology: clinopyroxenite cumulate, with mafic and pegmatitic gabbroic d"
+STRONG,0.8,Don Otto mine,240557,Don Otto,11354,O-K-H-U-V-Ca-S,True,"Uranium deposits at 2428 metres above sea level. The largest of them was ""Don Otto"", which featured a continuous minera"
+STRONG,0.8,Josemaría deposit,312180,Josemaría,3158,Al-Na-Si-O-K-S-H-Ca-Fe-Mg-Ti-F-Cu-B-As-Au-C-Mo-Mn-Zr,False,"Copper porphyry deposit. Sulfide mineral resource of 835 Mt at 0.35% Cu and 0.25 g/t Au, at a 0.3% Cu equiv cutoff, for"
+STRONG,0.8,Casa de Piedra pegmatite,436920,Casa de Piedra,25185,Al-Na-Si-O-Bi-S-C-Ca-P-F-K-Mo-H-W-Fe-B,False,
+STRONG,0.9,Mantos de Cobre Mine,145986,Mantos de Cobre,3284,Al-Cu-Si-O-H-W,False,Abandoned copper mine. Deep trenches.
+STRONG,0.9,San José mine,228197,Huevos Verdes; San José,550,,False,
+STRONG,0.9,La Mejicana mining area,237501,La Mejicana,11246,Ag-S-Al-O-K-H-Ca-Cu-Fe-Sb-Zn-C-Ba-Mg-Si-Ti-F-Pb-As-V-Au-Te-Sn-Mo-Sr-P-Bi-Cl,False,"Mined for silver.  Closed about 1930."
+STRONG,0.9,León,247733,Arcillas León,25333,Ca-O-C,False,León (Jujuy) is a rural municipality and village in Jujuy Province in Argentina.
+STRONG,0.9,San José-Huevos Verdes mining district,419699,Huevos Verdes; San José,550,Au-Ag,True,Low-sulfidation veins and stockwork with Ag and Au
+STRONG,0.9,Cerro Bayo prospect,427256,Diablillos; Cerro Bayo,3096,,False,
+STRONG,0.9,La Elsa pegmatite,436922,La Elsa,25188,Al-Na-Si-O-Bi-C-Ca-F-Fe-K-Ce-P-H-B,False,
+STRONG,0.9,Bajo Agua Tapada deposit,437419,Bajo de Agua Tapada,11218,,False,
+STRONG,1.0,Paramillos Sur deposit,206322,Paramillos Sur,3212,Al-Fe-Mg-Si-Ti-O-K-F-H-Cu-S-Pb-Au-C-Mo-Na-Ca-W-Zn,False,"Porphyry copper deposit.  mineral resource of 186 Mt of 0.58%–0.95% Cu and 0.07% Mo, is hosted by andesitic subvolcani"
+STRONG,1.0,Barda González prospect,229581,"Barda Gonzalez, Astra, Tobiano, Raco, Challaco",11176,Cl-Cu-O-H-C-S-Ca-Fe-Al-Si-K-P-V,True,Sedimentary copper deposit.
+STRONG,1.0,Descubridora Mine,229934,La Descubridora,5189,Sn-O-Si,True,A tin and wolfram mine.
+STRONG,1.0,Paula Cecilia Mine,427396,Paula Cecilia,3344,Al-Fe-Mg-Si-Ti-O-K-F-H-Cu-S-Pb-Au-Zn,False,Located 20 km south east of the Ramos Mexía.
+STRONG,1.0,Bajo San Lucas deposit,437418,Bajo de San Lucas,11217,,False,
+STRONG,1.1,Loma Blanca deposit,47619,"San José, Hermana Blanca, Ojo de Agua",5019,Ca-Fe-Mg-Si-O-H-Al-Be-C-Cu-S-F-Au-K-W-Zn-P,False,
+STRONG,1.1,Pascua Lama project,156889,Lama - Pascua,11305,,False,"Gold-silver-copper deposit owned (as of 2007) by Barrick Gold Corp.  Mineralization hosted in late Paleozoic and mid-T"
+STRONG,1.1,Pingüino deposit,228196,Pingüino,5241,Ag-S-As-Fe-Bi-Sb-Cu-Zn-Pb-Ca-O-C-Sn-Al-Si-H-Au-Cd-Mn-W-K-Na-Mg-B-F,False,"In-bearing polymetallic vein deposit in the Deseado Massif, Santa Cruz province. Discovered in 1994.  More than 60 km"
+STRONG,1.1,Don Sixto Project,240563,Don Sixto; La Cabeza ; Pantanito,24344,Ag-S-Al-Si-O-K-As-Fe-Ba-Cu-Pb-Sb-N-H-Ca-C-Te-Au-P-Na-Se-Zn,False,Low-sulfidation epithermal gold deposit.
+STRONG,1.1,La Bismutina Mine,242037,Distrito La Bismutina,11085,Bi-S-O-C-Sr-Cu-Fe-W-H-K-Mo-Si-Ca,True,"La Bismutina Mine. Elevation: 1,014 m. above sea level.  Introduction: In the Eastern Sierras Pampeanas, the Famatini"
+STRONG,1.1,San Pedro Mine,247574,San Pedro,66,Au,False,A silvber lead and zinc mine.
+STRONG,1.1,San Luis II pegmatite,258221,San Luis,4022,Al-Na-Si-O-Be-Fe-H-Li-Mn-P-Ta-K-S-Nb,True,The main outcrop of the San Luis II pegmatite is visible in the core of a fold of SLI located in the main quarry. The ex
+STRONG,1.1,Altar East,312171,Altar,24341,Al-O-K-S-H-Ba-Si,False,
+STRONG,1.1,Tamain quarries,359224,Tamain,25733,Al-Fe-Si-O-Mg-Ti-K-F-H-B-Ca-P-Mn-S-Zr-Na,True,3 quarries. Major rock is an orbicular cordieritite.
+STRONG,1.1,La Colorada Mine,427303,"Paso Grande,Compañía,La Toma,La Colorada,Santa Cru",242,As-Zn-O-H-Fe-S-Si,True,
+STRONG,1.1,Alto De La Blenda,461132,Farallón Negro-Alto de la Blenda,11243,Ag-S-Ca-O-C-Pb-Cu-Fe-Mn-K-H-Au-Zn-Sb-Si-As,False,"Deposit: Length of veins ranges from 0.55 to 1.2 km, width from 0.5 to 6.0 m. There are 4 main mineralized structures. R"
+STRONG,1.2,Dr. Baulies-Los Reyunos mining district,240458,Sierra Pintada- Los Reyunos; Sierra Pintada- Dr. Baulíes,11129,As-Fe-S-Ca-O-P-H-U-Cu-Ti-Si-C-Na-F,True,"Dr. Baulies and Los Reyunos mining district is an area with Uranium Deposits. Elevation: 1030 metres above sea level. "
+STRONG,1.2,Oratorio mine,247582,Oratorio,25360,Au,False,GPS coordinates are for the village of Oratorio.
+STRONG,1.2,La Perlita Mine,311190,Navarro; La Perlita,24595,Mn-O-W-Fe-S-Si,True,
+STRONG,1.2,Cerro Negro quarry,359223,Cerro Negro,25734,Al-Fe-Mg-Si-Ti-O-K-F-H-B-Zr-Na-Ca-P,True,Major rock is an orbicular cordieritite.
+STRONG,1.2,Cerro Bayo Este prospect,427255,Diablillos; Cerro Bayo,3096,,False,
+STRONG,1.2,La Ramada mine,461405,Los Llantenes; La Ramada,11103,,False,
+STRONG,1.3,La Viquita pegmatite,5466,La Estanzuela-La Viquita,11079,Al-Si-O-K-Na-Fe-Mn-P-Li-F-H-Be-Sn-Ca-B-Ta-Sr-Ti-Nb,False,"300m away from the San Elías pegmatite. A rare-element, complex, spodumene-subtype pegmatite."
+STRONG,1.3,Peregrina mine,23408,Distrito Cerro Negro; Mina La Peregrina,11019,Ag-S-Pb-Te-Ca-Fe-O-C-Ge-Ba-Al-Mg-Si-Ti-K-F-H-Cu-Sb-Au-As-Ni-Mn-Co-Zn,False,"Ag-Te-rich polymetallic veins related to a Pliocene rhyodacitic complex of the Mogote Formation, which intruded Ordovici"
+STRONG,1.3,San Elías mine,125626,San Elías,25551,Al-Si-O-K-Na-P-H-Bi-Ca-C-Be-Li-Fe-Ta-Sn-F-Sr-B-Ti,False,"300 m west of the La Viquita pegmatite.  Note on the mineral list:  Gay & Hillar (1972) claim the occurrence of herd"
+STRONG,1.4,Carrizal Cu deposit,205930,Carrizal,3317,As-Ni-O-H-Fe-S-Al-Mg-Si-Ti-K-F-Bi-Cu-Ca-C-Au-Mo-U-Zn,False,"Porphyry copper deposit.  It comprises a zone of hydrothermal alteration affecting Carboniferous sedimentary rocks and"
+STRONG,1.4,Vil Achay mine,229702,Vil Achay,5142,Al-Na-Si-O-Cu-C-H-Sn-Fe-S-Ca-F-K-Se-Li,True,Tin mine.
+STRONG,1.4,Cerro Mina Bélgica,279214,La Bélgica; Veta la Bélgica,4,,False,
+STRONG,1.4,Santa Alicia deposit,434834,Santa Alicia,24817,,True,A gold deposit.
+STRONG,1.4,Sal de Vida Project,438856,Sal de Vida,24502,,False,The Project is located 650 kilometres (km) from the city of Catamarca via Antofagasta de la Sierra and 390 km from the c
+STRONG,1.5,Bajo El Durazno Cu deposit,205927,Bajo El Durazno,11216,Al-Fe-Mg-Si-Ti-O-K-F-H-Cu-S-Ca-C-Pb-Au-Mo-Na-Zn-As-Sb,False,Porphyry copper deposit.
+STRONG,1.5,Chinchillas South,427424,Chinchillas,19,,False,Silver lead mine.
+STRONG,1.5,Ángel pegmatite,433327,"Angel, Juan Ramon",24981,Al-Na-Si-O-Li-P-F-Bi-Ca-H-Mn-Ta-K-Zr-Fe-Nb,True,
+STRONG,1.5,La Borita,450605,La Borita (Betito-Fénix),3123,Pb-O-S-Ca-C-Cl-Cu-H-Al-Si-As-Na-Fe,False,"An informal geological resource for La Borita, based on systematic trenching and pitting plus four, shallow (25–35 m) di"
+STRONG,1.6,Paramillos de Uspallata,20460,Paramillos de Uspallata,448,Ag-S-Ca-Fe-Mg-Si-O-H-Al-Na-Pb-As-Cu-C-Ba-Ti-K-F-Sb-Cl-W-Au-Zn-I-Mo-P,False,"Paramillos de Uspallata is a region of the Las Heras Department, Mendoza Province, in the center-west of the Argentine R"
+STRONG,1.6,Alcaparrosa Mine,205922,Alcaparrosa,3205,Al-Fe-Mg-Si-Ti-O-K-F-H-Cu-S,True,Porphyry copper deposit.
+STRONG,1.6,Cerro Mercedario deposit,205931,Cerro Mercedario,3208,Al-Fe-Mg-Si-Ti-O-K-F-H-Cu-S,False,"Porphyry copper deposit, northeast of the summit of Cerro Mercedario, the highest peak of the Cordillera de la Ramada ra"
+STRONG,1.6,Taca-Taca Bajo Cu deposit,206315,Taca Taca Bajo,3060,Al-O-K-S-H-Cl-Cu-Fe-Mg-Si-Ti-F-Pb-Au-Zn-Zr-Na,False,"Porphyry copper deposit.  In the Taca Taca Bajo area, the oldest units comprise Paleozoic (possibly Lower Ordovician) "
+STRONG,1.6,Fischer,230014,Fischer,5119,,False,
+STRONG,1.6,Chocoite kaolin deposit,247607,Chocoite,3000,Al-Si-O-H,False,"Kaolin deposit, located 12 km SW of Pumahuasi train station."
+STRONG,1.6,Candelaria District,258994,Distrito Candelaria ; Puigari- Monserrat,11356,Si-O-As-Fe-S-Mn-P-H-Be-Al-Ca-F-Cu-Na-Nb-Pb-Au-U-K-Zn-Ta,True,Pedanía Candelaria.
+STRONG,1.6,La Florida,277514,La Florida,11064,Al-Na-Si-O-Mn-P-H-Fe-Mg-Ti-K-F-Be-Ca-C-Li-Ta-Nb-S-B-Zr,False,La Florida (San Luis) is a village and municipality in San Luis Province in central Argentina.
+STRONG,1.6,Potrerillos,436209,Potrerillos Sur,25190,Al-Na-Si-O-Ca-Ce-Fe-H-Mg-Ti-K-F-Bi-S-C-Be-V-P-Mo-Nb-W-B,False,
+STRONG,1.6,Las Calandrias deposit,454702,Las Calandrias,3401,Si-O-Au,False,"Breccia, stockwork + quartz veins low sulfidation"
+STRONG,1.7,El Peñón deposit,10211,El Peñón,5234,Al-Na-Si-O-Li-P-F-Ca-Fe-K-H-Bi-S-Be-Mn-Ta-B-U-Mg-Zr-Nb,True,"This pegmatite main minerals are quartz, plagioclase, microcline, to which is added Spodumene, Muscovite, Biotite, Beryl"
+STRONG,1.7,Pastos Grandes Project,19459,Salar de Pastos Grandes,24573,Ca-B-O-H-Mg,False,Six small Neogene boron deposits are worked in the Salar de Pastos Grandes.
+STRONG,1.7,Cerro Redondo prospect,23360,Cerro Redondo,72,Al-Si-O-K-As-Fe-S-Bi-Cu-Pb-Sb-Au-Ag-Zn-B,True,Polymetallic hydrothermal veins associated with a mid-Miocene volcanic dome.
+STRONG,1.7,San Isidro mining district,240444,San Isidro,24625,Ca-O-C-S-H-U-Si-Na-F-V,False,"20 km to the West of the city of Mendoza, in the foothills of the mountains are some uraniferous deposits, of which the "
+STRONG,1.7,Quebrada de Huichaira,247773,Yeso Huichaira; María Amanda; Marta,25106,Ca-O-S-H,False,Gypsum deposit.
+STRONG,1.7,Altar deposit,264290,Altar,24341,Al-O-K-S-H-Ca-Ba-Fe-Mg-Si-Ti-F-Cu-C-As-Pb-Au-Mo-P-Zn-Bi-Te-B-Na,False,"The Altar deposit was discovered in the mid-1990s.  Altar is a Middle-Late Miocene porphyry Cu-(Au-Mo-Ag) deposit, loc"
+STRONG,1.8,Los Adobes,240342,Los Adobes,11189,Ca-O-P-H-U-K-Na-C-F-S-Si,True,"Uranium Deposit. Elevation:  657 metres above sea level.  History: In a large area of the Centre of Chubut, covering "
+STRONG,1.8,Martinetas,419703,Martinetas (Don Nicolás),11368,Au-Ag,True,Au–Ag mineralization is hosted by low-sulfidation quartz-breccia veins.
+STRONG,1.8,Chiricoya deposit,434830,Chiricoya,24801,,True,A gold deposit.
+STRONG,1.8,Sur del Rio Quarry,438534,Valle Inferior Río Chubut-Quinto Sur del Río,11345,,False,A kaolin deposit.
+STRONG,1.9,Manantial Espejo mine,23556,Manantial Espejo,11179,Ag-S-Al-Si-O-K-As-Fe-Ba-Ca-C-Cu-Au-Sb-Pb-Zn,True,"Au-Ag ores related to mid-Jurassic volcanism.  Owned (as of 2007) by Pan-American Silver Corp.  In late 2001 the pro"
+STRONG,1.9,Dumesnil,46325,Dumesnil,25659,Cu-S-Ba-O-H-Ca-C-Mg-Si-Al-As-K-P,False,"Dumesnil is an Argentine town located in the Colón department, Córdoba province, 16 km northwest of the provincial capit"
+STRONG,1.9,El Oculto Cu deposit,206311,El Oculto (Prospecto),15,Cu-Fe-S-Mo-Al-O-P-H,True,Porphyry copper deposit.
+STRONG,1.9,Paramillos Norte deposit,206321,Paramillos Norte,3211,Al-Fe-Mg-Si-Ti-O-K-F-H-Cu-S-Ca-C-Mo,False,"Porphyry copper deposit.  Although there is no information on this prospect mineral resources, drill geochemical explo"
+STRONG,1.9,Unquillo,284850,Unquillo,11130,Cu-Si-O-H,False,"Unquillo is a city in Greater Córdoba, in the Colón department, Córdoba province, Argentina.  It is located on the eas"
+STRONG,1.9,Quebrada de la Mina,312173,Altar (Quebrada de la Mina),24533,O-Al-Fe-Mg-Si-Ti-K-F-H-Ca-C-Au-S-B-Na,True,Located approximately 2 km west of the Altar Central deposit.
+STRONG,1.9,Sierras Bayas,418332,Sierras Bayas,11321,,False,
+STRONG,2.0,La Leona mine,14000,Bajo de La Leona,3397,Cu-O-C-H-Pb-S-Fe-Au-As-Sb-Mo-Si-Zn-Bi,True,Hydrothermal copper veins.
+STRONG,2.0,Pabellón mine,191121,Pabellón,24806,Au-Si-O-Sb-S,False,"Gold and antimony mine located close to the border with Bolivia. Antimony veins grade into auriferous quartz veins with"
+STRONG,2.0,Cerro Moro deposit,359901,Cerro Moro,559,Ag-S-Al-Si-O-K-Ge-Cu-Fe-Ca-F-Pb-Au-H-As-Sb-Zn,True,"Low sulfidation Au–Ag epithermal deposit.  Discovered in 1993 by Mincorp Explorationes S.A. In March 2008, Exeter and "
+STRONG,2.1,Las Tapias,193159,Las Tapias,4000,Bi-O-C-Ag-Br-Al-Be-Si-V-Cu-Pb-H-Fe-Na-B-Li,False,"Las Tapias is a town located in the San Javier department, Córdoba province, Argentina.  It is located in the Traslasi"
+STRONG,2.1,Filo Colorado Cu-Mo deposit,205929,Filo Colorado,3122,Al-Fe-Mg-Si-Ti-O-K-F-H-Cu-S-Ca-C-Mo-B,False,Porphyry copper-molybdenum deposit.
+STRONG,2.1,Don Tomás Mine,427404,"Green Peak (Don Tomás, Don Mario, La India, etc)",3343,Cu-Fe-S-Pb-Zn,False,Located approximately 35km southeast of Valcheta.
+STRONG,2.2,Vegas Peladas deposit,229466,Vegas Peladas (occurrence name),2159,Ca-Fe-Mg-Si-O-H-Al-Na-C-S-K-Ti,True,Iron rich skarn.
+STRONG,2.2,Laguna Vilama,288998,Laguna de Vilama,24577,,False,"Laguna Vilama is a salt lake in northwestern Argentina, within the Vilama caldera. It is shallow and covers a surface ar"
+STRONG,2.3,Tres Tetas pegmatite,249148,Tres Tetas,25816,Al-Na-Si-O-Li-P-F-Fe-Mg-Ti-K-H-Bi-S-Be-B-Mn-Ta-Mo-Cs-Zn-U-Zr-Nb-Ca,True,A pegmatite deposit.
+STRONG,2.3,Paramillos Centro prospect,466298,Paramillos de Uspallata,11252,O-Al-Fe-Mg-Si-Ti-K-F-H-Ca-S-Cu,False,"This prospect, with no available mineral resource data, is hosted by a small andesitic subvolcanic outcrop affected by s"
+STRONG,2.4,Quebrada del Bronce Cu-Au deposit,206319,Quebrada del Bronce,11204,Ca-Fe-Mg-Si-O-H-Cu-C-Al-Ti-K-F-S,True,Porphyry copper-gold deposit.
+STRONG,2.4,Overo volcano,241462,Cerro Overo,11270,S,True,"Potentially economic sulphur deposit. Elevation: 4,619 m. above sea level. GPS coordinates are approximate."
+STRONG,2.4,Cerro Zapla,241779,9 de octubre (claim name); Zapla,2013,Ca-O-C-Al-Fe-Si-H-S,True,"Elevation: 2,109 m. above sea level. Iron deposits."
+STRONG,2.4,Laguna Sirven Deposit,257318,Laguna Sirven,25913,O-K-H-U-V-Ca-Si,True,"Elevation: 295 m. asl. Uranium Deposit. Located at the south of Las Heras town."
+STRONG,2.4,Altar North,312172,Altar (Quebrada de la Mina),24533,Al-Fe-Mg-Si-Ti-O-K-F-H-Cu-S-Zn-As-B-Ca-Na-P,True,
+STRONG,2.5,San José project,156891,Huevos Verdes; San José,550,Ag-S-Al-Si-O-K-Ca-Fe-C-As-Cu-Au-Pb-H-Sb-Mn-Zn,True,"High-grade gold-silver deposit (11 g/t Au, 645 g/t Ag) in epithermal quartz veins in northwestern Santa Cruz province. O"
+STRONG,2.5,El Timbó deposit,240703,El Timbó,11022,Mn-O-K-Ca-S-H-Cl-Na,True,"Elevation: 547 metres above sea level.  Manganese: The presence of concretions of manganese in the valleys of the riv"
+STRONG,2.5,Los Congos Mine,240895,Los Congos,24860,Cr-Fe-O-Ti-Al-Mg-Si-H,False,"Elevation: 1030 m. above sea level.  ""El Cromo"" and ""Los Congos"" mines: in bands of ultramafic and mafic serpentinized"
+STRONG,2.5,Carmen deposit,434831,Mina Carmen,24816,,True,A gold deposit.
+STRONG,2.6,Arroyo Piedra Blanca,157749,Blanca Rosa,24984,Al-Be-Si-O-Fe-Na-B-H,False,
+STRONG,2.6,Cerro Liquinaste,159532,Liquinaste veta 6,26127,O-H-W,True,"GPS coordinates are provided by the 2nd link below: Lat -23.4, Long -66.  However, they may be incorrect."
+STRONG,2.6,Cerro Negro mining district,229521,Distrito Cerro Negro; Mina La Peregrina,11019,Ag-S-Al-Si-O-K-Pb-Te-Ca-Fe-C-Ge-Ba-Mg-Ti-F-H-Cu-Sb-Au-Cd-As-Ni-Mn-Co-Zn,False,30 km W of Chilecito.
+STRONG,2.6,Cerro Bola,229928,Cerro Bola,25311,Si-O-Al-K-H,True,"Cerro Bola is a mountain in Argentina. It is located in the province of La Rioja, in the northwestern part of the countr"
+STRONG,2.6,Archibarca,257388,"Salar de Archibarca (Laguna Verde I, II y III)",25569,O-Si,True,"Elevation: 4,061 m. asl.  In the vicinity of Laguna Archibarca, right on the border between the provinces of Catamarca"
+STRONG,2.6,La Carmelita mine,434817,La Carmelita,3274,Al-Na-Si-O-Cu-Fe-S-H-Zr-Ca-P,True,
+STRONG,2.6,Salar de Pocitos,435292,Salar de Pocitos (occurrence name),2059,,False,A saline lake.
+STRONG,2.7,Taca-Taca Alto Cu deposit,206314,Taca Taca Alto,3061,Al-O-K-S-H-Fe-Mg-Si-Ti-F-Cu-Ca-Pb-Mo-Zn-B-Cl,True,Porphyry copper deposit.
+STRONG,2.7,Cerro Barrios,285117,Barrios,52,,False,
+STRONG,2.7,Virginia Project,419581,Virginia,24828,Ag-S-Si-O-Ca-C-Pb-Fe-As-Cu-Sb,True,"Epithermal vein system with Ag mineralization. 7 deposits: Julia North, Julia Central, Julia South, Naty, Ely North, El"
+STRONG,2.8,Wanda mines,43487,Wanda (occurrence name),2218,Si-O-Ca-C-Fe-Mg-K-H,True,"Wanda Mines, elevation 211 m. asl, located at the northwest of Province of Misiones in the Iguazú Department, a few kilo"
+STRONG,2.8,Bajo de Agua Tapada Cu deposit,205923,Bajo de Agua Tapada,11218,Ba-O-S-Al-Fe-Mg-Si-Ti-K-F-H-Ca-C-Cu-Pb-Zn,False,Porphyry copper deposit.
+STRONG,2.8,Quebrada Alcaparrosa,278358,Alcaparrosa,3205,Al-Fe-O-S-H-Ca-C-As-Cl-Cu-Mg-Si-Ti-K-F-Zn,False,"Quebrada Alcaparrosa is a periodic watercourse in Argentina. It is located in the province of San Juan, in the northwest"
+STRONG,2.8,Diablillos Project,427233,Diablillos; Cerro Bayo,3096,,False,A Silver project operated by Abra Silver Resource Group.
+STRONG,2.9,La Estela mine,61344,La Estela,11102,Ca-O-P-H-U-F-Si,True,"A uranium mine.  Two References by Raúl Jorge Tauber Larry:  1- Sierra de Comechingones District: Within the granit"
+STRONG,3.0,Esperanza prospect,22980,La Esperanza; Esperanza,40,Mn-S-Al-Na-Si-O-As-Fe-Ba-Cu-Ca-H-Mg-F-Pb-K-Ag-Sb-Zn-B-P,True,SEDEX mineralization related to igneous intrusion into Ordovician sediments. Located 7 km from the Aguilar mine. There i
+STRONG,3.0,Bajo La Chilca deposit,229840,Bajo de las Pampitas,3120,,False,
+good,3.0,Oriental prospect,194548,Oriental; La Oriental,24788,Pb-S-Fe,True,
+good,3.0,Alto del Carmen mine,247572,Mina Carmen,24816,Au,False,
+good,3.0,Orosmayo River,257611,Orosmayo,5162,Ba-O-S-Al-Au-Fe-Ti-Ce-P-La-Mg-Si-K-H-Na-Y-Zr-Ca,False,"Elevation: 3,892 m. asl. Alluvial gold, heavy minerals and rare earths."
+good,3.1,Bajo de San Lucas Cu deposit,205926,Bajo de San Lucas,11217,Al-Fe-Mg-Si-Ti-O-K-F-H-Cu-S-Ca-C-Mo,False,Porphyry copper deposit.
+good,3.1,Timón Cruz,247912,Timón Cruz,24822,Au-Fe-S-Sb,False,
+good,3.2,Armonía Mine,19338,Armonía,11236,Ag-S-Pb-Sb-Bi-Ba-O-Cu-Sn-Fe-As-Zn,False,"An epithermal polimetalic Ag. Pb, Zn deposit."
+good,3.2,San Pedro Nolasco Mine,28629,San Pedro,25799,Pb-Ag-Zn,False,"Lead-Zinc-Silver mine. Inactive in 1967. From ""Mapa Minero de la provincia de Mendoza, 1966-1967""."
+good,3.2,La Carolina mine,43830,Distrito La Carolina/ La Estancia,11359,As-Fe-S-Cu-Pb-Au-Ag-Te-Al-Si-O-K-H-Sb-Zn,False,"An ancient mine, since about 1792, where gold was extracted to be sent to the Spanish kings. (For geological info, see u"
+good,3.2,Santa Ana deposit,426787,Santa Ana (claim name),2057,,False,An epithermal manganese deposit.
+good,3.3,La Niquelina Mine,240956,La Niquelina,3064,Ag-S-As-Ni-O-H-Bi-Cu-Fe-Pb-U-Si-C-Zn-Sb,True,"Site vetiforme, associated with Uraninite, Gersdorffite, Chalcopyrite, Sphalerite, Tetrahedrite, among others. Native b"
+good,3.3,Mutquín,244238,Mutquín-Apoyaco-Río Siján; San Alfredo; María Arsenita,25048,Al-Si-O-H,True,"Mutquín is a village and municipality in Catamarca Province in northwestern Argentina.  Kaolinite Deposits. Elevation:"
+good,3.3,Cerro Pumahuasi,279386,Veta Pumahuasi Nueva,25897,As-Fe-S-Ba-O-Pb-C-Cu-Sb-Si-Zn,False,The district is located in the north of Jujuy province and comprises a series of veins distributed in a 15-km strip runn
+good,3.4,Milagro Mine,434851,Milagro,3055,,False,
+good,3.4,Carachi Pampa Lithium Project,437406,Carachi Pampa; Proyecto Salar Escondido,24530,,False,A lithium mining project in the Carachi Pampa Basin.
+good,3.4,Arizaro Project,438864,Salar de Arizaro Litio,25576,,False,"A lithium mining project comprising 7 exploration and exploitation concessions covering some 23,283 hectares. Five of th"
+good,3.6,Cerro Mirano,241479,"Rosa,Uryco,Cerro Mirano,Huemul (G.Cerro Mirano)",3309,Cu-Fe-S,False,"Cerro Mirano is a mountain in Argentina. It is located in the province of Mendoza, in the central part of the country, 1"
+good,3.7,Puesto Viejo,241602,Puesto Viejo (claim name),2012,Ca-O-C-Al-Fe-Si-H,True,"Puesto Viejo is a town and municipality in Jujuy Province in Argentina.  Calcite and aragonite deposits in dolomitic l"
+good,3.7,Los Guindos,249112,"Mogotes de La Picaza,Nahuel,Grupo Los Guindos",5128,Ca-Fe-Mg-Si-O-H-Ag-Pb-Sb-S-Bi-Al-Be-C-Cu-Cr-F-K-W-Zn-Te,True,Skarn.
+good,3.8,Rangel mine,241008,Rangel,4014,Ba-O-S-Pb-Fe-P-Al-Si-K-Th-H,True,"Rangel mine: located in the Rangel hills about 80 kilometers north of San Antonio de Los Cobres, in Department La Poma, "
+good,3.9,Farallón Negro,11134,Farallón Negro-Alto de la Blenda,11243,Ag-S-Ca-O-C-Pb-Mn-Zn-H-Cu-Fe-K-Au-Al-Si-Sb-As,False,"A gold, silver and manganese mine. Produced 600 kg Au in 1984.  Hydrothermal (epithermal) veins related to Tertiary vol"
+good,3.9,Sierra de Cacheuta,19910,Cacheuta,25560,Fe-Se-Si-O-Ca-C-Cu-H-Ba-S-Co-Mg-K-Pb-Ag-Ti-Al-Na-P,True,"Note: Not to be confused with the Sierra de Cacho in La Rioja Province (https://www.mindat.org/loc-146779.html).  Sele"
+good,3.9,San Santiago mine,19920,San Santiago,11105,As-Ni-O-H-Ca-P-U-C-Cu-Fe-S-Si-Mg-Ce-Al-K-Na,True,"This mine formerly called ""Solitaria"" is in the Quebrada de Cumichango, located about 35 km north of Jagüe city and 280 "
+good,3.9,Morro Bola deposit,437415,Morro Bola (claim name),2125,,False,
+good,4.0,Cerro Vanguardia mine,23554,Cerro Vanguardia,587,Ag-S-Al-Si-O-K-As-Fe-Ba-Ca-C-Au-F-Cu-Sb-H-Te-Mn,True,"Epithermal Au-Ag deposit, related to mid-Jurassic volcanism.  More than 100 low-sulfidation Au–Ag epithermal veins, wit"
+good,4.0,San Antonio Mine,221953,"Grupo San Antonio,(San Antonio,Santa Delia,otras",5148,Al-Be-Si-O,True,"Tungsten mine.  Company: Compañía Argentina Min. Copacabana S. R. L. Record, register of mines of the province of Cat"
+good,4.0,Tapada Mine,247541,Tapada,41,,False,"A lead-silver mine. About 5km SE of this mine, there are the remains of Spanish colonial-era silver smelters with remnan"
+good,4.0,Salar de Rio Grande,272471,Salar de Río Grande,24570,Ca-Na-O-S-H,False,"Salt flat, lithium-rich."
+good,4.0,Tacanaite,284124,Tacanaite,25330,Au,False,
+good,4.1,Salar de Cauchari,19460,Salar de Cauchari; El Porvenir,11289,Na-B-O-H-Ca-S-Cl,False,"Extensive salt flat, 50 km long N-S, 2 < 10km wide E-W, at 3,600 metres elevation. Located in the northern part of the c"
+good,4.1,Cerro Salle prospect,23343,Cerro Salle,22,Al-Si-O-K-As-Fe-S-Sb-Sn-Au-H-Cu-Ti-Zn-Ag,True,"Sb-Ag-Sn mineralization in Miocene volcanic breccia.  Likely near Cerro Salle (Salle Mountain) in Cusi Cusi municipali"
+good,4.1,Tusaquillas,247831,Tusaquillas I y II Veta 4,5170,Ca-O-C-H-W-S,False,Tusaquillas is a rural municipality and village in Jujuy Province in Argentina.
+good,4.2,La Voluntad,192115,La Voluntad,3337,As-Fe-S-Al-Mg-Si-Ti-O-K-F-H-Cu-Ca-C-Mo-Zn-P,True,"Porphyry copper deposit.  Located 73 km SW of Zapala and part of the Sierra del Cachil (https://www.mindat.org/loc-279"
+good,4.3,Las Águilas deposit,23336,Las Aguilas Este y Oeste,11031,Al-Na-Si-O-Pb-Te-Ca-Mg-H-As-Fe-S-Cu-C-Be-Cr-Co-B-Li-Au-P-F-Zn-Ni-Rh-Ta-Ti-Ir-Mn-Nb-Pd-Bi-Mo-Pt-K-Cs-Th-U-Zr,False,"Ni-Cu-PGM deposit related to ultrabasic rocks.  The Las Aguilas West deposit is associated with a NNE trending 10 to 3"
+good,4.3,Rangel mining district,241007,Rangel,4014,Ba-O-S-Pb-Fe-P-Al-Si-K-C-Th-H,True,"History: Rangel hills: this area is about 70 kilometers north of San Antonio de Los Cobres, over the border West of the"
+good,4.3,Las Termas occurrence,242762,Las Termas,11099,Al-Fe-O-P-S-H-U-Ca-F-Zn-K-Cu-Pb-Si-Na-Mg-Li,True,"Elevation 1,990 m. above sea level.  Located on the western slope of the Sierra de Fiambalá, Los Ratones Area, manifes"
+good,4.4,Cerro Áspero,230016,San Virgilio; Distrito Cerro Áspero,11095,Ca-F-Mo-S,False,
+good,4.4,La Mendocina Mine,241818,Distriot Uspallata-Bonilla/ La Mendocina,11094,Ca-Fe-Mg-Si-O-H-Al-Na-C-S,True,"Elevation: 2,892 m. above sea level.  Talc Deposit, located 18 km SE of Uspallata City.  ""La Mendocina"" mine consist"
+good,4.4,Filon Moro,434925,Cerro Moro,559,,False,A vein deposit.
+good,4.5,Carolina,43833,Distrito La Carolina/ La Estancia,11359,Ag-S-Al-Si-O-K-Mn-Na-Pb-Te-As-Fe-Ge-Cu-C-H-Mg-Ti-F-Sb-Ca-Au-Cl-P-W-B-Zn-Bi-Zr,True,"Carolina (San Luis) is a village and municipality in San Luis Province in central Argentina.  A mountain miner parish "
+good,4.5,Río Santa Rosa,157709,Cantera Santa Rosa S.R.L.,24892,Si-O,False,
+good,4.5,Cerro Quico,239477,Cerro Quico,5231,Sn-O-Cu-Fe-S-Si-W-Mo-H-Ca-F-Mn-C,True,"Cerro Quico is a mountain in Argentina, with an elevation of 1793 metres (5883 ft) in the Andes.  Wolframite deposit a"
+good,4.5,Abra de Quirón,257615,Quirón (claim name),2070,,True,"Elevation: 4,084 m.asl.  Boulders of obsidian, located near the Salt Lake Pocitos or Quirón."
+good,4.6,Lake Guayatayoc,247828,Guayatayoc,24578,Na-B-O-H,False,"Laguna de Guayatayoc is a body of salty water in Argentina, located in the south of the Cochinoca Department, in the pro"
+good,4.8,Farallon Blanco Mine,240120,Farallón Blanco,11326,Al-Ca-O-C-H-Cu-Fe-S-Au-Mn-Si-Ag-Zn,True,"Veins of Calcite of hydrothermal origin appear on the eastern slope of the Sierra of the Ramada, upper area of the River"
+good,4.8,Baños de Talacasto,241468,Talacasto,11124,S,False,Hot springs sulphur deposit.
+good,4.9,La Josefina prospect,23555,La Josefina,579,Al-Si-O-K-As-Fe-S-Ba-Cu-Ca-C-Au-Ag-Sb-Pb-H-Zn,False,"Epithermal Au-Ag ores related to mid-Jurassic volcanism low sulfidation. It is bounded by the meridians 69 º15 'and 69º"
+good,4.9,Amaná,132443,"Distrito Amaná; Pirquitas; La Banderita; La Banderita I, II y III; Koka II; Koka IV",25087,Ca-F,False,"Amaná is a municipality and village in La Rioja Province in northwestern Argentina.  Fluorite locality. Elevation: 1,2"
+good,4.9,Manantiales deposit,458399,Manantiales,24540,,False,A silver and gold deposit.
+good,5.0,Julia mine,238845,"Distrito Andacollo; Sofía, Julia, Valencia, ; Buena Vista, Santa Elena, y otras",24830,Au-Fe-S-Si-O,True,"Host Rock Type: Slate, Shale, Siltstone, Sandstone.  Huaraco Formation; Andacollo Serie."
+good,5.0,Purísima Mine,245097,Purísima; La Purísima,25915,Ca-Fe-O-C-Ba-S-Cu-Mg-As-Sb-Pb-Ni-Au-U-Si-Ag-Zn,True,"Introduction: It is an area with medium density of copper by streaks and plumbiferous that make up a small district of "
+good,5.0,Fenix Mine,428691,Salar Hombre Muerto; Fénix,11290,Li,False,A lithium mine.
+good,5.1,Beatriz mine,22987,Beatriz,11156,As-Fe-S-Cu-Co-Pb-Au-O-Zn-Sb,False,Volcanogenic massive sulfide deposit.
+good,5.1,Escaya,284348,Cerro Escaya,25896,,False,
+good,5.1,El Chenque - Valeriana Quarry,438533,Chenque,25404,,False,A kaolin deposit.
+good,5.3,La Cecilia mine,43845,Grupo La Cecilia,11162,Ba-O-S-Sr,True,
+good,5.3,San Pedro vein,434892,"Los Bayos (Irlandesa,San Pedro,Victoria,otras)",3156,,False,SIlver workings.
+good,5.4,Campana Mahuida Cu deposit,155867,Campana Mahuida,11194,Al-Fe-Mg-Si-Ti-O-K-F-H-Cu-S-Ca-C-Mo-Na-Sb,True,"A porphyry copper deposit explored since 1968.  Located in the Cordillera Central of northwestern Neuquén.  The Campa"
+good,5.4,Arroyo Nuevo mine,470664,Arroyo Nuevo,507,Ba-O-S-Pb-Fe-Zn,False,SedExs
+good,5.6,Cerro de Cacheuta,48,Cacheuta,25560,Fe-Se-Si-O-Ca-C-Cu-H-Ba-S-Co-Pb-Mg-Ag-Al-Na-K-P,False,
+good,5.8,Cerro Culampajá,258428,Culampajá,11083,Au,True,District of Gold and Tungsten Mines.
+good,5.8,La Rosita mine,470667,Distrito Loncopué- La Rosita,11158,Sr,False,
+good,5.9,Pirquitas Mine,18945,Pirquitas,23,Ag-S-Al-O-K-H-Pb-Sb-Fe-As-Bi-Ge-Ba-Cu-Sn-Si-Cl-W-Au-Sr-P-Zn-Cd-In-Mn-C-Te,False,"Hydrothermal polymetallic vein system at the far southern end of the ""Bolivian tin belt"". Principal veins are the Chocay"
+good,6.0,Paso Grande,67663,Paso Grande I,25316,Al-Na-Si-O-Bi-Ca-C-Fe-Mg-Ti-K-F-H-Be-B-Zr-P,False,Paso Grande is a village and municipality in San Luis Province in central Argentina.
+good,6.2,Naunauco Hill,470721,Naunauco,3336,,False,
+good,6.3,Cerro Negro deposit,419698,Cerro Negro,602,Ag-S-Al-Si-O-K-Na-H-As-Fe-Cu-Ca-C-Au-Pb-Te-Sb-Zn-Mg-Ti-Zr-P,False,"low-sulfidation epithermal Au–Ag vein deposit with estimated reserves of 5.74 Moz Au and 49.36 Moz Ag  Consists of Mar"
+good,6.4,Alta Gracia,240835,Grupo Alta Gracia,25660,Al-Fe-Si-O-Ca-C-H-Mg-K-Na-Cl-P-F,False,"Alta Gracia is a city located in the north-centre of the province of Córdoba, Argentina. Its name means ""High Grace"". It"
+good,6.6,Santa Elena Mine,21392,Santa Elena,11123,Al-Fe-O-S-H-Ca-C-As-Cl-Cu-Mg-Zn-Si,False,"The Santa Elena mine (also associated with the ""La Alumbrera"") is a historic mining and geological site in the western P"
+good,6.8,Sierra de Comechingones,289007,Sierra de Comechingones- Bubú,11210,Ca-Fe-Mg-Si-O-Al-H-Ti-Mn,True,"See also https://www.mindat.org/loc-220663.html  Lenses of metamorphized banded iron ore, associated with a polymetamo"
+good,6.8,Taguas mine,453937,Taguas,24542,Au-Ag,False,High sulfidation epithermal
+good,6.9,Cerro Atajo,240157,Cerro Atajo,5240,Bi-Cu-Pb-S-O-As-Fe-Ba-Sn-V-Zn-C-H-Si-Sb,False,"The Cerro Atajo project (epithermal deposit) is located in the Andalgalá department, 10 km east of Bajo La Alumbrera and"
+good,7.0,Veladero Mine,156854,Veladero,339,Ag-S-Al-O-K-H-Ba-As-Fe-Pb-Bi-Cl-Br-Hg-Au-Ca-Ti-I-Na-Se-Pt-Si-Zr,False,"Active gold and silver mine in the Frontera district, 320 km NW of the city of San Juan, elevations ranging from 4,000 t"
+good,7.1,Antofalla,279287,Salar de Antofalla,24827,Ca-O-S-H-Cl-Na,False,Antofalla (Catamarca) is a village and municipality in Catamarca Province in northwestern Argentina.
+good,7.2,Cerro Morro mine,47395,Cerro El Morro Nº 1,5011,Al-Na-Si-O-Fe-Mg-Ti-K-F-H-Be-Ca-C-Cu-S-Au-Mo-W-Zn,True,"Cerro Moro is just a misspelling of Cerro Morro.  GPS coordinates are for the volcano, not for the mine itself."
+good,7.2,Veta Calzada,229592,"El Aragonés, Don Enrique, Piedra Calzada",5154,Fe-O-W-Ca-F-Al-Na-P-H-Si-K-Mn-Nb,False,Topaz-bearing greisen.
+good,7.2,Salar de Olaroz mine,310991,Olaroz,24372,Li-K,False,"Lithium- and potassium-bearing salt flat brines, located at 3,900 metres elevation. Reserves of 619 million tons Li ore "
+good,7.5,Tres Chorros,68823,Tres Chorros,3335,Cu-O-C-H-Al-Si-Mg-Fe-K-S-Zn,False,
+good,7.5,Achalay mine,470673,Achalay,11159,Al-Si-O-K-Ba-S-Pb-Zn-Cu-Sb-Sr,False,
+good,7.6,Pancho Arias Cu deposit,206313,Pancho Arias,24347,Al-Fe-Mg-Si-Ti-O-K-F-H-Cu-S,True,Porphyry copper deposit.
+good,7.7,Rumicruz Mine,23511,Rumicruz;,3010,Ag-S-As-Ni-O-H-Fe-Ba-Cu-Ca-C-Pb-Au-U-Si-Zn-Sb,True,"Hydrothermal veins.  Introduction: It is an area with medium density of copper by streaks and plumbiferous that make "
+good,7.9,La Helvecia mine,126646,La Helvecia,11117,Pb-O-S-Zn-C-H-Cu-Ba-Ca-Si-Fe-K,True,"A strata-bound Pb-Zn-Ag-baryte deposit located between San Juan and La Rioja.  History: Discovery year: 1898 Year of"
+good,7.9,Sierra de Comechingones,220663,Sierra de Comechingones- Bubú,11210,Al-Na-Si-O-Li-P-F-Bi-Ca-H-Mn-Ta-K-Zr-Fe-Nb-V,True,"See also https://www.mindat.org/loc-289007.html  The Sierras de Comechingones is an orographic subsystem of central-we"
+good,8.0,La Rica vein,419585,La Rica,301,Pb-O-S-Al-Fe-Mg-Si-Ti-K-F-H-C-Cu-Au-Zn-Zr,True,a low sulphidation epithermal deposit
+good,8.2,Vilismán,244154,Vilisman,4030,Al-Li-O-P-F-Be-Si-H-K-B-Mn-Ca,True,"Vilismán is a village and municipality in Catamarca Province in northwestern Argentina.  District located at the SE of"
+good,8.4,Salinas Grandes,50,Salinas Grandes; Navidad/ San José,24571,Ca-B-O-H-S-Cl-Na,True,"The Salinas Grandes are located in the north-west part of Argentina, in the provinces of Jujuy and Salta, at an average "
+good,8.6,Casposo Property,458393,Casposo,11336,Al-Si-O-K-S-H-Ca-C-Au-Na-Ag,False,"The Casposo property area comprises 25 mining claims covering an area of 48,611 hectares. The concessions are held by A"
+good,8.7,Al Fin Hallada gold occurrence,341148,Oro del Norte; Al Fin Hallada,24614,Au,False,
+good,8.8,Salar de Diablillos,19461,Diablillos; Cerro Bayo,3096,Ca-Na-B-O-H,False,"The Salar de Diablillos project is located in the Department of Los Andes, Province of Salta, a few kilometers north of "
+good,8.8,Laguna Carachi Pampa,437404,Carachi Pampa; Proyecto Salar Escondido,24530,,False,Saline lake
+good,8.8,Carachi Pampa Volcano,437405,Carachi Pampa; Proyecto Salar Escondido,24530,,False,Volcanic cone.
+good,8.9,El Porvenir,247618,Salar de Cauchari; El Porvenir,11289,Ca-Na-B-O-H,False,
+good,9.1,Rachaite,283738,Chocaya; Rachaite,21,Al-Si-O-H-Cu-Pb-Sb-S-Fe-Cd-K-Ag-Zn,True,
+good,9.8,Los Berthos mine,240560,Los Berthos,11353,O-K-H-U-V-Ca-P,True,"Uranium deposits at 2720 metres above sea level. The body of ""Los Berthos"" presented somewhat irregular mineralization "
+good,9.9,Bajo Pobre deposit,454705,Bajo Pobre,554,Au-Ag,False,
+good,10.1,Socompa Volcano,244370,Prospecto Socompa,3082,S,True,"Site of economically exploitable sulfur, located just in the border of Chile-Argentina, in the west of Salta Province. "
+good,10.4,Pocitos 11,426797,Salar Pocitos,11317,,False,A lithium project.
+good,10.6,Cóndorhuasi mine,426784,Condorhuasi (claim name),2063,,False,An epithermal manganese deposit.
+good,10.8,Jasimampa prospect,241643,Sierra de Sumampa-Jasimampa,24343,Fe-Na-Si-O-Al-Ba-S-Sr-Nb-Pb-Mg-H-P-Ce-Mn-Zn-C-Ca-Th-F,True,"Elevation: 469 m. above sea level.  Monazite-(Ce) and REE Fluorcarbonates(Nb); LREE(Nb)  The Jasimampa Prospect is l"
+good,11.0,Los Cipreses,281361,Los Cipreses; El Rosedal,535,Cu-Fe-S-Ag-Bi-Al-Ca-Si-O-H-Pb-Au-K,False,"Los Cipreses is a village in the municipality of Trevelin, Chubut Province in southern Argentina near the border with Ch"
+good,11.1,Salinas Grandes,247830,Salinas Grandes; Navidad/ San José,24571,Cl-Na,True,"The Salinas Grandes are located in the north-west part of Argentina, in the provinces of Jujuy and Salta, at an average "
+good,12.1,Vega de Arizaro,257614,Mina Arizaro,3092,,True,"Elevation: 3,849 m.asl.  Obsidian deposit west of the Salar de Arizaro.  The Obsidian of this site is known as the v"
+good,12.5,Mina La Casualidad,293741,La Casualidad; Julia,11314,,False,"Mina La Casualidad is a village and rural municipality in Salta Province in northwestern Argentina.  La Casualidad is "
+good,12.7,Cerro Granadas,257633,"Cerro Granadas, Caucani",5160,Al-Na-Si-O-Fe-Au-P-S-Nb-Mg-Mn-Zr,True,"Volcano. Elevation: 4,184 m. asl.  The presence of sapphires in alluvial deposits has been identified in the vicinity"
+good,13.3,Salar de Antofalla,55906,Antofalla Este - Veta Larga,179,Ca-O-S-H-Cl-Na,False,
+good,13.3,Las Asperezas mine,227779,Las Asperezas,3151,Cu-Se-Ca-O-C-Ag-Au-Pd-Te,False,A very small mine worked for silver (mainly the mineral eucairite) during the 1880s. By the time the workings had reache
+good,13.3,La Poma mine,332956,La Poma I,24494,Al-Si-O-K-Ba-S-Cu-Fe-Ca-C-F-Pb-H-Na-Mn-Zn-As-Sb-Ni-Ag,True,
+good,13.6,Paso del Sapo,257350,Paso del Sapo,24550,Ca-O-S-H,True,"Elevation: 481 m. asl. Gypsum Deposits located at the NE of Languiñeo Department near the border with Cushamen Departme"
+good,13.8,Juramento,284285,Juramento,3062,Cu-Fe-S-Ca-O-C-Pb-H-Si-Zn-Sb,False,
+good,14.0,El Llanito occurrence,250236,El Llanito,234,Zn-O-C-H-Ca-Si,True,"El Llanito occurrence, located in Coronel Felipe Varela Department, province of La Rioja, 5 km north of La Helvecia Mine"
+good,14.4,Pairique Chico deposit,247922,Pairique,5182,Au,False,"Pairique Chico is a village in Jujuy Province, Argentina, in the Susques Department."
+good,14.4,Joaquin deposit,454711,Joaquín,24529,Au-Ag,False,Hydrothermal breccias + stockworks  intermediate sulfidation
+good,14.4,Lejano Ag-Au prospect,475313,Lejano,572,Al-O-K-S-H-Ag-Cl-Pb-As-Fe-Zn-Au,False,"intermediate sulfidation The oxidized mineralization contains up to 3000 g/t  Ag, 5 g/t Au, and several percent Pb, whe"
+good,14.8,Juramento deposit,158908,Juramento,3062,Cu-Fe-S-Ca-O-C-Pb-H-Si-Zn-Sb,True,A sediment-hosted stratiform Cu-Ag deposit.
+good,14.9,Los Azules Cu deposit,205933,Los Azules,3196,Cu-Fe-S-Al-Si-O-K-H,True,Porphyry copper deposit.
+name-only,,Cacheuta Mine,41,Distrito Cacheuta,24639,Fe-Se-Si-O-Ca-C-Cu-H-Ba-S-Co-Pb-Mg-Ag-Cl-B-Al-Na-K-P,False,"In the 1860s, the selenium mineralization was discovered in calcitic veinlets in porphyry forming a fine-grained mixture"
+name-only,,La Plata,52,Lago La Plata III,3386,Pb-Zn-O-H-V,False,"4 possible localities:  - in Córdoba city center  - in La Falda, NW of Córdoba city  - in Villa María, SE of Córdo"
+name-only,,Veta Yareta Mine,56,Cerro Pululus; Veta Mojón; Veta Vilama; Veta Yareta (Loma Olguita-Espina),170,As-Fe-O-Sn-H-Si,False,"A tin mine, long abandoned, a few hundred meters south of the Bolivian border. Fumarolic deposition in fissures in acid "
+name-only,,Argentina,14398,Rosa Argentina,487,Si-O-Ag-Bi-Cu-Pb-S-Fe-Se-Nb-Ti-Ca-Mg-H-As-Zn-Al-K-Na-Cl-Mn-Ge-Te-B-Ce-Sb-Co-P-C-Li-F-U-Ni-Be-Au-Zr-Sr-Ba-Nd-Y-V-Ta-Hg-Br-N-Tl-Cd-Cs-Sn-W-Th-Pd-Cr-Mo-In-Os-Rh-I-Ir-Ru-La-Sm-Pt,False,"Argentina is a federation of twenty-three provinces and one autonomous city, Buenos Aires. Provinces are divided into de"
+name-only,,El Cóndor Mine,15944,"Mabel, Melliza, Cóndor Huasi",47,Cu-Se-O-H-Pb,False,
+name-only,,Los Cerrillos,17065,"Cerrillos, Luisa, Stael (occurrence name)",2004,Si-O-Zn-W-Ca,True,Prospect 7km SW of San Martín.
+name-only,,Esperanza deposit,19465,Unión; La Satánica; El Molle; Tucu-Tucu; Granada; María Cristina; Elisa; La Esperanza,25443,Ca-B-O-H-S-Mg-As-Mn-Na,True,
+name-only,,La Rioja Province,22405,La Rioja,5060,Ag-S-Al-Si-O-K-Se-Bi-Cu-Pb-Na-Ca-Ce-Fe-H-As-Co-Mn-P-Te-Ti-C-Ni-Sb-Zn-Ge-Cl-Mg-U-Ba-F-Tl-Be-Cd-Au-Zr-V-Sn-Sr-Pd-Cr-Hg-Nb-Y-Li-W-Mo-Ta-Th-B,False,La Rioja is a province of Argentina located in the west of the country. The landscape of the province consists of a seri
+name-only,,La Solitaria mine,23183,"Estrella Solitaria,Flor de la Pampa,Aída,otras",3189,As-Ni-O-U-Ca-H,True,
+name-only,,Rachaite prospect,23340,Chocaya; Rachaite,21,Al-Si-O-H-Cu-Pb-Sb-S-Fe-Cd-Ag-Zn,True,Pb-Zn-Ag mineralization in hydrothermal opal sinter veins in a Mio-pliocene volcanic complex.
+name-only,,El Quemado mining district,23361,El Quemado,24406,Ca-Fe-Mg-Si-O-H-Al-Na-Mn-P-Li-F-Cu-Sb-Zn-S-K-U-Ti-Bi-C-Be-Sn-B-Ta-Mo-As-Zr-Nb,True,"Located on the border of La Poma (north portion) and Cachi (south) departments.  History and mineralization: Complex "
+name-only,,Fátima prospect,23407,"Fátima I, II, III, VIII, XI, XII, XIII y XIV (claim name)",2114,Pb-Te-Bi-S-Au-Ag-Ni,False,Subvolcanic polymetallic veins related to Tertiary dacite-andesite eruptive rocks hosted in Paleozoic sediments. Mineral
+name-only,,Lago Nansen prospect,23513,Nansen,3408,As-Fe-S-Pb-O-C-Cu-Ag-Sb-Zn,False,"Silver mineralization filling fractures.  Note: borders used on Mindat are those of Lake Nansen, not those of the pros"
+name-only,,Organullo mining district,23695,Organullo,11135,Bi-Cu-Pb-S-Te-As-Fe-Ag-Sn-O-Sb-Au-Al-Si-K-H-Se-Zn-Ni-Mo,True,20 km south of the village of San Antonio de Los Cobres and 100km WNW from the city of Salta.
+name-only,,Gastre Department,24087,Gastre,24551,Ag-S-Al-Si-O-K-Bi-Cu-Pb-Na-Ca-Fe-C-As-P-H-U-Ba-Mg-Ti-F-V-Sr-Te-Au-Sb-Cl-Mn-Zn-B-Zr,False,"Gastre Department is a department of Chubut Province in Argentina.  The provincial subdivision has an area of 16,335 k"
+name-only,,Tanti,24554,Pegmatita de Tanti,4015,Al-Na-Si-O-Ti-Cu-S-H-Ca-P-U-C-Ba-Mn-Be-Bi-Ag-Br-K-V-Fe-Y-Mg-Nb-F-Zn-I-Mo-Pb-Ta-Te-Zr,False,"Tanti is a town in the province of Córdoba, Argentina, located on the west of the Punilla Valley, about 50 km from the p"
+name-only,,Milagro,29849,Señor del Milagro,3049,Al-Ca-Ce-Fe-Si-O-H-Mg-K-Zr,False,"Milagro is a municipality and village in La Rioja Province in northwestern Argentina.  Multi-cm size hematite pseudomo"
+name-only,,Las Palomas Quarry,34727,Las Palomas,25287,Al-Na-Si-O-Fe-Mg-Ti-K-F-H-Be-B,False,Group of large pegmatite quarries. At present extracting feldspar and quartz.
+name-only,,Los Cipreses deposit,39036,Los Cipreses; El Rosedal,535,Cu-Fe-S-Al-Ca-Si-O-H-Pb-Au-K,False,"Lodes, disseminated ore, sulphides and Bi-sulphosalts. Silicification, epidotization, sericitization in Jurassic and Cre"
+name-only,,Potrerillos quarry,44066,Potrerillos,3013,Ca-O-C-Sr-S,False,"Marble quarry where a beautiful green ""marble"" locally called ""onyx marble"" is extracted. Its colour is from yellowish g"
+name-only,,La Esperanza,44604,Unión; La Satánica; El Molle; Tucu-Tucu; Granada; María Cristina; Elisa; La Esperanza,25443,Ca-F,False,
+name-only,,Jagüel mine,45177,Jagüel Maza,24460,Ca-O-C,False,
+name-only,,El Rincón mine,45178,Rincón del Águila,25425,Ca-O-C,False,Scalenohedral translucent calcite crystals were found here.
+name-only,,Yucin,46926,Yucin,25212,Al-Si-O-H-K-Ca-W,False,"Country rock is mica-rich gneiss, with aplite and lenticular pegmatites intruded parallel to the gneiss banding. Feldspa"
+name-only,,Rodeo de los Molles mining district,47617,Rodeo,24823,Fe-Na-Si-O-Al-Ca-Ce-H-C-F-Nd-Y-Th-Ti-P,False,"A prospecting project for rare minerals like Britholite-(Ce), Bastnaesite-(Ce) and Allanite-(Ce)."
+name-only,,La Marquesa mine,48223,"Don Alberto,Puca Aypa,San Cayetano,María Marquesa",131,Ca-F-Si-O-H-U,False,An old mine that produced fluorite from 1929 to 1935. At the moment it is a tourist mine.
+name-only,,Papachacra Mountains,48590,Papachacra,130,,False,
+name-only,,La Valenciana Mine,54608,La Valenciana,571,Ca-Fe-Si-O,False,An iron mine closed about 1940. Ore is hosted in skarn.
+name-only,,Concordia Department,60088,Concordia,111,Si-O,False,"The Concordia Department (in Spanish, Departamento Concordia) is an administrative subdivision (departamento) of the pro"
+name-only,,Don Nicolas Mine,65893,Martinetas (Don Nicolás),11368,Si-O,False,Amethyst scepter quarry.
+name-only,,Blanquita quarry,68819,La Blanquita,7,Pb-Zn-O-H-V-Al-Si,False,"30 km southeast of Los Menucos.  Kaolinite with Descloizite in yellowish surficial films. The kaolinitic mineralizatio"
+name-only,,La Victoria mine,109555,Victoria,498,Ca-O-C,False,This mine is near Concarán.
+name-only,,Santiago del Estero Province,126734,Santiago,25505,Fe-Na-Si-O-Al-Ca-C-H-Ba-S-Sr-Cu-Cr-Mg-Nb-P-F-Pb-Ti-Ce-K-Mn-Zn-Ni-B-Th,True,"Santiago del Estero, also known simply as Santiago, is a province in the north of Argentina. Neighbouring provinces, clo"
+name-only,,La Victoria pegmatite,146776,Victoria,498,Fe-Mn-Na-O-P-Al-Li-F-Ca-H,False,Phosphate-bearing pegmatite.
+name-only,,Punilla Department,146941,Punilla,3089,Ca-Fe-Mg-Si-O-H-Al-K-Na-Ti-Ag-Pb-Sb-S-Cu-P-U-C-Ba-Mn-Be-F-Bi-Br-V-Cr-Y-Nb-Zn-I-Sn-Mo-W-B-Ta-Te-Zr,False,"The Punilla Department is an administrative division of the province of Córdoba, Argentina."
+name-only,,Uspallata District,156542,Paramillos de Uspallata,448,Ag-S-Ca-Fe-Mg-Si-O-H-Al-Na-Pb-As-C-Zn-Cu-Ba-Ti-K-F-Bi-Sb-Cl-W-B-Au-I-Mo-Mn-P-Te,False,"Uspallata is a village and administrative district in Argentina, in a scenic location on the road that crosses the Andes"
+name-only,,Domingo mine,156704,Santo Domingo,24799,Ca-B-O-H-S-Mg,False,
+name-only,,Frontera mining district,156888,La Frontera,11291,Ag-S-Al-O-K-H-Ba-As-Fe-Pb-Bi-Cl-Br-Hg-Au-Ca-Ti-I-Na-Se-Pt-Si-Zr,False,
+name-only,,Isla de los Leones,158783,La Isla,25336,Al-O-P-K-H,True,"Isla de los Leones or Isla Larga is an island located within the Deseado estuary, in the Deseado Department, in the prov"
+name-only,,Infiernillo deposit,158933,Infiernillo,3216,As-Fe-S-Cu-Au-Pb-O-Al-Si-K-H-Zn,True,A Cu-(Mo) porphyry deposit in the San Rafael Massif.
+name-only,,Santa Rosa mine,180790,"Tendida, Sorpresa, Santa Rosa",489,Ca-O-S-B-H-Mg-As-Na,True,"Open pit, working mainly colemanite hosted in Tertiary clay and sandstone."
+name-only,,Valcheta Department,193162,Valcheta,5224,Bi-Cu-Pb-S-Al-Na-Si-O-H-As-Fe-Ca-C-Ba-Mg-Ti-K-F-U-V-Ag-Te-In-Au-Mn-W-Sn-Zn-Sb-Zr-P,False,Valcheta is a department of the province of Río Negro.
+name-only,,El Aguilar,194546,Magnetita de Aguilar,26141,Ag-S-Ca-Fe-Mg-Si-O-H-Mn-Al-Na-C-Sb-As-Ba-Pb-Cu-Ni-Co-F-Au-Be-Sn-Zn-B-Mo-K-Ti-P-Zr-Cl,False,"El Aguilar is a company mining town and municipality in Jujuy Province in Argentina. At 3,980 metres (13,060 ft), it is "
+name-only,,Gonzalito mining district,204816,Mina Gonzalito,527,Pb-Zn-O-H-V-Ca-F-As-Cl-Si-Mo,False,
+name-only,,Vicentito mine,204817,Vicentito,515,Cl-Pb-O-V,False,
+name-only,,Caledonia Group mines,205365,Caledonia; Albión,11167,Bi-Cu-Pb-S-As-Fe-Ag-Sb-Cd-O-Zn,True,
+name-only,,Salar de Arizaro,206316,Salar de Arizaro Litio,25576,Al-O-K-S-H-Cl-Cu-Fe-Mg-Si-Ti-F-Ca-Pb-Au-Mo-Zn-B-Zr-Na,False,"Salar de Arizaro (""Arizaro"" comes from Atacameno haâri ""crow"", ""condor"" and ara, aro, ""accommodation"", ""place where some"
+name-only,,Negro de Las Mangas pegmatite,208994,Cerro Negro,602,Ca-Cl-O-P-F-H,True,Pegmatite with uranium minerals.
+name-only,,La Culpable mine,209003,La Culpable,25800,Al-Li-O-P-F-Be-Si-K-B-Ca,True,Main Mineralization: Beryl.
+name-only,,La Meta pegmatite,209009,La Meta,24952,Al-Be-Si-O-Li-Mn-Ta-Fe-Nb,True,Uranium minerals.
+name-only,,Condor Agate beds,221050,El Cóndor,11273,Si-O,False,"Originally uploaded as ""Condor Agate Beds, Province, Patagonia, Argentina.""  The Condor Agate beds are in Mendoza Prov"
+name-only,,Puma agate beds,221051,El Puma,25246,Si-O,False,"High elevation occurrence 1000-1500 meters.  Patagonia is an obsolete geographic term for the southern half of all of "
+name-only,,La Belen mine,221055,Temis-Belén,505,Si-O,False,
+name-only,,La Mejicana mining district,229520,La Mejicana,3149,Ag-S-Bi-Cu-Pb-Al-O-K-H-Ca-Fe-Sb-Zn-Ba-Mg-Si-Ti-F-Au-Te-As-V-C-Sn-Mo-Sr-P-Cl,False,Upulungus and San Pedro veins.
+name-only,,La Pilarica deposit,229523,La Pilarica (sector 2),592,Ag-Au-Te,True,
+name-only,,Adelita mine,229570,Adelita,25488,Al-Si-O-H,False,
+name-only,,Incahuasi valley,229584,Salar de Incahuasi,25574,Al-O-K-S-H-Ca-C-Na-Si-Fe-Cu,True,"Epithermal veins.  Map in Robl et al. indicates wrong coordinates - different from the correct coordinates in the text"
+name-only,,La Argentina mine,229697,Rosa Argentina,487,,True,Iron mine.
+name-only,,El Salto mine,229703,El Salto,3088,,True,Tungsten mine.
+name-only,,Virorco body,229712,Virorco (claim name),3203,,False,This gossan is located 4 km north northeast of the Las Águilas deposits and contains several gossans with anomalous nick
+name-only,,Carmen vein,229716,Carmen,506,,False,
+name-only,,Los Viscos deposit,229836,Los Viscos,172,,False,
+name-only,,Microondas-Martinetas deposit,230332,Microondas,596,,True,
+name-only,,El Dorado deposit,230333,El Dorado-Monserrat,584,,True,
+name-only,,Sol De Mayo mine,231210,"Sol de Mayo ( sectores 2,3,4,5)",605,Ca-Si-O-H-U,False,A small adit in the Cerro Blanco Pegmatite.
+name-only,,Las Flechas prospect,236876,Las Flechas,24546,,False,Cu-Au project operated by Desarrollo de Prospectos Mineros (Suramina Resources) in Argentina and Minera Frontera Del Oro
+name-only,,Cerro Pichao,239484,Quebrada El Pichao-Graciela,11332,Al-Na-Si-O-Fe-Mg-Ti-K-F-H-Be-Ca-C-Cu-S-Pb-U-B-Li,True,"Cerro Pichao, part of the crystalline environment of the Sierra of Quilmes, i.e. are metamorphic rocks, phyllite injecte"
+name-only,,La Cocha Department,239498,Grupo La Cocha,25158,Al-Fe-Mg-Si-Ti-O-K-F-H-Sn-Cu-S-W-Mo-Ca-Mn-C-Ta-Nb-Na,False,"La Cocha Department is a department in Tucumán Province, Argentina. It has an area of 917 km². The seat of the departmen"
+name-only,,Santa Victoria Department,239527,Victoria,498,Ag-S-As-Ni-O-H-Ba-Bi-Cu-Fe-Pb-P-U-Si-C-Zn-Sb-Th,False,Santa Victoria is a department of the province of Salta (Argentina).
+name-only,,El Alto Department,239568,Alto de Minas,3028,Si-O-Al-Li-P-F-Be-Ca-Fe-Ti-H-K-Mn-B,True,"El Alto is an eastern department of Catamarca Province in Argentina.  The provincial subdivision has an area of 2,327 "
+name-only,,Florentino Ameghino Department,239604,Florentino Ameghino (claim name),2207,Al-O-K-S-H-Si-Na,True,"Florentino Ameghino is a department of Chubut Province, it is located on the Atlantic coast of Argentina.  The provinc"
+name-only,,General Paz Department,239625,General Paz,474,,False,"General Paz Department is a department of Corrientes Province in Argentina.  The provincial subdivision has an area of"
+name-only,,Mercedes Department,239631,Mercedes,25464,,False,"Mercedes Department is a department of Corrientes Province in Argentina.  The provincial subdivision has an area of 9,"
+name-only,,Colón Department,239643,Colón,343,Al-Na-Si-O-Ca-Ce-Fe-H-Cu-S-Ba-Mg-Ti-K-F-Be-C-As-Zn-Cl-P,False,"Colón Department is a department of Córdoba Province in Argentina.  The provincial subdivision has an area of 2,588 sq"
+name-only,,Victoria Department,239679,Victoria,498,,False,"Victoria Department is one of the departments of Entre Ríos Province, Argentina. The capital is Victoria."
+name-only,,El Carmen Department,239691,Carmen,506,Ca-O-C-Al-Fe-Si-H,False,El Carmen is a department of Jujuy Province (Argentina).
+name-only,,Tunuyán Department,239755,Tunuyán,25556,,False,"Tunuyán Department is a department located on the eastern border of Mendoza Province in Argentina.  The provincial sub"
+name-only,,Tupungato Department,239756,Tupungato,25554,Ca-Fe-Mg-Si-O-H-Ag-S-Cu-C-Cr-As-Co-Au-Ti-Mo-Ni-Zn,False,"Tupungato is a department located in the province of Mendoza, Argentina. The cabecera (departmental capital), Tupungato,"
+name-only,,Huiliches Department,239780,Huiliches,25248,Al-Na-Si-O-H-Ca,False,"Huiliches is a department located in the south of Neuquén Province, Argentina.  The Department borders in the north wi"
+name-only,,Iglesia Department,239826,De La Iglesia,25589,Ag-S-Si-O-Al-Na-K-H-Ca-As-Ni-Cu-Fe-Au-Ba-Pb-Mg-Ti-F-Bi-Cl-Zn-Br-Te-Sn-Hg-C-B-Co-Sb-Mo-I-Sr-Se-Mn-U-Pt-Zr,False,"Iglesia is a department of the province of San Juan (Argentina). It is located in the northwest corner of this province,"
+name-only,,Bosques Petrificados de Jaramillo National Park,240373,Petrificados,24518,Si-O-Al-Na-H-Ca-C-Fe-Mg-K,False,"Petrified Forest Natural Monument/Park.  History: Almost in the geographical centre of the desert steppe of the Santa"
+name-only,,"""La Falda""",240691,"Justo Juez,Falda Ciénaga, Selva",119,Mn-O-K,True,"Nodules and concretions of Manganese on surface.  In the Mala Mala summits, at the place called ""La Falda"" in the east"
+name-only,,La Flecha,240970,Don Armando (Qda.de La Flecha),24462,O-K-H-U-V,False,
+name-only,,Bonanza Prospect,240975,Bonanza,20,O-K-H-U-V,False,
+name-only,,Estrella de Oriente mine,241009,La Estrella,593,Ba-O-S-Pb-Fe-P-Al-Si-K-Th-H,True,"Estrella de Oriente mine: located in the Sierra de Cobres, about 100 kilometers north of San Antonio de Los Cobres, in D"
+name-only,,La Aurelia mine,241012,La Aurelia,4016,Ba-O-S-Pb-Fe-P-Al-Si-K-Th-H,True,"La Aurelia mine: located one kilometer NW of the Estrella de Oriente mine in the La Poma Department, Salta province, Arg"
+name-only,,La Barba mine,241025,La Barba,24381,Ba-O-S-Pb-Fe-P-Al-Si-K-Th-H,True,"La Barba mine: adjacent to La Aurelia mine, in Department La Poma, province of Salta, Argentina. Consists of grain in gr"
+name-only,,El Volcán Mine,241271,Volcán,3018,Ba-O-S-Ca-C-P-Si-Fe-Th-H,True,"""El Volcán"" Thorium Deposit Department Tilcara, Jujuy Province, on the ""Quebrada Tocante"", 4 km above its mouth in the """
+name-only,,La Novedad mine,241272,La Novedad; Volcán,24793,Ba-O-S-Ca-C-P-Si-Fe-Th-H,True,"""La Novedad"" Thorium Deposit Department Tilcara, Jujuy Province, on the ""Quebrada Tocante"", 4 km above its mouth in the "
+name-only,,Mina Los Dos,241459,Los Dos Mosqueteros,25598,C-Si-O,False,Quartzite.
+name-only,,Los Petisos,241464,Los Petisos,11038,Ca-O-S-H,False,Biogenic sulphur deposit in the Huitrín gypsum formation.
+name-only,,Fiambalá,242761,Los Árboles; San Jorge; Santa Bárbara; Fiambalá; Santa Adela; El Cóndor; Buena Suerte,11041,Al-Ca-Si-O-Fe-Mg-Ni-Cu-S-Cr-P-H-U-F-Zn-Ti-K-Pb-Na-Li,False,"Fiambalá is a town and municipality in the department of Tinogasta, located in the west part of Catamarca Province, Arge"
+name-only,,Alejandrina mine,244155,Alejandrina,25225,Al-Be-Si-O-K-H-Li-P-F,True,Main mineralization: Spodumene.
+name-only,,El Paraíso mine,244157,El Paraiso (claim name),2109,Al-Si-O-K-H-Li-P-F,True,Main mineralization: Spodumene.
+name-only,,Cuernos Primera Mine,244210,La Primera,520,Al-Si-O,False,Main mineralization: Sillimanite.
+name-only,,La Peregrina Mine,244211,La Bienvenida (ex Peregrina),24896,Au,False,Main mineralization: Gold.
+name-only,,La Perseverancia Mine,244213,Perseverancia,5190,Au,False,Main mineralization: Gold.
+name-only,,La Providencia Mine,244214,La Providencia,13,Au,False,Main mineralization: Gold.
+name-only,,Centenario Mine,244216,Salar de Centenario,25573,Ca-Na-B-O-H,False,Main mineralization: Ulexite.
+name-only,,Delia Mine,244219,"Grupo San Antonio,(San Antonio,Santa Delia,otras",5148,Ca-Na-B-O-H,False,
+name-only,,Hortencia Mine,244223,Hortencia,3077,Ca-B-O-H-Na,False,"Main mineralization: Ulexite, colemanite."
+name-only,,La Casualidad mine,244265,La Casualidad (claim name),2179,Ca-F,True,Main mineralization: Fluorite.
+name-only,,Cerro El Portezuelo,244290,Portezuelo de Illanes,3163,,False,
+name-only,,Providencia Manifestation,244896,La Providencia,13,Ca-O-P-H-U-Pb-Cu-K-Si,True,"Uranium manifestation whose mineralization permeates clay and sandstone sediments.  The Soddyite, finely disseminated,"
+name-only,,Pulpera Mine,247536,Pulpera; Veta La Pulpera; Veta La Cuchara,5,,False,"Lead-zinc deposit, located 13 km SE of Pumahuasi, 33 km from La Quiaca."
+name-only,,Alejandro Mine,247537,Veta Alejandro,25903,,False,lead
+name-only,,Cerro Gigante Mine,247539,Sierra del Gigante/ La Calera,11367,,False,Lead mineralization.
+name-only,,Puesto Viejo Mine,247544,Puesto Viejo (claim name),2012,Al-Fe-Si-O-H,False,"Open pit iron mine, operated by Fabricaciones Militares. The ore was transported 60 km by rail to the Altos Hornos de Za"
+name-only,,Cerro Granadas,247554,"Cerro Granadas, Caucani",5160,,False,Roughly 10 km N or NE of Pirquitas: unworked tin and silver deposits. (Possibly near/identical to https://www.mindat.org
+name-only,,Rinconada,247562,San José de la Rinconada,24818,Al-Si-O-K-S-H-Pb-As-Fe-Ag-Ge-Cu-C-Bi-Sb-Ca-Sn-F-Au-Cd-Zn-B,False,Rinconada is a rural municipality and village in Jujuy Province in Argentina. It is located in the west of the province 
+name-only,,La Argentina mine,247573,Rosa Argentina,487,Au,False,
+name-only,,El Torno mine,247581,El Torno,24826,Au,False,
+name-only,,Eureka mine,247583,Eureka,24798,Au,False,
+name-only,,Maimará,247592,Calizas Maimará,26022,Cu-S-Fe-O,False,Maimará is a town and municipality in Jujuy Province in Argentina.
+name-only,,Potrerillos mine,247594,Potrerillos,3013,Cu-S,False,
+name-only,,Tusca mine,247598,Tusca; Saladillo,24775,Ba-O-S,False,Baryte mine.
+name-only,,Colorados mine,247599,Los Colorados; Purmamarca,25354,Ba-O-S,False,Baryte mine.
+name-only,,La Lucha Mine,247605,Yuraj; La Lucha; La Esperanza/ La Virginia/ Firj; Caballito Blanco/ La Merced,25018,Al-Si-O-H,False,"Kaolin deposit, located 18 km from La Quiaca. Production in 1948 was 5,000 tons, mostly sent to Córdoba for use in refra"
+name-only,,Bélgica Mine,247606,Veta Sur Bélgica,25901,,False,Lead mine. Started operations in 1924.
+name-only,,Pozo Mine,247615,Pozo Bravo,26091,,False,
+name-only,,Porvenir deposit,247619,El Porvenir; Cerro Granito,3319,Ca-Na-B-O-H,False,"Significant borate production (2,795 tons in 1949), sent out via Olacapatos railway station."
+name-only,,Rivadavia mine,247620,Arenera Rivadavia,25803,,False,"Borate deposit worked by the firm Basso-Tonnelier, with a 1949 production of 683 tons, sent out via Olacapato train stat"
+name-only,,Salinas Grandes,247623,Salinas Grandes; Navidad/ San José,24571,,False,"The Salinas Grandes are located in the north-west part of Argentina, in the provinces of Jujuy and Salta, at an average "
+name-only,,Bety mine,247624,Bety,292,S,False,Worked for sulphur. Ore contains a mean of 30% sulphur.
+name-only,,Mary mine,247625,Mary (claim name),2131,S,False,Worked for sulphur. Ore contains a mean of 30% sulphur.
+name-only,,La Quinta hot springs,247761,La Quinta,25288,,False,Located between El Palmar hot springs (https://www.mindat.org/loc-247759.html) and Laguna La Brea hot springs (https://w
+name-only,,Barrios Mine,247907,Barrios,52,,False,Mine located on the north side of Cerro Barrios.
+name-only,,La Esperanza deposit,247913,Unión; La Satánica; El Molle; Tucu-Tucu; Granada; María Cristina; Elisa; La Esperanza,25443,,False,"Antimony deposit located SW of Timon Cruz, almost on the border with Rinconada department."
+name-only,,Lina deposit,247924,Travertinos Lina Lari,26023,Au,False,"Possibly Cerro Lina (https://www.geonames.org/3846871/cerro-lina.html) at the far NW end of the department, on the borde"
+name-only,,Pairique tin deposit,247927,Pairique,5182,,False,
+name-only,,El Portezuelo Mine,248152,Portezuelo de Illanes,3163,,False,
+name-only,,Adriana geyser,249130,Adriana (claim name),2185,Ca-O-C-Na-B-H,True,Extinct borate geyser.
+name-only,,La Jujeña Mine,250677,La Jujeña,5183,Ca-Na-B-O-H,False,
+name-only,,Patricia Mine,250680,Norma Patricia,3007,Ca-Na-B-O-H,False,
+name-only,,Providencia y Calchaquina Mine,250681,La Providencia,13,Ca-Na-B-O-H,False,
+name-only,,Soledad Mine,250684,La Soledad (claim name),2029,Ca-Na-B-O-H,False,
+name-only,,El Mojón,251693,El Mojón,24366,Ca-O-C,True,Calcite and Oolitic Limestone Deposit.
+name-only,,Del Faldeo deposit,252715,El Faldeo,25475,Al-Na-Si-O-Be-K-H-B,True,"Pegmatite in the town of Quilmes about 6 Km. from the local school, it was exploited in 1995 for Mica and mentioned the "
+name-only,,Alejandra deposit,252716,Alejandra,135,Al-Na-Si-O-Be-K-H-B,True,"Pegmatite exploited for Mica and mentioned the presence of gemological material such as Beryl (variety aquamarine), tour"
+name-only,,La Negra deposit,252717,Sierra Negra,11127,Al-Na-Si-O-Be-K-H-B,True,"Pegmatite exploited for Mica and mentioned the presence of gemological material such as Beryl (variety aquamarine), tour"
+name-only,,Tranquera mine,252760,La Tranquera,25530,Al-Na-Si-O-H,True,"A bentonite mine, 80 kilometres north of San Juan."
+name-only,,Los Molles,253757,Rodeo de los Molles,25042,Ca-Fe-Mg-Si-O-H-Al-Na-C-S-Cl-K-Ti,False,Located NW of Malargüe.
+name-only,,La Chiquita Mine,257217,La Chiquita,5033,Ca-O-P-H-U-Al-Si-K-Na,True,"Uranium deposit.  The autunite occurs in pegmatites which permeate masses of Muscovite, feldspar and quartz. Also seen"
+name-only,,Cerro Blanco Mine,257218,Yuraj; La Lucha; La Esperanza/ La Virginia/ Firj; Caballito Blanco/ La Merced,25018,Ca-O-P-H-U-Al-Si-K-Na,True,"Uranium Deposit.  The autunite occurs in pegmatites which permeate masses of Muscovite, feldspar and quartz. Also seen"
+name-only,,Papagayos deposit,257221,Papagayos,11126,Ca-O-C-U-Si-Na-F-S-H-V,True,"Uranium Deposit. Schröckingerite: The mention of this rare mineral is due to the fact that the same has been presented"
+name-only,,Independencia deposit,257222,Independencia Argentina,25313,Ca-O-C-U-Si-Na-F-S-H-V,True,"Uranium Deposit.  Schröckingerite:  The mention of this rare mineral is due to the fact that the same has been presen"
+name-only,,Chos Malal,257268,"Distrito Chos Malal-Cerro Mayal,",24831,,True,"Chos Malal is a municipality and the capital city of the Chos Malal Department in Neuquén Province, Argentina.  Uraniu"
+name-only,,La Primera,257269,La Primera,520,,True,Uranium Occurrence.
+name-only,,La Segunda occurrence,257270,La Segunda,25292,,True,Uranium Occurrence.
+name-only,,Condorcanqui Mine,257292,Condorcanqui,3357,Cu-Fe-S-O-Si,False,"Native copper, cuprite and chalcocite in andesites."
+name-only,,Susana Beatriz Mine,257293,Beatriz,11156,Al-Si-O-K-As-Fe-S-Cu-Ca-C-Mg-H-Pb-Au-Ag-Zn-Na,False,"The ""Susana Beatriz"" mines and the nearby ""Ángela"" mines, part of a low sulphidation polymetallic deposit since it also "
+name-only,,Cacique Yanquetruz,257346,Cacique,500,Ba-O-S,True,Baryte deposit.
+name-only,,Martina Quarry,257625,La Martina,25590,,False,Obsidian.
+name-only,,Cholita Mine,257683,La Cholita,25401,Al-Na-Si-O-H-K,True,Kaolinite Deposit.
+name-only,,Agustina Mine,257684,Agustina,497,Al-Si-O-H-K-Na,False,Kaolin Deposit.
+name-only,,La Viuda mine,258218,Calcatreu; Viuda de Castro,24583,Al-Si-O-K-H-Mn-C-Fe,True,
+name-only,,Huemules deposit,258231,Huemules,11207,Cu-Fe-S-Pb-Zn,True,Porphyry copper deposit.
+name-only,,Guadalupe Mine,258295,Guadalupe,24809,Si-O,True,"Smoky Quartz Mine. Company: Girgenti, Carlos. Record, register of mines of the province of Catamarca: G-69/98."
+name-only,,La Envidia Mine,258297,"Envidia I y II, Tres Quebradas",5197,Si-O,True,"Smoky Quartz Mine. Company: Barros, Hugo. Record, register of mines of the province of Catamarca: B-195/95."
+name-only,,El Aragonés Mine,258383,"El Aragonés, Don Enrique, Piedra Calzada",5154,Ca-O-W,True,"Ores of tungsten mine. Company: Citoler, José. Record, register of mines of the province of Catamarca: C-12/52. Exped"
+name-only,,La Pilar Mine,258385,La Pilar,296,Pb-S-Ag,True,"Ores of Silver mine. Company: Citoler, José and others. Record, register of mines of the province of Catamarca: C-33/5"
+name-only,,La Juanita Mine,258386,Juanita,496,Ca-O-W,True,"Ores of tungsten mine. Company: - . Record, register of mines of the province of Catamarca: 31/55. Expedient Nº 10938"
+name-only,,Cerro Alto de Las Minas,258422,Alto de Minas,3028,Pb-S-Ag,True,A district with ores of Lead and Silver mines.
+name-only,,La Española Mine,258424,La Española,24714,Pb-S-Ag,False,"Lead-silver mine. Company: Citoler, José. Record, register of mines of the province of Catamarca: C-153/58. Expedient"
+name-only,,Alicia Mine,258429,Santa Alicia,24817,Au,True,"Gold mine. Company: Whitehead, Donald. Record, register of mines of the province of Catamarca: 51/59. Expedient Nº G-"
+name-only,,La Banda Mine,258432,"Grupo La Mesada (San Isidro,La Banda)",5150,,True,"Ores of Tungsten mine. Company: Rojas, José A.. Record, register of mines of the province of Catamarca: 40/53. Expedi"
+name-only,,Alfredo Mine,258436,Don Alfredo,25402,Au,True,"Gold mine. Company: - . Record, register of mines of the province of Catamarca: 31/52. Expedient Nº P-249-52."
+name-only,,Del Valle Mine,258437,Valle Grande; San José de Valle Grande,63,Au,True,"Gold mine. Company: - . Record, register of mines of the province of Catamarca: 7/51. Expedient Nº 67031-56."
+name-only,,La Marcos Mine,258443,San Marcos; Roma; Londres; Varsovia; Buenos Aires,25,Pb-S-Ag,True,"Ores of Lead and Silver mine. Company: Citoler, José. Record, register of mines of the province of Catamarca: C-155/58"
+name-only,,Del Valle Mine,258503,Valle Grande; San José de Valle Grande,63,,True,"Ores of Tungsten (W) mine. Company: Gómez Llanes, Eduardo. Record, register of mines of the province of Catamarca: 34/"
+name-only,,Martita Mine,258512,La Martita (claim name),2113,,True,"Ores of Tungsten (W) mine. Company: Ruíz, Antonio. Record, register of mines of the province of Catamarca: 21/66. Exp"
+name-only,,Aida Mine,258513,"Estrella Solitaria,Flor de la Pampa,Aída,otras",3189,,True,"Ores of Tungsten (W) mine. Company: - . Record, register of mines of the province of Catamarca: 21/58. Expedient Nº V"
+name-only,,Mary Luz Mine,258514,La Luz,24556,,True,"Ores of Tungsten (W) mine. Company: - . Record, register of mines of the province of Catamarca: 140/58. Expedient Nº "
+name-only,,Santa Rosa Mine,258515,"Tendida, Sorpresa, Santa Rosa",489,,True,"Ores of Tungsten (W) mine. Company: - . Record, register of mines of the province of Catamarca: 98/57. Expedient Nº G"
+name-only,,Cerro La Ramada,258602,Los Llantenes; La Ramada,11103,Al-Be-Si-O,True,Ores of Tungsten mines.
+name-only,,La Pilarica Mine,258727,La Pilarica (sector 2),592,Mn-O-K,True,"Ores of Manganese mine. Company: Whitehead, Donald. Record, register of mines of the province of Catamarca: 3/64. Exp"
+name-only,,Luna Aguada Mine,258729,Luna,24589,,True,"Ores of Tungsten mine. Company: -. Record, register of mines of the province of Catamarca: 20/54. Expedient Nº V-130-"
+name-only,,Santa Rosa Mine,258736,"Tendida, Sorpresa, Santa Rosa",489,,True,"Ores of Tungsten mine. Company: - . Record, register of mines of the province of Catamarca: 17/52. Expedient Nº S-199"
+name-only,,Yanquenco,258739,Yanquenco,201,Al-Fe-Mg-Si-Ti-O-K-F-H-Pb-S-B-W,True,Ores of Tungsten and Lead mines.
+name-only,,Santa Rosa mine,258751,"Tendida, Sorpresa, Santa Rosa",489,Sn-O,True,"Ores of Tin mine. Company: - . Record, register of mines of the province of Catamarca: 86/67. Expedient Nº F-140-66."
+name-only,,Mina El Carmen,259018,Carmen,506,,True,
+name-only,,La Primera mine,259282,La Primera,520,Cu-O-C-H-Fe-S-Al-As-U-P,False,Copper mineralization in lignitized wood in sandstone and conglomerate.
+name-only,,Salar del Rincon,264868,Rincón del Águila,25425,Ca-O-C-Na-S-H-Cl-B,True,"The Salar del Rincón project is located in the Pampa de Lari of the Department of Los Andes, Province of Salta in the Ar"
+name-only,,Villa Mercedes,276600,Mercedes,25464,,False,"Villa Mercedes is a city and municipality in the province of San Luis, Argentina. It lies in the centre-east of the prov"
+name-only,,Cerro La Cruz,277493,Areneras De La Cruz y Rozas S.A.,24684,Ca-O-C-Al-Fe-Si-H,False,
+name-only,,Ingeniero Jacobacci,277947,Ingeniero Jacobacci-Grupo Santa Teresita-Mabel,11055,,False,"Ingeniero Jacobacci is a city and municipality in Río Negro Province, Argentina. It was named in honour of Guido Jacobac"
+name-only,,El Quemado mining district,278072,El Quemado,24406,Bi-Ta-O-Al-Be-Si-Fe-Li-Mn-P-Nb-H-K,True,The geology of the district consists of a thick turbiditic pile of pelitic and graywackic metasedimentary rocks belongin
+name-only,,Mina Esmeralda,278211,Esmeralda,25458,Bi-S-Ca-O-C-Cu-Fe-Si-F-Mo-Al-K-H-W-Zn-P,False,
+name-only,,El Infiernillo,279211,Infiernillo,3216,Al-Fe-Si-O-Mg-Ti-K-F-H-Na-B,False,
+name-only,,Las Chacras,279602,Chacras del Oeste,25977,Fe-Na-Si-O-Al-Ca-Ce-H-C-F-Nd-Y-P-K-Th-Ti-Cl,False,Las Chacras (San Martín) is a village and municipality in San Luis Province in central Argentina.
+name-only,,Carmen Sylva River,279810,Carmen,506,Al-Ca-Fe-Si-O-H-Au-Ti-Mn-Ta-Zr-Nb,False,"The Chico River, also known as the Carmen Sylva River, is a river on the Grande Island of Tierra del Fuego and is shared"
+name-only,,Las Aguadas,279895,Las Aguadas-La Nelly,11116,Al-Be-Si-O-Li-B-Ca-P,False,Las Aguadas is a village and municipality in San Luis Province in central Argentina.
+name-only,,Los Menucos,280016,Menucos,24563,Pb-Zn-O-H-V-Al-Si,False,Los Menucos is a village and municipality in Río Negro Province in Argentina.
+name-only,,Volcán,280513,Volcán,3018,Ca-O-C,False,Volcán (Jujuy) is a town and municipality in Jujuy Province in Argentina.
+name-only,,Pumahuasi,281366,Veta Pumahuasi Nueva,25897,As-Fe-S-Ba-O-Pb-C-Cu-Sb-Au-Al-Si-H-Zn,False,"Pumahuasi (Hispanicized spelling of Quechua Puma Wasi, puma cougar, wasi house, ""cougar house"") is a rural municipality "
+name-only,,Cacheuta District,281883,Distrito Cacheuta,24639,Fe-Se-Si-O-H-Ca-C-Cu-Ba-S-Co-Mg-K-Pb-Ag-Ti-Al-Na-Cl-P-F,False,"Cacheuta is a town and district located in the northern sector of the Luján de Cuyo Department, Mendoza province, Argent"
+name-only,,La Cumbre,282749,Veta San Marcial; Veta Cumbre,10,,False,"La Cumbre is a small town in the province of Córdoba, Argentina, in a valley known as the ""Valle de Punilla""."
+name-only,,Purmamarca,282976,Los Colorados; Purmamarca,25354,Fe-O,False,"Purmamarca is a town and municipality in the Tumbaya Department of the Jujuy Province in Argentina.  The name of the t"
+name-only,,Valcheta,282982,Valcheta,5224,,False,"Valcheta is a village and municipality in Río Negro Province in Argentina, seat of government of Valcheta Department."
+name-only,,Mariano Moreno,283430,Mariano Moreno,362,,False,Mariano Moreno (Neuquén) is a village and municipality in Neuquén Province in southwestern Argentina.
+name-only,,Tupungato District,283739,Tupungato,25554,,False,"Tupungato is a town and district in the province of Mendoza, Argentina. The town is the head of the Tupungato department"
+name-only,,Jagüel,284448,Jagüel Maza,24460,Ca-O-C-As-Ni-U-H,False,
+name-only,,Azul,292841,Azul Auquén,25433,Al-Ca-Si-O-Cr-Fe-Ti-Mg-S-Zr-Na,False,"Azul is a central partido of Buenos Aires Province in Argentina.  The provincial subdivision has an area of 6,615 km² "
+name-only,,Las Coloradas,292845,Piedras Coloradas,5073,,False,"Las Coloradas is a third category municipality and capital city of the Catán Lil Department, located in Neuquén Province"
+name-only,,Loncopué,292848,Distrito Loncopué- La Rosita,11158,Al-Fe-Mg-Si-Ti-O-K-F-H-Cu-S-Ca-C-Mo-Na-Sb,False,"Loncopué is a second category municipality and capital of the Loncopué Department located in the Neuquén Province, Argen"
+name-only,,La Rosita prospect,302611,La Rosita,569,,True,Au-Ag prospect.
+name-only,,La Sarita prospect,302612,La Sarita,570,,True,Au-Ag prospect.
+name-only,,Salar de Olaroz,310992,Olaroz Chico,24374,Ca-O-C-S-H-Cl-Na-Fe-B-Li-K,False,"The Salar de Olaroz is located in the Susques Department, in the southwest of the Province of Jujuy, about 270 km from t"
+name-only,,Cerro Mogote prospect,333065,Mogote Blanco,281,Zn-S,True,
+name-only,,Potosí deposit,337750,"La Esperanza, Potosí",422,,True,
+name-only,,Belén,359238,Temis-Belén,505,,False,
+name-only,,Sarmiento,406296,Cantera Sarmiento,24445,Ca-O-P-H-U-K-V-Si,False,"Sarmiento is a town in the province of Chubut, Argentina. It is the head town of the department of the same name. It is "
+name-only,,Los Reartes District,406320,Reartes,24863,Si-O-H-Ca-C-Cr-Fe-Al-Mg-Ti-Ni-S-Na,False,Pedanía Los Reartes.
+name-only,,Santa Rosa District,406321,"Tendida, Sorpresa, Santa Rosa",489,Mg-Si-O-H-Ca-C-Cr-Fe-Os-S-As-Ir-Ru-Pt-Al,False,Pedanía Santa Rosa.
+name-only,,Ciénaga del Coro District,406330,La Ciénaga,76,Ag-S-Sb-Pb-O-As-Fe-Ca-P-H-U-Cu-C-Mn-V-Zn-Si-Al-Au-Cd-Sn-Na-Co-K-Cl,False,"Pedanía Ciénaga del Coro.  Ciénaga del Coro is a town located in the Minas department, Córdoba province, Argentina. "
+name-only,,Dolores District,406340,"Guachi Oeste (Santa Filomena,Dolores)",3176,Al-Be-Si-O-Ca-C-Mg-H-Fe-F-Mn-S-K-Na-B,False,Pedanía Dolores.
+name-only,,Rosario District,406341,"Rosario, Cruz del Sur",44,Ca-O-C-K-H-U-V,False,Pedanía Rosario.
+name-only,,Ambul District,406346,Distrito Ambul-San Juan Bautista; Unión; Indiana,11033,Al-Na-Si-O-Fe-Mg-Ti-K-F-H-Zn-Ta-Ca-Mn-P-Bi-Nb,False,Pedanía Ambul.
+name-only,,Rosas District,406348,Estacamina J.M Rosas II,25507,Bi-O-C-Ag-Br-Al-Be-Si-V-Cu-Pb-H-Fe-Na-B-Li,False,Pedanía Rosas.
+name-only,,Alta Gracia District,406350,Grupo Alta Gracia,25660,Al-Fe-Si-O-Ca-C-H-Mg-K-Na-Cl-P-F,False,Pedanía Alta Gracia.
+name-only,,Salto District,406354,El Salto,3088,Fe-Ti-O-P-Ce-Si-Zr,False,Pedanía Salto.
+name-only,,Cóndores District,406356,Los Cóndores,5050,Fe-Ti-O-P-Ce-Si-Zr,False,Pedanía Condores.
+name-only,,Algarrobitos District,406363,Los Algarrobitos,25097,Ca-O-C-Fe-P-Al-Mg-Si-H-S-Ni,False,
+name-only,,Abdón Castro Tolay,406378,Castro Tolay,3026,Al-Na-Si-O-Zr-Ca-C-Mg-Fe-H-W-S-Cl-Ti-P,False,Abdón Castro Tolay is a rural municipality and village in the Cochinoca department in Jujuy Province in Argentina. It wa
+name-only,,Mina Pirquitas,406412,Pirquitas,23,Ag-S-Al-Si-O-K-Na-H-Ti-Pb-Sb-Fe-As-Bi-Ge-Ba-Mg-F-Cu-Sn-C-Cl-Ca-P-W-B-Au-Sr-Zn-Ta-Cd-In-Mn-Te-Zr,False,"Mina Pirquitas is a town and municipality in Jujuy Province in Argentina in the Rinconada Department, in Coyaguaima dist"
+name-only,,Tilcara,406518,Alfarcito; Tilcara,25355,Ca-O-C-S-H,False,"San Francisco de Tilcara (usually referred to as Tilcara) is a city in the province of Jujuy, Argentina, and the head to"
+name-only,,Barrios,406522,Barrios,52,,False,Barrios (Jujuy) is a rural municipality and village in Jujuy Province in Argentina.
+name-only,,Las Cuevas District,406971,Filo Cuevas Blancas,5180,,False,"Las Cuevas is a town and former district in the Las Heras department, Mendoza, located in the Andes mountain range, clos"
+name-only,,El Mirador District,406978,Estancia El Mirador,24968,,False,El Mirador is an Argentine town and district located in the Rivadavia Department of the Mendoza Province. The main town 
+name-only,,Wanda,406990,Wanda (occurrence name),2218,Si-O-Ca-C-Fe-Mg-K-H,False,"Wanda (pronounced vanda) is an Argentine town and municipality in the province of Misiones, located within the Iguazú de"
+name-only,,Las Lagunas,407187,Dos Lagunas,24601,Al-Na-Si-O-Be-K-Fe-B-H,False,Las Lagunas (San Luis) is a village and municipality in San Luis Province in central Argentina.
+name-only,,Laguna Sirven,407189,Laguna Sirven,25913,O-K-H-U-V-Ca-Si,False,
+name-only,,Sumampa,407358,Sierra de Sumampa-Jasimampa,24343,Si-O-Al-K-H,False,Sumampa is a municipality and village in Santiago del Estero Province in Argentina.
+name-only,,El Timbó,407409,El Timbó,11022,Mn-O-K-Ca-S-H-Cl-Na-Fe-Si,False,
+name-only,,El Sacrificio,407415,"14 de junio, Siderúrgica Argentina, Sacrificio (claim name)",2086,Sn-O-Cu-Fe-S-Si-W-Mo-H-Ca-F-Mn-C,False,
+name-only,,Chingolo Mine,417793,Tosquera Monte Chingolo; IAPI; Laguna San José de la Leña,25875,Al-Si-O-K-Be-Mn-S,False,Helvine occurs as idiomorphic crystals up to 15 cm on edge.
+name-only,,Cecilia vein,441252,Grupo La Cecilia,11162,,False,Hosted in the Alto de la Blenda monzonite.
+name-only,,Santa Victoria mining district,461417,Victoria,498,Ba-O-S-Cu-Fe-Pb-Si-Zn-Ag,False,"It is located in the north of Salta province, in the mountain range of the same name. The mineralizations comprise vein"
+name-only,,Los Toldos,461423,Veta Baritina 2 Quebrada de los Toldos,26137,,False,Los Toldos is both a village and municipality.
+name-only,,Nazareno,461426,El Nazareno,132,,False,Nazareno is both a village and municiaplity.
+name-only,,Los Congos ultramafic body,474538,Los Congos,24860,Mg-Si-O-H-Ca-C-Cr-Fe-Ti-Os-Pt-Al,False,This ultramafic body is one of the biggest of Córdoba Pampean Ranges being approximately 1300 m long and 700 m wide Ther
+name-only,,Ume Pay,474542,Ume Pay,24947,Cr,False,"The estimated production of chromite ore from a single body, Ume Pay, was about 50,000 tons. Produced from 1940-1945. [["
+name-only,,Sol de Mayo Mine,474544,"Sol de Mayo ( sectores 2,3,4,5)",605,Cr,False,
+name-only,,Punilla pegmatite district,478108,Punilla,3089,Al-Na-Si-O-Ti-Ca-P-H-U-Cu-C-Fe-Ba-S-Mn-Be-Mg-K-F-Bi-Ag-Br-V-Nb-Zn-I-Mo-Pb-Ta-Te-Y-Zr,False,
