@@ -1,0 +1,7 @@
+# Allowlist repo: ignore everything, then re-include tracked deliverables.
+/*
+!.gitignore
+!deposit_gap_analysis.md
+!fix_deposit_coords.sql
+!rollback_deposit_coords.sql
+!e250K_DepositMetalif.csv
