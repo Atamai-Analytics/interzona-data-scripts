@@ -74,6 +74,7 @@ wa_deposit_extract/load_run.log
 wa_age_extract/*
 !wa_age_extract/*.md
 !wa_age_extract/*.sql
+!wa_age_extract/*.py
 !wa_age_extract/*.cjs
 !wa_age_extract/*.jsonl
 !wa_age_extract/*.csv

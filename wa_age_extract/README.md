@@ -138,8 +138,29 @@ datapoint `WA-AGE:<tbl>:<age_analysis_id>` — the loader resolves
 - **sampleKindId** Rock, **locationKindId** Outcrop, **countryId** United States, **celestialId** Earth.
 - **latLonPrecision**: parsed from the location‑quality text (30 m GPS … 10 km district centroid; default 2 km).
 
-## Not yet done
+## Loader — `load_ages.cjs`
 
-- **`load_ages.cjs`** — the loader (model on `../wa_deposit_extract/load_deposits.cjs`: auth, resumable `load_progress_<pkg>.jsonl`, abort‑on‑4xx). Order per sample: `sample-with-locations` → its `age-datapoints` → literature links.
-- **Live dry‑run** of one sample + datapoint to confirm the DTO shape before the full run.
-- Literature‑to‑datapoint linkage strategy (per‑datapoint vs per‑package only).
+```
+node load_ages.cjs --package 250875261 --dry --limit 5      # inspect
+node load_ages.cjs --package 250875261 --limit 1            # first real record
+node load_ages.cjs --package 250875261                      # full run (resumable)
+```
+
+Per sample: `POST /api/core/sample-with-locations` → for each child age row
+`POST /api/age/age-datapoints` (with the returned `sampleId` + `locationId`).
+Literature: the 2 rows are created once and linked via `literature-2-package`
+(`--skip-lit` to skip; no per‑datapoint links — source is in the statement text).
+
+- **Resumable** — every finished sample is appended to `load_progress_250875261.jsonl`;
+  a re‑run skips logged `sampleSourceId`s.
+- **`--precheck` (default on)** — before creating, GET by `sourceId` and reuse an
+  existing row. This is the SIGAM Phase‑3 lesson: the API only soft‑deletes, so
+  every create is permanent — precheck makes a re‑run after a mid‑load abort safe
+  instead of duplicating. `--no-precheck` for a known‑clean fast run.
+- Aborts on the first unexpected 4xx, printing the payload and the body it sent.
+
+## Still to do
+
+- **First live `--limit 1`** to confirm the DTO round‑trips (not yet run — writes are permanent).
+- Then the full run.
+- Deposit load into `250875260` is separately paused at 3,309 / 5,418.

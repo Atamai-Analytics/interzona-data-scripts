@@ -99,9 +99,10 @@ rows = list(csv.DictReader(open(os.path.join(HERE, "age_export.csv"), encoding="
 # A physical sample can carry several analyses (e.g. one rock -> 206Pb/238U +
 # 207Pb/235U + 207Pb/206Pb).  Collapse rows that share (table, lab_sample_id,
 # location) into one sample; rows with no lab_sample_id stay 1 sample : 1 age.
+JUNK_LABID = {"", "nn", "n/a", "na", "none", "unknown", "?", "-", "--", "x", "xx"}
 def sample_key(r):
     lid = (r["lab_sample_id"] or "").strip()
-    if not lid:
+    if lid.lower() in JUNK_LABID:
         return ("_solo", r["source_token"])
     return (r["wa_table"], lid.lower(),
             round(float(r["latitude"]), 5), round(float(r["longitude"]), 5))
@@ -127,6 +128,7 @@ gev_seen = collections.Counter()
 # ---- one SampleWithLocationDTO per group ----
 for ssid, (r, members) in sample_meta.items():
     lid = (r["lab_sample_id"] or "").strip()
+    if lid.lower() in JUNK_LABID: lid = ""
     nm = (f"{lid} (WA {r['wa_table']} {r['age_measured_id']})" if lid
           else f"WA-AGE {r['wa_table']} {r['age_measured_id']}")
     units = sorted({m["dated_unit_name"] for m in members if m["dated_unit_name"]})
