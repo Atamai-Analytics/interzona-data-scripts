@@ -90,6 +90,16 @@ spread 111 m. Patched `wa_cluster_assignment` directly (canonical ids are the
 frozen load key — `03_cluster.py` renumbers, so a full rebuild is no longer safe;
 `cluster_assignment.csv` is the source of truth).
 
+**Cross-county merge review** (spot-check) — 5 merged clusters span >1 county.
+`Silver Star` (163) and `Valley` (682) merge two DGER rows at identical coords
+where one row's `county` was simply wrong — the dedup **fixes** these.
+`Crown Point` (2378) straddles the Pierce/Yakima line in the Summit district.
+`Snowshoe` (1004) has one member's county likely wrong (kept — 314 m, same name).
+`Rocky Point` (270): the gold_silver member's `county`/`district` (Kittitas /
+"Cle Elum") contradict its own clean coordinate (Lewis County) — merge kept
+(identical coord + name), the bad `Cle Elum` district **cleared** from
+`WA:270` / staging / canonical.
+
 ### Excluded (5 iaml processing facilities — `excluded=true` in staging)
 
 `Talisman Mill` (5009) · `Republic Mill` (5024) · `Bonanza Mill` (5052) ·

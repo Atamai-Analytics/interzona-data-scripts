@@ -267,7 +267,7 @@
 {"name": "Eagle Peak", "lat": 46.755822, "lon": -121.780131, "latLonPrecision": 250, "description": "Lewis County, WA | DGER sources: arsenic, metallic, radon", "sourceId": "WA:267"}
 {"name": "Green River", "lat": 46.3972, "lon": -122.1917, "latLonPrecision": 2000, "description": "Lewis County, WA | DGER sources: metallic", "sourceId": "WA:268"}
 {"name": "Paradise", "lat": 46.7625, "lon": -121.7867, "latLonPrecision": 2000, "description": "Lewis County, WA | DGER sources: arsenic, metallic", "sourceId": "WA:269"}
-{"name": "Rocky Point", "lat": 46.389259793739, "lon": -122.223324810973, "latLonPrecision": 2000, "description": "Lewis County, WA | Cle Elum mining district | DGER sources: gold_silver, metallic", "sourceId": "WA:270"}
+{"name": "Rocky Point", "lat": 46.389259793739, "lon": -122.223324810973, "latLonPrecision": 2000, "description": "Lewis County, WA | DGER sources: gold_silver, metallic", "sourceId": "WA:270"}
 {"name": "Short Canyon", "lat": 46.7504792764347, "lon": -121.763607396948, "latLonPrecision": 2000, "description": "Lewis County, WA | DGER sources: metallic", "sourceId": "WA:271"}
 {"name": "Heart", "lat": 47.74, "lon": -118.0508, "latLonPrecision": 2000, "description": "Lincoln County, WA | DGER sources: metallic", "sourceId": "WA:272"}
 {"name": "Lincoln", "lat": 47.9097, "lon": -118.2947, "latLonPrecision": 2000, "description": "Lincoln County, WA | DGER sources: metallic", "sourceId": "WA:273"}
