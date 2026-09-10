@@ -148,12 +148,14 @@ LEFT JOIN LATERAL (
 ) inv ON true;
 
 -- 9. iaml (Inventory of Abandoned Mine Lands — richest) --------------------------
+-- NB: iaml `material` is abandoned-mine-land site debris ("ore car", "scrap steel",
+-- "none", "see feature 1003-14"), NOT mineralogy — it goes into comments, never
+-- ore_minerals. iaml has no per-site commodity field.
 INSERT INTO wa_deposits_staging
-    (wa_source, src_id, site_name, category, ore_minerals, mining_district, county,
+    (wa_source, src_id, site_name, category, mining_district, county,
      latitude, longitude, production, comments, raw)
 SELECT 'iaml', iaml_id, pg_temp.tn(site_name),
        pg_temp.tn(hazard),                       -- iaml "hazard" flag (yes/no/unknown)
-       pg_temp.tn(material),                     -- physical material on site (debris/ore)
        pg_temp.tn(mining_district), pg_temp.tn(county),
        site_dd_lat, site_dd_long,
        pg_temp.tn(production),
@@ -168,6 +170,9 @@ SELECT 'iaml', iaml_id, pg_temp.tn(site_name),
                 THEN 'Underground mine: ' || underground_mine END,
            CASE WHEN pg_temp.tn(mill) IS NOT NULL
                 THEN 'Mill: ' || mill END,
+           CASE WHEN pg_temp.tn(material) IS NOT NULL
+                 AND lower(pg_temp.tn(material)) !~ '^(none|no|n/?a|none observed|not applicable)\.?$'
+                THEN 'Site remains (IAML): ' || material END,
            CASE WHEN pg_temp.tn(site_comments) IS NOT NULL
                 THEN site_comments END)),
        to_jsonb(s)

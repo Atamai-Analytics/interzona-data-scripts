@@ -57,6 +57,6 @@ one scheme, spent once. Order per deposit: `Deposit` → `DepositInfo`
 - **Deposit type / genetic model** — none in the DGER source.
 - **Grade / tonnage** — the DGER source records only yes/no production & assay flags.
 - **Ages, operating status, operator/company** — none in source.
-- **Mineralogy** (5,237 `deposit_mineralogy` rows in `criticialmineralsexp`) — no
+- **Mineralogy** (5,173 `deposit_mineralogy` rows in `criticialmineralsexp`) — no
   LithoSurfer deposit entity; folded into `deposit_description_full.csv` instead.
 - **`deposit_type_id` is NULL** on all 5,417 rows in `criticialmineralsexp`.

@@ -152,7 +152,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 151,Nebraska,metallic,48.2403,-120.5667,metallic,0,Meadow Creek,Chelan,1,metallic,metallic:155,Nebraska,"silver, lead, Copper, Copper (Cu), gold","Copper sulfides, galena",,f,t,t
 152,Phyllis,metallic,48.2153,-120.5528,metallic,0,,Chelan,1,metallic,metallic:156,Phyllis,"silver, Copper, Copper (Cu), gold","chalcopyrite, Pyrrhotite, pyrite",,f,,t
 153,Pickwick,metallic,47.4981,-120.975,metallic,0,,Chelan,1,metallic,metallic:157,Van Epps Copper | Nelson | King Solomon | Pickwick | Copper King,"silver, Copper, Copper (Cu), gold","chalcopyrite, pyrrhotite, Bornite, copper carbonate, pyrite",,f,t,t
-154,Red Mountain,iaml,48.075508,-120.848819,metallic,0,Chiwawa,Chelan,3,arsenic+iaml+metallic,iaml:1002 ; metallic:158 ; arsenic:117,Red Mountain | Royal,"tungsten, zinc, silver, lead, Copper, Copper (Cu), gold, copper","Chalcopyrite, piping, ore car, sphalerite, galena, scheelite, little scrap steel",,t,t,t
+154,Red Mountain,iaml,48.075508,-120.848819,metallic,0,Chiwawa,Chelan,3,arsenic+iaml+metallic,iaml:1002 ; metallic:158 ; arsenic:117,Red Mountain | Royal,"tungsten, zinc, silver, lead, Copper, Copper (Cu), gold, copper","Chalcopyrite, sphalerite, galena, scheelite",,t,t,t
 155,Silver King,metallic,48.2033,-120.5417,metallic,0,Meadow Creek,Chelan,1,metallic,metallic:159,Silver King,"lead, Copper (Cu), gold, Cooper","Pyrite, chalcopyrite, galena",,f,,
 156,Silver Trail,metallic,48.2042,-120.8739,metallic,0,,Chelan,1,metallic,metallic:160,Silver Trail,"zinc, silver, lead, Copper, Copper (Cu), gold",,,f,,t
 157,Spokane Boy and Girl,metallic,48.5172570895651,-120.871197857914,metallic,0,,Chelan,1,metallic,metallic:161,Spokane Boy | Spokane Girl | Spokane Boy and Girl,"zinc, silver, lead, Copper, Copper (Cu), gold","Chalcopyrite, sphalerite, galena, pyrite",,f,,
@@ -190,7 +190,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 189,Kohler,metallic,48.4803,-118.2161,metallic,0,Covada,Ferry,1,metallic,metallic:195,Kohler,"Copper, antimony, Copper (Cu)","malachite, Tetrahedrite, azurite, pyrite",,f,,t
 190,Lancaster,metallic,48.914208,-118.55545,metallic,0,,Ferry,1,metallic,metallic:196,Lancaster,"silver, zinc, lead, Copper, Copper (Cu), gold","chalcopyrite, Galena, sphalerite",,f,t,
 191,Last Chance,metallic,48.0428,-118.7444,metallic,0,,Ferry,1,metallic,metallic:197,Last Chance,"silver, Copper, Copper (Cu), gold","Chalcopyrite, rhodochrosite, pyrite",,f,,t
-192,Lone Star and Washington,iaml,48.996489,-118.602653,metallic,0,Danville(?),Ferry,2,iaml+metallic,iaml:1008 ; metallic:198,Washington | Lone Star | Lone Star and Washington,"silver, Copper, Copper (Cu), gold","none, malachite, chalcocite, Chalcopyrite, gold",,t,t,t
+192,Lone Star and Washington,iaml,48.996489,-118.602653,metallic,0,Danville(?),Ferry,2,iaml+metallic,iaml:1008 ; metallic:198,Washington | Lone Star | Lone Star and Washington,"silver, Copper, Copper (Cu), gold","malachite, chalcocite, Chalcopyrite, gold",,t,t,t
 193,Manila,metallic,48.0381,-118.7617,metallic,0,,Ferry,1,metallic,metallic:199,Manila,"silver, Copper, Copper (Cu), gold","Pyrite, chalcopyrite",,f,t,t
 194,Mascot,metallic,48.9806,-118.5386,metallic,0,,Ferry,1,metallic,metallic:200,Mascot,"Copper, Copper (Cu)",,,f,,
 195,Meadow Creek,metallic,48.0708,-118.7364,metallic,0,Keller,Ferry,1,metallic,metallic:201,Meadow Creek | King Richard | San Poil Monitor | Blevins,"zinc, silver, lead, Copper, Copper (Cu), gold, arsenic","molybdenite, chalcocite, Chalcopyrite, sphalerite, galena, pyrite",,f,,t
@@ -218,7 +218,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 217,Climax,metallic,47.7278,-121.5486,metallic,0,,King,1,metallic,metallic:229,Climax,"silver, Copper, Copper (Cu)","chalcopyrite, Bornite",,f,t,t
 218,Clipper,metallic,47.518183,-121.344353,metallic,0,,King,1,metallic,metallic:230,Clipper,"molybdenum, Copper, Copper (Cu), gold","molybdenite, Chalcopyrite, galena",,f,,t
 219,Copper Chief,metallic,47.4778,-121.3742,metallic,0,Snoqualmie,King,1,metallic,metallic:231,Copper Chief,"silver, lead, Copper, Copper (Cu), gold","Chalcopyrite, galena",,f,,t
-220,Dutch Miller,iaml,47.559069,-121.238706,metallic,0,Burns,King,3,arsenic+iaml+metallic,iaml:1101 ; metallic:232 ; arsenic:118,Dutch Miller,"silver, Copper, Copper (Cu), gold, copper","tetrahedrite, Chalcopyrite, 28 sticks of ~14ft small gauge rail lie at site of main adit. Several lengths of sawn timber., sphalerite, galena",,t,t,t
+220,Dutch Miller,iaml,47.559069,-121.238706,metallic,0,Burns,King,3,arsenic+iaml+metallic,iaml:1101 ; metallic:232 ; arsenic:118,Dutch Miller,"silver, Copper, Copper (Cu), gold, copper","tetrahedrite, Chalcopyrite, sphalerite, galena",,t,t,t
 221,Emma,metallic,47.4819,-121.3694,metallic,0,,King,1,metallic,metallic:233,Emma,"Copper, Copper (Cu)",,,f,,
 222,Etta,metallic,47.662871151925,-121.306324404589,metallic,0,Miller River,King,1,metallic,metallic:234,Etta,"Copper, Copper (Cu)",,,f,,
 223,Eureka,metallic,47.3508,-121.5414,metallic,0,Cedar River,King,1,metallic,metallic:236,Eureka,"silver, Copper, Copper (Cu), gold",,,f,,
@@ -567,18 +567,18 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 566,St. Louis and Jackson,metallic,48.114019,-121.588022,metallic,0,Silverton,Snohomish,1,metallic,metallic:604,Jackson | St. Louis | St. Louis and Jackson,"tungsten, silver, Copper, Copper (Cu), gold","tetrahedrite, Chalcopyrite, scheelite",,f,t,t
 567,Sultan King,metallic,47.951894,-121.469031,metallic,0,,Snohomish,2,arsenic+metallic,metallic:605 ; arsenic:159,Sultan King | Sultan Queen | Hicks,"molybdenum, silver, Copper, Copper (Cu), gold, copper","molybdenite, Chalcopyrite, sphalerite",,f,t,t
 568,Sunrise,metallic,48.008664,-121.503467,metallic,0,,Snohomish,1,metallic,metallic:606,Sunrise,"molybdenum, tungsten, silver, Copper, Copper (Cu), gold","molybdenite, Chalcopyrite, scheelite",,f,,t
-569,Sunset,iaml,47.857161,-121.462667,metallic,0,Index,Snohomish,2,iaml+metallic,iaml:1043 ; metallic:607,Sunset,"silver, Copper, Copper (Cu), gold","silver, molybdenite, none, Chalcopyrite, bornite, copper",,t,t,t
+569,Sunset,iaml,47.857161,-121.462667,metallic,0,Index,Snohomish,2,iaml+metallic,iaml:1043 ; metallic:607,Sunset,"silver, Copper, Copper (Cu), gold","silver, molybdenite, Chalcopyrite, bornite, copper",,t,t,t
 570,Uncle Sam,metallic,47.8086,-121.4789,metallic,0,Index,Snohomish,1,metallic,metallic:608,Uncle Sam,"silver, Copper, Copper (Cu), gold","hematite, Chalcopyrite, bornite, pyrite",,f,t,t
 571,Virginia,metallic,48.0682640615265,-121.57917418271,metallic,0,,Snohomish,2,arsenic+metallic,metallic:609 ; arsenic:160,Virginia,"silver, Copper, Copper (Cu), gold, copper","arsenopyrite, Chalcopyrite",,f,,
 572,Washington-Iowa,metallic,47.9583,-121.4194,metallic,0,Silver Creek,Snohomish,1,metallic,metallic:610,Washington-Iowa,"silver, zinc, lead, Copper, Copper (Cu), gold",,,f,,
-573,Wayside,iaml,48.095622,-121.934525,metallic,0,Index,Snohomish,2,iaml+metallic,iaml:1044 ; metallic:611,Wayside,"zinc, silver, lead, Copper, Copper (Cu), gold, vanadium","none, Chalcopyrite, bornite, sphalerite, galena",,t,t,t
+573,Wayside,iaml,48.095622,-121.934525,metallic,0,Index,Snohomish,2,iaml+metallic,iaml:1044 ; metallic:611,Wayside,"zinc, silver, lead, Copper, Copper (Cu), gold, vanadium","Chalcopyrite, bornite, sphalerite, galena",,t,t,t
 574,Westland,metallic,47.9278,-121.4411,metallic,0,,Snohomish,2,arsenic+metallic,metallic:612 ; arsenic:161,Westland,"silver, Copper, Copper (Cu), gold, copper","Pyrite, arsenopyrite, chalcopyrite",,f,,t
 575,White Gander,metallic,48.2217,-121.6347,metallic,0,Darrington,Snohomish,2,arsenic+metallic,metallic:613 ; arsenic:162,White Gander,"silver, Copper, Copper (Cu), gold, copper","arsenopyrite, Chalcopyrite",,f,,t
 576,Wild Rose,metallic,47.9583,-121.4194,metallic,0,,Snohomish,2,mercury+metallic,metallic:614 ; mercury:393,Wild Rose,"silver, nickel, mercury, Copper, Copper (Cu), gold, cobalt, copper, arsenic",,,f,,
 577,Winnie,metallic,47.9569,-121.4389,metallic,0,Silver Creek,Snohomish,1,metallic,metallic:615,Winnie,"silver, Copper, Copper (Cu), gold","Pyrite, chalcopyrite",,f,,t
 578,Yankee Boy,metallic,48.0914,-121.9503,metallic,0,,Snohomish,1,metallic,metallic:616,Yankee Boy,"zinc, lead, Copper, Copper (Cu), gold","Malachite, sphalerite, galena, pyrite",,f,,
 579,A & C,metallic,48.741725,-117.874194,metallic,0,Northport,Stevens,1,metallic,metallic:617,A & C | Smoky Bullion | Bruce Creek,"molybdenum, silver, zinc, lead, Copper, Copper (Cu), gold","molybdenite, Chalcopyrite, sphalerite, galena",,f,t,t
-580,Admiral,iaml,48.163564,-117.912006,metallic,0,Chewelah,Stevens,2,iaml+metallic,iaml:1047 ; metallic:618,Admiral,"silver, lead, Copper, Copper (Cu), gold","none observed, chalcocite, tenorite, Chalcopyrite",,t,t,t
+580,Admiral,iaml,48.163564,-117.912006,metallic,0,Chewelah,Stevens,2,iaml+metallic,iaml:1047 ; metallic:618,Admiral,"silver, lead, Copper, Copper (Cu), gold","chalcocite, tenorite, Chalcopyrite",,t,t,t
 581,Alandale,metallic,48.3219,-117.8378,metallic,0,Chewelah,Stevens,1,metallic,metallic:619,Alandale,"Copper, Copper (Cu)","secondary copper minerals, Chalcopyrite",,f,,
 582,Alberta,metallic,47.9553,-118.1311,metallic,0,,Stevens,1,metallic,metallic:620,Alberta,"silver, Copper, Copper (Cu)",Malachite,,f,,t
 583,Amazon,metallic,48.321958,-117.663042,metallic,0,Chewelah,Stevens,1,metallic,metallic:622,Amazon,"silver, Copper, Copper (Cu), gold","Chalcopyrite, azurite",,f,t,t
@@ -676,10 +676,10 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 675,Thomason Queen,metallic,48.3939,-117.7003,metallic,0,Chewelah,Stevens,1,metallic,metallic:722,Thomason Queen,"silver, Copper, Copper (Cu), gold","malachite, Chalcopyrite, bornite?, azurite, pyrite",,f,,
 676,Togo,metallic,48.048281,-118.071456,metallic,0,,Stevens,2,arsenic+metallic,metallic:723 ; arsenic:167,Togo,"silver, lead, Copper, Copper (Cu), copper","malachite, Chalcopyrite, azurite",,f,t,
 677,Tramp,metallic,48.8611,-118.0997,metallic,0,,Stevens,1,metallic,metallic:724,Tramp,"Copper, Copper (Cu), gold","Pyrite, chalcopyrite, pyrrhotite",,f,,
-678,Turk,iaml,48.048564,-118.083403,metallic,86,Cedar Canyon,Stevens,2,iaml+metallic,iaml:1049 ; metallic:725,Lucky Boy | Turk | Reardon Copper | Monstrous Turk No. 2 | Ben Butler Copper Butte | Monstrous Turk | Red Jacket | Jim Blaine | Red Jacket No.2 | High Grade,"silver, Copper, Copper (Cu), gold","malachite, none observed, tenorite, Chalcopyrite, bornite, copper, cuprite",,t,t,t
+678,Turk,iaml,48.048564,-118.083403,metallic,86,Cedar Canyon,Stevens,2,iaml+metallic,iaml:1049 ; metallic:725,Lucky Boy | Turk | Reardon Copper | Monstrous Turk No. 2 | Ben Butler Copper Butte | Monstrous Turk | Red Jacket | Jim Blaine | Red Jacket No.2 | High Grade,"silver, Copper, Copper (Cu), gold","malachite, tenorite, Chalcopyrite, bornite, copper, cuprite",,t,t,t
 679,Twilight,metallic,48.8147,-118.1264,metallic,0,Orient,Stevens,1,metallic,metallic:726,Twilight,"Copper, Copper (Cu), gold","Pyrite, malachite, limonite, chalcopyrite, azurite",,f,,t
 680,Uncle Sam,metallic,48.8547,-118.0908,metallic,0,,Stevens,1,metallic,metallic:727,Uncle Sam,"silver, lead, Copper, Copper (Cu), gold","Pyrite, chalcopyrite, a small amount of galena",,f,,
-681,United Copper,iaml,48.317097,-117.679075,metallic,0,Chewelah,Stevens,3,arsenic+iaml+metallic,iaml:1050 ; metallic:728 ; arsenic:168,United Silver Copper | United Copper,"silver, Copper, Copper (Cu), gold, copper","some pipe, malachite, some rails, Chalcopyrite, tetrahedrite (freibergite)",,t,t,t
+681,United Copper,iaml,48.317097,-117.679075,metallic,0,Chewelah,Stevens,3,arsenic+iaml+metallic,iaml:1050 ; metallic:728 ; arsenic:168,United Silver Copper | United Copper,"silver, Copper, Copper (Cu), gold, copper","malachite, Chalcopyrite, tetrahedrite (freibergite)",,t,t,t
 682,Valley,metallic,48.7361,-118.6919,metallic,0,,Stevens,2,gold_silver+metallic,metallic:729 ; gold_silver:948,Golden Valley | Lame Foot | Valley,"selenium, silver, Copper, Gold, Gold (Au), Copper (Cu)","tetrahedrite, Auriferous selenide, Malachite",,f,t,t
 683,Viking,metallic,48.9225,-118.1814,metallic,0,Orient,Stevens,1,metallic,metallic:730,Viking,"silver, Copper, Copper (Cu), gold","Pyrite, chalcopyrite, few specks of galena",,f,,
 684,Vulcan,metallic,48.1861,-117.8978,metallic,0,Chewelah,Stevens,1,metallic,metallic:731,Vulcan,"silver, Copper, Copper (Cu)","with some cuprite, chalcopyrite, azurite, Surface ores largely malachite",,f,,t
@@ -1137,12 +1137,11 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 1136,Bonanza,metallic,48.729381,-117.989894,metallic,0,Bossburg,Stevens,1,metallic,metallic:2505,Bonanza,"zinc, silver, Lead, copper, Lead (Pb)","Galena, sphalerite",,f,t,t
 1137,Botts,metallic,48.7361,-117.8731,metallic,0,Northport,Stevens,1,metallic,metallic:2506,Botts,"silver, Lead, Lead (Pb)",Argentiferous galena,,f,,
 1138,Bullion,metallic,48.887853,-117.907119,metallic,0,Northport,Stevens,1,metallic,metallic:2507,Bullion,"zinc, silver, Lead, gold, copper, Lead (Pb)","chalcopyrite, bornite, galena, Sphalerite",,f,t,t
-1139,Cast Steel,metallic,48.9069,-117.7472,metallic,0,Northport,Stevens,1,metallic,metallic:2508,"Cast Steel | Casteel
-","silver, Lead, Lead (Pb)",,,f,t,
+1139,Cast Steel,metallic,48.9069,-117.7472,metallic,0,Northport,Stevens,1,metallic,metallic:2508,Cast Steel | Casteel ,"silver, Lead, Lead (Pb)",,,f,t,
 1140,Chewelah Consolidated,metallic,48.4211,-117.7119,metallic,0,,Stevens,2,arsenic+metallic,metallic:2509 ; arsenic:295,Chewelah Consolidated,"silver, Lead, lead, gold, copper, Lead (Pb)","arsenopyrite, chalcopyrite, Galena, pyrite",,f,,t
 1141,Chloride,metallic,48.1083,-118.2039,metallic,0,,Stevens,2,arsenic+metallic,metallic:2510 ; arsenic:296,Chloride,"silver, Lead, lead, Lead (Pb)","Pyrite, arsenopyrite, galena",,f,,
 1142,Chloride Queen,metallic,48.692253,-117.8574,metallic,0,Bossburg,Stevens,1,metallic,metallic:2511,Colville Queen | Chloride Queen,"zinc, silver, Lead, copper, iron, Lead (Pb)","cerussite, chalcopyrite, Galena, sphalerite",,f,t,t
-1143,Cleveland,iaml,48.116322,-118.023911,metallic,0,Deer Trail; Cedar Canyon,Stevens,3,arsenic+iaml+metallic,iaml:1072 ; metallic:2512 ; arsenic:297,Santa Rita | Cleveland,"Lead (Pb), silver, zinc, Lead, lead, antimony","chalcopyrite, tracked drill) and pipe, Galena, mimetite, sphalerite, valentinite, bindheimite, anglesite, tetrahedrite, cerussite, boulangerite, dozer, machinery (crane, stibnite",,t,t,t
+1143,Cleveland,iaml,48.116322,-118.023911,metallic,0,Deer Trail; Cedar Canyon,Stevens,3,arsenic+iaml+metallic,iaml:1072 ; metallic:2512 ; arsenic:297,Santa Rita | Cleveland,"Lead (Pb), silver, zinc, Lead, lead, antimony","valentinite, bindheimite, anglesite, tetrahedrite, cerussite, boulangerite, stibnite, chalcopyrite, Galena, mimetite, sphalerite",,t,t,t
 1144,Comstock,metallic,48.9992,-117.89,metallic,0,,Stevens,1,metallic,metallic:2513,Comstock | Abe Lincoln,"silver, zinc, Lead, gold, Lead (Pb)",Pyrite,,f,,t
 1145,Copper King,metallic,48.9478,-117.5633,metallic,0,Northport,Stevens,1,metallic,metallic:2514,Copper King,"silver, zinc, Lead, Lead (Pb)","tetrahedrite, Galena, sphalerite",,f,t,
 1146,Copper King,metallic,48.781031,-117.653397,metallic,0,,Stevens,1,metallic,metallic:2515,Copper King | Galena King,"zinc, Lead, gold, iron, Lead (Pb)","Galena, sphalerite",,f,t,
@@ -1152,7 +1151,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 1150,Double Eagle,metallic,48.183925,-117.930947,metallic,0,Chewelah,Stevens,1,metallic,metallic:2519,Double Eagle,"silver, Lead, copper, Lead (Pb)","chalcopyrite, Galena",,f,t,t
 1151,E. M. C.,metallic,48.5525,-118.1047,metallic,0,Kettle Falls,Stevens,1,metallic,metallic:2520,E. M. C.,"silver, Lead, copper, Lead (Pb)","a small amount of chalcopyrite, Galena",,f,,
 1152,Eldorado,metallic,48.9458,-117.5481,metallic,0,Northport,Stevens,1,metallic,metallic:2521,Eldorado,"silver, Lead, Lead (Pb)",,,f,,
-1153,Electric Point,iaml,48.882311,-117.541392,metallic,54,Northport,Stevens,2,iaml+metallic,iaml:1054 ; metallic:2522,Electric Point,"zinc, silver, Lead, copper, Lead (Pb)","anglesite, observed., cerussite, empty, 2 approx 5000gal tanks, Galena, pyromorphite",,t,t,t
+1153,Electric Point,iaml,48.882311,-117.541392,metallic,54,Northport,Stevens,2,iaml+metallic,iaml:1054 ; metallic:2522,Electric Point,"zinc, silver, Lead, copper, Lead (Pb)","anglesite, cerussite, Galena, pyromorphite",,t,t,t
 1154,Elk,metallic,48.885,-117.5325,metallic,0,Northport,Stevens,1,metallic,metallic:2523,Elk,"Lead, Lead (Pb)",,,f,,
 1155,Evergreen,metallic,48.9511,-117.4494,metallic,0,,Stevens,1,metallic,metallic:2525,Evergreen,"zinc, Lead, Lead (Pb)","cerussite, Galena, sphalerite",,f,t,
 1156,Excelsior,metallic,48.9094,-117.7811,metallic,0,Northport,Stevens,1,metallic,metallic:2526,Excelsior,"silver, Lead, Lead (Pb)","Galena, pyrite",,f,,t
@@ -1162,9 +1161,9 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 1160,Galena Hill,metallic,48.8653,-117.9675,metallic,0,Orient,Stevens,1,metallic,metallic:2530,Galena Hill,"Lead, Lead (Pb)",Galena,,f,,
 1161,Galena Hill,metallic,48.918131,-118.202369,metallic,0,Orient,Stevens,1,metallic,metallic:2531,Kettle River | Bliss | Galena Hill,"silver, zinc, Lead, copper, Lead (Pb)","chalcopyrite, Galena, sphalerite",,f,t,
 1162,Galena Knob,metallic,48.696139,-117.763583,metallic,0,Northport,Stevens,1,metallic,metallic:2532,Galena Knob,"silver, Lead, Lead (Pb)","cerussite, lead oxides, Galena",,f,t,t
-1163,Gladstone,iaml,48.886844,-117.543114,metallic,56,Northport,Stevens,2,iaml+metallic,iaml:1098 ; metallic:2533,Gladstone,"zinc, silver, Lead, copper, Lead (Pb)","anglesite, none observed, cerussite, Galena, pyromorphite",,t,t,t
+1163,Gladstone,iaml,48.886844,-117.543114,metallic,56,Northport,Stevens,2,iaml+metallic,iaml:1098 ; metallic:2533,Gladstone,"zinc, silver, Lead, copper, Lead (Pb)","anglesite, cerussite, Galena, pyromorphite",,t,t,t
 1164,Great Northern,metallic,48.8972,-117.5661,metallic,0,Northport,Stevens,1,metallic,metallic:2534,Great Northern,"Lead, Lead (Pb)",,,f,,
-1165,Great Western,iaml,48.868444,-117.696758,metallic,0,Northport,Stevens,2,iaml+metallic,iaml:1059 ; metallic:2535,Great Western,"zinc, Lead, Lead (Pb)","none, cerussite, smithsonite, Galena, sphalerite",,t,t,t
+1165,Great Western,iaml,48.868444,-117.696758,metallic,0,Northport,Stevens,2,iaml+metallic,iaml:1059 ; metallic:2535,Great Western,"zinc, Lead, Lead (Pb)","cerussite, smithsonite, Galena, sphalerite",,t,t,t
 1166,Ham,metallic,48.4064,-117.9325,metallic,0,,Stevens,1,metallic,metallic:2536,Steel Galena | Iron Cap | Ham,"silver, Lead, gold, Lead (Pb)",Galena,,f,t,t
 1167,Hartbauer,metallic,48.9206,-117.5914,metallic,0,Northport,Stevens,1,metallic,metallic:2537,Hartbauer,"zinc, silver, Lead, Lead (Pb)",,,f,,
 1168,Helena Johnson,metallic,48.8722,-117.7083,metallic,0,Northport,Stevens,1,metallic,metallic:2538,Helena Johnson,"silver, zinc, Lead, Lead (Pb)",,,f,,
@@ -1174,7 +1173,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 1172,Ibex,metallic,48.7258,-117.81,metallic,0,Northport,Stevens,1,metallic,metallic:2543,Ibex,"silver, Lead, Lead (Pb)",Galena (reportedly argentiferous),,f,,
 1173,Just Time,metallic,48.9744,-117.4836,metallic,0,Northport,Stevens,1,metallic,metallic:2544,Just Time | Star,"silver, zinc, Lead, Lead (Pb)","Galena, sphalerite, pyrite",,f,,
 1174,Keough,metallic,48.9783,-117.4547,metallic,0,Northport,Stevens,1,metallic,metallic:2545,Keough,"zinc, Lead, gold, copper, Lead (Pb)","tetrahedrite, reportedly free gold, Galena, sphalerite",,f,,
-1175,Last Chance,iaml,48.866533,-117.698997,metallic,0,Northport,Stevens,2,iaml+metallic,iaml:1058 ; metallic:2547,Last Chance | Jupiter,"silver, zinc, Lead, Lead (Pb)","anglesite, none, cerussite, Galena, sphalerite",,t,t,t
+1175,Last Chance,iaml,48.866533,-117.698997,metallic,0,Northport,Stevens,2,iaml+metallic,iaml:1058 ; metallic:2547,Last Chance | Jupiter,"silver, zinc, Lead, Lead (Pb)","anglesite, cerussite, Galena, sphalerite",,t,t,t
 1176,Lead King,metallic,48.8958,-117.5636,metallic,0,Northport,Stevens,1,metallic,metallic:2548,Lead King,"silver, zinc, Lead, Lead (Pb)","cerussite, limonite, Galena, sphalerite",,f,,
 1177,Lead Trust,metallic,48.897244,-117.558767,metallic,0,,Stevens,1,metallic,metallic:2549,Lead Trust,"Lead, Lead (Pb)","cerussite, Galena",,f,t,
 1178,Leadhill,metallic,48.9665897482875,-117.496063950881,metallic,0,Northport,Stevens,1,metallic,metallic:2550,Leadhill,"Lead, Lead (Pb)",,,f,t,
@@ -1229,7 +1228,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 1227,Treadwell,metallic,48.9014,-117.5694,metallic,0,,Stevens,1,metallic,metallic:2605,Treadwell | Monumental,"Lead, Lead (Pb)","Galena, pyrite",,f,t,
 1228,Uncle Sam,metallic,48.732675,-117.876108,metallic,0,Northport,Stevens,1,metallic,metallic:2607,Hi Cliff | Uncle Sam | Surprise | Eureka,"silver, zinc, Lead, Lead (Pb)","cerussite, smithsonite, Galena, sphalerite",,f,t,t
 1229,Wellington,metallic,48.5706842997453,-120.426098695942,metallic,0,,Stevens,1,metallic,metallic:2608,Wellington,"silver, Lead, Lead (Pb)","siderite, Cerussite",,f,,t
-1230,Wildcat,iaml,48.8917,-117.55,metallic,157,Northport,Stevens,2,iaml+metallic,iaml:1087 ; metallic:2609,Wildcat | Boucher,"Lead, Lead (Pb)",none,,t,t,
+1230,Wildcat,iaml,48.8917,-117.55,metallic,157,Northport,Stevens,2,iaml+metallic,iaml:1087 ; metallic:2609,Wildcat | Boucher,"Lead, Lead (Pb)",,,t,t,
 1231,Wilkie Lode,metallic,48.3153,-117.6381,metallic,0,Chewelah,Stevens,1,metallic,metallic:2610,Wilkie Lode,"silver, Lead, copper, Lead (Pb)",,,f,,t
 1232,Winslow,metallic,48.3297,-117.5953,metallic,0,Chewelah,Stevens,1,metallic,metallic:2611,Winslow,"silver, zinc, Lead, gold, copper, Lead (Pb)","chalcopyrite, Galena, sphalerite, pyrite",,f,,t
 1233,Young,metallic,48.8508,-117.6222,metallic,0,,Stevens,1,metallic,metallic:2612,Young,"zinc, Lead, Lead (Pb)","Galena, sphalerite",,f,,
@@ -1249,8 +1248,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 1247,Broken Shovel,metallic,47.9817,-123.4825,metallic,0,,Clallam,1,metallic,metallic:2626,Broken Shovel,"Manganese, Manganese (Mn)",,,f,,t
 1248,Cedar,metallic,48.0486,-123.6889,metallic,0,,Clallam,1,metallic,metallic:2627,Cedar,"Manganese, Manganese (Mn)",,,f,,t
 1249,Chappie,metallic,47.9981,-123.5119,metallic,0,,Clallam,1,metallic,metallic:2628,Chappie,"Manganese, Manganese (Mn)",Predominantly bementite,,f,,t
-1250,Charles A.,metallic,48.0767,-123.9128,metallic,0,,Clallam,1,metallic,metallic:2629,"Charles A. | Fairhome Maganese Claims
-","Manganese, Manganese (Mn)",,,f,t,
+1250,Charles A.,metallic,48.0767,-123.9128,metallic,0,,Clallam,1,metallic,metallic:2629,Charles A. | Fairhome Maganese Claim ,"Manganese, Manganese (Mn)",,,f,t,
 1251,Charles G.,metallic,48.0769,-123.9125,metallic,0,,Clallam,1,metallic,metallic:2630,Fairhome Maganese Claims | Charles G.,"Manganese, Manganese (Mn)",,,f,,
 1252,Clallam,metallic,48.0737679689543,-124.133866582543,metallic,0,,Clallam,1,metallic,metallic:2631,Clallam,"Manganese, Manganese (Mn)","neotocite, Bementite, hausmannite, cinnabar",,f,,t
 1253,Crescent,metallic,48.077222,-123.9425,metallic,0,,Clallam,1,metallic,metallic:2632,Crescent,"copper, iron, Manganese (Mn), phosphorus, zinc, sulfer, mercury, Manganese","cinnabar, bementite, braunite, Hausmannite, native copper, neotocite",,f,t,t
@@ -1293,7 +1291,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 1290,Riverside,metallic,48.0711,-124.1181,metallic,0,,Clallam,1,metallic,metallic:2669,Riverside,"Manganese, Manganese (Mn)",,,f,,
 1291,Royal,metallic,48.2042,-124.4833,metallic,0,,Clallam,2,mercury+metallic,metallic:2670 ; mercury:385,Royal,"manganese, Manganese, Manganese (Mn)","free mercury, cinnabar, Bementite",,f,,
 1292,Seattle,metallic,48.0767,-124.1236,metallic,0,,Clallam,1,metallic,metallic:2671,Seattle,"Manganese, Manganese (Mn)",Bementite,,f,,t
-1293,Section 23,metallic,48.0807742218439,-124.081264794763,metallic,0,,Clallam,1,metallic,metallic:2672,Section 23,"Manganese (Mn), Manganese",Bementite,,f,,
+1293,Section 23,metallic,48.0807742218439,-124.081264794763,metallic,0,,Clallam,1,metallic,metallic:2672,Section 23,"Manganese, Manganese (Mn)",Bementite,,f,,
 1294,Sekiu River,metallic,48.2394,-124.4806,metallic,0,,Clallam,2,mercury+metallic,metallic:2673 ; mercury:384,Sekiu River,"manganese, mercury, Manganese, Manganese (Mn)","manganese silicates, Cinnabar, free mercury, oxides",,f,,
 1295,Skookum,metallic,48.0069,-123.4972,metallic,0,,Clallam,1,metallic,metallic:2674,Skookum,"Manganese, Manganese (Mn)","some hausmannite, neotocite, Bementite",,f,,t
 1296,St. Regis,metallic,48.0842,-124.0117,metallic,0,,Clallam,1,metallic,metallic:2675,St. Regis,"Manganese, Manganese (Mn)","cinnabar, Bementite",,f,,t
@@ -1691,7 +1689,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 1688,Sharp & Balthus,metallic,48.3794,-118.885,metallic,0,,Okanogan,1,metallic,metallic:3393,Sharp & Balthus,"Zinc (Zn), silver, lead, Zinc","Pyrite, sphalerite, galena",,f,,
 1689,Twin Pine,metallic,48.208375,-119.060347,metallic,0,,Okanogan,1,metallic,metallic:3394,Twin Pine,"Zinc (Zn), silver, Zinc, gold, copper, iron","azurite, bornite, sphalerite, scheelite, hematite, molybdenite?, malachite, Magnetite, chalcocite, chalcopyrite",,f,t,t
 1690,Ace Ten Spot,metallic,48.8514,-117.3986,metallic,0,Metaline,Pend Oreille,1,metallic,metallic:3395,Ace Ten Spot,"Zinc (Zn), lead, Zinc",,,f,,
-1691,Bella May,iaml,48.848144,-117.404508,metallic,0,Metaline,Pend Oreille,3,iaml+metallic+radon,iaml:1037 ; metallic:3396 ; radon:489,Blue Bucket | Metaline | West Contact | Bella May | Kroll,"Zinc (Zn), zinc, silver, lead, Zinc, cadmium","none, uranium mineral, galena, Sphalerite",,t,t,t
+1691,Bella May,iaml,48.848144,-117.404508,metallic,0,Metaline,Pend Oreille,3,iaml+metallic+radon,iaml:1037 ; metallic:3396 ; radon:489,Blue Bucket | Metaline | West Contact | Bella May | Kroll,"Zinc (Zn), zinc, silver, lead, Zinc, cadmium","uranium mineral, galena, Sphalerite",,t,t,t
 1692,Blue Bucket,iaml,48.843769,-117.398239,metallic,0,Metaline,Pend Oreille,2,iaml+metallic,iaml:1036 ; metallic:3397,Blue Bucket | Metaline | West Contact | Bella May | Kroll,"Zinc (Zn), silver, lead, Zinc","cerussite, smithsonite, galena, Sphalerite",,t,t,t
 1693,Bob Tail and Four Flush,metallic,48.8681,-117.3986,metallic,0,Metaline,Pend Oreille,1,metallic,metallic:3398,Bob Tail and Four Flush | Bob Tail | Four Flush,"Zinc (Zn), lead, Zinc",,,f,,
 1694,Cedar Creek,metallic,48.7972,-117.4489,metallic,0,,Pend Oreille,1,metallic,metallic:3399,Cedar Creek,"Zinc (Zn), Zinc",Sphalerite,,f,,
@@ -1719,7 +1717,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 1716,Lucky Strike,metallic,48.930486,-117.330925,metallic,0,Metaline,Pend Oreille,1,metallic,metallic:3422,Lucky Strike | Buzzell,"Zinc (Zn), lead, Zinc, iron","limonite, smithsonite, chalcopyrite, pyrite, galena, Sphalerite",,f,t,
 1717,Metaline Contact,metallic,48.8625,-117.3992,metallic,0,Metaline,Pend Oreille,1,metallic,metallic:3423,Metaline Contact,"Zinc (Zn), silver, lead, Zinc","minor pyrite, galena, Sphalerite",,f,,
 1718,Metaline Metals,metallic,48.9028,-117.3442,metallic,0,Metaline,Pend Oreille,1,metallic,metallic:3424,Metaline Metals,"Zinc (Zn), silver, lead, Zinc",,,f,,t
-1719,Metaline Mining and Leasing,iaml,48.842411,-117.389964,metallic,0,Metaline,Pend Oreille,3,iaml+metallic+radon,iaml:1041 ; metallic:3425 ; radon:486,Metaline Mining and Leasing | Blue Bucket | Metaline Mining & Leasing Co. | West Contact | Bella May | Kroll,"Zinc (Zn), zinc, silver, lead, Zinc","some 2"" pipe, some 6"" pipe, unidentified uranium mineral, marcasite, pyrite, galena, Sphalerite",,t,t,t
+1719,Metaline Mining and Leasing,iaml,48.842411,-117.389964,metallic,0,Metaline,Pend Oreille,3,iaml+metallic+radon,iaml:1041 ; metallic:3425 ; radon:486,Metaline Mining and Leasing | Blue Bucket | Metaline Mining & Leasing Co. | West Contact | Bella May | Kroll,"Zinc (Zn), zinc, silver, lead, Zinc","unidentified uranium mineral, marcasite, pyrite, galena, Sphalerite",,t,t,t
 1720,Ore Hill,metallic,48.8375,-117.3661,metallic,0,Metaline,Pend Oreille,1,metallic,metallic:3426,Ore Hill,"Zinc (Zn), lead, Zinc",,,f,,
 1721,Oriole,metallic,48.860192,-117.412894,metallic,0,Metaline,Pend Oreille,1,metallic,metallic:3427,Oriole,"Zinc (Zn), silver, lead, Zinc, gold, copper","tetrahedrite, cerussite, smithsonite, chalcopyrite, bornite, azurite, galena, Sphalerite",,f,t,t
 1722,Pacnor Mines,metallic,48.9930637577707,-117.415953322645,metallic,0,,Pend Oreille,1,metallic,metallic:3428,Pacnor Mines,"Zinc (Zn), lead, Zinc",,,f,,
@@ -1746,7 +1744,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 1743,S.M.P.,metallic,47.9497,-121.4528,metallic,0,Silver Creek,Snohomish,1,metallic,metallic:3449,S.M.P.,"Zinc (Zn), Zinc, gold, copper",,,f,,
 1744,Whitehorse,metallic,48.239492980655,-121.688522189845,metallic,0,,Snohomish,1,metallic,metallic:3450,Whitehorse,"Zinc (Zn), silver, lead, Zinc, gold, copper","chalcopyrite, galena, Sphalerite",,f,,t
 1745,A. Anderson,metallic,48.9207287049828,-117.609365842069,metallic,0,Northport,Stevens,1,metallic,metallic:3451,A. Anderson,"Zinc (Zn), nickel, lead, Zinc","galena, Sphalerite",,f,,
-1746,Admiral consolidated,iaml,48.928353,-117.574614,metallic,0,Northport,Stevens,2,iaml+metallic,iaml:1056 ; metallic:3452,Admiral Consolidated | Admiral consolidated,"Zinc (Zn), silver, lead, Zinc, cadmium","none observed, galena, Sphalerite",,t,t,t
+1746,Admiral consolidated,iaml,48.928353,-117.574614,metallic,0,Northport,Stevens,2,iaml+metallic,iaml:1056 ; metallic:3452,Admiral Consolidated | Admiral consolidated,"Zinc (Zn), silver, lead, Zinc, cadmium","galena, Sphalerite",,t,t,t
 1747,Advance,metallic,48.8878,-117.6717,metallic,0,Northport,Stevens,1,metallic,metallic:3453,Advance,"Zinc (Zn), silver, lead, Zinc, gold","galena, Sphalerite",,f,,t
 1748,Anderson,metallic,48.919367,-117.591289,metallic,0,,Stevens,1,metallic,metallic:3454,Calhoun | Anderson,"Zinc (Zn), lead, Zinc","galena, Sphalerite",,f,t,t
 1749,Black Rock,iaml,48.870403,-117.706144,metallic,0,Northport,Stevens,2,iaml+metallic,iaml:1062 ; metallic:3455,Washington Black Rock | Gorien Zinc | Black Rock,"Zinc (Zn), lead, Zinc","smithsonite, galena, Sphalerite",,t,t,t
@@ -1761,7 +1759,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 1758,Flat Creek,metallic,48.9114,-117.9906,metallic,0,,Stevens,1,metallic,metallic:3464,Flat Creek,"Zinc (Zn), lead, Zinc","galena, Sphalerite",,f,,
 1759,Heritage,metallic,48.8975,-117.8553,metallic,0,Northport,Stevens,1,metallic,metallic:3465,Heritage,"Zinc (Zn), tungsten, Zinc","Sphalerite, scheelite",,f,,
 1760,Iron Mask,metallic,48.9372,-118.1825,metallic,0,Orient,Stevens,1,metallic,metallic:3466,Treadwell | Iron Mask,"Zinc (Zn), silver, lead, Zinc, gold, copper","Pyrite, chalcopyrite, pyrrhotite",,f,,t
-1761,Iroquois,iaml,48.951672,-117.539678,metallic,0,Northport,Stevens,2,iaml+metallic,iaml:1061 ; metallic:3467,Black Bear | Iroquois | Columbia | Flannigan | Prosperity | Brown Bear | Iroquois No. 1-19 | Progress | Molly Gibson | Columbia Extension,"Zinc (Zn), silver, lead, Zinc, gold","none, cerussite, smithsonite, chalcopyrite, Galena, sphalerite",,t,t,t
+1761,Iroquois,iaml,48.951672,-117.539678,metallic,0,Northport,Stevens,2,iaml+metallic,iaml:1061 ; metallic:3467,Black Bear | Iroquois | Columbia | Flannigan | Prosperity | Brown Bear | Iroquois No. 1-19 | Progress | Molly Gibson | Columbia Extension,"Zinc (Zn), silver, lead, Zinc, gold","cerussite, smithsonite, chalcopyrite, Galena, sphalerite",,t,t,t
 1762,Jackson,metallic,48.959931,-117.568872,metallic,0,Northport,Stevens,1,metallic,metallic:3468,Jackson | Hunter,"Zinc (Zn), silver, lead, Zinc, copper","Chalcopyrite, sphalerite, galena",,f,t,
 1763,Joe Creek,metallic,48.6425,-117.7722,metallic,0,,Stevens,1,metallic,metallic:3469,Joe Creek,"Zinc (Zn), lead, Zinc",,,f,,
 1764,Lucile,metallic,48.9503,-117.5533,metallic,0,,Stevens,1,metallic,metallic:3470,Lucile | Boundary Silver Lead | Owen,"Zinc (Zn), silver, lead, Zinc, cadmium","tetrahedrite, cerussite, Galena, sphalerite, scheelite",,f,t,t
@@ -1774,7 +1772,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 1771,Pomeroy,metallic,48.9544,-118.0875,metallic,0,Orient,Stevens,1,metallic,metallic:3477,Pomeroy,"Zinc (Zn), silver, lead, Zinc, antimony, gold, copper","boulangerite, chalcopyrite, Mostly sphalerite, bornite, galena, some pyrite",,f,,t
 1772,Scandia,metallic,48.875842,-117.718931,metallic,0,,Stevens,1,metallic,metallic:3478,Scandia,"Zinc (Zn), silver, lead, Zinc, gold","galena, Sphalerite",,f,t,t
 1773,Shoemaker,metallic,48.627314,-117.785325,metallic,0,,Stevens,1,metallic,metallic:3479,Shoemaker,"Zinc (Zn), silver, Zinc","galena, Sphalerite",,f,t,t
-1774,Sierra Zinc,iaml,48.77445,-117.66835,metallic,0,Northport,Stevens,2,iaml+metallic,iaml:1073 ; metallic:3480,Sierra Zinc | Blue Ridge | Aladdin,"Zinc (Zn), silver, lead, Zinc, gold","molybdenite, smithsonite, chalcopyrite, asbestos piping, galena, Sphalerite",,t,t,t
+1774,Sierra Zinc,iaml,48.77445,-117.66835,metallic,0,Northport,Stevens,2,iaml+metallic,iaml:1073 ; metallic:3480,Sierra Zinc | Blue Ridge | Aladdin,"Zinc (Zn), silver, lead, Zinc, gold","molybdenite, smithsonite, chalcopyrite, galena, Sphalerite",,t,t,t
 1775,Van Stone,metallic,48.760608,-117.756558,metallic,0,Northport,Stevens,1,metallic,metallic:3481,Van Stone,"Zinc (Zn), lead, Zinc, cadmium","galena, Sphalerite",,f,t,t
 1776,Young America,iaml,48.758636,-118.033492,metallic,0,Bossburg,Stevens,2,iaml+metallic,iaml:1064 ; metallic:3482,Young America | Robena,"Zinc (Zn), silver, lead, Zinc, gold, copper","stannite, cerussite, smithsonite, cervantite, geocronite, galena, Sphalerite",,t,t,t
 1777,Chain Lakes,metallic,48.8597,-121.7264,metallic,0,,Whatcom,1,metallic,metallic:3483,Chain Lakes,"Zinc (Zn), silver, Zinc, gold, copper","chalcopyrite, bornite, pyrite, Sphalerite",,f,,t
@@ -1783,7 +1781,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 1780,Tenderfoot,metallic,48.688236,-117.855542,metallic,0,Orient,Stevens,1,metallic,metallic:3845,Tenderfoot,"zinc, Lead, Lead (Pb), silver, copper, iron","anglesite, wulfenite, cerussite, Galena, calamine, azurite",,f,,
 1781,Herem-Moore,metallic,47.947675,-117.207644,metallic,0,,Spokane,2,metallic+radon,metallic:3863 ; radon:477,Herem-Moore | Bear Creek uranium,"Uranium (U), Uranium, uranium",Meta-autunite,,f,,
 1782,Huffman,metallic,47.950131,-117.179719,metallic,0,,Spokane,2,metallic+radon,metallic:3864 ; radon:478,North Star Uranium | Huffman,"Uranium (U), Uranium, uranium",Autunite,,f,,
-1783,Daybreak,iaml,47.943978,-117.196869,metallic,0,Mt. Spokane,Spokane,3,iaml+metallic+radon,iaml:1075 ; metallic:3865 ; radon:479,Daybreak,"Uranium (U), Uranium, uranium","none, uraninite, Meta-autunite",,t,t,
+1783,Daybreak,iaml,47.943978,-117.196869,metallic,0,Mt. Spokane,Spokane,3,iaml+metallic+radon,iaml:1075 ; metallic:3865 ; radon:479,Daybreak,"Uranium (U), Uranium, uranium","uraninite, Meta-autunite",,t,t,
 1784,C. I. Smith,metallic,47.923342,-117.186086,metallic,0,Mount Spokane area,Spokane,2,metallic+radon,metallic:3866 ; radon:480,Smith | C. I. Smith | Painted Desert,"Uranium (U), Uranium, uranium",Autunite,,f,,
 1785,Mount Tolman,metallic,48.056872,-118.692092,metallic,0,Sanpoil Keller,Ferry,1,metallic,metallic:3867,Mount Tolman,"thallium, Molybdenum, silver, Molybdenum (Mo), copper","rutile, sphalerite, copper, galena, scheelite, wolframite, chrysocolla, malachite, Molybdenite, chalcocite, chalcopyrite",,f,,t
 1786,Mazama,metallic,48.614697,-120.382,metallic,0,Mazama,Okanogan,1,metallic,metallic:3870,Mazama | Lesley,"Copper, Copper (Cu)",Chalcopyrite,,f,t,t
@@ -1845,7 +1843,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 1842,Oroville Mining District,metallic,48.9555,-119.545,metallic,0,Oroville,,1,metallic,metallic:4041,Oroville Mining District | Oroville District,"Copper, Copper (Cu)",,,f,,
 1843,Park City Mining District,metallic,48.5084,-119.054,metallic,0,Park City,,1,metallic,metallic:4043,Park City Mining District | Park City District,"Lead, Lead (Pb)",,,f,,
 1844,Railroad Creek Mining District,metallic,48.2177,-120.774,metallic,0,Railroad Creek,,1,metallic,metallic:4044,Railroad Creek Mining District | Railroad Creek District,"Copper, Copper (Cu)",,,f,,
-1845,Copper Key,iaml,48.712806,-118.556278,gold_silver,459,Belcher,Ferry,2,gold_silver+iaml,iaml:1007 ; gold_silver:181,Copper Key,"Gold, silver, Gold (Au), copper, iron","Pyrite, chalcopyrite, no, magnetite, pyrrhotite",,t,t,t
+1845,Copper Key,iaml,48.712806,-118.556278,gold_silver,459,Belcher,Ferry,2,gold_silver+iaml,iaml:1007 ; gold_silver:181,Copper Key,"Gold, silver, Gold (Au), copper, iron","Pyrite, chalcopyrite, magnetite, pyrrhotite",,t,t,t
 1846,Mountain Cedar,gold_silver,48.0003,-121.5439,gold_silver,0,,Snohomish,2,arsenic+gold_silver,gold_silver:581 ; arsenic:153,Paystreak | Mystery | Mountain Cedar,"Gold, Gold (Au), copper",Gold,,f,,t
 1847,Montana and Washington,gold_silver,48.940275,-118.160572,gold_silver,0,Orient,Stevens,1,gold_silver,gold_silver:686,Washington | Montana | Minneapolis | St. Paul | Montana and Washington | Green Frog | Bisbee,"Gold, silver, lead, Gold (Au), copper","Chalcopyrite, bornite, galena",,f,,t
 1848,Platsburg,gold_silver,47.929642,-118.816058,gold_silver,0,Chewelah,Stevens,1,gold_silver,gold_silver:703,Montgomery | Platsburg,"Gold, Gold (Au)",Gold,,f,,
@@ -1970,7 +1968,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 1967,Advance,gold_silver,48.6269,-118.7483,gold_silver,0,Republic,Ferry,1,gold_silver,gold_silver:875,Advance,"Gold, silver, Gold (Au)",,,f,,
 1968,Alpine,gold_silver,48.6706,-118.7592,gold_silver,0,Republic,Ferry,1,gold_silver,gold_silver:876,Alpine,"Gold, silver, Gold (Au)",,,f,,t
 1969,Anecia,gold_silver,48.6597,-118.7744,gold_silver,0,Republic,Ferry,1,gold_silver,gold_silver:877,Anecia,"Gold, silver, Gold (Au)",,,f,t,
-1970,Ben Hur,iaml,48.668936,-118.757828,gold_silver,0,Republic,Ferry,2,gold_silver+iaml,iaml:1100a ; gold_silver:878,Ben Hur,"Gold, silver, Gold (Au)","Gold, no",,t,t,t
+1970,Ben Hur,iaml,48.668936,-118.757828,gold_silver,0,Republic,Ferry,2,gold_silver+iaml,iaml:1100a ; gold_silver:878,Ben Hur,"Gold, silver, Gold (Au)",Gold,,t,t,t
 1971,Black Tail,iaml,48.662492,-118.749547,gold_silver,0,Republic,Ferry,2,gold_silver+iaml,iaml:1100b ; gold_silver:879,Black Tail | Hope,"Gold, silver, Gold (Au)",Gold,,t,t,t
 1972,Bodie,gold_silver,48.6611,-118.7569,gold_silver,0,Republic,Ferry,1,gold_silver,gold_silver:880,Bodie,"Gold, silver, Gold (Au)",,,f,,
 1973,Butte and Boston,gold_silver,48.6303,-118.7492,gold_silver,0,Republic,Ferry,1,gold_silver,gold_silver:881,Butte | Butte and Boston | Boston and Butte | Boston,"Gold, silver, Gold (Au)",,,f,,t
@@ -2003,7 +2001,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 2000,Lone Pine,iaml,48.6637,-118.749167,gold_silver,0,Republic,Ferry,2,gold_silver+iaml,iaml:1100g ; gold_silver:912,Lone Pine,"Gold, silver, Gold (Au)",Gold,,t,t,t
 2001,Mammoth,gold_silver,48.6706317137264,-118.744312950207,gold_silver,0,Republic,Ferry,1,gold_silver,gold_silver:913,Mammoth,"Gold, silver, Gold (Au)",,,f,,
 2002,Morning Glory,gold_silver,48.6556,-118.7636,gold_silver,0,,Ferry,1,gold_silver,gold_silver:915,Old Glory | Morning Glory | Old Gold,"Gold, silver, tellurium, Gold (Au)","Gold, tellurides",,f,t,t
-2003,Morning Star,iaml,48.96095,-118.514719,gold_silver,0,Danville,Ferry,2,gold_silver+iaml,iaml:1023 ; gold_silver:916,Mineral Hill | Virginia | Faithful Surprise | Morning Star | Lucile Dreyfus,"tungsten, Gold, silver, Gold (Au), copper","none, Gold, chalcopyrite, scheelite",,t,t,t
+2003,Morning Star,iaml,48.96095,-118.514719,gold_silver,0,Danville,Ferry,2,gold_silver+iaml,iaml:1023 ; gold_silver:916,Mineral Hill | Virginia | Faithful Surprise | Morning Star | Lucile Dreyfus,"tungsten, Gold, silver, Gold (Au), copper","Gold, chalcopyrite, scheelite",,t,t,t
 2004,Mountain Lion,iaml,48.679767,-118.767358,gold_silver,0,Republic,Ferry,2,gold_silver+iaml,iaml:1096 ; gold_silver:918,Mountain Lion,"Gold, silver, Gold (Au)",Gold,,t,t,t
 2005,Muldoon,gold_silver,48.6658,-118.0033,gold_silver,0,Belcher,Ferry,1,gold_silver,gold_silver:919,Muldoon,"Gold, silver, Gold (Au), copper",,,f,t,
 2006,North San Poil Fraction,gold_silver,48.666694,-118.758717,gold_silver,0,Republic,Ferry,1,gold_silver,gold_silver:920,North San Poil Fraction,"Gold, silver, Gold (Au)",Gold,,f,t,
@@ -2027,7 +2025,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 2024,South Penn,gold_silver,48.690172,-118.755747,gold_silver,0,Republic,Ferry,1,gold_silver,gold_silver:940,South Penn,"Gold, silver, Gold (Au)",Gold,,f,t,t
 2025,Standard and Emma,gold_silver,48.6358,-118.7417,gold_silver,0,Republic,Ferry,1,gold_silver,gold_silver:941,Standard and Emma | Standard | Emma,"Gold, silver, Gold (Au)",,,f,,
 2026,Surprise,gold_silver,48.9727213989896,-118.52487626755,gold_silver,0,,Ferry,1,gold_silver,gold_silver:942,Surprise,"Gold, Gold (Au)",Free gold,,f,t,t
-2027,Surprise,iaml,48.659647,-118.748653,gold_silver,0,Republic,Ferry,2,gold_silver+iaml,iaml:1100c ; gold_silver:943,Surprise,"Gold, silver, Gold (Au)","none, Gold",,t,t,t
+2027,Surprise,iaml,48.659647,-118.748653,gold_silver,0,Republic,Ferry,2,gold_silver+iaml,iaml:1100c ; gold_silver:943,Surprise,"Gold, silver, Gold (Au)",Gold,,t,t,t
 2028,Tom Thumb,gold_silver,48.696075,-118.757086,gold_silver,0,,Ferry,1,gold_silver,gold_silver:944,Tom Thumb,"Gold, silver, Gold (Au)",Gold,,f,t,t
 2029,Trade Dollar,iaml,48.66985,-118.760006,gold_silver,0,Republic,Ferry,2,gold_silver+iaml,iaml:1100j ; gold_silver:945,Trade Dollar,"Gold, silver, Gold (Au)",Gold,,t,t,t
 2030,Truax,gold_silver,48.2561,-118.2578,gold_silver,0,,Ferry,1,gold_silver,gold_silver:946,Truax,"Gold, silver, Gold (Au)",,,f,,
@@ -2037,7 +2035,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 2034,Alberta,gold_silver,48.2579118099663,-117.081730379856,gold_silver,0,Marshall Lake,Garfield,1,gold_silver,gold_silver:951,Alberta,"Gold, Gold (Au)",,,f,t,
 2035,Rustler Creek,gold_silver,47.6292,-123.6189,gold_silver,0,,Jefferson,1,gold_silver,gold_silver:952,Rustler Creek,"Gold, Gold (Au)",,,f,,t
 2036,Aaron,gold_silver,47.7069,-121.4306,gold_silver,0,Money Creek,King,1,gold_silver,gold_silver:953,Aaron,"Gold, Gold (Au)",,,f,,
-2037,Apex,iaml,47.695,-121.512258,gold_silver,0,Miller River; Money Creek,King,3,arsenic+gold_silver+iaml,iaml:1025 ; gold_silver:954 ; arsenic:191,Bondholders Syndicate | Apex,"Gold, silver, lead, Gold (Au), gold, copper","tetrahedrite, minor amounts of scrap steel, stibnite?, Chalcopyrite, nuts and bolts, sphalerite, galena",,t,t,t
+2037,Apex,iaml,47.695,-121.512258,gold_silver,0,Miller River; Money Creek,King,3,arsenic+gold_silver+iaml,iaml:1025 ; gold_silver:954 ; arsenic:191,Bondholders Syndicate | Apex,"Gold, silver, lead, Gold (Au), gold, copper","tetrahedrite, stibnite?, Chalcopyrite, sphalerite, galena",,t,t,t
 2038,Arizona and Washington,gold_silver,47.6607200816804,-121.487251963787,gold_silver,0,Buena Vista,King,1,gold_silver,gold_silver:955,Washington | Arizona | Arizona and Washington,"Gold, Gold (Au), copper",,,f,,
 2039,Beatrice,gold_silver,47.7,-121.4292,gold_silver,0,Money Creek,King,1,gold_silver,gold_silver:956,Beatrice,"Gold, Gold (Au)",,,f,,
 2040,Beaverdale,gold_silver,47.6608,-121.5467,gold_silver,0,,King,2,arsenic+gold_silver,gold_silver:957 ; arsenic:192,Beaverdale,"Gold, Gold (Au), gold","Pyrite, arsenopyrite",,f,,t
@@ -2178,7 +2176,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 2175,Iron Crown,gold_silver,47.7848295007312,-118.05741973164,gold_silver,0,,Lincoln,1,gold_silver,gold_silver:1122,Iron Crown,"Gold, Gold (Au), copper",,,f,,
 2176,Adelia,gold_silver,48.873347,-119.566739,gold_silver,0,,Okanogan,1,gold_silver,gold_silver:1123,Adelia,"Gold, silver, Gold (Au)",Gold,,f,t,
 2177,Adirondack,gold_silver,48.9603,-119.5614,gold_silver,0,,Okanogan,1,gold_silver,gold_silver:1124,Adirondack,"Gold, Gold (Au)",,,f,,t
-2178,Alder,iaml,48.322072,-120.157978,gold_silver,0,Twisp,Okanogan,2,gold_silver+iaml,iaml:1030 ; gold_silver:1125,Alder,"zinc, Gold, silver, Gold (Au), copper","malachite, chalcocite, Chalcopyrite, minor amounts of rusted steel, azurite, gold, sphalerite, copper, galena",,t,t,t
+2178,Alder,iaml,48.322072,-120.157978,gold_silver,0,Twisp,Okanogan,2,gold_silver+iaml,iaml:1030 ; gold_silver:1125,Alder,"zinc, Gold, silver, Gold (Au), copper","malachite, chalcocite, Chalcopyrite, azurite, gold, sphalerite, copper, galena",,t,t,t
 2179,Alice,gold_silver,48.8364,-119.6278,gold_silver,0,,Okanogan,1,gold_silver,gold_silver:1126,Alice,"Gold, Gold (Au)",,,f,,
 2180,American Girl,gold_silver,48.9406,-118.9828,gold_silver,0,Myers Creek,Okanogan,1,gold_silver,gold_silver:1128,American Girl,"Gold, Gold (Au)",,,f,t,
 2181,American Graphite,gold_silver,48.4182245166843,-119.160129674835,gold_silver,0,,Okanogan,1,gold_silver,gold_silver:1129,American Graphite,"Graphite with some gold, Gold (Au), arsenic","molybdenite, Graphite",,f,,t
@@ -2196,7 +2194,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 2193,Black Jack,gold_silver,48.1428,-120.1114,gold_silver,0,Squaw Creek,Okanogan,1,gold_silver,gold_silver:1143,Black Jack,"Gold, silver, Gold (Au), copper",Chalcopyrite,,f,,
 2194,Black Warrior,gold_silver,48.9614,-119.4525,gold_silver,0,Oroville,Okanogan,1,gold_silver,gold_silver:1144,Black Warrior,"Gold, silver, lead, Gold (Au), copper","Pyrite, chalcopyrite, galena",,f,,
 2195,Blanche,gold_silver,48.9861,-119.5519,gold_silver,0,,Okanogan,1,gold_silver,gold_silver:1145,Blanche,"Gold, silver, Gold (Au)",,,f,,t
-2196,Bodie,iaml,48.830569,-118.890553,gold_silver,0,Wauconda,Okanogan,2,gold_silver+iaml,iaml:1028 ; gold_silver:1146,Northern Gold | Bodie,"Gold, silver, Gold (Au)","none, Gold, chalcopyrite",,t,t,t
+2196,Bodie,iaml,48.830569,-118.890553,gold_silver,0,Wauconda,Okanogan,2,gold_silver+iaml,iaml:1028 ; gold_silver:1146,Northern Gold | Bodie,"Gold, silver, Gold (Au)","Gold, chalcopyrite",,t,t,t
 2197,Bolinger,gold_silver,48.1547,-120.1525,gold_silver,0,,Okanogan,2,arsenic+gold_silver,gold_silver:1147 ; arsenic:208,Bolinger,"Gold, silver, Gold (Au), gold","Arsenopyrite, chalcopyrite, pyrite, galena",,f,,t
 2198,Brown Bear,gold_silver,48.7001767128748,-120.677731807931,gold_silver,0,,Okanogan,1,gold_silver,gold_silver:1149,Brown Bear | Bonanza Chief,"Gold, Gold (Au)",,,f,,t
 2199,Bullfrog,gold_silver,48.916228,-119.574819,gold_silver,0,Palmer Mtn,Okanogan,1,gold_silver,gold_silver:1150,Bullfrog,"Gold, silver, Gold (Au)","pyrite, Black metallic sulfide",,f,t,t
@@ -2617,14 +2615,14 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 2614,Alphretta,gold_silver,48.7514,-120.6986,gold_silver,0,,Whatcom,1,gold_silver,gold_silver:1631,Alphretta,"Gold, Gold (Au)",,,f,,
 2615,Anacortes,gold_silver,48.775583,-120.824758,gold_silver,0,Slate Creek,Whatcom,1,gold_silver,gold_silver:1632,Anacortes,"zinc, Gold, silver, lead, tellurium, Gold (Au)","Gold, tellurides, sphalerite, galena",,f,t,t
 2616,Anoka,gold_silver,48.7226132561892,-120.833520396411,gold_silver,0,Slate Creek,Whatcom,1,gold_silver,gold_silver:1633,Anoka,"Gold, Gold (Au)",,,f,t,t
-2617,Azurite,iaml,48.682758,-120.781061,gold_silver,44,Slate Creek,Whatcom,2,gold_silver+iaml,iaml:1076 ; gold_silver:1634,Azurite,"zinc, Gold, silver, lead, Gold (Au), copper","tools, some rusted steel scrap, Chalcopyrite, gold, tanks., sphalerite, galena",,t,t,t
+2617,Azurite,iaml,48.682758,-120.781061,gold_silver,44,Slate Creek,Whatcom,2,gold_silver+iaml,iaml:1076 ; gold_silver:1634,Azurite,"zinc, Gold, silver, lead, Gold (Au), copper","Chalcopyrite, gold, sphalerite, galena",,t,t,t
 2618,B. C. & M.,gold_silver,48.6869,-120.8894,gold_silver,0,,Whatcom,1,gold_silver,gold_silver:1635,B. C. & M.,"Gold, silver, Gold (Au)",,,f,,
 2619,Baltimore,gold_silver,48.7642,-120.7372,gold_silver,0,Slate Creek,Whatcom,1,gold_silver,gold_silver:1636,Baltimore,"zinc, Gold, lead, Gold (Au)","sphalerite, galena, pyrite, Free gold",,f,,t
 2620,Beck and Short Grub,gold_silver,48.7536,-120.6958,gold_silver,0,Slate Creek,Whatcom,1,gold_silver,gold_silver:1637,Short Grub | Beck and Short Grub | Beck,"Gold, silver, Gold (Au), copper",,,f,,t
 2621,Bird and Saw Pits,gold_silver,48.7567,-120.7167,gold_silver,0,Slate Creek,Whatcom,1,gold_silver,gold_silver:1638,Bird and Saw Pits | Saw Pit | Bird Pit,"Gold, Gold (Au)",,,f,,
 2622,Bismarck,gold_silver,48.7403,-120.7167,gold_silver,0,Slate Creek,Whatcom,1,gold_silver,gold_silver:1639,Bismarck,"Gold, silver, Gold (Au), copper",,,f,,
 2623,Blonden,gold_silver,48.940542,-121.643108,gold_silver,0,,Whatcom,1,gold_silver,gold_silver:1640,Evergreen | Blonden | Goat Mountain,"Gold, silver, Gold (Au)",Gold,,f,,
-2624,Boundary Red Mountain,iaml,48.995217,-121.630314,gold_silver,120,Mount Baker,Whatcom,2,gold_silver+iaml,iaml:1077 ; gold_silver:1641,Red Mountain | Boundary Red Mountain,"Gold, silver, tellurium, Gold (Au), bismuth, copper","Gold, chalcopyrite, gold, tellurobismuthite, A few ladders stored in 500 level adit.",,t,t,t
+2624,Boundary Red Mountain,iaml,48.995217,-121.630314,gold_silver,120,Mount Baker,Whatcom,2,gold_silver+iaml,iaml:1077 ; gold_silver:1641,Red Mountain | Boundary Red Mountain,"Gold, silver, tellurium, Gold (Au), bismuth, copper","Gold, chalcopyrite, gold, tellurobismuthite",,t,t,t
 2625,Casa Grande,gold_silver,48.7467,-120.7203,gold_silver,0,Slate Creek,Whatcom,1,gold_silver,gold_silver:1642,Casa Grande,"Gold, Gold (Au)",,,f,,
 2626,Chancellor,gold_silver,48.756589,-120.701742,gold_silver,0,Mount Baker,Whatcom,2,arsenic+gold_silver,gold_silver:1643 ; arsenic:267,Grandview | Illinois | Indiana | Chancellor,"zinc, Gold, silver, lead, Gold (Au), gold, copper","Galena, sphalerite",,f,t,t
 2627,Crown Point,gold_silver,48.7706843741163,-120.754084682937,gold_silver,0,Slate Creek,Whatcom,1,gold_silver,gold_silver:1644,Crown Point,"Gold, silver, Gold (Au)",,,f,,
@@ -2640,14 +2638,14 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 2637,Gold Run,gold_silver,48.9811667658985,-121.656940464418,gold_silver,0,,Whatcom,1,gold_silver,gold_silver:1655,Gold Run,"Gold, silver, Gold (Au), copper",,,f,t,
 2638,Gold Standard,gold_silver,48.9556,-121.6444,gold_silver,0,,Whatcom,1,gold_silver,gold_silver:1656,Gold Standard,"Gold, Gold (Au)",,,f,,
 2639,Granite,gold_silver,48.7072,-120.9169,gold_silver,0,Slate Creek,Whatcom,1,gold_silver,gold_silver:1657,Granite,"Gold, Gold (Au)",,,f,,
-2640,Great Excelsior,iaml,48.899014,-121.804831,gold_silver,0,Mount Baker,Whatcom,3,arsenic+gold_silver+iaml,iaml:1078 ; gold_silver:1658 ; arsenic:268,Lincoln | Excelsior | Great Excelsior | President | Wells Creek,"zinc, Gold, silver, lead, Gold (Au), antimony, gold, copper","tetrahedrite, silver, thickwalled steel pipe (drill casing), tellurides, Chalcopyrite, several lengths of 8 inch, sphalerite, galena",,t,t,t
+2640,Great Excelsior,iaml,48.899014,-121.804831,gold_silver,0,Mount Baker,Whatcom,3,arsenic+gold_silver+iaml,iaml:1078 ; gold_silver:1658 ; arsenic:268,Lincoln | Excelsior | Great Excelsior | President | Wells Creek,"zinc, Gold, silver, lead, Gold (Au), antimony, gold, copper","tetrahedrite, silver, tellurides, Chalcopyrite, sphalerite, galena",,t,t,t
 2641,Henrietta,gold_silver,48.8991932404926,-121.808744328472,gold_silver,0,,Whatcom,1,gold_silver,gold_silver:1659,Henrietta,"Gold, Gold (Au)",,,f,,
 2642,Homestake,gold_silver,48.7708,-120.7269,gold_silver,0,Slate Creek,Whatcom,1,gold_silver,gold_silver:1661,Homestake,"Gold, Gold (Au)",,,f,,
 2643,Hoosier,gold_silver,48.8969697359987,-121.807101883538,gold_silver,0,,Whatcom,1,gold_silver,gold_silver:1662,Hoosier,"Gold, Gold (Au)",,,f,,
 2644,Iron Cap,gold_silver,48.8439,-121.6778,gold_silver,0,,Whatcom,1,gold_silver,gold_silver:1663,Iron Cap,"Gold, Gold (Au)",,,f,,t
 2645,June Bug,gold_silver,48.7486,-120.7069,gold_silver,0,Slate Creek,Whatcom,1,gold_silver,gold_silver:1665,June Bug,"Gold, Gold (Au)",,,f,,
 2646,Keystone,gold_silver,48.7539,-120.7167,gold_silver,0,Slate Creek,Whatcom,1,gold_silver,gold_silver:1666,Keystone,"Gold, Gold (Au)",,,f,,
-2647,Lone Jack,iaml,48.945092,-121.619156,gold_silver,0,Mount Baker,Whatcom,2,gold_silver+iaml,iaml:1081 ; gold_silver:1667,Mount Baker | Brooks-Willis | Lone Jack | Post-Lambert | Boundary Gold,"Gold, silver, Gold (Au), bismuth, copper","Gold, pipe, tellurobismuthite, rail",,t,t,t
+2647,Lone Jack,iaml,48.945092,-121.619156,gold_silver,0,Mount Baker,Whatcom,2,gold_silver+iaml,iaml:1081 ; gold_silver:1667,Mount Baker | Brooks-Willis | Lone Jack | Post-Lambert | Boundary Gold,"Gold, silver, Gold (Au), bismuth, copper","Gold, tellurobismuthite",,t,t,t
 2648,Lone Star,gold_silver,48.9306,-121.6528,gold_silver,0,,Whatcom,1,gold_silver,gold_silver:1668,Lone Star,"Gold, Gold (Au)","tellurides, Sulfides",,f,,
 2649,Mammoth,iaml,48.753261,-120.713781,gold_silver,0,Slate Creek,Whatcom,3,arsenic+gold_silver+iaml,iaml:1079 ; gold_silver:1670 ; arsenic:269,Mammoth,"zinc, Gold, silver, lead, Gold (Au), gold, arsenic","Gold, sphalerite, galena",,t,t,t
 2650,Mansfield,gold_silver,48.9389,-121.6833,gold_silver,0,,Whatcom,1,gold_silver,gold_silver:1671,Mansfield,"Gold, Gold (Au)",,,f,,
@@ -3068,7 +3066,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 3065,Anna,gold_silver,48.1833,-119.0639,gold_silver,0,,Okanogan,1,gold_silver,gold_silver:3018,Anna,"Silver, lead, Silver (Ag)","pyrite and some sphalerite and chalcopyrite, Mainly galena",,f,,t
 3066,Apache,iaml,48.157908,-119.019906,gold_silver,106,Nespelem,Okanogan,2,gold_silver+iaml,iaml:1065 ; gold_silver:3019,Apache,"zinc, manganese, Silver, lead, Silver (Ag), gold, copper","sphalerite, galena, argentite, pyrargyrite chalcopyrite, Stephanite, stephanite, tetrahedrite, silver, chalcopyrite",,t,t,t
 3067,Arizona,gold_silver,48.5132727240595,-119.717884435202,gold_silver,0,,Okanogan,1,gold_silver,gold_silver:3020,Arizona,"Silver, Silver (Ag), gold",Tetrahedrite,,f,,t
-3068,Arlington,iaml,48.4711,-119.7328,gold_silver,216,Conconully; Ruby Hill Area,Okanogan,2,gold_silver+iaml,iaml:1033 ; gold_silver:3021,Arlington,"zinc, Silver, lead, Silver (Ag), gold, copper","none, tetrahedrite, chalcopyrite, Galena, sphalerite, pyrargyrite",,t,t,t
+3068,Arlington,iaml,48.4711,-119.7328,gold_silver,216,Conconully; Ruby Hill Area,Okanogan,2,gold_silver+iaml,iaml:1033 ; gold_silver:3021,Arlington,"zinc, Silver, lead, Silver (Ag), gold, copper","tetrahedrite, chalcopyrite, Galena, sphalerite, pyrargyrite",,t,t,t
 3069,Black Huzzar,gold_silver,48.5803,-119.6089,gold_silver,0,Conconully,Okanogan,1,gold_silver,gold_silver:3022,Black Huzzar,"Silver, Silver (Ag), gold, copper","chalcopyrite, Argentite",,f,,t
 3070,Buckeye,gold_silver,48.4875,-119.7414,gold_silver,0,,Okanogan,1,gold_silver,gold_silver:3026,Buckeye,"Silver, Silver (Ag), gold",Tetrahedrite,,f,,t
 3071,Carl Frederick,gold_silver,48.6469,-119.9292,gold_silver,0,Conconully,Okanogan,1,gold_silver,gold_silver:3027,Carl Frederick,"Silver, lead, Silver (Ag)","cerargyrite, Argentiferous galena, argentite, bromyrite",,f,,t
@@ -3085,7 +3083,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 3082,Evening,gold_silver,48.1683,-119.0439,gold_silver,0,Nespelem,Okanogan,1,gold_silver,gold_silver:3038,Evening,"zinc, Silver, lead, Silver (Ag), copper","Chalcopyrite, sphalerite, galena",,f,,t
 3083,Evening Star,gold_silver,48.5761,-119.7428,gold_silver,0,Conconully,Okanogan,1,gold_silver,gold_silver:3039,Evening Star,"Silver, Silver (Ag), copper","Native silver, chalcopyrite",,f,,
 3084,First Thought,gold_silver,48.493119,-119.738797,gold_silver,0,Conconully,Okanogan,1,gold_silver,gold_silver:3040,First Thought,"zinc, Silver, lead, Silver (Ag), copper","stephanite, tetrahedrite, chalcocite, chalcopyrite, Galena, sphalerite",,f,t,t
-3085,Fourth of July,iaml,48.476844,-119.727528,gold_silver,0,Conconully,Okanogan,2,gold_silver+iaml,iaml:1082 ; gold_silver:3041,Fourth of July,"Silver, lead, Silver (Ag), gold, copper","argentite, galena, none, cerargyrite, stephanite, silver, ruby silver, Tetrahedrite",,t,t,t
+3085,Fourth of July,iaml,48.476844,-119.727528,gold_silver,0,Conconully,Okanogan,2,gold_silver+iaml,iaml:1082 ; gold_silver:3041,Fourth of July,"Silver, lead, Silver (Ag), gold, copper","cerargyrite, stephanite, silver, ruby silver, Tetrahedrite, argentite, galena",,t,t,t
 3086,Frankie Boy,gold_silver,48.5645241429975,-119.794883891104,gold_silver,0,Conconully,Okanogan,1,gold_silver,gold_silver:3042,Frankie Boy,"Silver, lead, Silver (Ag), copper, arsenic","molybdenite, tetrahedrite, Chalcopyrite, pyrite, galena",,f,,
 3087,Gold Cup,gold_silver,48.5786,-119.6072,gold_silver,0,Conconully,Okanogan,1,gold_silver,gold_silver:3043,Gold Cup,"Silver, Silver (Ag), gold",,,f,,t
 3088,Gold Eagle,gold_silver,48.5794,-119.6092,gold_silver,0,Conconully,Okanogan,1,gold_silver,gold_silver:3044,Gold Eagle,"Silver, Silver (Ag), gold",,,f,,t
@@ -3128,7 +3126,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 3125,Plant-Callahan,gold_silver,48.4975,-119.7153,gold_silver,0,Conconully,Okanogan,1,gold_silver,gold_silver:3082,Plant-Callahan,"Silver, Silver (Ag), copper",Tetrahedrite,,f,t,t
 3126,Pointer,gold_silver,48.5728,-119.7919,gold_silver,0,Conconully,Okanogan,1,gold_silver,gold_silver:3083,Pointer,"Silver, Silver (Ag)",,,f,,
 3127,Ruby,gold_silver,48.4632036961868,-119.736860506744,gold_silver,0,,Okanogan,1,gold_silver,gold_silver:3084,Ruby,"Silver, Silver (Ag), gold, copper","native silver, malachite, Pyrargyrite, cuprite",,f,t,t
-3128,Ruby,iaml,48.935764,-119.694278,gold_silver,0,Nighthawk,Okanogan,3,arsenic+gold_silver+iaml,iaml:1035 ; gold_silver:3085 ; arsenic:315,Pyrargyrite | Ruby,"zinc, Silver, silver, lead, Silver (Ag), gold, copper","none, pyrargerite, malachite, proustite, Chalcopyrite, azurite, gold, sphalerite, argentite, galena",,t,t,t
+3128,Ruby,iaml,48.935764,-119.694278,gold_silver,0,Nighthawk,Okanogan,3,arsenic+gold_silver+iaml,iaml:1035 ; gold_silver:3085 ; arsenic:315,Pyrargyrite | Ruby,"zinc, Silver, silver, lead, Silver (Ag), gold, copper","pyrargerite, malachite, proustite, Chalcopyrite, azurite, gold, sphalerite, argentite, galena",,t,t,t
 3129,Ruby Silver,gold_silver,48.149,-119.0133,gold_silver,0,Nespelem,Okanogan,1,gold_silver,gold_silver:3086,Ruby Silver,"Silver, Silver (Ag), gold","stephanite, Galena, argentite",,f,t,t
 3130,Salmon River,gold_silver,48.5719,-119.7436,gold_silver,0,Conconully,Okanogan,2,arsenic+gold_silver,gold_silver:3087 ; arsenic:316,Salmon River,"zinc, Silver, silver, lead, Silver (Ag), gold, copper","arsenopyrite, tetrahedrite, chalcopyrite, Galena, sphalerite, pyrite, argentite",,f,,t
 3131,Shelby,gold_silver,48.5172,-119.7747,gold_silver,0,Ruby,Okanogan,2,arsenic+gold_silver,gold_silver:3088 ; arsenic:317,Shelby,"Silver, silver, lead, Silver (Ag), gold","arsenopyrite, Galena",,f,,t
@@ -3140,7 +3138,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 3137,Silver Cliff,gold_silver,48.103861,-118.950153,gold_silver,0,,Okanogan,1,gold_silver,gold_silver:3094,Silver Cliff,"Silver, lead, Silver (Ag)","chalcopyrite, Galena",,f,t,
 3138,Silver Mountain,gold_silver,48.746144,-119.55805,gold_silver,0,,Okanogan,1,gold_silver,gold_silver:3095,Silver Star | Silver Mountain,"zinc, Silver, lead, Silver (Ag), gold","Galena, sphalerite",,f,t,t
 3139,Silver Star,gold_silver,48.515,-119.775,gold_silver,0,Ruby,Okanogan,2,arsenic+gold_silver,gold_silver:3096 ; arsenic:318,Silver Star,"Silver, silver, lead, Silver (Ag), gold","arsenopyrite, Galena",,f,,
-3140,Sonny Boy,iaml,48.4828,-119.7381,gold_silver,48,Conconully,Okanogan,2,gold_silver+iaml,iaml:1085 ; gold_silver:3097,Sonny Boy,"Silver, lead, Silver (Ag), gold, copper","Pyrite, none, tetrahedrite, chalcopyrite, minor amounts of galena, sphalerite",,t,t,t
+3140,Sonny Boy,iaml,48.4828,-119.7381,gold_silver,48,Conconully,Okanogan,2,gold_silver+iaml,iaml:1085 ; gold_silver:3097,Sonny Boy,"Silver, lead, Silver (Ag), gold, copper","Pyrite, tetrahedrite, chalcopyrite, minor amounts of galena, sphalerite",,t,t,t
 3141,Stemwinder,gold_silver,48.7808,-118.8533,gold_silver,0,Wauconda,Okanogan,1,gold_silver,gold_silver:3098,Stemwinder,"Silver, Silver (Ag)",,,f,,
 3142,Summit,gold_silver,48.965,-119.6578,gold_silver,0,,Okanogan,1,gold_silver,gold_silver:3100,Summit,"Silver, lead, Silver (Ag), gold, copper","Pyrite, some chalcopyrite, scattered molybdenite, galena, a small amount of sphalerite",,f,,t
 3143,Sunrise,gold_silver,48.5758,-119.7931,gold_silver,0,Conconully,Okanogan,1,gold_silver,gold_silver:3101,Sunrise,"Silver, Silver (Ag), antimony, copper","Stephanite, tetrahedrite, argentite",,f,,t
@@ -3231,7 +3229,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 3228,Mountain View,gold_silver,48.9222,-117.8111,gold_silver,0,,Stevens,1,gold_silver,gold_silver:3198,Contention | Mountain View,"zinc, Silver, lead, Silver (Ag), gold, copper","tetrahedrite, Chalcopyrite, sphalerite, galena",,f,t,t
 3229,Mountain View Extension,gold_silver,48.9206,-117.8119,gold_silver,0,Northport,Stevens,1,gold_silver,gold_silver:3199,Mountain View Extension,"Silver, lead, Silver (Ag), gold",,,f,,
 3230,North Monitor,gold_silver,48.0917,-118.1028,gold_silver,0,,Stevens,1,gold_silver,gold_silver:3200,North Monitor,"zinc, Silver, lead, Silver (Ag)","Galena, sphalerite",,f,,
-3231,Old Dominion,iaml,48.553281,-117.776183,gold_silver,830,Colville,Stevens,3,gold_silver+iaml+nonmetallic,iaml:1069 ; gold_silver:3201 ; nonmetallic:413,Old Dominion | Old Dominion mine,"zinc, Dolomite, Silver, lead, Silver (Ag)","sphalerite, native silver, anglesite, none, tetrahedrite, stephanite, cerussite, chalcopyrite, silver sulfides, Galena",Dolomite,t,t,t
+3231,Old Dominion,iaml,48.553281,-117.776183,gold_silver,830,Colville,Stevens,3,gold_silver+iaml+nonmetallic,iaml:1069 ; gold_silver:3201 ; nonmetallic:413,Old Dominion | Old Dominion mine,"zinc, Dolomite, Silver, lead, Silver (Ag)","native silver, anglesite, tetrahedrite, stephanite, cerussite, chalcopyrite, silver sulfides, Galena, sphalerite",Dolomite,t,t,t
 3232,Orazada,gold_silver,47.985808,-118.136475,gold_silver,0,Deer Trail,Stevens,2,arsenic+gold_silver,gold_silver:3202 ; arsenic:323,Orazada,"zinc, Silver, silver, lead, Silver (Ag), antimony, gold","Jamesonite, sphalerite, galena",,f,t,t
 3233,Orchid,gold_silver,48.122411,-118.017211,gold_silver,0,Cedar Canyon,Stevens,1,gold_silver,gold_silver:3203,Orchid,"zinc, Silver, lead, Silver (Ag), copper","cerargyrite, Argentite",,f,t,
 3234,Plata Fino,gold_silver,48.046083,-118.1128,gold_silver,0,Cedar Canyon,Stevens,1,gold_silver,gold_silver:3205,Plata Fino,"Silver, lead, Silver (Ag)",,,f,,
@@ -3242,7 +3240,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 3239,Redwood,gold_silver,48.3020320243583,-117.661965985864,gold_silver,0,,Stevens,1,gold_silver,gold_silver:3211,Redwood,"Silver, lead, Silver (Ag)",Galena,,f,,
 3240,Roosevelt,gold_silver,48.98945,-117.549581,gold_silver,0,Northport,Stevens,1,gold_silver,gold_silver:3212,Lakeview | Roosevelt,"zinc, Silver, lead, Silver (Ag), gold","Galena, sphalerite",,f,t,
 3241,Sandiego,gold_silver,48.0967,-118.2042,gold_silver,0,Cedar Canyon,Stevens,1,gold_silver,gold_silver:3213,Good Enough | Sandiego,"Reportedly silver, lead, Silver (Ag)",,,f,,
-3242,Tempest,iaml,48.372864,-118.077503,gold_silver,0,Kettle Falls/Summit,Stevens,2,gold_silver+iaml,iaml:1067 ; gold_silver:3218,Tempest,"zinc, Silver, Silver (Ag), gold, copper","chalcopyrite, gas engine to power mill, Sphalerite",,t,t,
+3242,Tempest,iaml,48.372864,-118.077503,gold_silver,0,Kettle Falls/Summit,Stevens,2,gold_silver+iaml,iaml:1067 ; gold_silver:3218,Tempest,"zinc, Silver, Silver (Ag), gold, copper","chalcopyrite, Sphalerite",,t,t,
 3243,U.S. Copper Gold,gold_silver,48.283942,-117.653197,gold_silver,0,Chewelah,Stevens,1,gold_silver,gold_silver:3219,U.S. Copper Gold | M & C,"Silver, Silver (Ag), gold, copper","malachite, Chalcopyrite, azurite",,f,t,t
 3244,United Treasure,gold_silver,48.989311,-117.464158,gold_silver,0,Northport,Stevens,1,gold_silver,gold_silver:3220,United Treasure,"zinc, Silver, lead, Silver (Ag), gold, copper","malachite, Tetrahedrite, azurite, sphalerite, galena",,f,t,t
 3245,Valley View,gold_silver,48.3778,-118.0681,gold_silver,0,,Stevens,1,gold_silver,gold_silver:3221,Valley View,"Silver, Silver (Ag)",,,f,,
@@ -3254,14 +3252,13 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 3251,Apex,gold_silver,46.9322664104681,-121.488648249545,gold_silver,0,,Pierce,1,gold_silver,gold_silver:3687,Apex,"Gold, silver, Gold (Au)",Gold,,f,,
 3252,Kettle,gold_silver,48.878753,-118.625428,gold_silver,0,,Ferry,1,gold_silver,gold_silver:3868,Kettle,"Gold, silver, Gold (Au)","electrum, Pyrargyrite, gold",,f,,
 3253,Overlook,gold_silver,48.698978,-118.568889,gold_silver,0,Belcher,Ferry,1,gold_silver,gold_silver:3869,Overlook,"Gold, silver, Gold (Au), copper, iron","Pyrite, chalcopyrite, magnetite, pyrrhotite",,f,t,
-3254,Blewett Camp,iaml,47.42485,-120.659728,gold_silver,0,Blewett,Chelan,2,gold_silver+iaml,iaml:1003 ; gold_silver:3872,Golden Eagle | Sandell | Pole Pick #1 | Peshastin | Blewett | Blewett camp | Phipps | Culver | North Star | Pole Pick No. 1 | Tip Top | Manistee | Blewett Camp | Wilder | Blue Bell | Olden | Hummingbird | Black Jack | Eureka | Fraction | La Rica | Lucky Queen | Alta Vista | Prospect,"mercury, Gold, silver, Gold (Au), copper","hematite, chromite, malachite, stibnite, see feature 1003-14, cinnabar, chalcopyrite, magnetite, Native gold, native copper, galena",,t,t,
+3254,Blewett Camp,iaml,47.42485,-120.659728,gold_silver,0,Blewett,Chelan,2,gold_silver+iaml,iaml:1003 ; gold_silver:3872,Golden Eagle | Sandell | Pole Pick #1 | Peshastin | Blewett | Blewett camp | Phipps | Culver | North Star | Pole Pick No. 1 | Tip Top | Manistee | Blewett Camp | Wilder | Blue Bell | Olden | Hummingbird | Black Jack | Eureka | Fraction | La Rica | Lucky Queen | Alta Vista | Prospect,"mercury, Gold, silver, Gold (Au), copper","hematite, chromite, malachite, stibnite, cinnabar, chalcopyrite, magnetite, Native gold, native copper, galena",,t,t,
 3255,Cannon,gold_silver,47.395622,-120.325153,gold_silver,0,Wenatchee,Chelan,1,gold_silver,gold_silver:3873,Asamera | Cannon,"Gold, selenium, silver, Gold (Au), arsenic","stibnite, aguilarite, acanthite, chalcopyrite, Electrum, hessite, gold, sphalerite, galena, naumannite, pyrargyrite",,f,t,
 3256,Lovitt,iaml,47.382064,-120.315208,gold_silver,0,Wenatchee(?),Chelan,2,gold_silver+iaml,iaml:1004 ; gold_silver:3875,Squillchuck | Gold King | L-D | Golden King | Lovitt | Wenatchee,"Gold, silver, Gold (Au)","native gold, stibnite, aguilarite, acanthite, chalcopyrite, Electrum, hessite, sphalerite, galena, naumannite, pyrargyrite",,t,t,t
 3257,Francis Virdin Park,gold_silver,47.269861,-120.610408,gold_silver,0,Swauk,Kittitas,1,gold_silver,gold_silver:3877,Francis Virdin Park,"Gold, silver, Gold (Au)",Gold,,f,t,
 3258,Gold Mountain,gold_silver,48.980678,-118.549875,gold_silver,0,,Ferry,1,gold_silver,gold_silver:3885,Gold Dike | Vulcan Mountain | Gold Mountain,"Gold, Gold (Au)",Chalcopyrite,,f,,
 3259,Golden Promise,iaml,48.6593,-118.7483,gold_silver,480,Republic,Ferry,2,gold_silver+iaml,iaml:1100k ; gold_silver:3886,Golden Promise,"Gold, silver, Gold (Au)","argentite, naumannite, pyrargyrite, realgar, umangite, tetrahedrite, electrum, polybasite, stibnite, Gold, chalcopyrite, tellurides",,t,t,
-3260,Buckhorn Mountain,gold_silver,48.949511,-118.982675,gold_silver,0,,Okanogan,1,gold_silver,gold_silver:3887,"Buckhorn | Crown Jewel
- | Buckhorn Mountain","Gold, silver, Gold (Au), copper, iron","erythrite, cobaltite, Gold, chalcopyrite, bismuthinite, bismuth",,f,,
+3260,Buckhorn Mountain,gold_silver,48.949511,-118.982675,gold_silver,0,,Okanogan,1,gold_silver,gold_silver:3887,Crown Jewel  | Buckhorn | Buckhorn Mountain,"Gold, silver, Gold (Au), copper, iron","erythrite, cobaltite, Gold, chalcopyrite, bismuthinite, bismuth",,f,,
 3261,Hermes,gold_silver,48.656861,-118.744278,gold_silver,0,,Ferry,1,gold_silver,gold_silver:3888,Hermes,"Gold, silver, Gold (Au)",Gold,,f,,
 3262,Apex,gold_silver,48.662872,-118.74705,gold_silver,0,,Ferry,1,gold_silver,gold_silver:3889,Apex,"Gold, Gold (Au)",,,f,,
 3263,Ichabod & Nicolasa Silver Claims,gold_silver,48.0908367750189,-120.226588485085,gold_silver,0,,"Okanogan, Chelan",1,gold_silver,gold_silver:3896,Ichabod & Nicolasa Silver Claims | Ichabod | Nicolasa,"Silver, Silver (Ag)",,,f,,
@@ -3303,9 +3300,7 @@ canonical_id,name,name_src,latitude,longitude,coord_src,member_spread_m,mining_d
 3299,Wannacut Lake Mining District,gold_silver,48.8302,-119.482,gold_silver,0,Wannacut Lake,,1,gold_silver,gold_silver:4049,Wannacut Lake District | Wannacut Lake Mining District,"Gold, Gold (Au)",,,f,,
 3300,Washougal Mining District,gold_silver,45.7382,-122.249,gold_silver,0,Washougal,,1,gold_silver,gold_silver:4050,Washougal District | Washougal Mining District,"Gold, Gold (Au)",,,f,,
 3301,Wauconda Mining District,gold_silver,48.7449,-118.968,gold_silver,0,Wauconda,,1,gold_silver,gold_silver:4051,Wauconda Mining District | Wauconda District,"Gold, Gold (Au)",,,f,,
-3302,K2,gold_silver,48.8769,-118.6655,gold_silver,0,,Ferry,1,gold_silver,gold_silver:4052,K2,"silver
-, Gold amd silver
-Gold, Gold (Au)","silver-selenides, silver-sulfosalts, gold associated with pyrite, Electrum",,f,t,
+3302,K2,gold_silver,48.8769,-118.6655,gold_silver,0,,Ferry,1,gold_silver,gold_silver:4052,K2,"Gold amd silver Gold, silver, Gold (Au)","silver-selenides, silver-sulfosalts, gold associated with pyrite, Electrum",,f,t,
 3303,Key East and West,gold_silver,48.7107,-118.5557,gold_silver,0,,Ferry,1,gold_silver,gold_silver:4053,Key West | Key East and West | Key East,"Gold, silver, Gold (Au), copper, iron","chalcopyrite, magnetite, Pyrrhotite",,f,t,
 3304,Mount Adams,nonmetallic,46.2056520832006,-121.49623103971007,nonmetallic,417,,Yakima,2,nonmetallic,nonmetallic:1 ; nonmetallic:1698,Mount Adams,"Alum, Sulfur",,"Sulfur, Alum",f,,
 3305,Enumclaw,nonmetallic,47.163205064649894,-121.81527910484947,nonmetallic,0,,King and Pierce,1,nonmetallic,nonmetallic:2,Enumclaw,Alunite,,Alunite,f,,
@@ -5398,26 +5393,26 @@ Gold, Gold (Au)","silver-selenides, silver-sulfosalts, gold associated with pyri
 5392,Northwestern Improvement Co. Showing Location of Coal Mines,coal_mine,47.21033268,-121.97383652,coal_mine,0,,Pierce-Kittitas,1,coal_mine,coal_mine:PK1,Northwestern Improvement Co. Showing Location of Coal Mines,Coal,,,f,,
 5393,"Cannon, Asamera",iaml,47.395622,-120.325153,iaml,0,Wenatchee,Chelan,1,iaml,iaml:1005,"Cannon, Asamera",,,,t,,
 5394,Talisman Mine,iaml,48.98696,-118.23821,iaml,0,Orient,Ferry,1,iaml,iaml:1009,Talisman Mine,,,,t,t,
-5395,Tom Thumb,iaml,48.70005,-118.75241,iaml,0,Republic,Ferry,1,iaml,iaml:1017,Tom Thumb,,none,,t,t,
-5396,South Penn,iaml,48.67822,-118.77126,iaml,0,Republic,Ferry,1,iaml,iaml:1020,South Penn,,tunnel kiln,,t,t,
-5397,Roy and Barnum McDonnell,iaml,46.546303,-122.233297,iaml,0,Morton Cinnabar,Lewis,1,iaml,iaml:1026,Roy and Barnum McDonnell,,none,,t,t,
+5395,Tom Thumb,iaml,48.70005,-118.75241,iaml,0,Republic,Ferry,1,iaml,iaml:1017,Tom Thumb,,,,t,t,
+5396,South Penn,iaml,48.67822,-118.77126,iaml,0,Republic,Ferry,1,iaml,iaml:1020,South Penn,,,,t,t,
+5397,Roy and Barnum McDonnell,iaml,46.546303,-122.233297,iaml,0,Morton Cinnabar,Lewis,1,iaml,iaml:1026,Roy and Barnum McDonnell,,,,t,t,
 5398,Grandview,iaml,48.872789,-117.357267,iaml,0,Metaline,Pend Oreille,1,iaml,iaml:1038,Grandview,,,,t,t,
 5399,Pend Oreille West Side Workings,iaml,48.880008,-117.371111,iaml,0,Metaline,Pend Oreille,1,iaml,iaml:1040,Pend Oreille West Side Workings,,,,t,t,
 5400,Gold Hill/Sullivan,iaml,48.87952,-117.37738,iaml,0,Metaline,Pend Oreille,1,iaml,iaml:1040a,Gold Hill/Sullivan,,,,t,,
 5401,Pend Oreille Mines,iaml,48.8817,-117.359969,iaml,0,Metaline,Pend Oreille,1,iaml,iaml:1042,Pend Oreille Mines,,,,t,,
 5402,Mystery,iaml,47.98114,-121.37039,iaml,0,Monte Cristo,Snohomish,1,iaml,iaml:1046a,Mystery,,,,t,t,
-5403,First Thought (Stevens County),iaml,48.883944,-118.158944,iaml,0,Orient,Stevens,1,iaml,iaml:1051,First Thought (Stevens County),,several pallets of core,,t,t,
+5403,First Thought (Stevens County),iaml,48.883944,-118.158944,iaml,0,Orient,Stevens,1,iaml,iaml:1051,First Thought (Stevens County),,,,t,t,
 5404,Bonanza Mine,iaml,48.729381,-117.989894,iaml,0,Bossburg,Stevens,1,iaml,iaml:1052,Bonanza Mine,,,,t,t,
-5405,Anderson/Calhoun,iaml,48.919367,-117.591289,iaml,0,Northport,Stevens,1,iaml,iaml:1057,Anderson/Calhoun,,much scrap steel,,t,t,
+5405,Anderson/Calhoun,iaml,48.919367,-117.591289,iaml,0,Northport,Stevens,1,iaml,iaml:1057,Anderson/Calhoun,,,,t,t,
 5406,Daisy,iaml,48.379392,-118.078497,iaml,0,Kettle Falls/Summit,Stevens,1,iaml,iaml:1066,Daisy,,,,t,t,
-5407,Dahl,iaml,47.95365,-117.186942,iaml,0,Mt. Spokane,Spokane,1,iaml,iaml:1074,Dahl,,none,,t,t,
-5408,Last Chance (Conconully District),iaml,48.491719,-119.739978,iaml,0,Conconully,Okanogan,1,iaml,iaml:1083,Last Chance (Conconully District),,none,,t,t,
-5409,First Thought (Conconully District),iaml,48.493119,-119.738797,iaml,0,Conconully,Okanogan,1,iaml,iaml:1084,First Thought (Conconully District),,none,,t,t,
-5410,Houghs,iaml,48.47547,-119.74659,iaml,0,Conconully,Okanogan,1,iaml,iaml:1086,Houghs,,none,,t,t,
-5411,Queen Seal,iaml,48.025822,-118.119911,iaml,0,Deer Trail,Stevens,1,iaml,iaml:1092,Queen Seal,,All rails removed. Few scraps of pipe and hose. One shot-up pick-up truck.,,t,t,
-5412,High Grade,iaml,48.31354,-117.68699,iaml,0,Chewelah,Stevens,1,iaml,iaml:1093,High Grade,,some pipe,,t,t,
+5407,Dahl,iaml,47.95365,-117.186942,iaml,0,Mt. Spokane,Spokane,1,iaml,iaml:1074,Dahl,,,,t,t,
+5408,Last Chance (Conconully District),iaml,48.491719,-119.739978,iaml,0,Conconully,Okanogan,1,iaml,iaml:1083,Last Chance (Conconully District),,,,t,t,
+5409,First Thought (Conconully District),iaml,48.493119,-119.738797,iaml,0,Conconully,Okanogan,1,iaml,iaml:1084,First Thought (Conconully District),,,,t,t,
+5410,Houghs,iaml,48.47547,-119.74659,iaml,0,Conconully,Okanogan,1,iaml,iaml:1086,Houghs,,,,t,t,
+5411,Queen Seal,iaml,48.025822,-118.119911,iaml,0,Deer Trail,Stevens,1,iaml,iaml:1092,Queen Seal,,,,t,t,
+5412,High Grade,iaml,48.31354,-117.68699,iaml,0,Chewelah,Stevens,1,iaml,iaml:1093,High Grade,,,,t,t,
 5413,Kaaba Texas,iaml,48.954481,-119.651308,iaml,0,Nighthawk(?),Okanogan,1,iaml,iaml:1094,Kaaba Texas,,,,t,,
 5414,Red Shirt Mine,iaml,48.348586,-119.998908,iaml,0,Twisp,Okanogan,1,iaml,iaml:1095,Red Shirt Mine,,,,t,,
 5415,Togo Mine,iaml,48.048281,-118.071456,iaml,0,,Stevens,1,iaml,iaml:1097,Togo Mine,,,,t,,
-5416,Eureka Gulch,iaml,48.662829,-118.74922,iaml,0,Republic,Ferry,1,iaml,iaml:1100,Eureka Gulch,,See IC 110,,t,t,
-5417,Van Stone,iaml,48.76584,-117.76004,iaml,0,Northport,Stevens,1,iaml,iaml:1105,Van Stone,,Reagents reported in IC 100 removed.,,t,t,
+5416,Eureka Gulch,iaml,48.662829,-118.74922,iaml,0,Republic,Ferry,1,iaml,iaml:1100,Eureka Gulch,,,,t,t,
+5417,Van Stone,iaml,48.76584,-117.76004,iaml,0,Northport,Stevens,1,iaml,iaml:1105,Van Stone,,,,t,t,

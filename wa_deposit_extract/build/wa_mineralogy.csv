@@ -134,7 +134,7 @@ canonical_id,minerals
 151,"copper sulfides, galena"
 152,"chalcopyrite, pyrite, pyrrhotite"
 153,"bornite, chalcopyrite, copper carbonate, pyrite, pyrrhotite"
-154,"chalcopyrite, galena, little scrap steel, ore car, piping, scheelite, sphalerite"
+154,"chalcopyrite, galena, scheelite, sphalerite"
 155,"chalcopyrite, galena, pyrite"
 157,"chalcopyrite, galena, pyrite, sphalerite"
 158,"chalcopyrite, pyrite"
@@ -167,7 +167,7 @@ canonical_id,minerals
 189,"azurite, malachite, pyrite, tetrahedrite"
 190,"chalcopyrite, galena, sphalerite"
 191,"chalcopyrite, pyrite, rhodochrosite"
-192,"chalcocite, chalcopyrite, gold, malachite, none"
+192,"chalcocite, chalcopyrite, gold, malachite"
 193,"chalcopyrite, pyrite"
 195,"chalcocite, chalcopyrite, galena, molybdenite, pyrite, sphalerite"
 196,chalcopyrite
@@ -189,7 +189,7 @@ canonical_id,minerals
 217,"bornite, chalcopyrite"
 218,"chalcopyrite, galena, molybdenite"
 219,"chalcopyrite, galena"
-220,"28 sticks of ~14ft small gauge rail lie at site of main adit. several lengths of sawn timber., chalcopyrite, galena, sphalerite, tetrahedrite"
+220,"chalcopyrite, galena, sphalerite, tetrahedrite"
 224,"arsenopyrite, chalcopyrite, pyrite"
 230,"chalcopyrite, galena, malachite, pyrite, sphalerite"
 233,"bornite, chalcopyrite"
@@ -433,16 +433,16 @@ canonical_id,minerals
 566,"chalcopyrite, scheelite, tetrahedrite"
 567,"chalcopyrite, molybdenite, sphalerite"
 568,"chalcopyrite, molybdenite, scheelite"
-569,"bornite, chalcopyrite, copper, molybdenite, none, silver"
+569,"bornite, chalcopyrite, copper, molybdenite, silver"
 570,"bornite, chalcopyrite, hematite, pyrite"
 571,"arsenopyrite, chalcopyrite"
-573,"bornite, chalcopyrite, galena, none, sphalerite"
+573,"bornite, chalcopyrite, galena, sphalerite"
 574,"arsenopyrite, chalcopyrite, pyrite"
 575,"arsenopyrite, chalcopyrite"
 577,"chalcopyrite, pyrite"
 578,"galena, malachite, pyrite, sphalerite"
 579,"chalcopyrite, galena, molybdenite, sphalerite"
-580,"chalcocite, chalcopyrite, none observed, tenorite"
+580,"chalcocite, chalcopyrite, tenorite"
 581,"chalcopyrite, secondary copper minerals"
 582,malachite
 583,"azurite, chalcopyrite"
@@ -521,10 +521,10 @@ canonical_id,minerals
 675,"azurite, bornite?, chalcopyrite, malachite, pyrite"
 676,"azurite, chalcopyrite, malachite"
 677,"chalcopyrite, pyrite, pyrrhotite"
-678,"bornite, chalcopyrite, copper, cuprite, malachite, none observed, tenorite"
+678,"bornite, chalcopyrite, copper, cuprite, malachite, tenorite"
 679,"azurite, chalcopyrite, limonite, malachite, pyrite"
 680,"a small amount of galena, chalcopyrite, pyrite"
-681,"chalcopyrite, malachite, some pipe, some rails, tetrahedrite (freibergite)"
+681,"chalcopyrite, malachite, tetrahedrite (freibergite)"
 682,"auriferous selenide, malachite, tetrahedrite"
 683,"chalcopyrite, few specks of galena, pyrite"
 684,"azurite, chalcopyrite, surface ores largely malachite, with some cuprite"
@@ -885,14 +885,14 @@ canonical_id,minerals
 1140,"arsenopyrite, chalcopyrite, galena, pyrite"
 1141,"arsenopyrite, galena, pyrite"
 1142,"cerussite, chalcopyrite, galena, sphalerite"
-1143,"anglesite, bindheimite, boulangerite, cerussite, chalcopyrite, dozer, galena, machinery (crane, mimetite, sphalerite, stibnite, tetrahedrite, tracked drill) and pipe, valentinite"
+1143,"anglesite, bindheimite, boulangerite, cerussite, chalcopyrite, galena, mimetite, sphalerite, stibnite, tetrahedrite, valentinite"
 1144,pyrite
 1145,"galena, sphalerite, tetrahedrite"
 1146,"galena, sphalerite"
 1147,"galena, gold, sphalerite"
 1150,"chalcopyrite, galena"
 1151,"a small amount of chalcopyrite, galena"
-1153,"2 approx 5000gal tanks, anglesite, cerussite, empty, galena, observed., pyromorphite"
+1153,"anglesite, cerussite, galena, pyromorphite"
 1155,"cerussite, galena, sphalerite"
 1156,"galena, pyrite"
 1157,"chalcopyrite, galena"
@@ -901,14 +901,14 @@ canonical_id,minerals
 1160,galena
 1161,"chalcopyrite, galena, sphalerite"
 1162,"cerussite, galena, lead oxides"
-1163,"anglesite, cerussite, galena, none observed, pyromorphite"
-1165,"cerussite, galena, none, smithsonite, sphalerite"
+1163,"anglesite, cerussite, galena, pyromorphite"
+1165,"cerussite, galena, smithsonite, sphalerite"
 1166,galena
 1171,"chalcopyrite, galena, sphalerite, tetrahedrite"
 1172,galena (reportedly argentiferous)
 1173,"galena, pyrite, sphalerite"
 1174,"galena, reportedly free gold, sphalerite, tetrahedrite"
-1175,"anglesite, cerussite, galena, none, sphalerite"
+1175,"anglesite, cerussite, galena, sphalerite"
 1176,"cerussite, galena, limonite, sphalerite"
 1177,"cerussite, galena"
 1181,"galena, limonite, malachite, sphalerite, tetrahedrite"
@@ -948,7 +948,6 @@ canonical_id,minerals
 1227,"galena, pyrite"
 1228,"cerussite, galena, smithsonite, sphalerite"
 1229,"cerussite, siderite"
-1230,none
 1232,"chalcopyrite, galena, pyrite, sphalerite"
 1233,"galena, sphalerite"
 1235,"arsenopyrite, azurite, bornite, chalcopyrite, galena, malachite, pyrite, sphalerite, tetrahedrite"
@@ -1222,7 +1221,7 @@ canonical_id,minerals
 1687,"galena, sphalerite"
 1688,"galena, pyrite, sphalerite"
 1689,"azurite, bornite, chalcocite, chalcopyrite, hematite, magnetite, malachite, molybdenite?, scheelite, sphalerite"
-1691,"galena, none, sphalerite, uranium mineral"
+1691,"galena, sphalerite, uranium mineral"
 1692,"cerussite, galena, smithsonite, sphalerite"
 1694,sphalerite
 1695,"galena, sphalerite"
@@ -1239,7 +1238,7 @@ canonical_id,minerals
 1714,"chalcopyrite, galena, molybdenite, pyrite, pyrrhotite, scheelite, sphalerite"
 1716,"chalcopyrite, galena, limonite, pyrite, smithsonite, sphalerite"
 1717,"galena, minor pyrite, sphalerite"
-1719,"galena, marcasite, pyrite, some 2"" pipe, some 6"" pipe, sphalerite, unidentified uranium mineral"
+1719,"galena, marcasite, pyrite, sphalerite, unidentified uranium mineral"
 1721,"azurite, bornite, cerussite, chalcopyrite, galena, smithsonite, sphalerite, tetrahedrite"
 1727,"cerussite, galena, smithsonite, sphalerite, uranium mineral"
 1731,"galena, sphalerite"
@@ -1252,7 +1251,7 @@ canonical_id,minerals
 1742,"arsenopyrite, chalcopyrite, galena, pyrite, sphalerite"
 1744,"chalcopyrite, galena, sphalerite"
 1745,"galena, sphalerite"
-1746,"galena, none observed, sphalerite"
+1746,"galena, sphalerite"
 1747,"galena, sphalerite"
 1748,"galena, sphalerite"
 1749,"galena, smithsonite, sphalerite"
@@ -1266,7 +1265,7 @@ canonical_id,minerals
 1758,"galena, sphalerite"
 1759,"scheelite, sphalerite"
 1760,"chalcopyrite, pyrite, pyrrhotite"
-1761,"cerussite, chalcopyrite, galena, none, smithsonite, sphalerite"
+1761,"cerussite, chalcopyrite, galena, smithsonite, sphalerite"
 1762,"chalcopyrite, galena, sphalerite"
 1764,"cerussite, galena, scheelite, sphalerite, tetrahedrite"
 1765,"galena, molybdenite, scheelite, sphalerite"
@@ -1277,7 +1276,7 @@ canonical_id,minerals
 1771,"bornite, boulangerite, chalcopyrite, galena, mostly sphalerite, some pyrite"
 1772,"galena, sphalerite"
 1773,"galena, sphalerite"
-1774,"asbestos piping, chalcopyrite, galena, molybdenite, smithsonite, sphalerite"
+1774,"chalcopyrite, galena, molybdenite, smithsonite, sphalerite"
 1775,"galena, sphalerite"
 1776,"cerussite, cervantite, galena, geocronite, smithsonite, sphalerite, stannite"
 1777,"bornite, chalcopyrite, pyrite, sphalerite"
@@ -1286,7 +1285,7 @@ canonical_id,minerals
 1780,"anglesite, azurite, calamine, cerussite, galena, wulfenite"
 1781,meta-autunite
 1782,autunite
-1783,"meta-autunite, none, uraninite"
+1783,"meta-autunite, uraninite"
 1784,autunite
 1785,"chalcocite, chalcopyrite, chrysocolla, copper, galena, malachite, molybdenite, rutile, scheelite, sphalerite, wolframite"
 1786,chalcopyrite
@@ -1303,7 +1302,7 @@ canonical_id,minerals
 1798,"galena, sphalerite, uranium mineral"
 1799,"cerussite, galena, smithsonite, sphalerite"
 1830,"galena, sphalerite"
-1845,"chalcopyrite, magnetite, no, pyrite, pyrrhotite"
+1845,"chalcopyrite, magnetite, pyrite, pyrrhotite"
 1846,gold
 1847,"bornite, chalcopyrite, galena"
 1848,gold
@@ -1354,7 +1353,7 @@ canonical_id,minerals
 1953,pyrite
 1962,pyrite
 1965,pyrite
-1970,"gold, no"
+1970,gold
 1971,gold
 1974,"azurite, chalcopyrite, galena, malachite, sphalerite"
 1975,pyrite
@@ -1373,7 +1372,7 @@ canonical_id,minerals
 1999,gold
 2000,gold
 2002,"gold, tellurides"
-2003,"chalcopyrite, gold, none, scheelite"
+2003,"chalcopyrite, gold, scheelite"
 2004,gold
 2006,gold
 2007,gold
@@ -1389,11 +1388,11 @@ canonical_id,minerals
 2022,pyrite
 2024,gold
 2026,free gold
-2027,"gold, none"
+2027,gold
 2028,gold
 2029,gold
 2033,"magnetite, pyrite, pyrrhotite, some chalcopyrite"
-2037,"chalcopyrite, galena, minor amounts of scrap steel, nuts and bolts, sphalerite, stibnite?, tetrahedrite"
+2037,"chalcopyrite, galena, sphalerite, stibnite?, tetrahedrite"
 2040,"arsenopyrite, pyrite"
 2042,arsenopyrite
 2046,"chalcopyrite, galena"
@@ -1429,7 +1428,7 @@ canonical_id,minerals
 2172,"free gold, pyrite"
 2174,"galena, limonite"
 2176,gold
-2178,"azurite, chalcocite, chalcopyrite, copper, galena, gold, malachite, minor amounts of rusted steel, sphalerite"
+2178,"azurite, chalcocite, chalcopyrite, copper, galena, gold, malachite, sphalerite"
 2181,"graphite, molybdenite"
 2182,"chalcopyrite, pyrite"
 2184,"chalcopyrite, pyrite"
@@ -1437,7 +1436,7 @@ canonical_id,minerals
 2192,"chalcopyrite?, gold"
 2193,chalcopyrite
 2194,"chalcopyrite, galena, pyrite"
-2196,"chalcopyrite, gold, none"
+2196,"chalcopyrite, gold"
 2197,"arsenopyrite, chalcopyrite, galena, pyrite"
 2199,"black metallic sulfide, pyrite"
 2200,gold
@@ -1654,10 +1653,10 @@ canonical_id,minerals
 2611,pyrite
 2613,"galena, gold, sphalerite"
 2615,"galena, gold, sphalerite, tellurides"
-2617,"chalcopyrite, galena, gold, some rusted steel scrap, sphalerite, tanks., tools"
+2617,"chalcopyrite, galena, gold, sphalerite"
 2619,"free gold, galena, pyrite, sphalerite"
 2623,gold
-2624,"a few ladders stored in 500 level adit., chalcopyrite, gold, tellurobismuthite"
+2624,"chalcopyrite, gold, tellurobismuthite"
 2626,"galena, sphalerite"
 2630,gold
 2631,"azurite, chalcocite, chalcopyrite, galena, malachite, massicot, sphalerite"
@@ -1665,8 +1664,8 @@ canonical_id,minerals
 2633,"free gold, pyrite"
 2634,gold
 2636,free gold
-2640,"chalcopyrite, galena, several lengths of 8 inch, silver, sphalerite, tellurides, tetrahedrite, thickwalled steel pipe (drill casing)"
-2647,"gold, pipe, rail, tellurobismuthite"
+2640,"chalcopyrite, galena, silver, sphalerite, tellurides, tetrahedrite"
+2647,"gold, tellurobismuthite"
 2648,"sulfides, tellurides"
 2649,"galena, gold, sphalerite"
 2654,"chalcopyrite, galena, gold, platinum, sylvanite"
@@ -1811,7 +1810,7 @@ canonical_id,minerals
 3065,"mainly galena, pyrite and some sphalerite and chalcopyrite"
 3066,"argentite, chalcopyrite, galena, pyrargyrite chalcopyrite, silver, sphalerite, stephanite, tetrahedrite"
 3067,tetrahedrite
-3068,"chalcopyrite, galena, none, pyrargyrite, sphalerite, tetrahedrite"
+3068,"chalcopyrite, galena, pyrargyrite, sphalerite, tetrahedrite"
 3069,"argentite, chalcopyrite"
 3070,tetrahedrite
 3071,"argentiferous galena, argentite, bromyrite, cerargyrite"
@@ -1825,7 +1824,7 @@ canonical_id,minerals
 3082,"chalcopyrite, galena, sphalerite"
 3083,"chalcopyrite, native silver"
 3084,"chalcocite, chalcopyrite, galena, sphalerite, stephanite, tetrahedrite"
-3085,"argentite, cerargyrite, galena, none, ruby silver, silver, stephanite, tetrahedrite"
+3085,"argentite, cerargyrite, galena, ruby silver, silver, stephanite, tetrahedrite"
 3086,"chalcopyrite, galena, molybdenite, pyrite, tetrahedrite"
 3090,"chalcocite, chalcopyrite, galena, pyrite"
 3091,stephanite
@@ -1853,7 +1852,7 @@ canonical_id,minerals
 3124,"chalcopyrite, galena, malachite"
 3125,tetrahedrite
 3127,"cuprite, malachite, native silver, pyrargyrite"
-3128,"argentite, azurite, chalcopyrite, galena, gold, malachite, none, proustite, pyrargerite, sphalerite"
+3128,"argentite, azurite, chalcopyrite, galena, gold, malachite, proustite, pyrargerite, sphalerite"
 3129,"argentite, galena, stephanite"
 3130,"argentite, arsenopyrite, chalcopyrite, galena, pyrite, sphalerite, tetrahedrite"
 3131,"arsenopyrite, galena"
@@ -1865,7 +1864,7 @@ canonical_id,minerals
 3137,"chalcopyrite, galena"
 3138,"galena, sphalerite"
 3139,"arsenopyrite, galena"
-3140,"chalcopyrite, minor amounts of galena, none, pyrite, sphalerite, tetrahedrite"
+3140,"chalcopyrite, minor amounts of galena, pyrite, sphalerite, tetrahedrite"
 3142,"a small amount of sphalerite, galena, pyrite, scattered molybdenite, some chalcopyrite"
 3143,"argentite, stephanite, tetrahedrite"
 3145,"chalcopyrite, galena, sphalerite"
@@ -1909,7 +1908,7 @@ canonical_id,minerals
 3227,"galena, sphalerite"
 3228,"chalcopyrite, galena, sphalerite, tetrahedrite"
 3230,"galena, sphalerite"
-3231,"anglesite, cerussite, chalcopyrite, galena, native silver, none, silver sulfides, sphalerite, stephanite, tetrahedrite"
+3231,"anglesite, cerussite, chalcopyrite, galena, native silver, silver sulfides, sphalerite, stephanite, tetrahedrite"
 3232,"galena, jamesonite, sphalerite"
 3233,"argentite, cerargyrite"
 3235,"galena, malachite, sphalerite, tetrahedrite"
@@ -1917,7 +1916,7 @@ canonical_id,minerals
 3237,"argentite, azurite, cerargyrite, galena, malachite, silver, sphalerite, tetrahedrite"
 3239,galena
 3240,"galena, sphalerite"
-3242,"chalcopyrite, gas engine to power mill, sphalerite"
+3242,"chalcopyrite, sphalerite"
 3243,"azurite, chalcopyrite, malachite"
 3244,"azurite, galena, malachite, sphalerite, tetrahedrite"
 3246,"bornite, chalcopyrite, galena, pyrite, sphalerite, stibnite, tetrahedrite"
@@ -1926,7 +1925,7 @@ canonical_id,minerals
 3251,gold
 3252,"electrum, gold, pyrargyrite"
 3253,"chalcopyrite, magnetite, pyrite, pyrrhotite"
-3254,"chalcopyrite, chromite, cinnabar, galena, hematite, magnetite, malachite, native copper, native gold, see feature 1003-14, stibnite"
+3254,"chalcopyrite, chromite, cinnabar, galena, hematite, magnetite, malachite, native copper, native gold, stibnite"
 3255,"acanthite, aguilarite, chalcopyrite, electrum, galena, gold, hessite, naumannite, pyrargyrite, sphalerite, stibnite"
 3256,"acanthite, aguilarite, chalcopyrite, electrum, galena, hessite, native gold, naumannite, pyrargyrite, sphalerite, stibnite"
 3257,gold
@@ -1938,16 +1937,3 @@ canonical_id,minerals
 3283,"boulangerite, chalcopyrite, galena, sphalerite, tetrahedrite"
 3302,"electrum, gold associated with pyrite, silver-selenides, silver-sulfosalts"
 3303,"chalcopyrite, magnetite, pyrrhotite"
-5395,none
-5396,tunnel kiln
-5397,none
-5403,several pallets of core
-5405,much scrap steel
-5407,none
-5408,none
-5409,none
-5410,none
-5411,all rails removed. few scraps of pipe and hose. one shot-up pick-up truck.
-5412,some pipe
-5416,see ic 110
-5417,reagents reported in ic 100 removed.

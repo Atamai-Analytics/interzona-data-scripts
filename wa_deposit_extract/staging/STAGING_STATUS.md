@@ -135,16 +135,30 @@ Snapshots `deposits` / `deposit_commodities` / `deposit_mineralogy` →
 | `locations` | 5,417 | locationtype='DEPOSIT', datasource='Washington State Geological Survey (DGER)', external_id='WA:<canonical_id>', countryid=246, divisionid=48, geom via trigger (0 null). Provenance + aliases + location notes in `comments`. |
 | `deposits` | 5,417 | `deposits` 3,528 → **8,945**. `geological_district` ← mining_district; comments carry DGER comments/value/ore-minerals; `production_data` flag where recorded. |
 | `deposit_commodities` | 9,320 | 5,477 PRIMARY / 3,843 SECONDARY. 26 deposits have no commodity (iaml-only metal mines + null-name coal composite). |
-| `deposit_mineralogy` | 5,237 | from `ore_minerals`; 4,215 (80%) matched a `minerals.mineral_id`. |
+| `deposit_mineralogy` | 5,173 | from `ore_minerals`; 4,215 (81%) matched a `minerals.mineral_id`. |
 
 Verified: 0 null geom, 0 unmapped ids, 0 orphan commodities. Van Epps (WA:2)
 spot-checked — Sb primary + Ag/Au/Ni/Pb/Zn secondary, 7 ore minerals all resolved.
 
-**`10_flatten_comments.sql`** — the load first joined `comments` sections with
-newlines, which break flat/CSV exports. Every `locations.comments` /
-`deposits.comments` for this load is now a single line, sections separated by
-` | ` (matching the existing in-field alias separator). `09_load.sql` emits the
-flat form directly on any re-run.
+### Post-load fixes
+
+- **`10_flatten_comments.sql`** — the load first joined `comments` sections with
+  newlines, which break flat/CSV exports. Every `locations.comments` /
+  `deposits.comments` is now a single line, sections separated by ` | `; doubled /
+  dangling separators collapsed. `09_load.sql` emits the flat form directly.
+- **`11_flatten_staging.sql` / `01_staging.sql`** — a few DGER source values carry
+  a trailing `\r` (`"Manganese\r"`, `alternate_names "… | Casteel\r"`). Stripped
+  from all staging text columns; `tn()` now does it at ingest. All 4 loaded tables
+  + every extract file swept: **0 control chars**.
+- **`12_fix_iaml_material.sql`** — `01_staging.sql` had routed the iaml `material`
+  field (abandoned-mine-land site debris: "ore car", "scrap steel", "none",
+  "see feature 1003-14") into `ore_minerals`. Moved the meaningful values to
+  `comments` as `Site remains (IAML): …`, cleared `ore_minerals` for iaml
+  (51 rows), rebuilt canonical + `deposit_mineralogy` (5,237 → **5,173**, 64
+  debris rows dropped) + `deposits.comments`. `deposit_commodities` unaffected
+  (iaml has no commodity field).
+- **`build/export_sources.sql`** — switched to `\copy … WITH (ENCODING 'UTF8')`;
+  psql `\o` on Windows was writing Latin-1 for non-ASCII (`¼` in section refs).
 
 ## Next
 
