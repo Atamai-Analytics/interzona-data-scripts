@@ -12,8 +12,8 @@
 | `gen_candidates.py` | Spanish→English mineral name matcher (irregular map + morphology + fuzzy) → `candidates_ar.csv` (355 names not yet in `mineral_name_translations`, bucketed HIGH / MED / LOW / descriptor / unmatched) |
 | `gen_apply.py` → `apply_mineral_translations.sql` | inserted **204 HIGH species + 21 descriptor** rows into `mineral_name_translations`; then re-linked `deposit_mineralogy.mineral_id` from the whole translation table (also picked up ~39 names that were already translated but never linked) |
 
-**Result:** 555 `deposit_mineralogy` rows linked across 216 deposits. SEGEMAR mineralogy coverage
-**78% → 84.6%** (6,807 / 8,050).
+**Result (this + the two follow-ups below):** 582 `deposit_mineralogy` rows linked. SEGEMAR
+mineralogy coverage **78% → 84.9%** (6,834 / 8,050). One row added to `minerals` (Glauconite).
 
 Backup: `deposit_mineralogy_bak_mineraltrans_20260910` (all rows that were NULL pre-run).
 Rollback: `rollback.sql`.
@@ -45,9 +45,12 @@ Not one oversight — three causes:
 - **Bucket 1 — group names (tetraedrita ×69, tennantita/tenantita ×10):** "Tetrahedrite" / "Tennantite"
   are group names since the 2019 IMA reform; `minerals` only holds the endmembers
   (Tetrahedrite-(Fe) 5459, -(Zn) 5463, …). Recategorised to `category='group'`, `mineral_id` stays NULL.
-- **Bucket 2 — genuinely absent from `minerals` (romanechita ×7, thenardita ×3, glauconita ×3,
-  kesterita ×3 = 16 rows):** valid IMA species not in the 6,204-row `minerals` table. **Left alone** —
-  needs `minerals` rows added first.
+- **Bucket 2 — the "missing" 4 (`apply_bucket_2.sql`, 2026-09-10):** turned out **3 already exist**
+  in `minerals` under their mindat diacritic spelling — Romanèchite `4776`, Thénardite `5505`,
+  Kësterite `3014` — the translation rows just had plain-ASCII `english_text` so they never matched.
+  Fixed `english_text` + `mineral_id` on those 3. **Glauconite** was genuinely absent → added as
+  `minerals.mineral_id 6205` (mindat 1710, Strunz 9.E.C, mica group, `createdby='claude_...'`).
+  16 `deposit_mineralogy` rows linked.
 - **Bucket 3 — approximate mappings (11 rows linked):** `andorita` → Senandorite `5022`
   (historical andorite = andorite-VI); `thorogummita`/`torogummita` → Thorite `5497` (discredited =
   hydrous thorite). Both carry a `notes` explaining the approximation.
