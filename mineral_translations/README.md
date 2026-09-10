@@ -72,8 +72,20 @@ Ran NN for all 363 first, then the correction overwrote 8 where the fact-sheet p
 **All 3,528 AR deposit locations now have a `divisionid`.** Backup `locations_divid_bak_20260910`;
 `rollback_divid.sql`.
 
-Not done (low value): `age_measured.mineral_id` (~160 unlinked, no downstream use),
-gravel→"Sand and Gravel" commodity mapping (~30).
+## `age_measured.mineral_id` links (`apply_age_measured_links.sql`, 2026-09-10)
+
+The 262 SIGAM `age_measured` rows carry the dated material in `mineral` (fact-sheet `concentrado`);
+160 had text but no `mineral_id`. Added 9 translations (moscovita, circón, feldespato potásico,
+galena, alunita, sanidina, pechblenda→Uraninite, +accented variants), set `adularia`→Orthoclase
+4098, and **relinked 99 of 160** (62%). The 61 left are mineral groups/series (biotita ×38,
+hornblenda, anfíbol, illita, plagioclasa — NULL by convention) or non-single-mineral text
+("roca total", "biotita, feldespato potás", "carbonática").
+
+Also fixed a bad id from `apply_deposit_gaps.sql`: `sericita` was pointed at 2815 (Kesebolite-(Ce))
+— corrected to Muscovite 3775 in `mineral_name_translations` and the 1 affected `deposit_mineralogy`
+row. Backup `age_measured_bak_agemin_20260910`; `rollback_age_measured.sql`.
+
+Not done (low value): gravel→"Sand and Gravel" commodity mapping (~30 deposits).
 
 ## Follow-up: the 10 species / `mineral_id` NULL rows (`apply_buckets_1_3.sql`, 2026-09-10)
 
