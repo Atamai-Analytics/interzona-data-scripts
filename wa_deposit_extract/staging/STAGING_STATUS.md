@@ -140,6 +140,12 @@ Snapshots `deposits` / `deposit_commodities` / `deposit_mineralogy` →
 Verified: 0 null geom, 0 unmapped ids, 0 orphan commodities. Van Epps (WA:2)
 spot-checked — Sb primary + Ag/Au/Ni/Pb/Zn secondary, 7 ore minerals all resolved.
 
+**`10_flatten_comments.sql`** — the load first joined `comments` sections with
+newlines, which break flat/CSV exports. Every `locations.comments` /
+`deposits.comments` for this load is now a single line, sections separated by
+` | ` (matching the existing in-field alias separator). `09_load.sql` emits the
+flat form directly on any re-run.
+
 ## Next
 
 - **Step 5:** build the LithoSurfer extract in `wa_deposit_extract/` (copy

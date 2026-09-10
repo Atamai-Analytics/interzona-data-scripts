@@ -56,7 +56,7 @@ WITH ins AS (
          'Washington State Geological Survey (DGER)',
          'https://www.dnr.wa.gov/geologyportal',
          'WA:' || c.canonical_id,
-         concat_ws(E'\n',
+         regexp_replace(concat_ws(' | ',
             'DGER sources: ' || array_to_string(c.sources, ', ')
                 || ' (' || array_to_string(c.member_keys, ' ; ') || ')',
             CASE WHEN c.mining_district IS NOT NULL THEN 'Mining district: ' || c.mining_district END,
@@ -68,7 +68,7 @@ WITH ins AS (
                  THEN 'Location notes: ' || c.loc_desc_all END,
             CASE WHEN c.member_spread_m > 100
                  THEN 'Merged from DGER records up to ' || c.member_spread_m || ' m apart' END
-         ),
+         ), E'\\s*[\r\n]+\\s*', ' | ', 'g'),
          'claude_wa_20260910'
   FROM wa_dedup_canonical c
   RETURNING locationid, external_id
@@ -85,7 +85,7 @@ WITH ins AS (
          CASE WHEN c.any_production_flag
               THEN 'Production recorded (DGER occurrence-inventory flag; source carries no grade or tonnage).' END,
          nullif(btrim(c.references_all), ''),
-         concat_ws(E'\n\n',
+         regexp_replace(concat_ws(' | ',
             nullif(btrim(c.comments_all), ''),
             CASE WHEN nullif(btrim(c.value_all), '') IS NOT NULL
                  THEN 'Value / significance: ' || c.value_all END,
@@ -94,7 +94,7 @@ WITH ins AS (
             CASE WHEN c.any_assay_flag
                  THEN 'Assays recorded in DGER source.' END,
             'LithoSurfer sourceId: WA:' || c.canonical_id
-         ),
+         ), E'\\s*[\r\n]+\\s*', ' | ', 'g'),
          'claude_wa_20260910'
   FROM wa_dedup_canonical c JOIN wa_load_map m USING (canonical_id)
   RETURNING depositid, locationid

@@ -57,7 +57,7 @@ for r in base:
     srcs = (r["sources"] or "").replace("+", ", ")
 
     # Deposit.description — compact, <=255, identity first (name is separately unique-suffixed by loader)
-    short = " · ".join(x for x in [
+    short = " | ".join(x for x in [
         (county + " County, WA") if county else "Washington, USA",
         (district + " mining district") if district else None,
         "DGER sources: " + srcs,
@@ -67,13 +67,15 @@ for r in base:
         "description": short[:255], "sourceId": sid,
     })
 
-    # full description sidecar — the curated free text already assembled in the DB
-    # (locations.comments = provenance/aliases/location notes; deposits.comments =
-    # DGER comments / value / ore minerals). Drop the internal sourceId line.
-    lc = (r["location_comments"] or "").strip()
-    dcm = "\n".join(x for x in (r["deposit_comments"] or "").split("\n")
-                    if not x.startswith("LithoSurfer sourceId:")).strip()
-    desc_full[cid] = "\n\n".join(x for x in (lc, dcm) if x)
+    # full description sidecar — the curated free text already assembled (flat) in the
+    # DB (locations.comments = provenance/aliases/location notes; deposits.comments =
+    # DGER comments / value / ore minerals). Drop the internal sourceId marker.
+    import re as _re
+    def flat(s):
+        s = " ".join((s or "").split())
+        return _re.sub(r"\s*\|\s*LithoSurfer sourceId: \S+\s*$", "", s).strip()
+    lc, dcm = flat(r["location_comments"]), flat(r["deposit_comments"])
+    desc_full[cid] = " | ".join(x for x in (lc, dcm) if x)
 
     # DepositEndowment — commodity presence
     seen = set()
