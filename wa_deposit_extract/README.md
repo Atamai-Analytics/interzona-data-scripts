@@ -34,11 +34,16 @@ and back to `locations.external_id` / `deposits`.
 | deposit type | 0 | none in source |
 | ages | 0 | none in source |
 
-## Loading (Step 6 — IN PROGRESS 2026-09-10)
+## Loading (Step 6 — DONE 2026-09-10)
 
-Target package **250875260** "WA-DNR: USA, Washington State: Deposits & Occurrences".
-Verified 5 test deposits against the API (Deposit + DepositInfo + endowments all
-correct), then started the full resumable run.
+Loaded into package **250875260** "WA-DNR: USA, Washington State: Deposits &
+Occurrences": **5,418 Deposit + 5,418 DepositInfo + 9,316 DepositEndowment**
+(deposit ids 252248711–252317428), 102 min, 0 aborts, 0 name collisions.
+Verified: `load_progress_250875260.jsonl` == `deposit.jsonl` (5,418, no gaps),
+endowment count matches, 26 evenly-spaced samples confirmed against the API
+(DepositInfo → dataPackageId 250875260, Deposit↔DepositInfo links, endowment links).
+NB: `GET /api/deposit/DepositInfo?dataPackageId=` does **not** filter server-side —
+verify by fetching records by id, not by listing the package.
 
 ```
 node find_package.cjs "washington"                        # -> package id

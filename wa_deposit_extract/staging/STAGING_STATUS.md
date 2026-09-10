@@ -197,5 +197,5 @@ spot-checked — Sb primary + Ag/Au/Ni/Pb/Zn secondary, 7 ore minerals all resol
 - **Step 5:** build the LithoSurfer extract in `wa_deposit_extract/` (copy
   `ls_deposit_extract/build/` approach; `Deposit` + `DepositEndowment` commodity-presence,
   no ages/styles; sourceId `"WA:<canonical_id>"`).
-- **Step 6:** load into package 250875260 "WA-DNR: USA, Washington State: Deposits & Occurrences" — IN PROGRESS 2026-09-10
+- **Step 6 DONE 2026-09-10:** 5,418 Deposit + 9,316 DepositEndowment loaded into package 250875260 "WA-DNR: USA, Washington State: Deposits & Occurrences" (0 aborts, 0 collisions, verified)
   (blocked on Lithodat purge of package 250875258).
