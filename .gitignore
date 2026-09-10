@@ -43,6 +43,11 @@ phase1/*
 !wa_deposit_extract/
 wa_deposit_extract/*
 !wa_deposit_extract/*.md
+!wa_deposit_extract/*.jsonl
+!wa_deposit_extract/*.cjs
+!wa_deposit_extract/*.csv
+!wa_deposit_extract/_coverage.json
+wa_deposit_extract/load_progress_*.jsonl
 !wa_deposit_extract/staging/
 wa_deposit_extract/staging/*
 !wa_deposit_extract/staging/*.sql
@@ -50,4 +55,9 @@ wa_deposit_extract/staging/*
 !wa_deposit_extract/staging/*.md
 !wa_deposit_extract/staging/*.csv
 !wa_deposit_extract/staging/*.txt
-!wa_deposit_extract/staging/_commodities_ref.csv
+!wa_deposit_extract/build/
+wa_deposit_extract/build/*
+!wa_deposit_extract/build/*.sql
+!wa_deposit_extract/build/*.py
+!wa_deposit_extract/build/*.json
+!wa_deposit_extract/build/*.csv
