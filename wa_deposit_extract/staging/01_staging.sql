@@ -38,9 +38,12 @@ CREATE TABLE wa_deposits_staging (
     UNIQUE (wa_source, src_id)
 );
 
--- helper: trim to NULL
+-- helper: collapse whitespace/control-char runs to a single space, trim to NULL
+-- (some DGER source values carry a trailing \r; newlines in a record break flat exports)
 CREATE OR REPLACE FUNCTION pg_temp.tn(t text) RETURNS text
-LANGUAGE sql IMMUTABLE AS $$ SELECT nullif(btrim($1), '') $$;
+LANGUAGE sql IMMUTABLE AS $$
+  SELECT nullif(btrim(regexp_replace($1, E'[\r\n\t]+', ' ', 'g')), '')
+$$;
 
 -- 1. metallic ---------------------------------------------------------------
 INSERT INTO wa_deposits_staging
