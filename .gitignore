@@ -67,3 +67,4 @@ wa_deposit_extract/build/*
 !wa_deposit_extract/build/*.py
 !wa_deposit_extract/build/*.json
 !wa_deposit_extract/build/*.csv
+wa_deposit_extract/load_run.log

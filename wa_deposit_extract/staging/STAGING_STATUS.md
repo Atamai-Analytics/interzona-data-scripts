@@ -4,7 +4,7 @@
 own staging tables (`wa_*`), own tag (`createdby='claude_wa_20260910'`), own dir
 (`wa_deposit_extract/`). **Steps 1–5 complete** — 5,418 DGER deposits loaded into
 `criticialmineralsexp` and a LithoSurfer extract built (`../README.md`). Step 6
-(API load) is not started. Run order: `01`→`14`, then `build/`.
+(API load) in progress into package 250875260. Run order: `01`→`14`, then `build/`.
 
 ## Step 1 — `wa_deposits_staging` (done)
 
@@ -197,5 +197,5 @@ spot-checked — Sb primary + Ag/Au/Ni/Pb/Zn secondary, 7 ore minerals all resol
 - **Step 5:** build the LithoSurfer extract in `wa_deposit_extract/` (copy
   `ls_deposit_extract/build/` approach; `Deposit` + `DepositEndowment` commodity-presence,
   no ages/styles; sourceId `"WA:<canonical_id>"`).
-- **Step 6:** load into a Washington data package — blocked behind SIGAM Phase 3
+- **Step 6:** load into package 250875260 "WA-DNR: USA, Washington State: Deposits & Occurrences" — IN PROGRESS 2026-09-10
   (blocked on Lithodat purge of package 250875258).

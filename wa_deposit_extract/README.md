@@ -34,17 +34,23 @@ and back to `locations.external_id` / `deposits`.
 | deposit type | 0 | none in source |
 | ages | 0 | none in source |
 
-## Loading (Step 6 — DO NOT RUN YET)
+## Loading (Step 6 — IN PROGRESS 2026-09-10)
 
-Blocked behind SIGAM Phase 3 (waiting on Lithodat to purge test rows from package
-250875258 — see `../ls_deposit_extract/PHASE3_STATUS.md`). Also needs a **Washington
-data package** to exist.
+Target package **250875260** "WA-DNR: USA, Washington State: Deposits & Occurrences".
+Verified 5 test deposits against the API (Deposit + DepositInfo + endowments all
+correct), then started the full resumable run.
 
 ```
-node load_deposits.cjs --package <id> --dry --limit 5     # inspect first
-node load_deposits.cjs --package <id>                     # real, resumable
-node undo_load.cjs     --package <id>                     # children-first delete
+node find_package.cjs "washington"                        # -> package id
+node load_deposits.cjs --package 250875260 --dry --limit 5   # inspect
+node load_deposits.cjs --package 250875260                   # real, resumable
+node verify_loaded.cjs 250875260 3                           # check against API
+node undo_load.cjs     --package 250875260                   # children-first delete
 ```
+
+Rate ~1/sec (~90 min for 5,418). If it aborts on an API error, fix the extract and
+re-run — resumable via `load_progress_250875260.jsonl` (already-loaded sourceIds are
+skipped, so names are not re-spent).
 
 `Deposit.name` is globally unique with no server uniquifier and API delete is
 soft-only, so the loader names every deposit **`"<name> (WA <canonicalId>)"`** —
