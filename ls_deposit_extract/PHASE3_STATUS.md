@@ -28,14 +28,29 @@ Full list: `ORPHAN_test_deposits_250875258.csv` (deposit ids 252247702–2522487
 Soft-delete *does* free the name for re-use (verified) — but only once the row is actually
 soft-deleted, and the 36 orphan `Deposit` rows here are **not** deleted (only their DepositInfos are).
 
+## Deleting the package does NOT help (tested 2026-09-10)
+
+Created a throwaway package (250875259), put one deposit in it, `DELETE`d the package:
+- `DELETE /api/management/data-packages/{id}` → 202, and the package is **soft-deleted**
+  (`deletedTimestamp` set, still GETtable).
+- The contained `Deposit` row was **not touched at all** (`deletedTimestamp` still null) — it just
+  becomes an orphan in a soft-deleted package.
+- The deposit **name is still spent** — could not recreate it.
+
+So deleting 250875258 would strand its 36 deposits harder and lose the package. Don't.
+(That test also left package **250875259** soft-deleted + orphan `Deposit` **252248708** — add both to
+the purge list below.)
+
 ## To unblock — needs Lithodat / DB admin
 
-Ask Lithodat to **hard-delete** (purge) from package 250875258:
-- the 36 `deposit` rows in `ORPHAN_test_deposits_250875258.csv`
+Ask Lithodat to **hard-delete** (purge) from the LithoSurfer DB:
+- the 36 `deposit` rows in `ORPHAN_test_deposits_250875258.csv` (+ `deposit` 252248708)
 - their soft-deleted `deposit_info` rows and any `deposit_style` / `deposit_endowment` /
   `deposit_age` / `deposit_op_status` children
+- soft-deleted `data_package` 250875259 (my delete test)
 
-Once the package is empty, the real load is a single clean pass.
+Every row's `sourceId` starts `SIGAM:` (or name contains `ZZ-`), so they're easy to target.
+Once purged, the real load into 250875258 is a single clean pass.
 
 ## Loader changes made after this (ready for the real run)
 
