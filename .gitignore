@@ -4,6 +4,8 @@
 !deposit_gap_analysis.md
 !fix_deposit_coords.sql
 !rollback_deposit_coords.sql
+!fix_deposit_coords_round2.sql
+!rollback_deposit_coords_round2.sql
 !e250K_DepositMetalif.csv
 !scrape_sigam_fichas.py
 !wikidata_deposit_matches.csv

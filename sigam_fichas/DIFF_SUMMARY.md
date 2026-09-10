@@ -48,7 +48,7 @@ Full attributes (name, lat/lon, commodities, type, status, grade/age counts, URL
 
 The fact-sheet coordinates are an independent second source. After the 2026-09-08 `locations` fix:
 
-- **11 matched deposits** where ficha vs DB differ > 0.05° → `coord_disagreements_23.csv`. Of these, **5 are real DB errors** the WFS fix did not catch (longitude left as a whole number): `3045` Quebrada Sunchal (-66.033 vs -66), `3248` Atalaya (-70.283 vs -70), `3395` Río Hielo (-71.717 vs -71), `5080` San Martín (-65.9 vs -65), `5202` El Chacho (-67.667 vs -67). The other ~12 truncated-lon rows are SIGAM's own coarse rounding (ficha agrees with DB at whole-degree lon).
+- **11 matched deposits** where ficha vs DB differ > 0.05° → `coord_disagreements_23.csv`. Of these, **5 were real DB errors** the WFS fix did not catch (longitude left as a whole number): `3045` Quebrada Sunchal (-66.033 vs -66), `3248` Atalaya (-70.283 vs -70), `3395` Río Hielo (-71.717 vs -71), `5080` San Martín (-65.9 vs -65), `5202` El Chacho (-67.667 vs -67). **Corrected 2026-09-09** via `fix_deposit_coords_round2.sql` (both `locations` and `sigam_deposits`; backups `*_bak_20260909_r2`, rollback in `rollback_deposit_coords_round2.sql`). The other ~12 truncated-lon rows are SIGAM's own coarse rounding (ficha agrees with DB at whole-degree lon) and were left as-is.
 - **15 fact sheets have a 0 in one axis** (`lat=0` for the Buenos Aires arena/sand pits 25593–25605, `lon=0` for 26129 / 26259) — parser missed one coordinate; re-scrape these individually if they matter (all low-value industrial).
 - `11098` El Peñón and `24777` Colorados/La Vasca appear here too — the two name-mismatch cases already flagged in §7.
 
