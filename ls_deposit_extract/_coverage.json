@@ -1,0 +1,17 @@
+{
+  "deposits": 3523,
+  "origin_existing": 3344,
+  "style_ficha_vs_curated_disagree": 7,
+  "style": 3165,
+  "deposits_with_commodity": 3409,
+  "endowment_grade_rows": 888,
+  "endowment_grade_numeric": 763,
+  "op_status": 1113,
+  "age_rows": 262,
+  "age_method_unmapped": 39,
+  "origin_new": 179,
+  "age_no_numeric": 3,
+  "commodity_token_unresolved": 2,
+  "style_unmapped": 358,
+  "coord_missing_or_zero": 2
+}

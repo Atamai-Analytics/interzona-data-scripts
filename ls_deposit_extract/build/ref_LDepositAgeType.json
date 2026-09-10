@@ -1,0 +1,254 @@
+[
+  {
+    "id": 30224824,
+    "name": "Igneous crystallisation",
+    "path": "",
+    "sortorder": null,
+    "description": "Age of igneous crystallisation of the igneous mineral or body"
+  },
+  {
+    "id": 30224825,
+    "name": "Minimum crystallisation age",
+    "path": "Igneous crystallisation/",
+    "sortorder": null,
+    "description": "Minimum age for igneous crystallisation of the igneous body"
+  },
+  {
+    "id": 30224826,
+    "name": "Maximum crystallisation age",
+    "path": "Igneous crystallisation/",
+    "sortorder": null,
+    "description": "Maximum age for igneous crystallisation of the igneous body"
+  },
+  {
+    "id": 30224827,
+    "name": "Xenocrystic component",
+    "path": "Igneous crystallisation/",
+    "sortorder": null,
+    "description": "Age of xenocrystic component entrained within an igneous body. Xenocrysitic component must be older than the host body in which it resides"
+  },
+  {
+    "id": 30224828,
+    "name": "Metamorphism",
+    "path": "",
+    "sortorder": null,
+    "description": "Age of metamorphism"
+  },
+  {
+    "id": 30224829,
+    "name": "Peak metamorphism",
+    "path": "Metamorphism/",
+    "sortorder": null,
+    "description": "Age of peak metamoprhism"
+  },
+  {
+    "id": 30224830,
+    "name": "Zeolite facies",
+    "path": "Metamorphism/",
+    "sortorder": null,
+    "description": "Age of metamorphism to zeolite facies"
+  },
+  {
+    "id": 30224831,
+    "name": "Prehnite-pumpellyite facies",
+    "path": "Metamorphism/",
+    "sortorder": null,
+    "description": "Age of metamorphism to prehnite-pumpellyite facies"
+  },
+  {
+    "id": 30224832,
+    "name": "Greenschist facies",
+    "path": "Metamorphism/",
+    "sortorder": null,
+    "description": "Age of metamorphism to greenschist facies"
+  },
+  {
+    "id": 30224833,
+    "name": "Blueschist facies",
+    "path": "Metamorphism/",
+    "sortorder": null,
+    "description": "Age of metamorphism to blueschist facies"
+  },
+  {
+    "id": 30224834,
+    "name": "Eclogite facies",
+    "path": "Metamorphism/",
+    "sortorder": null,
+    "description": "Age of metamorphism to ecologite facies"
+  },
+  {
+    "id": 30224835,
+    "name": "Amphibolite facies",
+    "path": "Metamorphism/",
+    "sortorder": null,
+    "description": "Age of metamorphism to amphibolite facies"
+  },
+  {
+    "id": 30224836,
+    "name": "Granulite facies",
+    "path": "Metamorphism/",
+    "sortorder": null,
+    "description": "Age of metamorphism to granulite facies"
+  },
+  {
+    "id": 30224837,
+    "name": "High pressure",
+    "path": "Metamorphism/",
+    "sortorder": null,
+    "description": "Age of high pressure metamorphism"
+  },
+  {
+    "id": 30224838,
+    "name": "High temperature",
+    "path": "Metamorphism/",
+    "sortorder": null,
+    "description": "Age of high temperature metamorphism"
+  },
+  {
+    "id": 30224839,
+    "name": "Ultra-High temperature",
+    "path": "Metamorphism/",
+    "sortorder": null,
+    "description": "Age of ultra-high temperature metamorphism"
+  },
+  {
+    "id": 30224840,
+    "name": "Second metamorphic event",
+    "path": "Metamorphism/",
+    "sortorder": null,
+    "description": "Age the second metamorphic event experienced by metamoprhised rock or terrane"
+  },
+  {
+    "id": 30224841,
+    "name": "Third metamorphic event",
+    "path": "Metamorphism/",
+    "sortorder": null,
+    "description": "Age the second metamorphic event experienced by metamoprhised rock or terrane"
+  },
+  {
+    "id": 30224842,
+    "name": "Post-peak metamorphism (cooling age)",
+    "path": "Metamorphism/",
+    "sortorder": null,
+    "description": "Age of post-peak metamorphism"
+  },
+  {
+    "id": 30224843,
+    "name": "Cooling",
+    "path": "",
+    "sortorder": null,
+    "description": "Age at which a body cooled below a certain temperature, usually specified by the technique used to evaluate the cooling age. Cooling temperature is genrally below temperatures assoicated with igneous crystallisation, melt generation or peak metamorphis,"
+  },
+  {
+    "id": 30224844,
+    "name": "Sedimentary age",
+    "path": "",
+    "sortorder": null,
+    "description": "Age associated with a sedimentary sequence, either clastic or chemical. Due to the multi-component nature of most sedimentary sequences (particularly clastic sequences) ages obtained from sediments may contain information on the age of the sequence itself, age of the protolith(s), or subsequent system disturbance"
+  },
+  {
+    "id": 30224845,
+    "name": "Stratigraphic",
+    "path": "Sedimentary age/",
+    "sortorder": null,
+    "description": "Exact age of deposition of clastic detritus, and/or the chemical precipitation of minerals which form a sedimentary sequence"
+  },
+  {
+    "id": 30224846,
+    "name": "Maximum depositional age",
+    "path": "Sedimentary age/",
+    "sortorder": null,
+    "description": "Maximum age of deposition of clastic detritus, and/or the chemical precipitation of minerals to form a sedimentary sequence"
+  },
+  {
+    "id": 30224847,
+    "name": "Detrital component",
+    "path": "Sedimentary age/Maximum depositional age/",
+    "sortorder": null,
+    "description": "Age of a detrital component observed within the sedimentary sequence"
+  },
+  {
+    "id": 30224848,
+    "name": "Primary detrital component",
+    "path": "Sedimentary age/Maximum depositional age/Detrital component/",
+    "sortorder": null,
+    "description": "Age of main detrital component observed within the sedimentary sequence"
+  },
+  {
+    "id": 30224849,
+    "name": "Secondary detrital component",
+    "path": "Sedimentary age/Maximum depositional age/Detrital component/",
+    "sortorder": null,
+    "description": "Age of secondary detrital component observed within the sedimentary sequence"
+  },
+  {
+    "id": 30224850,
+    "name": "Tertiary detrital component",
+    "path": "Sedimentary age/Maximum depositional age/Detrital component/",
+    "sortorder": null,
+    "description": "Age of third detrital component observed within the sedimentary sequence"
+  },
+  {
+    "id": 30319401,
+    "name": "Fourth detrital component",
+    "path": "Sedimentary age/Maximum depositional age/Detrital component/",
+    "sortorder": null,
+    "description": "Age of fourth detrital component observed within the sedimentary sequence"
+  },
+  {
+    "id": 30319402,
+    "name": "Minimum depositional age",
+    "path": "Sedimentary age/",
+    "sortorder": null,
+    "description": "Minimum age of deposition of clastic detritus, and/or the chemical precipitation of minerals to form a sedimentary sequence"
+  },
+  {
+    "id": 30319403,
+    "name": "Diagenesis",
+    "path": "Sedimentary age/Minimum depositional age/",
+    "sortorder": null,
+    "description": "Age of physical or chemical modification of sedimentary materials within a sedimentary sequence following sedimentation, but prior to any subsequent metamorphism or weathering"
+  },
+  {
+    "id": 30319404,
+    "name": "Unconformity",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319405,
+    "name": "Disconformity",
+    "path": "Unconformity/",
+    "sortorder": null,
+    "description": "Age of a disconformity relating to an adjacent erosional surface within a sedimentary sequence."
+  },
+  {
+    "id": 30319406,
+    "name": "Nonconformity",
+    "path": "Unconformity/",
+    "sortorder": null,
+    "description": "Age of a disconformity relating to an adjacent erosional surface between igneous or metamorphic units and sedimentary units."
+  },
+  {
+    "id": 30319407,
+    "name": "Age of mineralisation",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319408,
+    "name": "Age of alteration",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319409,
+    "name": "Unknown",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  }
+]

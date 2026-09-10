@@ -1,0 +1,79 @@
+[
+  {
+    "id": 30224212,
+    "name": "Fission-track",
+    "path": null,
+    "sortorder": null,
+    "description": "A thermochronological technique which uses the relationship between linear damage zones (tracks) within a crystal lattice or other material caused by spontaneous fission of a radioactive isotope(s), to the abundance of this radioactive isotope, in order to ascertain an age using the rate of accumulation of spontaneous fission over time. Within many materials, including minerals, these damage tracks are not thermally stable and will repair and anneal over time, dependant on the thermal conditions and other factors such as crystal lattice structure and composition. This dependency on temperature allows for some inference of the thermal history of a sample in addition to the calculated age, by examining the nature of preserved fossil tracks relative to that expected for completely unannealed tracks."
+  },
+  {
+    "id": 30224213,
+    "name": "(U-Th)/He",
+    "path": null,
+    "sortorder": null,
+    "description": "A thermochronological technique based on the production and retention of He-4 atoms by radioactive decay of U and Th (and in some cases Sm) isotopes in a mineral’s crystal lattice. The loss of He-4 atoms is largely thermally controlled where at higher temperatures He atoms diffuse from the lattice and at lower temperature they are retained. Measured (U-Th)/He ages result from amount of production and retention of He-4 over a minerals thermal history."
+  },
+  {
+    "id": 30224214,
+    "name": "Ar/Ar",
+    "path": null,
+    "sortorder": null,
+    "description": "A geochronological and thermochronological technique capable of addressing questions on the scale of thousands to billions of years. 40Ar/39Ar geochronology can be applied to a wide range of problems in volcanology, igneous petrology, metamorphic petrology, structural geology."
+  },
+  {
+    "id": 30224215,
+    "name": "U/Pb",
+    "path": null,
+    "sortorder": null,
+    "description": "A geochronological technique which uses the natural radioactive decay of uranium isotopes to stable lead isotopes to determine the age of a material. As isotopes of uranium decay to daughter isotopes of lead at a known rate, measuring these isotope pairs can inform the time since the material was produced or disturbed. Combinations of multiple isotope pairs may be commonly applied to perform more robust calculations, correct for the prescence of non-radiogenic lead, or identify events which fully or partially reset isotopic ratios within a material."
+  },
+  {
+    "id": 30224216,
+    "name": "Lu/Hf",
+    "path": null,
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30224217,
+    "name": "Rb/Sr",
+    "path": null,
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30224218,
+    "name": "K/Ar",
+    "path": null,
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30224219,
+    "name": "Pb/Pb",
+    "path": null,
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30224220,
+    "name": "Sm/Nd",
+    "path": null,
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30224221,
+    "name": "Th/Pb",
+    "path": null,
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30224222,
+    "name": "Re/Os",
+    "path": null,
+    "sortorder": null,
+    "description": ""
+  }
+]

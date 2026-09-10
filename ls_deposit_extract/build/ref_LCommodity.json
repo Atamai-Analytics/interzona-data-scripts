@@ -1,0 +1,2172 @@
+[
+  {
+    "id": 30227371,
+    "name": "Gemstones",
+    "path": "Direct Use Commodity/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227372,
+    "name": "Industrial Material",
+    "path": "Direct Use Commodity/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227373,
+    "name": "Industrial Mineral",
+    "path": "Direct Use Commodity/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227374,
+    "name": "Amber",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227375,
+    "name": "Apatite Gemstone",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227376,
+    "name": "Beryl",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227377,
+    "name": "Cassiterite Gemstone",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227378,
+    "name": "Chrysoberyl",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227379,
+    "name": "Cordierite",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227380,
+    "name": "Corundum Gemstone",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227382,
+    "name": "Diopside Enstatite",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227383,
+    "name": "Dioptase",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227384,
+    "name": "Dumortierite",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227385,
+    "name": "Euclase",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227386,
+    "name": "Feldspar Gemstone",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227387,
+    "name": "Garnet Gemstone",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227388,
+    "name": "Hematite Gemstone",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227390,
+    "name": "Kornerupine",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227391,
+    "name": "Kyanite Gemstone",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227392,
+    "name": "Lazulite",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227393,
+    "name": "Malachite",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227394,
+    "name": "Obsidian",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227395,
+    "name": "Olivine Gemstone",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227396,
+    "name": "Phenakite",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227397,
+    "name": "Prehnite",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227398,
+    "name": "Quartz Gemstone",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227399,
+    "name": "Rhodonite",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227400,
+    "name": "Sapphirine",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319551,
+    "name": "Scapolite",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319552,
+    "name": "Silica Gemstone",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319553,
+    "name": "Sinhalite",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319554,
+    "name": "Sodalite",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319555,
+    "name": "Spinel Gemstone",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319556,
+    "name": "Spodumene",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319557,
+    "name": "Tanzanite",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319558,
+    "name": "Topaz",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319559,
+    "name": "Tourmaline",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319560,
+    "name": "Turquoise",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319561,
+    "name": "Variscite",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319563,
+    "name": "Xenotime Gemstone",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319564,
+    "name": "Zircon Gemstone",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319565,
+    "name": "Aquamarine",
+    "path": "Direct Use Commodity/Gemstone/Beryl/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319892,
+    "name": "Asbestos Serpentine",
+    "path": "Direct Use Commodity/Industrial Mineral/Asbestos/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319893,
+    "name": "Anthophyllite",
+    "path": "Direct Use Commodity/Industrial Mineral/Asbestos/Asbestos Amphibole/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319895,
+    "name": "Crocidolite",
+    "path": "Direct Use Commodity/Industrial Mineral/Asbestos/Asbestos Amphibole/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319896,
+    "name": "Brick Clay",
+    "path": "Direct Use Commodity/Industrial Mineral/Clay/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319897,
+    "name": "Fullers Earth",
+    "path": "Direct Use Commodity/Industrial Mineral/Clay/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319898,
+    "name": "Halloysite",
+    "path": "Direct Use Commodity/Industrial Mineral/Clay/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319899,
+    "name": "Kaolin",
+    "path": "Direct Use Commodity/Industrial Mineral/Clay/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319900,
+    "name": "Sepiolite",
+    "path": "Direct Use Commodity/Industrial Mineral/Clay/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320001,
+    "name": "White Firing Clay",
+    "path": "Direct Use Commodity/Industrial Mineral/Clay/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320002,
+    "name": "Bentonite",
+    "path": "Direct Use Commodity/Industrial Mineral/Clay/Fullers Earth/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320003,
+    "name": "Palygorskite",
+    "path": "Direct Use Commodity/Industrial Mineral/Clay/Fullers Earth/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320004,
+    "name": "Anhydrite",
+    "path": "Direct Use Commodity/Industrial Mineral/Evaporite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320005,
+    "name": "Carnallite",
+    "path": "Direct Use Commodity/Industrial Mineral/Evaporite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320006,
+    "name": "Gypsum",
+    "path": "Direct Use Commodity/Industrial Mineral/Evaporite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320007,
+    "name": "Salt",
+    "path": "Direct Use Commodity/Industrial Mineral/Evaporite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320008,
+    "name": "Sylvite",
+    "path": "Direct Use Commodity/Industrial Mineral/Evaporite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320009,
+    "name": "Chert",
+    "path": "Direct Use Commodity/Industrial Mineral/Silica/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320010,
+    "name": "Chemical Compound Product",
+    "path": "Produced Commodity/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320011,
+    "name": "Metal",
+    "path": "Produced Commodity/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320012,
+    "name": "Metalloid",
+    "path": "Produced Commodity/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320013,
+    "name": "Non-Metal",
+    "path": "Produced Commodity/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320014,
+    "name": "Chemical Oxide Product",
+    "path": "Produced Commodity/Chemical Compound Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320015,
+    "name": "Lime",
+    "path": "Produced Commodity/Chemical Compound Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320016,
+    "name": "Nitrate",
+    "path": "Produced Commodity/Chemical Compound Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320018,
+    "name": "Soda Ash",
+    "path": "Produced Commodity/Chemical Compound Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320019,
+    "name": "Alumina",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320020,
+    "name": "Chrome",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320021,
+    "name": "Ga2O3",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320022,
+    "name": "HfO2",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320023,
+    "name": "Iron Oxide",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320024,
+    "name": "Li2O",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320025,
+    "name": "Magnesia",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320026,
+    "name": "MoO3",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320027,
+    "name": "Nb2O5",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320028,
+    "name": "P4O10",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320029,
+    "name": "Rare Earth Oxide",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320031,
+    "name": "Ta2O5",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320033,
+    "name": "TiO2",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320034,
+    "name": "U2O3",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320035,
+    "name": "UO2",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320038,
+    "name": "Y2O3",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320039,
+    "name": "Zirconia",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320040,
+    "name": "Ochre",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/Iron Oxide/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227381,
+    "name": "Diamond Gemstone",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30227389,
+    "name": "Jade",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319562,
+    "name": "Vesuvianite",
+    "path": "Direct Use Commodity/Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319894,
+    "name": "Chrysotile",
+    "path": "Direct Use Commodity/Industrial Mineral/Asbestos/Asbestos Amphibole/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320017,
+    "name": "Potash",
+    "path": "Produced Commodity/Chemical Compound Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320030,
+    "name": "SnO2",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320032,
+    "name": "ThO2",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320037,
+    "name": "WO3",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320044,
+    "name": "Nd2O3",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/Rare Earth Oxide/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320151,
+    "name": "Be",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320153,
+    "name": "Cd",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320194,
+    "name": "PGE",
+    "path": "Produced Commodity/Metal/Precious Metal/Platinum Group/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320195,
+    "name": "Pt",
+    "path": "Produced Commodity/Metal/Precious Metal/Platinum Group/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320196,
+    "name": "Rh",
+    "path": "Produced Commodity/Metal/Precious Metal/Platinum Group/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320199,
+    "name": "LREE",
+    "path": "Produced Commodity/Metal/REE/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320200,
+    "name": "Dy",
+    "path": "Produced Commodity/Metal/REE/HREE/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320302,
+    "name": "Eu",
+    "path": "Produced Commodity/Metal/REE/HREE/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320303,
+    "name": "Gd",
+    "path": "Produced Commodity/Metal/REE/HREE/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320304,
+    "name": "Ho",
+    "path": "Produced Commodity/Metal/REE/HREE/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320307,
+    "name": "Tm",
+    "path": "Produced Commodity/Metal/REE/HREE/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320310,
+    "name": "Ce",
+    "path": "Produced Commodity/Metal/REE/LREE/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320311,
+    "name": "La",
+    "path": "Produced Commodity/Metal/REE/LREE/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320314,
+    "name": "Pr",
+    "path": "Produced Commodity/Metal/REE/LREE/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320315,
+    "name": "Sm",
+    "path": "Produced Commodity/Metal/REE/LREE/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320316,
+    "name": "As",
+    "path": "Produced Commodity/Metalloid/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320317,
+    "name": "B",
+    "path": "Produced Commodity/Metalloid/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320325,
+    "name": "P",
+    "path": "Produced Commodity/Non-Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319566,
+    "name": "Emerald",
+    "path": "Direct Use Commodity/Gemstone/Beryl/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319567,
+    "name": "Heliodor",
+    "path": "Direct Use Commodity/Gemstone/Beryl/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319568,
+    "name": "Morganite",
+    "path": "Direct Use Commodity/Gemstone/Beryl/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319569,
+    "name": "Ruby",
+    "path": "Direct Use Commodity/Gemstone/Corrundum Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319571,
+    "name": "Amazonite",
+    "path": "Direct Use Commodity/Gemstone/Feldspar Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319572,
+    "name": "Moonstone",
+    "path": "Direct Use Commodity/Gemstone/Feldspar Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319573,
+    "name": "Spectrolite",
+    "path": "Direct Use Commodity/Gemstone/Feldspar Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319574,
+    "name": "Tsavorite",
+    "path": "Direct Use Commodity/Gemstone/Garnet Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319575,
+    "name": "Amethyst",
+    "path": "Direct Use Commodity/Gemstone/Quartz Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319576,
+    "name": "Citrine",
+    "path": "Direct Use Commodity/Gemstone/Quartz Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319577,
+    "name": "Rose quartz",
+    "path": "Direct Use Commodity/Gemstone/Quartz Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319578,
+    "name": "Smokey Quartz",
+    "path": "Direct Use Commodity/Gemstone/Quartz Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319579,
+    "name": "Carnelian",
+    "path": "Direct Use Commodity/Gemstone/Silica Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319580,
+    "name": "Chalcedony",
+    "path": "Direct Use Commodity/Gemstone/Silica Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319581,
+    "name": "Chrysoprase",
+    "path": "Direct Use Commodity/Gemstone/Silica Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319582,
+    "name": "Opal",
+    "path": "Direct Use Commodity/Gemstone/Silica Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319583,
+    "name": "agate",
+    "path": "Direct Use Commodity/Gemstone/Silica Gemstone/Calcedony/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319584,
+    "name": "Moss Agate",
+    "path": "Direct Use Commodity/Gemstone/Silica Gemstone/Calcedony/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319585,
+    "name": "Onyx",
+    "path": "Direct Use Commodity/Gemstone/Silica Gemstone/Calcedony/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319586,
+    "name": "Aggregate",
+    "path": "Direct Use Commodity/Industrial Material/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319587,
+    "name": "Dimension Stone",
+    "path": "Direct Use Commodity/Industrial Material/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319588,
+    "name": "Direct Shipping Ore",
+    "path": "Direct Use Commodity/Industrial Material/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319589,
+    "name": "Industrial Rock",
+    "path": "Direct Use Commodity/Industrial Material/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319590,
+    "name": "Organic Material",
+    "path": "Direct Use Commodity/Industrial Material/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319591,
+    "name": "Sand",
+    "path": "Direct Use Commodity/Industrial Material/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319592,
+    "name": "Natural Secondary Aggregate",
+    "path": "Direct Use Commodity/Industrial Material/Aggregate/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319594,
+    "name": "Recycled Aggregate",
+    "path": "Direct Use Commodity/Industrial Material/Aggregate/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319595,
+    "name": "Crushed Rock",
+    "path": "Direct Use Commodity/Industrial Material/Aggregate/Primary Aggregate/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319596,
+    "name": "Riprap",
+    "path": "Direct Use Commodity/Industrial Material/Aggregate/Primary Aggregate/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319597,
+    "name": "Sand and Gravel",
+    "path": "Direct Use Commodity/Industrial Material/Aggregate/Primary Aggregate/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319598,
+    "name": "Basalt",
+    "path": "Direct Use Commodity/Industrial Material/Dimension Stone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319599,
+    "name": "Granite",
+    "path": "Direct Use Commodity/Industrial Material/Dimension Stone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319600,
+    "name": "Greenstone",
+    "path": "Direct Use Commodity/Industrial Material/Dimension Stone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319702,
+    "name": "Marble",
+    "path": "Direct Use Commodity/Industrial Material/Dimension Stone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319703,
+    "name": "Miscellaneous Dimension Stones",
+    "path": "Direct Use Commodity/Industrial Material/Dimension Stone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319704,
+    "name": "Sandstone",
+    "path": "Direct Use Commodity/Industrial Material/Dimension Stone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319705,
+    "name": "Slate",
+    "path": "Direct Use Commodity/Industrial Material/Dimension Stone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319706,
+    "name": "Bauxite",
+    "path": "Direct Use Commodity/Industrial Material/Direct Shipping Ore/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319707,
+    "name": "Ion Ore",
+    "path": "Direct Use Commodity/Industrial Material/Direct Shipping Ore/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319708,
+    "name": "Manganese Ore",
+    "path": "Direct Use Commodity/Industrial Material/Direct Shipping Ore/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319709,
+    "name": "Hematite Ore",
+    "path": "Direct Use Commodity/Industrial Material/Direct Shipping Ore/Iron Ore/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319710,
+    "name": "Magnetite Ore",
+    "path": "Direct Use Commodity/Industrial Material/Direct Shipping Ore/Iron Ore/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319711,
+    "name": "Diatomite",
+    "path": "Direct Use Commodity/Industrial Material/Industrial Rock/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319712,
+    "name": "laterite",
+    "path": "Direct Use Commodity/Industrial Material/Industrial Rock/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319713,
+    "name": "Nepheline Syenite",
+    "path": "Direct Use Commodity/Industrial Material/Industrial Rock/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319714,
+    "name": "Perlite",
+    "path": "Direct Use Commodity/Industrial Material/Industrial Rock/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319715,
+    "name": "Phosphate Rock",
+    "path": "Direct Use Commodity/Industrial Material/Industrial Rock/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319716,
+    "name": "Pozzolan",
+    "path": "Direct Use Commodity/Industrial Material/Industrial Rock/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319717,
+    "name": "Pumice",
+    "path": "Direct Use Commodity/Industrial Material/Industrial Rock/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319718,
+    "name": "Shell Grit",
+    "path": "Direct Use Commodity/Industrial Material/Industrial Rock/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319719,
+    "name": "Spongolite",
+    "path": "Direct Use Commodity/Industrial Material/Industrial Rock/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319720,
+    "name": "Carbonaceous Material",
+    "path": "Direct Use Commodity/Industrial Material/Organic Material/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319721,
+    "name": "Gaseous Hydrocarbons",
+    "path": "Direct Use Commodity/Industrial Material/Organic Material/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319722,
+    "name": "Liquid Hydrocarbons",
+    "path": "Direct Use Commodity/Industrial Material/Organic Material/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319723,
+    "name": "Anthracite",
+    "path": "Direct Use Commodity/Industrial Material/Organic Material/Carbonaceous Material/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319725,
+    "name": "Brown Coal",
+    "path": "Direct Use Commodity/Industrial Material/Organic Material/Carbonaceous Material/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319726,
+    "name": "Coal",
+    "path": "Direct Use Commodity/Industrial Material/Organic Material/Carbonaceous Material/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319727,
+    "name": "Peat",
+    "path": "Direct Use Commodity/Industrial Material/Organic Material/Carbonaceous Material/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319728,
+    "name": "Coal Bed Methane",
+    "path": "Direct Use Commodity/Industrial Material/Organic Material/Gaseous Hydrocarbons/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320036,
+    "name": "V2O5",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320043,
+    "name": "Light Rare Earth Oxide",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/Rare Earth Oxide/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320197,
+    "name": "Ru",
+    "path": "Produced Commodity/Metal/Precious Metal/Platinum Group/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320305,
+    "name": "Lu",
+    "path": "Produced Commodity/Metal/REE/HREE/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319570,
+    "name": "Sapphire",
+    "path": "Direct Use Commodity/Gemstone/Corrundum Gemstone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319593,
+    "name": "Primary Aggregate",
+    "path": "Direct Use Commodity/Industrial Material/Aggregate/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319701,
+    "name": "Limestone",
+    "path": "Direct Use Commodity/Industrial Material/Dimension Stone/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319724,
+    "name": "Black Coal",
+    "path": "Direct Use Commodity/Industrial Material/Organic Material/Carbonaceous Material/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320041,
+    "name": "Eu2O3",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/Rare Earth Oxide/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320042,
+    "name": "Heavy Rare Earth Oxide",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/Rare Earth Oxide/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320045,
+    "name": "Pr2O3",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/Rare Earth Oxide/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320046,
+    "name": "Tb4O7",
+    "path": "Produced Commodity/Chemical Compound Product/Chemical Oxide Product/Rare Earth Oxide/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320047,
+    "name": "K2SO4",
+    "path": "Produced Commodity/Chemical Compound Product/Potash/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320048,
+    "name": "Al",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320049,
+    "name": "Ba",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320050,
+    "name": "Base Metal",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320152,
+    "name": "Bi",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320154,
+    "name": "Cs",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320318,
+    "name": "Ge",
+    "path": "Produced Commodity/Metalloid/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320319,
+    "name": "Sb",
+    "path": "Produced Commodity/Metalloid/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320322,
+    "name": "Br",
+    "path": "Produced Commodity/Non-Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320323,
+    "name": "F",
+    "path": "Produced Commodity/Non-Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320324,
+    "name": "I",
+    "path": "Produced Commodity/Non-Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320327,
+    "name": "Se",
+    "path": "Produced Commodity/Non-Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320328,
+    "name": "Direct Use Commodity",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319729,
+    "name": "Gas Hydrate",
+    "path": "Direct Use Commodity/Industrial Material/Organic Material/Gaseous Hydrocarbons/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319730,
+    "name": "Reservoir Gas",
+    "path": "Direct Use Commodity/Industrial Material/Organic Material/Gaseous Hydrocarbons/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319731,
+    "name": "Asphalt",
+    "path": "Direct Use Commodity/Industrial Material/Organic Material/Liquid Hydrocarbons/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319733,
+    "name": "Oil Shale",
+    "path": "Direct Use Commodity/Industrial Material/Organic Material/Liquid Hydrocarbons/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319734,
+    "name": "Tar Sand",
+    "path": "Direct Use Commodity/Industrial Material/Organic Material/Liquid Hydrocarbons/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319735,
+    "name": "Foundry Sand",
+    "path": "Direct Use Commodity/Industrial Material/Sand/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319736,
+    "name": "Frac Sand",
+    "path": "Direct Use Commodity/Industrial Material/Sand/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319737,
+    "name": "Heavy Mineral Sand",
+    "path": "Direct Use Commodity/Industrial Material/Sand/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319738,
+    "name": "Mineral Sand",
+    "path": "Direct Use Commodity/Industrial Material/Sand/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319739,
+    "name": "Silica Sand",
+    "path": "Direct Use Commodity/Industrial Material/Sand/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319740,
+    "name": "Aluminosilicate",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319741,
+    "name": "Alunite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319742,
+    "name": "Apatite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319743,
+    "name": "Asbestos",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319744,
+    "name": "Baryte",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319745,
+    "name": "Borate",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319746,
+    "name": "Calcite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319747,
+    "name": "Chlorite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319748,
+    "name": "Chromite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319749,
+    "name": "Clay",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319750,
+    "name": "Corundum",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319851,
+    "name": "Cryolite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319852,
+    "name": "Diamond",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319853,
+    "name": "Epsomite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319854,
+    "name": "Evaporite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319856,
+    "name": "Fluorite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319857,
+    "name": "Garnet",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319858,
+    "name": "Glauconite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319859,
+    "name": "Graphite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319860,
+    "name": "Hematite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319861,
+    "name": "Ilmenite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319862,
+    "name": "Jarosite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319864,
+    "name": "Magnetite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319865,
+    "name": "MgCO3",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319866,
+    "name": "Mica",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319867,
+    "name": "Molybdenite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319868,
+    "name": "Monazite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319869,
+    "name": "Olivine",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319870,
+    "name": "Pyrite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319871,
+    "name": "Quartz",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319872,
+    "name": "Rutile",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319873,
+    "name": "Saponite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319874,
+    "name": "Sericite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319875,
+    "name": "Serpentine",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319876,
+    "name": "SiO2",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319877,
+    "name": "Spinel",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319878,
+    "name": "Staurolite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319879,
+    "name": "Strontianite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319880,
+    "name": "Talc",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319881,
+    "name": "Thenardite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319882,
+    "name": "Tremolite Actinolite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319883,
+    "name": "Vermiculite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319884,
+    "name": "Wollastonite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319885,
+    "name": "Zeolite",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319887,
+    "name": "Andalusite",
+    "path": "Direct Use Commodity/Industrial Mineral/Aluminosilicate/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319888,
+    "name": "Kyanite",
+    "path": "Direct Use Commodity/Industrial Mineral/Aluminosilicate/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319889,
+    "name": "Pyrophyllite",
+    "path": "Direct Use Commodity/Industrial Mineral/Aluminosilicate/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319890,
+    "name": "Sillimanite",
+    "path": "Direct Use Commodity/Industrial Mineral/Aluminosilicate/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319891,
+    "name": "Asbestos Amphibole",
+    "path": "Direct Use Commodity/Industrial Mineral/Asbestos/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320155,
+    "name": "Ferrous Metal",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320156,
+    "name": "Ga",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320157,
+    "name": "Hf",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320158,
+    "name": "Hg",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320159,
+    "name": "In",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320160,
+    "name": "K",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320161,
+    "name": "Li",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320162,
+    "name": "Mg",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320163,
+    "name": "Mo",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320165,
+    "name": "Precious Metal",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320167,
+    "name": "Rb",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320168,
+    "name": "Re",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320169,
+    "name": "REE",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320170,
+    "name": "Sc",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320172,
+    "name": "Sr",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320173,
+    "name": "Ta",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320174,
+    "name": "Th",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320175,
+    "name": "Tl",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320178,
+    "name": "Zr",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320179,
+    "name": "Co",
+    "path": "Produced Commodity/Metal/Base Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320180,
+    "name": "Cu",
+    "path": "Produced Commodity/Metal/Base Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320181,
+    "name": "Ni",
+    "path": "Produced Commodity/Metal/Base Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320182,
+    "name": "Pb",
+    "path": "Produced Commodity/Metal/Base Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320184,
+    "name": "Cr",
+    "path": "Produced Commodity/Metal/Ferrous Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320186,
+    "name": "Mn",
+    "path": "Produced Commodity/Metal/Ferrous Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320187,
+    "name": "Ti",
+    "path": "Produced Commodity/Metal/Ferrous Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320188,
+    "name": "V",
+    "path": "Produced Commodity/Metal/Ferrous Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320189,
+    "name": "Ag",
+    "path": "Produced Commodity/Metal/Precious Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320192,
+    "name": "Os",
+    "path": "Produced Commodity/Metal/Precious Metal/Platinum Group/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319732,
+    "name": "Oil",
+    "path": "Direct Use Commodity/Industrial Material/Organic Material/Liquid Hydrocarbons/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319855,
+    "name": "Feldspar",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319863,
+    "name": "Leucoxene",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30319886,
+    "name": "Zircon",
+    "path": "Direct Use Commodity/Industrial Mineral/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320164,
+    "name": "Nb",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320166,
+    "name": "Ra",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320171,
+    "name": "Sn",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320176,
+    "name": "U",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320177,
+    "name": "W",
+    "path": "Produced Commodity/Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320183,
+    "name": "Zn",
+    "path": "Produced Commodity/Metal/Base Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320185,
+    "name": "Fe",
+    "path": "Produced Commodity/Metal/Ferrous Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320191,
+    "name": "Ir",
+    "path": "Produced Commodity/Metal/Precious Metal/Platinum Group/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320193,
+    "name": "Pd",
+    "path": "Produced Commodity/Metal/Precious Metal/Platinum Group/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320198,
+    "name": "HREE",
+    "path": "Produced Commodity/Metal/REE/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320301,
+    "name": "Er",
+    "path": "Produced Commodity/Metal/REE/HREE/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320306,
+    "name": "Tb",
+    "path": "Produced Commodity/Metal/REE/HREE/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320308,
+    "name": "Y",
+    "path": "Produced Commodity/Metal/REE/HREE/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320309,
+    "name": "Yb",
+    "path": "Produced Commodity/Metal/REE/HREE/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320312,
+    "name": "Nd",
+    "path": "Produced Commodity/Metal/REE/LREE/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320313,
+    "name": "Pm",
+    "path": "Produced Commodity/Metal/REE/LREE/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320320,
+    "name": "Si",
+    "path": "Produced Commodity/Metalloid/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320321,
+    "name": "Te",
+    "path": "Produced Commodity/Metalloid/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320326,
+    "name": "S",
+    "path": "Produced Commodity/Non-Metal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320329,
+    "name": "Produced Commodity",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320330,
+    "name": "Total Ore",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30320190,
+    "name": "Au",
+    "path": "Produced Commodity/Metal/Precious Metal/",
+    "sortorder": null,
+    "description": "Gold"
+  }
+]

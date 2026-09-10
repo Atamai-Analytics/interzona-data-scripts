@@ -1,0 +1,66 @@
+db_deposit_type_id,db_deposit_type_name,n_deposits,ls_deposit_type_id,ls_deposit_type_name,match
+132,Vein polymetallic,320,30233112,Vein polymetallic,EXACT
+119,Intermediate-sulfidation epithermal silver-gold,308,30232998,"Intermediate-sulfidation (IS) epithermal silvergold ± Zn, Pb, Cu, Sn, Mn",MANUAL
+169,LCT pegmatite,235,30233256,LCT pegmatite,EXACT
+21,Residual clay,233,30232334,Residual clay,EXACT
+118,Low-sulfidation epithermal gold-silver,105,30232997,Low-sulfidation (LS) epithermal goldsilver,MANUAL
+53,Lacustrine brine lithium,94,30232820,Lacustrine brine lithium,EXACT
+164,Greisen tungsten-molybdenum,90,30233149,Greisen tungsten-molybdenum ±Bi,MANUAL
+157,Porphyry copper-molybdenum,63,30233141,Porphyry copper-molybdenum,EXACT
+89,Epizonal orogenic antimony,51,30232963,Epizonal orogenic antimony ± gold,MANUAL
+73,Sediment-hosted copper,50,30232845,Sediment-hosted copper ± Co,MANUAL
+147,Skarn iron,49,30233130,Skarn iron,EXACT
+168,Simple pegmatite,44,30233255,Simple pegmatite,EXACT
+120,High-sulfidation epithermal silver-gold,43,30232999,High-sulfidation (HS) epithermal silver-gold ± Cu,MANUAL
+163,Greisen tin,41,30233148,Greisen tin ±W-Mo,MANUAL
+74,Siliciclastic-mafic zinc-lead,41,30232846,Siliciclastic-mafic zinc-lead,EXACT
+127,Vein copper,38,30233107,Vein copper,EXACT
+3,Fluvial placer gold,29,30232313,Fluvial placer gold,EXACT
+62,Oolitic iron formation,29,30232831,Oolitic iron formation,MANUAL
+156,Porphyry copper-gold,28,30233140,Porphyry copper ± gold,MANUAL
+72,Volcanic-hosted copper,24,30232843,Volcanic-hosted copper,EXACT
+32,Supergene iron,17,30232346,Supergene iron,EXACT
+148,Skarn copper,16,30233131,Skarn copper,EXACT
+35,Sandstone uranium,16,30232350,Sandstone uranium,EXACT
+131,Vein fluorite,14,30233111,Vein fluorite,EXACT
+5,Fluvial placer tin,14,30232315,Fluvial placer tin,EXACT
+152,Skarn zinc-lead-silver,13,30233135,Skarn zinc-lead-silver,MANUAL
+183,U-M intrusion nickel-copper-PGE,10,30233273,U-M intrusion nickel-copper-PGE,MANUAL
+85,Vein five-element,10,30232958,Vein five-element,EXACT
+88,Epizonal orogenic gold,10,30232962,Epizonal orogenic gold,EXACT
+94,Metamorphic graphite,10,30232969,Metamorphic graphite,EXACT
+188,Ophiolite chromium,8,30233280,Ophiolite chromium,EXACT
+111,Mafic-ultramafic VMS,8,30232988,Mafic-ultramafic VMS,EXACT
+114,Bimodal felsic VMS,7,30232991,Bimodal felsic VMS,EXACT
+151,Skarn gold,6,30233134,Skarn gold ± copper ± tungsten,MANUAL
+170,NYF pegmatite,6,30233257,NYF pegmatite,EXACT
+41,Marine evaporite salt,5,30232807,Marine evaporite salt,EXACT
+182,U-M layered intrusion iron-titanium-vanadium,4,30233271,U-M layered intrusion iron-titanium-vanadium,MANUAL
+12,Heavy mineral sands,4,30232322,Heavy mineral sands,MANUAL
+116,Algoma-type banded iron formation,3,30232994,Algoma-type banded iron formation,EXACT
+106,Hematite-dominant IOCG,3,30232982,Hematite-dominant IOCG,EXACT
+149,Skarn tungsten,3,30233132,Skarn tungsten ± Mo,MANUAL
+112,Mafic-siliciclastic VMS,3,30232989,Mafic-siliciclastic VMS,EXACT
+166,Reduced intrusion-related gold,3,30233252,Reduced intrusion-related gold,EXACT
+75,Siliciclastic-mafic barite,2,30232847,Siliciclastic-mafic barite,EXACT
+54,Lacustrine zeolite,1,30232821,"Lacustrine zeolite (± Li, B)",MANUAL
+124,Epithermal uranium,1,30233103,Epithermal uranium,EXACT
+79,MVT zinc-lead,1,30232952,MVT zinc-lead,EXACT
+110,Magnetite-dominant IOA,1,30232986,Magnetite-dominant IOA,EXACT
+160,Low-fluorine porphyry molybdenum,1,30233144,Low-fluorine porphyry molybdenum,EXACT
+190,Anorthosite massif titanium,0,30233282,Anorthosite massif titanium,EXACT
+98,Metasomatic iron,0,30232974,Metasomatic iron,EXACT
+81,MVT fluorspar,0,30232954,MVT fluorspar,EXACT
+122,Epithermal mercury,0,30233101,Epithermal mercury,EXACT
+123,Epithermal beryllium,0,30233102,Epithermal beryllium,EXACT
+80,MVT barite,0,30232953,MVT barite,EXACT
+134,Breccia pipe gold,0,30233115,Breccia pipe gold,EXACT
+65,Sedimentary manganese,0,30232835,Sedimentary manganese,EXACT
+63,Lacustrine iron formation,0,30232832,Lacustrine iron formation,EXACT
+48,Lacustrine evaporite borate,0,30232814,Lacustrine evaporite borate,EXACT
+38,Calcrete uranium,0,30232803,Calcrete uranium,EXACT
+18,Laterite nickel,0,30232330,Laterite nickel,EXACT
+11,Fluvial placer garnet,0,30232321,Fluvial placer garnet,EXACT
+172,Carbonatite REE,0,30233260,Carbonatite REE,EXACT
+175,Apatite-nepheline-titanite intrusion,0,30233263,Apatite-nepheline-titanite intrusion,EXACT
+189,Ophiolite nickel-copper-PGE,0,30233281,Ophiolite nickel-copper-PGE,EXACT

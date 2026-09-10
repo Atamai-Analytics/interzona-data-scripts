@@ -1,0 +1,1570 @@
+[
+  {
+    "id": 30232310,
+    "name": "Placer",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232320,
+    "name": "Fluvial placer gemstones",
+    "path": "Placer/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232328,
+    "name": "Bauxite",
+    "path": "Laterite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232333,
+    "name": "Clay",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232344,
+    "name": "Supergene copper",
+    "path": "Supergene/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232817,
+    "name": "Brine",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232832,
+    "name": "Lacustrine iron formation",
+    "path": "Iron formation/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232840,
+    "name": "Unconformity-related uranium",
+    "path": "Unconformity-related/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232955,
+    "name": "MVT strontium",
+    "path": "Mississippi Valley-type (MVT)/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232956,
+    "name": "Sandstone-hosted zinc-lead",
+    "path": "Mississippi Valley-type (MVT)/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232957,
+    "name": "Non-sulfide zinclead ± Mn",
+    "path": "Non-sulfide/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232958,
+    "name": "Vein five-element",
+    "path": "Five-element/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232959,
+    "name": "Orogenic",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232961,
+    "name": "Mesozonal orogenic gold",
+    "path": "Orogenic/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232962,
+    "name": "Epizonal orogenic gold",
+    "path": "Orogenic/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232963,
+    "name": "Epizonal orogenic antimony ± gold",
+    "path": "Orogenic/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232964,
+    "name": "Epizonal orogenic mercury",
+    "path": "Orogenic/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232965,
+    "name": "Orogenic silver-lead-zinc-copperantimony",
+    "path": "Orogenic/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232966,
+    "name": "Orogenic copper ± gold",
+    "path": "Orogenic/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232968,
+    "name": "Metamorphic",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232970,
+    "name": "Metamorphic kyanit",
+    "path": "Metamorphic/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232971,
+    "name": "Alkali-calcic",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232972,
+    "name": "Low Iron alkalicalcic",
+    "path": "Alkali-calcic/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232973,
+    "name": "Albitite-hosted uranium",
+    "path": "Alkali-calcic/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232974,
+    "name": "Metasomatic iron",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232976,
+    "name": "Iron sulfide polymetallic",
+    "path": "Metasomatic iron/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232978,
+    "name": "Iron oxide polymetallic",
+    "path": "Metasomatic iron/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232979,
+    "name": "Iron oxide uranium",
+    "path": "Metasomatic iron/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232980,
+    "name": "Iron oxide gold",
+    "path": "Metasomatic iron/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232981,
+    "name": "Regional metasomatic IOCG",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232982,
+    "name": "Hematite-dominant IOCG",
+    "path": "Regional metasomatic IOCG/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232984,
+    "name": "Regional metasomatic IOA",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232985,
+    "name": "Hematite-dominant IOA",
+    "path": "Regional metasomatic IOA/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232986,
+    "name": "Magnetite-dominant IOA",
+    "path": "Regional metasomatic IOA/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232987,
+    "name": "Volcanogenic massive sulfide (VMS)",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232988,
+    "name": "Mafic-ultramafic VMS",
+    "path": "Volcanogenic massive sulfide (VMS)/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232989,
+    "name": "Mafic-siliciclastic VMS",
+    "path": "Volcanogenic massive sulfide (VMS)/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232991,
+    "name": "Bimodal felsic VMS",
+    "path": "Volcanogenic massive sulfide (VMS)/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232993,
+    "name": "Volcanogenic",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232994,
+    "name": "Algoma-type banded iron formation",
+    "path": "Volcanogenic/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232995,
+    "name": "Volcanogenic manganese",
+    "path": "Volcanogenic/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232996,
+    "name": "Epithermal",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232997,
+    "name": "Low-sulfidation (LS) epithermal goldsilver",
+    "path": "Epithermal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232999,
+    "name": "High-sulfidation (HS) epithermal silver-gold ± Cu",
+    "path": "Epithermal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233101,
+    "name": "Epithermal mercury",
+    "path": "Epithermal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233102,
+    "name": "Epithermal beryllium",
+    "path": "Epithermal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233103,
+    "name": "Epithermal uranium",
+    "path": "Epithermal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233104,
+    "name": "Vein",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233105,
+    "name": "Vein ± replacement nickel",
+    "path": "Vein/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233107,
+    "name": "Vein copper",
+    "path": "Vein/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233108,
+    "name": "Vein tin",
+    "path": "Vein/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233109,
+    "name": "Vein tungsten",
+    "path": "Vein/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233110,
+    "name": "Vein tin polymetallic",
+    "path": "Vein/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233111,
+    "name": "Vein fluorite",
+    "path": "Vein/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233112,
+    "name": "Vein polymetallic",
+    "path": "Vein/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233114,
+    "name": "Breccia pipe copper",
+    "path": "Breccia pipe/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233116,
+    "name": "Breccia pipe molybdenum",
+    "path": "Breccia pipe/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233117,
+    "name": "Breccia pipe REE",
+    "path": "Breccia pipe/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233118,
+    "name": "Carlin-type gold",
+    "path": "Carlin-type/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233119,
+    "name": "Distal-disseminated silver-gold",
+    "path": "Distal-disseminated/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233128,
+    "name": "Replacement fluorite",
+    "path": "Replacement/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233136,
+    "name": "Skarn molybdenum",
+    "path": "Skarn/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233251,
+    "name": "Intrusion-related",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232311,
+    "name": "Residual placer tin",
+    "path": "Placer/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232313,
+    "name": "Fluvial placer gold",
+    "path": "Placer/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232315,
+    "name": "Fluvial placer tin",
+    "path": "Placer/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232316,
+    "name": "Fluvial placer niobium-tantalum",
+    "path": "Placer/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232317,
+    "name": "Fluvial placer tungsten",
+    "path": "Placer/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232319,
+    "name": "Fluvial placer diamond",
+    "path": "Placer/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232321,
+    "name": "Fluvial placer garnet",
+    "path": "Placer/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232323,
+    "name": "Shoreline placer gold",
+    "path": "Placer/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232324,
+    "name": "Paleoplacer heavy mineral sands",
+    "path": "Placer/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232325,
+    "name": "Paleoplacer tin",
+    "path": "Placer/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232327,
+    "name": "Laterite",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232329,
+    "name": "Karst bauxite",
+    "path": "Laterite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232330,
+    "name": "Laterite nickel",
+    "path": "Laterite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232331,
+    "name": "Carbonatite laterite REE",
+    "path": "Laterite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232334,
+    "name": "Residual clay",
+    "path": "Clay/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232348,
+    "name": "Paleochannel iron",
+    "path": "Paleochannel/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232806,
+    "name": "Marine evaporite gypsum",
+    "path": "Evaporite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232821,
+    "name": "Lacustrine zeolite (± Li, B)",
+    "path": "Zeolite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232829,
+    "name": "Iron formation",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232844,
+    "name": "Sediment-hosted",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232952,
+    "name": "MVT zinc-lead",
+    "path": "Mississippi Valley-type (MVT)/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232960,
+    "name": "Hypozonal orogenic gold",
+    "path": "Orogenic/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232983,
+    "name": "Magnetite-dominant IOCG",
+    "path": "Regional metasomatic IOCG/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232998,
+    "name": "Intermediate-sulfidation (IS) epithermal silvergold ± Zn, Pb, Cu, Sn, Mn",
+    "path": "Epithermal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233106,
+    "name": "Vein cobalt ± Ni",
+    "path": "Vein/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233120,
+    "name": "Replacement",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233122,
+    "name": "Replacement gold-silver",
+    "path": "Replacement/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233125,
+    "name": "Replacement zinc-lead",
+    "path": "Replacement/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233126,
+    "name": "Replacement manganese",
+    "path": "Replacement/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233127,
+    "name": "Replacement magnesium",
+    "path": "Replacement/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233129,
+    "name": "Skarn",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233130,
+    "name": "Skarn iron",
+    "path": "Skarn/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233131,
+    "name": "Skarn copper",
+    "path": "Skarn/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233132,
+    "name": "Skarn tungsten ± Mo",
+    "path": "Skarn/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233133,
+    "name": "Skarn tin ± copper ± Mo",
+    "path": "Skarn/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233134,
+    "name": "Skarn gold ± copper ± tungsten",
+    "path": "Skarn/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233135,
+    "name": "Skarn zinc-lead-silver",
+    "path": "Skarn/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233137,
+    "name": "Skarn beryllium-fluorite",
+    "path": "Skarn/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233138,
+    "name": "Skarn uranium-REE",
+    "path": "Skarn/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233140,
+    "name": "Porphyry copper ± gold",
+    "path": "Porphyry/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233141,
+    "name": "Porphyry copper-molybdenum",
+    "path": "Porphyry/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233142,
+    "name": "Porphyry gold ± copper",
+    "path": "Porphyry/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233143,
+    "name": "Climax-type porphyry molybdenum",
+    "path": "Porphyry/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233145,
+    "name": "Porphyry tungsten",
+    "path": "Porphyry/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233148,
+    "name": "Greisen tin ±W-Mo",
+    "path": "Greisen/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233149,
+    "name": "Greisen tungsten-molybdenum ±Bi",
+    "path": "Greisen/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233150,
+    "name": "Greisen beryllium ±Li",
+    "path": "Greisen/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233252,
+    "name": "Reduced intrusion-related gold",
+    "path": "Intrusion-related/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233253,
+    "name": "Oxidized intrusion-related gold",
+    "path": "Intrusion-related/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233254,
+    "name": "Pegmatite",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233255,
+    "name": "Simple pegmatite",
+    "path": "Pegmatite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233256,
+    "name": "LCT pegmatite",
+    "path": "Pegmatite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233257,
+    "name": "NYF pegmatite",
+    "path": "Pegmatite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233258,
+    "name": "Abyssal pegmatite REE",
+    "path": "Pegmatite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233260,
+    "name": "Carbonatite REE",
+    "path": "Carbonatite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233263,
+    "name": "Apatite-nepheline-titanite intrusion",
+    "path": "Apatite-nepheline-titanite intrusion/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233264,
+    "name": "Apatite intrusion REE",
+    "path": "Apatite intrusion/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233265,
+    "name": "Kimberlite diamond",
+    "path": "Kimberlite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233266,
+    "name": "Komatiite nickel-copper-PGE",
+    "path": "Komatiite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233268,
+    "name": "U-M layered intrusion chromium",
+    "path": "Ultramafic and (or) mafic intrusion/Ultramafic and (or) mafic-layered intrusion/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233269,
+    "name": "U-M layered intrusion nickel-copper-PGE",
+    "path": "Ultramafic and (or) mafic intrusion/Ultramafic and (or) mafic-layered intrusion/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233270,
+    "name": "U-M layered intrusion PGE",
+    "path": "Ultramafic and (or) mafic intrusion/Ultramafic and (or) mafic-layered intrusion/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233271,
+    "name": "U-M layered intrusion iron-titanium-vanadium",
+    "path": "Ultramafic and (or) mafic intrusion/Ultramafic and (or) mafic-layered intrusion/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233272,
+    "name": "Ultramafic and (or) mafic intrusion",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233273,
+    "name": "U-M intrusion nickel-copper-PGE",
+    "path": "Ultramafic and (or) mafic intrusion/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233275,
+    "name": "Arc U-M intrusion nickel-copper-PGE",
+    "path": "Ultramafic and (or) mafic intrusion/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233278,
+    "name": "U-M conduit nickel-copper-PGE",
+    "path": "Ultramafic and (or) mafic intrusion/Ultramafic and (or) mafic conduit/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233279,
+    "name": "Ophiolite",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233280,
+    "name": "Ophiolite chromium",
+    "path": "Ophiolite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232312,
+    "name": "Residual placer lead",
+    "path": "Placer/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232322,
+    "name": "Heavy mineral sands",
+    "path": "Placer/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232332,
+    "name": "Laterite magnesite",
+    "path": "Laterite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232335,
+    "name": "Underclay, overclay",
+    "path": "Clay/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232336,
+    "name": "Ion adsorption REE",
+    "path": "Clay/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232338,
+    "name": "Supergene silver",
+    "path": "Supergene/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232339,
+    "name": "Supergene lead",
+    "path": "Supergene/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232340,
+    "name": "Supergene uranium",
+    "path": "Supergene/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232350,
+    "name": "Sandstone uranium",
+    "path": "Uranium/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232808,
+    "name": "Marine evaporite potash",
+    "path": "Evaporite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232823,
+    "name": "Black shale",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232846,
+    "name": "Siliciclastic-mafic zinc-lead",
+    "path": "Sediment-hosted/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232967,
+    "name": "Orogenic graphite",
+    "path": "Orogenic/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232975,
+    "name": "Ferroan carbonate polymetallic",
+    "path": "Metasomatic iron/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232990,
+    "name": "Bimodal-mafic VMS",
+    "path": "Volcanogenic massive sulfide (VMS)/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233113,
+    "name": "Breccia pipe",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233121,
+    "name": "Replacement polymetallic",
+    "path": "Replacement/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233144,
+    "name": "Low-fluorine porphyry molybdenum",
+    "path": "Porphyry/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233259,
+    "name": "Carbonatite",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233267,
+    "name": "Ultramafic and (or) mafic-layered intrusion",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233274,
+    "name": "Arc U-M intrusion titanium-vanadium",
+    "path": "Ultramafic and (or) mafic intrusion/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233281,
+    "name": "Ophiolite nickel-copper-PGE",
+    "path": "Ophiolite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232314,
+    "name": "Fluvial placer PGE",
+    "path": "Placer/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232337,
+    "name": "Supergene",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232342,
+    "name": "Supergene gold",
+    "path": "Supergene/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232345,
+    "name": "Supergene manganese",
+    "path": "Supergene/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232346,
+    "name": "Supergene iron",
+    "path": "Supergene/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232347,
+    "name": "Exotic copper",
+    "path": "Exotic/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232349,
+    "name": "Uranium",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232801,
+    "name": "Carbonate uranium",
+    "path": "Uranium/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232802,
+    "name": "Coal/peat/bog uranium",
+    "path": "Uranium/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232803,
+    "name": "Calcrete uranium",
+    "path": "Uranium/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232804,
+    "name": "Nodular magnesite",
+    "path": "Magnesite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232805,
+    "name": "Evaporite",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232807,
+    "name": "Marine evaporite salt",
+    "path": "Evaporite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232809,
+    "name": "Marine evaporite magnesite",
+    "path": "Evaporite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232810,
+    "name": "Lacustrine evaporite trona",
+    "path": "Evaporite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232811,
+    "name": "Lacustrine evaporite salt",
+    "path": "Evaporite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232812,
+    "name": "Lacustrine evaporite potash",
+    "path": "Evaporite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232813,
+    "name": "Lacustrine evaporite carnallite-bischofite",
+    "path": "Evaporite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232815,
+    "name": "Lacustrine evaporite magnesite",
+    "path": "Evaporite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232818,
+    "name": "Marine brine potash (±Mg, Li, and so on)",
+    "path": "Brine/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232819,
+    "name": "Lacustrine brine potash",
+    "path": "Brine/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232820,
+    "name": "Lacustrine brine lithium",
+    "path": "Brine/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232822,
+    "name": "Lacustrine clay lithium",
+    "path": "Clay/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232824,
+    "name": "Black shale vanadium ± Mo ± Ni",
+    "path": "Black shale/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232825,
+    "name": "Black shale nickel ± Mo-PGE",
+    "path": "Black shale/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232826,
+    "name": "Black shale gold",
+    "path": "Black shale/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232827,
+    "name": "Black shale uranium",
+    "path": "Black shale/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232828,
+    "name": "Phosphorite",
+    "path": "Phosphorite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232830,
+    "name": "Superior-type banded iron formation",
+    "path": "Iron formation/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232833,
+    "name": "Manganese",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232834,
+    "name": "Superior-type banded manganese",
+    "path": "Manganese/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232835,
+    "name": "Sedimentary manganese",
+    "path": "Manganese/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232836,
+    "name": "Crust manganese",
+    "path": "Manganese/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232838,
+    "name": "Lacustrine manganese",
+    "path": "Manganese/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232841,
+    "name": "Unconformity-related REE",
+    "path": "Unconformity-related/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232842,
+    "name": "Collapse breccia pipe uranium",
+    "path": "Collapse breccia pipe/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232843,
+    "name": "Volcanic-hosted copper",
+    "path": "Volcanic-hosted/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232845,
+    "name": "Sediment-hosted copper ± Co",
+    "path": "Sediment-hosted/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232847,
+    "name": "Siliciclastic-mafic barite",
+    "path": "Sediment-hosted/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232848,
+    "name": "Siliciclastic-carbonate zinc-lead",
+    "path": "Sediment-hosted/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232849,
+    "name": "Irish-type sedimenthosted zinc- lead",
+    "path": "Sediment-hosted/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232850,
+    "name": "Kipushi-type sediment-hosted copper-zinc-lead",
+    "path": "Sediment-hosted/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232951,
+    "name": "Mississippi Valley-type (MVT)",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232953,
+    "name": "MVT barite",
+    "path": "Mississippi Valley-type (MVT)/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232969,
+    "name": "Metamorphic graphite",
+    "path": "Metamorphic/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232992,
+    "name": "Felsic-siliciclastic VMS",
+    "path": "Volcanogenic massive sulfide (VMS)/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233115,
+    "name": "Breccia pipe gold",
+    "path": "Breccia pipe/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233123,
+    "name": "Replacement tin",
+    "path": "Replacement/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233146,
+    "name": "Porphyry tin",
+    "path": "Porphyry/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233261,
+    "name": "Carbonatite niobium",
+    "path": "Carbonatite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233276,
+    "name": "Impact U-M intrusion nickel-copper-PGE",
+    "path": "Ultramafic and (or) mafic intrusion/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233282,
+    "name": "Anorthosite massif titanium",
+    "path": "Anorthosite massif/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232318,
+    "name": "Fluvial placer REE",
+    "path": "Placer/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232326,
+    "name": "Paleoplacer gold ± uranium",
+    "path": "Placer/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232341,
+    "name": "Supergene vanadium",
+    "path": "Supergene/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232343,
+    "name": "Supergene zinc",
+    "path": "Supergene/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232814,
+    "name": "Lacustrine evaporite borate",
+    "path": "Evaporite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232816,
+    "name": "Lacustrine evaporite nitrate",
+    "path": "Evaporite/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232831,
+    "name": "Oolitic iron formation",
+    "path": "Iron formation/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232837,
+    "name": "Nodule manganese",
+    "path": "Manganese/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232839,
+    "name": "Unconformity-related",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232954,
+    "name": "MVT fluorspar",
+    "path": "Mississippi Valley-type (MVT)/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30232977,
+    "name": "Iron silicate polymetallic",
+    "path": "Metasomatic iron/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233000,
+    "name": "Alkalic epithermal gold ± Ag",
+    "path": "Epithermal/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233124,
+    "name": "Replacement copper",
+    "path": "Replacement/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233139,
+    "name": "Porphyry",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233147,
+    "name": "Greisen",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233262,
+    "name": "Peralkaline igneous HFSE-REE",
+    "path": "Peralkaline igneous/",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233277,
+    "name": "Ultramafic and (or) mafic conduit",
+    "path": "",
+    "sortorder": null,
+    "description": ""
+  },
+  {
+    "id": 30233283,
+    "name": "Anorthosite conduit nickel-copper-PGE",
+    "path": "Anorthosite conduit/",
+    "sortorder": null,
+    "description": ""
+  }
+]

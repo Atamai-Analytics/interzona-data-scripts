@@ -1,0 +1,100 @@
+[
+  {
+    "id": 30228553,
+    "name": "Not Operating",
+    "path": "",
+    "sortorder": null,
+    "description": "A mine has been operating and then closed or suspended"
+  },
+  {
+    "id": 30228554,
+    "name": "Abandoned",
+    "path": "Not Operating/",
+    "sortorder": null,
+    "description": "A mine is abandoned - one reason or another"
+  },
+  {
+    "id": 30228555,
+    "name": "Care and Maintenance",
+    "path": "Not Operating/",
+    "sortorder": null,
+    "description": "A mine is under care and maintenance"
+  },
+  {
+    "id": 30228556,
+    "name": "Closed",
+    "path": "Not Operating/",
+    "sortorder": null,
+    "description": "A mine can be closed for several reasons, e.g. technical, economical or technico-economical. For example, it may be re-opened if the price of the exploited commodity increases."
+  },
+  {
+    "id": 30228557,
+    "name": "Historic",
+    "path": "Not Operating/",
+    "sortorder": null,
+    "description": "An 'old' mine which has been exploited before 1900, e.g. during Roman times, the Middle Ages, etc."
+  },
+  {
+    "id": 30228558,
+    "name": "Retention",
+    "path": "Not Operating/",
+    "sortorder": null,
+    "description": "A mine can be kept unexploited until the price of contained commodity(ies) makes it economical."
+  },
+  {
+    "id": 30228559,
+    "name": "Operating",
+    "path": "",
+    "sortorder": null,
+    "description": "A mine is operating"
+  },
+  {
+    "id": 30228560,
+    "name": "Operating Continuously",
+    "path": "Operating/",
+    "sortorder": null,
+    "description": "A mine is operating continuously"
+  },
+  {
+    "id": 30228561,
+    "name": "Operating Intermittently",
+    "path": "Operating/",
+    "sortorder": null,
+    "description": "A mine is operating intermittently"
+  },
+  {
+    "id": 30228562,
+    "name": "Under Development",
+    "path": "",
+    "sortorder": null,
+    "description": "A mine is under development - e.g feasibilty"
+  },
+  {
+    "id": 30228563,
+    "name": "Construction",
+    "path": "Under Development/",
+    "sortorder": null,
+    "description": "A mine is under construction after obtaining licenses/permits"
+  },
+  {
+    "id": 30228564,
+    "name": "Feasibility",
+    "path": "Under Development/",
+    "sortorder": null,
+    "description": "Technical economic study aimed at assessing the possibility to launching a mine venture."
+  },
+  {
+    "id": 30228565,
+    "name": "Pending Approval",
+    "path": "Under Development/",
+    "sortorder": null,
+    "description": "Waiting for the exploitation authorization, generally given by a State Mining Engineering Department."
+  },
+  {
+    "id": 30228566,
+    "name": "No Development",
+    "path": "",
+    "sortorder": null,
+    "description": "No development activity or feasibility study has been conducted for a prospect"
+  }
+]

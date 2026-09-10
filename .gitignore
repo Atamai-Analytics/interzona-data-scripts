@@ -20,3 +20,14 @@ sigam_fichas/*
 !sigam_fichas/load/
 sigam_fichas/load/*
 !sigam_fichas/load/*.sql
+!ls_deposit_extract/
+ls_deposit_extract/*
+!ls_deposit_extract/README.md
+!ls_deposit_extract/_coverage.json
+!ls_deposit_extract/*.jsonl
+!ls_deposit_extract/*.csv
+!ls_deposit_extract/build/
+ls_deposit_extract/build/*
+!ls_deposit_extract/build/*.py
+!ls_deposit_extract/build/*.sql
+!ls_deposit_extract/build/*.json
