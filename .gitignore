@@ -8,3 +8,13 @@
 !scrape_sigam_fichas.py
 !wikidata_deposit_matches.csv
 !mindat_deposit_matches.csv
+!sigam_fichas/
+sigam_fichas/*
+!sigam_fichas/DIFF_SUMMARY.md
+!sigam_fichas/sigam_fichas.jsonl
+!sigam_fichas/new_deposits_177.csv
+!sigam_fichas/deposits_no_ficha_5.csv
+!sigam_fichas/coord_disagreements_23.csv
+!sigam_fichas/load/
+sigam_fichas/load/*
+!sigam_fichas/load/*.sql

@@ -139,7 +139,16 @@ These are populated in `criticalmineralsexp` but **`DepositDTO` has no field for
 
 ---
 
-## 7. Coordinate quality — the DB coords are unreliable (added 2026-09-08)
+## 7. Coordinate quality — the DB coords were unreliable; **fixed 2026-09-08**
+
+> **Status: RESOLVED.** On 2026-09-08 the deposit coordinates in `locations` and `sigam_deposits`
+> were replaced from the SEGEMAR WFS (`sigam:e250K.DepositMetalif` + `sigam:e250K.DepositMinIndust`,
+> joined on `depno`). **3,321 of 3,349** `locations` rows changed; 28 unchanged. Pre-fix values are
+> preserved in `locations_deposit_coords_bak_20260909`; per-row rollback in `rollback_deposit_coords.sql`.
+> 8 depnos were left untouched and flagged (not in WFS, or name mismatch): `3103, 3104, 3412, 3413,
+> 3414, 25613, 11098, 24777`. A later cross-check against the fact-sheet scrape (§8) found **5 more
+> rows** with a whole-number longitude the WFS fix missed — see `sigam_fichas/DIFF_SUMMARY.md`.
+> The analysis that follows is the original pre-fix assessment, kept for context.
 
 Cross-checked `criticalmineralsexp` deposit coordinates against SEGEMAR's own published **1:250,000 metalliferous-deposits shapefile** (`lithosurfer-work/e250K_DepositMetalif/`, 1,966 points, EPSG:4326, join key `depno` = `locations.external_id`, names confirmed matching).
 
@@ -166,3 +175,27 @@ Root cause: `sigam_deposits.lat/lon` (the source the DB loaded from) is itself c
 2. The remaining ~1,430 deposits (non-metalliferous / industrial minerals / the rest of `sigam_deposits`) are **not** covered by this shapefile — their coordinates are unverified and, given the same source, likely have the same error rate. Need SEGEMAR's other map layers (industrial minerals, etc.) or manual QC.
 3. Even the shapefile is only ~1:250k cartographic precision (points often at area/district centroids) — fine for a deposit database, not survey-grade. Set `latLonPrecision` accordingly rather than leaving it null.
 4. A CSV of the shapefile (geometry + all 22 attributes) is at `lithosurfer-work/e250K_DepositMetalif.csv`.
+
+---
+
+## 8. Fact-sheet scrape → staging tables (added 2026-09-09)
+
+Scraped all 3,523 SIGAM deposit fact sheets (`scrape_sigam_fichas.py`) and loaded three **additive**
+staging tables — nothing existing was modified:
+
+| Table | Rows | Deposits | Purpose |
+|---|---|---|---|
+| `sigam_fichas` | 3,524 | 3,523 | scalar QC + diff against `sigam_deposits` |
+| `sigam_ficha_grades` | 1,399 | 455 | structured grade / tonnage → `DepositEndowment` |
+| `sigam_ficha_ages` | 265 | 212 | radiometric ages (262 numeric, 8 methods) → `DepositAge` |
+
+**Diff result** (join `sigam_deposits.deposit_id = sigam_fichas.depno` — `numero_de_deposito` is
+unusable, every row = "País"):
+
+- 3,346 fact sheets match an existing deposit
+- **177 new deposits** not in the DB (124 in the fresh `depno ≥ 26143` block; rest are U / Au-Ag /
+  industrial). List: `sigam_fichas/new_deposits_177.csv`
+- 5 DB deposits have no fact sheet — the same retired records flagged in §7
+
+This is the layer to build the LithoSurfer extract from. Grade/tonnage and age tables are now
+structured (previously free text in `sigam_deposits`). Full detail: `sigam_fichas/DIFF_SUMMARY.md`.
