@@ -39,6 +39,12 @@ phase1/*
 !phase1/*.sql
 !phase1/gen_phase1.py
 !phase1/README.md
+!mineral_translations/
+mineral_translations/*
+!mineral_translations/*.sql
+!mineral_translations/*.py
+!mineral_translations/*.csv
+!mineral_translations/*.md
 
 !wa_deposit_extract/
 wa_deposit_extract/*

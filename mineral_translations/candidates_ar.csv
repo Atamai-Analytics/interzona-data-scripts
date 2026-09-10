@@ -1,0 +1,356 @@
+source_text,n_rows,proposed_english,mineral_id,category,method,confidence
+calcita,45,Calcite,823,species,morphology,HIGH
+dolomita,31,Dolomite,1398,species,morphology,HIGH
+cuarzo,17,Quartz,4626,species,irregular,HIGH
+pirita,16,Pyrite,4596,species,morphology,HIGH
+malaquita,11,Malachite,3350,species,irregular,HIGH
+wollastonita,11,Wollastonite,5978,species,morphology,HIGH
+calcosina,10,Chalcocite,948,species,irregular,HIGH
+esfalerita,10,Sphalerite,5170,species,morphology,HIGH
+tremolita,10,Tremolite,5581,species,morphology,HIGH
+calcopirita,8,Chalcopyrite,954,species,morphology,HIGH
+bornita,7,Bornite,650,species,morphology,HIGH
+scheelita,7,Scheelite,4946,species,morphology,HIGH
+epidoto,6,Epidote,1534,species,morphology,HIGH
+cerusita,5,Cerussite,927,species,morphology,HIGH
+crisocola,5,Chrysocolla,1058,species,irregular,HIGH
+arsenopirita,4,Arsenopyrite,316,species,irregular,HIGH
+baritina,4,Baryte,459,species,irregular,HIGH
+fosfuranilita,4,,,unknown,no match,
+goethita,4,Goethite,2084,species,morphology,HIGH
+hematita,4,Hematite,2285,species,morphology,HIGH
+magnetita,4,Magnetite,3333,species,morphology,HIGH
+acantita,3,Acanthite,10,species,irregular,HIGH
+arcillas,3,,,descriptor,irregular(non-mineral),n/a
+azurita,3,Azurite,387,species,morphology,HIGH
+clorargirita,3,Chlorargyrite,1021,species,morphology,HIGH
+crisotilo,3,Chrysotile,1060,species,irregular,HIGH
+ilmenita,3,Ilmenite,2521,species,morphology,HIGH
+meta-autunita,3,,,series,unresolved pair,
+serpetina,3,,,unknown,no match,
+vermiculita,3,Vermiculite,5777,species,morphology,HIGH
+alabandina,2,Alabandite,71,species,irregular,HIGH
+andradita,2,Andradite,195,species,morphology,HIGH
+antimonio nativo,2,,,descriptor,descriptor/compound,n/a
+bastnäsita,2,Bastnäsite-(La),466,species,fuzzy(0.87),LOW
+betafita,2,,,unknown,no match,
+beusita,2,Beusite,560,species,morphology,HIGH
+bitumen,2,,,unknown,irregular(non-mineral),
+brannerita,2,Brannerite,688,species,morphology,HIGH
+britholita,2,Britholite-(Ce),711,species,irregular,HIGH
+brucita,2,Brucite,725,species,morphology,HIGH
+calcopìrita,2,Chalcopyrite,954,species,morphology,HIGH
+clinozoisita,2,Clinozoisite,1119,species,morphology,HIGH
+copiapita,2,Copiapite,1168,species,morphology,HIGH
+coquimbita,2,Coquimbite,1170,species,morphology,HIGH
+covellina,2,Covellite,1194,species,irregular,HIGH
+criptomelano,2,Cryptomelane,1219,species,irregular,HIGH
+cromoespinelo,2,Chromite,1052,species,irregular,HIGH
+diatomita,2,Opal,4079,species,irregular,HIGH
+diásporo,2,Diaspore,1364,species,morphology,HIGH
+epsomita,2,Epsomite,1540,species,morphology,HIGH
+eritrina,2,Erythrite,1566,species,irregular,HIGH
+estefanita,2,Stephanite,5212,species,irregular,HIGH
+galena-,2,Galena,1961,species,fuzzy(0.92),MED
+garnierita,2,,,unknown,no match,
+geocronita,2,Geocronite,2014,species,morphology,HIGH
+goldfieldita,2,Goldfieldite,2085,species,morphology,HIGH
+grosularia,2,Grossular,2154,species,irregular,HIGH
+hallosita,2,Halloysite,2215,species,irregular,HIGH
+huréaulita,2,Hureaulite,2423,species,morphology,HIGH
+inyoita,2,Inyoite,2547,species,morphology,HIGH
+iodargirita,2,Iodargyrite,2548,species,morphology,HIGH
+jacobsita,2,Jacobsite,2586,species,morphology,HIGH
+jaspe,2,Quartz,4626,species,irregular,HIGH
+klockmannita,2,Klockmannite,2872,species,morphology,HIGH
+lizardita,2,Lizardite,3198,species,morphology,HIGH
+maghemita,2,Maghemite,3281,species,irregular,HIGH
+manganocalcita,2,Calcite,823,species,irregular,HIGH
+martita,2,Hematite,2285,species,irregular,HIGH
+matildita,2,Matildite,3467,species,morphology,HIGH
+melanterita,2,Melanterite,3527,species,morphology,HIGH
+mica,2,Muscovite,3775,species,irregular,HIGH
+millerita,2,Millerite,3642,species,morphology,HIGH
+molibdenita,2,Molybdenite,3685,species,irregular,HIGH
+montebrasita,2,Montebrasite,3706,species,morphology,HIGH
+mottramita,2,Mottramite,3744,species,morphology,HIGH
+onofrita,2,,,unknown,no match,
+ortoclasa,2,Orthoclase,4098,species,morphology,HIGH
+ortosa,2,Orthoclase,4098,species,irregular,HIGH
+piirta,2,Pyrite,4596,species,irregular,HIGH
+pirolusita,2,Pyrolusite,4600,species,irregular,HIGH
+piromorfita,2,Pyromorphite,4601,species,irregular,HIGH
+rammelsbergita,2,Rammelsbergite,4659,species,morphology,HIGH
+sanmartinita,2,Sanmartinite,4893,species,irregular,HIGH
+semseyita,2,Semseyite,5020,species,morphology,HIGH
+sillimanita,2,Sillimanite,5102,species,morphology,HIGH
+stilleíta,2,Stilleite,5239,species,morphology,HIGH
+ullmannita,2,Ullmannite,5678,species,morphology,HIGH
+vesubianita,2,Vesuvianite,5785,species,irregular,HIGH
+violarita,2,Violarite,5802,species,morphology,HIGH
+voltaíta,2,Voltaite,5829,species,morphology,HIGH
+wad,2,,,unknown,irregular(non-mineral),
+zoicita,2,Zoisite,6169,species,irregular,HIGH
+óxidos de bismuto,2,,,descriptor,descriptor/compound,n/a
+agata,1,Quartz,4626,species,irregular,HIGH
+alabandino (?),1,,,unknown,no match,
+alatrichita,1,,,unknown,no match,
+alofano,1,Allophane,115,species,irregular,HIGH
+analcima,1,Analcime,184,species,morphology,HIGH
+andalusita,1,Andalusite,193,species,morphology,HIGH
+anglesita-cerusita,1,Anglesite,209,species,morphology,HIGH
+antimonita,1,Stibnite,5235,species,irregular,HIGH
+argentitta,1,,,unknown,no match,
+argentojarosita,1,Argentojarosite,264,species,morphology,HIGH
+argentum,1,,,unknown,no match,
+argirodita,1,Argyrodite,278,species,irregular,HIGH
+arsenopirita cobaltífera,1,,,unknown,no match,
+au,1,,,unknown,no match,
+augelita,1,Augelite,363,species,morphology,HIGH
+axinita,1,Axinite-(Fe),383,species,irregular,HIGH
+bederita,1,Bederite,496,species,morphology,HIGH
+beraunita,1,Beraunite,525,species,morphology,HIGH
+bermanita,1,Bermanite,533,species,morphology,HIGH
+betechtinita,1,,,unknown,no match,
+beudantita,1,Beudantite,559,species,morphology,HIGH
+bindheimita,1,,,unknown,no match,
+bismutina,1,Bismuthinite,591,species,irregular,HIGH
+bismuto,1,,,unknown,no match,
+bixbyita,1,,,unknown,no match,
+boltwooditaa,1,Boltwoodite,634,species,fuzzy(0.87),LOW
+bournonita-boulangerita,1,Bournonite,670,species,morphology,HIGH
+breithauptita,1,Breithauptite,696,species,morphology,HIGH
+bromargirita,1,Bromargyrite,718,species,morphology,HIGH
+broncita,1,Enstatite,1530,species,irregular,HIGH
+bustamita,1,Bustamite,761,species,morphology,HIGH
+ca,1,,,unknown,irregular(non-mineral),
+calaverita,1,Calaverite,797,species,morphology,HIGH
+calcoestibita,1,Chalcostibite,956,species,irregular,HIGH
+calcofanita,1,Chalcophanite,952,species,irregular,HIGH
+calcopirtia,1,Chalcopyrite,954,species,irregular,HIGH
+calcosina-covelina,1,Chalcocite,948,species,irregular,HIGH
+caledonita,1,Caledonite,829,species,morphology,HIGH
+calingastita,1,,,unknown,no match,
+canfieldita,1,Canfieldite,849,species,morphology,HIGH
+caolinita,1,Kaolinite,2743,species,irregular,HIGH
+carbonato,1,,,descriptor,descriptor/compound,n/a
+carbonato de cobre,1,,,descriptor,descriptor/compound,n/a
+carbonatos de hierro y manganeso,1,,,descriptor,descriptor/compound,n/a
+carnalita,1,,,unknown,no match,
+carrolita,1,,,unknown,no match,
+chalcomenita,1,Chalcomenite,950,species,morphology,HIGH
+chillagita,1,,,unknown,no match,
+clinoanfíboles,1,,,unknown,no match,
+clinoclasa,1,Clinoclase,1100,species,morphology,HIGH
+clinopiroxeno,1,,,unknown,no match,
+cobaltita,1,Cobaltite,1127,species,morphology,HIGH
+cobalto-pentlandita,1,,,series,unresolved pair,
+cobre color,1,,,unknown,no match,
+colemanita,1,Colemanite,1146,species,morphology,HIGH
+colusita,1,Colusite,1156,species,morphology,HIGH
+connelita,1,,,unknown,no match,
+corindón,1,,,unknown,no match,
+cosalita,1,Cosalite,1186,species,morphology,HIGH
+cr-magnetita,1,,,series,unresolved pair,
+cricocola,1,,,unknown,no match,
+crisocola-malaquita,1,Chrysocolla,1058,species,irregular,HIGH
+cromita (zn),1,,,unknown,no match,
+cromita alumnifera,1,,,unknown,no match,
+cu,1,,,unknown,no match,
+cuarzo-sericita,1,Quartz,4626,species,irregular,HIGH
+cuprobismutina,1,,,unknown,no match,
+cuprosklowskita,1,Cuprosklodowskite,1250,species,fuzzy(0.88),LOW
+delafosita,1,Delafossite,1320,species,morphology,HIGH
+descloisita,1,,,unknown,no match,
+descloizita-mottramita,1,Descloizite,1348,species,morphology,HIGH
+dickinsonita,1,,,unknown,no match,
+dickita,1,Dickite,1366,species,morphology,HIGH
+dioptasa,1,Dioptase,1378,species,morphology,HIGH
+diósido,1,,,unknown,no match,
+dufrenita,1,Dufrénite,1433,species,morphology,HIGH
+egirina,1,,,unknown,no match,
+elbaíta,1,Elbaite,1498,species,morphology,HIGH
+emplectita,1,Emplectite,1522,species,morphology,HIGH
+enargita aurífera,1,,,unknown,no match,
+enstatita,1,Enstatite,1530,species,morphology,HIGH
+eosforita,1,,,unknown,no match,
+eskebornita,1,Eskebornite,1571,species,morphology,HIGH
+espesartita,1,,,unknown,no match,
+espinelo zincífero,1,,,unknown,no match,
+espinelos,1,,,unknown,no match,
+esteatita,1,,,unknown,no match,
+estronciopirocloro,1,,,unknown,no match,
+eucriptita,1,,,unknown,no match,
+falhore,1,,,unknown,no match,
+fedespato,1,,,unknown,no match,
+ferrocromita,1,,,unknown,no match,
+ferrokersterita,1,Ferrokësterite,1745,species,fuzzy(0.90),MED
+ferromolibdenita,1,,,unknown,no match,
+ferroselita,1,Ferroselite,1759,species,morphology,HIGH
+fischesserita,1,Fischesserite,1795,species,morphology,HIGH
+fluorapatita,1,Fluorapatite,1829,species,morphology,HIGH
+fluorita,1,Fluorite,1851,species,morphology,HIGH
+fosfoferrita,1,,,unknown,no match,
+fosfosiderita,1,,,unknown,no match,
+fosfouranita,1,,,unknown,no match,
+fosgenita,1,Phosgenite,4384,species,morphology,HIGH
+freirinita,1,,,unknown,no match,
+gahnita,1,Gahnite,1951,species,morphology,HIGH
+galenta,1,Galena,1961,species,fuzzy(0.92),MED
+gibbsita,1,Gibbsite,2038,species,morphology,HIGH
+glauberita,1,Glauberite,2065,species,morphology,HIGH
+glaucodoto,1,Glaucodot,2068,species,fuzzy(0.95),MED
+goe,1,,,unknown,no match,
+grandita,1,,,unknown,no match,
+greenockita,1,Greenockite,2133,species,morphology,HIGH
+gudmundita,1,Gudmundite,2167,species,morphology,HIGH
+gummita,1,,,unknown,no match,
+gunningita,1,Gunningite,2178,species,morphology,HIGH
+gustavita,1,Gustavite,2183,species,morphology,HIGH
+halita,1,Halite,2213,species,morphology,HIGH
+halotrichita,1,Halotrichite,2216,species,morphology,HIGH
+halotriquita,1,,,unknown,no match,
+hausmanita,1,,,unknown,no match,
+hausmannita,1,Hausmannite,2249,species,morphology,HIGH
+heazlewoodita,1,Heazlewoodite,2262,species,morphology,HIGH
+heliodoro,1,,,unknown,no match,
+helvina,1,Helvine,2284,species,morphology,HIGH
+hematita especular,1,,,descriptor,descriptor/compound,n/a
+hessita,1,Hessite,2313,species,morphology,HIGH
+hexaedrita,1,,,unknown,no match,
+hidroboracita,1,Hydroboracite,2432,species,morphology,HIGH
+hidróxidos de fe,1,,,descriptor,descriptor/compound,n/a
+holandita,1,,,unknown,no match,
+hureáulita,1,Hureaulite,2423,species,morphology,HIGH
+illita / sericita,1,,,unknown,no match,
+illita+muscovita,1,,,unknown,no match,
+illita/muscovita,1,,,unknown,no match,
+isoestannita,1,,,unknown,no match,
+jalpäita,1,Jalpaite,2609,species,morphology,HIGH
+kernita,1,Kernite,2813,species,morphology,HIGH
+kieserita,1,Kieserite,2840,species,morphology,HIGH
+kutnahorita,1,,,unknown,no match,
+lazulita,1,Lazulite,3088,species,morphology,HIGH
+lepidocrocita,1,Lepidocrocite,3123,species,morphology,HIGH
+leucoxeno,1,,,unknown,no match,
+linarita,1,Linarite,3157,species,morphology,HIGH
+lmenita,1,,,unknown,no match,
+loellingita,1,,,unknown,no match,
+lollingita,1,Löllingite,3260,species,morphology,HIGH
+ludwigita,1,Ludwigite,3235,species,morphology,HIGH
+luzonita,1,Luzonite,3250,species,morphology,HIGH
+magnetita almunífera,1,,,unknown,no match,
+magnetita cromífera,1,,,unknown,no match,
+manganocolumbita,1,,,unknown,no match,
+manganohedenbergita,1,,,unknown,no match,
+manganosiderita,1,,,unknown,no match,
+manganotantalita,1,,,unknown,no match,
+maucherita,1,Maucherite,3477,species,morphology,HIGH
+mawsonita,1,Mawsonite,3482,species,morphology,HIGH
+metatorbernita,1,Metatorbernite,3596,species,morphology,HIGH
+metatyuyamunita,1,Metatyuyamunite,3597,species,morphology,HIGH
+miargirita,1,Miargyrite,3619,species,morphology,HIGH
+microlita,1,,,unknown,no match,
+minerales de cu,1,,,descriptor,descriptor/compound,n/a
+minerales de mn,1,,,descriptor,descriptor/compound,n/a
+minerales del grupo del pt,1,,,descriptor,descriptor/compound,n/a
+mitridatita,1,Mitridatite,3664,species,morphology,HIGH
+mixita,1,Mixite,3668,species,morphology,HIGH
+molybdomenita,1,Molybdomenite,3688,species,morphology,HIGH
+montmorillenita,1,Montmorillonite,3715,species,fuzzy(0.87),LOW
+montroseita,1,Montroseite,3717,species,morphology,HIGH
+morganita,1,,,unknown,no match,
+muthmanita,1,,,unknown,no match,
+natroalunita,1,Natroalunite,3867,species,morphology,HIGH
+neotocita,1,Neotocite,3912,species,morphology,HIGH
+niobita,1,,,unknown,no match,
+niobita-tantalita,1,,,series,unresolved pair,
+oligisto,1,,,unknown,no match,
+olivenita,1,Olivenite,4060,species,morphology,HIGH
+oro nativo-cuarzo,1,,,descriptor,descriptor/compound,n/a
+paramontroseita,1,Paramontroseite,4226,species,morphology,HIGH
+pearcita,1,,,unknown,no match,
+pechblenda,1,,,unknown,no match,
+pennantita,1,Pennantite,4310,species,morphology,HIGH
+perlita,1,,,unknown,no match,
+pertita,1,,,unknown,no match,
+pirargirita,1,Pyrargyrite,4595,species,morphology,HIGH
+pirargirita-polibasita,1,Pyrargyrite,4595,species,morphology,HIGH
+pirita argentífera,1,,,unknown,no match,
+pirosmaltita,1,,,unknown,no match,
+pirrotina,1,,,unknown,no match,
+plumbogummita,1,Plumbogummite,4455,species,morphology,HIGH
+preisengerita,1,,,unknown,no match,
+pseudomalaquita,1,,,unknown,no match,
+purpurita,1,Purpurite,4585,species,morphology,HIGH
+quenselita,1,Quenselite,4629,species,morphology,HIGH
+rancieíta,1,Ranciéite,4663,species,morphology,HIGH
+rockbridgeíta,1,Rockbridgeite,4765,species,morphology,HIGH
+rodoestannita,1,,,unknown,no match,
+rollandita,1,Rollandite,4774,species,morphology,HIGH
+romboclasa,1,,,unknown,no match,
+rooselveltita,1,Rooseveltite,4782,species,fuzzy(0.88),LOW
+rutilo wolfrámifero,1,,,unknown,no match,
+sarmientita,1,Sarmientite,4912,species,morphology,HIGH
+schmiederita,1,Schmiederite,4958,species,morphology,HIGH
+selenio,1,,,unknown,no match,
+selenita,1,,,unknown,no match,
+seleniuros,1,,,unknown,no match,
+senarmontita,1,Senarmontite,5023,species,morphology,HIGH
+sengierita,1,Sengierite,5025,species,morphology,HIGH
+sicklerita,1,,,unknown,no match,
+sperrylita,1,Sperrylite,5165,species,morphology,HIGH
+stanekita,1,Stanĕkite,5193,species,morphology,HIGH
+stewartita,1,Stewartite,5223,species,morphology,HIGH
+stilpnomelano,1,Stilpnomelane,5243,species,morphology,HIGH
+sulfosales de ag y sn,1,,,descriptor,descriptor/compound,n/a
+sulfosales de bi,1,,,descriptor,descriptor/compound,n/a
+sulfosales de sn,1,,,descriptor,descriptor/compound,n/a
+sulfotelururos de bi,1,,,descriptor,descriptor/compound,n/a
+sulfuros complejos de ag,1,,,descriptor,descriptor/compound,n/a
+sulfuros de cobre,1,,,descriptor,descriptor/compound,n/a
+sulfuros de fe-ni-co,1,,,descriptor,descriptor/compound,n/a
+sulfuros de plata,1,,,descriptor,descriptor/compound,n/a
+szomolnokita,1,Szomolnokite,5349,species,morphology,HIGH
+sílice microcristalina,1,,,unknown,no match,
+tefroíta,1,,,unknown,no match,
+teluros,1,,,unknown,no match,
+telururos,1,,,unknown,no match,
+telururos de au-ag,1,,,series,unresolved pair,
+telururos de oro y plata,1,,,unknown,no match,
+telururos de pd-bi,1,,,series,unresolved pair,
+tennantita-tetraedrita,1,,,series,unresolved pair,
+tetraedrita argentífera,1,,,unknown,no match,
+thompsonita,1,,,unknown,no match,
+thorbastnäsita,1,Thorbastnäsite,5493,species,morphology,HIGH
+thorianita,1,Thorianite,5495,species,morphology,HIGH
+tierras raras,1,,,unknown,no match,
+titanomagnetita platinífera,1,,,unknown,no match,
+torokita,1,,,unknown,no match,
+triploidita,1,Triploidite,5595,species,morphology,HIGH
+uraninita,1,Uraninite,5694,species,morphology,HIGH
+uranofano-fosfouraninita,1,,,series,unresolved pair,
+uranopilita,1,Uranopilite,5698,species,morphology,HIGH
+uranotorita,1,,,unknown,no match,
+uvanita,1,Uvanite,5716,species,morphology,HIGH
+uytenbogaardita,1,Uytenbogaardtite,5719,species,fuzzy(0.90),MED
+valleriita,1,Valleriite,5726,species,morphology,HIGH
+varulita,1,Varulite,5758,species,morphology,HIGH
+vesuvianita,1,Vesuvianite,5785,species,morphology,HIGH
+vivianita,1,Vivianite,5813,species,morphology,HIGH
+vonsenita,1,Vonsenite,5832,species,morphology,HIGH
+vredenburgita,1,,,unknown,no match,
+willemita,1,Willemite,5959,species,morphology,HIGH
+wittichenita,1,Wittichenite,5971,species,morphology,HIGH
+wodginita,1,Wodginite,5975,species,morphology,HIGH
+woodrufita,1,,,unknown,no match,
+wylleita,1,,,unknown,no match,
+xenotima,1,,,unknown,no match,
+yeso,1,Gypsum,2188,species,irregular,HIGH
+zafiro,1,,,unknown,no match,
+zeolitas,1,,,unknown,no match,
+zincsilita,1,Zincsilite,6147,species,morphology,HIGH
+zircón,1,Zircon,6155,species,morphology,HIGH
+zoisita,1,Zoisite,6169,species,morphology,HIGH
+zunyita,1,Zunyite,6180,species,morphology,HIGH
+óxidos de hierro y titanio,1,,,descriptor,descriptor/compound,n/a
