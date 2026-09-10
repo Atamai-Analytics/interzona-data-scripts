@@ -199,3 +199,28 @@ unusable, every row = "País"):
 
 This is the layer to build the LithoSurfer extract from. Grade/tonnage and age tables are now
 structured (previously free text in `sigam_deposits`). Full detail: `sigam_fichas/DIFF_SUMMARY.md`.
+
+---
+
+## 9. LithoSurfer deposit extract (added 2026-09-09)
+
+Built in `lithosurfer-work/ls_deposit_extract/` — API-ready DTO rows for all five group-17 entities,
+keyed by `sourceId = "SIGAM:<depno>"`. There is **no batch endpoint** in group 17: one POST per row,
+parents (`Deposit` → `DepositInfo`) before children.
+
+| File | Rows | Coverage |
+|---|---:|---|
+| `deposit.jsonl` | 3,523 | name + coords (3,521) + synthesised description |
+| `deposit_style.jsonl` | 3,165 | **90%** typed; 358 industrial-rock SIGAM codes have no Hofstra ore-model type |
+| `deposit_endowment.jsonl` | 5,926 | 5,038 commodity-presence + 888 grade/tonnage (763 numeric resource grades) |
+| `deposit_age.jsonl` | 262 | radiometric ages, 223 with `ageMethodId` |
+| `deposit_op_status.jsonl` | 1,113 | 32% — OCCURRENCE/PROSPECT/EXPLORATION/UNKNOWN don't map |
+
+Crosswalks (all matched, in the extract dir): 65 deposit types → `LDepositType`, 82 commodities →
+`LCommodity`. Deposit type is **staging-first** (fact-sheet code → `sigam_deposit_type_mapping` →
+Hofstra → `LDepositType`), curated `deposits.deposit_type_id` only as fallback. 7 fact-sheet-vs-curated
+type disagreements and 3 no-name/no-coord rows are flagged in `review_*.csv`.
+
+**Left to do:** normalise grade/tonnage units (raw values in `endowment_raw.csv`); `resourceClassificationId`;
+`literatureId` (needs Literature entities); resolve the 7+3 review rows; pick the target DataPackage and load.
+Regenerate with `ls_deposit_extract/build/` (`export_sources.sql` → `build_crosswalks.py` → `build_extract.py`).
