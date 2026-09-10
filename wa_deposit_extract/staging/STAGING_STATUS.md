@@ -3,8 +3,9 @@
 **2026-09-10.** Sibling of the SIGAM/Argentina deposit work, kept fully separate:
 own staging tables (`wa_*`), own tag (`createdby='claude_wa_20260910'`), own dir
 (`wa_deposit_extract/`). **Steps 1–5 complete** — 5,418 DGER deposits loaded into
-`criticialmineralsexp` and a LithoSurfer extract built (`../README.md`). Step 6
-(API load) in progress into package 250875260. Run order: `01`→`14`, then `build/`.
+`criticialmineralsexp` and a LithoSurfer extract built (`../README.md`).
+**Step 6 (API load) DONE** — 5,418 deposits + 9,316 endowments in package
+250875260. Run order: `01`→`15`, then `build/`, then `load_deposits.cjs`.
 
 ## Step 1 — `wa_deposits_staging` (done)
 
