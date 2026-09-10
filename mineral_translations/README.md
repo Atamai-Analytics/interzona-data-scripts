@@ -38,6 +38,27 @@ Rollback: `rollback.sql`.
 Nothing here feeds the LithoSurfer load — group 17 has no deposit-mineralogy entity; mineralogy
 only appears as free text in `Deposit.description`.
 
+## Deposit-table gap backfill (`apply_deposit_gaps.sql` + `apply_task1_commodities.sql`, 2026-09-10)
+
+Audit of the other AR deposit tables turned up two real gaps:
+
+- **Task 1 — 8 deposits missing metal-commodity links** the Phase-1 parser dropped
+  ("W - Sb" ×6 in the San Luis W district, "Pb; Ag; Cu; Zn", "W (Cu-Pb-Zn)"). Added 20
+  `deposit_commodities` rows. (The first attempt joined on depno not depositid and did nothing;
+  `apply_task1_commodities.sql` is the redo with the right ids.)
+- **Task 2 — 245 deposits whose `sigam_deposits.mineralogia` was a plain comma-list** the original
+  loader skipped (it only parsed the `(zone / role): mineral` structured form). Parsed and added
+  **1,146 `deposit_mineralogy` rows, 1,059 linked (92%)** — including flagship deposits like Bajo de
+  la Alumbrera which had zero mineralogy rows. Also added 15 translations surfaced by the parse
+  (pirrotina→Pyrrhotite, marcasita→Marcasite, enargita→Enargite, …).
+
+After: AR deposits with no commodity 113→105, with no mineralogy 1,697→1,452, `deposit_mineralogy`
+8,050→9,196 rows / 85.8% linked. Tags `claude_deposit_gap_20260910` / `claude_sigam_min_20260910`;
+`rollback_deposit_gaps.sql`.
+
+Not done (low value): `age_measured.mineral_id` (~160 unlinked, no downstream use),
+`locations.divisionid` backfill (~360), gravel→"Sand and Gravel" commodity mapping (~30).
+
 ## Follow-up: the 10 species / `mineral_id` NULL rows (`apply_buckets_1_3.sql`, 2026-09-10)
 
 Not one oversight — three causes:
