@@ -39,3 +39,14 @@ phase1/*
 !phase1/*.sql
 !phase1/gen_phase1.py
 !phase1/README.md
+
+!wa_deposit_extract/
+wa_deposit_extract/*
+!wa_deposit_extract/*.md
+!wa_deposit_extract/staging/
+wa_deposit_extract/staging/*
+!wa_deposit_extract/staging/*.sql
+!wa_deposit_extract/staging/*.py
+!wa_deposit_extract/staging/*.md
+!wa_deposit_extract/staging/*.csv
+!wa_deposit_extract/staging/*.txt
