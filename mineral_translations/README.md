@@ -56,8 +56,24 @@ After: AR deposits with no commodity 113→105, with no mineralogy 1,697→1,452
 8,050→9,196 rows / 85.8% linked. Tags `claude_deposit_gap_20260910` / `claude_sigam_min_20260910`;
 `rollback_deposit_gaps.sql`.
 
+## `locations.divisionid` backfill (`apply_divid_backfill.sql` + `apply_divid_correction.sql`, 2026-09-10)
+
+363 AR deposit locations had `divisionid` (admin province) NULL. SIGAM records a province in the
+location text for only ~half; the fact sheet often just says "Argentina".
+
+- **179 from the fact-sheet `ubicacion_politica`** ("Provincia o Estado: X") — authoritative.
+- **184 by PostGIS nearest-neighbour** — assigned the `divisionid` of the closest AR deposit that
+  already had one (`geom <-> geom`; coordinates are the WFS-fixed set). Spot-checked against
+  latitude bands — clean (Chubut ≈ -43, Río Negro ≈ -41, …).
+
+Ran NN for all 363 first, then the correction overwrote 8 where the fact-sheet province disagreed
+(3 were the zero-coordinate deposits — Ischilín's lat=0 had put it in Jujuy, now Córdoba).
+
+**All 3,528 AR deposit locations now have a `divisionid`.** Backup `locations_divid_bak_20260910`;
+`rollback_divid.sql`.
+
 Not done (low value): `age_measured.mineral_id` (~160 unlinked, no downstream use),
-`locations.divisionid` backfill (~360), gravel→"Sand and Gravel" commodity mapping (~30).
+gravel→"Sand and Gravel" commodity mapping (~30).
 
 ## Follow-up: the 10 species / `mineral_id` NULL rows (`apply_buckets_1_3.sql`, 2026-09-10)
 
