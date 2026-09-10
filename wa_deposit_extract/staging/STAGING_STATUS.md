@@ -106,15 +106,44 @@ it is a real prospect, not a mill.
 | `canonical_merged_only.csv` | just the 569 merged clusters, widest-spread first |
 | `review_pairs.csv` / `review_pairs_open.csv` | 150 triaged / 136 still-open (all rejected) |
 
-## Next (Step 3)
+## Step 4 — commodity crosswalk (done)
 
-Review decisions are applied; `wa_dedup_canonical` (5,417 rows) is frozen as the load set.
+`07_commodities.sql` tokenizes commodities per canonical deposit →
+`wa_canonical_commodity_tok` (canonical_id, token, role, mentions). `08_crosswalk.py`
+maps the **113 distinct tokens** → `commodities`:
 
-1. Snapshot `deposits` / `deposit_commodities` / `deposit_mineralogy` →
-   `*_bak_wa_20260910`, document rollback (pattern: `../../phase1/README.md`).
-2. Load canonical → `locations` (locationtype='DEPOSIT',
-   datasource='Washington State Geological Survey (DGER)', external_id='WA:<canonical_id>',
-   countryid=246, divisionid=48) + `deposits` + `deposit_commodities` + `deposit_mineralogy`,
-   all tagged `createdby='claude_wa_20260910'`, `deposit_type_id` NULL.
-3. WA→`commodities`→`LCommodity` crosswalk (~40 clean tokens; prose tail needs manual
-   mapping/drop — see `05_review_export.sql` token dump).
+| method | tokens | note |
+|---|--:|---|
+| ELEMENT | ~45 | element word → `commodity_symbol` (Au, Cu, Sb, …) |
+| CURATED | ~60 | industrial minerals/rocks → `commodity_name` (Limestone, Pumice, Clay, Baryte, Talc, Serpentine, …) |
+| SPLIT | 15 phrases | "copper gold" → Cu + Au, etc. |
+| DROP | 4 | `plutonium` (14 — uranium-hazard-table artifact), `flour`, `unknown`, `pyrite` |
+| UNMAPPED | 0 | every commodity-bearing deposit resolves |
+
+Output `crosswalk_commodity_wa.csv`. Judgement calls: `dolomite`/`marl`/`travertine`
+→ Limestone; `beryl` → Be; `gem and ornamental stones` → Miscellaneous Dimension
+Stones; `mineral pigments` → Ochre; `sodium sulfate` → Thenardite.
+
+## Step 3 — load (DONE 2026-09-10, `09_load.sql`)
+
+Snapshots `deposits` / `deposit_commodities` / `deposit_mineralogy` →
+`*_bak_wa_20260910`, then one transaction. Everything `createdby='claude_wa_20260910'`,
+`deposit_type_id` NULL, rollback block at the bottom of `09_load.sql`.
+
+| table | rows added | notes |
+|---|--:|---|
+| `locations` | 5,417 | locationtype='DEPOSIT', datasource='Washington State Geological Survey (DGER)', external_id='WA:<canonical_id>', countryid=246, divisionid=48, geom via trigger (0 null). Provenance + aliases + location notes in `comments`. |
+| `deposits` | 5,417 | `deposits` 3,528 → **8,945**. `geological_district` ← mining_district; comments carry DGER comments/value/ore-minerals; `production_data` flag where recorded. |
+| `deposit_commodities` | 9,320 | 5,477 PRIMARY / 3,843 SECONDARY. 26 deposits have no commodity (iaml-only metal mines + null-name coal composite). |
+| `deposit_mineralogy` | 5,237 | from `ore_minerals`; 4,215 (80%) matched a `minerals.mineral_id`. |
+
+Verified: 0 null geom, 0 unmapped ids, 0 orphan commodities. Van Epps (WA:2)
+spot-checked — Sb primary + Ag/Au/Ni/Pb/Zn secondary, 7 ore minerals all resolved.
+
+## Next
+
+- **Step 5:** build the LithoSurfer extract in `wa_deposit_extract/` (copy
+  `ls_deposit_extract/build/` approach; `Deposit` + `DepositEndowment` commodity-presence,
+  no ages/styles; sourceId `"WA:<canonical_id>"`).
+- **Step 6:** load into a Washington data package — blocked behind SIGAM Phase 3
+  (blocked on Lithodat purge of package 250875258).

@@ -1,0 +1,288 @@
+commodity_id,commodity_name,commodity_symbol,commodity_category
+248,Ag,Ag,Metal
+60,Agate,,Gemstone
+211,Al,Al,Metal
+184,Alumina,,Chemical Oxide
+108,Aluminosilicate,,Industrial Mineral
+109,Alunite,,Industrial Mineral
+48,Amazonite,,Gemstone
+1,Amber,,Gemstone
+52,Amethyst,,Gemstone
+155,Andalusite,,Industrial Mineral
+172,Anhydrite,,Industrial Mineral
+161,Anthophyllite,,Industrial Mineral
+91,Anthracite,,Carbonaceous Material
+110,Apatite,,Industrial Mineral
+2,Apatite Gemstone,,Gemstone
+42,Aquamarine,,Gemstone
+276,As,As,Metalloid
+111,Asbestos,,Industrial Mineral
+159,Asbestos Amphibole,,Industrial Mineral
+160,Asbestos Serpentine,,Industrial Mineral
+99,Asphalt,,Hydrocarbon
+249,Au,Au,Metal
+277,B,B,Metalloid
+212,Ba,Ba,Metal
+112,Baryte,,Industrial Mineral
+69,Basalt,,Dimension Stone
+77,Bauxite,,Direct Shipping Ore
+213,Be,Be,Metal
+170,Bentonite,,Industrial Mineral
+3,Beryl,,Gemstone
+214,Bi,Bi,Metal
+92,Black Coal,,Carbonaceous Material
+113,Borate,,Industrial Mineral
+282,Br,Br,Non-Metal
+164,Brick Clay,,Industrial Mineral
+93,Brown Coal,,Carbonaceous Material
+114,Calcite,,Industrial Mineral
+173,Carnallite,,Industrial Mineral
+56,Carnelian,,Gemstone
+4,Cassiterite Gemstone,,Gemstone
+215,Cd,Cd,Metal
+270,Ce,Ce,REE
+57,Chalcedony,,Gemstone
+177,Chert,,Industrial Mineral
+115,Chlorite,,Industrial Mineral
+185,Chrome,,Chemical Oxide
+116,Chromite,,Industrial Mineral
+5,Chrysoberyl,,Gemstone
+58,Chrysoprase,,Gemstone
+162,Chrysotile,,Industrial Mineral
+53,Citrine,,Gemstone
+117,Clay,,Industrial Mineral
+238,Co,Co,Metal
+94,Coal,,Carbonaceous Material
+96,Coal Bed Methane,,Hydrocarbon
+6,Cordierite,,Gemstone
+118,Corundum,,Industrial Mineral
+7,Corundum Gemstone,,Gemstone
+243,Cr,Cr,Metal
+163,Crocidolite,,Industrial Mineral
+66,Crushed Rock,,Aggregate
+119,Cryolite,,Industrial Mineral
+216,Cs,Cs,Metal
+239,Cu,Cu,Metal
+120,Diamond,,Industrial Mineral
+8,Diamond Gemstone,,Gemstone
+82,Diatomite,,Industrial Rock
+9,Diopside Enstatite,,Gemstone
+10,Dioptase,,Gemstone
+11,Dumortierite,,Gemstone
+260,Dy,Dy,REE
+43,Emerald,,Gemstone
+121,Epsomite,,Industrial Mineral
+261,Er,Er,REE
+262,Eu,Eu,REE
+205,Eu2O3,,Chemical Oxide
+12,Euclase,,Gemstone
+122,Evaporite,,Industrial Mineral
+283,F,F,Non-Metal
+244,Fe,Fe,Metal
+123,Feldspar,,Industrial Mineral
+13,Feldspar Gemstone,,Gemstone
+124,Fluorite,,Industrial Mineral
+103,Foundry Sand,,Sand
+104,Frac Sand,,Sand
+165,Fullers Earth,,Industrial Mineral
+217,Ga,Ga,Metal
+186,Ga2O3,,Chemical Oxide
+125,Garnet,,Industrial Mineral
+14,Garnet Gemstone,,Gemstone
+97,Gas Hydrate,,Hydrocarbon
+263,Gd,Gd,REE
+278,Ge,Ge,Metalloid
+126,Glauconite,,Industrial Mineral
+70,Granite,,Dimension Stone
+127,Graphite,,Industrial Mineral
+71,Greenstone,,Dimension Stone
+174,Gypsum,,Industrial Mineral
+166,Halloysite,,Industrial Mineral
+105,Heavy Mineral Sand,,Sand
+206,Heavy Rare Earth Oxide,,Chemical Oxide
+44,Heliodor,,Gemstone
+128,Hematite,,Industrial Mineral
+15,Hematite Gemstone,,Gemstone
+80,Hematite Ore,,Direct Shipping Ore
+218,Hf,Hf,Metal
+187,HfO2,,Chemical Oxide
+219,Hg,Hg,Metal
+264,Ho,Ho,REE
+257,HREE,HREE,Group
+284,I,I,Non-Metal
+129,Ilmenite,,Industrial Mineral
+220,In,In,Metal
+78,Ion Ore,,Direct Shipping Ore
+250,Ir,Ir,Metal
+188,Iron Oxide,,Chemical Oxide
+16,Jade,,Gemstone
+130,Jarosite,,Industrial Mineral
+221,K,K,Metal
+183,K2SO4,,Chemical
+167,Kaolin,,Industrial Mineral
+17,Kornerupine,,Gemstone
+156,Kyanite,,Industrial Mineral
+18,Kyanite Gemstone,,Gemstone
+271,La,La,REE
+83,Laterite,,Industrial Rock
+19,Lazulite,,Gemstone
+131,Leucoxene,,Industrial Mineral
+222,Li,Li,Metal
+189,Li2O,,Chemical Oxide
+207,Light Rare Earth Oxide,,Chemical Oxide
+178,Lime,,Chemical
+72,Limestone,,Dimension Stone
+258,LREE,LREE,Group
+265,Lu,Lu,REE
+190,Magnesia,,Chemical Oxide
+132,Magnetite,,Industrial Mineral
+81,Magnetite Ore,,Direct Shipping Ore
+20,Malachite,,Gemstone
+79,Manganese Ore,,Direct Shipping Ore
+73,Marble,,Dimension Stone
+223,Mg,Mg,Metal
+133,MgCO3,,Industrial Mineral
+134,Mica,,Industrial Mineral
+106,Mineral Sand,,Sand
+74,Miscellaneous Dimension Stones,,Dimension Stone
+245,Mn,Mn,Metal
+224,Mo,Mo,Metal
+135,Molybdenite,,Industrial Mineral
+136,Monazite,,Industrial Mineral
+191,MoO3,,Chemical Oxide
+49,Moonstone,,Gemstone
+45,Morganite,,Gemstone
+61,Moss Agate,,Gemstone
+63,Natural Secondary Aggregate,,Aggregate
+225,Nb,Nb,Metal
+192,Nb2O5,,Chemical Oxide
+272,Nd,Nd,REE
+208,Nd2O3,,Chemical Oxide
+84,Nepheline Syenite,,Industrial Rock
+240,Ni,Ni,Metal
+179,Nitrate,,Chemical
+21,Obsidian,,Gemstone
+182,Ochre,,Chemical
+100,Oil,,Hydrocarbon
+101,Oil Shale,,Hydrocarbon
+137,Olivine,,Industrial Mineral
+22,Olivine Gemstone,,Gemstone
+62,Onyx,,Gemstone
+59,Opal,,Gemstone
+251,Os,Os,Metal
+285,P,P,Non-Metal
+193,P4O10,,Chemical Oxide
+171,Palygorskite,,Industrial Mineral
+241,Pb,Pb,Metal
+252,Pd,Pd,Metal
+95,Peat,,Carbonaceous Material
+85,Perlite,,Industrial Rock
+259,PGE,PGE,Group
+23,Phenakite,,Gemstone
+86,Phosphate Rock,,Industrial Rock
+273,Pm,Pm,REE
+180,Potash,,Chemical
+87,Pozzolan,,Industrial Rock
+274,Pr,Pr,REE
+209,Pr2O3,,Chemical Oxide
+24,Prehnite,,Gemstone
+64,Primary Aggregate,,Aggregate
+253,Pt,Pt,Metal
+88,Pumice,,Industrial Rock
+138,Pyrite,,Industrial Mineral
+157,Pyrophyllite,,Industrial Mineral
+139,Quartz,,Industrial Mineral
+25,Quartz Gemstone,,Gemstone
+226,Ra,Ra,Metal
+194,Rare Earth Oxide,,Chemical Oxide
+227,Rb,Rb,Metal
+228,Re,Re,Metal
+65,Recycled Aggregate,,Aggregate
+256,REE,REE,Group
+98,Reservoir Gas,,Hydrocarbon
+254,Rh,Rh,Metal
+26,Rhodonite,,Gemstone
+67,Riprap,,Aggregate
+54,Rose quartz,,Gemstone
+255,Ru,Ru,Metal
+46,Ruby,,Gemstone
+140,Rutile,,Industrial Mineral
+286,S,S,Non-Metal
+175,Salt,,Industrial Mineral
+68,Sand and Gravel,,Aggregate
+75,Sandstone,,Dimension Stone
+141,Saponite,,Industrial Mineral
+47,Sapphire,,Gemstone
+27,Sapphirine,,Gemstone
+279,Sb,Sb,Metalloid
+229,Sc,Sc,Metal
+28,Scapolite,,Gemstone
+287,Se,Se,Non-Metal
+168,Sepiolite,,Industrial Mineral
+142,Sericite,,Industrial Mineral
+143,Serpentine,,Industrial Mineral
+89,Shell Grit,,Industrial Rock
+280,Si,Si,Metalloid
+29,Silica Gemstone,,Gemstone
+107,Silica Sand,,Sand
+158,Sillimanite,,Industrial Mineral
+30,Sinhalite,,Gemstone
+144,SiO2,,Industrial Mineral
+76,Slate,,Dimension Stone
+275,Sm,Sm,REE
+55,Smokey Quartz,,Gemstone
+230,Sn,Sn,Metal
+195,SnO2,,Chemical Oxide
+181,Soda Ash,,Chemical
+31,Sodalite,,Gemstone
+50,Spectrolite,,Gemstone
+145,Spinel,,Industrial Mineral
+32,Spinel Gemstone,,Gemstone
+33,Spodumene,,Gemstone
+90,Spongolite,,Industrial Rock
+231,Sr,Sr,Metal
+146,Staurolite,,Industrial Mineral
+147,Strontianite,,Industrial Mineral
+176,Sylvite,,Industrial Mineral
+232,Ta,Ta,Metal
+196,Ta2O5,,Chemical Oxide
+148,Talc,,Industrial Mineral
+34,Tanzanite,,Gemstone
+102,Tar Sand,,Hydrocarbon
+266,Tb,Tb,REE
+210,Tb4O7,,Chemical Oxide
+281,Te,Te,Metalloid
+233,Th,Th,Metal
+149,Thenardite,,Industrial Mineral
+197,ThO2,,Chemical Oxide
+246,Ti,Ti,Metal
+198,TiO2,,Chemical Oxide
+234,Tl,Tl,Metal
+267,Tm,Tm,REE
+35,Topaz,,Gemstone
+36,Tourmaline,,Gemstone
+150,Tremolite Actinolite,,Industrial Mineral
+51,Tsavorite,,Gemstone
+37,Turquoise,,Gemstone
+235,U,U,Metal
+199,U2O3,,Chemical Oxide
+200,UO2,,Chemical Oxide
+247,V,V,Metal
+201,V2O5,,Chemical Oxide
+38,Variscite,,Gemstone
+151,Vermiculite,,Industrial Mineral
+39,Vesuvianite,,Gemstone
+236,W,W,Metal
+169,White Firing Clay,,Industrial Mineral
+202,WO3,,Chemical Oxide
+152,Wollastonite,,Industrial Mineral
+40,Xenotime Gemstone,,Gemstone
+268,Y,Y,REE
+203,Y2O3,,Chemical Oxide
+269,Yb,Yb,REE
+153,Zeolite,,Industrial Mineral
+154,Zircon,,Industrial Mineral
+41,Zircon Gemstone,,Gemstone
+204,Zirconia,,Chemical Oxide
+242,Zn,Zn,Metal
+237,Zr,Zr,Metal

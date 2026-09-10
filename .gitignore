@@ -50,3 +50,4 @@ wa_deposit_extract/staging/*
 !wa_deposit_extract/staging/*.md
 !wa_deposit_extract/staging/*.csv
 !wa_deposit_extract/staging/*.txt
+!wa_deposit_extract/staging/_commodities_ref.csv
