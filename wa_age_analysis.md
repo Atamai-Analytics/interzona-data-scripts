@@ -236,9 +236,11 @@ LithoSurfer's model is `DataPackage → Sample (+Location) → DataPoint → met
 specialization`. Age data is *sample‑anchored analytical data*, **not** deposit
 data — LithoSurfer's "deposit ages" (group 17) are for ages attached to a mineral
 deposit, and the WA deposit extract already established WA has none. So this goes
-in as **sample geochronology**, needing Sample + Location + a **Washington
-DataPackage** (which still does not exist — same blocker as
-`wa_deposit_extract` Step 6 / SIGAM Phase 3).
+in as **sample geochronology**, needing Sample + Location in a dedicated
+package: **`WA-DNR: USA, Washington State: Geochronology`** (separate from the
+deposit package `250875260` "…: Deposits & Occurrences"). *(Earlier drafts said
+no WA package existed — stale; the deposit package was created 2026‑09‑10 and a
+Geochronology package is the confirmed target for this data.)*
 
 ### Method → endpoint
 
@@ -262,7 +264,8 @@ DataPackage** (which still does not exist — same blocker as
 | **Not ingestible** — no matching LithoSurfer method (14C + luminescence + 36Cl + fossils) | **≈ 2,839** | **49%** |
 
 Prerequisites for the ingestible half:
-1. A **Washington DataPackage** (blocked — see `wa_deposit_extract/README.md`).
+1. The **`WA-DNR: … Geochronology`** package (confirmed target; get its id via
+   `wa_deposit_extract/find_package.cjs "geochronology"`).
 2. **Sample + Location** rows created first (`/api/core/sample-with-locations`),
    one per age — LithoSurfer has no "bare age at a point"; it must hang off a sample.
 3. **Literature** entities under `/api/core/` for `db_source` / `WA_citations`.
@@ -277,3 +280,8 @@ ages via generic **`/api/age/`** (simplest, covers K‑Ar + Rb‑Sr + Sm‑Nd + 
 carry U‑Pb/FT ages too) → only promote U‑Pb/FT/Ar‑Ar to their dedicated method
 endpoints if richer analytical data is sourced later. Keep radiocarbon,
 luminescence, 36Cl and fossil ages in `criticialmineralsexp` only.
+
+> **Extract built 2026‑09‑10** (`wa_age_extract/` Phase 2): `sample.jsonl` (1,951
+> samples, deduped by lab_sample_id+location), `age_datapoint.jsonl` (2,953),
+> `literature.jsonl` (2), for package **250875261**. Loader (`load_ages.cjs`) and
+> the live dry‑run are the remaining steps.

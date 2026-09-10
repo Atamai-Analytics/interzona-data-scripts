@@ -1,0 +1,611 @@
+{
+ "fetched": "2026-09-10T17:40:39.729Z",
+ "host": "https://api.lithosurfer.io",
+ "package": 250875261,
+ "analytical_methods": [
+  {
+   "id": 2107551,
+   "name": "Beryllium"
+  },
+  {
+   "id": 2107552,
+   "name": "Kr-Kr"
+  },
+  {
+   "id": 2107553,
+   "name": "U-U"
+  },
+  {
+   "id": 2107554,
+   "name": "Re-Os"
+  },
+  {
+   "id": 2107555,
+   "name": "K-Ca"
+  },
+  {
+   "id": 2107556,
+   "name": "Hf-W"
+  },
+  {
+   "id": 2107557,
+   "name": "Pb-Pb"
+  },
+  {
+   "id": 2107558,
+   "name": "La-Ba"
+  },
+  {
+   "id": 2107559,
+   "name": "I-Xe"
+  },
+  {
+   "id": 2107560,
+   "name": "Cl36"
+  },
+  {
+   "id": 2107561,
+   "name": "C14"
+  },
+  {
+   "id": 2107562,
+   "name": "U-Th"
+  },
+  {
+   "id": 2107563,
+   "name": "Sm-Nd"
+  },
+  {
+   "id": 2107564,
+   "name": "U-Pb"
+  },
+  {
+   "id": 2107565,
+   "name": "Ar-Ar"
+  },
+  {
+   "id": 2107566,
+   "name": "K-Ar"
+  },
+  {
+   "id": 2107567,
+   "name": "AHe"
+  },
+  {
+   "id": 2107568,
+   "name": "ZHe"
+  },
+  {
+   "id": 2107569,
+   "name": "Rb-Sr"
+  },
+  {
+   "id": 2107570,
+   "name": "Lu-Hf"
+  },
+  {
+   "id": 2107571,
+   "name": "MFT"
+  },
+  {
+   "id": 2107572,
+   "name": "TFT"
+  },
+  {
+   "id": 2107573,
+   "name": "ZFT"
+  },
+  {
+   "id": 2107574,
+   "name": "AFT"
+  },
+  {
+   "id": 2107575,
+   "name": "Other"
+  },
+  {
+   "id": 2107576,
+   "name": "Vitrinite"
+  }
+ ],
+ "error_types": [
+  {
+   "id": 59667,
+   "name": "Unknown"
+  },
+  {
+   "id": 59651,
+   "name": "Other"
+  },
+  {
+   "id": 287951,
+   "name": "1 standard error"
+  },
+  {
+   "id": 287952,
+   "name": "2 standard error"
+  },
+  {
+   "id": 59666,
+   "name": "1 sigma"
+  },
+  {
+   "id": 59665,
+   "name": "2 sigma"
+  },
+  {
+   "id": 59664,
+   "name": "95% confidence"
+  },
+  {
+   "id": 59663,
+   "name": "1 sigma internal"
+  },
+  {
+   "id": 59662,
+   "name": "2 sigma internal"
+  },
+  {
+   "id": 59661,
+   "name": "95% confidence internal"
+  },
+  {
+   "id": 59660,
+   "name": "1 sigma external "
+  },
+  {
+   "id": 59659,
+   "name": "2 sigma external"
+  },
+  {
+   "id": 59658,
+   "name": "95% confidence external"
+  },
+  {
+   "id": 59657,
+   "name": "1 sigma propagated (int+ext)"
+  },
+  {
+   "id": 59656,
+   "name": "2 sigma propagated (int+ext)"
+  },
+  {
+   "id": 59655,
+   "name": "95% confidence propagated (int+ext)"
+  },
+  {
+   "id": 59654,
+   "name": "1 sigma propagated sqrt[(int)^2+(ext)^2]"
+  },
+  {
+   "id": 59653,
+   "name": "2 sigma propagated sqrt[(int)^2+(ext)^2]"
+  },
+  {
+   "id": 59652,
+   "name": "95% conf. propagated sqrt[(int)^2+(ext)^2]"
+  },
+  {
+   "id": 287953,
+   "name": "63% confidence"
+  }
+ ],
+ "geo_events": [
+  {
+   "id": 59904,
+   "name": "Unknown"
+  },
+  {
+   "id": 288051,
+   "name": "Magmatism"
+  },
+  {
+   "id": 59921,
+   "name": "Metamorphism"
+  },
+  {
+   "id": 59937,
+   "name": "Deformation"
+  },
+  {
+   "id": 288052,
+   "name": "Minimum depositional age"
+  },
+  {
+   "id": 59922,
+   "name": "Maximum depositional age"
+  },
+  {
+   "id": 59938,
+   "name": "Crystallization"
+  },
+  {
+   "id": 288053,
+   "name": "Minimum age of igneous crystallization"
+  },
+  {
+   "id": 59923,
+   "name": "Maximum age of igneous crystallization"
+  },
+  {
+   "id": 288054,
+   "name": "Metasomatism"
+  },
+  {
+   "id": 288055,
+   "name": "Prograde Metamorphism "
+  },
+  {
+   "id": 288056,
+   "name": "Peak metamorphism"
+  },
+  {
+   "id": 288057,
+   "name": "Retrograde Metamorphism"
+  },
+  {
+   "id": 59939,
+   "name": "Cooling"
+  },
+  {
+   "id": 59946,
+   "name": "Alteration"
+  },
+  {
+   "id": 288058,
+   "name": "Hydrothermal"
+  },
+  {
+   "id": 288059,
+   "name": "Sedimentation"
+  },
+  {
+   "id": 288060,
+   "name": "Burial"
+  },
+  {
+   "id": 288061,
+   "name": "Weathering"
+  },
+  {
+   "id": 59926,
+   "name": "Hypabyssal"
+  },
+  {
+   "id": 59927,
+   "name": "Hydrothermal "
+  },
+  {
+   "id": 59928,
+   "name": "Hornfels Facies"
+  },
+  {
+   "id": 59929,
+   "name": "High Temperature"
+  },
+  {
+   "id": 59930,
+   "name": "High Pressure"
+  },
+  {
+   "id": 59931,
+   "name": "Greenschist Facies"
+  },
+  {
+   "id": 59932,
+   "name": "Granulite Facies"
+  },
+  {
+   "id": 59935,
+   "name": "Eclogite Facies"
+  },
+  {
+   "id": 59936,
+   "name": "Diagenesis"
+  },
+  {
+   "id": 59940,
+   "name": "Compaction"
+  },
+  {
+   "id": 59941,
+   "name": "Blueschist Facies"
+  },
+  {
+   "id": 59942,
+   "name": "Ancient radiogenic-Pb loss"
+  },
+  {
+   "id": 59944,
+   "name": "Analysis Questionable"
+  },
+  {
+   "id": 59945,
+   "name": "Amphibolite Facies"
+  },
+  {
+   "id": 288062,
+   "name": "Thermal Overprint"
+  },
+  {
+   "id": 288063,
+   "name": "Mineralisation"
+  },
+  {
+   "id": 288064,
+   "name": "Protolith"
+  },
+  {
+   "id": 288065,
+   "name": "Recrystallisation"
+  },
+  {
+   "id": 288066,
+   "name": "Neocrystallisation"
+  },
+  {
+   "id": 59934,
+   "name": "Exhumation"
+  },
+  {
+   "id": 59933,
+   "name": "Extrusive"
+  },
+  {
+   "id": 59924,
+   "name": "Intrusive"
+  },
+  {
+   "id": 59925,
+   "name": "Inherited age"
+  },
+  {
+   "id": 59943,
+   "name": "Anatexis"
+  },
+  {
+   "id": 288067,
+   "name": "Zeolite facies"
+  },
+  {
+   "id": 288068,
+   "name": "Prehnite-pumpellyite facies"
+  },
+  {
+   "id": 288069,
+   "name": "Blueschist facies"
+  },
+  {
+   "id": 288070,
+   "name": "Eclogite facies"
+  },
+  {
+   "id": 288071,
+   "name": "Greenschist facies"
+  },
+  {
+   "id": 288072,
+   "name": "Hornfels facies"
+  },
+  {
+   "id": 288073,
+   "name": "Amphibolite facies"
+  },
+  {
+   "id": 288074,
+   "name": "Granulite facies"
+  },
+  {
+   "id": 288075,
+   "name": "Partial reset"
+  },
+  {
+   "id": 288076,
+   "name": "Reset"
+  },
+  {
+   "id": 288077,
+   "name": "I (age of igneous crystallization)"
+  },
+  {
+   "id": 288078,
+   "name": "M (age of metamorphism)"
+  },
+  {
+   "id": 288079,
+   "name": "Mixed age (two components)"
+  },
+  {
+   "id": 288080,
+   "name": "P (Pb loss)"
+  },
+  {
+   "id": 288081,
+   "name": "X (age of xenocrystic component)"
+  },
+  {
+   "id": 288082,
+   "name": "Y (maximum depositional age)"
+  },
+  {
+   "id": 288083,
+   "name": "Z (undefined age)"
+  }
+ ],
+ "sample_kinds": [
+  {
+   "id": 60953,
+   "name": "Ore"
+  },
+  {
+   "id": 60954,
+   "name": "Xenolith"
+  },
+  {
+   "id": 60955,
+   "name": "Regolith"
+  },
+  {
+   "id": 60956,
+   "name": "Meteorite"
+  },
+  {
+   "id": 60957,
+   "name": "Organic material"
+  },
+  {
+   "id": 60958,
+   "name": "Loose sediment"
+  },
+  {
+   "id": 60959,
+   "name": "Soil"
+  },
+  {
+   "id": 60960,
+   "name": "Fluid"
+  },
+  {
+   "id": 60961,
+   "name": "Fossil"
+  },
+  {
+   "id": 60962,
+   "name": "Mineral"
+  },
+  {
+   "id": 60963,
+   "name": "Rock"
+  },
+  {
+   "id": 60964,
+   "name": "Unknown"
+  },
+  {
+   "id": 60965,
+   "name": "Gas"
+  },
+  {
+   "id": 60966,
+   "name": "Vein"
+  },
+  {
+   "id": 60951,
+   "name": "Other"
+  },
+  {
+   "id": 60952,
+   "name": "Mine Waste"
+  },
+  {
+   "id": 60967,
+   "name": "Stream Sediment"
+  },
+  {
+   "id": 60968,
+   "name": "Till"
+  }
+ ],
+ "location_kinds": [
+  {
+   "id": 60558,
+   "name": "Unknown"
+  },
+  {
+   "id": 60556,
+   "name": "Outcrop location"
+  },
+  {
+   "id": 60555,
+   "name": "Section location"
+  },
+  {
+   "id": 60551,
+   "name": "Other"
+  },
+  {
+   "id": 60554,
+   "name": "Borehole/well"
+  },
+  {
+   "id": 287901,
+   "name": "Mine (open-pit)"
+  },
+  {
+   "id": 287902,
+   "name": "Mine (underground)"
+  },
+  {
+   "id": 287903,
+   "name": "Boulder"
+  },
+  {
+   "id": 728651,
+   "name": "Mine"
+  },
+  {
+   "id": 206538051,
+   "name": "Regolith Sample Site"
+  }
+ ],
+ "celestials": [
+  {
+   "id": 56951,
+   "name": "Sun"
+  },
+  {
+   "id": 56952,
+   "name": "Jupiter"
+  },
+  {
+   "id": 56953,
+   "name": "Neptune"
+  },
+  {
+   "id": 56954,
+   "name": "Uranus"
+  },
+  {
+   "id": 56955,
+   "name": "Saturn"
+  },
+  {
+   "id": 56956,
+   "name": "Mercury"
+  },
+  {
+   "id": 56957,
+   "name": "Venus"
+  },
+  {
+   "id": 56958,
+   "name": "Mars"
+  },
+  {
+   "id": 56959,
+   "name": "Moon"
+  },
+  {
+   "id": 56960,
+   "name": "Earth"
+  },
+  {
+   "id": 56961,
+   "name": "Pluto"
+  }
+ ],
+ "countries_us": [
+  {
+   "id": 47158101,
+   "name": "United States"
+  },
+  {
+   "id": 72808700,
+   "name": "United States Virgin Islands"
+  },
+  {
+   "id": 57109,
+   "name": "United States of America"
+  }
+ ]
+}

@@ -84,8 +84,62 @@ Depends on schema changes **S1–S4** from `../wa_age_analysis.md` (applied 2026
 The 8 `dating_method_reference` rows (ids 20–27) are schema (S3), not load data —
 `rollback.sql` leaves them.
 
-## Next (blocked)
+---
 
-LithoSurfer push of the ingestible subset (see `../wa_age_analysis.md` §3) is
-blocked on the **Washington DataPackage** — same blocker as
-`../wa_deposit_extract/` Step 6.
+# Phase 2 — LithoSurfer extract
+
+**Built 2026‑09‑10** from the Phase‑1 rows. Target package
+**`250875261` "WA-DNR: USA, Washington State: Geochronology"**
+(host `api.lithosurfer.io`; `atamaiai` is a supervisor on it → writable).
+
+## Model
+
+The generic **08 Age Data** endpoint (`/api/age/age-datapoints`) is the only
+home — K‑Ar has no dedicated group and the WA U‑Pb / FT data is header‑only
+(no ratios, no track lengths). Per analysis:
+
+```
+POST /api/core/sample-with-locations   SampleWithLocationDTO {sampleDTO, locationDTO}
+POST /api/age/age-datapoints           AgeDataPointExtendsDataPointDTO {
+    dataPointDTO {dataPackageId, sampleId, locationId, analyticalMethodId, dataStructure:"AGE", description},
+    ageDataPointDTO {analyte},
+    geoEventAtAgeExtendsStatementDTO {
+        geoEventAtAgeDTO {age, ageError, errorTypeId, geoEventId},
+        statementDTO {description} } }
+POST /api/core/literature  (+ literature-2-package, literature-2-data-points)
+```
+
+The generic age model has **no field** for `age_qualifier`, `decay_constant`,
+`n_grains`, or `analytical_notes` — those are folded into `dataPointDTO.description`;
+interpretive `age_comments` + provenance go in `statementDTO.description`.
+
+## Files (this dir)
+
+| File | Rows | → |
+|---|---:|---|
+| `build/export_sources.sql` | — | `psql -f` → `build/age_export.csv` (2,953 rows, the Phase‑1 tag) |
+| `build/ref_lookups.json` | — | live `l-*` ids captured from the API (analytical-methods, geo-events, error-types, …) |
+| `build/build_extract.py` | — | `age_export.csv` + `ref_lookups.json` → the JSONL below |
+| `sample.jsonl` | **1,951** | `SampleWithLocationDTO` — deduped by (table, lab_sample_id, location); 456 carry >1 analysis (e.g. one rock with 16 U‑Pb fractions) |
+| `age_datapoint.jsonl` | **2,953** | `AgeDataPointExtendsDataPointDTO`; `_sampleSourceId` → the sample it hangs off |
+| `literature.jsonl` | 2 | NGDB + DGER 1:100k |
+| `crosswalk_method.csv` | 19 | WA `dating_method_id` → `l-analytical-methods` id |
+| `_coverage.json` | — | counters (method mix, geo‑event inference, 604 rows with no error) |
+
+`sourceId` scheme: sample `WA-AGE-S:<tbl>:<age_measured_id>`,
+datapoint `WA-AGE:<tbl>:<age_analysis_id>` — the loader resolves
+`_sampleSourceId` → created sample/location ids.
+
+### Lookup mapping
+
+- **analyticalMethodId**: K‑Ar→K‑Ar, Ar‑Ar/isochron/Laser→Ar‑Ar, all U‑Pb variants→U‑Pb, Pb‑alpha→Other, Rb‑Sr→Rb‑Sr, Sm‑Nd→Sm‑Nd; FT by mineral → AFT / ZFT / TFT, else Other (allanite, epidote, glass…).
+- **geoEventId**: keyword‑inferred from `age_comments` (intrusion→Intrusive, ash/tuff→Extrusive, metamorph→Metamorphism, xenocryst→Inherited, …); **1,729 / 2,953 = Unknown** (WA rarely states the interpreted event).
+- **errorTypeId**: always **Unknown** — WA does not record the sigma level.
+- **sampleKindId** Rock, **locationKindId** Outcrop, **countryId** United States, **celestialId** Earth.
+- **latLonPrecision**: parsed from the location‑quality text (30 m GPS … 10 km district centroid; default 2 km).
+
+## Not yet done
+
+- **`load_ages.cjs`** — the loader (model on `../wa_deposit_extract/load_deposits.cjs`: auth, resumable `load_progress_<pkg>.jsonl`, abort‑on‑4xx). Order per sample: `sample-with-locations` → its `age-datapoints` → literature links.
+- **Live dry‑run** of one sample + datapoint to confirm the DTO shape before the full run.
+- Literature‑to‑datapoint linkage strategy (per‑datapoint vs per‑package only).
