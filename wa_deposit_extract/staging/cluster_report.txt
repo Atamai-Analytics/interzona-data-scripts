@@ -1,60 +1,61 @@
 WA deposit dedup - cluster report
 ==================================================
-staging rows in ...... 6035
-auto-merge edges ..... 644
-clusters ............. 5432
-  single-row ........ 4869
-  multi-row ......... 563
-rows collapsed away .. 603
+staging rows in ...... 6030
+auto-merge edges ..... 656
+clusters ............. 5417
+  single-row ........ 4848
+  multi-row ......... 569
+rows collapsed away .. 613
 
 cluster size distribution:
-   1 rows : 4869 clusters
-   2 rows :  525 clusters
-   3 rows :   36 clusters
+   1 rows : 4848 clusters
+   2 rows :  527 clusters
+   3 rows :   40 clusters
    4 rows :    2 clusters
 
 widest multi-row clusters (member coordinate spread):
+     828 m  [gold_silver,iaml,nonmetallic]  Old Dominion / Old Dominion mine
+     739 m  [metallic,nonmetallic]  Deer Trail Monitor / Deer Trail Monitor mine
      658 m  [metallic,nonmetallic]  Silver Hill
+     625 m  [coal_mine,nonmetallic]  Johnson Coal Co. / Johnson Coal Co. Mine
      485 m  [coal_mine]  Grand Ridge Mine
+     479 m  [coal_mine,nonmetallic]  Cedar Mountain / Cedar Mountain Mine
      478 m  [gold_silver,iaml]  Golden Promise
      478 m  [nonmetallic]  Poison Lake
      475 m  [coal_mine,nonmetallic]  Renton Mine / Renton mine
+     463 m  [gold_silver,nonmetallic]  Frisco Standard / Frisco Standard mine
      457 m  [gold_silver,iaml]  Copper Key
+     438 m  [metallic,nonmetallic]  Flagstaff Mountain / Flagstaff Mountain Mine
      430 m  [metallic,nonmetallic]  Olivine Hill
      425 m  [gold_silver,iaml]  Little Chief
      420 m  [metallic,nonmetallic]  Malott
-     415 m  [nonmetallic]  Mount Adams
-     405 m  [asbestos,nonmetallic]  Burlington
-     392 m  [metallic,nonmetallic]  Ed B
-     391 m  [gold_silver]  Crown Point
-     384 m  [gold_silver,metallic]  Sterling
-     381 m  [nonmetallic]  Cedar Mountain
 
 multi-row cluster source combinations:
    106  arsenic + gold_silver
    102  arsenic + metallic
-   100  asbestos + nonmetallic
-    92  metallic + radon
+    99  asbestos + nonmetallic
+    91  metallic + radon
     48  mercury + metallic
-    30  gold_silver + iaml
+    29  gold_silver + iaml
     18  iaml + metallic
     18  nonmetallic
+     8  metallic + nonmetallic
      7  arsenic + gold_silver + iaml
-     6  metallic + nonmetallic
      5  gold_silver + metallic
      5  arsenic + iaml + metallic
      4  gold_silver + mercury
+     4  coal_mine + nonmetallic
+     3  iaml + metallic + radon
      3  arsenic + gold_silver + mercury
+     3  gold_silver
      2  arsenic + metallic + radon
      2  iaml + mercury + metallic
-     2  iaml + metallic + radon
-     2  gold_silver
-     2  coal_mine + nonmetallic
+     2  asbestos + metallic + nonmetallic
+     2  gold_silver + nonmetallic
      2  coal_mine
      1  metallic
      1  mercury + metallic + nonmetallic
-     1  asbestos + metallic + nonmetallic
      1  arsenic + iaml + metallic + radon
      1  metallic + nonmetallic + radon
-     1  gold_silver + nonmetallic
      1  gold_silver + iaml + radon
+     1  gold_silver + iaml + nonmetallic

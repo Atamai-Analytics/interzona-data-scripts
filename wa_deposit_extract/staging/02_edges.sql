@@ -25,20 +25,46 @@ SELECT staging_id || ',' || wa_source || ',' || src_id || ',' ||
        '"' || replace(name_norm, '"', '""') || '",' ||
        '"' || replace(coalesce(county,''), '"', '""') || '",' ||
        latitude || ',' || longitude
-FROM wa_deposits_staging ORDER BY staging_id;
+FROM wa_deposits_staging WHERE NOT excluded ORDER BY staging_id;
 \o
+
+-- accepted name-variant merges from the 2026-09-10 review (X <-> "X Mine" / OCR typo)
+DROP TABLE IF EXISTS pg_temp.accepted_merges;
+CREATE TEMP TABLE accepted_merges (a int, b int);
+INSERT INTO accepted_merges (a, b) VALUES
+    (1456, 4480),                       -- Deer Trail Monitor / ... mine
+    (1496, 4239), (1496, 5642),         -- McMyrl-Wilson / McMyri-Wilson (OCR)
+    (1721, 5965),                       -- Metaline Mining & Leasing Co. / ... and Leasing
+    (1815, 5019),                       -- Flagstaff Mountain / ... Mine
+    (2924, 2925),                       -- Sultan River Placer / Placers
+    (3221, 4474),                       -- Frisco Standard / ... mine
+    (3242, 4465),                       -- Old Dominion / ... mine
+    (3655, 3682),                       -- Northwest Haydite Co, Inc / Northwest Haydite
+    (3683, 5711), (3753, 5711),         -- Cedar Mountain / Cedar Mountain Mine
+    (3671, 5871);                       -- Johnson Coal Co. / ... Mine
 
 \o wa_deposit_extract/staging/edges.csv
 SELECT 'a,b,dist_m';
 WITH g AS (
     SELECT staging_id, name_norm,
            geography(ST_SetSRID(ST_MakePoint(longitude, latitude), 4326)) gg
-    FROM wa_deposits_staging WHERE name_norm <> ''
+    FROM wa_deposits_staging WHERE name_norm <> '' AND NOT excluded
+),
+e1 AS (
+    SELECT a.staging_id a, b.staging_id b, ST_Distance(a.gg, b.gg) d
+    FROM g a
+    JOIN g b ON a.name_norm = b.name_norm AND a.staging_id < b.staging_id
+    WHERE ST_Distance(a.gg, b.gg) <= 500
+),
+acc AS (
+    SELECT least(m.a, m.b) a, greatest(m.a, m.b) b,
+           ST_Distance(ga.gg, gb.gg) d
+    FROM accepted_merges m
+    JOIN g ga ON ga.staging_id = m.a
+    JOIN g gb ON gb.staging_id = m.b
 )
-SELECT a.staging_id || ',' || b.staging_id || ',' || round(ST_Distance(a.gg, b.gg)::numeric, 1)
-FROM g a
-JOIN g b ON a.name_norm = b.name_norm AND a.staging_id < b.staging_id
-WHERE ST_Distance(a.gg, b.gg) <= 500;
+SELECT a || ',' || b || ',' || round(d::numeric, 1)
+FROM (SELECT * FROM e1 UNION SELECT * FROM acc) u;
 \o
 
 \o wa_deposit_extract/staging/review_pairs.csv
@@ -46,10 +72,10 @@ SELECT 'rule,a,b,name_a,name_b,src_a,src_b,county_a,county_b,dist_m,name_sim';
 WITH g AS (
     SELECT staging_id, wa_source, site_name, name_norm, county,
            geography(ST_SetSRID(ST_MakePoint(longitude, latitude), 4326)) gg
-    FROM wa_deposits_staging WHERE name_norm <> ''
+    FROM wa_deposits_staging WHERE name_norm <> '' AND NOT excluded
 ),
 freq AS (
-    SELECT name_norm, count(*) n FROM wa_deposits_staging WHERE name_norm <> '' GROUP BY 1
+    SELECT name_norm, count(*) n FROM wa_deposits_staging WHERE name_norm <> '' AND NOT excluded GROUP BY 1
 ),
 cand AS (
     SELECT a.staging_id a, b.staging_id b, a.site_name na, b.site_name nb,

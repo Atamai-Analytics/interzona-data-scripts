@@ -1,0 +1,137 @@
+rule,a,b,name_a,name_b,src_a,src_b,county_a,county_b,dist_m,name_sim
+R_NAME_FAR,1002,2339,San Francisco,San Francisco,metallic,gold_silver,Okanogan,Okanogan,2307.1,1.00
+R_NAME_FAR,102,2664,Nooksack,Nooksack,metallic,gold_silver,Whatcom,Whatcom,714.1,1.00
+R_NAME_FAR,1057,4054,Ries,Ries,metallic,nonmetallic,Pend Oreille,Pend Oreille,786.2,1.00
+R_NAME_FAR,1085,4169,Johnsburg,Johnsburg,metallic,nonmetallic,Skagit,Skagit,1191.3,1.00
+R_NAME_FAR,1183,4419,Longshot,Longshot,metallic,nonmetallic,Stevens,Stevens,1394.4,1.00
+R_NAME_FAR,1374,4215,Belleville,Belleville,metallic,nonmetallic,Skagit,Skagit,2649.5,1.00
+R_NAME_FAR,141,3374,Holden,Holden,metallic,nonmetallic,Chelan,Chelan,908.8,1.00
+R_NAME_FAR,1440,3979,Green Lake,Green Lake,metallic,nonmetallic,Okanogan,Okanogan,680.6,1.00
+R_NAME_FAR,1467,3384,Goman,Goman,metallic,nonmetallic,Chelan,Chelan,1728.8,1.00
+R_NAME_FAR,1504,4220,Walker Valley,Walker Valley,metallic,nonmetallic,Skagit,Skagit,2868.8,1.00
+R_NAME_FAR,1509,4959,Marcus,Marcus,metallic,nonmetallic,Stevens,Stevens,696.9,1.00
+R_NAME_FAR,1513,2709,Mad River Placer,Mad River Placer,metallic,gold_silver,Chelan,Chelan,2416.6,1.00
+R_NAME_FAR,1530,4769,Skykomish,Skykomish,metallic,nonmetallic,King,King,880.7,1.00
+R_NAME_FAR,2028,5947,South Penn,South Penn,gold_silver,iaml,Ferry,Ferry,1752.5,1.00
+R_NAME_FAR,2032,5946,Tom Thumb,Tom Thumb,gold_silver,iaml,Ferry,Ferry,560.2,1.00
+R_NAME_FAR,2040,3649,Rustler Creek,Rustler Creek,gold_silver,nonmetallic,Jefferson,Jefferson,1220.1,1.00
+R_NAME_FAR,265,3828,Taneum Creek,Taneum Creek,metallic,nonmetallic,Kittitas,Kittitas,1547.0,1.00
+R_NAME_FAR,3401,3486,Mud Creek,Mud Creek,nonmetallic,nonmetallic,Chelan,Chelan,1286.6,1.00
+R_NAME_FAR,3685,3692,Guye Peak,Guye Peak,nonmetallic,nonmetallic,King,King,2694.9,1.00
+R_NAME_FAR,3686,3693,Denny Mountain,Denny Mountain,nonmetallic,nonmetallic,King,King,693.1,1.00
+R_NAME_FAR,370,4049,Hardrock Thomas,Hardrock Thomas,metallic,nonmetallic,Pend Oreille,Pend Oreille,735.5,1.00
+R_NAME_FAR,3772,3773,Harper,Harper,nonmetallic,nonmetallic,Kitsap,Kitsap,1023.9,1.00
+R_NAME_FAR,3796,3821,East Roza,East Roza,nonmetallic,nonmetallic,Kittitas,Kittitas,2175.1,1.00
+R_NAME_FAR,3859,4819,Morton,Morton,nonmetallic,nonmetallic,Lewis,Lewis,1373.3,1.00
+R_NAME_FAR,4089,4101,Parkland,Parkland,nonmetallic,nonmetallic,Pierce,Pierce,1753.3,1.00
+R_NAME_FAR,42,712,Negro Creek,Negro Creek,metallic,metallic,Chelan,Chelan,2231.0,1.00
+R_NAME_FAR,4301,4921,Sultan River,Sultan River,nonmetallic,nonmetallic,Snohomish,Snohomish,2857.6,1.00
+R_NAME_FAR,4367,4412,Moran Prairie,Moran Prairie,nonmetallic,nonmetallic,Spokane,Spokane,1324.4,1.00
+R_NAME_FAR,4377,4923,Freeman,Freeman,nonmetallic,nonmetallic,Spokane,Spokane,829.1,1.00
+R_NAME_FAR,4435,4562,Slate quarry,Slate quarry,nonmetallic,nonmetallic,Stevens,Stevens,656.5,1.00
+R_NAME_FAR,4463,4488,Marble,Marble,nonmetallic,nonmetallic,Stevens,Stevens,2790.0,1.00
+R_NAME_FAR,4542,4937,Waits Lake,Waits Lake,nonmetallic,nonmetallic,Stevens,Stevens,1375.2,1.00
+R_NAME_FAR,4621,4655,Samish Lake,Samish Lake,nonmetallic,nonmetallic,Whatcom,Whatcom,1951.4,1.00
+R_NAME_FAR,4659,4664,Ringo,Ringo,nonmetallic,nonmetallic,Whitman,Whitman,980.2,1.00
+R_NAME_FAR,4662,4676,Bald Butte,Bald Butte,nonmetallic,nonmetallic,Whitman,Whitman,2746.7,1.00
+R_NAME_FAR,4912,4913,Barclay Creek,Barclay Creek,nonmetallic,nonmetallic,Snohomish,Snohomish,2818.3,1.00
+R_NAME_FAR,4982,4983,Palouse,Palouse,nonmetallic,nonmetallic,Whitman,Whitman,515.7,1.00
+R_NAME_FAR,5730,5791,Kummer Mine,Kummer Mine,coal_mine,coal_mine,King,King,1274.4,1.00
+R_NAME_FAR,5740,5856,Issaquah Mine,Issaquah Mine,coal_mine,coal_mine,King,King,842.9,1.00
+R_NAME_FAR,5793,5794,Hyde Mine,Hyde Mine,coal_mine,coal_mine,King,King,910.6,1.00
+R_NAME_FAR,5839,5840,Carbonado Mine,Carbonado Mine,coal_mine,coal_mine,Pierce,Pierce,1090.2,1.00
+R_NAME_FAR,627,4554,Inklers Point,Inklers Point,metallic,nonmetallic,Stevens,Stevens,1815.0,1.00
+R_NAME_FAR,755,2243,Gold Axe,Gold Axe,metallic,gold_silver,Okanogan,Okanogan,551.2,1.00
+R_NAME_FAR,956,3903,Egypt,Egypt,metallic,nonmetallic,Lincoln,Lincoln,2339.3,1.00
+R_TRGM,1530,4782,Skykomish,Skykomish (A),metallic,nonmetallic,King,King,797.8,0.83
+R_TRGM,1530,4783,Skykomish,Skykomish (B),metallic,nonmetallic,King,King,833.8,0.83
+R_TRGM,2009,2023,North San Poil Fraction,San Poil Fraction,gold_silver,gold_silver,Ferry,Ferry,303.7,0.75
+R_TRGM,3372,3373,Squaw Saddle No. 1,Squaw Saddle No. 2,nonmetallic,nonmetallic,Chelan,Chelan,249.7,0.79
+R_TRGM,3416,3417,Chiwawa River (C),Chiwawa River (D),nonmetallic,nonmetallic,Chelan,Chelan,606.9,0.82
+R_TRGM,3416,3418,Chiwawa River (C),Chiwawa River (E),nonmetallic,nonmetallic,Chelan,Chelan,850.2,0.82
+R_TRGM,3420,3422,Chiwawa River (G),Chiwawa River (I),nonmetallic,nonmetallic,Chelan,Chelan,574.3,0.78
+R_TRGM,3425,3426,Lake Creek (B),Lake Creek (C),nonmetallic,nonmetallic,Chelan,Chelan,710.1,0.79
+R_TRGM,3425,3431,Lake Creek (B),Lake Creek (E),nonmetallic,nonmetallic,Chelan,Chelan,507.2,0.73
+R_TRGM,3426,3427,Lake Creek (C),Lake Creek (D),nonmetallic,nonmetallic,Chelan,Chelan,602.5,0.79
+R_TRGM,3426,3428,Lake Creek (C),Lake Creek (A),nonmetallic,nonmetallic,Chelan,Chelan,538.0,0.79
+R_TRGM,3427,3428,Lake Creek (D),Lake Creek (A),nonmetallic,nonmetallic,Chelan,Chelan,266.8,0.73
+R_TRGM,3431,3432,Lake Creek (E),Lake Creek (F),nonmetallic,nonmetallic,Chelan,Chelan,787.8,0.73
+R_TRGM,3434,3435,Lake Creek (G),Lake Creek (H),nonmetallic,nonmetallic,Chelan,Chelan,232.1,0.73
+R_TRGM,3436,3437,Entiat River (C),Entiat River (D),nonmetallic,nonmetallic,Chelan,Chelan,74.9,0.76
+R_TRGM,3436,3438,Entiat River (C),Entiat River (E),nonmetallic,nonmetallic,Chelan,Chelan,744.2,0.81
+R_TRGM,3437,3438,Entiat River (D),Entiat River (E),nonmetallic,nonmetallic,Chelan,Chelan,705.9,0.81
+R_TRGM,3448,3449,Heller pit (A),Heller pit (B),nonmetallic,nonmetallic,Chelan,Chelan,289.6,0.73
+R_TRGM,3450,3454,Entiat River (G),Entiat River (K),nonmetallic,nonmetallic,Chelan,Chelan,710.4,0.76
+R_TRGM,3451,3453,Entiat River (H),Entiat River (J),nonmetallic,nonmetallic,Chelan,Chelan,27.2,0.76
+R_TRGM,3452,3455,Entiat River (I),Entiat River (L),nonmetallic,nonmetallic,Chelan,Chelan,689.2,0.76
+R_TRGM,3461,3462,Silver Ridge (A),Silver Ridge (B),nonmetallic,nonmetallic,Chelan,Chelan,91.0,0.76
+R_TRGM,3461,3463,Silver Ridge (A),Silver Ridge (C),nonmetallic,nonmetallic,Chelan,Chelan,149.2,0.76
+R_TRGM,3462,3463,Silver Ridge (B),Silver Ridge (C),nonmetallic,nonmetallic,Chelan,Chelan,66.7,0.76
+R_TRGM,3468,3469,Lake Creek Road (B),Lake Creek Road (C),nonmetallic,nonmetallic,Chelan,Chelan,858.1,0.84
+R_TRGM,3470,3471,Lake Creek Road (D),Lake Creek Road (E),nonmetallic,nonmetallic,Chelan,Chelan,541.7,0.80
+R_TRGM,3479,3480,Royal Development (A),Royal Development (B),nonmetallic,nonmetallic,Chelan,Chelan,701.5,0.82
+R_TRGM,3494,3495,Mission Creek (A),Mission Creek (C),nonmetallic,nonmetallic,Chelan,Chelan,248.0,0.82
+R_TRGM,3494,4715,Mission Creek (A),Mission Creek (B),nonmetallic,nonmetallic,Chelan,Chelan,212.5,0.78
+R_TRGM,3495,4715,Mission Creek (C),Mission Creek (B),nonmetallic,nonmetallic,Chelan,Chelan,197.6,0.82
+R_TRGM,3502,3503,Stemilt School road (A),Stemilt School road (B),nonmetallic,nonmetallic,Chelan,Chelan,207.0,0.83
+R_TRGM,3593,3594,Sec. 9 deposit,S sec 9 deposit,nonmetallic,nonmetallic,Grant,Grant,521.9,0.93
+R_TRGM,3595,3596,Sec. 16 deposit (A),Sec. 16 deposit (B),nonmetallic,nonmetallic,Grant,Grant,745.2,0.79
+R_TRGM,3595,3597,Sec. 16 deposit (A),Sec. 16 deposit (C),nonmetallic,nonmetallic,Grant,Grant,290.5,0.79
+R_TRGM,3596,3597,Sec. 16 deposit (B),Sec. 16 deposit (C),nonmetallic,nonmetallic,Grant,Grant,674.2,0.79
+R_TRGM,3601,3602,Sec. 21 deposit (A),Sec. 21 deposit (B),nonmetallic,nonmetallic,Grant,Grant,580.2,0.79
+R_TRGM,3602,3603,Sec. 21 deposit (B),Sec. 21 deposit (C),nonmetallic,nonmetallic,Grant,Grant,829.0,0.79
+R_TRGM,3672,3674,Green River (A),Green River (B),nonmetallic,nonmetallic,King,King,368.8,0.75
+R_TRGM,3710,3711,Auburn Junction No. 1,Auburn Junction No.2,nonmetallic,nonmetallic,King,King,159.3,0.83
+R_TRGM,3749,3750,Renton Junction (A),Renton Junction (B),nonmetallic,nonmetallic,King,King,131.7,0.79
+R_TRGM,3749,3751,Renton Junction (A),Renton Junction (C),nonmetallic,nonmetallic,King,King,251.5,0.79
+R_TRGM,3750,3751,Renton Junction (B),Renton Junction (C),nonmetallic,nonmetallic,King,King,119.8,0.79
+R_TRGM,3754,3755,Jones Lake (A),Jones Lake (B),nonmetallic,nonmetallic,King,King,425.4,0.73
+R_TRGM,3785,3786,Roberts Lane No. 2,Roberts Lane No.1,nonmetallic,nonmetallic,Kitsap,Kitsap,345.6,0.80
+R_TRGM,3801,3802,Sec. 36 deposit,Sec. 31 deposit,nonmetallic,nonmetallic,Kittitas,Kittitas,769.5,0.76
+R_TRGM,3803,3806,Sec. 5 deposit,Sec. 8 deposit,nonmetallic,nonmetallic,Kittitas,Kittitas,818.2,0.75
+R_TRGM,3812,3814,Sec. 16 deposit (A),Sec. 16 deposit (C),nonmetallic,nonmetallic,Kittitas,Kittitas,182.7,0.79
+R_TRGM,3865,3866,Cispus River (B),Cispus River (A),nonmetallic,nonmetallic,Lewis,Lewis,553.5,0.76
+R_TRGM,3868,3869,Cispus River (D),Cispus River (E),nonmetallic,nonmetallic,Lewis,Lewis,237.1,0.76
+R_TRGM,3879,3880,Tom Dalton (A),Tom Dalton (B),nonmetallic,nonmetallic,Lewis,Lewis,398.2,0.73
+R_TRGM,3882,3883,Rainy Creek (B),Rainy Creek (C),nonmetallic,nonmetallic,Lewis,Lewis,690.7,0.80
+R_TRGM,4096,4097,Crescent Lake No.1,Crescent Lake No.2,nonmetallic,nonmetallic,Pierce,Pierce,846.3,0.81
+R_TRGM,4103,4104,Spanaway Lake No. 1,Spanaway Lake No. 2,nonmetallic,nonmetallic,Pierce,Pierce,851.8,0.81
+R_TRGM,4107,4108,McKenna Road No. 1,McKenna Road No. 2,nonmetallic,nonmetallic,Pierce,Pierce,804.9,0.80
+R_TRGM,4165,4166,Constitution No. 1,Constitution No. 2,nonmetallic,nonmetallic,San Juan,San Juan,571.0,0.80
+R_TRGM,4258,4259,Swift Creek (A),Swift Creek (B),nonmetallic,nonmetallic,Skamania,Skamania,838.9,0.75
+R_TRGM,4259,4260,Swift Creek (B),Swift Creek (C),nonmetallic,nonmetallic,Skamania,Skamania,813.9,0.80
+R_TRGM,4260,4261,Swift Creek (C),Swift Creek (D),nonmetallic,nonmetallic,Skamania,Skamania,457.6,0.80
+R_TRGM,4264,4265,Green River (A),Green River (B),nonmetallic,nonmetallic,Skamania,Skamania,881.1,0.75
+R_TRGM,4395,4396,Eloika Lake No.1,Eloika Lake No.2,nonmetallic,nonmetallic,Spokane,Spokane,240.1,0.79
+R_TRGM,4420,4465,Old Dominion,Old Dominion mine,nonmetallic,nonmetallic,Stevens,Stevens,291.2,0.76
+R_TRGM,4584,4585,Hicks Lake No. 2,Hicks Lake No.1,nonmetallic,nonmetallic,Thurston,Thurston,971.4,0.78
+R_TRGM,4769,4782,Skykomish,Skykomish (A),nonmetallic,nonmetallic,King,King,847.2,0.83
+R_TRGM,4769,4783,Skykomish,Skykomish (B),nonmetallic,nonmetallic,King,King,985.7,0.83
+R_TRGM,4786,4787,Green River bridge (A),Green River bridge (B),nonmetallic,nonmetallic,King,King,277.1,0.86
+R_TRGM,4788,4789,Green River Gorge (A),Green River Gorge (B),nonmetallic,nonmetallic,King,King,261.7,0.81
+R_TRGM,4815,4818,Chehalis Brick & Tile Co.,Chehalis Brick & Tile Co. pit,nonmetallic,nonmetallic,Lewis,Lewis,577.9,0.85
+R_TRGM,4817,4818,Chehalis Brick & Tile Co. west pit,Chehalis Brick & Tile Co. pit,nonmetallic,nonmetallic,Lewis,Lewis,556.3,0.84
+R_TRGM,5083,5084,Double Hill Deposit #1,Double Hill Deposit #2,nonmetallic,nonmetallic,San Juan,San Juan,847.2,0.83
+R_TRGM,5083,5085,Double Hill Deposit #1,Double Hill Deposit #3,nonmetallic,nonmetallic,San Juan,San Juan,164.0,0.83
+R_TRGM,5083,5086,Double Hill Deposit #1,Double Hill Deposit #4,nonmetallic,nonmetallic,San Juan,San Juan,714.2,0.83
+R_TRGM,5083,5087,Double Hill Deposit #1,Double Hill Deposit #5,nonmetallic,nonmetallic,San Juan,San Juan,0.0,0.83
+R_TRGM,5084,5085,Double Hill Deposit #2,Double Hill Deposit #3,nonmetallic,nonmetallic,San Juan,San Juan,683.4,0.83
+R_TRGM,5084,5086,Double Hill Deposit #2,Double Hill Deposit #4,nonmetallic,nonmetallic,San Juan,San Juan,145.5,0.83
+R_TRGM,5084,5087,Double Hill Deposit #2,Double Hill Deposit #5,nonmetallic,nonmetallic,San Juan,San Juan,847.2,0.83
+R_TRGM,5085,5086,Double Hill Deposit #3,Double Hill Deposit #4,nonmetallic,nonmetallic,San Juan,San Juan,550.4,0.83
+R_TRGM,5085,5087,Double Hill Deposit #3,Double Hill Deposit #5,nonmetallic,nonmetallic,San Juan,San Juan,164.0,0.83
+R_TRGM,5086,5087,Double Hill Deposit #4,Double Hill Deposit #5,nonmetallic,nonmetallic,San Juan,San Juan,714.2,0.83
+R_TRGM,5088,5089,Rusch Deposit #1,Rusch Deposit #2,nonmetallic,nonmetallic,San Juan,San Juan,87.0,0.78
+R_TRGM,5737,5756,Newcastle King Coal Co. Mine,Newcastle King 4 Coal Co. Mine,coal_mine,coal_mine,King,King,949.2,0.93
+R_TRGM,5742,5743,Roslyn Fuel Co. Mine No. 3,Roslyn Fuel Co. Mine No. 1,coal_mine,coal_mine,Kittitas,Kittitas,747.6,0.85
+R_TRGM,5742,5744,Roslyn Fuel Co. Mine No. 3,Roslyn Fuel Co. Mine No. 2,coal_mine,coal_mine,Kittitas,Kittitas,734.2,0.85
+R_TRGM,5743,5744,Roslyn Fuel Co. Mine No. 1,Roslyn Fuel Co. Mine No. 2,coal_mine,coal_mine,Kittitas,Kittitas,417.3,0.85
+R_TRGM,5771,5772,Ravensdale Mine,Ravensdale No. 1 Mine,coal_mine,coal_mine,King,King,445.2,0.76
+R_TRGM,5801,5802,Roslyn-Cascade Coal Co. Mine No. 2,Roslyn-Cascade Coal Co. Mine No. 3,coal_mine,coal_mine,Kittitas,Kittitas,455.5,0.88
+R_TRGM,5848,5920,Hannaford Mine No. 1,Hannaford Mine No. 2,coal_mine,coal_mine,Thurston,Thurston,643.4,0.82
+R_TRGM,5880,5928,Roslyn No. 6 Mine,Roslyn No. 1 Mine,coal_mine,coal_mine,Kittitas,Kittitas,916.4,0.79
+R_TRGM,606,4440,Copper Butte,Copper Butte mine,metallic,nonmetallic,Stevens,Stevens,351.3,0.72
+R_TRGM,607,4440,Copper Butte,Copper Butte mine,metallic,nonmetallic,Stevens,Stevens,415.8,0.72
+R_TRGM,6,3038,Silver Crown No. 1,Silver Crown No. 2,metallic,gold_silver,Ferry,Ferry,956.4,0.80
+R_TRGM,635,4434,Loon Lake Copper,Loon Lake Copper mine,metallic,nonmetallic,Stevens,Stevens,477.7,0.76
+R_TRGM,926,3038,Silver Crown No. 3,Silver Crown No. 2,metallic,gold_silver,Ferry,Ferry,326.3,0.80

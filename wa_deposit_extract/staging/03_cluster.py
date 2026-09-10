@@ -92,3 +92,18 @@ rep = "\n".join(out)
 with io.open(HERE + "cluster_report.txt", "w", encoding="utf-8") as f:
     f.write(rep + "\n")
 print(rep)
+
+# ---- review_pairs_open.csv: drop pairs now resolved (co-clustered) -------
+try:
+    with io.open(HERE + "review_pairs.csv", encoding="utf-8") as f, \
+         io.open(HERE + "review_pairs_open.csv", "w", encoding="utf-8", newline="") as g:
+        rd = csv.reader(f); wr = csv.writer(g)
+        header = next(rd); wr.writerow(header)
+        kept = 0
+        for row in rd:
+            a, b = int(row[1]), int(row[2])
+            if assign.get(a) != assign.get(b):
+                wr.writerow(row); kept += 1
+    print("\nreview_pairs_open.csv: %d unresolved pairs" % kept)
+except FileNotFoundError:
+    pass

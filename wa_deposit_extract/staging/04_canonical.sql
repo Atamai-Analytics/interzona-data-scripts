@@ -30,6 +30,7 @@ WITH m AS (
            pg_temp.coord_rank(s.wa_source) cr
     FROM wa_deposits_staging s
     JOIN wa_cluster_assignment c USING (staging_id)
+    WHERE NOT s.excluded
 ),
 name_pick AS (
     SELECT DISTINCT ON (cluster_id) cluster_id, site_name, wa_source name_src
