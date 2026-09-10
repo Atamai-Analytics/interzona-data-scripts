@@ -68,3 +68,12 @@ wa_deposit_extract/build/*
 !wa_deposit_extract/build/*.json
 !wa_deposit_extract/build/*.csv
 wa_deposit_extract/load_run.log
+
+!wa_age_analysis.md
+!wa_age_extract/
+wa_age_extract/*
+!wa_age_extract/*.md
+!wa_age_extract/*.sql
+!wa_age_extract/staging/
+wa_age_extract/staging/*
+!wa_age_extract/staging/*.sql
