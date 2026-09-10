@@ -1660,7 +1660,6 @@
 {"commodityId": 30320180, "commodityName": "Cu", "comment": "Commodity present (DGER: metallic); role PRIMARY", "sourceId": "WA:685"}
 {"commodityId": 30320180, "commodityName": "Cu", "comment": "Commodity present (DGER: metallic); role PRIMARY", "sourceId": "WA:686"}
 {"commodityId": 30320180, "commodityName": "Cu", "comment": "Commodity present (DGER: metallic); role PRIMARY", "sourceId": "WA:687"}
-{"commodityId": 30320183, "commodityName": "Zn", "comment": "Commodity present (DGER: metallic); role SECONDARY", "sourceId": "WA:687"}
 {"commodityId": 30320180, "commodityName": "Cu", "comment": "Commodity present (DGER: arsenic, metallic); role PRIMARY", "sourceId": "WA:688"}
 {"commodityId": 30320189, "commodityName": "Ag", "comment": "Commodity present (DGER: arsenic, metallic); role SECONDARY", "sourceId": "WA:688"}
 {"commodityId": 30320190, "commodityName": "Au", "comment": "Commodity present (DGER: arsenic, metallic); role SECONDARY", "sourceId": "WA:688"}
@@ -3256,7 +3255,6 @@
 {"commodityId": 30320158, "commodityName": "Hg", "comment": "Commodity present (DGER: mercury, metallic); role PRIMARY", "sourceId": "WA:1423"}
 {"commodityId": 30320158, "commodityName": "Hg", "comment": "Commodity present (DGER: mercury, metallic); role PRIMARY", "sourceId": "WA:1424"}
 {"commodityId": 30320158, "commodityName": "Hg", "comment": "Commodity present (DGER: mercury, metallic); role PRIMARY", "sourceId": "WA:1425"}
-{"commodityId": 30320181, "commodityName": "Ni", "comment": "Commodity present (DGER: mercury, metallic); role SECONDARY", "sourceId": "WA:1425"}
 {"commodityId": 30320163, "commodityName": "Mo", "comment": "Commodity present (DGER: metallic); role PRIMARY", "sourceId": "WA:1426"}
 {"commodityId": 30320180, "commodityName": "Cu", "comment": "Commodity present (DGER: metallic); role SECONDARY", "sourceId": "WA:1426"}
 {"commodityId": 30320163, "commodityName": "Mo", "comment": "Commodity present (DGER: metallic); role PRIMARY", "sourceId": "WA:1427"}
@@ -3452,7 +3450,6 @@
 {"commodityId": 30320195, "commodityName": "Pt", "comment": "Commodity present (DGER: metallic); role PRIMARY", "sourceId": "WA:1522"}
 {"commodityId": 30320174, "commodityName": "Th", "comment": "Commodity present (DGER: metallic, radon); role PRIMARY", "sourceId": "WA:1523"}
 {"commodityId": 30320310, "commodityName": "Ce", "comment": "Commodity present (DGER: metallic, radon); role SECONDARY", "sourceId": "WA:1523"}
-{"commodityId": 30320176, "commodityName": "U", "comment": "Commodity present (DGER: metallic, radon); role SECONDARY", "sourceId": "WA:1523"}
 {"commodityId": 30320171, "commodityName": "Sn", "comment": "Commodity present (DGER: metallic); role PRIMARY", "sourceId": "WA:1524"}
 {"commodityId": 30320177, "commodityName": "W", "comment": "Commodity present (DGER: metallic); role SECONDARY", "sourceId": "WA:1524"}
 {"commodityId": 30320171, "commodityName": "Sn", "comment": "Commodity present (DGER: metallic); role PRIMARY", "sourceId": "WA:1525"}
@@ -3460,7 +3457,6 @@
 {"commodityId": 30320171, "commodityName": "Sn", "comment": "Commodity present (DGER: metallic); role PRIMARY", "sourceId": "WA:1527"}
 {"commodityId": 30320174, "commodityName": "Th", "comment": "Commodity present (DGER: metallic, radon); role PRIMARY", "sourceId": "WA:1528"}
 {"commodityId": 30320310, "commodityName": "Ce", "comment": "Commodity present (DGER: metallic, radon); role SECONDARY", "sourceId": "WA:1528"}
-{"commodityId": 30320176, "commodityName": "U", "comment": "Commodity present (DGER: metallic, radon); role SECONDARY", "sourceId": "WA:1528"}
 {"commodityId": 30320171, "commodityName": "Sn", "comment": "Commodity present (DGER: metallic); role PRIMARY", "sourceId": "WA:1529"}
 {"commodityId": 30320171, "commodityName": "Sn", "comment": "Commodity present (DGER: arsenic, metallic); role PRIMARY", "sourceId": "WA:1530"}
 {"commodityId": 30320171, "commodityName": "Sn", "comment": "Commodity present (DGER: metallic); role PRIMARY", "sourceId": "WA:1531"}
@@ -3837,8 +3833,6 @@
 {"commodityId": 30320182, "commodityName": "Pb", "comment": "Commodity present (DGER: metallic); role SECONDARY", "sourceId": "WA:1730"}
 {"commodityId": 30320183, "commodityName": "Zn", "comment": "Commodity present (DGER: metallic); role PRIMARY", "sourceId": "WA:1731"}
 {"commodityId": 30320189, "commodityName": "Ag", "comment": "Commodity present (DGER: metallic); role SECONDARY", "sourceId": "WA:1731"}
-{"commodityId": 30320179, "commodityName": "Co", "comment": "Commodity present (DGER: metallic); role SECONDARY", "sourceId": "WA:1731"}
-{"commodityId": 30320186, "commodityName": "Mn", "comment": "Commodity present (DGER: metallic); role SECONDARY", "sourceId": "WA:1731"}
 {"commodityId": 30320182, "commodityName": "Pb", "comment": "Commodity present (DGER: metallic); role SECONDARY", "sourceId": "WA:1731"}
 {"commodityId": 30320183, "commodityName": "Zn", "comment": "Commodity present (DGER: metallic); role PRIMARY", "sourceId": "WA:1732"}
 {"commodityId": 30320182, "commodityName": "Pb", "comment": "Commodity present (DGER: metallic); role SECONDARY", "sourceId": "WA:1732"}
@@ -7550,6 +7544,7 @@
 {"commodityId": 30319749, "commodityName": "Clay", "comment": "Commodity present (DGER: nonmetallic); role PRIMARY", "sourceId": "WA:3661"}
 {"commodityId": 30319749, "commodityName": "Clay", "comment": "Commodity present (DGER: nonmetallic); role PRIMARY", "sourceId": "WA:3662"}
 {"commodityId": 30319749, "commodityName": "Clay", "comment": "Commodity present (DGER: nonmetallic); role PRIMARY", "sourceId": "WA:3663"}
+{"commodityId": 30319749, "commodityName": "Clay", "comment": "Commodity present (DGER: coal_mine, nonmetallic); role PRIMARY", "sourceId": "WA:3664"}
 {"commodityId": 30319726, "commodityName": "Coal", "comment": "Commodity present (DGER: coal_mine, nonmetallic); role PRIMARY", "sourceId": "WA:3664"}
 {"commodityId": 30319704, "commodityName": "Sandstone", "comment": "Commodity present (DGER: coal_mine, nonmetallic); role PRIMARY", "sourceId": "WA:3664"}
 {"commodityId": 30319711, "commodityName": "Diatomite", "comment": "Commodity present (DGER: nonmetallic); role PRIMARY", "sourceId": "WA:3665"}
@@ -8254,6 +8249,7 @@
 {"commodityId": 30319749, "commodityName": "Clay", "comment": "Commodity present (DGER: nonmetallic); role PRIMARY", "sourceId": "WA:4338"}
 {"commodityId": 30319749, "commodityName": "Clay", "comment": "Commodity present (DGER: nonmetallic); role PRIMARY", "sourceId": "WA:4339"}
 {"commodityId": 30319749, "commodityName": "Clay", "comment": "Commodity present (DGER: nonmetallic); role PRIMARY", "sourceId": "WA:4340"}
+{"commodityId": 30319749, "commodityName": "Clay", "comment": "Commodity present (DGER: nonmetallic); role PRIMARY", "sourceId": "WA:4341"}
 {"commodityId": 30319711, "commodityName": "Diatomite", "comment": "Commodity present (DGER: nonmetallic); role PRIMARY", "sourceId": "WA:4342"}
 {"commodityId": 30319855, "commodityName": "Feldspar", "comment": "Commodity present (DGER: nonmetallic); role PRIMARY", "sourceId": "WA:4343"}
 {"commodityId": 30319855, "commodityName": "Feldspar", "comment": "Commodity present (DGER: nonmetallic); role PRIMARY", "sourceId": "WA:4344"}

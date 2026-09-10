@@ -3,21 +3,21 @@ gold,1921,1175,249,Au,ELEMENT
 silver,1455,292,248,Ag,ELEMENT
 copper,1166,608,239,Cu,ELEMENT
 lead,899,424,241,Pb,ELEMENT
-zinc,527,113,242,Zn,ELEMENT
+zinc,526,113,242,Zn,ELEMENT
 peat,349,349,95,Peat,CURATED
 limestone and marble,272,272,72,Limestone,CURATED
 coal,227,227,94,Coal,CURATED
-manganese,160,154,245,Mn,ELEMENT
+manganese,159,154,245,Mn,ELEMENT
 iron,154,118,244,Fe,ELEMENT
 pumice,150,150,88,Pumice,CURATED
 tungsten,112,47,236,W,ELEMENT
-nickel,105,51,240,Ni,ELEMENT
+nickel,104,51,240,Ni,ELEMENT
 chromium,104,85,243,Cr,ELEMENT
 common clays and shales,102,102,117,Clay,CURATED
 sandstone,98,98,75,Sandstone,CURATED
 arsenic,97,10,276,As,ELEMENT
-uranium,89,85,235,U,ELEMENT
 refractory clays and shales,88,88,117,Clay,CURATED
+uranium,87,85,235,U,ELEMENT
 diatomite,83,83,82,Diatomite,CURATED
 antimony,75,32,279,Sb,ELEMENT
 molybdenum,74,41,224,Mo,ELEMENT
@@ -32,93 +32,94 @@ massive quartz,37,37,139,Quartz,CURATED
 asbestiform materials,35,35,111,Asbestos,CURATED
 granite and allied plutonic rocks,32,32,70,Granite,CURATED
 graphite,32,32,127,Graphite,CURATED
-talc and soapstone,27,27,148,Talc,CURATED
 magnesite,27,27,133,MgCO3,CURATED
+talc and soapstone,27,27,148,Talc,CURATED
 mica,24,24,134,Mica,CURATED
 mineral pigments,23,23,182,Ochre,CURATED
-cobalt,22,1,238,Co,ELEMENT
-marl,18,18,72,Limestone,CURATED
+cobalt,21,1,238,Co,ELEMENT
 slate and other platy rocks,18,18,76,Slate,CURATED
 fluorite,18,18,124,Fluorite,CURATED
+marl,18,18,72,Limestone,CURATED
 sillimanite,17,17,158,Sillimanite,CURATED
-andalusite,17,17,155,Andalusite,CURATED
 tin,17,11,230,Sn,ELEMENT
-and kyanite,17,17,156,Kyanite,CURATED
+andalusite,17,17,155,Andalusite,CURATED
 quartzite,17,17,139,Quartz,CURATED
-perlite,16,16,85,Perlite,CURATED
+and kyanite,17,17,156,Kyanite,CURATED
 garnet,16,16,125,Garnet,CURATED
+perlite,16,16,85,Perlite,CURATED
 sodium sulfate,16,16,149,Thenardite,CURATED
 feldspar,14,14,123,Feldspar,CURATED
 plutonium,14,0,,,DROP
-gypsum,13,13,174,Gypsum,CURATED
 bismuth,13,0,214,Bi,ELEMENT
+gypsum,13,13,174,Gypsum,CURATED
 quartz crystal,12,12,139,Quartz,CURATED
 beryl,12,12,213,Be,CURATED
-travertine,11,11,72,Limestone,CURATED
 cadmium,11,0,215,Cd,ELEMENT
 vanadium,11,5,247,V,ELEMENT
+travertine,11,11,72,Limestone,CURATED
 platinum,10,10,253,Pt,ELEMENT
-olivine,9,9,137,Olivine,CURATED
 sodium carbonate,9,9,181,Soda Ash,CURATED
+olivine,9,9,137,Olivine,CURATED
 special clays - bentonite,8,8,170,Bentonite,CURATED
 thallium,8,2,234,Tl,ELEMENT
 thorium,8,2,233,Th,ELEMENT
 sulfur,6,6,286,S,ELEMENT
 tellurium,6,0,281,Te,ELEMENT
 titanium,6,6,246,Ti,ELEMENT
-ferruginous bauxite,5,5,77,Bauxite,CURATED
 cerium,5,1,270,Ce,ELEMENT
+ferruginous bauxite,5,5,77,Bauxite,CURATED
 selenium,4,0,287,Se,ELEMENT
 special clays - nontronite,4,4,117,Clay,CURATED
-gallium,3,2,217,Ga,ELEMENT
-magnesium sulfate,3,3,121,Epsomite,CURATED
-sulfer,3,0,286,S,ELEMENT
-nephelite,3,3,84,Nepheline Syenite,CURATED
 strontium,3,3,231,Sr,ELEMENT
+special clays - expanding clays and shales,3,3,117,Clay,CURATED
 lead silver,3,0,241,Pb,SPLIT:lead
 lead silver,3,0,248,Ag,SPLIT:silver
+sulfer,3,0,286,S,ELEMENT
+magnesium sulfate,3,3,121,Epsomite,CURATED
 beryllium,3,0,213,Be,ELEMENT
-platinum group elements,2,0,253,Pt,SPLIT:platinum
-corundum,2,2,118,Corundum,CURATED
+gallium,3,2,217,Ga,ELEMENT
+nephelite,3,3,84,Nepheline Syenite,CURATED
 special clays - fuller's earth,2,2,165,Fullers Earth,CURATED
+platinum group elements,2,0,253,Pt,SPLIT:platinum
 flour,2,0,,,DROP
-zirconium,1,0,237,Zr,ELEMENT
-gold amd silver gold,1,0,249,Au,SPLIT:gold
-gold amd silver gold,1,0,248,Ag,SPLIT:silver
-copper gold,1,0,239,Cu,SPLIT:copper
-copper gold,1,0,249,Au,SPLIT:gold
-unknown,1,0,,,DROP
-silver arsenic,1,0,248,Ag,SPLIT:silver
-silver arsenic,1,0,276,As,SPLIT:arsenic
-osmium,1,0,251,Os,ELEMENT
+corundum,2,2,118,Corundum,CURATED
+with some silver,1,0,248,Ag,SPLIT:silver
 zinc silver,1,0,242,Zn,SPLIT:zinc
 zinc silver,1,0,248,Ag,SPLIT:silver
-pyrite,1,0,,,DROP
-lead zinc,1,0,241,Pb,SPLIT:lead
-lead zinc,1,0,242,Zn,SPLIT:zinc
-aluminium,1,1,211,Al,ELEMENT
-tantalum,1,0,232,Ta,ELEMENT
-native copper,1,0,239,Cu,SPLIT:copper
-scandium,1,0,229,Sc,ELEMENT
-alunite,1,1,109,Alunite,CURATED
-cooper,1,0,239,Cu,ELEMENT
-alum,1,1,109,Alunite,CURATED
-niobium,1,0,225,Nb,ELEMENT
-with some silver,1,0,248,Ag,SPLIT:silver
-iridium,1,0,250,Ir,ELEMENT
-zinc antimony,1,0,242,Zn,SPLIT:zinc
-zinc antimony,1,0,279,Sb,SPLIT:antimony
 magnesium,1,0,223,Mg,ELEMENT
-manganese float,1,0,245,Mn,SPLIT:manganese
+pyrite,1,0,,,DROP
+gold amd silver gold,1,0,249,Au,SPLIT:gold
+gold amd silver gold,1,0,248,Ag,SPLIT:silver
+cooper,1,0,239,Cu,ELEMENT
+copper gold,1,0,239,Cu,SPLIT:copper
+copper gold,1,0,249,Au,SPLIT:gold
 yttrium,1,0,268,Y,ELEMENT
 magnesium sulfate and gypsite,1,1,223,Mg,SPLIT:magnesium
-chalcopyrite,1,0,239,Cu,SPLIT:copper
+scandium,1,0,229,Sc,ELEMENT
+niobium,1,0,225,Nb,ELEMENT
+unknown,1,0,,,DROP
+alunite,1,1,109,Alunite,CURATED
+alum,1,1,109,Alunite,CURATED
 lead copper,1,0,241,Pb,SPLIT:lead
 lead copper,1,0,239,Cu,SPLIT:copper
 germanium,1,0,278,Ge,ELEMENT
+native copper,1,0,239,Cu,SPLIT:copper
+tantalum,1,0,232,Ta,ELEMENT
+zinc antimony,1,0,242,Zn,SPLIT:zinc
+zinc antimony,1,0,279,Sb,SPLIT:antimony
+zirconium,1,0,237,Zr,ELEMENT
+manganese float,1,0,245,Mn,SPLIT:manganese
+aluminium,1,1,211,Al,ELEMENT
 phosphorus,1,0,285,P,ELEMENT
-graphite with some gold,1,0,127,Graphite,SPLIT:graphite
-graphite with some gold,1,0,249,Au,SPLIT:gold
+lead zinc,1,0,241,Pb,SPLIT:lead
+lead zinc,1,0,242,Zn,SPLIT:zinc
 zinc gold,1,0,242,Zn,SPLIT:zinc
 zinc gold,1,0,249,Au,SPLIT:gold
+chalcopyrite,1,0,239,Cu,SPLIT:copper
+silver arsenic,1,0,248,Ag,SPLIT:silver
+silver arsenic,1,0,276,As,SPLIT:arsenic
+graphite with some gold,1,0,127,Graphite,SPLIT:graphite
+graphite with some gold,1,0,249,Au,SPLIT:gold
 also gold,1,0,249,Au,SPLIT:gold
+osmium,1,0,251,Os,ELEMENT
+iridium,1,0,250,Ir,ELEMENT

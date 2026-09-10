@@ -110,12 +110,12 @@ it is a real prospect, not a mill.
 
 `07_commodities.sql` tokenizes commodities per canonical deposit →
 `wa_canonical_commodity_tok` (canonical_id, token, role, mentions). `08_crosswalk.py`
-maps the **113 distinct tokens** → `commodities`:
+maps the **114 distinct tokens** → `commodities`:
 
 | method | tokens | note |
 |---|--:|---|
 | ELEMENT | ~45 | element word → `commodity_symbol` (Au, Cu, Sb, …) |
-| CURATED | ~60 | industrial minerals/rocks → `commodity_name` (Limestone, Pumice, Clay, Baryte, Talc, Serpentine, …) |
+| CURATED | ~61 | industrial minerals/rocks → `commodity_name` (Limestone, Pumice, Clay, Baryte, Talc, Serpentine, …) |
 | SPLIT | 15 phrases | "copper gold" → Cu + Au, etc. |
 | DROP | 4 | `plutonium` (14 — uranium-hazard-table artifact), `flour`, `unknown`, `pyrite` |
 | UNMAPPED | 0 | every commodity-bearing deposit resolves |
@@ -123,6 +123,13 @@ maps the **113 distinct tokens** → `commodities`:
 Output `crosswalk_commodity_wa.csv`. Judgement calls: `dolomite`/`marl`/`travertine`
 → Limestone; `beryl` → Be; `gem and ornamental stones` → Miscellaneous Dimension
 Stones; `mineral pigments` → Ochre; `sodium sulfate` → Thenardite.
+
+**`13_commodity_tweaks.sql`** (spot-check follow-up) — `wa_tok` now drops
+source-flagged uncertain commodities (`"Copper?"`, `"cobalt?"`, `"reportedly
+nickel"` — the definite `primary_commodity` still carries the real one); added
+`special clays - expanding clays and shales` → Clay (was over the length cap).
+`deposit_commodities` re-synced: 9,320 → **9,316** (5,479 PRIMARY / 3,837
+SECONDARY), commodity-less deposits 26 → **25**.
 
 ## Step 3 — load (DONE 2026-09-10, `09_load.sql`)
 

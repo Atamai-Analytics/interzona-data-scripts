@@ -9,7 +9,9 @@ BEGIN;
 CREATE OR REPLACE FUNCTION pg_temp.wa_tok(raw text) RETURNS text LANGUAGE sql IMMUTABLE AS $$
   SELECT CASE
     WHEN t = '' THEN ''
-    WHEN length(t) > 40 THEN ''
+    -- drop commodities the source itself flags as uncertain
+    WHEN lower(coalesce(raw,'')) ~ '\?|^\s*reportedly|doubtful' THEN ''
+    WHEN length(t) > 45 THEN ''
     WHEN t ~ '(report|doubtful|occurrence|erroneous|authenticated|unlikely|apparently|constitute|although| are | is |spectrographic|principal value|present\.?$|also reported|has been|have been|failed to|radioactive)' THEN ''
     ELSE t
   END

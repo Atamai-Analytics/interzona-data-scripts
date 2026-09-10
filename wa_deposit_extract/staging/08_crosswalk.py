@@ -37,6 +37,7 @@ CURATED = {
  "limestone and marble":"Limestone","travertine":"Limestone","marl":"Limestone","dolomite":"Limestone",
  "coal":"Coal","peat":"Peat","pumice":"Pumice","pumicite":"Pumice",
  "common clays and shales":"Clay","refractory clays and shales":"Clay","special clays - nontronite":"Clay",
+ "special clays - expanding clays and shales":"Clay","special clays - expanding":"Clay",
  "special clays - fuller's earth":"Fullers Earth","special clays - bentonite":"Bentonite",
  "sandstone":"Sandstone","diatomite":"Diatomite","silica sand":"Silica Sand","barite":"Baryte",
  "serpentine":"Serpentine","massive quartz":"Quartz","quartz crystal":"Quartz","quartzite":"Quartz",
