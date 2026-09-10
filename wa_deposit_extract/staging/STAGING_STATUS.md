@@ -152,7 +152,7 @@ Snapshots `deposits` / `deposit_commodities` / `deposit_mineralogy` →
 | `locations` | 5,418 | locationtype='DEPOSIT', datasource='Washington State Geological Survey (DGER)', external_id='WA:<canonical_id>', countryid=246, divisionid=48, geom via trigger (0 null). Provenance + aliases + location notes in `comments`. |
 | `deposits` | 5,418 | `deposits` 3,528 → **8,946**. `geological_district` ← mining_district; comments carry DGER comments/value/ore-minerals; `production_data` flag where recorded. |
 | `deposit_commodities` | 9,316 | 5,479 PRIMARY / 3,837 SECONDARY (after `13`/`14`). 25 deposits have no commodity (iaml-only metal mines + null-name coal composite). |
-| `deposit_mineralogy` | 5,173 | from `ore_minerals`; 4,215 (81%) matched a `minerals.mineral_id`. |
+| `deposit_mineralogy` | 5,131 | from `ore_minerals` (cleaned by `15`); 4,264 (83%) matched a `minerals.mineral_id`. |
 
 Verified: 0 null geom, 0 unmapped ids, 0 orphan commodities. Van Epps (WA:2)
 spot-checked — Sb primary + Ag/Au/Ni/Pb/Zn secondary, 7 ore minerals all resolved.
@@ -171,9 +171,14 @@ spot-checked — Sb primary + Ag/Au/Ni/Pb/Zn secondary, 7 ore minerals all resol
   field (abandoned-mine-land site debris: "ore car", "scrap steel", "none",
   "see feature 1003-14") into `ore_minerals`. Moved the meaningful values to
   `comments` as `Site remains (IAML): …`, cleared `ore_minerals` for iaml
-  (51 rows), rebuilt canonical + `deposit_mineralogy` (5,237 → **5,173**, 64
-  debris rows dropped) + `deposits.comments`. `deposit_commodities` unaffected
-  (iaml has no commodity field).
+  (51 rows), rebuilt canonical + `deposit_mineralogy` + `deposits.comments`.
+  `deposit_commodities` unaffected (iaml has no commodity field).
+- **`15_clean_ore_minerals.sql`** — DGER `ore_minerals` is free text with
+  quantifiers/commentary ("some chalcopyrite", "minor amounts of sphalerite",
+  "reportedly stibnite", "cinnabar was found in nw 1/4 sec. 25"). `04_canonical.sql`
+  now runs each token through `wa_min()` (strip leading quantifier + trailing
+  "reported"/"?" , drop residual prose). `deposit_mineralogy` 5,237 → **5,131**
+  (~100 phrase rows removed), `minerals.mineral_id` match rate 81% → **83%**.
 - **`build/export_sources.sql`** — switched to `\copy … WITH (ENCODING 'UTF8')`;
   psql `\o` on Windows was writing Latin-1 for non-ASCII (`¼` in section refs).
 

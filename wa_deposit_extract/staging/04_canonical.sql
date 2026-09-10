@@ -22,6 +22,24 @@ CREATE OR REPLACE FUNCTION pg_temp.coord_rank(s text) RETURNS int LANGUAGE sql I
     WHEN 'asbestos' THEN 4 WHEN 'coal_mine' THEN 5 WHEN 'iaml' THEN 6
     WHEN 'arsenic' THEN 7 WHEN 'mercury' THEN 8 WHEN 'radon' THEN 9 ELSE 99 END $$;
 
+-- clean one DGER ore_minerals phrase: strip leading quantifiers, drop residual prose
+CREATE OR REPLACE FUNCTION pg_temp.wa_min(t text) RETURNS text LANGUAGE sql IMMUTABLE AS $$
+  SELECT CASE
+    WHEN x = '' THEN ''
+    WHEN length(x) > 24 THEN ''
+    WHEN x ~ '(was found|similar to| worth | per flake| property|in one hole| bank of| order of| sec\.?( |$)| r[0-9]+[ew]|contain|fracture|decreasing|dump|float\.?$|at depth| of the )' THEN ''
+    ELSE x
+  END
+  FROM (
+    SELECT btrim(regexp_replace(
+             regexp_replace(
+               btrim(regexp_replace(lower(coalesce(t,'')), E'[\r\n\t]+', ' ', 'g')),
+               '^(some|minor|trace|traces|traces of|minor amounts? of|small amounts? of|lesser amounts? of|a small amount of|much|abundant|reportedly|reported|possibly|probably|free|flake|and|or|an?|two)\s+',
+               '', 'g'),
+             '[?,;]*\s*(reported|noted|present|observed)?\.?$', '', 'g')) x
+  ) s
+$$;
+
 DROP TABLE IF EXISTS wa_dedup_canonical;
 CREATE TABLE wa_dedup_canonical AS
 WITH m AS (
@@ -63,9 +81,9 @@ agg AS (
                 SELECT unnest(string_to_array(
                     string_agg(concat_ws(',', primary_commodity, commodities), ','), ',')) t
            ) q WHERE btrim(t) <> '') commodity_tokens,
-           ARRAY(SELECT DISTINCT btrim(t) FROM (
+           ARRAY(SELECT DISTINCT pg_temp.wa_min(t) FROM (
                 SELECT unnest(string_to_array(string_agg(ore_minerals, ','), ',')) t
-           ) q WHERE btrim(t) <> '') ore_mineral_tokens,
+           ) q WHERE pg_temp.wa_min(t) <> '') ore_mineral_tokens,
            ARRAY(SELECT DISTINCT btrim(t) FROM (
                 SELECT unnest(string_to_array(string_agg(mineral, ','), ',')) t
            ) q WHERE btrim(t) <> '') industrial_mineral_tokens,
