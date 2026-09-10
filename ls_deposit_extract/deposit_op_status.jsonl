@@ -19,7 +19,6 @@
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:25"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:26"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:32"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado", "sourceId": "SIGAM:34"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:38"}
 {"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:39"}
 {"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:40"}
@@ -45,7 +44,7 @@
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:212"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:219"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:235"}
-{"operatingStatusId": 30228556, "comment": "SIGAM: cerrado; Categoría de tamaño: pequeño", "sourceId": "SIGAM:243"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:243"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:244"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:252"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:256"}
@@ -57,12 +56,12 @@
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:265"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:266"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:267"}
-{"operatingStatusId": 30228556, "comment": "SIGAM: cerrado", "sourceId": "SIGAM:268"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:268"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:269"}
-{"operatingStatusId": 30228556, "comment": "SIGAM: cerrado", "sourceId": "SIGAM:270"}
-{"operatingStatusId": 30228556, "comment": "SIGAM: cerrado", "sourceId": "SIGAM:271"}
-{"operatingStatusId": 30228556, "comment": "SIGAM: cerrado", "sourceId": "SIGAM:272"}
-{"operatingStatusId": 30228556, "comment": "SIGAM: cerrado", "sourceId": "SIGAM:273"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:270"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:271"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:272"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:273"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:274"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:275"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:277"}
@@ -74,7 +73,7 @@
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:284"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:285"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:286"}
-{"operatingStatusId": 30228556, "comment": "SIGAM: cerrado", "sourceId": "SIGAM:287"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:287"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:288"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:289"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:290"}
@@ -263,7 +262,7 @@
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:2092"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:2093"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:2094"}
-{"operatingStatusId": 30228557, "comment": "SIGAM: productor pasado; Categoría de tamaño: pequeño; Comentarios sobre el estado: Las vetas fueron explotadas en rajos desde la superficie hasat aproximadamente 20 m de profundidad", "sourceId": "SIGAM:2095"}
+{"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:2095"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:2096"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:2097"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:2098"}
@@ -338,7 +337,7 @@
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:4004"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:4005"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:4006"}
-{"operatingStatusId": 30228556, "comment": "SIGAM: cerrado; Categoría de tamaño: pequeño", "sourceId": "SIGAM:4007"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:4007"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:4010"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:4011"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:4012"}
@@ -442,7 +441,7 @@
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:5102"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:5103"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:5104"}
-{"operatingStatusId": 30228557, "comment": "SIGAM: productor en el pasa; Categoría de tamaño: ocurrencia", "sourceId": "SIGAM:5105"}
+{"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:5105"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:5106"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:5107"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:5108"}
@@ -463,7 +462,7 @@
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:5123"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:5124"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:5125"}
-{"operatingStatusId": 30228557, "comment": "SIGAM: productor en el pasa; Categoría de tamaño: pequeño", "sourceId": "SIGAM:5126"}
+{"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:5126"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:5127"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:5128"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:5129"}
@@ -491,7 +490,6 @@
 {"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:5162"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:5169"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:5170"}
-{"operatingStatusId": 30228559, "comment": "SIGAM: producción intermite; Categoría de tamaño: desconocida", "sourceId": "SIGAM:5171"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:5183"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:5189"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:5190"}
@@ -605,11 +603,11 @@
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:11165"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:11166"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:11167"}
-{"operatingStatusId": 30228559, "comment": "SIGAM: productor; Categoría de tamaño: mediano", "sourceId": "SIGAM:11168"}
+{"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:11168"}
 {"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:11169"}
 {"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:11170"}
 {"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:11173"}
-{"operatingStatusId": 30228559, "comment": "SIGAM: productor; Categoría de tamaño: mediano", "sourceId": "SIGAM:11175"}
+{"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:11175"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:11176"}
 {"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:11183"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:11184"}
@@ -635,7 +633,7 @@
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:11257"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:11258"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:11259"}
-{"operatingStatusId": 30228559, "comment": "SIGAM: producción; Categoría de tamaño: pequeño", "sourceId": "SIGAM:11261"}
+{"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:11261"}
 {"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:11267"}
 {"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:11268"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:11270"}
@@ -680,7 +678,6 @@
 {"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:11346"}
 {"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:11347"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:11350"}
-{"operatingStatusId": 30228559, "comment": "SIGAM: producción suspendid; Categoría de tamaño: pequeño", "sourceId": "SIGAM:11353"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:11354"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:11355"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:11356"}
@@ -759,8 +756,8 @@
 {"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:24994"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:25006"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:25011"}
-{"operatingStatusId": 30228559, "comment": "SIGAM: producción suspendid; Categoría de tamaño: pequeño", "sourceId": "SIGAM:25016"}
-{"operatingStatusId": 30228559, "comment": "SIGAM: producción suspendid; Categoría de tamaño: pequeño", "sourceId": "SIGAM:25017"}
+{"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:25016"}
+{"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:25017"}
 {"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:25018"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:25019"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:25046"}
@@ -772,8 +769,6 @@
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:25063"}
 {"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:25087"}
 {"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:25105"}
-{"operatingStatusId": 30228559, "comment": "SIGAM: producción intermite", "sourceId": "SIGAM:25136"}
-{"operatingStatusId": 30228559, "comment": "SIGAM: producción intermite", "sourceId": "SIGAM:25137"}
 {"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:25146"}
 {"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:25252"}
 {"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:25263"}
@@ -817,7 +812,7 @@
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:25475"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:25482"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:25483"}
-{"operatingStatusId": 30228557, "comment": "SIGAM: productor pasado; Categoría de tamaño: mediano", "sourceId": "SIGAM:25484"}
+{"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:25484"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:25485"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:25486"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:25487"}
@@ -1070,44 +1065,44 @@
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:26138"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:26139"}
 {"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:26140"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: pequeño", "sourceId": "SIGAM:26149"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: desconocida", "sourceId": "SIGAM:26150"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: desconocido", "sourceId": "SIGAM:26151"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: desconocido", "sourceId": "SIGAM:26152"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: ocurrencia", "sourceId": "SIGAM:26153"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: desconocido", "sourceId": "SIGAM:26154"}
-{"operatingStatusId": 30228559, "comment": "SIGAM: producción; Categoría de tamaño: pequeño", "sourceId": "SIGAM:26156"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: pequeño", "sourceId": "SIGAM:26158"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: desconocido", "sourceId": "SIGAM:26162"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: desconocido", "sourceId": "SIGAM:26163"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: desconocido", "sourceId": "SIGAM:26164"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: desconocido", "sourceId": "SIGAM:26165"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: mediano; Comentarios sobre el estado: Reservas. De Filippi: 3.600.000 t, Sbuelz-Burgio: 8.700.000 toneladas.", "sourceId": "SIGAM:26170"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: desconocido", "sourceId": "SIGAM:26171"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: desconocido", "sourceId": "SIGAM:26179"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: desconocido", "sourceId": "SIGAM:26180"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: desconocido", "sourceId": "SIGAM:26181"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: desconocido", "sourceId": "SIGAM:26182"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: desconocido", "sourceId": "SIGAM:26183"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: desconocido", "sourceId": "SIGAM:26187"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: desconocido", "sourceId": "SIGAM:26191"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: desconocido", "sourceId": "SIGAM:26192"}
-{"operatingStatusId": 30228553, "comment": "SIGAM: inactiva", "sourceId": "SIGAM:26222"}
-{"operatingStatusId": 30228553, "comment": "SIGAM: inactiva", "sourceId": "SIGAM:26223"}
-{"operatingStatusId": 30228559, "comment": "SIGAM: producción", "sourceId": "SIGAM:26227"}
-{"operatingStatusId": 30228553, "comment": "SIGAM: inactiva", "sourceId": "SIGAM:26228"}
-{"operatingStatusId": 30228553, "comment": "SIGAM: inactiva", "sourceId": "SIGAM:26229"}
-{"operatingStatusId": 30228553, "comment": "SIGAM: inactiva", "sourceId": "SIGAM:26230"}
-{"operatingStatusId": 30228553, "comment": "SIGAM: inactiva", "sourceId": "SIGAM:26231"}
-{"operatingStatusId": 30228553, "comment": "SIGAM: inactiva", "sourceId": "SIGAM:26232"}
-{"operatingStatusId": 30228553, "comment": "SIGAM: inactiva", "sourceId": "SIGAM:26233"}
-{"operatingStatusId": 30228553, "comment": "SIGAM: inactiva", "sourceId": "SIGAM:26234"}
-{"operatingStatusId": 30228553, "comment": "SIGAM: inactiva", "sourceId": "SIGAM:26235"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: desconocido", "sourceId": "SIGAM:26242"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: desconocido", "sourceId": "SIGAM:26243"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: desconocido", "sourceId": "SIGAM:26244"}
-{"operatingStatusId": 30228557, "comment": "SIGAM: productor pasado; Categoría de tamaño: pequeño", "sourceId": "SIGAM:26246"}
-{"operatingStatusId": 30228554, "comment": "SIGAM: abandonado; Categoría de tamaño: desconocida", "sourceId": "SIGAM:26247"}
-{"operatingStatusId": 30228559, "comment": "SIGAM: producción artesanal; Categoría de tamaño: pequeño", "sourceId": "SIGAM:26251"}
-{"operatingStatusId": 30228557, "comment": "SIGAM: productor pasado; Categoría de tamaño: desconocido", "sourceId": "SIGAM:26265"}
-{"operatingStatusId": 30228557, "comment": "SIGAM: productor pasado; Categoría de tamaño: pequeño", "sourceId": "SIGAM:26266"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26149"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26150"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26151"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26152"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26153"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26154"}
+{"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:26156"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26158"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26162"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26163"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26164"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26165"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26170"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26171"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26179"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26180"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26181"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26182"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26183"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26187"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26191"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26192"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26222"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26223"}
+{"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:26227"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26228"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26229"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26230"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26231"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26232"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26233"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26234"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26235"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26242"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26243"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26244"}
+{"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:26246"}
+{"operatingStatusId": 30228556, "comment": "SIGAM status: CLOSED", "sourceId": "SIGAM:26247"}
+{"operatingStatusId": 30228559, "comment": "SIGAM status: PRODUCER", "sourceId": "SIGAM:26251"}
+{"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:26265"}
+{"operatingStatusId": 30228557, "comment": "SIGAM status: PAST_PRODUCER", "sourceId": "SIGAM:26266"}

@@ -1,1400 +1,1400 @@
-depno,seq,kind,slot,commodity,value,unit_note
-1,0,produccion,amount,Pb,142.85,millones de libras
-1,1,produccion,amount,Zn,62.24,millones de libras
-1,0,produccion,grade,Pb,77.7,% promedio
-1,1,produccion,grade,Zn,5,% promedio
-1,0,recurso,grade,Pb,30,%
-1,1,recurso,grade,Zn,30,%
-1,2,recurso,grade,Ag,80,g/t
-13,0,recurso,amount,Ag,15.9,millones de onzas troy
-13,1,recurso,amount,Ag,9800,kilogramo
-13,2,recurso,amount,Ag,5.4,millones de onzas troy
-13,3,recurso,amount,Cu,808,tonelada métrica
-13,0,recurso,grade,Ag,170,g/t
-13,1,recurso,grade,Ag,400,g/t
-13,2,recurso,grade,Ag,166,g/t promedio
-13,3,recurso,grade,Cu,0.08,% promedio
-13,4,recurso,grade,Ag,40,g/t open pit
-13,5,recurso,grade,Ag,150,g/t subterránea
-15,0,recurso,grade,Cu,0.06,%
-16,0,produccion,grade,Pb,75,% promedio concentrado
-18,0,produccion,grade,Pb,79,%
-19,0,recurso,grade,Pb,0.7,%
-19,1,recurso,grade,Zn,1.9,%
-19,2,recurso,grade,Ag,50,g/t
-19,3,recurso,grade,Pb,0.84,% promedio
-19,4,recurso,grade,Ag,131,g/t promedio
-19,5,recurso,grade,Zn,0.65,% promedio
-21,0,recurso,grade,Pb,0.7,%
-21,1,recurso,grade,Ag,200,ppm
-21,2,recurso,grade,Zn,1.5,%
-21,3,recurso,grade,Pb,0.7,%
-21,4,recurso,grade,Zn,1.5,%
-21,5,recurso,grade,Ag,200,ppm
-23,0,produccion,amount,Ag,18.6,millones de onzas troy
-23,1,produccion,amount,Zn,40,millones de libras
-23,0,produccion,grade,Ag,230,g/t promedio
-23,1,produccion,grade,Zn,0.72,% promedio
-23,0,recurso,amount,Ag,437,millones de onzas troy
-23,1,recurso,amount,Sn,341,millones de libras
-23,2,recurso,amount,Zn,1377.48,millones de libras
-23,3,recurso,amount,Ag,3600,tonelada métrica
-23,4,recurso,amount,Sn,71000,tonelada métrica
-23,5,recurso,amount,Zn,125000,tonelada métrica
-23,0,recurso,grade,Sn,0.2,% promedio
-23,1,recurso,grade,Ag,174,g/t promedio
-23,2,recurso,grade,Zn,0.8,% promedio
-23,3,recurso,grade,Ag,50,g/t
-23,4,recurso,grade,Sn,0.33,%
-23,5,recurso,grade,Ag,167,g/t
-23,6,recurso,grade,Zn,0.57,%
-23,7,recurso,grade,Sn,0.33,%
-23,8,recurso,grade,Ag,167,g/t
-23,9,recurso,grade,Zn,0.57,%
-24,0,produccion,grade,Sn,60,%
-24,0,recurso,grade,Sn,0.268,kg/m3
-25,0,produccion,amount,Sn,9504,tonelada métrica
-25,0,produccion,grade,Sn,60,%
-25,0,recurso,grade,Sn,0.268,kg/m3
-26,0,recurso,amount,Pb,2902,tonelada métrica
-26,1,recurso,amount,Zn,3481,tonelada métrica
-26,2,recurso,amount,Ag,22,tonelada métrica
-26,0,recurso,grade,Pb,4.92,%
-26,1,recurso,grade,Zn,5.91,%
-26,2,recurso,grade,Ag,377.5,g/t
-34,0,produccion,grade,Pb,70,%
-34,1,produccion,grade,Ag,1000,g/t
-39,0,recurso,amount,Zn,687.1,millones de libras
-39,1,recurso,amount,Pb,754.2,millones de libras
-39,2,recurso,amount,Ag,20.8,millones de onzas troy
-39,0,recurso,grade,Zn,5.84,% promedio
-39,1,recurso,grade,Pb,6.41,% promedio
-39,2,recurso,grade,Ag,121,g/t promedio
-39,3,recurso,grade,Pb,3.9,%
-39,4,recurso,grade,Zn,10.6,%
-39,5,recurso,grade,Ag,115,g/t
-75,0,produccion,amount,Ag,3,tonelada métrica
-75,1,produccion,amount,Pb,1300,tonelada métrica
-75,0,recurso,grade,Ag,297.98,g/t
-75,1,recurso,grade,Pb,13.63,%
-75,2,recurso,grade,Zn,4.26,%
-92,0,recurso,amount,Ag,45.3,millones de onzas troy
-92,1,recurso,amount,Ag,4.1,millones de onzas troy
-92,0,recurso,grade,Pb,9,%
-92,1,recurso,grade,Ag,2000,g/t
-92,2,recurso,grade,Zn,1.93,%
-92,3,recurso,grade,Sb,6.74,%
-92,4,recurso,grade,Ag,482,g/t promedio
-92,5,recurso,grade,Ag,250,g/t
-92,6,recurso,grade,Ag,417,g/t
-92,7,recurso,grade,Ag,250,g/t
-93,0,recurso,amount,Ag,45.3,millones de onzas troy
-93,1,recurso,amount,Ag,4.1,millones de onzas troy
-93,0,recurso,grade,Ag,482,g/t promedio
-93,1,recurso,grade,Ag,250,g/t
-93,2,recurso,grade,Ag,417,g/t
-93,3,recurso,grade,Ag,250,g/t
-94,0,recurso,amount,Ag,45.3,millones de onzas troy
-94,1,recurso,amount,Ag,4.1,millones de onzas troy
-94,0,recurso,grade,Ag,482,g/t promedio
-94,1,recurso,grade,Ag,250,g/t
-94,2,recurso,grade,Ag,417,g/t
-94,3,recurso,grade,Ag,250,g/t
-95,0,recurso,amount,Ag,45.3,millones de onzas troy
-95,1,recurso,amount,Ag,4.1,millones de onzas troy
-95,0,recurso,grade,Ag,482,g/t promedio
-95,1,recurso,grade,Ag,250,g/t
-95,2,recurso,grade,Ag,417,g/t
-95,3,recurso,grade,Ag,250,g/t
-96,0,recurso,amount,Ag,45.3,millones de onzas troy
-96,1,recurso,amount,Ag,4.1,millones de onzas troy
-96,0,recurso,grade,Ag,482,g/t promedio
-96,1,recurso,grade,Ag,250,g/t
-96,2,recurso,grade,Ag,417,g/t
-96,3,recurso,grade,Ag,250,g/t
-98,0,recurso,amount,Ag,45.3,millones de onzas troy
-98,1,recurso,amount,Ag,4.1,millones de onzas troy
-98,0,recurso,grade,Ag,482,g/t promedio
-98,1,recurso,grade,Ag,250,g/t
-98,2,recurso,grade,Ag,417,g/t
-98,3,recurso,grade,Ag,250,g/t
-101,0,recurso,grade,Pb,11,%
-101,1,recurso,grade,Ag,190,g/t
-111,0,produccion,grade,Ag,1760,g/t
-111,0,recurso,amount,Pb,4.94,millones de libras
-111,1,recurso,amount,Ag,0.63,millones de onzas troy
-111,2,recurso,amount,Zn,1.11,millones de libras
-111,3,recurso,amount,Cu,0.53,millones de libras
-111,0,recurso,grade,Pb,5.59,%
-111,1,recurso,grade,Ag,490,g/t
-111,2,recurso,grade,Cu,0.6,%
-111,3,recurso,grade,Zn,1.26,%
-121,0,recurso,grade,Pb,8,%
-121,1,recurso,grade,Zn,1.5,%
-121,2,recurso,grade,Ag,150,g/t
-170,0,recurso,grade,Sn,200,g/t
-171,0,produccion,grade,Au,2.47,g/t promedio
-171,1,produccion,grade,Ag,66.85,g/t promedio
-171,0,recurso,amount,Au,6.3,tonelada métrica
-171,1,recurso,amount,Ag,135,tonelada métrica
-171,0,recurso,grade,Au,3.5,g/t
-171,1,recurso,grade,Ag,100,g/t
-171,2,recurso,grade,Au,2.5,g/t promedio
-171,3,recurso,grade,Ag,72.3,g/t promedio
-173,0,recurso,grade,Au,0.34,g/t
-173,1,recurso,grade,Ag,21.62,g/t
-181,0,recurso,grade,Pb,2.05,%
-181,1,recurso,grade,Zn,1.54,%
-181,2,recurso,grade,Ag,44.7,g/t
-196,0,recurso,grade,Pb,1.8,%
-196,1,recurso,grade,Ag,250,g/t
-203,0,produccion,grade,Sb,55,%
-203,0,recurso,grade,Sb,1.47,%
-203,1,recurso,grade,Au,0.7,g/t
-219,0,recurso,amount,Pb,0.77,millones de libras
-219,1,recurso,amount,Zn,0.33,millones de libras
-219,2,recurso,amount,Ag,6200,onza troy
-219,0,recurso,grade,Pb,9.18,%
-219,1,recurso,grade,Zn,4.3,%
-219,2,recurso,grade,Ag,53.5,g/t
-235,0,recurso,grade,Pb,8.3,%
-235,1,recurso,grade,Zn,18.8,%
-235,2,recurso,grade,Ag,91,g/t
-243,0,recurso,grade,Ag,542,g/t
-243,1,recurso,grade,Pb,3.14,%
-243,2,recurso,grade,Zn,0.1,%
-243,3,recurso,grade,Au,9.4,g/t
-284,0,recurso,grade,Ag,248,g/t
-284,1,recurso,grade,Pb,1.68,%
-284,2,recurso,grade,Zn,1.74,g/t
-323,0,recurso,grade,Au,15,g/t (máximo)
-323,1,recurso,grade,Ag,140,g/t (máximo)
-324,0,recurso,grade,Au,1.01,g/t
-324,1,recurso,grade,Ag,11,g/t
-326,0,recurso,grade,Au,11.5,g/t
-326,1,recurso,grade,Ag,57.5,g/t
-327,0,recurso,grade,Au,8.87,g/t
-329,0,produccion,grade,Ag,69.5,g/t
-329,1,produccion,grade,Ag,139,g/t
-329,0,recurso,grade,Au,8.5,g/t promedio
-329,1,recurso,grade,Ag,69.5,g/t promedio
-330,0,recurso,grade,Au,4,"g/t (máximo, en vetas)"
-330,1,recurso,grade,Ag,100,g/t
-334,0,recurso,amount,Au,6.9,millones de onzas troy
-334,0,recurso,grade,Au,1.41,g/t
-334,1,recurso,grade,Ag,49.7,g/t
-334,2,recurso,grade,Au,1.41,g/t
-339,0,recurso,amount,Au,8.7,millones de onzas troy
-339,1,recurso,amount,Ag,157,millones de onzas troy
-339,0,recurso,grade,Au,0.77,g/t
-339,1,recurso,grade,Ag,14.36,g/t
-342,0,recurso,grade,Pb,3,%
-342,1,recurso,grade,Ag,553,g/t
-342,2,recurso,grade,Zn,2,%
-352,0,recurso,grade,Pb,9.4,%
-352,1,recurso,grade,Ag,507,g/t
-352,2,recurso,grade,Au,1.24,g/t
-353,0,recurso,grade,Pb,2.76,%
-353,1,recurso,grade,Ag,397,g/t
-353,2,recurso,grade,Zn,0.69,%
-355,0,produccion,grade,Pb,7.4,%
-355,1,produccion,grade,Zn,7.5,%
-355,2,produccion,grade,Ag,72,g/t
-355,0,recurso,grade,Pb,7.4,%
-355,1,recurso,grade,Zn,7.5,%
-355,2,recurso,grade,Cu,0.15,%
-355,3,recurso,grade,Ag,75,g/t
-357,0,recurso,grade,Pb,6.7,%
-357,1,recurso,grade,Ag,114,g/t
-358,0,produccion,grade,Pb,14,%
-358,1,produccion,grade,Zn,17.9,%
-358,2,produccion,grade,Ag,310,g/t
-358,0,recurso,grade,Pb,6.18,%
-358,1,recurso,grade,Zn,6.09,%
-358,2,recurso,grade,Ag,125,g/t
-359,0,recurso,grade,Pb,4,%
-359,1,recurso,grade,Zn,4,%
-359,2,recurso,grade,Ag,100,g/t
-361,0,recurso,grade,Pb,6.71,%
-361,1,recurso,grade,Ag,123.1,g/t
-363,0,recurso,grade,Pb,6.4,%
-363,1,recurso,grade,Zn,2,%
-363,2,recurso,grade,Ag,200,g/t
-365,0,recurso,grade,Pb,35.6,%
-365,1,recurso,grade,Ag,310,g/t
-365,2,recurso,grade,Zn,12.3,%
-365,3,recurso,grade,Cu,6.15,%
-366,0,recurso,amount,Ag,1175,kilogramo
-366,0,recurso,grade,Ag,120,g/t
-366,1,recurso,grade,Pb,5,%
-366,2,recurso,grade,Zn,0.2,%
-366,3,recurso,grade,Cu,0.8,%
-368,0,recurso,grade,Pb,12,%
-368,1,recurso,grade,Ag,300,g/t (máximo)
-369,0,recurso,grade,Pb,3.77,%
-369,1,recurso,grade,Zn,0.41,%
-369,2,recurso,grade,Ag,130,g/t
-369,3,recurso,grade,Au,1.28,g/t
-371,0,recurso,grade,Pb,1.84,%
-371,1,recurso,grade,Zn,2.51,%
-371,2,recurso,grade,Ag,83,g/t
-371,3,recurso,grade,Au,4.51,g/t
-371,4,recurso,grade,Cu,0.08,%
-372,0,produccion,grade,Pb,57.65,%
-372,1,produccion,grade,Ag,2,kilogramos finos
-372,2,produccion,grade,Zn,3,%
-372,0,recurso,grade,Pb,19.18,%
-372,1,recurso,grade,Ag,936.8,g/t
-372,2,recurso,grade,Zn,6.7,%
-372,3,recurso,grade,Cu,0.87,%
-372,4,recurso,grade,As,1.5,%
-373,0,recurso,grade,Pb,12,%
-373,1,recurso,grade,Ag,250,g/t
-373,2,recurso,grade,Zn,10,%
-373,3,recurso,grade,Au,2,g/t
-374,0,recurso,grade,Pb,3.65,%
-374,1,recurso,grade,Zn,5,%
-374,2,recurso,grade,Ag,80,g/t
-374,3,recurso,grade,Cu,3.2,%
-375,0,recurso,grade,Pb,0.83,%
-375,1,recurso,grade,Zn,19,%
-375,2,recurso,grade,Ag,123,g/t
-375,3,recurso,grade,Au,5,g/t
-376,0,recurso,grade,Pb,0.9,%
-376,1,recurso,grade,Zn,16.2,%
-376,2,recurso,grade,Ag,88,g/t
-380,0,recurso,grade,Pb,12.3,%
-380,1,recurso,grade,Zn,7.6,%
-380,2,recurso,grade,Ag,221,g/t
-381,0,recurso,grade,Au,4,g/t (máximo)
-381,1,recurso,grade,Ag,690,g/t
-381,2,recurso,grade,Pb,1,%
-386,0,recurso,grade,Pb,0.52,%
-386,1,recurso,grade,Ag,150,g/t
-386,2,recurso,grade,Zn,1.13,%
-387,0,recurso,grade,Pb,0.83,%
-387,1,recurso,grade,Zn,19.3,%
-387,2,recurso,grade,Ag,123,g/t
-398,0,recurso,amount,Ag,1280,onza troy
-398,0,recurso,grade,Ag,50,g/t
-398,1,recurso,grade,Au,4,g/t
-399,0,recurso,grade,Ag,250,g/t
-399,1,recurso,grade,Au,2,g/t
-400,0,recurso,amount,Ag,80000,onza troy
-400,0,recurso,grade,Ag,400,g/t
-400,1,recurso,grade,Au,0.35,g/t
-401,0,recurso,amount,Pb,4.95,millones de libras
-401,1,recurso,amount,Zn,1.98,millones de libras
-401,2,recurso,amount,Ag,144230,onza troy
-401,0,recurso,grade,Pb,5,%
-401,1,recurso,grade,Zn,2,%
-401,2,recurso,grade,Ag,100,g/t
-402,0,recurso,grade,Ag,50,g/t
-402,1,recurso,grade,Au,3.5,g/t
-418,0,recurso,grade,Pb,13.57,%
-418,1,recurso,grade,Zn,8.97,%
-418,2,recurso,grade,Ag,35.65,g/t
-419,0,recurso,amount,Pb,16.28,millones de libras
-419,1,recurso,amount,Zn,352000,libras
-419,2,recurso,amount,Ag,450000,onza troy
-419,0,recurso,grade,Pb,18.5,%
-419,1,recurso,grade,Zn,0.4,%
-419,2,recurso,grade,Ag,350,g/t
-420,0,recurso,amount,Pb,0.943,millones de libras
-420,1,recurso,amount,Zn,1.18,millones de libras
-420,2,recurso,amount,Ag,42500,onza troy
-420,0,recurso,grade,Pb,0.64,%
-420,1,recurso,grade,Zn,0.8,%
-420,2,recurso,grade,Ag,19.8,g/t
-425,0,recurso,grade,Pb,3.17,%
-432,0,recurso,grade,Ag,300,g/t
-432,1,recurso,grade,Au,0.7,g/t
-444,0,recurso,amount,Pb,64.8,millones de libras
-444,1,recurso,amount,Zn,32.4,millones de libras
-444,2,recurso,amount,Ag,2.07,millones de onzas troy
-444,0,recurso,grade,Pb,20,%
-444,1,recurso,grade,Zn,10,%
-444,2,recurso,grade,Ag,438,g/t
-445,0,recurso,amount,Pb,313.04,millones de libras
-445,1,recurso,amount,Zn,294.6,millones de libras
-445,2,recurso,amount,Ag,10.5,millones de onzas troy
-445,0,recurso,grade,Pb,8.5,%
-445,1,recurso,grade,Zn,8,%
-445,2,recurso,grade,Ag,196,g/t
-448,0,recurso,grade,Pb,2.9,%
-448,1,recurso,grade,Zn,5.3,%
-448,2,recurso,grade,Ag,662,g/t
-469,0,recurso,grade,Pb,4,%
-469,1,recurso,grade,Zn,7.4,%
-469,2,recurso,grade,Ag,115,g/t
-475,0,recurso,grade,Pb,8,%
-475,1,recurso,grade,Au,4,g/t
-485,0,recurso,grade,Pb,6.8,%
-485,1,recurso,grade,Zn,8.4,%
-486,0,produccion,grade,Pb,34.12,%
-486,1,produccion,grade,Zn,10.6,%
-486,2,produccion,grade,Ag,556,g/t
-486,0,recurso,grade,Pb,25,%
-486,1,recurso,grade,Zn,10,%
-486,2,recurso,grade,Ag,300,g/t
-492,0,recurso,grade,Au,15.64,g/t
-494,0,recurso,grade,Pb,25,%
-494,1,recurso,grade,Ag,930,g/t
-494,2,recurso,grade,Zn,2.5,%
-495,0,recurso,grade,Pb,25,%
-495,1,recurso,grade,Ag,930,g/t
-495,2,recurso,grade,Zn,2.5,%
-496,0,recurso,grade,Pb,25,%
-496,1,recurso,grade,Ag,930,g/t
-496,2,recurso,grade,Zn,2.5,%
-497,0,recurso,grade,Pb,25,%
-497,1,recurso,grade,Ag,930,g/t
-497,2,recurso,grade,Zn,2.5,%
-498,0,recurso,grade,Pb,25,%
-498,1,recurso,grade,Ag,930,g/t
-498,2,recurso,grade,Zn,2.5,%
-500,0,recurso,grade,Pb,5.2,%
-500,1,recurso,grade,Ag,115,g/t
-503,0,recurso,grade,Pb,8.35,%
-503,1,recurso,grade,Ag,320,g/t
-506,0,recurso,grade,Pb,11,%
-506,1,recurso,grade,Ag,350,g/t
-515,0,recurso,grade,Pb,23.4,%
-515,1,recurso,grade,Ag,450,g/t
-527,0,recurso,grade,Pb,38,%
-527,1,recurso,grade,Zn,1.2,%
-527,2,recurso,grade,Ag,437,g/t
-530,0,recurso,grade,Au,5,g/t
-532,0,recurso,grade,Au,6.11,g/t
-536,0,recurso,grade,Au,8.48,g/t
-550,0,recurso,grade,Au,3.1,g/t
-550,1,recurso,grade,Ag,279,g/t
-572,0,recurso,grade,Ag,331,g/t
-579,0,recurso,amount,Au,4.4,tonelada métrica
-579,1,recurso,amount,Ag,22,tonelada métrica
-579,0,recurso,grade,Au,1,g/t
-579,1,recurso,grade,Ag,5,g/t
-580,0,recurso,grade,Au,1.85,g/t
-580,1,recurso,grade,Ag,68.63,g/t
-584,0,recurso,grade,Ag,133,g/t
-584,1,recurso,grade,Au,6.2,g/t
-585,0,recurso,grade,Au,2.32,g/t
-585,1,recurso,grade,Ag,209,g/t
-587,0,recurso,amount,Ag,1620,tonelada métrica
-587,1,recurso,amount,Au,135,tonelada métrica
-587,0,recurso,grade,Ag,120,g/t
-587,1,recurso,grade,Au,10,g/t
-2010,0,recurso,grade,Fe,40,%
-2010,1,recurso,grade,Fe,46,%
-2012,0,recurso,grade,Fe,30,%
-2012,1,recurso,grade,Fe,38,%
-2013,0,recurso,amount,Fe,38.18,millones de toneladas métricas
-2013,0,recurso,grade,Fe,44.21,%
-2013,1,recurso,grade,Fe,41.5,%
-2014,0,recurso,grade,Fe,21.6,%
-2014,1,recurso,grade,Fe,36.4,%
-2025,0,produccion,amount,Mn,7500,tonelada métrica
-2025,0,produccion,grade,Mn,25,%
-2047,0,recurso,grade,Fe,35.6,%
-2049,0,recurso,grade,Fe,46.28,%
-2051,0,recurso,grade,Fe,32.2,%
-2051,1,recurso,grade,Fe,40.9,%
-2055,0,recurso,grade,Mn,32,%
-2056,0,produccion,grade,Mn,25,% (máximo)
-2056,0,recurso,amount,Mn,8000,tonelada métrica
-2056,0,recurso,grade,Mn,20,%
-2062,0,recurso,grade,Mn,9.7,%
-2075,0,produccion,grade,Mn,16,%
-2075,1,produccion,grade,Mn,35,%
-2077,0,recurso,grade,Mn,9.7,%
-2077,1,recurso,grade,Mn,31.6,%
-2082,0,recurso,grade,Mn,26,%
-2089,0,recurso,grade,Mn,37,% (máximo)
-2091,0,recurso,grade,Mn,2.32,%
-2091,1,recurso,grade,Mn,11.68,%
-2092,0,recurso,grade,Mn,11.3,%
-2094,0,recurso,grade,Mn,14.66,%
-2094,1,recurso,grade,Mn,19.6,%
-2095,0,produccion,grade,Mn,40,%
-2095,0,recurso,grade,Mn,33.63,% (máximo)
-2095,1,recurso,grade,Mn,11.91,%
-2096,0,produccion,grade,Mn,40,%
-2096,0,recurso,grade,Mn,46.2,%
-2097,0,produccion,grade,Fe,55,% (máximo)
-2097,0,recurso,grade,Fe,36.9,% (máximo)
-2097,1,recurso,grade,Mn,32.61,% (máximo)
-2098,0,recurso,grade,Fe,28.81,% (máximo)
-2098,1,recurso,grade,Mn,25.31,% (máximo)
-2099,0,recurso,grade,Mn,34.21,% (máximo)
-2099,1,recurso,grade,Fe,7.51,% (máximo)
-2100,0,recurso,grade,Mn,37.36,% (máximo)
-2100,1,recurso,grade,Fe,24.21,% (máximo)
-2106,0,produccion,grade,Mn,40,%
-2106,0,recurso,grade,Mn,17.7,%
-2107,0,produccion,grade,Mn,40,% (máximo)
-2112,0,produccion,grade,Mn,40,%
-2112,0,recurso,grade,Mn,23.15,%
-2114,0,produccion,grade,Mn,47,% (máximo)
-2114,0,recurso,grade,Mn,25.35,%
-2114,1,recurso,grade,Fe,2.91,%
-2121,0,recurso,amount,Fe,124.41,tonelada métrica
-2123,0,produccion,grade,Fe,42,% (máximo)
-2124,0,produccion,grade,Fe,55,% (máximo)
-2125,0,recurso,grade,Mn,20,%
-2130,0,recurso,amount,Fe,14000,tonelada métrica
-2130,0,recurso,grade,Fe,35,%
-2138,0,recurso,grade,Mn,26,%
-2145,0,recurso,grade,Fe,60.14,%
-2149,0,recurso,amount,Fe,25700,tonelada métrica
-2149,0,recurso,grade,Fe,64.4,% (máximo)
-2157,0,recurso,amount,Fe,18986.4,tonelada métrica
-2157,0,recurso,grade,Fe,60,%
-2161,0,produccion,grade,Mn,40,% (máximo)
-2175,0,produccion,grade,Fe,50,% (máximo)
-2175,0,recurso,grade,Fe,60,%
-2181,0,produccion,grade,Fe,42.8,%
-2181,1,produccion,grade,Fe,52.4,%
-2193,0,produccion,grade,Mn,20,%
-2201,0,produccion,grade,Fe,68,% (máximo)
-2201,0,recurso,grade,Fe,58.5,% (máximo)
-2203,0,recurso,grade,Fe,57.4,%
-2216,0,recurso,grade,Fe,57.3,%
-2216,1,recurso,grade,TiO2,14.5,%
-2218,0,recurso,grade,Fe,35,%
-2219,0,recurso,grade,Fe,34.9,%
-2220,0,recurso,grade,Fe,35.4,%
-2221,0,recurso,grade,Fe,28,%
-3005,0,produccion,grade,Ag,20.3,g/t promedio
-3005,0,recurso,grade,Cu,12.71,%
-3005,1,recurso,grade,Ag,275.8,g/t
-3006,0,recurso,grade,Cu,10,% media
-3008,0,recurso,grade,Cu,1.3,% (máximo)
-3010,0,recurso,amount,Cu,37,tonelada métrica
-3010,1,recurso,amount,Ni,20.25,tonelada métrica
-3010,2,recurso,amount,Ag,1.8,tonelada métrica
-3010,0,recurso,grade,Cu,4,% (mínimo)
-3010,1,recurso,grade,Pb,7,% (máximo)
-3010,2,recurso,grade,Ni,0.3,% (máximo)
-3010,3,recurso,grade,Ag,270,g/t (máximo)
-3010,4,recurso,grade,Cu,5.5,%
-3010,5,recurso,grade,Ni,0.3,%
-3010,6,recurso,grade,Ag,270,g/t
-3012,0,recurso,grade,Cu,7.82,%
-3013,0,recurso,grade,Cu,0.29,%
-3013,1,recurso,grade,Cu,0.86,%
-3016,0,recurso,grade,Cu,14,% (máximo)
-3018,0,recurso,grade,Cu,13.66,% media
-3019,0,recurso,grade,Cu,2.9,% media
-3020,0,recurso,grade,Cu,14,% (máximo; una muestra)
-3020,1,recurso,grade,Ag,0.31,g/t (máximo)
-3028,0,recurso,grade,Cu,6.5,% (máximo)
-3033,0,recurso,amount,Cu,964000,tonelada métrica
-3033,0,recurso,grade,Cu,2.41,%
-3040,0,recurso,amount,Cu,62500,tonelada métrica
-3040,1,recurso,amount,Pb,62500,tonelada métrica
-3040,2,recurso,amount,Zn,12500,tonelada métrica
-3040,0,recurso,grade,Fe,50,% (máximo)
-3040,1,recurso,grade,S,30,% (máximo)
-3040,2,recurso,grade,Cu,0.5,%
-3040,3,recurso,grade,Zn,1,% (máximo)
-3040,4,recurso,grade,Pb,1,% (máximo)
-3040,5,recurso,grade,Ag,10,g/t (máximo)
-3042,0,recurso,grade,Cu,4.7,%
-3042,1,recurso,grade,Au,0.6,g/t
-3042,2,recurso,grade,Ag,62,g/t
-3042,3,recurso,grade,Cu,2,%
-3042,4,recurso,grade,Ag,5,g/t
-3044,0,recurso,grade,Cu,2,%
-3044,1,recurso,grade,Au,0.2,g/t
-3044,2,recurso,grade,Ag,22,g/t
-3053,0,recurso,grade,Cu,0.096,% (máximo)
-3053,1,recurso,grade,Pb,0.66,% (máximo)
-3053,2,recurso,grade,Zn,0.026,% (máximo)
-3053,3,recurso,grade,Ag,3,g/t (máximo)
-3054,0,recurso,grade,Ag,1,g/t
-3055,0,recurso,grade,Cu,60,%
-3057,0,recurso,grade,Ag,1572,g/t (máximo)
-3057,1,recurso,grade,Cu,18.68,% (máximo)
-3060,0,recurso,amount,Cu,2.52,millones de toneladas métricas
-3060,1,recurso,amount,Au,79,kilogramo
-3060,2,recurso,amount,Mo,88000,tonelada métrica
-3060,3,recurso,amount,Cu,4.2,millones de toneladas métricas
-3060,4,recurso,amount,Au,1.8,millones de onzas troy
-3060,5,recurso,amount,Mo,63090,tonelada métrica
-3060,6,recurso,amount,Cu,0.396,millones de toneladas métricas
-3060,7,recurso,amount,Au,0.17,millones de onzas troy
-3060,8,recurso,amount,Mo,4500,tonelada métrica
-3060,0,recurso,grade,Cu,0.58,%
-3060,1,recurso,grade,Au,0.18,g/t
-3060,2,recurso,grade,Mo,0.02,%
-3060,3,recurso,grade,Cu,0.6,%
-3060,4,recurso,grade,Au,0.08,g/t
-3060,5,recurso,grade,Mo,0.009,%
-3060,6,recurso,grade,Cu,0.37,%
-3060,7,recurso,grade,Au,0.08,g/t
-3060,8,recurso,grade,Mo,0.015,%
-3060,9,recurso,grade,Au,0.27,g/t
-3060,10,recurso,grade,Cu,0.04,%
-3060,11,recurso,grade,Mo,0.018,%
-3060,12,recurso,grade,Au,0.2,g/t
-3060,13,recurso,grade,Cu,0.44,%
-3060,14,recurso,grade,Au,0.06,g/t
-3060,15,recurso,grade,Mo,0.005,%
-3060,16,recurso,grade,Cu,0.37,%
-3060,17,recurso,grade,Au,0.05,g/t
-3060,18,recurso,grade,Mo,0.012,%
-3060,19,recurso,grade,Au,0.23,g/t
-3060,20,recurso,grade,Cu,0.11,%
-3060,21,recurso,grade,Mo,0.008,%
-3060,22,recurso,grade,Au,0.2,g/t
-3061,0,recurso,amount,Cu,55100,tonelada métrica
-3061,1,recurso,amount,Au,570,kilogramo
-3061,2,recurso,amount,Mo,15200,tonelada métrica
-3061,0,recurso,grade,Cu,0.29,%
-3061,1,recurso,grade,Au,0.03,g/t
-3061,2,recurso,grade,Mo,0.08,%
-3062,0,recurso,amount,Cu,5209.5,millones de libras
-3062,1,recurso,amount,Ag,356.5,millones de onzas troy
-3062,2,recurso,amount,Ag,2208000,millones de toneladas métricas
-3062,3,recurso,amount,Cu,95450,tonelada métrica
-3062,4,recurso,amount,Cu,395,tonelada métrica
-3062,5,recurso,amount,Ag,906,kilogramo
-3062,0,recurso,grade,Cu,0.83,%
-3062,1,recurso,grade,Ag,19.2,g/t
-3062,2,recurso,grade,Cu,0.3,% (mínimo)
-3062,3,recurso,grade,Cu,0.83,%
-3062,4,recurso,grade,Ag,19.2,g/t
-3062,5,recurso,grade,Cu,0.3,porcentaje
-3062,6,recurso,grade,Cu,0.83,%
-3062,7,recurso,grade,Ag,19.2,g/t
-3064,0,recurso,grade,Ni,1.65,% media máximo
-3064,1,recurso,grade,Pb,30,% (máximo)
-3064,2,recurso,grade,Zn,21,% (máximo)
-3064,3,recurso,grade,Co,1.76,% (máximo)
-3064,4,recurso,grade,As,31.46,% (máximo)
-3069,0,recurso,grade,Cu,6.5,% (máximo)
-3069,1,recurso,grade,Ag,200,g/t
-3070,0,recurso,grade,Cu,6.5,% (máximo)
-3079,0,recurso,grade,Cu,6,% (máximo)
-3080,0,recurso,grade,Cu,0.4,%
-3083,0,recurso,grade,Cu,0.36,% media
-3083,1,recurso,grade,Au,0.73,g/t promedio
-3084,0,recurso,amount,Au,0.63,millones de onzas troy
-3084,1,recurso,amount,Cu,29590,tonelada métrica
-3084,2,recurso,amount,Au,1.26,millones de onzas troy
-3084,3,recurso,amount,Cu,77100,tonelada métrica
-3084,4,recurso,amount,Au,1.88,millones de toneladas métricas
-3084,5,recurso,amount,Cu,104000,tonelada métrica
-3084,0,recurso,grade,Au,0.73,g/t promedio
-3084,1,recurso,grade,Cu,0.11,% promedio
-3084,2,recurso,grade,Au,0.2,g/t
-3084,3,recurso,grade,Au,0.74,g/t
-3084,4,recurso,grade,Cu,0.11,g/t promedio
-3084,5,recurso,grade,Au,0.51,g/t promedio
-3084,6,recurso,grade,Cu,0.1,% promedio
-3084,7,recurso,grade,Au,0.2,g/t
-3084,8,recurso,grade,Au,0.57,g/t promedio
-3084,9,recurso,grade,Cu,0.11,% promedio
-3084,10,recurso,grade,Au,0.56,g/t promedio
-3084,11,recurso,grade,Cu,0.1,% promedio
-3084,12,recurso,grade,Au,0.2,g/t
-3085,0,produccion,grade,Au,4,g/t promedio
-3085,0,recurso,grade,Au,2,g/t
-3085,1,recurso,grade,Bi,0.09,%
-3087,0,recurso,grade,Cu,1,% (máximo)
-3090,0,recurso,grade,Cu,0.7,%
-3091,0,recurso,grade,Cu,6,%
-3091,1,recurso,grade,Fe,30,% (máximo)
-3092,0,recurso,grade,Cu,7.5,%
-3092,1,recurso,grade,Pb,0.1,%
-3096,0,recurso,amount,Au,2.99,millones de onzas troy
-3096,1,recurso,amount,Ag,263,millones de onzas troy
-3096,2,recurso,amount,Au,21,tonelada métrica
-3096,3,recurso,amount,Ag,3300,tonelada métrica
-3096,0,recurso,grade,Ag,29,g/t
-3096,1,recurso,grade,Au,0.33,g/t
-3096,2,recurso,grade,Au,0.42,g/t
-3096,3,recurso,grade,Ag,68.3,g/t
-3114,0,recurso,grade,Cu,0.57,%
-3114,1,recurso,grade,Au,0.2,g/t promedio
-3114,2,recurso,grade,Mo,0.043,%
-3114,3,recurso,grade,Cu,0.4,porcentaje
-3115,0,produccion,amount,Au,5.16,tonelada métrica
-3115,1,produccion,amount,Mo,11636,tonelada métrica
-3115,0,recurso,amount,Cu,3.84,millones de toneladas métricas
-3115,1,recurso,amount,Au,490,tonelada métrica
-3115,2,recurso,amount,Mo,52000,tonelada métrica
-3115,0,recurso,grade,Cu,0.51,%
-3115,1,recurso,grade,Au,0.64,g/t
-3115,2,recurso,grade,Mo,0.007,%
-3115,3,recurso,grade,Cu,0.35,%
-3115,4,recurso,grade,Au,0.35,g/t
-3115,5,recurso,grade,Mo,0.012,%
-3118,0,recurso,amount,Au,1,tonelada métrica
-3118,1,recurso,amount,Ag,43,tonelada métrica
-3118,2,recurso,amount,Cu,9700,tonelada métrica
-3118,0,recurso,grade,Au,2.6,g/t
-3118,1,recurso,grade,Ag,108,g/t
-3118,2,recurso,grade,Cu,2.3,%
-3122,0,recurso,grade,Mo,0.02,%
-3122,1,recurso,grade,Cu,0.25,%
-3122,2,recurso,grade,Au,0.02,g/t
-3123,0,recurso,grade,Cu,1,% media
-3123,1,recurso,grade,Pb,0.95,% media
-3123,2,recurso,grade,Zn,0.17,% media
-3129,0,recurso,grade,Cu,13,% (máximo)
-3131,0,recurso,grade,Cu,4.3,% (máximo)
-3131,1,recurso,grade,Pb,5.3,% (máximo)
-3132,0,recurso,grade,Cu,2,%
-3135,0,recurso,grade,Ag,11,g/t (máximo)
-3135,1,recurso,grade,Au,5,g/t (máximo)
-3136,0,recurso,grade,Cu,1.69,%
-3136,1,recurso,grade,Zn,0.12,%
-3137,0,recurso,grade,Cu,1.1,% (máximo)
-3137,1,recurso,grade,Zn,0.1,%
-3138,0,recurso,grade,Cu,17.55,% (máximo)
-3139,0,recurso,amount,Cu,0.95,millones de libras
-3139,1,recurso,amount,Ag,75800,onza troy
-3139,0,recurso,grade,Cu,7.1,%
-3139,1,recurso,grade,Ag,390,g/t
-3139,2,recurso,grade,Pb,0.74,%
-3139,3,recurso,grade,Zn,0.17,%
-3142,0,recurso,grade,Cu,6.12,% (máximo)
-3143,0,recurso,amount,Cu,0.78,millones de libras
-3143,1,recurso,amount,Ag,48000,onza troy
-3143,0,recurso,grade,Cu,3.58,% (máximo)
-3143,1,recurso,grade,Ag,150,g/t
-3146,0,recurso,grade,Cu,1.72,%
-3146,1,recurso,grade,Au,4.7,g/t
-3147,0,recurso,grade,Cu,2.83,% (máximo)
-3147,1,recurso,grade,Au,0.5,g/t (máximo)
-3147,2,recurso,grade,Ag,39,g/t (máximo)
-3148,0,recurso,grade,Cu,5,% (máximo)
-3149,0,recurso,grade,Cu,0.88,%
-3149,1,recurso,grade,Au,4.8,g/t
-3149,2,recurso,grade,Ag,58.9,g/t
-3150,0,recurso,grade,Cu,5.6,% (máximo)
-3152,0,recurso,grade,Cu,3.1,% (máximo)
-3152,1,recurso,grade,Au,2.1,g/t (máximo)
-3152,2,recurso,grade,Ag,103.9,g/t (máximo)
-3154,0,recurso,grade,Cu,3.8,% (máximo)
-3154,1,recurso,grade,Pb,53.5,% (máximo)
-3154,2,recurso,grade,Au,25,g/t (máximo)
-3154,3,recurso,grade,Ag,735,g/t (máximo)
-3156,0,recurso,grade,Cu,3,% (máximo)
-3156,1,recurso,grade,Ag,100,g/t
-3158,0,recurso,amount,Cu,9.4,billones de libras
-3158,1,recurso,amount,Au,9.9,millones de onzas troy
-3158,2,recurso,amount,Cu,2.143,millones de toneladas métricas
-3158,3,recurso,amount,Au,5.2,millones de onzas troy
-3158,4,recurso,amount,Ag,25,millones de onzas troy
-3158,5,recurso,amount,Cu,2.436,millones de toneladas métricas
-3158,6,recurso,amount,Au,4.5,millones de onzas troy
-3158,7,recurso,amount,Ag,33,millones de onzas troy
-3158,8,recurso,amount,Cu,1.515,millones de toneladas métricas
-3158,9,recurso,amount,Au,2.5,millones de onzas troy
-3158,10,recurso,amount,Ag,22,millones de onzas troy
-3158,0,recurso,grade,Cu,0.31,%
-3158,1,recurso,grade,Au,0.22,g/t
-3158,2,recurso,grade,Cu,0.25,%
-3158,3,recurso,grade,Cu,0.33,%
-3158,4,recurso,grade,Au,0.25,g/t
-3158,5,recurso,grade,Ag,1.2,g/t
-3158,6,recurso,grade,Cu,0.25,%
-3158,7,recurso,grade,Au,0.15,g/t
-3158,8,recurso,grade,Ag,1.1,g/t
-3158,9,recurso,grade,Cu,0.22,%
-3158,10,recurso,grade,Au,0.11,g/t
-3158,11,recurso,grade,Ag,1,g/t
-3159,0,recurso,grade,Cu,7.23,% media
-3160,0,recurso,grade,Cu,2.5,%
-3160,1,recurso,grade,Fe,4,%
-3161,0,recurso,grade,Cu,5.9,% media
-3161,1,recurso,grade,Fe,9.1,% media
-3162,0,recurso,grade,Cu,0.17,% (máximo)
-3162,1,recurso,grade,Mo,0.0604,% (máximo)
-3163,0,recurso,grade,Cu,0.4,% (máximo)
-3163,1,recurso,grade,Mo,0.056,% (máximo)
-3164,0,recurso,grade,Cu,4.74,%
-3164,1,recurso,grade,Fe,14.2,%
-3165,0,recurso,grade,Cu,2,% media
-3166,0,produccion,grade,Cu,8,% media
-3166,0,recurso,amount,Cu,24.2,millones de libras
-3166,0,recurso,grade,Ni,0.51,% media
-3166,1,recurso,grade,Cu,0.5,% media
-3166,2,recurso,grade,Co,0.035,% media
-3166,3,recurso,grade,Pt,2,g/t (máximo)
-3166,4,recurso,grade,Pd,0.75,g/t (máximo)
-3168,0,recurso,grade,Cu,3.1,% media
-3168,1,recurso,grade,Au,7.53,g/t promedio
-3168,2,recurso,grade,Ag,193.1,g/t promedio
-3173,0,recurso,grade,Cu,1.4,% (máximo)
-3173,1,recurso,grade,Au,2,g/t (máximo)
-3173,2,recurso,grade,Ag,5,g/t (máximo)
-3174,0,recurso,grade,Cu,0.7,% (máximo)
-3174,1,recurso,grade,Zn,1,% (máximo)
-3174,2,recurso,grade,Mo,0.02,%
-3175,0,recurso,grade,Cu,2.16,% (máximo)
-3175,1,recurso,grade,Au,0.37,g/t (máximo)
-3176,0,recurso,grade,Cu,6.16,% media
-3176,1,recurso,grade,Ag,48.4,g/t
-3176,2,recurso,grade,Au,14.9,g/t (máximo)
-3178,0,recurso,grade,Cu,1.56,%
-3178,1,recurso,grade,Ag,32,g/t
-3179,0,recurso,amount,Cu,0.31,billones de libras
-3179,0,recurso,grade,Cu,0.45,%
-3179,1,recurso,grade,Au,0.07,%
-3179,2,recurso,grade,Cu,0.3,%
-3180,0,recurso,grade,Cu,0.9,% (máximo)
-3182,0,recurso,grade,Au,0.8,g/t (máximo)
-3183,0,recurso,grade,Cu,3.4,% (máximo)
-3184,0,recurso,grade,Cu,2.44,% (máximo)
-3185,0,recurso,grade,Cu,5.84,% (máximo)
-3185,1,recurso,grade,Bi,160,g/t
-3186,0,recurso,grade,Cu,2.44,% (máximo)
-3186,1,recurso,grade,Ag,380,g/t (máximo)
-3186,2,recurso,grade,Bi,2000,ppm (máximo)
-3187,0,recurso,grade,Cu,12.52,% (máximo)
-3187,1,recurso,grade,Zn,1.8,% (máximo)
-3187,2,recurso,grade,Pb,0.7,% (máximo)
-3187,3,recurso,grade,Ag,164,g/t (máximo)
-3187,4,recurso,grade,Au,8,g/t (máximo)
-3189,0,recurso,grade,Cu,17.04,% (máximo)
-3189,1,recurso,grade,Fe,25.04,% (máximo)
-3191,0,recurso,grade,Cu,0.22,%
-3192,0,recurso,grade,Cu,2.7,%
-3192,1,recurso,grade,Pb,2.8,%
-3192,2,recurso,grade,Au,4.5,g/t
-3193,0,produccion,grade,Cu,6,% (máximo)
-3193,1,produccion,grade,Bi,4.5,% (máximo)
-3193,0,recurso,grade,Cu,5,%
-3193,1,recurso,grade,Bi,1.2,%
-3193,2,recurso,grade,Ag,200,g/t
-3193,3,recurso,grade,Au,4,g/t
-3194,0,recurso,grade,Au,6,g/t (máximo)
-3195,0,recurso,grade,Cu,9,% (máximo)
-3196,0,recurso,amount,Cu,19.69,billones de libras
-3196,0,recurso,grade,Cu,0.5,%
-3196,1,recurso,grade,Au,0.07,g/t
-3196,2,recurso,grade,Ag,1.8,g/t
-3197,0,recurso,grade,Cu,11.7,%
-3197,1,recurso,grade,Pb,3.33,%
-3198,0,recurso,grade,Cu,9.15,%
-3199,0,recurso,grade,Cu,6.5,% media
-3200,0,recurso,grade,Cu,0.7,% (mínimo)
-3201,0,recurso,grade,Cu,1.04,% media
-3201,1,recurso,grade,Pb,0.228,% media
-3201,2,recurso,grade,Ag,19.1,g/t promedio
-3202,0,recurso,grade,Cu,5,%
-3202,1,recurso,grade,Ag,190,g/t (máximo)
-3202,2,recurso,grade,Pb,7.1,%
-3202,3,recurso,grade,Zn,2.2,%
-3204,0,recurso,grade,Cu,1.75,% (máximo)
-3204,1,recurso,grade,Mo,566,ppm
-3204,2,recurso,grade,Au,29,g/t
-3204,3,recurso,grade,Ag,254,g/t (máximo)
-3205,0,recurso,grade,Cu,0.3,% (máximo)
-3205,1,recurso,grade,Mo,0.016,% (máximo)
-3206,0,recurso,amount,Cu,34.14,billones de libras
-3206,0,recurso,grade,Cu,0.47,%
-3206,1,recurso,grade,Mo,0.011,%
-3206,2,recurso,grade,Au,0.015,g/t
-3206,3,recurso,grade,Ag,2.243,g/t
-3206,4,recurso,grade,Cu,0.2,%
-3209,0,recurso,grade,Cu,0.271,%
-3209,1,recurso,grade,Mo,0.009,%
-3209,2,recurso,grade,Au,0.09,g/t
-3210,0,recurso,grade,Cu,7,%
-3210,1,recurso,grade,Ag,400,g/t
-3212,0,recurso,grade,Cu,0.58,%
-3213,0,produccion,grade,Cu,5,% media
-3213,0,recurso,grade,Cu,5,%
-3215,0,recurso,amount,Cu,804,millones de libras
-3215,1,recurso,amount,Au,3.45,millones de onzas troy
-3215,0,recurso,grade,Cu,0.85,% (máximo)
-3215,1,recurso,grade,Au,2.5,g/t (máximo)
-3222,0,recurso,grade,Ag,100,g/t
-3242,0,produccion,grade,Cu,46.5,% media
-3242,0,recurso,amount,Cu,3.3,millones de libras
-3242,0,recurso,grade,Cu,1.5,%
-3242,1,recurso,grade,Zn,9.5,% selección
-3242,2,recurso,grade,Au,0.08,g/t selección
-3251,0,produccion,grade,Cu,22,% (máximo)
-3251,0,recurso,grade,Cu,4.27,%
-3251,1,recurso,grade,Ag,30,g/t
-3256,0,recurso,grade,Cu,1,%
-3262,0,recurso,grade,Cu,1.6,%
-3266,0,recurso,grade,Cu,3,%
-3272,0,recurso,grade,Cu,1.75,%
-3277,0,recurso,grade,Cu,4.2,%
-3282,0,recurso,grade,Cu,4.8,%
-3283,0,recurso,grade,Cu,4.8,%
-3284,0,recurso,grade,Cu,5,%
-3284,1,recurso,grade,Ag,1,g/t
-3284,2,recurso,grade,Au,0.5,g/t
-3287,0,recurso,grade,Cu,0.84,%
-3291,0,recurso,grade,Cu,6.4,%
-3291,1,recurso,grade,Zn,4.3,%
-3291,2,recurso,grade,Ni,0.2,%
-3291,3,recurso,grade,Co,0.05,%
-3291,4,recurso,grade,Ag,12,g/t
-3291,5,recurso,grade,Au,0.51,g/t
-3292,0,recurso,grade,Cu,6,%
-3293,0,recurso,grade,Cu,3.1,%
-3302,0,recurso,amount,Cu,3.96,millones de libras
-3302,0,recurso,grade,Cu,3,%
-3304,0,produccion,grade,Cu,10,% media
-3304,0,recurso,amount,Cu,7.29,millones de libras
-3304,0,recurso,grade,Cu,1.29,% media
-3319,0,produccion,grade,Cu,12,% media máximo
-3319,0,recurso,grade,Cu,1.86,%
-3323,0,recurso,grade,Cu,11,% selección
-3327,0,recurso,grade,Cu,8.6,%
-3327,1,recurso,grade,Au,2.5,g/t (máximo)
-3335,0,recurso,grade,Cu,8.64,% media
-3337,0,recurso,grade,Cu,0.2,%
-3337,1,recurso,grade,Ag,8.1,g/t
-3337,2,recurso,grade,Mo,0.25,%
-3338,0,recurso,grade,Cu,6.49,%
-3349,0,produccion,grade,Pb,46.5,%
-3357,0,recurso,grade,Cu,1.02,%
-3397,0,recurso,grade,Cu,1.73,% media
-3397,1,recurso,grade,Ag,26.1,g/t promedio
-4006,0,produccion,grade,Sb,54,%
-4006,0,recurso,amount,Sb,9.2,millones de libras
-4006,1,recurso,amount,Au,6400,onza troy
-4006,0,recurso,grade,Sb,1.47,%
-4006,1,recurso,grade,Au,0.7,g/t
-4007,0,produccion,grade,Sb,40,%
-4016,0,recurso,grade,Th,0.52,%
-4016,1,recurso,grade,ETR,0.65,%
-5001,0,recurso,grade,SnO2,0.61,%
-5001,1,recurso,grade,Nb,150,ppm
-5001,2,recurso,grade,Ta,200,ppm
-5004,0,recurso,amount,Sn,2.23,millones de libras
-5004,0,recurso,grade,Sn,1.5,%
-5005,0,recurso,grade,Sn,0.61,%
-5005,1,recurso,grade,Nb,150,ppm
-5005,2,recurso,grade,Ta,200,ppm
-5008,0,recurso,grade,WO3,1.5,% (máximo)
-5011,0,recurso,grade,WO3,1,% (máximo)
-5012,0,recurso,amount,WO3,31.52,tonelada métrica
-5012,0,recurso,grade,WO3,0.65,% (máximo)
-5013,0,recurso,amount,WO3,255,tonelada métrica
-5013,0,recurso,grade,WO3,1.5,% promedio
-5014,0,recurso,amount,WO3,234.9,tonelada métrica
-5014,0,recurso,grade,WO3,1.45,% (máximo)
-5015,0,recurso,amount,WO3,640,tonelada métrica
-5015,0,recurso,grade,WO3,1.43,% (máximo)
-5019,0,recurso,amount,WO3,368.72,tonelada métrica
-5019,0,recurso,grade,WO3,1,% (máximo)
-5020,0,recurso,grade,WO3,0.8,% promedio
-5021,0,recurso,grade,WO3,1.9,% puntual
-5022,0,recurso,amount,WO3,80,tonelada métrica
-5022,0,recurso,grade,WO3,2,% (máximo)
-5023,0,recurso,amount,WO3,530,tonelada métrica
-5023,0,recurso,grade,WO3,1,% (máximo)
-5026,0,recurso,grade,WO3,0.76,%
-5028,0,recurso,grade,WO3,1,%
-5033,0,recurso,amount,WO3,105,tonelada métrica
-5033,0,recurso,grade,WO3,0.7,% (máximo)
-5036,0,recurso,grade,WO3,1,% (máximo)
-5039,0,recurso,amount,WO3,33.44,tonelada métrica
-5039,0,recurso,grade,WO3,1,%
-5040,0,recurso,amount,WO3,225,tonelada métrica
-5040,0,recurso,grade,WO3,0.75,%
-5047,0,recurso,grade,WO3,0.63,%
-5050,0,produccion,grade,WO3,71,% (máximo)
-5050,1,produccion,grade,Bi,64,% (máximo)
-5050,0,recurso,amount,WO3,1410,tonelada métrica
-5050,0,recurso,grade,WO3,0.5,% (máximo)
-5051,0,recurso,grade,WO3,1,%
-5053,0,recurso,grade,WO3,1,% (máximo)
-5056,0,recurso,grade,WO3,2.3,% (máximo)
-5058,0,recurso,amount,WO3,70,tonelada métrica
-5058,0,recurso,grade,WO3,0.7,%
-5059,0,recurso,amount,WO3,341.6,tonelada métrica
-5059,0,recurso,grade,WO3,2.44,% (máximo)
-5060,0,recurso,grade,WO3,1,% (máximo)
-5062,0,recurso,grade,WO3,1,%
-5073,0,recurso,grade,WO3,0.8,%
-5075,0,recurso,amount,WO3,539,tonelada métrica
-5075,0,recurso,grade,WO3,0.7,% (máximo)
-5081,0,recurso,grade,WO3,0.89,%
-5082,0,produccion,grade,WO3,71,% (máximo)
-5082,0,recurso,amount,WO3,800,tonelada métrica
-5082,0,recurso,grade,WO3,1,% (máximo)
-5083,0,produccion,grade,WO3,0.7,%
-5089,0,recurso,grade,WO3,0.8,%
-5090,0,recurso,grade,WO3,0.63,% puntual
-5093,0,recurso,grade,WO3,0.47,% puntual
-5101,0,recurso,grade,WO3,0.5,%
-5103,0,produccion,grade,WO3,71,% (máximo)
-5103,0,recurso,grade,WO3,1,%
-5104,0,produccion,grade,WO3,0.5,%
-5104,0,recurso,grade,WO3,1,% (máximo)
-5106,0,recurso,grade,WO3,0.5,%
-5109,0,produccion,grade,WO3,65,%
-5110,0,recurso,grade,WO3,1.4,% (máximo)
-5117,0,produccion,grade,WO3,67,%
-5121,0,produccion,grade,WO3,71,%
-5126,0,produccion,grade,WO3,73,% (máximo)
-5132,0,recurso,grade,WO3,0.46,%
-5142,0,recurso,grade,Sn,1.38,% (máximo)
-5142,1,recurso,grade,Sn,1.14,% promedio
-5148,0,recurso,grade,WO3,4,%
-5156,0,recurso,grade,WO3,66,% (máximo)
-5158,0,recurso,grade,WO3,4,%
-5160,0,produccion,grade,Sn,70,% (máximo)
-5162,0,recurso,grade,Sn,180,gramo/m3
-5169,0,recurso,grade,WO3,2.5,%
-5175,0,produccion,grade,Sn,70,%
-5189,0,recurso,grade,Sn,0.25,%
-5201,0,produccion,grade,WO3,65,%
-5202,0,produccion,grade,WO3,65,%
-5207,0,recurso,grade,WO3,0.7,% (máximo)
-5207,1,recurso,grade,Bi,0.2,%
-5207,2,recurso,grade,Cu,0.3,%
-5212,0,produccion,grade,WO3,65,%
-5212,0,recurso,grade,WO3,1,% (máximo)
-5225,0,recurso,grade,WO3,0.7,% promedio
-5226,0,produccion,grade,WO3,68,% (máximo)
-5226,0,recurso,grade,WO3,1.58,% promedio
-5227,0,recurso,grade,WO3,1,% (máximo)
-5229,0,recurso,grade,WO3,0.06,% (máximo)
-5240,0,recurso,amount,Cu,36000,tonelada métrica
-5240,1,recurso,amount,Au,90000,tonelada métrica
-5240,2,recurso,amount,Ag,4500000,tonelada métrica
-5240,0,recurso,grade,Cu,4,%
-5240,1,recurso,grade,Au,1,g/t
-5240,2,recurso,grade,Ag,50,g/t
-5241,0,recurso,grade,Ag,123.63,g/t
-11005,0,recurso,amount,ETR,2268,tonelada métrica
-11005,0,recurso,grade,ETR,2.52,%
-11012,0,recurso,amount,Cu,92,tonelada métrica
-11017,0,recurso,amount,Sb,9.2,millones de libras
-11017,1,recurso,amount,Au,6400,onza troy
-11017,0,recurso,grade,Sb,1.47,%
-11017,1,recurso,grade,Au,0.7,g/t
-11019,0,produccion,amount,Ag,12,kilogramo
-11019,0,produccion,grade,Ag,12,kilo/tonelada
-11020,0,produccion,amount,Au,12000,tonelada métrica
-11020,0,produccion,grade,Au,7,g/t
-11020,0,recurso,amount,Au,84,tonelada métrica
-11020,0,recurso,grade,Au,7,g/t
-11025,0,produccion,amount,Au,1273,kilogramo
-11025,0,recurso,amount,Au,153,kilogramo
-11025,0,recurso,grade,Au,17,g/t
-11031,0,recurso,amount,Cu,27.5,millones de libras
-11031,0,recurso,grade,Co,0.035,%
-11031,1,recurso,grade,Cu,0.5,%
-11031,2,recurso,grade,Ni,0.51,%
-11031,3,recurso,grade,EGP,5,g/t
-11031,4,recurso,grade,Ni,0.3,porcentaje
-11032,0,produccion,amount,Fe,42292,tonelada métrica
-11032,0,produccion,grade,Fe,66,%
-11032,0,recurso,amount,Fe,110.6,millones de toneladas métricas
-11032,0,recurso,grade,Fe,51.43,%
-11033,0,produccion,amount,W,7981.56,kilogramo
-11033,0,produccion,grade,W,51.7,%
-11033,0,recurso,grade,W,0.4,%
-11035,0,produccion,amount,Cu,28,tonelada métrica
-11035,0,produccion,grade,Cu,10,%
-11035,0,recurso,amount,Cu,8.97,millones de libras
-11035,0,recurso,grade,Cu,1.51,%
-11036,0,produccion,amount,Au,3,kilogramo
-11036,1,produccion,amount,Ag,26.3,kilogramo
-11036,2,produccion,amount,Zn,26312,tonelada métrica
-11036,0,produccion,grade,Au,10,g/t
-11036,1,produccion,grade,Ag,80,g/t
-11036,2,produccion,grade,Zn,8,%
-11036,0,recurso,amount,Au,3.3,tonelada métrica
-11036,0,recurso,grade,Au,8.87,g/t
-11037,0,recurso,amount,Au,3.5,millones de onzas troy
-11037,0,recurso,grade,Au,5,g/t
-11038,0,recurso,amount,S,4.7,millones de toneladas métricas
-11038,0,recurso,grade,S,15.22,%
-11041,0,recurso,amount,Pb,428,tonelada métrica
-11041,1,recurso,amount,Zn,536,tonelada métrica
-11041,0,recurso,grade,Pb,0.64,%
-11041,1,recurso,grade,Zn,0.8,%
-11043,0,recurso,grade,Cr,40,%
-11046,0,produccion,amount,W,94981,kilogramo
-11046,0,produccion,grade,W,65,%
-11057,0,recurso,amount,Au,16000,millones de onzas troy
-11057,0,recurso,grade,Au,13.5,g/t
-11057,1,recurso,grade,Au,1,g/t
-11083,0,recurso,grade,Au,10.2,g/t
-11083,1,recurso,grade,Ag,2,g/t
-11101,0,recurso,amount,U,534,tonelada métrica
-11101,0,recurso,grade,U,0.152,pormil
-11105,0,produccion,grade,Ni,18,%
-11109,0,recurso,amount,Ag,160,kilogramo
-11109,0,recurso,grade,Ag,100,g/t
-11117,0,produccion,amount,Pb,750,tonelada métrica
-11117,0,produccion,grade,Pb,75,%
-11117,0,recurso,amount,Pb,73,millones de libras
-11117,1,recurso,amount,Zn,165,millones de libras
-11117,2,recurso,amount,Ag,1.166,millones de onzas troy
-11117,0,recurso,grade,Pb,8.3,%
-11117,1,recurso,grade,Zn,18.8,%
-11117,2,recurso,grade,Ag,91,g/t
-11123,0,recurso,amount,Pb,840,tonelada métrica
-11123,1,recurso,amount,Zn,1087,tonelada métrica
-11123,2,recurso,amount,Cu,79200,libras
-11123,3,recurso,amount,Ag,11.5,millones de onzas troy
-11123,4,recurso,amount,Au,0.6,millones de onzas troy
-11123,0,recurso,grade,Pb,1.84,%
-11123,1,recurso,grade,Zn,2.51,%
-11123,2,recurso,grade,Cu,0.08,%
-11123,3,recurso,grade,Ag,83,g/t
-11123,4,recurso,grade,Au,4.51,g/t
-11126,0,produccion,amount,U,4,tonelada métrica
-11126,0,produccion,grade,U,0.22,%
-11128,0,recurso,amount,U,8.9,tonelada métrica
-11128,0,recurso,grade,U,0.64,pormil
-11129,0,recurso,amount,U,9164,kilogramo
-11129,0,recurso,grade,U,0.09,pormil
-11135,0,recurso,amount,Au,60,kilogramo
-11135,0,recurso,grade,Au,2,g/t
-11142,0,recurso,grade,Ag,936.8,g/t
-11142,1,recurso,grade,Pb,19.18,%
-11142,2,recurso,grade,Zn,6.7,%
-11143,0,recurso,amount,Au,37200,onza troy
-11143,1,recurso,amount,Cu,1.628,millones de libras
-11143,0,recurso,grade,Au,5.8,g/t
-11143,1,recurso,grade,Cu,0.37,%
-11144,0,recurso,amount,Pb,1.581,millones de toneladas métricas
-11144,1,recurso,amount,Ag,328,kilogramo
-11144,2,recurso,amount,Zn,1.336,millones de toneladas métricas
-11144,0,recurso,grade,Pb,85,%
-11144,1,recurso,grade,Ag,196,g/t
-11144,2,recurso,grade,Zn,80,%
-11147,0,recurso,amount,U,4087,tonelada métrica
-11147,0,recurso,grade,U,0.98,pormil
-11150,0,produccion,amount,U,44.2,tonelada métrica
-11150,0,produccion,grade,U,1.7,pormil
-11151,0,recurso,amount,Mn,1720,tonelada métrica
-11151,0,recurso,grade,Mn,20,%
-11152,0,recurso,amount,yeso,1.8,millones de toneladas métricas
-11152,0,recurso,grade,yeso,90,%
-11155,0,recurso,grade,Cu,1,%
-11155,1,recurso,grade,Pb,1.4,%
-11155,2,recurso,grade,Zn,3,%
-11165,0,recurso,amount,Li,400,tonelada métrica
-11165,0,recurso,grade,Li,5,%
-11166,0,recurso,amount,yeso,4.95,millones de toneladas métricas
-11166,0,recurso,grade,yeso,90,%
-11167,0,recurso,amount,Au,85800,onza troy
-11167,0,recurso,grade,Au,2.23,g/t
-11173,0,recurso,grade,yeso,80,%
-11176,0,recurso,amount,Cu,12.7,tonelada métrica
-11176,0,recurso,grade,Cu,0.36,%
-11176,1,recurso,grade,Cu,0.15,%
-11183,0,recurso,amount,Au,41000,kilogramo
-11183,0,recurso,grade,Au,1.79,g/t
-11187,0,recurso,amount,U,82,tonelada métrica
-11187,0,recurso,grade,U,0.066,%
-11188,0,recurso,amount,U,30.84,tonelada métrica
-11188,0,recurso,grade,U,0.4,%
-11189,0,produccion,amount,U,127,tonelada métrica
-11189,0,produccion,grade,U,1.41,%
-11190,0,recurso,grade,U,0.026,%
-11193,0,recurso,amount,U,26.4,tonelada métrica
-11193,0,recurso,grade,U,0.0265,%
-11194,0,recurso,amount,Cu,12280,tonelada métrica
-11194,1,recurso,amount,Au,3.9,tonelada métrica
-11194,0,recurso,grade,Cu,0.4,%
-11194,1,recurso,grade,Au,0.138,g/t
-11194,2,recurso,grade,Cu,0.2,porcentaje
-11194,3,recurso,grade,Cu,0.601,%
-11194,4,recurso,grade,Au,0.032,g/t
-11196,0,recurso,amount,Fe,67500,tonelada métrica
-11196,0,recurso,grade,Fe,54,%
-11207,0,recurso,grade,Au,9,g/t
-11214,0,recurso,grade,As,8,% (máximo)
-11214,1,recurso,grade,Au,2.7,g/t (máximo)
-11216,0,recurso,grade,Cu,0.14,%
-11216,1,recurso,grade,Au,0.4,g/t
-11216,2,recurso,grade,Au,0.2,g/t
-11217,0,recurso,grade,Cu,0.19,%
-11217,1,recurso,grade,Au,0.17,g/t
-11221,0,recurso,amount,Cu,2.4,billones de libras
-11221,1,recurso,amount,Mo,396,millones de libras
-11221,0,recurso,grade,Cu,0.37,%
-11221,1,recurso,grade,Mo,0.06,%
-11221,2,recurso,grade,Ag,0.9,g/t
-11223,0,recurso,amount,Cu,34.14,billones de libras
-11223,1,recurso,amount,Mo,757,millones de libras
-11223,2,recurso,amount,Ag,232,millones de onzas troy
-11223,0,recurso,grade,Cu,0.47,%
-11223,1,recurso,grade,Mo,0.011,%
-11223,2,recurso,grade,Ag,2.2,g/t
-11223,3,recurso,grade,Cu,0.2,%
-11224,0,recurso,amount,Cu,1,millones de toneladas métricas
-11224,0,recurso,grade,Cu,0.58,%
-11225,0,recurso,amount,Fe,283500,tonelada métrica
-11225,0,recurso,grade,Fe,63,%
-11227,0,recurso,amount,Cu,46764,tonelada métrica
-11227,0,recurso,grade,Cu,12,%
-11236,0,recurso,amount,Ag,45.3,millones de onzas troy
-11236,1,recurso,amount,Ag,4.1,millones de onzas troy
-11236,0,recurso,grade,Ag,482,g/t promedio
-11236,1,recurso,grade,Ag,250,g/t
-11236,2,recurso,grade,Ag,417,g/t
-11236,3,recurso,grade,Ag,250,g/t
-11237,0,recurso,amount,Ag,30560,kilogramo
-11237,1,recurso,amount,Pb,17600,tonelada métrica
-11237,0,recurso,grade,Ag,191,g/t
-11237,1,recurso,grade,Pb,11,%
-11243,0,recurso,amount,Au,6.3,tonelada métrica
-11243,1,recurso,amount,Ag,135,tonelada métrica
-11243,0,recurso,grade,Au,3.5,g/t
-11243,1,recurso,grade,Ag,100,g/t
-11243,2,recurso,grade,Au,1.9,g/t promedio
-11243,3,recurso,grade,Ag,50,g/t promedio
-11246,0,recurso,amount,Cu,2.6,millones de libras
-11246,1,recurso,amount,Au,21000,onza troy
-11246,0,recurso,grade,Cu,0.88,%
-11246,1,recurso,grade,Au,4.8,g/t
-11251,0,recurso,amount,Au,2798,kilogramo
-11251,0,recurso,grade,Au,8.8,g/t
-11252,0,recurso,amount,Pb,12420,tonelada métrica
-11252,1,recurso,amount,Zn,21942,tonelada métrica
-11252,2,recurso,amount,Ag,273,kilogramo
-11252,0,recurso,grade,Ag,662,g/t
-11252,1,recurso,grade,Pb,2.9,%
-11252,2,recurso,grade,Zn,5.3,%
-11258,0,recurso,grade,Mn,40,%
-11259,0,recurso,amount,U,196,tonelada métrica
-11259,1,recurso,amount,V,196,tonelada métrica
-11259,0,recurso,grade,U,0.2,%
-11259,1,recurso,grade,V,0.2,%
-11261,0,recurso,amount,yeso,255516,tonelada métrica
-11261,0,recurso,grade,yeso,84,%
-11270,0,recurso,amount,S,975000,tonelada métrica
-11270,0,recurso,grade,S,65,%
-11279,0,recurso,amount,Au,86500,onza troy
-11279,0,recurso,grade,Au,1,g/t
-11280,0,produccion,grade,Au,4,gramo/m3
-11286,0,recurso,amount,Fe,744900,tonelada métrica
-11286,0,recurso,grade,Fe,57.3,%
-11297,0,recurso,amount,Cu,188800,tonelada métrica
-11297,1,recurso,amount,Mo,877230,kilogramo
-11297,2,recurso,amount,Au,637020,onza troy
-11297,3,recurso,amount,Ag,7.78734,millones de onzas troy
-11297,4,recurso,amount,Cu,305910,tonelada métrica
-11297,5,recurso,amount,Mo,1.65462,tonelada métrica
-11297,6,recurso,amount,Au,1.00246,millones de onzas troy
-11297,7,recurso,amount,Ag,14.44904,millones de onzas troy
-11297,0,recurso,grade,Cu,0.342,% promedio
-11297,1,recurso,grade,Mo,15.875,ppm promedio
-11297,2,recurso,grade,Au,0.359,g/t promedio
-11297,3,recurso,grade,Ag,4.383,g/t promedio
-11297,4,recurso,grade,Cu,0.303,% promedio
-11297,5,recurso,grade,Mo,16.638,ppm promedio
-11297,6,recurso,grade,Au,0.308,g/t promedio
-11297,7,recurso,grade,Ag,4.446,g/t promedio
-11302,0,recurso,amount,Ag,665000,onza troy
-11302,1,recurso,amount,Pb,10292,tonelada métrica
-11302,2,recurso,amount,Zn,9960,tonelada métrica
-11302,0,recurso,grade,Ag,125,g/t
-11302,1,recurso,grade,Pb,6.2,%
-11302,2,recurso,grade,Zn,6,%
-11305,0,recurso,amount,Au,22.8,millones de onzas troy
-11305,0,recurso,grade,Au,1.41,g/t
-11307,0,recurso,amount,Cu,73,tonelada métrica
-11307,1,recurso,amount,Au,36.5,tonelada métrica
-11307,2,recurso,amount,Ag,511,tonelada métrica
-11307,0,recurso,grade,Cu,0.5,%
-11307,1,recurso,grade,Au,0.25,g/t
-11307,2,recurso,grade,Ag,3.5,g/t
-11311,0,recurso,amount,S,115710,tonelada métrica
-11311,0,recurso,grade,S,21,%
-11316,0,recurso,grade,sal,95,%
-11329,0,recurso,amount,Cu,4375,tonelada métrica
-11329,1,recurso,amount,Ag,6.2,tonelada métrica
-11329,0,recurso,grade,Cu,1.75,%
-11329,1,recurso,grade,Ag,25,g/t
-11336,0,recurso,amount,Au,0.73,millones de onzas troy
-11336,1,recurso,amount,Ag,38.52,millones de onzas troy
-11336,0,recurso,grade,Au,4.38,g/t
-11336,1,recurso,grade,Ag,229.7,g/t
-11336,2,recurso,grade,Au,1,g/t
-11336,3,recurso,grade,Ag,80,g/t
-11348,0,recurso,amount,Fe,490000,tonelada métrica
-11348,0,recurso,grade,Fe,35,%
-11350,0,recurso,grade,Mn,25,%
-11353,0,recurso,grade,U,1.44,%
-11354,0,recurso,grade,U,1.05152,pormil
-11356,0,recurso,amount,Au,1200,kilogramo
-11356,0,recurso,grade,Au,2,g/t
-11358,0,recurso,amount,Au,94,kilogramo
-11358,1,recurso,amount,Ag,542,kilogramo
-11358,2,recurso,amount,Pb,3140,tonelada métrica
-11358,0,recurso,grade,Au,9.4,g/t
-11358,1,recurso,grade,Ag,542,g/t
-11358,2,recurso,grade,Pb,3.14,%
-11362,0,produccion,grade,Au,4,g/t
-11362,1,produccion,grade,Ag,48.4,g/t
-11362,2,produccion,grade,Pb,2,%
-11362,3,produccion,grade,Cu,0.4,%
-11362,4,produccion,grade,Zn,4.6,%
-11362,0,recurso,grade,Au,3,g/t
-11362,1,recurso,grade,Ag,56,g/t
-11362,2,recurso,grade,Cu,0.049,%
-24341,0,recurso,grade,Cu,0.3,%
-24341,1,recurso,grade,Au,0.07,g/t
-24341,2,recurso,grade,Ag,0.9,g/t
-24342,0,recurso,amount,Ag,93700,tonelada métrica
-24342,1,recurso,amount,Pb,1.27,millones de toneladas métricas
-24342,0,recurso,grade,Ag,101,g/t
-24342,1,recurso,grade,Pb,1.36,%
-24342,2,recurso,grade,Ag,78,g/t
-24342,3,recurso,grade,Pb,0.45,%
-24344,0,recurso,amount,Au,0.4,millones de onzas troy
-24344,0,recurso,grade,Au,2,g/t
-24344,1,recurso,grade,Au,0.5,g/t
-24371,0,recurso,amount,Li,576000,tonelada métrica
-24371,1,recurso,amount,K,4.714,millones de toneladas métricas
-24371,2,recurso,amount,Li,1650000,tonelada métrica
-24371,3,recurso,amount,K,13.755,millones de toneladas métricas
-24371,4,recurso,amount,Li,88000,tonelada métrica
-24371,5,recurso,amount,K,0.84,millones de toneladas métricas
-24371,0,recurso,grade,Li,630,mg/L
-24371,1,recurso,grade,K,5156,mg/L
-24371,2,recurso,grade,Li,354,gramo/metro cúbico
-24371,3,recurso,grade,Li,570,mg/L
-24371,4,recurso,grade,K,4753,mg/L
-24371,5,recurso,grade,Li,354,gramo/metro cúbico
-24371,6,recurso,grade,Li,380,mg/L
-24371,7,recurso,grade,K,3700,mg/L
-24372,0,recurso,amount,Li,576000,tonelada métrica
-24372,1,recurso,amount,K,4.714,millones de toneladas métricas
-24372,2,recurso,amount,Li,1650000,tonelada métrica
-24372,3,recurso,amount,K,13.755,millones de toneladas métricas
-24372,4,recurso,amount,Li,230000,tonelada métrica
-24372,5,recurso,amount,K,1.71,millones de toneladas métricas
-24372,6,recurso,amount,Li,870000,tonelada métrica
-24372,7,recurso,amount,K,7.33,millones de toneladas métricas
-24372,0,recurso,grade,Li,630,mg/L
-24372,1,recurso,grade,K,5156,mg/L
-24372,2,recurso,grade,Li,354,gramo/metro cúbico
-24372,3,recurso,grade,Li,570,mg/L
-24372,4,recurso,grade,K,4753,mg/L
-24372,5,recurso,grade,Li,354,gramo/metro cúbico
-24372,6,recurso,grade,Li,632,mg/L
-24372,7,recurso,grade,K,4930,mg/L
-24372,8,recurso,grade,Li,708,mg/L
-24372,9,recurso,grade,K,6030,mg/L
-24385,0,recurso,grade,ETR,0.08,%
-24385,1,recurso,grade,ETR,0.08,%
-24502,0,recurso,amount,Li,1.36,millones de toneladas métricas
-24502,0,recurso,grade,Li,768,ppm
-24502,1,recurso,grade,K,8.534,ppm
-24502,2,recurso,grade,Li,500,ppm
-24503,0,recurso,amount,Pb,324,tonelada métrica
-24503,1,recurso,amount,Zn,100.5,tonelada métrica
-24503,0,recurso,grade,Pb,4.32,% promedio
-24503,1,recurso,grade,Zn,1.34,% promedio
-24503,2,recurso,grade,Ag,9.1,g/t promedio
-24521,0,recurso,amount,Li,1.3,millones de toneladas métricas
-24521,0,recurso,grade,Li,602,ppm
-24521,1,recurso,grade,Li,400,ppm
-24533,0,recurso,grade,Au,0.81,g/t
-24533,1,recurso,grade,Ag,7.87,g/t
-24534,0,recurso,grade,Au,1.14,g/t
-24534,1,recurso,grade,Ag,69,g/t (máximo)
-24537,0,recurso,grade,Au,12.5,g/t
-24537,1,recurso,grade,Ag,31.9,g/t
-24538,0,recurso,amount,Cu,9.759,millones de toneladas métricas
-24538,1,recurso,amount,Au,26.5,millones de onzas troy
-24538,2,recurso,amount,Ag,672,millones de onzas troy
-24538,3,recurso,amount,Cu,30.74,millones de toneladas métricas
-24538,4,recurso,amount,Au,58.7,millones de onzas troy
-24538,5,recurso,amount,Ag,1024,millones de onzas troy
-24538,0,recurso,grade,Cu,0.33,%
-24538,1,recurso,grade,Au,0.32,g/t
-24538,2,recurso,grade,Ag,10.7,g/t
-24538,3,recurso,grade,Cu,0.37,%
-24538,4,recurso,grade,Au,0.32,g/t
-24538,5,recurso,grade,Ag,8.12,g/t
-24538,6,recurso,grade,Cu,0.31,%
-24538,7,recurso,grade,Au,0.18,g/t
-24538,8,recurso,grade,Ag,3.18,g/t
-24539,0,recurso,grade,Au,11.6,g/t (máximo)
-24539,1,recurso,grade,Ag,10,g/t
-24540,0,recurso,grade,Au,1.71,g/t
-24540,1,recurso,grade,Ag,9.4,g/t
-24541,0,recurso,grade,Au,6.2,g/t
-24541,1,recurso,grade,Ag,10,g/t
-24545,0,recurso,grade,Au,18,g/t (máximo)
-24545,1,recurso,grade,Ag,330,g/t (máximo)
-24565,0,recurso,amount,Li,202325.6,tonelada métrica
-24565,1,recurso,amount,K,1.72,millones de toneladas métricas
-24565,2,recurso,amount,Li,41210.8,tonelada métrica
-24565,3,recurso,amount,K,0.37,millones de toneladas métricas
-24565,4,recurso,amount,Li,93360.7,tonelada métrica
-24565,5,recurso,amount,K,0.52,millones de toneladas métricas
-24565,0,recurso,grade,Li,371,mg/L
-24565,1,recurso,grade,K,3164,mg/L
-24565,2,recurso,grade,Li,100,gramo/metro cúbico
-24565,3,recurso,grade,Li,486,mg/L
-24565,4,recurso,grade,K,4318,mg/L
-24565,5,recurso,grade,Li,100,gramo/metro cúbico
-24565,6,recurso,grade,Li,340,mg/L
-24565,7,recurso,grade,K,1894,mg/L
-24565,8,recurso,grade,Li,100,gramo/metro cúbico
-24570,0,recurso,amount,Li,411400,tonelada métrica
-24570,0,recurso,grade,Li,374,mg/L
-24570,1,recurso,grade,K,6845,mg/L
-24572,0,recurso,amount,Li,234396,tonelada métrica
-24572,1,recurso,amount,K,7.24,millones de toneladas métricas
-24572,2,recurso,amount,Li,116242,tonelada métrica
-24572,3,recurso,amount,K,3.72,millones de toneladas métricas
-24572,0,recurso,grade,Li,306,mg/L
-24572,1,recurso,grade,K,9456,mg/L
-24572,2,recurso,grade,B,599,mg/L
-24572,3,recurso,grade,Li,230,mg/L
-24572,4,recurso,grade,Li,322,mg/L
-24572,5,recurso,grade,K,10316,mg/L
-24572,6,recurso,grade,B,642,mg/L
-24572,7,recurso,grade,Li,230,mg/L
-24573,0,recurso,amount,Li,240000,tonelada métrica
-24573,1,recurso,amount,K,2.58,millones de toneladas métricas
-24573,2,recurso,amount,Li,160000,tonelada métrica
-24573,3,recurso,amount,K,4.27,millones de toneladas métricas
-24573,4,recurso,amount,Li,165000,tonelada métrica
-24573,5,recurso,amount,K,1.71,millones de toneladas métricas
-24573,0,recurso,grade,Li,465,mg/L
-24573,1,recurso,grade,K,5009,mg/L
-24573,2,recurso,grade,Li,300,mg/L
-24573,3,recurso,grade,Li,418,mg/L
-24573,4,recurso,grade,K,4395,mg/L
-24573,5,recurso,grade,Li,300,mg/L
-24573,6,recurso,grade,Li,469,mg/L
-24573,7,recurso,grade,K,4871,mg/L
-24573,8,recurso,grade,Li,300,mg/L
-24574,0,recurso,amount,Li,194860,tonelada métrica
-24574,1,recurso,amount,K,2.14,millones de toneladas métricas
-24574,2,recurso,amount,B,216807,tonelada métrica
-24574,3,recurso,amount,Li,189130,tonelada métrica
-24574,4,recurso,amount,K,2.07,millones de toneladas métricas
-24574,5,recurso,amount,B,232601,tonelada métrica
-24574,0,recurso,grade,Li,501,mg/L
-24574,1,recurso,grade,K,5512,mg/L
-24574,2,recurso,grade,B,556,mg/L
-24574,3,recurso,grade,Li,100,mg/L
-24574,4,recurso,grade,Li,410,mg/L
-24574,5,recurso,grade,K,4489,mg/L
-24574,6,recurso,grade,B,505,mg/L
-24574,7,recurso,grade,Li,100,mg/L
-24576,0,recurso,amount,Li,205988,tonelada métrica
-24576,1,recurso,amount,Li,458380,tonelada métrica
-24576,2,recurso,amount,Li,901609,tonelada métrica
-24576,0,recurso,grade,Li,395,mg/L
-24576,1,recurso,grade,Li,200,mg/L
-24576,2,recurso,grade,Li,392,mg/L
-24576,3,recurso,grade,Li,200,mg/L
-24576,4,recurso,grade,Li,406,mg/L
-24576,5,recurso,grade,Li,200,mg/L
+depno,commodity_id,commodity_raw,data_type,measure,value_num,value_text,unit,seq
+1,248,Ag,RESOURCE,GRADE,80,80,g/t,2
+1,241,Pb,PRODUCTION,AMOUNT,142.85,142.85,millones de libras,0
+1,241,Pb,PRODUCTION,GRADE,77.7,77.7,% promedio,0
+1,241,Pb,RESOURCE,GRADE,30,30,%,0
+1,242,Zn,PRODUCTION,AMOUNT,62.24,62.24,millones de libras,1
+1,242,Zn,PRODUCTION,GRADE,5,5,% promedio,1
+1,242,Zn,RESOURCE,GRADE,30,30,%,1
+13,248,Ag,RESOURCE,AMOUNT,15.9,15.9,millones de onzas troy,0
+13,248,Ag,RESOURCE,AMOUNT,9800,9800,kilogramo,1
+13,248,Ag,RESOURCE,AMOUNT,5.4,5.4,millones de onzas troy,2
+13,248,Ag,RESOURCE,GRADE,170,170,g/t,0
+13,248,Ag,RESOURCE,GRADE,400,400,g/t,1
+13,248,Ag,RESOURCE,GRADE,166,166,g/t promedio,2
+13,248,Ag,RESOURCE,GRADE,40,40,g/t open pit,4
+13,248,Ag,RESOURCE,GRADE,150,150,g/t subterránea,5
+13,239,Cu,RESOURCE,AMOUNT,808,808,tonelada métrica,3
+13,239,Cu,RESOURCE,GRADE,0.08,0.08,% promedio,3
+15,239,Cu,RESOURCE,GRADE,0.06,0.06,%,0
+16,241,Pb,PRODUCTION,GRADE,75,75,% promedio concentrado,0
+18,241,Pb,PRODUCTION,GRADE,79,79,%,0
+19,248,Ag,RESOURCE,GRADE,50,50,g/t,2
+19,248,Ag,RESOURCE,GRADE,131,131,g/t promedio,4
+19,241,Pb,RESOURCE,GRADE,0.7,0.7,%,0
+19,241,Pb,RESOURCE,GRADE,0.84,0.84,% promedio,3
+19,242,Zn,RESOURCE,GRADE,1.9,1.9,%,1
+19,242,Zn,RESOURCE,GRADE,0.65,0.65,% promedio,5
+21,248,Ag,RESOURCE,GRADE,200,200,ppm,1
+21,248,Ag,RESOURCE,GRADE,200,200,ppm,5
+21,241,Pb,RESOURCE,GRADE,0.7,0.7,%,0
+21,241,Pb,RESOURCE,GRADE,0.7,0.7,%,3
+21,242,Zn,RESOURCE,GRADE,1.5,1.5,%,2
+21,242,Zn,RESOURCE,GRADE,1.5,1.5,%,4
+23,248,Ag,PRODUCTION,AMOUNT,18.6,18.6,millones de onzas troy,0
+23,248,Ag,PRODUCTION,GRADE,230,230,g/t promedio,0
+23,248,Ag,RESOURCE,AMOUNT,437,437,millones de onzas troy,0
+23,248,Ag,RESOURCE,AMOUNT,3600,3600,tonelada métrica,3
+23,248,Ag,RESOURCE,GRADE,174,174,g/t promedio,1
+23,248,Ag,RESOURCE,GRADE,50,50,g/t,3
+23,248,Ag,RESOURCE,GRADE,167,167,g/t,5
+23,248,Ag,RESOURCE,GRADE,167,167,g/t,8
+23,230,Sn,RESOURCE,AMOUNT,341,341,millones de libras,1
+23,230,Sn,RESOURCE,AMOUNT,71000,71000,tonelada métrica,4
+23,230,Sn,RESOURCE,GRADE,0.2,0.2,% promedio,0
+23,230,Sn,RESOURCE,GRADE,0.33,0.33,%,4
+23,230,Sn,RESOURCE,GRADE,0.33,0.33,%,7
+23,242,Zn,PRODUCTION,AMOUNT,40,40,millones de libras,1
+23,242,Zn,PRODUCTION,GRADE,0.72,0.72,% promedio,1
+23,242,Zn,RESOURCE,AMOUNT,1377.48,1377.48,millones de libras,2
+23,242,Zn,RESOURCE,AMOUNT,125000,125000,tonelada métrica,5
+23,242,Zn,RESOURCE,GRADE,0.8,0.8,% promedio,2
+23,242,Zn,RESOURCE,GRADE,0.57,0.57,%,6
+23,242,Zn,RESOURCE,GRADE,0.57,0.57,%,9
+24,230,Sn,PRODUCTION,GRADE,60,60,%,0
+24,230,Sn,RESOURCE,GRADE,0.268,0.268,kg/m3,0
+25,230,Sn,PRODUCTION,AMOUNT,9504,9504,tonelada métrica,0
+25,230,Sn,PRODUCTION,GRADE,60,60,%,0
+25,230,Sn,RESOURCE,GRADE,0.268,0.268,kg/m3,0
+26,248,Ag,RESOURCE,AMOUNT,22,22,tonelada métrica,2
+26,248,Ag,RESOURCE,GRADE,377.5,377.5,g/t,2
+26,241,Pb,RESOURCE,AMOUNT,2902,2902,tonelada métrica,0
+26,241,Pb,RESOURCE,GRADE,4.92,4.92,%,0
+26,242,Zn,RESOURCE,AMOUNT,3481,3481,tonelada métrica,1
+26,242,Zn,RESOURCE,GRADE,5.91,5.91,%,1
+34,248,Ag,PRODUCTION,GRADE,1000,1000,g/t,1
+34,241,Pb,PRODUCTION,GRADE,70,70,%,0
+39,248,Ag,RESOURCE,AMOUNT,20.8,20.8,millones de onzas troy,2
+39,248,Ag,RESOURCE,GRADE,121,121,g/t promedio,2
+39,248,Ag,RESOURCE,GRADE,115,115,g/t,5
+39,241,Pb,RESOURCE,AMOUNT,754.2,754.2,millones de libras,1
+39,241,Pb,RESOURCE,GRADE,6.41,6.41,% promedio,1
+39,241,Pb,RESOURCE,GRADE,3.9,3.9,%,3
+39,242,Zn,RESOURCE,AMOUNT,687.1,687.1,millones de libras,0
+39,242,Zn,RESOURCE,GRADE,5.84,5.84,% promedio,0
+39,242,Zn,RESOURCE,GRADE,10.6,10.6,%,4
+75,248,Ag,PRODUCTION,AMOUNT,3,3,tonelada métrica,0
+75,248,Ag,RESOURCE,GRADE,297.98,297.98,g/t,0
+75,241,Pb,PRODUCTION,AMOUNT,1300,1300,tonelada métrica,1
+75,241,Pb,RESOURCE,GRADE,13.63,13.63,%,1
+75,242,Zn,RESOURCE,GRADE,4.26,4.26,%,2
+92,248,Ag,RESOURCE,AMOUNT,45.3,45.3,millones de onzas troy,0
+92,248,Ag,RESOURCE,AMOUNT,4.1,4.1,millones de onzas troy,1
+92,248,Ag,RESOURCE,GRADE,2000,2000,g/t,1
+92,248,Ag,RESOURCE,GRADE,482,482,g/t promedio,4
+92,248,Ag,RESOURCE,GRADE,250,250,g/t,5
+92,248,Ag,RESOURCE,GRADE,417,417,g/t,6
+92,248,Ag,RESOURCE,GRADE,250,250,g/t,7
+92,241,Pb,RESOURCE,GRADE,9,9,%,0
+92,279,Sb,RESOURCE,GRADE,6.74,6.74,%,3
+92,242,Zn,RESOURCE,GRADE,1.93,1.93,%,2
+93,248,Ag,RESOURCE,AMOUNT,45.3,45.3,millones de onzas troy,0
+93,248,Ag,RESOURCE,AMOUNT,4.1,4.1,millones de onzas troy,1
+93,248,Ag,RESOURCE,GRADE,482,482,g/t promedio,0
+93,248,Ag,RESOURCE,GRADE,250,250,g/t,1
+93,248,Ag,RESOURCE,GRADE,417,417,g/t,2
+93,248,Ag,RESOURCE,GRADE,250,250,g/t,3
+94,248,Ag,RESOURCE,AMOUNT,45.3,45.3,millones de onzas troy,0
+94,248,Ag,RESOURCE,AMOUNT,4.1,4.1,millones de onzas troy,1
+94,248,Ag,RESOURCE,GRADE,482,482,g/t promedio,0
+94,248,Ag,RESOURCE,GRADE,250,250,g/t,1
+94,248,Ag,RESOURCE,GRADE,417,417,g/t,2
+94,248,Ag,RESOURCE,GRADE,250,250,g/t,3
+95,248,Ag,RESOURCE,AMOUNT,45.3,45.3,millones de onzas troy,0
+95,248,Ag,RESOURCE,AMOUNT,4.1,4.1,millones de onzas troy,1
+95,248,Ag,RESOURCE,GRADE,482,482,g/t promedio,0
+95,248,Ag,RESOURCE,GRADE,250,250,g/t,1
+95,248,Ag,RESOURCE,GRADE,417,417,g/t,2
+95,248,Ag,RESOURCE,GRADE,250,250,g/t,3
+96,248,Ag,RESOURCE,AMOUNT,45.3,45.3,millones de onzas troy,0
+96,248,Ag,RESOURCE,AMOUNT,4.1,4.1,millones de onzas troy,1
+96,248,Ag,RESOURCE,GRADE,482,482,g/t promedio,0
+96,248,Ag,RESOURCE,GRADE,250,250,g/t,1
+96,248,Ag,RESOURCE,GRADE,417,417,g/t,2
+96,248,Ag,RESOURCE,GRADE,250,250,g/t,3
+98,248,Ag,RESOURCE,AMOUNT,45.3,45.3,millones de onzas troy,0
+98,248,Ag,RESOURCE,AMOUNT,4.1,4.1,millones de onzas troy,1
+98,248,Ag,RESOURCE,GRADE,482,482,g/t promedio,0
+98,248,Ag,RESOURCE,GRADE,250,250,g/t,1
+98,248,Ag,RESOURCE,GRADE,417,417,g/t,2
+98,248,Ag,RESOURCE,GRADE,250,250,g/t,3
+101,248,Ag,RESOURCE,GRADE,190,190,g/t,1
+101,241,Pb,RESOURCE,GRADE,11,11,%,0
+111,248,Ag,PRODUCTION,GRADE,1760,1760,g/t,0
+111,248,Ag,RESOURCE,AMOUNT,0.63,0.63,millones de onzas troy,1
+111,248,Ag,RESOURCE,GRADE,490,490,g/t,1
+111,239,Cu,RESOURCE,AMOUNT,0.53,0.53,millones de libras,3
+111,239,Cu,RESOURCE,GRADE,0.6,0.6,%,2
+111,241,Pb,RESOURCE,AMOUNT,4.94,4.94,millones de libras,0
+111,241,Pb,RESOURCE,GRADE,5.59,5.59,%,0
+111,242,Zn,RESOURCE,AMOUNT,1.11,1.11,millones de libras,2
+111,242,Zn,RESOURCE,GRADE,1.26,1.26,%,3
+121,248,Ag,RESOURCE,GRADE,150,150,g/t,2
+121,241,Pb,RESOURCE,GRADE,8,8,%,0
+121,242,Zn,RESOURCE,GRADE,1.5,1.5,%,1
+170,230,Sn,RESOURCE,GRADE,200,200,g/t,0
+171,248,Ag,PRODUCTION,GRADE,66.85,66.85,g/t promedio,1
+171,248,Ag,RESOURCE,AMOUNT,135,135,tonelada métrica,1
+171,248,Ag,RESOURCE,GRADE,100,100,g/t,1
+171,248,Ag,RESOURCE,GRADE,72.3,72.3,g/t promedio,3
+171,249,Au,PRODUCTION,GRADE,2.47,2.47,g/t promedio,0
+171,249,Au,RESOURCE,AMOUNT,6.3,6.3,tonelada métrica,0
+171,249,Au,RESOURCE,GRADE,3.5,3.5,g/t,0
+171,249,Au,RESOURCE,GRADE,2.5,2.5,g/t promedio,2
+173,248,Ag,RESOURCE,GRADE,21.62,21.62,g/t,1
+173,249,Au,RESOURCE,GRADE,0.34,0.34,g/t,0
+181,248,Ag,RESOURCE,GRADE,44.7,44.7,g/t,2
+181,241,Pb,RESOURCE,GRADE,2.05,2.05,%,0
+181,242,Zn,RESOURCE,GRADE,1.54,1.54,%,1
+196,248,Ag,RESOURCE,GRADE,250,250,g/t,1
+196,241,Pb,RESOURCE,GRADE,1.8,1.8,%,0
+203,249,Au,RESOURCE,GRADE,0.7,0.7,g/t,1
+203,279,Sb,PRODUCTION,GRADE,55,55,%,0
+203,279,Sb,RESOURCE,GRADE,1.47,1.47,%,0
+219,248,Ag,RESOURCE,AMOUNT,6200,6200,onza troy,2
+219,248,Ag,RESOURCE,GRADE,53.5,53.5,g/t,2
+219,241,Pb,RESOURCE,AMOUNT,0.77,0.77,millones de libras,0
+219,241,Pb,RESOURCE,GRADE,9.18,9.18,%,0
+219,242,Zn,RESOURCE,AMOUNT,0.33,0.33,millones de libras,1
+219,242,Zn,RESOURCE,GRADE,4.3,4.3,%,1
+235,248,Ag,RESOURCE,GRADE,91,91,g/t,2
+235,241,Pb,RESOURCE,GRADE,8.3,8.3,%,0
+235,242,Zn,RESOURCE,GRADE,18.8,18.8,%,1
+243,248,Ag,RESOURCE,GRADE,542,542,g/t,0
+243,249,Au,RESOURCE,GRADE,9.4,9.4,g/t,3
+243,241,Pb,RESOURCE,GRADE,3.14,3.14,%,1
+243,242,Zn,RESOURCE,GRADE,0.1,0.1,%,2
+284,248,Ag,RESOURCE,GRADE,248,248,g/t,0
+284,241,Pb,RESOURCE,GRADE,1.68,1.68,%,1
+284,242,Zn,RESOURCE,GRADE,1.74,1.74,g/t,2
+323,248,Ag,RESOURCE,GRADE,140,140,g/t (máximo),1
+323,249,Au,RESOURCE,GRADE,15,15,g/t (máximo),0
+324,248,Ag,RESOURCE,GRADE,11,11,g/t,1
+324,249,Au,RESOURCE,GRADE,1.01,1.01,g/t,0
+326,248,Ag,RESOURCE,GRADE,57.5,57.5,g/t,1
+326,249,Au,RESOURCE,GRADE,11.5,11.5,g/t,0
+327,249,Au,RESOURCE,GRADE,8.87,8.87,g/t,0
+329,248,Ag,PRODUCTION,GRADE,69.5,69.5,g/t,0
+329,248,Ag,PRODUCTION,GRADE,139,139,g/t,1
+329,248,Ag,RESOURCE,GRADE,69.5,69.5,g/t promedio,1
+329,249,Au,RESOURCE,GRADE,8.5,8.5,g/t promedio,0
+330,248,Ag,RESOURCE,GRADE,100,100,g/t,1
+330,249,Au,RESOURCE,GRADE,4,4,"g/t (máximo, en vetas)",0
+334,248,Ag,RESOURCE,GRADE,49.7,49.7,g/t,1
+334,249,Au,RESOURCE,AMOUNT,6.9,6.9,millones de onzas troy,0
+334,249,Au,RESOURCE,GRADE,1.41,1.41,g/t,0
+334,249,Au,RESOURCE,GRADE,1.41,1.41,g/t,2
+339,248,Ag,RESOURCE,AMOUNT,157,157,millones de onzas troy,1
+339,248,Ag,RESOURCE,GRADE,14.36,14.36,g/t,1
+339,249,Au,RESOURCE,AMOUNT,8.7,8.7,millones de onzas troy,0
+339,249,Au,RESOURCE,GRADE,0.77,0.77,g/t,0
+342,248,Ag,RESOURCE,GRADE,553,553,g/t,1
+342,241,Pb,RESOURCE,GRADE,3,3,%,0
+342,242,Zn,RESOURCE,GRADE,2,2,%,2
+352,248,Ag,RESOURCE,GRADE,507,507,g/t,1
+352,249,Au,RESOURCE,GRADE,1.24,1.24,g/t,2
+352,241,Pb,RESOURCE,GRADE,9.4,9.4,%,0
+353,248,Ag,RESOURCE,GRADE,397,397,g/t,1
+353,241,Pb,RESOURCE,GRADE,2.76,2.76,%,0
+353,242,Zn,RESOURCE,GRADE,0.69,0.69,%,2
+355,248,Ag,PRODUCTION,GRADE,72,72,g/t,2
+355,248,Ag,RESOURCE,GRADE,75,75,g/t,3
+355,239,Cu,RESOURCE,GRADE,0.15,0.15,%,2
+355,241,Pb,PRODUCTION,GRADE,7.4,7.4,%,0
+355,241,Pb,RESOURCE,GRADE,7.4,7.4,%,0
+355,242,Zn,PRODUCTION,GRADE,7.5,7.5,%,1
+355,242,Zn,RESOURCE,GRADE,7.5,7.5,%,1
+357,248,Ag,RESOURCE,GRADE,114,114,g/t,1
+357,241,Pb,RESOURCE,GRADE,6.7,6.7,%,0
+358,248,Ag,PRODUCTION,GRADE,310,310,g/t,2
+358,248,Ag,RESOURCE,GRADE,125,125,g/t,2
+358,241,Pb,PRODUCTION,GRADE,14,14,%,0
+358,241,Pb,RESOURCE,GRADE,6.18,6.18,%,0
+358,242,Zn,PRODUCTION,GRADE,17.9,17.9,%,1
+358,242,Zn,RESOURCE,GRADE,6.09,6.09,%,1
+359,248,Ag,RESOURCE,GRADE,100,100,g/t,2
+359,241,Pb,RESOURCE,GRADE,4,4,%,0
+359,242,Zn,RESOURCE,GRADE,4,4,%,1
+361,248,Ag,RESOURCE,GRADE,123.1,123.1,g/t,1
+361,241,Pb,RESOURCE,GRADE,6.71,6.71,%,0
+363,248,Ag,RESOURCE,GRADE,200,200,g/t,2
+363,241,Pb,RESOURCE,GRADE,6.4,6.4,%,0
+363,242,Zn,RESOURCE,GRADE,2,2,%,1
+365,248,Ag,RESOURCE,GRADE,310,310,g/t,1
+365,239,Cu,RESOURCE,GRADE,6.15,6.15,%,3
+365,241,Pb,RESOURCE,GRADE,35.6,35.6,%,0
+365,242,Zn,RESOURCE,GRADE,12.3,12.3,%,2
+366,248,Ag,RESOURCE,AMOUNT,1175,1175,kilogramo,0
+366,248,Ag,RESOURCE,GRADE,120,120,g/t,0
+366,239,Cu,RESOURCE,GRADE,0.8,0.8,%,3
+366,241,Pb,RESOURCE,GRADE,5,5,%,1
+366,242,Zn,RESOURCE,GRADE,0.2,0.2,%,2
+368,248,Ag,RESOURCE,GRADE,300,300,g/t (máximo),1
+368,241,Pb,RESOURCE,GRADE,12,12,%,0
+369,248,Ag,RESOURCE,GRADE,130,130,g/t,2
+369,249,Au,RESOURCE,GRADE,1.28,1.28,g/t,3
+369,241,Pb,RESOURCE,GRADE,3.77,3.77,%,0
+369,242,Zn,RESOURCE,GRADE,0.41,0.41,%,1
+371,248,Ag,RESOURCE,GRADE,83,83,g/t,2
+371,249,Au,RESOURCE,GRADE,4.51,4.51,g/t,3
+371,239,Cu,RESOURCE,GRADE,0.08,0.08,%,4
+371,241,Pb,RESOURCE,GRADE,1.84,1.84,%,0
+371,242,Zn,RESOURCE,GRADE,2.51,2.51,%,1
+372,248,Ag,PRODUCTION,GRADE,2,2,kilogramos finos,1
+372,248,Ag,RESOURCE,GRADE,936.8,936.8,g/t,1
+372,276,As,RESOURCE,GRADE,1.5,1.5,%,4
+372,239,Cu,RESOURCE,GRADE,0.87,0.87,%,3
+372,241,Pb,PRODUCTION,GRADE,57.65,57.65,%,0
+372,241,Pb,RESOURCE,GRADE,19.18,19.18,%,0
+372,242,Zn,PRODUCTION,GRADE,3,3,%,2
+372,242,Zn,RESOURCE,GRADE,6.7,6.7,%,2
+373,248,Ag,RESOURCE,GRADE,250,250,g/t,1
+373,249,Au,RESOURCE,GRADE,2,2,g/t,3
+373,241,Pb,RESOURCE,GRADE,12,12,%,0
+373,242,Zn,RESOURCE,GRADE,10,10,%,2
+374,248,Ag,RESOURCE,GRADE,80,80,g/t,2
+374,239,Cu,RESOURCE,GRADE,3.2,3.2,%,3
+374,241,Pb,RESOURCE,GRADE,3.65,3.65,%,0
+374,242,Zn,RESOURCE,GRADE,5,5,%,1
+375,248,Ag,RESOURCE,GRADE,123,123,g/t,2
+375,249,Au,RESOURCE,GRADE,5,5,g/t,3
+375,241,Pb,RESOURCE,GRADE,0.83,0.83,%,0
+375,242,Zn,RESOURCE,GRADE,19,19,%,1
+376,248,Ag,RESOURCE,GRADE,88,88,g/t,2
+376,241,Pb,RESOURCE,GRADE,0.9,0.9,%,0
+376,242,Zn,RESOURCE,GRADE,16.2,16.2,%,1
+380,248,Ag,RESOURCE,GRADE,221,221,g/t,2
+380,241,Pb,RESOURCE,GRADE,12.3,12.3,%,0
+380,242,Zn,RESOURCE,GRADE,7.6,7.6,%,1
+381,248,Ag,RESOURCE,GRADE,690,690,g/t,1
+381,249,Au,RESOURCE,GRADE,4,4,g/t (máximo),0
+381,241,Pb,RESOURCE,GRADE,1,1,%,2
+386,248,Ag,RESOURCE,GRADE,150,150,g/t,1
+386,241,Pb,RESOURCE,GRADE,0.52,0.52,%,0
+386,242,Zn,RESOURCE,GRADE,1.13,1.13,%,2
+387,248,Ag,RESOURCE,GRADE,123,123,g/t,2
+387,241,Pb,RESOURCE,GRADE,0.83,0.83,%,0
+387,242,Zn,RESOURCE,GRADE,19.3,19.3,%,1
+398,248,Ag,RESOURCE,AMOUNT,1280,1280,onza troy,0
+398,248,Ag,RESOURCE,GRADE,50,50,g/t,0
+398,249,Au,RESOURCE,GRADE,4,4,g/t,1
+399,248,Ag,RESOURCE,GRADE,250,250,g/t,0
+399,249,Au,RESOURCE,GRADE,2,2,g/t,1
+400,248,Ag,RESOURCE,AMOUNT,80000,80000,onza troy,0
+400,248,Ag,RESOURCE,GRADE,400,400,g/t,0
+400,249,Au,RESOURCE,GRADE,0.35,0.35,g/t,1
+401,248,Ag,RESOURCE,AMOUNT,144230,144230,onza troy,2
+401,248,Ag,RESOURCE,GRADE,100,100,g/t,2
+401,241,Pb,RESOURCE,AMOUNT,4.95,4.95,millones de libras,0
+401,241,Pb,RESOURCE,GRADE,5,5,%,0
+401,242,Zn,RESOURCE,AMOUNT,1.98,1.98,millones de libras,1
+401,242,Zn,RESOURCE,GRADE,2,2,%,1
+402,248,Ag,RESOURCE,GRADE,50,50,g/t,0
+402,249,Au,RESOURCE,GRADE,3.5,3.5,g/t,1
+418,248,Ag,RESOURCE,GRADE,35.65,35.65,g/t,2
+418,241,Pb,RESOURCE,GRADE,13.57,13.57,%,0
+418,242,Zn,RESOURCE,GRADE,8.97,8.97,%,1
+419,248,Ag,RESOURCE,AMOUNT,450000,450000,onza troy,2
+419,248,Ag,RESOURCE,GRADE,350,350,g/t,2
+419,241,Pb,RESOURCE,AMOUNT,16.28,16.28,millones de libras,0
+419,241,Pb,RESOURCE,GRADE,18.5,18.5,%,0
+419,242,Zn,RESOURCE,AMOUNT,352000,352000,libras,1
+419,242,Zn,RESOURCE,GRADE,0.4,0.4,%,1
+420,248,Ag,RESOURCE,AMOUNT,42500,42500,onza troy,2
+420,248,Ag,RESOURCE,GRADE,19.8,19.8,g/t,2
+420,241,Pb,RESOURCE,AMOUNT,0.943,0.943,millones de libras,0
+420,241,Pb,RESOURCE,GRADE,0.64,0.64,%,0
+420,242,Zn,RESOURCE,AMOUNT,1.18,1.18,millones de libras,1
+420,242,Zn,RESOURCE,GRADE,0.8,0.8,%,1
+425,241,Pb,RESOURCE,GRADE,3.17,3.17,%,0
+432,248,Ag,RESOURCE,GRADE,300,300,g/t,0
+432,249,Au,RESOURCE,GRADE,0.7,0.7,g/t,1
+444,248,Ag,RESOURCE,AMOUNT,2.07,2.07,millones de onzas troy,2
+444,248,Ag,RESOURCE,GRADE,438,438,g/t,2
+444,241,Pb,RESOURCE,AMOUNT,64.8,64.8,millones de libras,0
+444,241,Pb,RESOURCE,GRADE,20,20,%,0
+444,242,Zn,RESOURCE,AMOUNT,32.4,32.4,millones de libras,1
+444,242,Zn,RESOURCE,GRADE,10,10,%,1
+445,248,Ag,RESOURCE,AMOUNT,10.5,10.5,millones de onzas troy,2
+445,248,Ag,RESOURCE,GRADE,196,196,g/t,2
+445,241,Pb,RESOURCE,AMOUNT,313.04,313.04,millones de libras,0
+445,241,Pb,RESOURCE,GRADE,8.5,8.5,%,0
+445,242,Zn,RESOURCE,AMOUNT,294.6,294.6,millones de libras,1
+445,242,Zn,RESOURCE,GRADE,8,8,%,1
+448,248,Ag,RESOURCE,GRADE,662,662,g/t,2
+448,241,Pb,RESOURCE,GRADE,2.9,2.9,%,0
+448,242,Zn,RESOURCE,GRADE,5.3,5.3,%,1
+469,248,Ag,RESOURCE,GRADE,115,115,g/t,2
+469,241,Pb,RESOURCE,GRADE,4,4,%,0
+469,242,Zn,RESOURCE,GRADE,7.4,7.4,%,1
+475,249,Au,RESOURCE,GRADE,4,4,g/t,1
+475,241,Pb,RESOURCE,GRADE,8,8,%,0
+485,241,Pb,RESOURCE,GRADE,6.8,6.8,%,0
+485,242,Zn,RESOURCE,GRADE,8.4,8.4,%,1
+486,248,Ag,PRODUCTION,GRADE,556,556,g/t,2
+486,248,Ag,RESOURCE,GRADE,300,300,g/t,2
+486,241,Pb,PRODUCTION,GRADE,34.12,34.12,%,0
+486,241,Pb,RESOURCE,GRADE,25,25,%,0
+486,242,Zn,PRODUCTION,GRADE,10.6,10.6,%,1
+486,242,Zn,RESOURCE,GRADE,10,10,%,1
+492,249,Au,RESOURCE,GRADE,15.64,15.64,g/t,0
+494,248,Ag,RESOURCE,GRADE,930,930,g/t,1
+494,241,Pb,RESOURCE,GRADE,25,25,%,0
+494,242,Zn,RESOURCE,GRADE,2.5,2.5,%,2
+495,248,Ag,RESOURCE,GRADE,930,930,g/t,1
+495,241,Pb,RESOURCE,GRADE,25,25,%,0
+495,242,Zn,RESOURCE,GRADE,2.5,2.5,%,2
+496,248,Ag,RESOURCE,GRADE,930,930,g/t,1
+496,241,Pb,RESOURCE,GRADE,25,25,%,0
+496,242,Zn,RESOURCE,GRADE,2.5,2.5,%,2
+497,248,Ag,RESOURCE,GRADE,930,930,g/t,1
+497,241,Pb,RESOURCE,GRADE,25,25,%,0
+497,242,Zn,RESOURCE,GRADE,2.5,2.5,%,2
+498,248,Ag,RESOURCE,GRADE,930,930,g/t,1
+498,241,Pb,RESOURCE,GRADE,25,25,%,0
+498,242,Zn,RESOURCE,GRADE,2.5,2.5,%,2
+500,248,Ag,RESOURCE,GRADE,115,115,g/t,1
+500,241,Pb,RESOURCE,GRADE,5.2,5.2,%,0
+503,248,Ag,RESOURCE,GRADE,320,320,g/t,1
+503,241,Pb,RESOURCE,GRADE,8.35,8.35,%,0
+506,248,Ag,RESOURCE,GRADE,350,350,g/t,1
+506,241,Pb,RESOURCE,GRADE,11,11,%,0
+515,248,Ag,RESOURCE,GRADE,450,450,g/t,1
+515,241,Pb,RESOURCE,GRADE,23.4,23.4,%,0
+527,248,Ag,RESOURCE,GRADE,437,437,g/t,2
+527,241,Pb,RESOURCE,GRADE,38,38,%,0
+527,242,Zn,RESOURCE,GRADE,1.2,1.2,%,1
+530,249,Au,RESOURCE,GRADE,5,5,g/t,0
+532,249,Au,RESOURCE,GRADE,6.11,6.11,g/t,0
+536,249,Au,RESOURCE,GRADE,8.48,8.48,g/t,0
+550,248,Ag,RESOURCE,GRADE,279,279,g/t,1
+550,249,Au,RESOURCE,GRADE,3.1,3.1,g/t,0
+572,248,Ag,RESOURCE,GRADE,331,331,g/t,0
+579,248,Ag,RESOURCE,AMOUNT,22,22,tonelada métrica,1
+579,248,Ag,RESOURCE,GRADE,5,5,g/t,1
+579,249,Au,RESOURCE,AMOUNT,4.4,4.4,tonelada métrica,0
+579,249,Au,RESOURCE,GRADE,1,1,g/t,0
+580,248,Ag,RESOURCE,GRADE,68.63,68.63,g/t,1
+580,249,Au,RESOURCE,GRADE,1.85,1.85,g/t,0
+584,248,Ag,RESOURCE,GRADE,133,133,g/t,0
+584,249,Au,RESOURCE,GRADE,6.2,6.2,g/t,1
+585,248,Ag,RESOURCE,GRADE,209,209,g/t,1
+585,249,Au,RESOURCE,GRADE,2.32,2.32,g/t,0
+587,248,Ag,RESOURCE,AMOUNT,1620,1620,tonelada métrica,0
+587,248,Ag,RESOURCE,GRADE,120,120,g/t,0
+587,249,Au,RESOURCE,AMOUNT,135,135,tonelada métrica,1
+587,249,Au,RESOURCE,GRADE,10,10,g/t,1
+2010,244,Fe,RESOURCE,GRADE,40,40,%,0
+2010,244,Fe,RESOURCE,GRADE,46,46,%,1
+2012,244,Fe,RESOURCE,GRADE,30,30,%,0
+2012,244,Fe,RESOURCE,GRADE,38,38,%,1
+2013,244,Fe,RESOURCE,AMOUNT,38.18,38.18,millones de toneladas métricas,0
+2013,244,Fe,RESOURCE,GRADE,44.21,44.21,%,0
+2013,244,Fe,RESOURCE,GRADE,41.5,41.5,%,1
+2014,244,Fe,RESOURCE,GRADE,21.6,21.6,%,0
+2014,244,Fe,RESOURCE,GRADE,36.4,36.4,%,1
+2025,245,Mn,PRODUCTION,AMOUNT,7500,7500,tonelada métrica,0
+2025,245,Mn,PRODUCTION,GRADE,25,25,%,0
+2047,244,Fe,RESOURCE,GRADE,35.6,35.6,%,0
+2049,244,Fe,RESOURCE,GRADE,46.28,46.28,%,0
+2051,244,Fe,RESOURCE,GRADE,32.2,32.2,%,0
+2051,244,Fe,RESOURCE,GRADE,40.9,40.9,%,1
+2055,245,Mn,RESOURCE,GRADE,32,32,%,0
+2056,245,Mn,PRODUCTION,GRADE,25,25,% (máximo),0
+2056,245,Mn,RESOURCE,AMOUNT,8000,8000,tonelada métrica,0
+2056,245,Mn,RESOURCE,GRADE,20,20,%,0
+2062,245,Mn,RESOURCE,GRADE,9.7,9.7,%,0
+2075,245,Mn,PRODUCTION,GRADE,16,16,%,0
+2075,245,Mn,PRODUCTION,GRADE,35,35,%,1
+2077,245,Mn,RESOURCE,GRADE,9.7,9.7,%,0
+2077,245,Mn,RESOURCE,GRADE,31.6,31.6,%,1
+2082,245,Mn,RESOURCE,GRADE,26,26,%,0
+2089,245,Mn,RESOURCE,GRADE,37,37,% (máximo),0
+2091,245,Mn,RESOURCE,GRADE,2.32,2.32,%,0
+2091,245,Mn,RESOURCE,GRADE,11.68,11.68,%,1
+2092,245,Mn,RESOURCE,GRADE,11.3,11.3,%,0
+2094,245,Mn,RESOURCE,GRADE,14.66,14.66,%,0
+2094,245,Mn,RESOURCE,GRADE,19.6,19.6,%,1
+2095,245,Mn,PRODUCTION,GRADE,40,40,%,0
+2095,245,Mn,RESOURCE,GRADE,33.63,33.63,% (máximo),0
+2095,245,Mn,RESOURCE,GRADE,11.91,11.91,%,1
+2096,245,Mn,PRODUCTION,GRADE,40,40,%,0
+2096,245,Mn,RESOURCE,GRADE,46.2,46.2,%,0
+2097,244,Fe,PRODUCTION,GRADE,55,55,% (máximo),0
+2097,244,Fe,RESOURCE,GRADE,36.9,36.9,% (máximo),0
+2097,245,Mn,RESOURCE,GRADE,32.61,32.61,% (máximo),1
+2098,244,Fe,RESOURCE,GRADE,28.81,28.81,% (máximo),0
+2098,245,Mn,RESOURCE,GRADE,25.31,25.31,% (máximo),1
+2099,244,Fe,RESOURCE,GRADE,7.51,7.51,% (máximo),1
+2099,245,Mn,RESOURCE,GRADE,34.21,34.21,% (máximo),0
+2100,244,Fe,RESOURCE,GRADE,24.21,24.21,% (máximo),1
+2100,245,Mn,RESOURCE,GRADE,37.36,37.36,% (máximo),0
+2106,245,Mn,PRODUCTION,GRADE,40,40,%,0
+2106,245,Mn,RESOURCE,GRADE,17.7,17.7,%,0
+2107,245,Mn,PRODUCTION,GRADE,40,40,% (máximo),0
+2112,245,Mn,PRODUCTION,GRADE,40,40,%,0
+2112,245,Mn,RESOURCE,GRADE,23.15,23.15,%,0
+2114,244,Fe,RESOURCE,GRADE,2.91,2.91,%,1
+2114,245,Mn,PRODUCTION,GRADE,47,47,% (máximo),0
+2114,245,Mn,RESOURCE,GRADE,25.35,25.35,%,0
+2121,244,Fe,RESOURCE,AMOUNT,124.41,124.41,tonelada métrica,0
+2123,244,Fe,PRODUCTION,GRADE,42,42,% (máximo),0
+2124,244,Fe,PRODUCTION,GRADE,55,55,% (máximo),0
+2125,245,Mn,RESOURCE,GRADE,20,20,%,0
+2130,244,Fe,RESOURCE,AMOUNT,14000,14000,tonelada métrica,0
+2130,244,Fe,RESOURCE,GRADE,35,35,%,0
+2138,245,Mn,RESOURCE,GRADE,26,26,%,0
+2145,244,Fe,RESOURCE,GRADE,60.14,60.14,%,0
+2149,244,Fe,RESOURCE,AMOUNT,25700,25700,tonelada métrica,0
+2149,244,Fe,RESOURCE,GRADE,64.4,64.4,% (máximo),0
+2157,244,Fe,RESOURCE,AMOUNT,18986.4,18986.4,tonelada métrica,0
+2157,244,Fe,RESOURCE,GRADE,60,60,%,0
+2161,245,Mn,PRODUCTION,GRADE,40,40,% (máximo),0
+2175,244,Fe,PRODUCTION,GRADE,50,50,% (máximo),0
+2175,244,Fe,RESOURCE,GRADE,60,60,%,0
+2181,244,Fe,PRODUCTION,GRADE,42.8,42.8,%,0
+2181,244,Fe,PRODUCTION,GRADE,52.4,52.4,%,1
+2193,245,Mn,PRODUCTION,GRADE,20,20,%,0
+2201,244,Fe,PRODUCTION,GRADE,68,68,% (máximo),0
+2201,244,Fe,RESOURCE,GRADE,58.5,58.5,% (máximo),0
+2203,244,Fe,RESOURCE,GRADE,57.4,57.4,%,0
+2216,244,Fe,RESOURCE,GRADE,57.3,57.3,%,0
+2216,246,TiO2,RESOURCE,GRADE,14.5,14.5,%,1
+2218,244,Fe,RESOURCE,GRADE,35,35,%,0
+2219,244,Fe,RESOURCE,GRADE,34.9,34.9,%,0
+2220,244,Fe,RESOURCE,GRADE,35.4,35.4,%,0
+2221,244,Fe,RESOURCE,GRADE,28,28,%,0
+3005,248,Ag,PRODUCTION,GRADE,20.3,20.3,g/t promedio,0
+3005,248,Ag,RESOURCE,GRADE,275.8,275.8,g/t,1
+3005,239,Cu,RESOURCE,GRADE,12.71,12.71,%,0
+3006,239,Cu,RESOURCE,GRADE,10,10,% media,0
+3008,239,Cu,RESOURCE,GRADE,1.3,1.3,% (máximo),0
+3010,248,Ag,RESOURCE,AMOUNT,1.8,1.8,tonelada métrica,2
+3010,248,Ag,RESOURCE,GRADE,270,270,g/t (máximo),3
+3010,248,Ag,RESOURCE,GRADE,270,270,g/t,6
+3010,239,Cu,RESOURCE,AMOUNT,37,37,tonelada métrica,0
+3010,239,Cu,RESOURCE,GRADE,4,4,% (mínimo),0
+3010,239,Cu,RESOURCE,GRADE,5.5,5.5,%,4
+3010,240,Ni,RESOURCE,AMOUNT,20.25,20.25,tonelada métrica,1
+3010,240,Ni,RESOURCE,GRADE,0.3,0.3,% (máximo),2
+3010,240,Ni,RESOURCE,GRADE,0.3,0.3,%,5
+3010,241,Pb,RESOURCE,GRADE,7,7,% (máximo),1
+3012,239,Cu,RESOURCE,GRADE,7.82,7.82,%,0
+3013,239,Cu,RESOURCE,GRADE,0.29,0.29,%,0
+3013,239,Cu,RESOURCE,GRADE,0.86,0.86,%,1
+3016,239,Cu,RESOURCE,GRADE,14,14,% (máximo),0
+3018,239,Cu,RESOURCE,GRADE,13.66,13.66,% media,0
+3019,239,Cu,RESOURCE,GRADE,2.9,2.9,% media,0
+3020,248,Ag,RESOURCE,GRADE,0.31,0.31,g/t (máximo),1
+3020,239,Cu,RESOURCE,GRADE,14,14,% (máximo; una muestra),0
+3028,239,Cu,RESOURCE,GRADE,6.5,6.5,% (máximo),0
+3033,239,Cu,RESOURCE,AMOUNT,964000,964000,tonelada métrica,0
+3033,239,Cu,RESOURCE,GRADE,2.41,2.41,%,0
+3040,248,Ag,RESOURCE,GRADE,10,10,g/t (máximo),5
+3040,239,Cu,RESOURCE,AMOUNT,62500,62500,tonelada métrica,0
+3040,239,Cu,RESOURCE,GRADE,0.5,0.5,%,2
+3040,244,Fe,RESOURCE,GRADE,50,50,% (máximo),0
+3040,241,Pb,RESOURCE,AMOUNT,62500,62500,tonelada métrica,1
+3040,241,Pb,RESOURCE,GRADE,1,1,% (máximo),4
+3040,286,S,RESOURCE,GRADE,30,30,% (máximo),1
+3040,242,Zn,RESOURCE,AMOUNT,12500,12500,tonelada métrica,2
+3040,242,Zn,RESOURCE,GRADE,1,1,% (máximo),3
+3042,248,Ag,RESOURCE,GRADE,62,62,g/t,2
+3042,248,Ag,RESOURCE,GRADE,5,5,g/t,4
+3042,249,Au,RESOURCE,GRADE,0.6,0.6,g/t,1
+3042,239,Cu,RESOURCE,GRADE,4.7,4.7,%,0
+3042,239,Cu,RESOURCE,GRADE,2,2,%,3
+3044,248,Ag,RESOURCE,GRADE,22,22,g/t,2
+3044,249,Au,RESOURCE,GRADE,0.2,0.2,g/t,1
+3044,239,Cu,RESOURCE,GRADE,2,2,%,0
+3053,248,Ag,RESOURCE,GRADE,3,3,g/t (máximo),3
+3053,239,Cu,RESOURCE,GRADE,0.096,0.096,% (máximo),0
+3053,241,Pb,RESOURCE,GRADE,0.66,0.66,% (máximo),1
+3053,242,Zn,RESOURCE,GRADE,0.026,0.026,% (máximo),2
+3054,248,Ag,RESOURCE,GRADE,1,1,g/t,0
+3055,239,Cu,RESOURCE,GRADE,60,60,%,0
+3057,248,Ag,RESOURCE,GRADE,1572,1572,g/t (máximo),0
+3057,239,Cu,RESOURCE,GRADE,18.68,18.68,% (máximo),1
+3060,249,Au,RESOURCE,AMOUNT,79,79,kilogramo,1
+3060,249,Au,RESOURCE,AMOUNT,1.8,1.8,millones de onzas troy,4
+3060,249,Au,RESOURCE,AMOUNT,0.17,0.17,millones de onzas troy,7
+3060,249,Au,RESOURCE,GRADE,0.18,0.18,g/t,1
+3060,249,Au,RESOURCE,GRADE,0.08,0.08,g/t,4
+3060,249,Au,RESOURCE,GRADE,0.08,0.08,g/t,7
+3060,249,Au,RESOURCE,GRADE,0.27,0.27,g/t,9
+3060,249,Au,RESOURCE,GRADE,0.2,0.2,g/t,12
+3060,249,Au,RESOURCE,GRADE,0.06,0.06,g/t,14
+3060,249,Au,RESOURCE,GRADE,0.05,0.05,g/t,17
+3060,249,Au,RESOURCE,GRADE,0.23,0.23,g/t,19
+3060,249,Au,RESOURCE,GRADE,0.2,0.2,g/t,22
+3060,239,Cu,RESOURCE,AMOUNT,2.52,2.52,millones de toneladas métricas,0
+3060,239,Cu,RESOURCE,AMOUNT,4.2,4.2,millones de toneladas métricas,3
+3060,239,Cu,RESOURCE,AMOUNT,0.396,0.396,millones de toneladas métricas,6
+3060,239,Cu,RESOURCE,GRADE,0.58,0.58,%,0
+3060,239,Cu,RESOURCE,GRADE,0.6,0.6,%,3
+3060,239,Cu,RESOURCE,GRADE,0.37,0.37,%,6
+3060,239,Cu,RESOURCE,GRADE,0.04,0.04,%,10
+3060,239,Cu,RESOURCE,GRADE,0.44,0.44,%,13
+3060,239,Cu,RESOURCE,GRADE,0.37,0.37,%,16
+3060,239,Cu,RESOURCE,GRADE,0.11,0.11,%,20
+3060,224,Mo,RESOURCE,AMOUNT,88000,88000,tonelada métrica,2
+3060,224,Mo,RESOURCE,AMOUNT,63090,63090,tonelada métrica,5
+3060,224,Mo,RESOURCE,AMOUNT,4500,4500,tonelada métrica,8
+3060,224,Mo,RESOURCE,GRADE,0.02,0.02,%,2
+3060,224,Mo,RESOURCE,GRADE,0.009,0.009,%,5
+3060,224,Mo,RESOURCE,GRADE,0.015,0.015,%,8
+3060,224,Mo,RESOURCE,GRADE,0.018,0.018,%,11
+3060,224,Mo,RESOURCE,GRADE,0.005,0.005,%,15
+3060,224,Mo,RESOURCE,GRADE,0.012,0.012,%,18
+3060,224,Mo,RESOURCE,GRADE,0.008,0.008,%,21
+3061,249,Au,RESOURCE,AMOUNT,570,570,kilogramo,1
+3061,249,Au,RESOURCE,GRADE,0.03,0.03,g/t,1
+3061,239,Cu,RESOURCE,AMOUNT,55100,55100,tonelada métrica,0
+3061,239,Cu,RESOURCE,GRADE,0.29,0.29,%,0
+3061,224,Mo,RESOURCE,AMOUNT,15200,15200,tonelada métrica,2
+3061,224,Mo,RESOURCE,GRADE,0.08,0.08,%,2
+3062,248,Ag,RESOURCE,AMOUNT,356.5,356.5,millones de onzas troy,1
+3062,248,Ag,RESOURCE,AMOUNT,2208000,2208000,millones de toneladas métricas,2
+3062,248,Ag,RESOURCE,AMOUNT,906,906,kilogramo,5
+3062,248,Ag,RESOURCE,GRADE,19.2,19.2,g/t,1
+3062,248,Ag,RESOURCE,GRADE,19.2,19.2,g/t,4
+3062,248,Ag,RESOURCE,GRADE,19.2,19.2,g/t,7
+3062,239,Cu,RESOURCE,AMOUNT,5209.5,5209.5,millones de libras,0
+3062,239,Cu,RESOURCE,AMOUNT,95450,95450,tonelada métrica,3
+3062,239,Cu,RESOURCE,AMOUNT,395,395,tonelada métrica,4
+3062,239,Cu,RESOURCE,GRADE,0.83,0.83,%,0
+3062,239,Cu,RESOURCE,GRADE,0.3,0.3,% (mínimo),2
+3062,239,Cu,RESOURCE,GRADE,0.83,0.83,%,3
+3062,239,Cu,RESOURCE,GRADE,0.3,0.3,porcentaje,5
+3062,239,Cu,RESOURCE,GRADE,0.83,0.83,%,6
+3064,276,As,RESOURCE,GRADE,31.46,31.46,% (máximo),4
+3064,238,Co,RESOURCE,GRADE,1.76,1.76,% (máximo),3
+3064,240,Ni,RESOURCE,GRADE,1.65,1.65,% media máximo,0
+3064,241,Pb,RESOURCE,GRADE,30,30,% (máximo),1
+3064,242,Zn,RESOURCE,GRADE,21,21,% (máximo),2
+3069,248,Ag,RESOURCE,GRADE,200,200,g/t,1
+3069,239,Cu,RESOURCE,GRADE,6.5,6.5,% (máximo),0
+3070,239,Cu,RESOURCE,GRADE,6.5,6.5,% (máximo),0
+3079,239,Cu,RESOURCE,GRADE,6,6,% (máximo),0
+3080,239,Cu,RESOURCE,GRADE,0.4,0.4,%,0
+3083,249,Au,RESOURCE,GRADE,0.73,0.73,g/t promedio,1
+3083,239,Cu,RESOURCE,GRADE,0.36,0.36,% media,0
+3084,249,Au,RESOURCE,AMOUNT,0.63,0.63,millones de onzas troy,0
+3084,249,Au,RESOURCE,AMOUNT,1.26,1.26,millones de onzas troy,2
+3084,249,Au,RESOURCE,AMOUNT,1.88,1.88,millones de toneladas métricas,4
+3084,249,Au,RESOURCE,GRADE,0.73,0.73,g/t promedio,0
+3084,249,Au,RESOURCE,GRADE,0.2,0.2,g/t,2
+3084,249,Au,RESOURCE,GRADE,0.74,0.74,g/t,3
+3084,249,Au,RESOURCE,GRADE,0.51,0.51,g/t promedio,5
+3084,249,Au,RESOURCE,GRADE,0.2,0.2,g/t,7
+3084,249,Au,RESOURCE,GRADE,0.57,0.57,g/t promedio,8
+3084,249,Au,RESOURCE,GRADE,0.56,0.56,g/t promedio,10
+3084,249,Au,RESOURCE,GRADE,0.2,0.2,g/t,12
+3084,239,Cu,RESOURCE,AMOUNT,29590,29590,tonelada métrica,1
+3084,239,Cu,RESOURCE,AMOUNT,77100,77100,tonelada métrica,3
+3084,239,Cu,RESOURCE,AMOUNT,104000,104000,tonelada métrica,5
+3084,239,Cu,RESOURCE,GRADE,0.11,0.11,% promedio,1
+3084,239,Cu,RESOURCE,GRADE,0.11,0.11,g/t promedio,4
+3084,239,Cu,RESOURCE,GRADE,0.1,0.1,% promedio,6
+3084,239,Cu,RESOURCE,GRADE,0.11,0.11,% promedio,9
+3084,239,Cu,RESOURCE,GRADE,0.1,0.1,% promedio,11
+3085,249,Au,PRODUCTION,GRADE,4,4,g/t promedio,0
+3085,249,Au,RESOURCE,GRADE,2,2,g/t,0
+3085,214,Bi,RESOURCE,GRADE,0.09,0.09,%,1
+3087,239,Cu,RESOURCE,GRADE,1,1,% (máximo),0
+3090,239,Cu,RESOURCE,GRADE,0.7,0.7,%,0
+3091,239,Cu,RESOURCE,GRADE,6,6,%,0
+3091,244,Fe,RESOURCE,GRADE,30,30,% (máximo),1
+3092,239,Cu,RESOURCE,GRADE,7.5,7.5,%,0
+3092,241,Pb,RESOURCE,GRADE,0.1,0.1,%,1
+3096,248,Ag,RESOURCE,AMOUNT,263,263,millones de onzas troy,1
+3096,248,Ag,RESOURCE,AMOUNT,3300,3300,tonelada métrica,3
+3096,248,Ag,RESOURCE,GRADE,29,29,g/t,0
+3096,248,Ag,RESOURCE,GRADE,68.3,68.3,g/t,3
+3096,249,Au,RESOURCE,AMOUNT,2.99,2.99,millones de onzas troy,0
+3096,249,Au,RESOURCE,AMOUNT,21,21,tonelada métrica,2
+3096,249,Au,RESOURCE,GRADE,0.33,0.33,g/t,1
+3096,249,Au,RESOURCE,GRADE,0.42,0.42,g/t,2
+3114,249,Au,RESOURCE,GRADE,0.2,0.2,g/t promedio,1
+3114,239,Cu,RESOURCE,GRADE,0.57,0.57,%,0
+3114,239,Cu,RESOURCE,GRADE,0.4,0.4,porcentaje,3
+3114,224,Mo,RESOURCE,GRADE,0.043,0.043,%,2
+3115,249,Au,PRODUCTION,AMOUNT,5.16,5.16,tonelada métrica,0
+3115,249,Au,RESOURCE,AMOUNT,490,490,tonelada métrica,1
+3115,249,Au,RESOURCE,GRADE,0.64,0.64,g/t,1
+3115,249,Au,RESOURCE,GRADE,0.35,0.35,g/t,4
+3115,239,Cu,RESOURCE,AMOUNT,3.84,3.84,millones de toneladas métricas,0
+3115,239,Cu,RESOURCE,GRADE,0.51,0.51,%,0
+3115,239,Cu,RESOURCE,GRADE,0.35,0.35,%,3
+3115,224,Mo,PRODUCTION,AMOUNT,11636,11636,tonelada métrica,1
+3115,224,Mo,RESOURCE,AMOUNT,52000,52000,tonelada métrica,2
+3115,224,Mo,RESOURCE,GRADE,0.007,0.007,%,2
+3115,224,Mo,RESOURCE,GRADE,0.012,0.012,%,5
+3118,248,Ag,RESOURCE,AMOUNT,43,43,tonelada métrica,1
+3118,248,Ag,RESOURCE,GRADE,108,108,g/t,1
+3118,249,Au,RESOURCE,AMOUNT,1,1,tonelada métrica,0
+3118,249,Au,RESOURCE,GRADE,2.6,2.6,g/t,0
+3118,239,Cu,RESOURCE,AMOUNT,9700,9700,tonelada métrica,2
+3118,239,Cu,RESOURCE,GRADE,2.3,2.3,%,2
+3122,249,Au,RESOURCE,GRADE,0.02,0.02,g/t,2
+3122,239,Cu,RESOURCE,GRADE,0.25,0.25,%,1
+3122,224,Mo,RESOURCE,GRADE,0.02,0.02,%,0
+3123,239,Cu,RESOURCE,GRADE,1,1,% media,0
+3123,241,Pb,RESOURCE,GRADE,0.95,0.95,% media,1
+3123,242,Zn,RESOURCE,GRADE,0.17,0.17,% media,2
+3129,239,Cu,RESOURCE,GRADE,13,13,% (máximo),0
+3131,239,Cu,RESOURCE,GRADE,4.3,4.3,% (máximo),0
+3131,241,Pb,RESOURCE,GRADE,5.3,5.3,% (máximo),1
+3132,239,Cu,RESOURCE,GRADE,2,2,%,0
+3135,248,Ag,RESOURCE,GRADE,11,11,g/t (máximo),0
+3135,249,Au,RESOURCE,GRADE,5,5,g/t (máximo),1
+3136,239,Cu,RESOURCE,GRADE,1.69,1.69,%,0
+3136,242,Zn,RESOURCE,GRADE,0.12,0.12,%,1
+3137,239,Cu,RESOURCE,GRADE,1.1,1.1,% (máximo),0
+3137,242,Zn,RESOURCE,GRADE,0.1,0.1,%,1
+3138,239,Cu,RESOURCE,GRADE,17.55,17.55,% (máximo),0
+3139,248,Ag,RESOURCE,AMOUNT,75800,75800,onza troy,1
+3139,248,Ag,RESOURCE,GRADE,390,390,g/t,1
+3139,239,Cu,RESOURCE,AMOUNT,0.95,0.95,millones de libras,0
+3139,239,Cu,RESOURCE,GRADE,7.1,7.1,%,0
+3139,241,Pb,RESOURCE,GRADE,0.74,0.74,%,2
+3139,242,Zn,RESOURCE,GRADE,0.17,0.17,%,3
+3142,239,Cu,RESOURCE,GRADE,6.12,6.12,% (máximo),0
+3143,248,Ag,RESOURCE,AMOUNT,48000,48000,onza troy,1
+3143,248,Ag,RESOURCE,GRADE,150,150,g/t,1
+3143,239,Cu,RESOURCE,AMOUNT,0.78,0.78,millones de libras,0
+3143,239,Cu,RESOURCE,GRADE,3.58,3.58,% (máximo),0
+3146,249,Au,RESOURCE,GRADE,4.7,4.7,g/t,1
+3146,239,Cu,RESOURCE,GRADE,1.72,1.72,%,0
+3147,248,Ag,RESOURCE,GRADE,39,39,g/t (máximo),2
+3147,249,Au,RESOURCE,GRADE,0.5,0.5,g/t (máximo),1
+3147,239,Cu,RESOURCE,GRADE,2.83,2.83,% (máximo),0
+3148,239,Cu,RESOURCE,GRADE,5,5,% (máximo),0
+3149,248,Ag,RESOURCE,GRADE,58.9,58.9,g/t,2
+3149,249,Au,RESOURCE,GRADE,4.8,4.8,g/t,1
+3149,239,Cu,RESOURCE,GRADE,0.88,0.88,%,0
+3150,239,Cu,RESOURCE,GRADE,5.6,5.6,% (máximo),0
+3152,248,Ag,RESOURCE,GRADE,103.9,103.9,g/t (máximo),2
+3152,249,Au,RESOURCE,GRADE,2.1,2.1,g/t (máximo),1
+3152,239,Cu,RESOURCE,GRADE,3.1,3.1,% (máximo),0
+3154,248,Ag,RESOURCE,GRADE,735,735,g/t (máximo),3
+3154,249,Au,RESOURCE,GRADE,25,25,g/t (máximo),2
+3154,239,Cu,RESOURCE,GRADE,3.8,3.8,% (máximo),0
+3154,241,Pb,RESOURCE,GRADE,53.5,53.5,% (máximo),1
+3156,248,Ag,RESOURCE,GRADE,100,100,g/t,1
+3156,239,Cu,RESOURCE,GRADE,3,3,% (máximo),0
+3158,248,Ag,RESOURCE,AMOUNT,25,25,millones de onzas troy,4
+3158,248,Ag,RESOURCE,AMOUNT,33,33,millones de onzas troy,7
+3158,248,Ag,RESOURCE,AMOUNT,22,22,millones de onzas troy,10
+3158,248,Ag,RESOURCE,GRADE,1.2,1.2,g/t,5
+3158,248,Ag,RESOURCE,GRADE,1.1,1.1,g/t,8
+3158,248,Ag,RESOURCE,GRADE,1,1,g/t,11
+3158,249,Au,RESOURCE,AMOUNT,9.9,9.9,millones de onzas troy,1
+3158,249,Au,RESOURCE,AMOUNT,5.2,5.2,millones de onzas troy,3
+3158,249,Au,RESOURCE,AMOUNT,4.5,4.5,millones de onzas troy,6
+3158,249,Au,RESOURCE,AMOUNT,2.5,2.5,millones de onzas troy,9
+3158,249,Au,RESOURCE,GRADE,0.22,0.22,g/t,1
+3158,249,Au,RESOURCE,GRADE,0.25,0.25,g/t,4
+3158,249,Au,RESOURCE,GRADE,0.15,0.15,g/t,7
+3158,249,Au,RESOURCE,GRADE,0.11,0.11,g/t,10
+3158,239,Cu,RESOURCE,AMOUNT,9.4,9.4,billones de libras,0
+3158,239,Cu,RESOURCE,AMOUNT,2.143,2.143,millones de toneladas métricas,2
+3158,239,Cu,RESOURCE,AMOUNT,2.436,2.436,millones de toneladas métricas,5
+3158,239,Cu,RESOURCE,AMOUNT,1.515,1.515,millones de toneladas métricas,8
+3158,239,Cu,RESOURCE,GRADE,0.31,0.31,%,0
+3158,239,Cu,RESOURCE,GRADE,0.25,0.25,%,2
+3158,239,Cu,RESOURCE,GRADE,0.33,0.33,%,3
+3158,239,Cu,RESOURCE,GRADE,0.25,0.25,%,6
+3158,239,Cu,RESOURCE,GRADE,0.22,0.22,%,9
+3159,239,Cu,RESOURCE,GRADE,7.23,7.23,% media,0
+3160,239,Cu,RESOURCE,GRADE,2.5,2.5,%,0
+3160,244,Fe,RESOURCE,GRADE,4,4,%,1
+3161,239,Cu,RESOURCE,GRADE,5.9,5.9,% media,0
+3161,244,Fe,RESOURCE,GRADE,9.1,9.1,% media,1
+3162,239,Cu,RESOURCE,GRADE,0.17,0.17,% (máximo),0
+3162,224,Mo,RESOURCE,GRADE,0.0604,0.0604,% (máximo),1
+3163,239,Cu,RESOURCE,GRADE,0.4,0.4,% (máximo),0
+3163,224,Mo,RESOURCE,GRADE,0.056,0.056,% (máximo),1
+3164,239,Cu,RESOURCE,GRADE,4.74,4.74,%,0
+3164,244,Fe,RESOURCE,GRADE,14.2,14.2,%,1
+3165,239,Cu,RESOURCE,GRADE,2,2,% media,0
+3166,238,Co,RESOURCE,GRADE,0.035,0.035,% media,2
+3166,239,Cu,PRODUCTION,GRADE,8,8,% media,0
+3166,239,Cu,RESOURCE,AMOUNT,24.2,24.2,millones de libras,0
+3166,239,Cu,RESOURCE,GRADE,0.5,0.5,% media,1
+3166,240,Ni,RESOURCE,GRADE,0.51,0.51,% media,0
+3166,252,Pd,RESOURCE,GRADE,0.75,0.75,g/t (máximo),4
+3166,253,Pt,RESOURCE,GRADE,2,2,g/t (máximo),3
+3168,248,Ag,RESOURCE,GRADE,193.1,193.1,g/t promedio,2
+3168,249,Au,RESOURCE,GRADE,7.53,7.53,g/t promedio,1
+3168,239,Cu,RESOURCE,GRADE,3.1,3.1,% media,0
+3173,248,Ag,RESOURCE,GRADE,5,5,g/t (máximo),2
+3173,249,Au,RESOURCE,GRADE,2,2,g/t (máximo),1
+3173,239,Cu,RESOURCE,GRADE,1.4,1.4,% (máximo),0
+3174,239,Cu,RESOURCE,GRADE,0.7,0.7,% (máximo),0
+3174,224,Mo,RESOURCE,GRADE,0.02,0.02,%,2
+3174,242,Zn,RESOURCE,GRADE,1,1,% (máximo),1
+3175,249,Au,RESOURCE,GRADE,0.37,0.37,g/t (máximo),1
+3175,239,Cu,RESOURCE,GRADE,2.16,2.16,% (máximo),0
+3176,248,Ag,RESOURCE,GRADE,48.4,48.4,g/t,1
+3176,249,Au,RESOURCE,GRADE,14.9,14.9,g/t (máximo),2
+3176,239,Cu,RESOURCE,GRADE,6.16,6.16,% media,0
+3178,248,Ag,RESOURCE,GRADE,32,32,g/t,1
+3178,239,Cu,RESOURCE,GRADE,1.56,1.56,%,0
+3179,249,Au,RESOURCE,GRADE,0.07,0.07,%,1
+3179,239,Cu,RESOURCE,AMOUNT,0.31,0.31,billones de libras,0
+3179,239,Cu,RESOURCE,GRADE,0.45,0.45,%,0
+3179,239,Cu,RESOURCE,GRADE,0.3,0.3,%,2
+3180,239,Cu,RESOURCE,GRADE,0.9,0.9,% (máximo),0
+3182,249,Au,RESOURCE,GRADE,0.8,0.8,g/t (máximo),0
+3183,239,Cu,RESOURCE,GRADE,3.4,3.4,% (máximo),0
+3184,239,Cu,RESOURCE,GRADE,2.44,2.44,% (máximo),0
+3185,214,Bi,RESOURCE,GRADE,160,160,g/t,1
+3185,239,Cu,RESOURCE,GRADE,5.84,5.84,% (máximo),0
+3186,248,Ag,RESOURCE,GRADE,380,380,g/t (máximo),1
+3186,214,Bi,RESOURCE,GRADE,2000,2000,ppm (máximo),2
+3186,239,Cu,RESOURCE,GRADE,2.44,2.44,% (máximo),0
+3187,248,Ag,RESOURCE,GRADE,164,164,g/t (máximo),3
+3187,249,Au,RESOURCE,GRADE,8,8,g/t (máximo),4
+3187,239,Cu,RESOURCE,GRADE,12.52,12.52,% (máximo),0
+3187,241,Pb,RESOURCE,GRADE,0.7,0.7,% (máximo),2
+3187,242,Zn,RESOURCE,GRADE,1.8,1.8,% (máximo),1
+3189,239,Cu,RESOURCE,GRADE,17.04,17.04,% (máximo),0
+3189,244,Fe,RESOURCE,GRADE,25.04,25.04,% (máximo),1
+3191,239,Cu,RESOURCE,GRADE,0.22,0.22,%,0
+3192,249,Au,RESOURCE,GRADE,4.5,4.5,g/t,2
+3192,239,Cu,RESOURCE,GRADE,2.7,2.7,%,0
+3192,241,Pb,RESOURCE,GRADE,2.8,2.8,%,1
+3193,248,Ag,RESOURCE,GRADE,200,200,g/t,2
+3193,249,Au,RESOURCE,GRADE,4,4,g/t,3
+3193,214,Bi,PRODUCTION,GRADE,4.5,4.5,% (máximo),1
+3193,214,Bi,RESOURCE,GRADE,1.2,1.2,%,1
+3193,239,Cu,PRODUCTION,GRADE,6,6,% (máximo),0
+3193,239,Cu,RESOURCE,GRADE,5,5,%,0
+3194,249,Au,RESOURCE,GRADE,6,6,g/t (máximo),0
+3195,239,Cu,RESOURCE,GRADE,9,9,% (máximo),0
+3196,248,Ag,RESOURCE,GRADE,1.8,1.8,g/t,2
+3196,249,Au,RESOURCE,GRADE,0.07,0.07,g/t,1
+3196,239,Cu,RESOURCE,AMOUNT,19.69,19.69,billones de libras,0
+3196,239,Cu,RESOURCE,GRADE,0.5,0.5,%,0
+3197,239,Cu,RESOURCE,GRADE,11.7,11.7,%,0
+3197,241,Pb,RESOURCE,GRADE,3.33,3.33,%,1
+3198,239,Cu,RESOURCE,GRADE,9.15,9.15,%,0
+3199,239,Cu,RESOURCE,GRADE,6.5,6.5,% media,0
+3200,239,Cu,RESOURCE,GRADE,0.7,0.7,% (mínimo),0
+3201,248,Ag,RESOURCE,GRADE,19.1,19.1,g/t promedio,2
+3201,239,Cu,RESOURCE,GRADE,1.04,1.04,% media,0
+3201,241,Pb,RESOURCE,GRADE,0.228,0.228,% media,1
+3202,248,Ag,RESOURCE,GRADE,190,190,g/t (máximo),1
+3202,239,Cu,RESOURCE,GRADE,5,5,%,0
+3202,241,Pb,RESOURCE,GRADE,7.1,7.1,%,2
+3202,242,Zn,RESOURCE,GRADE,2.2,2.2,%,3
+3204,248,Ag,RESOURCE,GRADE,254,254,g/t (máximo),3
+3204,249,Au,RESOURCE,GRADE,29,29,g/t,2
+3204,239,Cu,RESOURCE,GRADE,1.75,1.75,% (máximo),0
+3204,224,Mo,RESOURCE,GRADE,566,566,ppm,1
+3205,239,Cu,RESOURCE,GRADE,0.3,0.3,% (máximo),0
+3205,224,Mo,RESOURCE,GRADE,0.016,0.016,% (máximo),1
+3206,248,Ag,RESOURCE,GRADE,2.243,2.243,g/t,3
+3206,249,Au,RESOURCE,GRADE,0.015,0.015,g/t,2
+3206,239,Cu,RESOURCE,AMOUNT,34.14,34.14,billones de libras,0
+3206,239,Cu,RESOURCE,GRADE,0.47,0.47,%,0
+3206,239,Cu,RESOURCE,GRADE,0.2,0.2,%,4
+3206,224,Mo,RESOURCE,GRADE,0.011,0.011,%,1
+3209,249,Au,RESOURCE,GRADE,0.09,0.09,g/t,2
+3209,239,Cu,RESOURCE,GRADE,0.271,0.271,%,0
+3209,224,Mo,RESOURCE,GRADE,0.009,0.009,%,1
+3210,248,Ag,RESOURCE,GRADE,400,400,g/t,1
+3210,239,Cu,RESOURCE,GRADE,7,7,%,0
+3212,239,Cu,RESOURCE,GRADE,0.58,0.58,%,0
+3213,239,Cu,PRODUCTION,GRADE,5,5,% media,0
+3213,239,Cu,RESOURCE,GRADE,5,5,%,0
+3215,249,Au,RESOURCE,AMOUNT,3.45,3.45,millones de onzas troy,1
+3215,249,Au,RESOURCE,GRADE,2.5,2.5,g/t (máximo),1
+3215,239,Cu,RESOURCE,AMOUNT,804,804,millones de libras,0
+3215,239,Cu,RESOURCE,GRADE,0.85,0.85,% (máximo),0
+3222,248,Ag,RESOURCE,GRADE,100,100,g/t,0
+3242,249,Au,RESOURCE,GRADE,0.08,0.08,g/t selección,2
+3242,239,Cu,PRODUCTION,GRADE,46.5,46.5,% media,0
+3242,239,Cu,RESOURCE,AMOUNT,3.3,3.3,millones de libras,0
+3242,239,Cu,RESOURCE,GRADE,1.5,1.5,%,0
+3242,242,Zn,RESOURCE,GRADE,9.5,9.5,% selección,1
+3251,248,Ag,RESOURCE,GRADE,30,30,g/t,1
+3251,239,Cu,PRODUCTION,GRADE,22,22,% (máximo),0
+3251,239,Cu,RESOURCE,GRADE,4.27,4.27,%,0
+3256,239,Cu,RESOURCE,GRADE,1,1,%,0
+3262,239,Cu,RESOURCE,GRADE,1.6,1.6,%,0
+3266,239,Cu,RESOURCE,GRADE,3,3,%,0
+3272,239,Cu,RESOURCE,GRADE,1.75,1.75,%,0
+3277,239,Cu,RESOURCE,GRADE,4.2,4.2,%,0
+3282,239,Cu,RESOURCE,GRADE,4.8,4.8,%,0
+3283,239,Cu,RESOURCE,GRADE,4.8,4.8,%,0
+3284,248,Ag,RESOURCE,GRADE,1,1,g/t,1
+3284,249,Au,RESOURCE,GRADE,0.5,0.5,g/t,2
+3284,239,Cu,RESOURCE,GRADE,5,5,%,0
+3287,239,Cu,RESOURCE,GRADE,0.84,0.84,%,0
+3291,248,Ag,RESOURCE,GRADE,12,12,g/t,4
+3291,249,Au,RESOURCE,GRADE,0.51,0.51,g/t,5
+3291,238,Co,RESOURCE,GRADE,0.05,0.05,%,3
+3291,239,Cu,RESOURCE,GRADE,6.4,6.4,%,0
+3291,240,Ni,RESOURCE,GRADE,0.2,0.2,%,2
+3291,242,Zn,RESOURCE,GRADE,4.3,4.3,%,1
+3292,239,Cu,RESOURCE,GRADE,6,6,%,0
+3293,239,Cu,RESOURCE,GRADE,3.1,3.1,%,0
+3302,239,Cu,RESOURCE,AMOUNT,3.96,3.96,millones de libras,0
+3302,239,Cu,RESOURCE,GRADE,3,3,%,0
+3304,239,Cu,PRODUCTION,GRADE,10,10,% media,0
+3304,239,Cu,RESOURCE,AMOUNT,7.29,7.29,millones de libras,0
+3304,239,Cu,RESOURCE,GRADE,1.29,1.29,% media,0
+3319,239,Cu,PRODUCTION,GRADE,12,12,% media máximo,0
+3319,239,Cu,RESOURCE,GRADE,1.86,1.86,%,0
+3323,239,Cu,RESOURCE,GRADE,11,11,% selección,0
+3327,249,Au,RESOURCE,GRADE,2.5,2.5,g/t (máximo),1
+3327,239,Cu,RESOURCE,GRADE,8.6,8.6,%,0
+3335,239,Cu,RESOURCE,GRADE,8.64,8.64,% media,0
+3337,248,Ag,RESOURCE,GRADE,8.1,8.1,g/t,1
+3337,239,Cu,RESOURCE,GRADE,0.2,0.2,%,0
+3337,224,Mo,RESOURCE,GRADE,0.25,0.25,%,2
+3338,239,Cu,RESOURCE,GRADE,6.49,6.49,%,0
+3349,241,Pb,PRODUCTION,GRADE,46.5,46.5,%,0
+3357,239,Cu,RESOURCE,GRADE,1.02,1.02,%,0
+3397,248,Ag,RESOURCE,GRADE,26.1,26.1,g/t promedio,1
+3397,239,Cu,RESOURCE,GRADE,1.73,1.73,% media,0
+4006,249,Au,RESOURCE,AMOUNT,6400,6400,onza troy,1
+4006,249,Au,RESOURCE,GRADE,0.7,0.7,g/t,1
+4006,279,Sb,PRODUCTION,GRADE,54,54,%,0
+4006,279,Sb,RESOURCE,AMOUNT,9.2,9.2,millones de libras,0
+4006,279,Sb,RESOURCE,GRADE,1.47,1.47,%,0
+4007,279,Sb,PRODUCTION,GRADE,40,40,%,0
+4016,256,ETR,RESOURCE,GRADE,0.65,0.65,%,1
+4016,233,Th,RESOURCE,GRADE,0.52,0.52,%,0
+5001,225,Nb,RESOURCE,GRADE,150,150,ppm,1
+5001,230,SnO2,RESOURCE,GRADE,0.61,0.61,%,0
+5001,232,Ta,RESOURCE,GRADE,200,200,ppm,2
+5004,230,Sn,RESOURCE,AMOUNT,2.23,2.23,millones de libras,0
+5004,230,Sn,RESOURCE,GRADE,1.5,1.5,%,0
+5005,225,Nb,RESOURCE,GRADE,150,150,ppm,1
+5005,230,Sn,RESOURCE,GRADE,0.61,0.61,%,0
+5005,232,Ta,RESOURCE,GRADE,200,200,ppm,2
+5008,236,WO3,RESOURCE,GRADE,1.5,1.5,% (máximo),0
+5011,236,WO3,RESOURCE,GRADE,1,1,% (máximo),0
+5012,236,WO3,RESOURCE,AMOUNT,31.52,31.52,tonelada métrica,0
+5012,236,WO3,RESOURCE,GRADE,0.65,0.65,% (máximo),0
+5013,236,WO3,RESOURCE,AMOUNT,255,255,tonelada métrica,0
+5013,236,WO3,RESOURCE,GRADE,1.5,1.5,% promedio,0
+5014,236,WO3,RESOURCE,AMOUNT,234.9,234.9,tonelada métrica,0
+5014,236,WO3,RESOURCE,GRADE,1.45,1.45,% (máximo),0
+5015,236,WO3,RESOURCE,AMOUNT,640,640,tonelada métrica,0
+5015,236,WO3,RESOURCE,GRADE,1.43,1.43,% (máximo),0
+5019,236,WO3,RESOURCE,AMOUNT,368.72,368.72,tonelada métrica,0
+5019,236,WO3,RESOURCE,GRADE,1,1,% (máximo),0
+5020,236,WO3,RESOURCE,GRADE,0.8,0.8,% promedio,0
+5021,236,WO3,RESOURCE,GRADE,1.9,1.9,% puntual,0
+5022,236,WO3,RESOURCE,AMOUNT,80,80,tonelada métrica,0
+5022,236,WO3,RESOURCE,GRADE,2,2,% (máximo),0
+5023,236,WO3,RESOURCE,AMOUNT,530,530,tonelada métrica,0
+5023,236,WO3,RESOURCE,GRADE,1,1,% (máximo),0
+5026,236,WO3,RESOURCE,GRADE,0.76,0.76,%,0
+5028,236,WO3,RESOURCE,GRADE,1,1,%,0
+5033,236,WO3,RESOURCE,AMOUNT,105,105,tonelada métrica,0
+5033,236,WO3,RESOURCE,GRADE,0.7,0.7,% (máximo),0
+5036,236,WO3,RESOURCE,GRADE,1,1,% (máximo),0
+5039,236,WO3,RESOURCE,AMOUNT,33.44,33.44,tonelada métrica,0
+5039,236,WO3,RESOURCE,GRADE,1,1,%,0
+5040,236,WO3,RESOURCE,AMOUNT,225,225,tonelada métrica,0
+5040,236,WO3,RESOURCE,GRADE,0.75,0.75,%,0
+5047,236,WO3,RESOURCE,GRADE,0.63,0.63,%,0
+5050,214,Bi,PRODUCTION,GRADE,64,64,% (máximo),1
+5050,236,WO3,PRODUCTION,GRADE,71,71,% (máximo),0
+5050,236,WO3,RESOURCE,AMOUNT,1410,1410,tonelada métrica,0
+5050,236,WO3,RESOURCE,GRADE,0.5,0.5,% (máximo),0
+5051,236,WO3,RESOURCE,GRADE,1,1,%,0
+5053,236,WO3,RESOURCE,GRADE,1,1,% (máximo),0
+5056,236,WO3,RESOURCE,GRADE,2.3,2.3,% (máximo),0
+5058,236,WO3,RESOURCE,AMOUNT,70,70,tonelada métrica,0
+5058,236,WO3,RESOURCE,GRADE,0.7,0.7,%,0
+5059,236,WO3,RESOURCE,AMOUNT,341.6,341.6,tonelada métrica,0
+5059,236,WO3,RESOURCE,GRADE,2.44,2.44,% (máximo),0
+5060,236,WO3,RESOURCE,GRADE,1,1,% (máximo),0
+5062,236,WO3,RESOURCE,GRADE,1,1,%,0
+5073,236,WO3,RESOURCE,GRADE,0.8,0.8,%,0
+5075,236,WO3,RESOURCE,AMOUNT,539,539,tonelada métrica,0
+5075,236,WO3,RESOURCE,GRADE,0.7,0.7,% (máximo),0
+5081,236,WO3,RESOURCE,GRADE,0.89,0.89,%,0
+5082,236,WO3,PRODUCTION,GRADE,71,71,% (máximo),0
+5082,236,WO3,RESOURCE,AMOUNT,800,800,tonelada métrica,0
+5082,236,WO3,RESOURCE,GRADE,1,1,% (máximo),0
+5083,236,WO3,PRODUCTION,GRADE,0.7,0.7,%,0
+5089,236,WO3,RESOURCE,GRADE,0.8,0.8,%,0
+5090,236,WO3,RESOURCE,GRADE,0.63,0.63,% puntual,0
+5093,236,WO3,RESOURCE,GRADE,0.47,0.47,% puntual,0
+5101,236,WO3,RESOURCE,GRADE,0.5,0.5,%,0
+5103,236,WO3,PRODUCTION,GRADE,71,71,% (máximo),0
+5103,236,WO3,RESOURCE,GRADE,1,1,%,0
+5104,236,WO3,PRODUCTION,GRADE,0.5,0.5,%,0
+5104,236,WO3,RESOURCE,GRADE,1,1,% (máximo),0
+5106,236,WO3,RESOURCE,GRADE,0.5,0.5,%,0
+5109,236,WO3,PRODUCTION,GRADE,65,65,%,0
+5110,236,WO3,RESOURCE,GRADE,1.4,1.4,% (máximo),0
+5117,236,WO3,PRODUCTION,GRADE,67,67,%,0
+5121,236,WO3,PRODUCTION,GRADE,71,71,%,0
+5126,236,WO3,PRODUCTION,GRADE,73,73,% (máximo),0
+5132,236,WO3,RESOURCE,GRADE,0.46,0.46,%,0
+5142,230,Sn,RESOURCE,GRADE,1.38,1.38,% (máximo),0
+5142,230,Sn,RESOURCE,GRADE,1.14,1.14,% promedio,1
+5148,236,WO3,RESOURCE,GRADE,4,4,%,0
+5156,236,WO3,RESOURCE,GRADE,66,66,% (máximo),0
+5158,236,WO3,RESOURCE,GRADE,4,4,%,0
+5160,230,Sn,PRODUCTION,GRADE,70,70,% (máximo),0
+5162,230,Sn,RESOURCE,GRADE,180,180,gramo/m3,0
+5169,236,WO3,RESOURCE,GRADE,2.5,2.5,%,0
+5175,230,Sn,PRODUCTION,GRADE,70,70,%,0
+5189,230,Sn,RESOURCE,GRADE,0.25,0.25,%,0
+5201,236,WO3,PRODUCTION,GRADE,65,65,%,0
+5202,236,WO3,PRODUCTION,GRADE,65,65,%,0
+5207,214,Bi,RESOURCE,GRADE,0.2,0.2,%,1
+5207,239,Cu,RESOURCE,GRADE,0.3,0.3,%,2
+5207,236,WO3,RESOURCE,GRADE,0.7,0.7,% (máximo),0
+5212,236,WO3,PRODUCTION,GRADE,65,65,%,0
+5212,236,WO3,RESOURCE,GRADE,1,1,% (máximo),0
+5225,236,WO3,RESOURCE,GRADE,0.7,0.7,% promedio,0
+5226,236,WO3,PRODUCTION,GRADE,68,68,% (máximo),0
+5226,236,WO3,RESOURCE,GRADE,1.58,1.58,% promedio,0
+5227,236,WO3,RESOURCE,GRADE,1,1,% (máximo),0
+5229,236,WO3,RESOURCE,GRADE,0.06,0.06,% (máximo),0
+5240,248,Ag,RESOURCE,AMOUNT,4500000,4500000,tonelada métrica,2
+5240,248,Ag,RESOURCE,GRADE,50,50,g/t,2
+5240,249,Au,RESOURCE,AMOUNT,90000,90000,tonelada métrica,1
+5240,249,Au,RESOURCE,GRADE,1,1,g/t,1
+5240,239,Cu,RESOURCE,AMOUNT,36000,36000,tonelada métrica,0
+5240,239,Cu,RESOURCE,GRADE,4,4,%,0
+5241,248,Ag,RESOURCE,GRADE,123.63,123.63,g/t,0
+11005,256,ETR,RESOURCE,AMOUNT,2268,2268,tonelada métrica,0
+11005,256,ETR,RESOURCE,GRADE,2.52,2.52,%,0
+11012,239,Cu,RESOURCE,AMOUNT,92,92,tonelada métrica,0
+11017,249,Au,RESOURCE,AMOUNT,6400,6400,onza troy,1
+11017,249,Au,RESOURCE,GRADE,0.7,0.7,g/t,1
+11017,279,Sb,RESOURCE,AMOUNT,9.2,9.2,millones de libras,0
+11017,279,Sb,RESOURCE,GRADE,1.47,1.47,%,0
+11019,248,Ag,PRODUCTION,AMOUNT,12,12,kilogramo,0
+11019,248,Ag,PRODUCTION,GRADE,12,12,kilo/tonelada,0
+11020,249,Au,PRODUCTION,AMOUNT,12000,12000,tonelada métrica,0
+11020,249,Au,PRODUCTION,GRADE,7,7,g/t,0
+11020,249,Au,RESOURCE,AMOUNT,84,84,tonelada métrica,0
+11020,249,Au,RESOURCE,GRADE,7,7,g/t,0
+11025,249,Au,PRODUCTION,AMOUNT,1273,1273,kilogramo,0
+11025,249,Au,RESOURCE,AMOUNT,153,153,kilogramo,0
+11025,249,Au,RESOURCE,GRADE,17,17,g/t,0
+11031,238,Co,RESOURCE,GRADE,0.035,0.035,%,0
+11031,239,Cu,RESOURCE,AMOUNT,27.5,27.5,millones de libras,0
+11031,239,Cu,RESOURCE,GRADE,0.5,0.5,%,1
+11031,259,EGP,RESOURCE,GRADE,5,5,g/t,3
+11031,240,Ni,RESOURCE,GRADE,0.51,0.51,%,2
+11031,240,Ni,RESOURCE,GRADE,0.3,0.3,porcentaje,4
+11032,244,Fe,PRODUCTION,AMOUNT,42292,42292,tonelada métrica,0
+11032,244,Fe,PRODUCTION,GRADE,66,66,%,0
+11032,244,Fe,RESOURCE,AMOUNT,110.6,110.6,millones de toneladas métricas,0
+11032,244,Fe,RESOURCE,GRADE,51.43,51.43,%,0
+11033,236,W,PRODUCTION,AMOUNT,7981.56,7981.56,kilogramo,0
+11033,236,W,PRODUCTION,GRADE,51.7,51.7,%,0
+11033,236,W,RESOURCE,GRADE,0.4,0.4,%,0
+11035,239,Cu,PRODUCTION,AMOUNT,28,28,tonelada métrica,0
+11035,239,Cu,PRODUCTION,GRADE,10,10,%,0
+11035,239,Cu,RESOURCE,AMOUNT,8.97,8.97,millones de libras,0
+11035,239,Cu,RESOURCE,GRADE,1.51,1.51,%,0
+11036,248,Ag,PRODUCTION,AMOUNT,26.3,26.3,kilogramo,1
+11036,248,Ag,PRODUCTION,GRADE,80,80,g/t,1
+11036,249,Au,PRODUCTION,AMOUNT,3,3,kilogramo,0
+11036,249,Au,PRODUCTION,GRADE,10,10,g/t,0
+11036,249,Au,RESOURCE,AMOUNT,3.3,3.3,tonelada métrica,0
+11036,249,Au,RESOURCE,GRADE,8.87,8.87,g/t,0
+11036,242,Zn,PRODUCTION,AMOUNT,26312,26312,tonelada métrica,2
+11036,242,Zn,PRODUCTION,GRADE,8,8,%,2
+11037,249,Au,RESOURCE,AMOUNT,3.5,3.5,millones de onzas troy,0
+11037,249,Au,RESOURCE,GRADE,5,5,g/t,0
+11038,286,S,RESOURCE,AMOUNT,4.7,4.7,millones de toneladas métricas,0
+11038,286,S,RESOURCE,GRADE,15.22,15.22,%,0
+11041,241,Pb,RESOURCE,AMOUNT,428,428,tonelada métrica,0
+11041,241,Pb,RESOURCE,GRADE,0.64,0.64,%,0
+11041,242,Zn,RESOURCE,AMOUNT,536,536,tonelada métrica,1
+11041,242,Zn,RESOURCE,GRADE,0.8,0.8,%,1
+11043,243,Cr,RESOURCE,GRADE,40,40,%,0
+11046,236,W,PRODUCTION,AMOUNT,94981,94981,kilogramo,0
+11046,236,W,PRODUCTION,GRADE,65,65,%,0
+11057,249,Au,RESOURCE,AMOUNT,16000,16000,millones de onzas troy,0
+11057,249,Au,RESOURCE,GRADE,13.5,13.5,g/t,0
+11057,249,Au,RESOURCE,GRADE,1,1,g/t,1
+11083,248,Ag,RESOURCE,GRADE,2,2,g/t,1
+11083,249,Au,RESOURCE,GRADE,10.2,10.2,g/t,0
+11101,235,U,RESOURCE,AMOUNT,534,534,tonelada métrica,0
+11101,235,U,RESOURCE,GRADE,0.152,0.152,pormil,0
+11105,240,Ni,PRODUCTION,GRADE,18,18,%,0
+11109,248,Ag,RESOURCE,AMOUNT,160,160,kilogramo,0
+11109,248,Ag,RESOURCE,GRADE,100,100,g/t,0
+11117,248,Ag,RESOURCE,AMOUNT,1.166,1.166,millones de onzas troy,2
+11117,248,Ag,RESOURCE,GRADE,91,91,g/t,2
+11117,241,Pb,PRODUCTION,AMOUNT,750,750,tonelada métrica,0
+11117,241,Pb,PRODUCTION,GRADE,75,75,%,0
+11117,241,Pb,RESOURCE,AMOUNT,73,73,millones de libras,0
+11117,241,Pb,RESOURCE,GRADE,8.3,8.3,%,0
+11117,242,Zn,RESOURCE,AMOUNT,165,165,millones de libras,1
+11117,242,Zn,RESOURCE,GRADE,18.8,18.8,%,1
+11123,248,Ag,RESOURCE,AMOUNT,11.5,11.5,millones de onzas troy,3
+11123,248,Ag,RESOURCE,GRADE,83,83,g/t,3
+11123,249,Au,RESOURCE,AMOUNT,0.6,0.6,millones de onzas troy,4
+11123,249,Au,RESOURCE,GRADE,4.51,4.51,g/t,4
+11123,239,Cu,RESOURCE,AMOUNT,79200,79200,libras,2
+11123,239,Cu,RESOURCE,GRADE,0.08,0.08,%,2
+11123,241,Pb,RESOURCE,AMOUNT,840,840,tonelada métrica,0
+11123,241,Pb,RESOURCE,GRADE,1.84,1.84,%,0
+11123,242,Zn,RESOURCE,AMOUNT,1087,1087,tonelada métrica,1
+11123,242,Zn,RESOURCE,GRADE,2.51,2.51,%,1
+11126,235,U,PRODUCTION,AMOUNT,4,4,tonelada métrica,0
+11126,235,U,PRODUCTION,GRADE,0.22,0.22,%,0
+11128,235,U,RESOURCE,AMOUNT,8.9,8.9,tonelada métrica,0
+11128,235,U,RESOURCE,GRADE,0.64,0.64,pormil,0
+11129,235,U,RESOURCE,AMOUNT,9164,9164,kilogramo,0
+11129,235,U,RESOURCE,GRADE,0.09,0.09,pormil,0
+11135,249,Au,RESOURCE,AMOUNT,60,60,kilogramo,0
+11135,249,Au,RESOURCE,GRADE,2,2,g/t,0
+11142,248,Ag,RESOURCE,GRADE,936.8,936.8,g/t,0
+11142,241,Pb,RESOURCE,GRADE,19.18,19.18,%,1
+11142,242,Zn,RESOURCE,GRADE,6.7,6.7,%,2
+11143,249,Au,RESOURCE,AMOUNT,37200,37200,onza troy,0
+11143,249,Au,RESOURCE,GRADE,5.8,5.8,g/t,0
+11143,239,Cu,RESOURCE,AMOUNT,1.628,1.628,millones de libras,1
+11143,239,Cu,RESOURCE,GRADE,0.37,0.37,%,1
+11144,248,Ag,RESOURCE,AMOUNT,328,328,kilogramo,1
+11144,248,Ag,RESOURCE,GRADE,196,196,g/t,1
+11144,241,Pb,RESOURCE,AMOUNT,1.581,1.581,millones de toneladas métricas,0
+11144,241,Pb,RESOURCE,GRADE,85,85,%,0
+11144,242,Zn,RESOURCE,AMOUNT,1.336,1.336,millones de toneladas métricas,2
+11144,242,Zn,RESOURCE,GRADE,80,80,%,2
+11147,235,U,RESOURCE,AMOUNT,4087,4087,tonelada métrica,0
+11147,235,U,RESOURCE,GRADE,0.98,0.98,pormil,0
+11150,235,U,PRODUCTION,AMOUNT,44.2,44.2,tonelada métrica,0
+11150,235,U,PRODUCTION,GRADE,1.7,1.7,pormil,0
+11151,245,Mn,RESOURCE,AMOUNT,1720,1720,tonelada métrica,0
+11151,245,Mn,RESOURCE,GRADE,20,20,%,0
+11152,174,yeso,RESOURCE,AMOUNT,1.8,1.8,millones de toneladas métricas,0
+11152,174,yeso,RESOURCE,GRADE,90,90,%,0
+11155,239,Cu,RESOURCE,GRADE,1,1,%,0
+11155,241,Pb,RESOURCE,GRADE,1.4,1.4,%,1
+11155,242,Zn,RESOURCE,GRADE,3,3,%,2
+11165,222,Li,RESOURCE,AMOUNT,400,400,tonelada métrica,0
+11165,222,Li,RESOURCE,GRADE,5,5,%,0
+11166,174,yeso,RESOURCE,AMOUNT,4.95,4.95,millones de toneladas métricas,0
+11166,174,yeso,RESOURCE,GRADE,90,90,%,0
+11167,249,Au,RESOURCE,AMOUNT,85800,85800,onza troy,0
+11167,249,Au,RESOURCE,GRADE,2.23,2.23,g/t,0
+11173,174,yeso,RESOURCE,GRADE,80,80,%,0
+11176,239,Cu,RESOURCE,AMOUNT,12.7,12.7,tonelada métrica,0
+11176,239,Cu,RESOURCE,GRADE,0.36,0.36,%,0
+11176,239,Cu,RESOURCE,GRADE,0.15,0.15,%,1
+11183,249,Au,RESOURCE,AMOUNT,41000,41000,kilogramo,0
+11183,249,Au,RESOURCE,GRADE,1.79,1.79,g/t,0
+11187,235,U,RESOURCE,AMOUNT,82,82,tonelada métrica,0
+11187,235,U,RESOURCE,GRADE,0.066,0.066,%,0
+11188,235,U,RESOURCE,AMOUNT,30.84,30.84,tonelada métrica,0
+11188,235,U,RESOURCE,GRADE,0.4,0.4,%,0
+11189,235,U,PRODUCTION,AMOUNT,127,127,tonelada métrica,0
+11189,235,U,PRODUCTION,GRADE,1.41,1.41,%,0
+11190,235,U,RESOURCE,GRADE,0.026,0.026,%,0
+11193,235,U,RESOURCE,AMOUNT,26.4,26.4,tonelada métrica,0
+11193,235,U,RESOURCE,GRADE,0.0265,0.0265,%,0
+11194,249,Au,RESOURCE,AMOUNT,3.9,3.9,tonelada métrica,1
+11194,249,Au,RESOURCE,GRADE,0.138,0.138,g/t,1
+11194,249,Au,RESOURCE,GRADE,0.032,0.032,g/t,4
+11194,239,Cu,RESOURCE,AMOUNT,12280,12280,tonelada métrica,0
+11194,239,Cu,RESOURCE,GRADE,0.4,0.4,%,0
+11194,239,Cu,RESOURCE,GRADE,0.2,0.2,porcentaje,2
+11194,239,Cu,RESOURCE,GRADE,0.601,0.601,%,3
+11196,244,Fe,RESOURCE,AMOUNT,67500,67500,tonelada métrica,0
+11196,244,Fe,RESOURCE,GRADE,54,54,%,0
+11207,249,Au,RESOURCE,GRADE,9,9,g/t,0
+11214,276,As,RESOURCE,GRADE,8,8,% (máximo),0
+11214,249,Au,RESOURCE,GRADE,2.7,2.7,g/t (máximo),1
+11216,249,Au,RESOURCE,GRADE,0.4,0.4,g/t,1
+11216,249,Au,RESOURCE,GRADE,0.2,0.2,g/t,2
+11216,239,Cu,RESOURCE,GRADE,0.14,0.14,%,0
+11217,249,Au,RESOURCE,GRADE,0.17,0.17,g/t,1
+11217,239,Cu,RESOURCE,GRADE,0.19,0.19,%,0
+11221,248,Ag,RESOURCE,GRADE,0.9,0.9,g/t,2
+11221,239,Cu,RESOURCE,AMOUNT,2.4,2.4,billones de libras,0
+11221,239,Cu,RESOURCE,GRADE,0.37,0.37,%,0
+11221,224,Mo,RESOURCE,AMOUNT,396,396,millones de libras,1
+11221,224,Mo,RESOURCE,GRADE,0.06,0.06,%,1
+11223,248,Ag,RESOURCE,AMOUNT,232,232,millones de onzas troy,2
+11223,248,Ag,RESOURCE,GRADE,2.2,2.2,g/t,2
+11223,239,Cu,RESOURCE,AMOUNT,34.14,34.14,billones de libras,0
+11223,239,Cu,RESOURCE,GRADE,0.47,0.47,%,0
+11223,239,Cu,RESOURCE,GRADE,0.2,0.2,%,3
+11223,224,Mo,RESOURCE,AMOUNT,757,757,millones de libras,1
+11223,224,Mo,RESOURCE,GRADE,0.011,0.011,%,1
+11224,239,Cu,RESOURCE,AMOUNT,1,1,millones de toneladas métricas,0
+11224,239,Cu,RESOURCE,GRADE,0.58,0.58,%,0
+11225,244,Fe,RESOURCE,AMOUNT,283500,283500,tonelada métrica,0
+11225,244,Fe,RESOURCE,GRADE,63,63,%,0
+11227,239,Cu,RESOURCE,AMOUNT,46764,46764,tonelada métrica,0
+11227,239,Cu,RESOURCE,GRADE,12,12,%,0
+11236,248,Ag,RESOURCE,AMOUNT,45.3,45.3,millones de onzas troy,0
+11236,248,Ag,RESOURCE,AMOUNT,4.1,4.1,millones de onzas troy,1
+11236,248,Ag,RESOURCE,GRADE,482,482,g/t promedio,0
+11236,248,Ag,RESOURCE,GRADE,250,250,g/t,1
+11236,248,Ag,RESOURCE,GRADE,417,417,g/t,2
+11236,248,Ag,RESOURCE,GRADE,250,250,g/t,3
+11237,248,Ag,RESOURCE,AMOUNT,30560,30560,kilogramo,0
+11237,248,Ag,RESOURCE,GRADE,191,191,g/t,0
+11237,241,Pb,RESOURCE,AMOUNT,17600,17600,tonelada métrica,1
+11237,241,Pb,RESOURCE,GRADE,11,11,%,1
+11243,248,Ag,RESOURCE,AMOUNT,135,135,tonelada métrica,1
+11243,248,Ag,RESOURCE,GRADE,100,100,g/t,1
+11243,248,Ag,RESOURCE,GRADE,50,50,g/t promedio,3
+11243,249,Au,RESOURCE,AMOUNT,6.3,6.3,tonelada métrica,0
+11243,249,Au,RESOURCE,GRADE,3.5,3.5,g/t,0
+11243,249,Au,RESOURCE,GRADE,1.9,1.9,g/t promedio,2
+11246,249,Au,RESOURCE,AMOUNT,21000,21000,onza troy,1
+11246,249,Au,RESOURCE,GRADE,4.8,4.8,g/t,1
+11246,239,Cu,RESOURCE,AMOUNT,2.6,2.6,millones de libras,0
+11246,239,Cu,RESOURCE,GRADE,0.88,0.88,%,0
+11251,249,Au,RESOURCE,AMOUNT,2798,2798,kilogramo,0
+11251,249,Au,RESOURCE,GRADE,8.8,8.8,g/t,0
+11252,248,Ag,RESOURCE,AMOUNT,273,273,kilogramo,2
+11252,248,Ag,RESOURCE,GRADE,662,662,g/t,0
+11252,241,Pb,RESOURCE,AMOUNT,12420,12420,tonelada métrica,0
+11252,241,Pb,RESOURCE,GRADE,2.9,2.9,%,1
+11252,242,Zn,RESOURCE,AMOUNT,21942,21942,tonelada métrica,1
+11252,242,Zn,RESOURCE,GRADE,5.3,5.3,%,2
+11258,245,Mn,RESOURCE,GRADE,40,40,%,0
+11259,235,U,RESOURCE,AMOUNT,196,196,tonelada métrica,0
+11259,235,U,RESOURCE,GRADE,0.2,0.2,%,0
+11259,247,V,RESOURCE,AMOUNT,196,196,tonelada métrica,1
+11259,247,V,RESOURCE,GRADE,0.2,0.2,%,1
+11261,174,yeso,RESOURCE,AMOUNT,255516,255516,tonelada métrica,0
+11261,174,yeso,RESOURCE,GRADE,84,84,%,0
+11270,286,S,RESOURCE,AMOUNT,975000,975000,tonelada métrica,0
+11270,286,S,RESOURCE,GRADE,65,65,%,0
+11279,249,Au,RESOURCE,AMOUNT,86500,86500,onza troy,0
+11279,249,Au,RESOURCE,GRADE,1,1,g/t,0
+11280,249,Au,PRODUCTION,GRADE,4,4,gramo/m3,0
+11286,244,Fe,RESOURCE,AMOUNT,744900,744900,tonelada métrica,0
+11286,244,Fe,RESOURCE,GRADE,57.3,57.3,%,0
+11297,248,Ag,RESOURCE,AMOUNT,7.78734,7.78734,millones de onzas troy,3
+11297,248,Ag,RESOURCE,AMOUNT,14.44904,14.44904,millones de onzas troy,7
+11297,248,Ag,RESOURCE,GRADE,4.383,4.383,g/t promedio,3
+11297,248,Ag,RESOURCE,GRADE,4.446,4.446,g/t promedio,7
+11297,249,Au,RESOURCE,AMOUNT,637020,637020,onza troy,2
+11297,249,Au,RESOURCE,AMOUNT,1.00246,1.00246,millones de onzas troy,6
+11297,249,Au,RESOURCE,GRADE,0.359,0.359,g/t promedio,2
+11297,249,Au,RESOURCE,GRADE,0.308,0.308,g/t promedio,6
+11297,239,Cu,RESOURCE,AMOUNT,188800,188800,tonelada métrica,0
+11297,239,Cu,RESOURCE,AMOUNT,305910,305910,tonelada métrica,4
+11297,239,Cu,RESOURCE,GRADE,0.342,0.342,% promedio,0
+11297,239,Cu,RESOURCE,GRADE,0.303,0.303,% promedio,4
+11297,224,Mo,RESOURCE,AMOUNT,877230,877230,kilogramo,1
+11297,224,Mo,RESOURCE,AMOUNT,1.65462,1.65462,tonelada métrica,5
+11297,224,Mo,RESOURCE,GRADE,15.875,15.875,ppm promedio,1
+11297,224,Mo,RESOURCE,GRADE,16.638,16.638,ppm promedio,5
+11302,248,Ag,RESOURCE,AMOUNT,665000,665000,onza troy,0
+11302,248,Ag,RESOURCE,GRADE,125,125,g/t,0
+11302,241,Pb,RESOURCE,AMOUNT,10292,10292,tonelada métrica,1
+11302,241,Pb,RESOURCE,GRADE,6.2,6.2,%,1
+11302,242,Zn,RESOURCE,AMOUNT,9960,9960,tonelada métrica,2
+11302,242,Zn,RESOURCE,GRADE,6,6,%,2
+11305,249,Au,RESOURCE,AMOUNT,22.8,22.8,millones de onzas troy,0
+11305,249,Au,RESOURCE,GRADE,1.41,1.41,g/t,0
+11307,248,Ag,RESOURCE,AMOUNT,511,511,tonelada métrica,2
+11307,248,Ag,RESOURCE,GRADE,3.5,3.5,g/t,2
+11307,249,Au,RESOURCE,AMOUNT,36.5,36.5,tonelada métrica,1
+11307,249,Au,RESOURCE,GRADE,0.25,0.25,g/t,1
+11307,239,Cu,RESOURCE,AMOUNT,73,73,tonelada métrica,0
+11307,239,Cu,RESOURCE,GRADE,0.5,0.5,%,0
+11311,286,S,RESOURCE,AMOUNT,115710,115710,tonelada métrica,0
+11311,286,S,RESOURCE,GRADE,21,21,%,0
+11316,175,sal,RESOURCE,GRADE,95,95,%,0
+11329,248,Ag,RESOURCE,AMOUNT,6.2,6.2,tonelada métrica,1
+11329,248,Ag,RESOURCE,GRADE,25,25,g/t,1
+11329,239,Cu,RESOURCE,AMOUNT,4375,4375,tonelada métrica,0
+11329,239,Cu,RESOURCE,GRADE,1.75,1.75,%,0
+11336,248,Ag,RESOURCE,AMOUNT,38.52,38.52,millones de onzas troy,1
+11336,248,Ag,RESOURCE,GRADE,229.7,229.7,g/t,1
+11336,248,Ag,RESOURCE,GRADE,80,80,g/t,3
+11336,249,Au,RESOURCE,AMOUNT,0.73,0.73,millones de onzas troy,0
+11336,249,Au,RESOURCE,GRADE,4.38,4.38,g/t,0
+11336,249,Au,RESOURCE,GRADE,1,1,g/t,2
+11348,244,Fe,RESOURCE,AMOUNT,490000,490000,tonelada métrica,0
+11348,244,Fe,RESOURCE,GRADE,35,35,%,0
+11350,245,Mn,RESOURCE,GRADE,25,25,%,0
+11353,235,U,RESOURCE,GRADE,1.44,1.44,%,0
+11354,235,U,RESOURCE,GRADE,1.05152,1.05152,pormil,0
+11356,249,Au,RESOURCE,AMOUNT,1200,1200,kilogramo,0
+11356,249,Au,RESOURCE,GRADE,2,2,g/t,0
+11358,248,Ag,RESOURCE,AMOUNT,542,542,kilogramo,1
+11358,248,Ag,RESOURCE,GRADE,542,542,g/t,1
+11358,249,Au,RESOURCE,AMOUNT,94,94,kilogramo,0
+11358,249,Au,RESOURCE,GRADE,9.4,9.4,g/t,0
+11358,241,Pb,RESOURCE,AMOUNT,3140,3140,tonelada métrica,2
+11358,241,Pb,RESOURCE,GRADE,3.14,3.14,%,2
+11362,248,Ag,PRODUCTION,GRADE,48.4,48.4,g/t,1
+11362,248,Ag,RESOURCE,GRADE,56,56,g/t,1
+11362,249,Au,PRODUCTION,GRADE,4,4,g/t,0
+11362,249,Au,RESOURCE,GRADE,3,3,g/t,0
+11362,239,Cu,PRODUCTION,GRADE,0.4,0.4,%,3
+11362,239,Cu,RESOURCE,GRADE,0.049,0.049,%,2
+11362,241,Pb,PRODUCTION,GRADE,2,2,%,2
+11362,242,Zn,PRODUCTION,GRADE,4.6,4.6,%,4
+24341,248,Ag,RESOURCE,GRADE,0.9,0.9,g/t,2
+24341,249,Au,RESOURCE,GRADE,0.07,0.07,g/t,1
+24341,239,Cu,RESOURCE,GRADE,0.3,0.3,%,0
+24342,248,Ag,RESOURCE,AMOUNT,93700,93700,tonelada métrica,0
+24342,248,Ag,RESOURCE,GRADE,101,101,g/t,0
+24342,248,Ag,RESOURCE,GRADE,78,78,g/t,2
+24342,241,Pb,RESOURCE,AMOUNT,1.27,1.27,millones de toneladas métricas,1
+24342,241,Pb,RESOURCE,GRADE,1.36,1.36,%,1
+24342,241,Pb,RESOURCE,GRADE,0.45,0.45,%,3
+24344,249,Au,RESOURCE,AMOUNT,0.4,0.4,millones de onzas troy,0
+24344,249,Au,RESOURCE,GRADE,2,2,g/t,0
+24344,249,Au,RESOURCE,GRADE,0.5,0.5,g/t,1
+24371,221,K,RESOURCE,AMOUNT,4.714,4.714,millones de toneladas métricas,1
+24371,221,K,RESOURCE,AMOUNT,13.755,13.755,millones de toneladas métricas,3
+24371,221,K,RESOURCE,AMOUNT,0.84,0.84,millones de toneladas métricas,5
+24371,221,K,RESOURCE,GRADE,5156,5156,mg/L,1
+24371,221,K,RESOURCE,GRADE,4753,4753,mg/L,4
+24371,221,K,RESOURCE,GRADE,3700,3700,mg/L,7
+24371,222,Li,RESOURCE,AMOUNT,576000,576000,tonelada métrica,0
+24371,222,Li,RESOURCE,AMOUNT,1650000,1650000,tonelada métrica,2
+24371,222,Li,RESOURCE,AMOUNT,88000,88000,tonelada métrica,4
+24371,222,Li,RESOURCE,GRADE,630,630,mg/L,0
+24371,222,Li,RESOURCE,GRADE,354,354,gramo/metro cúbico,2
+24371,222,Li,RESOURCE,GRADE,570,570,mg/L,3
+24371,222,Li,RESOURCE,GRADE,354,354,gramo/metro cúbico,5
+24371,222,Li,RESOURCE,GRADE,380,380,mg/L,6
+24372,221,K,RESOURCE,AMOUNT,4.714,4.714,millones de toneladas métricas,1
+24372,221,K,RESOURCE,AMOUNT,13.755,13.755,millones de toneladas métricas,3
+24372,221,K,RESOURCE,AMOUNT,1.71,1.71,millones de toneladas métricas,5
+24372,221,K,RESOURCE,AMOUNT,7.33,7.33,millones de toneladas métricas,7
+24372,221,K,RESOURCE,GRADE,5156,5156,mg/L,1
+24372,221,K,RESOURCE,GRADE,4753,4753,mg/L,4
+24372,221,K,RESOURCE,GRADE,4930,4930,mg/L,7
+24372,221,K,RESOURCE,GRADE,6030,6030,mg/L,9
+24372,222,Li,RESOURCE,AMOUNT,576000,576000,tonelada métrica,0
+24372,222,Li,RESOURCE,AMOUNT,1650000,1650000,tonelada métrica,2
+24372,222,Li,RESOURCE,AMOUNT,230000,230000,tonelada métrica,4
+24372,222,Li,RESOURCE,AMOUNT,870000,870000,tonelada métrica,6
+24372,222,Li,RESOURCE,GRADE,630,630,mg/L,0
+24372,222,Li,RESOURCE,GRADE,354,354,gramo/metro cúbico,2
+24372,222,Li,RESOURCE,GRADE,570,570,mg/L,3
+24372,222,Li,RESOURCE,GRADE,354,354,gramo/metro cúbico,5
+24372,222,Li,RESOURCE,GRADE,632,632,mg/L,6
+24372,222,Li,RESOURCE,GRADE,708,708,mg/L,8
+24385,256,ETR,RESOURCE,GRADE,0.08,0.08,%,0
+24385,256,ETR,RESOURCE,GRADE,0.08,0.08,%,1
+24502,221,K,RESOURCE,GRADE,8.534,8.534,ppm,1
+24502,222,Li,RESOURCE,AMOUNT,1.36,1.36,millones de toneladas métricas,0
+24502,222,Li,RESOURCE,GRADE,768,768,ppm,0
+24502,222,Li,RESOURCE,GRADE,500,500,ppm,2
+24503,248,Ag,RESOURCE,GRADE,9.1,9.1,g/t promedio,2
+24503,241,Pb,RESOURCE,AMOUNT,324,324,tonelada métrica,0
+24503,241,Pb,RESOURCE,GRADE,4.32,4.32,% promedio,0
+24503,242,Zn,RESOURCE,AMOUNT,100.5,100.5,tonelada métrica,1
+24503,242,Zn,RESOURCE,GRADE,1.34,1.34,% promedio,1
+24521,222,Li,RESOURCE,AMOUNT,1.3,1.3,millones de toneladas métricas,0
+24521,222,Li,RESOURCE,GRADE,602,602,ppm,0
+24521,222,Li,RESOURCE,GRADE,400,400,ppm,1
+24533,248,Ag,RESOURCE,GRADE,7.87,7.87,g/t,1
+24533,249,Au,RESOURCE,GRADE,0.81,0.81,g/t,0
+24534,248,Ag,RESOURCE,GRADE,69,69,g/t (máximo),1
+24534,249,Au,RESOURCE,GRADE,1.14,1.14,g/t,0
+24537,248,Ag,RESOURCE,GRADE,31.9,31.9,g/t,1
+24537,249,Au,RESOURCE,GRADE,12.5,12.5,g/t,0
+24538,248,Ag,RESOURCE,AMOUNT,672,672,millones de onzas troy,2
+24538,248,Ag,RESOURCE,AMOUNT,1024,1024,millones de onzas troy,5
+24538,248,Ag,RESOURCE,GRADE,10.7,10.7,g/t,2
+24538,248,Ag,RESOURCE,GRADE,8.12,8.12,g/t,5
+24538,248,Ag,RESOURCE,GRADE,3.18,3.18,g/t,8
+24538,249,Au,RESOURCE,AMOUNT,26.5,26.5,millones de onzas troy,1
+24538,249,Au,RESOURCE,AMOUNT,58.7,58.7,millones de onzas troy,4
+24538,249,Au,RESOURCE,GRADE,0.32,0.32,g/t,1
+24538,249,Au,RESOURCE,GRADE,0.32,0.32,g/t,4
+24538,249,Au,RESOURCE,GRADE,0.18,0.18,g/t,7
+24538,239,Cu,RESOURCE,AMOUNT,9.759,9.759,millones de toneladas métricas,0
+24538,239,Cu,RESOURCE,AMOUNT,30.74,30.74,millones de toneladas métricas,3
+24538,239,Cu,RESOURCE,GRADE,0.33,0.33,%,0
+24538,239,Cu,RESOURCE,GRADE,0.37,0.37,%,3
+24538,239,Cu,RESOURCE,GRADE,0.31,0.31,%,6
+24539,248,Ag,RESOURCE,GRADE,10,10,g/t,1
+24539,249,Au,RESOURCE,GRADE,11.6,11.6,g/t (máximo),0
+24540,248,Ag,RESOURCE,GRADE,9.4,9.4,g/t,1
+24540,249,Au,RESOURCE,GRADE,1.71,1.71,g/t,0
+24541,248,Ag,RESOURCE,GRADE,10,10,g/t,1
+24541,249,Au,RESOURCE,GRADE,6.2,6.2,g/t,0
+24545,248,Ag,RESOURCE,GRADE,330,330,g/t (máximo),1
+24545,249,Au,RESOURCE,GRADE,18,18,g/t (máximo),0
+24565,221,K,RESOURCE,AMOUNT,1.72,1.72,millones de toneladas métricas,1
+24565,221,K,RESOURCE,AMOUNT,0.37,0.37,millones de toneladas métricas,3
+24565,221,K,RESOURCE,AMOUNT,0.52,0.52,millones de toneladas métricas,5
+24565,221,K,RESOURCE,GRADE,3164,3164,mg/L,1
+24565,221,K,RESOURCE,GRADE,4318,4318,mg/L,4
+24565,221,K,RESOURCE,GRADE,1894,1894,mg/L,7
+24565,222,Li,RESOURCE,AMOUNT,202325.6,202325.6,tonelada métrica,0
+24565,222,Li,RESOURCE,AMOUNT,41210.8,41210.8,tonelada métrica,2
+24565,222,Li,RESOURCE,AMOUNT,93360.7,93360.7,tonelada métrica,4
+24565,222,Li,RESOURCE,GRADE,371,371,mg/L,0
+24565,222,Li,RESOURCE,GRADE,100,100,gramo/metro cúbico,2
+24565,222,Li,RESOURCE,GRADE,486,486,mg/L,3
+24565,222,Li,RESOURCE,GRADE,100,100,gramo/metro cúbico,5
+24565,222,Li,RESOURCE,GRADE,340,340,mg/L,6
+24565,222,Li,RESOURCE,GRADE,100,100,gramo/metro cúbico,8
+24570,221,K,RESOURCE,GRADE,6845,6845,mg/L,1
+24570,222,Li,RESOURCE,AMOUNT,411400,411400,tonelada métrica,0
+24570,222,Li,RESOURCE,GRADE,374,374,mg/L,0
+24572,277,B,RESOURCE,GRADE,599,599,mg/L,2
+24572,277,B,RESOURCE,GRADE,642,642,mg/L,6
+24572,221,K,RESOURCE,AMOUNT,7.24,7.24,millones de toneladas métricas,1
+24572,221,K,RESOURCE,AMOUNT,3.72,3.72,millones de toneladas métricas,3
+24572,221,K,RESOURCE,GRADE,9456,9456,mg/L,1
+24572,221,K,RESOURCE,GRADE,10316,10316,mg/L,5
+24572,222,Li,RESOURCE,AMOUNT,234396,234396,tonelada métrica,0
+24572,222,Li,RESOURCE,AMOUNT,116242,116242,tonelada métrica,2
+24572,222,Li,RESOURCE,GRADE,306,306,mg/L,0
+24572,222,Li,RESOURCE,GRADE,230,230,mg/L,3
+24572,222,Li,RESOURCE,GRADE,322,322,mg/L,4
+24572,222,Li,RESOURCE,GRADE,230,230,mg/L,7
+24573,221,K,RESOURCE,AMOUNT,2.58,2.58,millones de toneladas métricas,1
+24573,221,K,RESOURCE,AMOUNT,4.27,4.27,millones de toneladas métricas,3
+24573,221,K,RESOURCE,AMOUNT,1.71,1.71,millones de toneladas métricas,5
+24573,221,K,RESOURCE,GRADE,5009,5009,mg/L,1
+24573,221,K,RESOURCE,GRADE,4395,4395,mg/L,4
+24573,221,K,RESOURCE,GRADE,4871,4871,mg/L,7
+24573,222,Li,RESOURCE,AMOUNT,240000,240000,tonelada métrica,0
+24573,222,Li,RESOURCE,AMOUNT,160000,160000,tonelada métrica,2
+24573,222,Li,RESOURCE,AMOUNT,165000,165000,tonelada métrica,4
+24573,222,Li,RESOURCE,GRADE,465,465,mg/L,0
+24573,222,Li,RESOURCE,GRADE,300,300,mg/L,2
+24573,222,Li,RESOURCE,GRADE,418,418,mg/L,3
+24573,222,Li,RESOURCE,GRADE,300,300,mg/L,5
+24573,222,Li,RESOURCE,GRADE,469,469,mg/L,6
+24573,222,Li,RESOURCE,GRADE,300,300,mg/L,8
+24574,277,B,RESOURCE,AMOUNT,216807,216807,tonelada métrica,2
+24574,277,B,RESOURCE,AMOUNT,232601,232601,tonelada métrica,5
+24574,277,B,RESOURCE,GRADE,556,556,mg/L,2
+24574,277,B,RESOURCE,GRADE,505,505,mg/L,6
+24574,221,K,RESOURCE,AMOUNT,2.14,2.14,millones de toneladas métricas,1
+24574,221,K,RESOURCE,AMOUNT,2.07,2.07,millones de toneladas métricas,4
+24574,221,K,RESOURCE,GRADE,5512,5512,mg/L,1
+24574,221,K,RESOURCE,GRADE,4489,4489,mg/L,5
+24574,222,Li,RESOURCE,AMOUNT,194860,194860,tonelada métrica,0
+24574,222,Li,RESOURCE,AMOUNT,189130,189130,tonelada métrica,3
+24574,222,Li,RESOURCE,GRADE,501,501,mg/L,0
+24574,222,Li,RESOURCE,GRADE,100,100,mg/L,3
+24574,222,Li,RESOURCE,GRADE,410,410,mg/L,4
+24574,222,Li,RESOURCE,GRADE,100,100,mg/L,7
+24576,222,Li,RESOURCE,AMOUNT,205988,205988,tonelada métrica,0
+24576,222,Li,RESOURCE,AMOUNT,458380,458380,tonelada métrica,1
+24576,222,Li,RESOURCE,AMOUNT,901609,901609,tonelada métrica,2
+24576,222,Li,RESOURCE,GRADE,395,395,mg/L,0
+24576,222,Li,RESOURCE,GRADE,200,200,mg/L,1
+24576,222,Li,RESOURCE,GRADE,392,392,mg/L,2
+24576,222,Li,RESOURCE,GRADE,200,200,mg/L,3
+24576,222,Li,RESOURCE,GRADE,406,406,mg/L,4
+24576,222,Li,RESOURCE,GRADE,200,200,mg/L,5

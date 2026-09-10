@@ -1,22 +1,18 @@
-\set O 'C:/Users/dean/AppData/Local/Temp/claude/C--Users-dean-claude-lithosurfer/b7dee605-079c-4830-8d35-2b4df883cc10/scratchpad'
+-- LithoSurfer deposit extract — source export (v2, DB-driven).
+-- Run after Phase 1. Reads the cleaned criticialmineralsexp master.
+-- Usage:  sed 's#OUTDIR#/abs/path#' export_sources.sql | psql -f -
+\set b   :dir '/v2_base.csv'
+\set c   :dir '/v2_commodities.csv'
+\set e   :dir '/v2_endowment.csv'
+\set a   :dir '/v2_ages.csv'
+\set m   :dir '/v2_mineralogy.csv'
 
--- A. deposit base: all OK fact sheets, with best coords + existing-deposit context
-\copy (select f.depno, f.nombre as name, case when d.depositid is not null then 'existing' else 'new' end as origin, coalesce(l.latitude, f.lat) as lat, coalesce(l.longitude, f.lon) as lon, l.latitude as loc_lat, f.lat as ficha_lat, d.deposit_type_id as db_deposit_type_id, d.deposit_type_local, d.deposit_status, d.geological_province, d.geological_district, d.tectonic_setting, d.mineralization_style, d.deposit_form, d.alteration, d.metallogenic_association, d.associated_igneous, split_part(f.tipo_deposito,' ',1) as ficha_type_code, f.tipo_deposito as ficha_type_label, f.estado_deposito as ficha_estado, f.commodities as ficha_commodities, f.fecha_actualizacion, f.n_grades, f.n_ages, f.url from sigam_fichas f left join locations l on l.external_id = f.depno::text and l.locationtype='DEPOSIT' left join deposits d on d.locationid = l.locationid where f.is_ok order by f.depno) to C:/Users/dean/AppData/Local/Temp/claude/C--Users-dean-claude-lithosurfer/b7dee605-079c-4830-8d35-2b4df883cc10/scratchpad/src_base.csv csv header
+\copy (select l.external_id::int as depno, d.depositid, l.locationname as name, l.latitude as lat, l.longitude as lon, d.deposit_type_id, dt.deposit_type_name, d.deposit_type_local, d.deposit_status, d.size_category, d.geological_province, d.geological_district, d.tectonic_setting, d.mineralization_style, d.deposit_form, d.alteration, d.metallogenic_association, d.associated_igneous, f.tipo_deposito as ficha_type_label, f.fecha_actualizacion, l.datasource_url as url from deposits d join locations l on l.locationid = d.locationid and l.locationtype='DEPOSIT' left join deposit_types dt on dt.deposit_type_id = d.deposit_type_id left join sigam_fichas f on f.depno = l.external_id::int where l.external_id ~ '^[0-9]+$' order by depno) to 'OUTDIR/v2_base.csv' csv header
 
--- B. commodities for EXISTING deposits (curated)
-\copy (select l.external_id::int as depno, c.commodity_name, dc.commodity_role from deposit_commodities dc join commodities c on c.commodity_id = dc.commodity_id join deposits d on d.depositid = dc.depositid join locations l on l.locationid = d.locationid where l.external_id ~ '^[0-9]+$' order by 1) to C:/Users/dean/AppData/Local/Temp/claude/C--Users-dean-claude-lithosurfer/b7dee605-079c-4830-8d35-2b4df883cc10/scratchpad/src_commodities_existing.csv csv header
+\copy (select l.external_id::int as depno, c.commodity_id, c.commodity_name, dc.commodity_role from deposit_commodities dc join commodities c on c.commodity_id = dc.commodity_id join deposits d on d.depositid = dc.depositid join locations l on l.locationid = d.locationid where l.external_id ~ '^[0-9]+$' order by 1) to 'OUTDIR/v2_commodities.csv' csv header
 
--- C. grades / tonnages (staging)
-\copy (select depno, seq, kind, slot, commodity, value, unit_note from sigam_ficha_grades order by depno, kind, slot, seq) to C:/Users/dean/AppData/Local/Temp/claude/C--Users-dean-claude-lithosurfer/b7dee605-079c-4830-8d35-2b4df883cc10/scratchpad/src_grades.csv csv header
+\copy (select l.external_id::int as depno, e.commodity_id, c.commodity_name, e.commodity_raw, e.data_type, e.measure, e.value_num, e.value_text, e.unit, e.seq from deposit_endowment e join deposits d on d.depositid = e.depositid join locations l on l.locationid = d.locationid left join commodities c on c.commodity_id = e.commodity_id order by 1, e.commodity_raw, e.data_type, e.measure, e.seq) to 'OUTDIR/v2_endowment.csv' csv header
 
--- D. radiometric ages (staging)
-\copy (select depno, seq, age_ma, uncertainty, method, objeto_datado, concentrado, origen_roca, nombre_formal, evento, referencia from sigam_ficha_ages order by depno, seq) to C:/Users/dean/AppData/Local/Temp/claude/C--Users-dean-claude-lithosurfer/b7dee605-079c-4830-8d35-2b4df883cc10/scratchpad/src_ages.csv csv header
+\copy (select l.external_id::int as depno, dm.method_name as method, at.age_type_name, a.age_ma, a.age_error_ma, a.material_dated, a.mineral, a.age_interpretation, a.reference, a.comments from age_measured a join locations l on l.locationid = a.locationid and l.locationtype='DEPOSIT' join dating_method_reference dm on dm.dating_method_id = a.datingmethodid left join age_type_reference at on at.age_type_id = a.age_type_id where a.createdby = 'claude_sigam_20260910' order by 1) to 'OUTDIR/v2_ages.csv' csv header
 
--- E. deposit type mapping (SIGAM code -> Hofstra id)
-\copy (select sigam_code, sigam_name, deposit_type_id, mapping_confidence from sigam_deposit_type_mapping order by sigam_code) to C:/Users/dean/AppData/Local/Temp/claude/C--Users-dean-claude-lithosurfer/b7dee605-079c-4830-8d35-2b4df883cc10/scratchpad/src_type_mapping.csv csv header
-
--- F. mineralogy summary for description synthesis (existing)
-\copy (select l.external_id::int as depno, string_agg(distinct dm.mineral_name_local, ', ' order by dm.mineral_name_local) as minerals from deposit_mineralogy dm join deposits d on d.depositid = dm.depositid join locations l on l.locationid = d.locationid where l.external_id ~ '^[0-9]+$' group by 1) to C:/Users/dean/AppData/Local/Temp/claude/C--Users-dean-claude-lithosurfer/b7dee605-079c-4830-8d35-2b4df883cc10/scratchpad/src_mineralogy.csv csv header
-
--- G. references free text (existing)
-\copy (select l.external_id::int as depno, d."references" as refs, d.comments from deposits d join locations l on l.locationid = d.locationid where l.external_id ~ '^[0-9]+$' and (d."references" is not null or d.comments is not null)) to C:/Users/dean/AppData/Local/Temp/claude/C--Users-dean-claude-lithosurfer/b7dee605-079c-4830-8d35-2b4df883cc10/scratchpad/src_refs.csv csv header
+\copy (select l.external_id::int as depno, string_agg(distinct dmn.mineral_name_local, ', ' order by dmn.mineral_name_local) as minerals from deposit_mineralogy dmn join deposits d on d.depositid = dmn.depositid join locations l on l.locationid = d.locationid where l.external_id ~ '^[0-9]+$' group by 1) to 'OUTDIR/v2_mineralogy.csv' csv header

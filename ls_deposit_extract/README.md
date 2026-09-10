@@ -1,80 +1,73 @@
 # LithoSurfer deposit extract — SEGEMAR / SIGAM (Argentina)
 
-**Built:** 2026-09-09 from the SIGAM staging layer in `criticialmineralsexp`
-(`sigam_fichas`, `sigam_ficha_grades`, `sigam_ficha_ages` — the 2026-09-09 fact-sheet scrape)
-plus the curated `deposits` / `deposit_commodities` / `deposit_mineralogy` / `sigam_deposit_type_mapping`
-tables for context and the deposit-type crosswalk.
+**Rebuilt:** 2026-09-10 (v2) from the **cleaned `criticialmineralsexp` master** after Phase 1
+(`../phase1/`). v1 derived from the raw staging layer; v2 reads the curated tables directly:
+`deposits` + `locations` + `deposit_commodities` + `deposit_endowment` + `age_measured` +
+`deposit_mineralogy`, with `deposit_type_id` / `commodity_id` already resolved in the DB.
 
-Build script: `scratchpad/build_extract.py` (+ `build_crosswalks.py`, `export_sources.sql`).
-Reference-list IDs resolved live from `https://api.lithosurfer.io` swagger group 17 on build day.
+Build: `build/export_sources.sql` (→ `build/v2_*.csv`) then `build/build_extract.py`.
+Reference-list IDs are the `build/ref_*.json` snapshots (LithoSurfer swagger group 17).
 
 ## Files
 
 | File | Rows | LithoSurfer entity (`POST /api/deposit/…`) |
 |---|---:|---|
-| `deposit.jsonl` | 3,523 | `Deposit` (`DepositDTO`) |
-| `deposit_style.jsonl` | 3,165 | `DepositStyle` — deposit type |
-| `deposit_endowment.jsonl` | 5,926 | `DepositEndowment` — 5,038 commodity-presence rows + 888 grade/tonnage rows |
-| `deposit_age.jsonl` | 262 | `DepositAge` — radiometric ages |
-| `deposit_op_status.jsonl` | 1,113 | `DepositOpStatus` — operating status |
-| `endowment_raw.csv` | 1,399 | every staging grade/amount value + unit, for proper unit normalisation later |
-| `crosswalk_deposit_type.csv` | 65 | DB Hofstra `deposit_type_id` → `LDepositType.id` (all matched: 49 exact, 16 manual) |
-| `crosswalk_commodity.csv` | 82 | DB `commodity` → `LCommodity.id` (all matched) |
-| `review_type_disagreements.csv` | 7 | deposits where the fact-sheet type ≠ the curated `deposits.deposit_type_id` |
-| `review_needs_attention.csv` | 3 | deposits with no name / no coordinate in the fact sheet |
+| `deposit.jsonl` | 3,528 | `Deposit` |
+| `deposit_style.jsonl` | 3,170 | `DepositStyle` — deposit type |
+| `deposit_endowment.jsonl` | 5,942 | `DepositEndowment` — 5,054 commodity-presence + 888 grade/tonnage |
+| `deposit_age.jsonl` | 262 | `DepositAge` |
+| `deposit_op_status.jsonl` | 1,108 | `DepositOpStatus` |
+| `endowment_raw.csv` | 1,399 | every `deposit_endowment` value + unit, for unit normalisation |
+| `crosswalk_deposit_type.csv` | 65 | DB Hofstra id → `LDepositType.id` (49 exact, 16 manual) |
+| `crosswalk_commodity.csv` | 82 | DB `commodity` → `LCommodity.id` |
+| `review_needs_attention.csv` | 2 | deposits with a zero coordinate axis (depno 25722, 26259) |
 | `_coverage.json` | — | the counters below |
 
-Every row carries **`sourceId = "SIGAM:<depno>"`** (ages: `"SIGAM:<depno>#<seq>"`). That is the join key
-across all five files and back to `sigam_deposits.deposit_id` / `locations.external_id`.
+Every row carries **`sourceId = "SIGAM:<depno>"`** (`deposit_age`: `"SIGAM:<depno>#<n>"`) — the join
+key across files and back to `locations.external_id` / `deposits`.
 
-## Linking model (how a loader uses this)
+## Linking model (Phase 3 loader)
 
-`DepositInfo` is a DataPoint, so each deposit must be created inside a **writable DataPackage**. There is
-**no batch endpoint** in group 17 — it is one POST per row. Order:
+`DepositInfo` is a DataPoint, so each deposit is created inside a **writable DataPackage**. No batch
+endpoint in group 17 — one POST per row. Order:
 
-1. `POST /api/deposit/Deposit` ← `deposit.jsonl` row → returns `Deposit.id`
-2. `POST /api/deposit/DepositInfo` with `{ dataPointDTO:{ dataPackageId:<pkg>, name:"<name>\\<session>", locationId?:… }, extendingDataPointDTO:{ depositId:<Deposit.id> } }` → returns `DepositInfo.id`
-3. build a `depno → DepositInfo.id` map from the returned rows (match on the deposit name / your session tag)
-4. for each child file, `POST` each row with `depositInfoId` set from that map (match on `sourceId`)
+1. `POST /api/deposit/Deposit` ← `deposit.jsonl` → `Deposit.id`
+2. `POST /api/deposit/DepositInfo` `{ dataPointDTO:{ dataPackageId, name:"<name>\\<session>" }, extendingDataPointDTO:{ depositId } }` → `DepositInfo.id`
+3. build `depno → DepositInfo.id`
+4. child files: `POST` each row with `depositInfoId` set, matched on `sourceId`
 
-`literatureId` is left null everywhere — references are free text in the `comment` / `description`.
-`company` is null everywhere (`company_deposit_links` is empty in the source).
+`literatureId` and `company` are null everywhere (source has no structured literature or operator data;
+references are free text in `comment` / `description`).
 
 ## Coverage
 
-| | count | notes |
+| | count | note |
 |---|---:|---|
-| deposits | **3,523** | 3,344 already in `deposits`, 179 new (mostly `depno ≥ 26143`) |
-| with coordinates | 3,521 | 2 new industrial deposits have a zero axis in the fact sheet — see `review_needs_attention.csv` |
-| with deposit type (`DepositStyle`) | **3,165 (90%)** | the 358 unmapped are all industrial rock / dimension-stone SIGAM codes (10i slate-marble, 06f granite, 09k limestone, 11g volcanic rock, 01f ornamental) — Hofstra 2021 has no ore-model type for building-stone quarries |
-| with ≥1 commodity | **3,409 (97%)** | curated `deposit_commodities` for existing; parsed `sigam_fichas.commodities` for new |
-| grade / tonnage rows | 888 across 455 deposits | **763 have a numeric `grade`** (resource grades in %, g/t or ppm only). Production grades and every tonnage / contained-metal amount are left in `comment` and in `endowment_raw.csv` — units are **not** normalised |
-| radiometric ages | 262 across ~210 deposits | 223 have an `ageMethodId` (K-Ar, Ar-Ar, Rb-Sr, U-Pb, Sm-Nd, Pb-Pb); 39 had no method in the source, 3 rows had no numeric age and were dropped |
-| operating status | 1,113 (32%) | `PRODUCER`/`PAST_PRODUCER`/`FEASIBILITY`/`DEVELOPMENT` → `LOperatingStatus`; `OCCURRENCE`/`PROSPECT`/`EXPLORATION`/`UNKNOWN` (2,400) do not map to an operating status and are omitted |
+| deposits | **3,528** | includes the 179 added in Phase 1 |
+| with coordinates | 3,526 | depno 25722, 26259 have one axis = 0 (`review_needs_attention.csv`) |
+| deposit type (`DepositStyle`) | **3,170 (90%)** | 358 untyped — industrial-rock SIGAM codes with no Hofstra ore-model type |
+| ≥1 commodity | **3,415 (97%)** | from curated `deposit_commodities` |
+| grade / tonnage rows | 888 across 455 deposits | **763 numeric `grade`** (resource grades in %, g/t, ppm). Production grades + all tonnage/contained-metal stay in `comment` + `endowment_raw.csv` — units **not** normalised |
+| radiometric ages | 262 across ~210 deposits | 223 with an `ageMethodId`; 39 unmapped (Thermoluminescence / C-14 / Unknown have no `LAgeMethod`) |
+| operating status | 1,108 (31%) | PRODUCER/PAST_PRODUCER/CLOSED/FEASIBILITY/DEVELOPMENT → `LOperatingStatus`; OCCURRENCE/PROSPECT/EXPLORATION/UNKNOWN (~2,400) have no mapping |
 
 ## Decisions & limitations
 
-- **Coordinates** come from `locations` (the 2026-09-08 WFS fix + 2026-09-09 round-2) for existing
-  deposits, and from the fact sheet for the 179 new ones. `latLonPrecision` is a blanket **5000 m**
-  (SIGAM points are ~1:250k, not survey-grade).
-- **Deposit type is staging-layer-first:** the SIGAM fact-sheet type code → `sigam_deposit_type_mapping`
-  → Hofstra `deposit_type_id` → `LDepositType`. The curated `deposits.deposit_type_id` is only a
-  fallback where the fact-sheet code is missing/unmapped. Where the two disagree (7 deposits) the
-  fact-sheet wins and the pair is listed in `review_type_disagreements.csv` for a human check
-  (e.g. depno 1 Pumahuasi: fact sheet "14c Polimetálicos / Vein polymetallic" vs curated "Residual clay" — fact sheet is right).
+- **Coordinates** from `locations` (2026-09-08 WFS fix + 2026-09-09 round-2). `latLonPrecision` = blanket 5000 m.
+- **Deposit type**: `deposits.deposit_type_id` → `crosswalk_deposit_type.csv` → `LDepositType`. Phase 1
+  backfilled 926 nulls from the SIGAM ficha codes and resolved the 7 ficha-vs-curated disagreements
+  (SIGAM won), so this is now a straight DB lookup.
 - **`description`** is synthesised free text (province, tectonic setting, mineralisation style, form,
-  alteration, metallogenic association, mineralogy summary, SIGAM type label, fact-sheet URL) — none of
-  these has a structured home in `DepositDTO`. Existing deposits only; new deposits get the URL line.
-- **No `DepositEndowment.tonnage`** is populated. The `amount` values in the source mix ore tonnage and
-  contained-metal in many units (t, Mt, kg, troy oz, million lb); normalising them needs a per-row
-  decision. They are preserved verbatim in `endowment_raw.csv` and in each endowment `comment`.
-- **Mineralogy** (7,596 rows) has no LithoSurfer deposit entity — folded into `description` only.
+  alteration, metallogenic association, mineralogy, SIGAM type label, fact-sheet URL) — none has a
+  structured home in `DepositDTO`.
+- **No `DepositEndowment.tonnage`.** `deposit_endowment.measure='AMOUNT'` rows mix ore tonnage and
+  contained metal across many units; preserved verbatim in `endowment_raw.csv` and each `comment`.
+- **Mineralogy** (8,050 rows in the master) has no LithoSurfer deposit entity — `description` only.
 
-## Not yet done
+## Not yet done (Phase 3)
 
-- Resolve the 7 type disagreements and the 3 attention rows.
 - Normalise grade/tonnage units and populate `tonnage` (from `endowment_raw.csv`).
-- `resourceClassificationId` on `DepositOpStatus` (JORC categories are parseable from
-  `sigam_deposits.datos_del_recurso` for ~550 deposits — not done here).
-- Attach `literatureId` (needs Literature entities created first).
+- `resourceClassificationId` on `DepositOpStatus` (JORC categories parseable from
+  `sigam_deposits.datos_del_recurso`).
+- `literatureId` (needs Literature entities first).
 - Pick the target DataPackage and run the load.
