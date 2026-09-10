@@ -31,3 +31,8 @@ ls_deposit_extract/build/*
 !ls_deposit_extract/build/*.py
 !ls_deposit_extract/build/*.sql
 !ls_deposit_extract/build/*.json
+!phase1/
+phase1/*
+!phase1/*.sql
+!phase1/gen_phase1.py
+!phase1/README.md
