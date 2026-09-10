@@ -2,7 +2,7 @@
 
 **2026-09-10.** Two dry runs into package **250875258** ("SEGEMAR: Argentina Deposits & Occurrences")
 aborted on API constraints and left **36 orphaned `Deposit` rows** that cannot be removed via the API.
-Full list: `ORPHAN_test_deposits_250875258.csv` (deposit ids 252247702–252248705).
+Full list: `PURGE_REQUEST.md` (deposit ids 252247702–252248705).
 
 ## What happened
 
@@ -44,7 +44,7 @@ the purge list below.)
 ## To unblock — needs Lithodat / DB admin
 
 Ask Lithodat to **hard-delete** (purge) from the LithoSurfer DB:
-- the 36 `deposit` rows in `ORPHAN_test_deposits_250875258.csv` (+ `deposit` 252248708)
+- the 38 `deposit` rows in `PURGE_REQUEST.md`
 - their soft-deleted `deposit_info` rows and any `deposit_style` / `deposit_endowment` /
   `deposit_age` / `deposit_op_status` children
 - soft-deleted `data_package` 250875259 (my delete test)
