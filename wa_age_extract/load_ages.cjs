@@ -109,12 +109,19 @@ if (fs.existsSync(PROG))
     else done.add(rec.sampleSourceId);
   }
 
-async function findBySourceId(postPath, sid) {
+// each entity exposes sourceId on a different criteria path:
+//   sample-with-locations : top-level { sourceId }
+//   age-datapoints        : { dataPointLithoCriteria: { sourceId } }   <- NOT top-level
+//   literature            : top-level { sourceId }
+async function findByCriteria(postPath, criteria) {
   if (!PRECHECK) return null;
-  const rows = await api("POST", `${postPath}?page=0&size=2`, { allowedAccess: "WRITEABLE", sourceId: { equals: sid } });
+  const rows = await api("POST", `${postPath}?page=0&size=2`, { allowedAccess: "WRITEABLE", ...criteria });
   const list = Array.isArray(rows) ? rows : rows.content || [];
   return list[0] || null;
 }
+const findSample = (sid) => findByCriteria("/api/core/sample-with-locations/post", { sourceId: { equals: sid } });
+const findAgeDp  = (sid) => findByCriteria("/api/age/age-datapoints/post", { dataPointLithoCriteria: { sourceId: { equals: sid } } });
+const findLit    = (sid) => findByCriteria("/api/core/literature/post", { sourceId: { equals: sid } });
 
 (async () => {
   console.log(`host=${HOST} package=${PKG} dry=${DRY} precheck=${PRECHECK}`);
@@ -125,7 +132,7 @@ async function findBySourceId(postPath, sid) {
     const ids = {};
     for (const lit of literature) {
       if (DRY) { console.log(`[dry] literature "${lit.title}"`); ids[lit.sourceId] = 0; continue; }
-      let row = await findBySourceId("/api/core/literature/post", lit.sourceId);
+      let row = await findLit(lit.sourceId);
       if (!row) row = await api("POST", "/api/core/literature", strip(lit));
       const litId = row.id ?? row.literatureDTO?.id;
       ids[lit.sourceId] = litId;
@@ -148,7 +155,7 @@ async function findBySourceId(postPath, sid) {
         continue;
       }
       // sample (reuse if already there)
-      let swl = await findBySourceId("/api/core/sample-with-locations/post", ssid);
+      let swl = await findSample(ssid);
       if (!swl) { swl = await api("POST", "/api/core/sample-with-locations", strip(s)); sMade++; }
       const sampleId = swl.sampleDTO?.id ?? swl.id;
       const locationId = swl.locationDTO?.id ?? swl.sampleDTO?.locationId;
@@ -156,9 +163,9 @@ async function findBySourceId(postPath, sid) {
 
       const rec = { sampleSourceId: ssid, ts: new Date().toISOString(), sampleId, locationId, datapoints: [] };
       for (const dp of kids) {
-        let ex = await findBySourceId("/api/age/age-datapoints/post", dp._datapointSourceId);
+        let ex = await findAgeDp(dp._datapointSourceId);
         let dpId;
-        if (ex) {
+        if (ex && ex.dataPointDTO?.sourceId === dp._datapointSourceId) {
           dpId = ex.id ?? ex.dataPointDTO?.id;
         } else {
           const body = strip(dp);
