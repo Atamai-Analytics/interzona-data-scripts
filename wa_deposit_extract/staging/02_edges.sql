@@ -38,7 +38,8 @@ INSERT INTO accepted_merges (a, b) VALUES
     (1815, 5019),                       -- Flagstaff Mountain / ... Mine
     (2924, 2925),                       -- Sultan River Placer / Placers
     (3221, 4474),                       -- Frisco Standard / ... mine
-    (3242, 4465),                       -- Old Dominion / ... mine
+    -- (3242, 4465) Old Dominion / ... mine  -- REVERTED 2026-09-10 (14_split_old_dominion.sql):
+    --   spot-check: the "mine" is a dolomite point 830 m from the Ag-Pb-Zn mine -> kept separate.
     (3655, 3682),                       -- Northwest Haydite Co, Inc / Northwest Haydite
     (3683, 5711), (3753, 5711),         -- Cedar Mountain / Cedar Mountain Mine
     (3671, 5871);                       -- Johnson Coal Co. / ... Mine

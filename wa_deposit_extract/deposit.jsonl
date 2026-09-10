@@ -160,7 +160,7 @@
 {"name": "Twin Falls", "lat": 48.471346505203, "lon": -121.00087962063, "latLonPrecision": 2000, "description": "Chelan County, WA | DGER sources: metallic", "sourceId": "WA:160"}
 {"name": "Deer Park", "lat": 48.0581, "lon": -117.4947, "latLonPrecision": 2000, "description": "Clallam County, WA | DGER sources: metallic", "sourceId": "WA:161"}
 {"name": "Kathryn", "lat": 48.0467, "lon": -124.0806, "latLonPrecision": 2000, "description": "Clallam County, WA | DGER sources: metallic", "sourceId": "WA:162"}
-{"name": "Silver Star", "lat": 45.7372, "lon": -122.2881, "latLonPrecision": 250, "description": "Clark County, WA | DGER sources: metallic", "sourceId": "WA:163"}
+{"name": "Silver Star", "lat": 45.7372, "lon": -122.2881, "latLonPrecision": 250, "description": "Stevens County, WA | DGER sources: metallic", "sourceId": "WA:163"}
 {"name": "Abe Lincoln", "lat": 48.0692, "lon": -118.7417, "latLonPrecision": 2000, "description": "Ferry County, WA | Keller mining district | DGER sources: metallic", "sourceId": "WA:164"}
 {"name": "Addie B", "lat": 48.0544, "lon": -118.6719, "latLonPrecision": 2000, "description": "Ferry County, WA | Keller mining district | DGER sources: metallic", "sourceId": "WA:165"}
 {"name": "Addison", "lat": 48.05065, "lon": -118.581036, "latLonPrecision": 250, "description": "Ferry County, WA | Keller mining district | DGER sources: metallic", "sourceId": "WA:166"}
@@ -1001,7 +1001,7 @@
 {"name": "San Francisco", "lat": 48.9625, "lon": -119.6453, "latLonPrecision": 2000, "description": "Okanogan County, WA | DGER sources: metallic", "sourceId": "WA:1001"}
 {"name": "Sherman", "lat": 48.4306, "lon": -119.5914, "latLonPrecision": 2000, "description": "Okanogan County, WA | Conconully mining district | DGER sources: arsenic, metallic", "sourceId": "WA:1002"}
 {"name": "Silver King", "lat": 48.5753, "lon": -119.7372, "latLonPrecision": 2000, "description": "Okanogan County, WA | DGER sources: metallic", "sourceId": "WA:1003"}
-{"name": "Snowshoe", "lat": 48.0542, "lon": -118.025, "latLonPrecision": 2000, "description": "Okanogan County, WA | DGER sources: metallic, radon", "sourceId": "WA:1004"}
+{"name": "Snowshoe", "lat": 48.0542, "lon": -118.025, "latLonPrecision": 2000, "description": "Stevens County, WA | DGER sources: metallic, radon", "sourceId": "WA:1004"}
 {"name": "Summit", "lat": 48.3747949128127, "lon": -118.877570547298, "latLonPrecision": 2000, "description": "Okanogan County, WA | Park City mining district | DGER sources: metallic", "sourceId": "WA:1005"}
 {"name": "Three L's", "lat": 48.3813920953837, "lon": -118.855734736078, "latLonPrecision": 2000, "description": "Okanogan County, WA | Park City mining district | DGER sources: metallic", "sourceId": "WA:1006"}
 {"name": "Naselle", "lat": 46.4636, "lon": -123.6253, "latLonPrecision": 2000, "description": "Pacific County, WA | DGER sources: metallic", "sourceId": "WA:1007"}
@@ -3228,7 +3228,7 @@
 {"name": "Mountain View", "lat": 48.9222, "lon": -117.8111, "latLonPrecision": 2000, "description": "Stevens County, WA | DGER sources: gold_silver", "sourceId": "WA:3228"}
 {"name": "Mountain View Extension", "lat": 48.9206, "lon": -117.8119, "latLonPrecision": 2000, "description": "Stevens County, WA | Northport mining district | DGER sources: gold_silver", "sourceId": "WA:3229"}
 {"name": "North Monitor", "lat": 48.0917, "lon": -118.1028, "latLonPrecision": 2000, "description": "Stevens County, WA | DGER sources: gold_silver", "sourceId": "WA:3230"}
-{"name": "Old Dominion", "lat": 48.553281, "lon": -117.776183, "latLonPrecision": 30, "description": "Stevens County, WA | Colville mining district | DGER sources: gold_silver, iaml, nonmetallic", "sourceId": "WA:3231"}
+{"name": "Old Dominion", "lat": 48.553281, "lon": -117.776183, "latLonPrecision": 30, "description": "Stevens County, WA | Colville mining district | DGER sources: gold_silver, iaml", "sourceId": "WA:3231"}
 {"name": "Orazada", "lat": 47.985808, "lon": -118.136475, "latLonPrecision": 250, "description": "Stevens County, WA | Deer Trail mining district | DGER sources: arsenic, gold_silver", "sourceId": "WA:3232"}
 {"name": "Orchid", "lat": 48.122411, "lon": -118.017211, "latLonPrecision": 250, "description": "Stevens County, WA | Cedar Canyon mining district | DGER sources: gold_silver", "sourceId": "WA:3233"}
 {"name": "Plata Fino", "lat": 48.046083, "lon": -118.1128, "latLonPrecision": 250, "description": "Stevens County, WA | Cedar Canyon mining district | DGER sources: gold_silver", "sourceId": "WA:3234"}
@@ -5415,3 +5415,4 @@
 {"name": "Togo Mine", "lat": 48.048281, "lon": -118.071456, "latLonPrecision": 2000, "description": "Stevens County, WA | DGER sources: iaml", "sourceId": "WA:5415"}
 {"name": "Eureka Gulch", "lat": 48.662829, "lon": -118.74922, "latLonPrecision": 2000, "description": "Ferry County, WA | Republic mining district | DGER sources: iaml", "sourceId": "WA:5416"}
 {"name": "Van Stone", "lat": 48.76584, "lon": -117.76004, "latLonPrecision": 2000, "description": "Stevens County, WA | Northport mining district | DGER sources: iaml", "sourceId": "WA:5417"}
+{"name": "Old Dominion mine", "lat": 48.56018717394956, "lon": -117.77386140295616, "latLonPrecision": 800, "description": "Stevens County, WA | DGER sources: nonmetallic", "sourceId": "WA:5418"}

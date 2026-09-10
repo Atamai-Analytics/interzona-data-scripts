@@ -1,9 +1,10 @@
-# WA (Washington / DGER) deposit extract — staging + dedup candidates
+# WA (Washington / DGER) deposit extract — staging, dedup, load
 
 **2026-09-10.** Sibling of the SIGAM/Argentina deposit work, kept fully separate:
 own staging tables (`wa_*`), own tag (`createdby='claude_wa_20260910'`), own dir
-(`wa_deposit_extract/`). **Nothing here has touched `locations` / `deposits` /
-`deposit_commodities` / `deposit_mineralogy`.** Waiting on review before Step 3.
+(`wa_deposit_extract/`). **Steps 1–5 complete** — 5,418 DGER deposits loaded into
+`criticialmineralsexp` and a LithoSurfer extract built (`../README.md`). Step 6
+(API load) is not started. Run order: `01`→`14`, then `build/`.
 
 ## Step 1 — `wa_deposits_staging` (done)
 
@@ -26,10 +27,10 @@ own staging tables (`wa_*`), own tag (`createdby='claude_wa_20260910'`), own dir
 Coordinates: 0 nulls, all inside WA. Hazard re-cut coords are rounded to ~4 dp;
 full-precision coords come from metallic/gold_silver/nonmetallic.
 
-## Step 2 — dedup (candidates only, NOT applied)
+## Step 2 — dedup
 
 `staging/02_edges.sql` → `03_cluster.py` (union-find) → `04_canonical.sql`.
-Tables built: `wa_cluster_assignment`, `wa_dedup_canonical` (5,432 rows).
+Tables built: `wa_cluster_assignment`, `wa_dedup_canonical` (5,418 rows).
 
 ### Auto-merge rule (high precision, applied in the candidate set)
 
@@ -44,7 +45,7 @@ or a shared geographic name (creek/lake/valley) on unrelated occurrences.
 
 ### Result (after 2026-09-10 review decisions — `staging/06_apply_decisions.sql`)
 
-Decisions applied: **accept all 11 name-variant merges**, **drop the 5 iaml
+Decisions applied: **accept 11 name-variant merges** (Old Dominion later reverted, see 14), **drop the 5 iaml
 mills/smelters**, **keep the coal composites**.
 
 | | count |
@@ -53,16 +54,16 @@ mills/smelters**, **keep the coal composites**.
 | excluded (iaml mills/smelter) | 5 |
 | active staging rows | 6,030 |
 | auto-merge edges (E1 + 12 accepted) | 656 |
-| **canonical deposits** | **5,417** |
+| **canonical deposits** | **5,418** |
 | rows collapsed | 613 |
 | 2-member clusters | 527 |
 | 3-member clusters | 40 |
 | 4-member clusters | 2 |
 
 Multi-source merges are coherent: hazard re-cuts fold back into metallic/gold_silver,
-asbestos folds into nonmetallic, iaml folds into metallic/gold_silver. Widest
-member spread in any merged cluster is 830 m ("Old Dominion", one of the accepted
-variant merges — gold_silver + iaml + nonmetallic).
+asbestos folds into nonmetallic, iaml folds into metallic/gold_silver. After the
+Old Dominion split (below) the widest merged-cluster spread is 660 m
+("Silver Hill", metallic + 2× nonmetallic on one hill).
 
 ### Review queue — resolved
 
@@ -73,12 +74,21 @@ resolved. **All 136 open pairs are rejected** (kept distinct): DGER's deliberate
 ("Sultan River" ×2 @ 2.8 km, "Marble", "Guye Peak", "Holden" nonmetallic vs
 metallic @ 909 m). No further merges pending.
 
-### Accepted name-variant merges (11)
+### Accepted name-variant merges (10; Old Dominion reverted)
 
 `Deer Trail Monitor` · `McMyrl-Wilson`↔`McMyri-Wilson` (×3, incl. asbestos) ·
 `Metaline Mining & Leasing Co.` · `Flagstaff Mountain` · `Sultan River Placer(s)` ·
-`Frisco Standard` · `Old Dominion` · `Northwest Haydite Co, Inc` · `Cedar Mountain` ·
+`Frisco Standard` · `Northwest Haydite Co, Inc` · `Cedar Mountain` ·
 `Johnson Coal Co.` — full staging_id pairs in `02_edges.sql` (`accepted_merges`).
+
+**`14_split_old_dominion.sql`** (spot-check follow-up) — the accepted
+`Old Dominion` / `Old Dominion mine` merge was **reverted**: `staging 4465` is a
+dolomite prospect ("two beds of dolomite … crosscut in main adit") 830 m from the
+Ag-Pb-Zn Old Dominion mine. Split into its own canonical **5418**
+(`WA:5418`, Limestone). `WA:3231` is now gold_silver + iaml only, Ag/Pb/Zn,
+spread 111 m. Patched `wa_cluster_assignment` directly (canonical ids are the
+frozen load key — `03_cluster.py` renumbers, so a full rebuild is no longer safe;
+`cluster_assignment.csv` is the source of truth).
 
 ### Excluded (5 iaml processing facilities — `excluded=true` in staging)
 
@@ -102,7 +112,7 @@ it is a real prospect, not a mill.
 | `nodes.csv` / `edges.csv` | clustering inputs |
 | `cluster_assignment.csv` | staging_id → cluster_id |
 | `cluster_report.txt` | size distribution + source-mix summary |
-| `canonical_all.csv` | **5,417 canonical deposits** — merged fields, member keys |
+| `canonical_all.csv` | **5,418 canonical deposits** — merged fields, member keys |
 | `canonical_merged_only.csv` | just the 569 merged clusters, widest-spread first |
 | `review_pairs.csv` / `review_pairs_open.csv` | 150 triaged / 136 still-open (all rejected) |
 
@@ -139,9 +149,9 @@ Snapshots `deposits` / `deposit_commodities` / `deposit_mineralogy` →
 
 | table | rows added | notes |
 |---|--:|---|
-| `locations` | 5,417 | locationtype='DEPOSIT', datasource='Washington State Geological Survey (DGER)', external_id='WA:<canonical_id>', countryid=246, divisionid=48, geom via trigger (0 null). Provenance + aliases + location notes in `comments`. |
-| `deposits` | 5,417 | `deposits` 3,528 → **8,945**. `geological_district` ← mining_district; comments carry DGER comments/value/ore-minerals; `production_data` flag where recorded. |
-| `deposit_commodities` | 9,320 | 5,477 PRIMARY / 3,843 SECONDARY. 26 deposits have no commodity (iaml-only metal mines + null-name coal composite). |
+| `locations` | 5,418 | locationtype='DEPOSIT', datasource='Washington State Geological Survey (DGER)', external_id='WA:<canonical_id>', countryid=246, divisionid=48, geom via trigger (0 null). Provenance + aliases + location notes in `comments`. |
+| `deposits` | 5,418 | `deposits` 3,528 → **8,946**. `geological_district` ← mining_district; comments carry DGER comments/value/ore-minerals; `production_data` flag where recorded. |
+| `deposit_commodities` | 9,316 | 5,479 PRIMARY / 3,837 SECONDARY (after `13`/`14`). 25 deposits have no commodity (iaml-only metal mines + null-name coal composite). |
 | `deposit_mineralogy` | 5,173 | from `ore_minerals`; 4,215 (81%) matched a `minerals.mineral_id`. |
 
 Verified: 0 null geom, 0 unmapped ids, 0 orphan commodities. Van Epps (WA:2)

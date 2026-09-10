@@ -7029,7 +7029,6 @@ canonical_id,commodity_id,commodity_name,commodity_role
 3230,241,Pb,SECONDARY
 3230,242,Zn,SECONDARY
 3231,248,Ag,PRIMARY
-3231,72,Limestone,PRIMARY
 3231,241,Pb,SECONDARY
 3231,242,Zn,SECONDARY
 3232,248,Ag,PRIMARY
@@ -9315,3 +9314,4 @@ canonical_id,commodity_id,commodity_name,commodity_role
 5390,94,Coal,PRIMARY
 5391,94,Coal,PRIMARY
 5392,94,Coal,PRIMARY
+5418,72,Limestone,PRIMARY

@@ -7027,10 +7027,9 @@
 {"commodityId": 30320189, "commodityName": "Ag", "comment": "Commodity present (DGER: gold_silver); role PRIMARY", "sourceId": "WA:3230"}
 {"commodityId": 30320182, "commodityName": "Pb", "comment": "Commodity present (DGER: gold_silver); role SECONDARY", "sourceId": "WA:3230"}
 {"commodityId": 30320183, "commodityName": "Zn", "comment": "Commodity present (DGER: gold_silver); role SECONDARY", "sourceId": "WA:3230"}
-{"commodityId": 30320189, "commodityName": "Ag", "comment": "Commodity present (DGER: gold_silver, iaml, nonmetallic); role PRIMARY", "sourceId": "WA:3231"}
-{"commodityId": 30319701, "commodityName": "Limestone", "comment": "Commodity present (DGER: gold_silver, iaml, nonmetallic); role PRIMARY", "sourceId": "WA:3231"}
-{"commodityId": 30320182, "commodityName": "Pb", "comment": "Commodity present (DGER: gold_silver, iaml, nonmetallic); role SECONDARY", "sourceId": "WA:3231"}
-{"commodityId": 30320183, "commodityName": "Zn", "comment": "Commodity present (DGER: gold_silver, iaml, nonmetallic); role SECONDARY", "sourceId": "WA:3231"}
+{"commodityId": 30320189, "commodityName": "Ag", "comment": "Commodity present (DGER: gold_silver, iaml); role PRIMARY", "sourceId": "WA:3231"}
+{"commodityId": 30320182, "commodityName": "Pb", "comment": "Commodity present (DGER: gold_silver, iaml); role SECONDARY", "sourceId": "WA:3231"}
+{"commodityId": 30320183, "commodityName": "Zn", "comment": "Commodity present (DGER: gold_silver, iaml); role SECONDARY", "sourceId": "WA:3231"}
 {"commodityId": 30320189, "commodityName": "Ag", "comment": "Commodity present (DGER: arsenic, gold_silver); role PRIMARY", "sourceId": "WA:3232"}
 {"commodityId": 30320190, "commodityName": "Au", "comment": "Commodity present (DGER: arsenic, gold_silver); role SECONDARY", "sourceId": "WA:3232"}
 {"commodityId": 30320182, "commodityName": "Pb", "comment": "Commodity present (DGER: arsenic, gold_silver); role SECONDARY", "sourceId": "WA:3232"}
@@ -9314,3 +9313,4 @@
 {"commodityId": 30319726, "commodityName": "Coal", "comment": "Commodity present (DGER: coal_mine); role PRIMARY", "sourceId": "WA:5390"}
 {"commodityId": 30319726, "commodityName": "Coal", "comment": "Commodity present (DGER: coal_mine); role PRIMARY", "sourceId": "WA:5391"}
 {"commodityId": 30319726, "commodityName": "Coal", "comment": "Commodity present (DGER: coal_mine); role PRIMARY", "sourceId": "WA:5392"}
+{"commodityId": 30319701, "commodityName": "Limestone", "comment": "Commodity present (DGER: nonmetallic); role PRIMARY", "sourceId": "WA:5418"}
