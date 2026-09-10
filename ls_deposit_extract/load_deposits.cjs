@@ -114,21 +114,36 @@ if (fs.existsSync(PROG)) for (const l of fs.readFileSync(PROG, "utf8").split("\n
     try {
       if (DRY) { console.log(`[dry] would create ${d.sourceId} "${d.name}" + ${(styles.get(d.sourceId) || []).length}s/${(endows.get(d.sourceId) || []).length}e/${(ages.get(d.sourceId) || []).length}a/${(ops.get(d.sourceId) || []).length}o`); continue; }
 
-      const dep = await api("POST", "/api/deposit/Deposit", {
-        name: d.name, lat: d.lat ?? null, lon: d.lon ?? null,
+      // Deposit.name has a GLOBAL unique constraint (ux_deposit_name) with no server-side
+      // uniquifier and API delete is soft-only, so every name is spent once. Use one
+      // consistent scheme: "<name> (SIGAM <depno>)" — unique by depno, readable, single-use.
+      const mkDep = (nm) => ({
+        name: nm, lat: d.lat ?? null, lon: d.lon ?? null,
         latLonPrecision: d.latLonPrecision ?? null, description: d.description ?? null, sourceId: d.sourceId,
       });
+      const suffix = ` (SIGAM ${depno})`;
+      let usedName = d.name.slice(0, 250 - suffix.length) + suffix;
+      let dep;
+      try {
+        dep = await api("POST", "/api/deposit/Deposit", mkDep(usedName));
+      } catch (e) {
+        const dup = e.status === 400 && /already exists|duplicate key/i.test(JSON.stringify(e.payload || ""));
+        if (!dup) throw e;
+        usedName = d.name.slice(0, 235 - suffix.length) + suffix + " " + d.sourceId.slice(-6);
+        dep = await api("POST", "/api/deposit/Deposit", mkDep(usedName));
+        console.log(`  note: ${d.sourceId} name collided, used "${usedName}"`);
+      }
       const depositId = dep.id;
 
       const info = await api("POST", "/api/deposit/DepositInfo", {
-        dataPointDTO: { dataPackageId: Number(PKG), name: `${d.name}\\${SESSION}`, sourceId: d.sourceId, description: null },
-        extendingDataPointDTO: { depositId, depositName: d.name },
+        dataPointDTO: { dataPackageId: Number(PKG), name: usedName, sourceId: d.sourceId, description: null },
+        extendingDataPointDTO: { depositId, depositName: usedName },
       });
       const depositInfoId = info.id ?? info.extendingDataPointDTO?.id ?? info.dataPointDTO?.depositInfoId;
       if (!depositInfoId) throw Object.assign(new Error("no depositInfoId in response"), { payload: info });
 
       const rec = { sourceId: d.sourceId, ts: new Date().toISOString(), depno, depositId, depositInfoId,
-        styles: [], endowments: [], ages: [], opstatus: [] };
+        name: usedName, styles: [], endowments: [], ages: [], opstatus: [] };
 
       for (const s of styles.get(d.sourceId) || []) {
         const r = await api("POST", "/api/deposit/DepositStyle", {

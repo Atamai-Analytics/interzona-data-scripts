@@ -28,6 +28,7 @@ ls_deposit_extract/*
 ls_deposit_extract/load_progress_*.jsonl
 !ls_deposit_extract/*.csv
 !ls_deposit_extract/*.cjs
+!ls_deposit_extract/*.md
 !ls_deposit_extract/build/
 ls_deposit_extract/build/*
 !ls_deposit_extract/build/*.py

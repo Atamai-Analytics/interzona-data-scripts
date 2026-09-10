@@ -68,10 +68,12 @@ for r in rows("v2_ages.csv"):
 
 dep_out, style_out, endow_out, age_out, ops_out = [], [], [], [], []
 endow_raw, attention = [], []
+desc_full = {}
 cov = collections.Counter()
 
 for r in base:
     depno = int(r["depno"]); sid = f"SIGAM:{depno}"
+    r["url"] = f"https://sigam.segemar.gov.ar/segedoc/res/img/sigam_yacimientos/dp{depno}.html"
     cov["deposits"] += 1
     lat, lon = num(r["lat"]), num(r["lon"])
     coord_ok = lat is not None and lon is not None and abs(lat) > 1e-4 and abs(lon) > 1e-4
@@ -89,12 +91,19 @@ for r in base:
         if v and v != "UNKNOWN": bits.append(f"{label}: {v}")
     if minerals.get(depno): bits.append(f"Mineralogy: {minerals[depno]}")
     if r.get("deposit_type_local"): bits.append(f"SIGAM type: {r['deposit_type_local']}")
-    bits.append(f"Source: SEGEMAR SIGAM fact sheet dp{depno}"
-                + (f" ({r['fecha_actualizacion']})" if r.get("fecha_actualizacion") else "")
-                + (f" {r['url']}" if r.get("url") else ""))
+    full_desc = " | ".join(bits) + f" | Source: SEGEMAR SIGAM fact sheet dp{depno}" + \
+        (f" ({r['fecha_actualizacion']})" if r.get("fecha_actualizacion") else "") + \
+        (f" {r['url']}" if r.get("url") else "")
+    desc_full[depno] = full_desc
+    # Deposit.description is capped at 255 by the API -> compact form, URL first so it always survives.
+    short = " · ".join(x for x in [
+        r.get("url"),
+        (r.get("deposit_type_local") or "").strip() or None,
+        (r.get("geological_province") or "").strip() or None,
+    ] if x)
     dep_out.append({"name": name, "lat": lat if coord_ok else None, "lon": lon if coord_ok else None,
                     "latLonPrecision": LAT_PREC_M if coord_ok else None,
-                    "description": " | ".join(bits), "sourceId": sid})
+                    "description": short[:255], "sourceId": sid})
 
     # style
     dtid = int(r["deposit_type_id"]) if r["deposit_type_id"] else None
@@ -194,6 +203,9 @@ with open(os.path.join(OUT, "endowment_raw.csv"), "w", newline="", encoding="utf
     w.writeheader(); w.writerows(endow_raw)
 with open(os.path.join(OUT, "review_needs_attention.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f); w.writerow(["depno", "issue", "url"]); w.writerows(sorted(attention))
+with open(os.path.join(OUT, "deposit_description_full.csv"), "w", newline="", encoding="utf-8") as f:
+    w = csv.writer(f); w.writerow(["depno", "description_full"])
+    for dn in sorted(desc_full): w.writerow([dn, desc_full[dn]])
 json.dump(dict(cov), open(os.path.join(OUT, "_coverage.json"), "w"), indent=2)
 print("\ncoverage:")
 for k, v in sorted(cov.items()): print(f"  {k}: {v}")
