@@ -1,0 +1,13 @@
+{
+  "distinct_strings": 242,
+  "total_rows": 563,
+  "method_rows": {
+    "exact": 478,
+    "crosswalk-range": 21,
+    "range": 64
+  },
+  "confidence_rows": {
+    "UNCERTAIN": 168,
+    "MEDIUM": 395
+  }
+}

@@ -67,6 +67,10 @@ Relevant columns it already has: `age_ma`, `age_error_ma`, `age_error_percent`,
 `OSL`, `IRSL`, `Sm‑Nd`, `U‑Th‑Pb`, `LA‑ICP‑MS`. (`Ar‑Ar`, `K‑Ar`, `Fission
 Track`, `Rb‑Sr`, `C‑14`, `Thermoluminescence`, `Fossil Assemblage` are present.)
 
+> **Loaded and verified 2026‑09‑11** (`wa_fossil_extract/`): all 563 rows resolved
+> (100%, 242/242 distinct `reported_age` strings) and loaded into
+> `age_stratigraphic` + 563 new `locations`. See `wa_fossil_extract/README.md`.
+
 ### 1b. Fossil ages → `age_stratigraphic` + `stratigraphic_age_reference`
 
 `WA_fossil_age` (563) carries **no number** — it is qualitative biostratigraphy.
@@ -112,7 +116,7 @@ method essentials that have nowhere to go. A `unit`/`age_unit` column on
 | `WA_other_analysis_age` | 149 | `age_measured` | ⚠️ Rb‑Sr/Sm‑Nd fine; 36Cl needs a method row + is arguably out of scope |
 | `WA_luminescence_age` | 370 | `age_measured` | ⚠️ needs unit column + OSL/IRSL methods |
 | `WA_carbon_age` | 1,829 | — | ❌ needs dedicated table |
-| `WA_fossil_age` | 563 | `age_stratigraphic` | ⚠️ needs free‑text→`stratigraphic_age_id` parse |
+| `WA_fossil_age` | 563 | `age_stratigraphic` | ✅ **loaded** — 563/563 resolved (`wa_fossil_extract/`) |
 
 ---
 

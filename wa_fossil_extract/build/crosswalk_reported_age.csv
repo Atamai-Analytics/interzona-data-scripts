@@ -1,0 +1,243 @@
+reported_age,stratigraphic_age_id,matched_age_name,confidence_level,match_method
+As young as Zemorrian (Oligocene),72,Oligocene,UNCERTAIN,exact
+"Aspects of Refugian, Narizian (middle Eocene to lower Oligocene)",113,Eocene_Oligocene,UNCERTAIN,crosswalk-range
+Berriasian to Hauterivian,54,Early Cretaceous,MEDIUM,exact
+Cretaceous ?,21,Cretaceous,UNCERTAIN,exact
+Devonian,14,Devonian,MEDIUM,exact
+Devonian?,14,Devonian,UNCERTAIN,exact
+"Earliest Cretaceous, middle or upper? Valanginian",21,Cretaceous,UNCERTAIN,exact
+Earliest Oligocene (early Kummerian Stage),72,Oligocene,MEDIUM,exact
+Earliest early Cretaceous,54,Early Cretaceous,MEDIUM,exact
+Earliest easrly Cretaceous,21,Cretaceous,MEDIUM,exact
+Early Cretaceous,54,Early Cretaceous,MEDIUM,exact
+Early Cretaceous (Hautervian),54,Early Cretaceous,MEDIUM,exact
+Early Cretaceous (Valanginian),54,Early Cretaceous,MEDIUM,exact
+"Early Cretaceous, middle or upper Valanginian",54,Early Cretaceous,MEDIUM,exact
+"Early Cretaceous, upper Valanginian",54,Early Cretaceous,MEDIUM,exact
+Early Devonian (Lochkovian),40,Lower Devonian,MEDIUM,exact
+Early Fultonian Stage,41,Mississippian,MEDIUM,exact
+Early Jurassic,53,Lower Jurassic,MEDIUM,exact
+Early Jurassic (Hettangian and Sinemurian),53,Lower Jurassic,MEDIUM,exact
+Early Jurassic (Pleinsbachian to Toarcian),53,Lower Jurassic,MEDIUM,exact
+Early Jurassic (probably Pleinsbachian),53,Lower Jurassic,UNCERTAIN,exact
+Early Jurassic or earliest middle Jurassic,51,Middle Jurassic,MEDIUM,exact
+Early Jurassic to Cretaceous,129,Jurassic_Cretaceous,UNCERTAIN,range
+Early Jurassic to early Cretaceous,129,Jurassic_Cretaceous,UNCERTAIN,range
+Early Mississippian (Kinderhookian),77,Lower Mississippian,MEDIUM,exact
+Early Oligocene,72,Oligocene,MEDIUM,exact
+Early Oligocene (late Kummerian Stage),72,Oligocene,MEDIUM,exact
+Early Pennsylvanian,42,Pennsylvanian,MEDIUM,exact
+Early Pennsylvanian or possibly late Mississippian,185,Mississippian_Pennsylvanian,UNCERTAIN,range
+Early Permian,16,Permian,MEDIUM,exact
+Early Permian (Wolfcampian),16,Permian,MEDIUM,exact
+Early Permian (early Leonardian),16,Permian,MEDIUM,exact
+Early Permian (late Wolfcampian),16,Permian,MEDIUM,exact
+Early Permian (late? Leonardian),16,Permian,UNCERTAIN,exact
+Early Ravenian Stage,41,Mississippian,MEDIUM,exact
+"Early Tertiary, late Eocene (Refugian)",113,Eocene_Oligocene,UNCERTAIN,crosswalk-range
+Early Triassic,46,Early Triassic,MEDIUM,exact
+Early and middle Pennsylvanian,42,Pennsylvanian,MEDIUM,exact
+Early late Eocene,71,Eocene,MEDIUM,exact
+Early middle Eocene and middle Eocene,71,Eocene,MEDIUM,exact
+Early or Middle Pennsylvanian (Desmoinesian to Atokan),42,Pennsylvanian,MEDIUM,exact
+Early to Middle Eocene,71,Eocene,MEDIUM,exact
+Early to late Mississippian (Kinderhookian to Meramecian),41,Mississippian,MEDIUM,exact
+Early to late Mississippian to Permain (probably Mississippian),41,Mississippian,UNCERTAIN,exact
+Early to middle Eocene,71,Eocene,MEDIUM,exact
+Early to middle Pennsylvanian,42,Pennsylvanian,MEDIUM,exact
+Eocene,71,Eocene,MEDIUM,exact
+Eocene to Oligocene,113,Eocene_Oligocene,UNCERTAIN,range
+"Eocene?, Oligocene?",113,Eocene_Oligocene,UNCERTAIN,range
+Jurassic,20,Jurassic,MEDIUM,exact
+Jurassic (Toarcian to Tithonian),20,Jurassic,MEDIUM,exact
+Jurassic and younger,20,Jurassic,MEDIUM,exact
+Jurassic to Cretaceous,129,Jurassic_Cretaceous,UNCERTAIN,range
+Jurassic to early Cretaceous (Toarcian to early Hauterivian),129,Jurassic_Cretaceous,UNCERTAIN,range
+Jurassic to lower Cretaceous,129,Jurassic_Cretaceous,UNCERTAIN,range
+"Jurassic, Oxfordian to early Kimmeridgian",20,Jurassic,MEDIUM,exact
+"Jurassic, late Kimmeridgian to early Tithonian",20,Jurassic,MEDIUM,exact
+Jurassic; Early Jurassic (Sinemurian or Toarcian),53,Lower Jurassic,MEDIUM,exact
+Jurassic?,20,Jurassic,UNCERTAIN,exact
+Late Cretaceous,55,Late Cretaceous,MEDIUM,exact
+Late Cretaceous (Santonian),55,Late Cretaceous,MEDIUM,exact
+Late Cretaceous (upper Campanian),92,Campanian,MEDIUM,exact
+Late Cretaceous to early Tertiary,168,Cretaceous_Tertiary,UNCERTAIN,range
+Late Cretaecous (upper Campanian),92,Campanian,MEDIUM,exact
+Late Devonian (early Famennian),101,Famennian,MEDIUM,exact
+Late Eocene,71,Eocene,MEDIUM,exact
+Late Eocene (Refugian),113,Eocene_Oligocene,UNCERTAIN,crosswalk-range
+Late Eocene to early Oligocene,113,Eocene_Oligocene,UNCERTAIN,range
+Late Eocene?,71,Eocene,UNCERTAIN,exact
+Late Eocene? or older,71,Eocene,UNCERTAIN,exact
+Late Eocene? to Oligocene? (Refugian? to Zemorrian?),113,Eocene_Oligocene,UNCERTAIN,crosswalk-range
+Late Fultonian Stage,41,Mississippian,MEDIUM,exact
+Late Jurassic,52,Upper Jurassic,MEDIUM,exact
+Late Jurassic (Oxfordian or Kimmeridgian),52,Upper Jurassic,MEDIUM,exact
+Late Jurassic (Oxfordian to Kimmeridgian),52,Upper Jurassic,MEDIUM,exact
+Late Jurassic (Oxfordian to Valanginian),52,Upper Jurassic,MEDIUM,exact
+Late Jurassic (Oxfordian to late Tithonian),52,Upper Jurassic,MEDIUM,exact
+Late Jurassic (early Tithonian),52,Upper Jurassic,MEDIUM,exact
+Late Jurassic (late Kimmeridgian to early Tithonian),52,Upper Jurassic,MEDIUM,exact
+Late Jurassic (undifferentiated),52,Upper Jurassic,MEDIUM,exact
+Late Jurassic or Early Cretaceous,129,Jurassic_Cretaceous,UNCERTAIN,range
+Late Jurassic or early Cretaceous,129,Jurassic_Cretaceous,UNCERTAIN,range
+Late Jurassic to early Cretaceous,129,Jurassic_Cretaceous,UNCERTAIN,range
+Late Jurassic- Early Cretaceous,129,Jurassic_Cretaceous,UNCERTAIN,range
+Late Jurassic?,52,Upper Jurassic,UNCERTAIN,exact
+Late Mississippian,41,Mississippian,MEDIUM,exact
+Late Mississippian (early Chesterian),41,Mississippian,MEDIUM,exact
+Late Mississippian (early Meramecian),41,Mississippian,MEDIUM,exact
+Late Mississippian (late Meramecian to early Chesterian with redeposited Osagean elements),41,Mississippian,MEDIUM,exact
+Late Mississippian to earliest Pennsylvanian,185,Mississippian_Pennsylvanian,UNCERTAIN,range
+Late Mississippian to early Permian (Chesterian to Wolfcampian),191,Mississippian_Permian,UNCERTAIN,range
+"Late Mississippian, Chesterian",41,Mississippian,MEDIUM,exact
+Late Mississppian,41,Mississippian,MEDIUM,exact
+Late Oligocene,72,Oligocene,MEDIUM,exact
+Late Oligocene or Miocene,154,Oligocene_Miocene,UNCERTAIN,range
+Late Paleocene,70,Paleocene,MEDIUM,exact
+Late Paleocene to early? Eocene,70,Paleocene,UNCERTAIN,exact
+Late Pennsylvanian to early and middle Permian,184,Pennsylvanian_Permian,UNCERTAIN,range
+Late Permian,16,Permian,MEDIUM,exact
+Late Permian (Guadalupian)?,16,Permian,UNCERTAIN,exact
+Late Permian (early Guadalupian),16,Permian,MEDIUM,exact
+Late Permian (early Guadalupian) fusulinids; Late Triassic radiolaria,123,Permian_Triassic,UNCERTAIN,range
+Late Pleistocene,61,Pleistocene,MEDIUM,exact
+Late Ravenian Stage,41,Mississippian,MEDIUM,exact
+Late Triassic,48,Late Triassic,MEDIUM,exact
+Late Triassic (Carnian to Norian),94,Carnian,MEDIUM,exact
+Late Triassic (Carnian),94,Carnian,MEDIUM,exact
+Late Triassic (early Carnian to middle Norian),94,Carnian,MEDIUM,exact
+Late Triassic (late Carnian to late Norian),94,Carnian,MEDIUM,exact
+Late Triassic (late Carnian to middle Norian),94,Carnian,MEDIUM,exact
+Late Triassic (late Carnian),94,Carnian,MEDIUM,exact
+Late Triassic (late Norian),93,Norian,MEDIUM,exact
+Late Triassic (probably Carnian),94,Carnian,UNCERTAIN,exact
+Late Triassic (probably middle to late Norian),93,Norian,UNCERTAIN,exact
+Late Triassic to Early Jurassic,133,Triassic_Jurassic,UNCERTAIN,range
+Late Triassic to earliest Jurassic (Norian to Pliensbachian),133,Triassic_Jurassic,UNCERTAIN,range
+Late Triassic to early Cretaceous,138,Triassic_Cretaceous,UNCERTAIN,range
+Late Triassic to early Jurassic,133,Triassic_Jurassic,UNCERTAIN,range
+Late Triassic to late Jurassic,133,Triassic_Jurassic,UNCERTAIN,range
+"Late Triassic, Karnian to Norian",93,Norian,MEDIUM,exact
+"Late Triassic, early to late middle Norian",93,Norian,MEDIUM,exact
+"Late Triassic, upper Karnian? lower to upper middle Norian",93,Norian,UNCERTAIN,exact
+Late Triassic?,48,Late Triassic,UNCERTAIN,exact
+Late late to early middle Eocene,71,Eocene,MEDIUM,exact
+Late middle Devonian,39,Middle Devonian,MEDIUM,exact
+Late middle Eocene,71,Eocene,MEDIUM,exact
+Late middle Eocene and middle and late Eocene,71,Eocene,MEDIUM,exact
+Late middle Eocene to early late Eocene,71,Eocene,MEDIUM,exact
+Late middle Permian,16,Permian,MEDIUM,exact
+Late to Early Eocene,71,Eocene,MEDIUM,exact
+Late? Eocene,71,Eocene,UNCERTAIN,exact
+Latest Jurassic,20,Jurassic,MEDIUM,exact
+"Latest Jurassic, Portlandian to Purbeckian",20,Jurassic,MEDIUM,exact
+"Latest Jurassic, Purbeckian (upper Tithonian)",20,Jurassic,MEDIUM,exact
+Latest middle Eocene to late Eocene,71,Eocene,MEDIUM,exact
+Latest middle Eocene to late Eocene; middle Eocene to early Oligocene,113,Eocene_Oligocene,UNCERTAIN,range
+Lower Eocene to upper Cretaceous,170,Cretaceous_Eocene,UNCERTAIN,range
+"Lower Eocene, possibly upper Mesozoic",370,Mesozoic_Eocene,UNCERTAIN,range
+Lower Eocene?,71,Eocene,UNCERTAIN,exact
+Lower Narizian (lower middle and upper Eocene),71,Eocene,MEDIUM,exact
+Lower Oligocene,72,Oligocene,MEDIUM,exact
+Lower Oligocene-Eocene,113,Eocene_Oligocene,UNCERTAIN,range
+Lower Paleocene to Middle Eocene,70,Paleocene,MEDIUM,exact
+Lower Refugion or uppermost Narizian,71,Eocene,MEDIUM,exact
+Mesozoic,7,Mesozoic,MEDIUM,exact
+Mesozoic (Jurassic?),372,Mesozoic_Jurassic,UNCERTAIN,range
+Mesozoic (Triassic?),19,Triassic,UNCERTAIN,exact
+Mesozoic (early? to middle Jurassic),372,Mesozoic_Jurassic,UNCERTAIN,range
+Mesozoic (late Trassic?),7,Mesozoic,UNCERTAIN,exact
+Mesozoic (probably Jurassic),372,Mesozoic_Jurassic,UNCERTAIN,range
+Mesozoic (probably late Triassic or early Jurassic),133,Triassic_Jurassic,UNCERTAIN,range
+Mesozoic or younger,7,Mesozoic,UNCERTAIN,exact
+Middle Cretaceous (latest Albian),79,Albian,MEDIUM,exact
+Middle Eocene,71,Eocene,MEDIUM,exact
+Middle Eocene (Lower Narizian),71,Eocene,MEDIUM,exact
+Middle Eocene (Narizian),71,Eocene,MEDIUM,exact
+Middle Eocene (lower Narizian),71,Eocene,MEDIUM,exact
+Middle Eocene (middle Narizian),71,Eocene,MEDIUM,exact
+Middle Eocene?,71,Eocene,UNCERTAIN,exact
+Middle Eocene? (Narizian?),71,Eocene,UNCERTAIN,exact
+Middle Eocone,71,Eocene,MEDIUM,exact
+Middle Jurassic,51,Middle Jurassic,MEDIUM,exact
+Middle Jurassic (Bajocian),51,Middle Jurassic,MEDIUM,exact
+Middle Jurassic (early Cretaceous),129,Jurassic_Cretaceous,UNCERTAIN,range
+Middle Jurassic or younger,51,Middle Jurassic,UNCERTAIN,exact
+Middle Jurassic?,51,Middle Jurassic,UNCERTAIN,exact
+Middle Oligocene,72,Oligocene,MEDIUM,exact
+Middle Oligocene to lower Miocene,154,Oligocene_Miocene,UNCERTAIN,range
+Middle Paleocene,70,Paleocene,MEDIUM,exact
+Middle Pennsylvanian (Atokan to Desmoinesian),42,Pennsylvanian,MEDIUM,exact
+Middle Permian,16,Permian,MEDIUM,exact
+Middle or ?upper Eocene,71,Eocene,UNCERTAIN,exact
+Middle or Late Devonian (late Givetian to early Frasnian),37,Late Devonian,MEDIUM,exact
+Middle or Late Triassic,48,Late Triassic,MEDIUM,exact
+Middle or early Pennsylvanian,42,Pennsylvanian,MEDIUM,exact
+Middle or late Cretaceous,55,Late Cretaceous,MEDIUM,exact
+Middle or late Devonian (late Givetian to early Frasnian),37,Late Devonian,MEDIUM,exact
+Middle or late Eocene,71,Eocene,MEDIUM,exact
+Middle or late Triassic?,48,Late Triassic,UNCERTAIN,exact
+Middle or upper Eocene,71,Eocene,MEDIUM,exact
+Middle to late Eocene (Refugian),113,Eocene_Oligocene,UNCERTAIN,crosswalk-range
+Middle to late Jurassic,52,Upper Jurassic,MEDIUM,exact
+Middle to late Jurassic (Oxfordian to lower Kimmeridgian),52,Upper Jurassic,MEDIUM,exact
+Middle to late Jurassic (late Bajocian to Kimmeridgian),52,Upper Jurassic,MEDIUM,exact
+Middle to late Jurassic (upper Oxfordian or lower Kimmeridgian),52,Upper Jurassic,MEDIUM,exact
+"Middle to late Jurassic, lower Kimmeridgian",52,Upper Jurassic,MEDIUM,exact
+Middle to late Permian,16,Permian,MEDIUM,exact
+Miiddle or upper Eocene,71,Eocene,MEDIUM,exact
+Mississippian,41,Mississippian,MEDIUM,exact
+Mississippian through Triassic,382,Mississippian_Triassic,UNCERTAIN,range
+Mississippian?,41,Mississippian,UNCERTAIN,exact
+Narizian (middle and upper Eocene),71,Eocene,MEDIUM,exact
+Narizian (middle to upper Eocene),71,Eocene,MEDIUM,exact
+Narizian? (middle and upper Eocene),71,Eocene,UNCERTAIN,exact
+No older than early middle Eocene,71,Eocene,MEDIUM,exact
+Oligocene,72,Oligocene,MEDIUM,exact
+Oligocene (Zemorrian Stage),72,Oligocene,MEDIUM,exact
+Oligocene (Zemorrian),72,Oligocene,MEDIUM,exact
+Oligocene or early Miocene,154,Oligocene_Miocene,UNCERTAIN,range
+Oligocene to Eocene,113,Eocene_Oligocene,UNCERTAIN,range
+Paleocene,70,Paleocene,MEDIUM,exact
+Paleocene to lower Eocene,70,Paleocene,MEDIUM,exact
+Paleocene? to lower Oligocene,165,Paleocene_Oligocene,UNCERTAIN,range
+Paleozoic,6,Paleozoic,MEDIUM,exact
+Pennsylvanian to early Permian,184,Pennsylvanian_Permian,UNCERTAIN,range
+Permian,16,Permian,MEDIUM,exact
+Permian (undifferentiated),16,Permian,MEDIUM,exact
+Permian?,16,Permian,UNCERTAIN,exact
+Pleistocene,61,Pleistocene,MEDIUM,exact
+Possibly late Jurassic,52,Upper Jurassic,UNCERTAIN,exact
+Possibly late Triassic or early Jurassic,133,Triassic_Jurassic,UNCERTAIN,range
+Probable early Jurassic,53,Lower Jurassic,MEDIUM,exact
+Probably Devonian,14,Devonian,UNCERTAIN,exact
+Probably Mesozoic,7,Mesozoic,UNCERTAIN,exact
+Probably Mississippian,41,Mississippian,UNCERTAIN,exact
+Probably Pennsylvanian,42,Pennsylvanian,UNCERTAIN,exact
+Probably Triassic (Ladinian or Carnian),94,Carnian,UNCERTAIN,exact
+Probably early Jurassic,53,Lower Jurassic,UNCERTAIN,exact
+Probably early Permian,16,Permian,UNCERTAIN,exact
+Probably late Mississippian,41,Mississippian,UNCERTAIN,exact
+Probably late Triassic,48,Late Triassic,UNCERTAIN,exact
+Probably middle or late Jurassic,52,Upper Jurassic,UNCERTAIN,exact
+Probably middle or late Triassic?,48,Late Triassic,UNCERTAIN,exact
+Refugian,113,Eocene_Oligocene,UNCERTAIN,crosswalk-range
+Refugian (lower Oligocene to upper Eocene),113,Eocene_Oligocene,UNCERTAIN,crosswalk-range
+Silurian to Devonian,136,Silurian_Devonian,UNCERTAIN,range
+Trassic (Ladinian or Carnian),94,Carnian,MEDIUM,exact
+Triassic,19,Triassic,MEDIUM,exact
+Triassic (Ladinian or Carnian),94,Carnian,MEDIUM,exact
+Triassic (Ladinian or early Carnian),94,Carnian,MEDIUM,exact
+Triassic (late Triassic?),48,Late Triassic,UNCERTAIN,exact
+Triassic and early Jurassic,133,Triassic_Jurassic,UNCERTAIN,range
+Triassic or younger,19,Triassic,UNCERTAIN,exact
+"Triassic, probably Norian",93,Norian,UNCERTAIN,exact
+"Triassic, probably late middle Norian to Hettangian",93,Norian,UNCERTAIN,exact
+Triassic?,19,Triassic,UNCERTAIN,exact
+Ulatisian or older (lower and middle Eocene or older),71,Eocene,UNCERTAIN,exact
+Upper Eocene,71,Eocene,MEDIUM,exact
+Upper Eocene to Lower Oligocene,113,Eocene_Oligocene,UNCERTAIN,range
+Upper Jurassic,52,Upper Jurassic,MEDIUM,exact
+Upper Narizian,71,Eocene,MEDIUM,exact
+Uppermost Eocene to lower Oligocene,113,Eocene_Oligocene,UNCERTAIN,range

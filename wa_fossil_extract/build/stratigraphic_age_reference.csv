@@ -1,0 +1,319 @@
+stratigraphic_age_id,age_name,age_type,parent_age_id,age_start_ma,age_end_ma,age_rank,region
+79,Albian,AGE,15,113.0000,100.5000,5,Global
+89,Aquitanian,AGE,25,23.0300,20.4400,5,Global
+473,Arenigian,AGE,68,477.7000,470.0000,3,Global
+45,Asselian,AGE,7,298.9000,293.5200,5,Global
+84,Bartonian,AGE,23,41.2000,37.8000,5,Global
+90,Burdigalian,AGE,25,20.4400,15.9700,5,Global
+92,Campanian,AGE,48,83.6000,72.1000,5,Global
+94,Carnian,AGE,50,237.0000,227.0000,5,Global
+87,Chattian,AGE,24,27.8200,23.0300,5,Global
+56,Coahuilan,AGE,10,,,2,North American
+57,Coloradoan,AGE,10,,,3,North American
+82,Danian,AGE,22,66.0000,61.6000,5,Global
+78,Desmoinesian,AGE,14,,,1,North American
+96,Drumian,AGE,53,504.5000,500.5000,5,Global
+101,Famennian,AGE,72,372.2000,358.9000,5,Global
+43,Guadalupian,AGE,7,,,1,North American
+97,Guzhangian,AGE,53,500.5000,497.0000,5,Global
+44,Leonardian,AGE,7,,,2,North American
+85,Lutetian,AGE,23,47.8000,41.2000,5,Global
+91,Maastrichtian,AGE,48,72.1000,66.0000,5,Global
+58,Montanan,AGE,10,,,1,North American
+93,Norian,AGE,50,227.0000,208.5000,5,Global
+95,Paibian,AGE,52,497.0000,494.0000,5,Global
+83,Priabonian,AGE,23,37.8000,33.9000,5,Global
+88,Rupelian,AGE,24,33.9000,27.8200,5,Global
+81,Selandian,AGE,22,61.6000,59.2000,5,Global
+80,Thanetian,AGE,22,59.2000,56.0000,5,Global
+86,Ypresian,AGE,23,56.0000,47.8000,5,Global
+11,Archean,EON,33,4000.0000,2500.0000,1,Global
+4,Hadean,EON,,4600.0000,4000.0000,1,Global
+2,Phanerozoic,EON,,541.0000,0.0000,1,Global
+1,Precambrian,EON,,4600.0000,541.0000,1,Global
+3,Proterozoic,EON,,2500.0000,541.0000,1,Global
+64,Cambrian Series 2,EPOCH,34,521.0000,509.0000,4,Global
+63,Cambrian Series 3,EPOCH,34,509.0000,497.0000,4,Global
+71,Eocene,EPOCH,45,56.0000,33.9000,2,
+62,Furongian,EPOCH,34,497.0000,485.4000,4,Global
+60,Holocene,EPOCH,12,0.0117,0.0000,4,Global
+472,Llandovery,EPOCH,13,443.8000,433.4000,2,Global
+40,Lower Devonian,EPOCH,5,419.2000,393.3000,4,Global
+53,Lower Jurassic,EPOCH,9,201.3000,174.1000,4,Global
+77,Lower Mississippian,EPOCH,13,358.9000,346.7000,4,Regional
+68,Lower Ordovician,EPOCH,40,485.4000,470.0000,4,Global
+50,Lower Triassic,EPOCH,8,251.9000,247.2000,4,Global
+36,Ludlow,EPOCH,4,427.4000,423.0000,4,Global
+39,Middle Devonian,EPOCH,5,393.3000,382.7000,4,Global
+67,Middle Ordovician,EPOCH,40,470.0000,458.4000,4,Global
+69,Miocene,EPOCH,44,23.0000,5.3000,4,
+72,Oligocene,EPOCH,45,33.9000,23.0000,3,
+70,Paleocene,EPOCH,45,66.0000,56.0000,1,
+61,Pleistocene,EPOCH,12,2.5800,0.0117,4,Global
+458,Pliocene,EPOCH,,5.3330,2.6000,,Global
+65,Terreneuvian,EPOCH,34,541.0000,521.0000,4,Global
+59,Upper Cretaceous,EPOCH,10,100.5000,66.0000,4,Global
+38,Upper Devonian,EPOCH,5,382.7000,358.9000,4,Global
+66,Upper Ordovician,EPOCH,40,458.4000,443.8000,4,Global
+49,Upper Triassic,EPOCH,8,237.0000,201.3000,4,Global
+8,Cenozoic,ERA,35,66.0000,0.0000,3,
+456,Early Precambrian,ERA,,4000.0000,2500.0000,,Global
+457,Late Precambrian,ERA,,1000.0000,541.0000,,Global
+10,Mesoproterozoic,ERA,33,1600.0000,1000.0000,2,Global
+7,Mesozoic,ERA,35,251.9000,66.0000,2,
+9,Neoproterozoic,ERA,33,1000.0000,541.0000,2,Global
+12,Paleoproterozoic,ERA,36,2500.0000,1600.0000,2,Global
+6,Paleozoic,ERA,35,541.0000,251.9000,1,
+107,Leptite Formation,FORMATION,12,1900.0000,1850.0000,,Sweden/Bergslagen
+103,Dalslandian,OROGENY,10,1140.0000,960.0000,,Fennoscandia
+104,Gothic,OROGENY,10,1660.0000,1520.0000,,Fennoscandia
+54,Early Cretaceous,OTHER,10,145.0000,100.5000,1,
+46,Early Triassic,OTHER,8,251.9000,247.2000,1,
+32,Jatulian,OTHER,91,2300.0000,2000.0000,3,Finland/Fennoscandia
+33,Kalevian,OTHER,91,2000.0000,1950.0000,3,Finland/Fennoscandia
+74,Lapponian,OTHER,92,2400.0000,2300.0000,4,Finland/Fennoscandia
+55,Late Cretaceous,OTHER,10,100.5000,66.0000,2,
+37,Late Devonian,OTHER,5,382.7000,358.9000,3,
+34,Late Paleoproterozoic (1600-1800 Ma),OTHER,91,1800.0000,1600.0000,3,Finland/Fennoscandia
+48,Late Triassic,OTHER,8,237.0000,201.3000,3,
+51,Middle Jurassic,OTHER,9,174.1000,163.5000,1,
+47,Middle Triassic,OTHER,8,247.2000,237.0000,2,
+41,Mississippian,OTHER,6,358.9000,323.2000,1,
+42,Pennsylvanian,OTHER,6,323.2000,298.9000,2,
+5,Post-Mesoproterozoic (<1600 Ma),OTHER,,1600.0000,0.0000,3,Finland/Fennoscandia
+73,Sariolan,OTHER,92,2500.0000,2400.0000,4,Finland/Fennoscandia
+31,Sariolan-Lapponian,OTHER,91,2500.0000,2300.0000,3,Finland/Fennoscandia
+35,Svecofennian,OTHER,91,1950.0000,1800.0000,3,Finland/Fennoscandia
+75,Svecofennian (Early),OTHER,99,1950.0000,1850.0000,4,Finland/Fennoscandia
+76,Svecofennian (Late),OTHER,99,1850.0000,1800.0000,4,Finland/Fennoscandia
+52,Upper Jurassic,OTHER,9,163.5000,145.0000,2,
+30,Calymmian,PERIOD,39,1600.0000,1400.0000,3,Global
+17,Cambrian,PERIOD,1,541.0000,485.4000,3,Global
+15,Carboniferous,PERIOD,1,358.9000,298.9000,3,
+21,Cretaceous,PERIOD,2,145.0000,66.0000,3,
+27,Cryogenian,PERIOD,38,720.0000,635.0000,3,Global
+14,Devonian,PERIOD,1,419.2000,358.9000,2,
+29,Ectasian,PERIOD,39,1400.0000,1200.0000,3,Global
+26,Ediacaran,PERIOD,38,635.0000,541.0000,3,Global
+102,Jotnian,PERIOD,10,1500.0000,1000.0000,,Fennoscandia
+20,Jurassic,PERIOD,2,201.3000,145.0000,2,
+470,MiddlePrecambrian,PERIOD,,2500.0000,1000.0000,,
+24,Neogene,PERIOD,3,23.0000,2.6000,3,Global
+18,Ordovician,PERIOD,1,485.4000,443.8000,3,Global
+25,Paleogene,PERIOD,3,66.0000,23.0000,3,Global
+16,Permian,PERIOD,1,298.9000,251.9000,4,
+23,Quaternary,PERIOD,3,2.6000,0.0000,2,
+13,Silurian,PERIOD,1,443.8000,419.2000,1,
+22,Tertiary,PERIOD,3,66.0000,2.6000,1,
+28,Tonian,PERIOD,38,1000.0000,720.0000,3,Global
+19,Triassic,PERIOD,2,251.9000,201.3000,1,
+264,Cambrian_Cretaceous,RANGE,,541.0000,66.0000,,
+139,Cambrian_Devonian,RANGE,,541.0000,358.9000,,
+265,Cambrian_Jurassic,RANGE,,541.0000,145.0000,,
+267,Cambrian_Mississippian,RANGE,,541.0000,323.2000,,
+134,Cambrian_Ordovician,RANGE,,541.0000,443.8000,,
+268,Cambrian_Paleozoic,RANGE,,541.0000,251.9000,,
+269,Cambrian_Pennsylvanian,RANGE,,541.0000,298.9000,,
+270,Cambrian_Permian,RANGE,,541.0000,251.9000,,
+140,Cambrian_Silurian,RANGE,,541.0000,419.2000,,
+131,Cambrian_Tertiary,RANGE,,541.0000,2.6000,,
+170,Cretaceous_Eocene,RANGE,,145.0000,33.9000,,
+176,Cretaceous_Holocene,RANGE,,145.0000,0.0000,,
+175,Cretaceous_Miocene,RANGE,,145.0000,5.3330,,
+275,Cretaceous_Oligocene,RANGE,,145.0000,23.0000,,
+171,Cretaceous_Paleocene,RANGE,,145.0000,56.0000,,
+174,Cretaceous_Pleistocene,RANGE,,145.0000,0.0118,,
+173,Cretaceous_Pliocene,RANGE,,145.0000,2.6000,,
+277,Cretaceous_Quaternary,RANGE,,145.0000,0.0000,,
+278,Cretaceous_Silurian,RANGE,,443.8000,66.0000,,
+168,Cretaceous_Tertiary,RANGE,,145.0000,2.6000,,
+148,Devonian_Cretaceous,RANGE,,419.2000,66.0000,,
+279,Devonian_Holocene,RANGE,,419.2000,0.0000,,
+144,Devonian_Jurassic,RANGE,,419.2000,145.0000,,
+280,Devonian_Mesozoic,RANGE,,419.2000,66.0000,,
+141,Devonian_Mississippian,RANGE,,419.2000,323.2000,,
+281,Devonian_Pennsylvanian,RANGE,,419.2000,298.9000,,
+149,Devonian_Permian,RANGE,,419.2000,251.9000,,
+282,Devonian_Pleistocene,RANGE,,419.2000,0.0118,,
+283,Devonian_Pliocene,RANGE,,419.2000,2.6000,,
+284,Devonian_Quaternary,RANGE,,419.2000,0.0000,,
+153,Devonian_Tertiary,RANGE,,419.2000,2.6000,,
+142,Devonian_Triassic,RANGE,,419.2000,201.3000,,
+285,EarlyPrecambrian_Cretaceous,RANGE,,4000.0000,66.0000,,
+286,EarlyPrecambrian_Devonian,RANGE,,4000.0000,358.9000,,
+205,EarlyPrecambrian_Holocene,RANGE,,4000.0000,0.0000,,
+288,EarlyPrecambrian_Jurassic,RANGE,,4000.0000,145.0000,,
+204,EarlyPrecambrian_LatePrecambrian,RANGE,,4000.0000,541.0000,,
+289,EarlyPrecambrian_Mesozoic,RANGE,,4000.0000,66.0000,,
+290,EarlyPrecambrian_Miocene,RANGE,,4000.0000,5.3330,,
+208,EarlyPrecambrian_Ordovician,RANGE,,4000.0000,443.8000,,
+291,EarlyPrecambrian_Paleocene,RANGE,,4000.0000,56.0000,,
+207,EarlyPrecambrian_Paleozoic,RANGE,,4000.0000,251.9000,,
+292,EarlyPrecambrian_Pennsylvanian,RANGE,,4000.0000,298.9000,,
+294,EarlyPrecambrian_Silurian,RANGE,,4000.0000,419.2000,,
+206,EarlyPrecambrian_Tertiary,RANGE,,4000.0000,2.6000,,
+114,Eocene_Holocene,RANGE,,56.0000,0.0000,,
+115,Eocene_Miocene,RANGE,,56.0000,5.3330,,
+113,Eocene_Oligocene,RANGE,,56.0000,23.0000,,
+117,Eocene_Pleistocene,RANGE,,56.0000,0.0118,,
+116,Eocene_Pliocene,RANGE,,56.0000,2.6000,,
+296,Eocene_Quaternary,RANGE,,56.0000,0.0000,,
+299,Holocene_Quaternary,RANGE,,2.6000,0.0000,,
+129,Jurassic_Cretaceous,RANGE,,201.3000,66.0000,,
+300,Jurassic_Eocene,RANGE,,201.3000,33.9000,,
+301,Jurassic_Holocene,RANGE,,201.3000,0.0000,,
+303,Jurassic_Miocene,RANGE,,201.3000,5.3330,,
+304,Jurassic_Oligocene,RANGE,,201.3000,23.0000,,
+305,Jurassic_Pleistocene,RANGE,,201.3000,0.0118,,
+306,Jurassic_Pliocene,RANGE,,201.3000,2.6000,,
+307,Jurassic_Quaternary,RANGE,,201.3000,0.0000,,
+135,Jurassic_Tertiary,RANGE,,201.3000,2.6000,,
+192,LatePrecambrian_Cambrian,RANGE,,1000.0000,485.4000,,
+202,LatePrecambrian_Cretaceous,RANGE,,1000.0000,66.0000,,
+195,LatePrecambrian_Devonian,RANGE,,1000.0000,358.9000,,
+308,LatePrecambrian_Eocene,RANGE,,1000.0000,33.9000,,
+309,LatePrecambrian_Jurassic,RANGE,,1000.0000,145.0000,,
+200,LatePrecambrian_Mesozoic,RANGE,,1000.0000,66.0000,,
+311,LatePrecambrian_Miocene,RANGE,,1000.0000,5.3330,,
+312,LatePrecambrian_Mississippian,RANGE,,1000.0000,323.2000,,
+313,LatePrecambrian_Oligocene,RANGE,,1000.0000,23.0000,,
+194,LatePrecambrian_Ordovician,RANGE,,1000.0000,443.8000,,
+201,LatePrecambrian_Paleocene,RANGE,,1000.0000,56.0000,,
+193,LatePrecambrian_Paleozoic,RANGE,,1000.0000,251.9000,,
+314,LatePrecambrian_Pennsylvanian,RANGE,,1000.0000,298.9000,,
+199,LatePrecambrian_Permian,RANGE,,1000.0000,251.9000,,
+315,LatePrecambrian_Pliocene,RANGE,,1000.0000,2.6000,,
+197,LatePrecambrian_Quaternary,RANGE,,1000.0000,0.0000,,
+198,LatePrecambrian_Silurian,RANGE,,1000.0000,419.2000,,
+196,LatePrecambrian_Tertiary,RANGE,,1000.0000,2.6000,,
+203,LatePrecambrian_Triassic,RANGE,,1000.0000,201.3000,,
+368,Mesozoic_Cambrian,RANGE,,541.0000,66.0000,,
+369,Mesozoic_Cretaceous,RANGE,,251.9000,66.0000,,
+370,Mesozoic_Eocene,RANGE,,251.9000,33.9000,,
+371,Mesozoic_Holocene,RANGE,,251.9000,0.0000,,
+372,Mesozoic_Jurassic,RANGE,,251.9000,145.0000,,
+373,Mesozoic_Miocene,RANGE,,251.9000,5.3330,,
+374,Mesozoic_Oligocene,RANGE,,251.9000,23.0000,,
+375,Mesozoic_Paleocene,RANGE,,251.9000,56.0000,,
+376,Mesozoic_Pleistocene,RANGE,,251.9000,0.0118,,
+150,Mesozoic_Pliocene,RANGE,,251.9000,2.6000,,
+377,Mesozoic_Quaternary,RANGE,,251.9000,0.0000,,
+130,Mesozoic_Tertiary,RANGE,,251.9000,2.6000,,
+119,Miocene_Holocene,RANGE,,23.0000,0.0000,,
+120,Miocene_Pleistocene,RANGE,,23.0000,0.0118,,
+118,Miocene_Pliocene,RANGE,,23.0000,2.6000,,
+126,Miocene_Quaternary,RANGE,,23.0000,0.0000,,
+188,Mississippian_Cretaceous,RANGE,,358.9000,66.0000,,
+380,Mississippian_Eocene,RANGE,,358.9000,33.9000,,
+190,Mississippian_Jurassic,RANGE,,358.9000,145.0000,,
+185,Mississippian_Pennsylvanian,RANGE,,358.9000,298.9000,,
+191,Mississippian_Permian,RANGE,,358.9000,251.9000,,
+381,Mississippian_Tertiary,RANGE,,358.9000,2.6000,,
+382,Mississippian_Triassic,RANGE,,358.9000,201.3000,,
+157,Oligocene_Holocene,RANGE,,33.9000,0.0000,,
+154,Oligocene_Miocene,RANGE,,33.9000,5.3330,,
+384,Oligocene_Pleistocene,RANGE,,33.9000,0.0118,,
+159,Oligocene_Pliocene,RANGE,,33.9000,2.6000,,
+385,Oligocene_Quaternary,RANGE,,33.9000,0.0000,,
+386,Oligocene_Triassic,RANGE,,251.9000,23.0000,,
+178,Ordovician_Cretaceous,RANGE,,485.4000,66.0000,,
+169,Ordovician_Devonian,RANGE,,485.4000,358.9000,,
+388,Ordovician_Jurassic,RANGE,,485.4000,145.0000,,
+389,Ordovician_Mesozoic,RANGE,,485.4000,66.0000,,
+177,Ordovician_Mississippian,RANGE,,485.4000,323.2000,,
+390,Ordovician_Oligocene,RANGE,,485.4000,23.0000,,
+391,Ordovician_Pennsylvanian,RANGE,,485.4000,298.9000,,
+392,Ordovician_Permian,RANGE,,485.4000,251.9000,,
+393,Ordovician_Pleistocene,RANGE,,485.4000,0.0118,,
+394,Ordovician_Quaternary,RANGE,,485.4000,0.0000,,
+172,Ordovician_Silurian,RANGE,,485.4000,419.2000,,
+387,Ordovician_Tertiary,RANGE,,485.4000,2.6000,,
+395,Ordovician_Triassic,RANGE,,485.4000,201.3000,,
+160,Paleocene_Eocene,RANGE,,66.0000,33.9000,,
+162,Paleocene_Holocene,RANGE,,66.0000,0.0000,,
+167,Paleocene_Miocene,RANGE,,66.0000,5.3330,,
+165,Paleocene_Oligocene,RANGE,,66.0000,23.0000,,
+156,Paleocene_Pleistocene,RANGE,,66.0000,0.0118,,
+166,Paleocene_Pliocene,RANGE,,66.0000,2.6000,,
+164,Paleocene_Quaternary,RANGE,,66.0000,0.0000,,
+161,Paleozoic_Cretaceous,RANGE,,541.0000,66.0000,,
+396,Paleozoic_Eocene,RANGE,,541.0000,33.9000,,
+397,Paleozoic_Holocene,RANGE,,541.0000,0.0000,,
+163,Paleozoic_Jurassic,RANGE,,541.0000,145.0000,,
+155,Paleozoic_Mesozoic,RANGE,,541.0000,66.0000,,
+398,Paleozoic_Oligocene,RANGE,,541.0000,23.0000,,
+399,Paleozoic_Paleocene,RANGE,,541.0000,56.0000,,
+401,Paleozoic_Pliocene,RANGE,,541.0000,2.6000,,
+402,Paleozoic_Quaternary,RANGE,,541.0000,0.0000,,
+158,Paleozoic_Tertiary,RANGE,,541.0000,2.6000,,
+403,Paleozoic_Triassic,RANGE,,541.0000,201.3000,,
+186,Pennsylvanian_Cretaceous,RANGE,,323.2000,66.0000,,
+404,Pennsylvanian_Eocene,RANGE,,323.2000,33.9000,,
+405,Pennsylvanian_Jurassic,RANGE,,323.2000,145.0000,,
+184,Pennsylvanian_Permian,RANGE,,323.2000,251.9000,,
+189,Pennsylvanian_Tertiary,RANGE,,323.2000,2.6000,,
+187,Pennsylvanian_Triassic,RANGE,,323.2000,201.3000,,
+124,Permian_Cretaceous,RANGE,,298.9000,66.0000,,
+407,Permian_Eocene,RANGE,,298.9000,33.9000,,
+122,Permian_Jurassic,RANGE,,298.9000,145.0000,,
+125,Permian_Mesozoic,RANGE,,298.9000,66.0000,,
+408,Permian_Miocene,RANGE,,298.9000,5.3330,,
+410,Permian_Oligocene,RANGE,,298.9000,23.0000,,
+411,Permian_Paleocene,RANGE,,298.9000,56.0000,,
+413,Permian_Pleistocene,RANGE,,298.9000,0.0118,,
+121,Permian_Pliocene,RANGE,,298.9000,2.6000,,
+414,Permian_Quaternary,RANGE,,298.9000,0.0000,,
+463,Permian_Tertiary,RANGE,,298.9000,2.6000,,
+123,Permian_Triassic,RANGE,,298.9000,201.3000,,
+179,Pleistocene_Holocene,RANGE,,2.6000,0.0000,,
+180,Pleistocene_Quaternary,RANGE,,2.6000,0.0000,,
+127,Pliocene_Holocene,RANGE,,5.3330,0.0000,,
+128,Pliocene_Pleistocene,RANGE,,5.3330,0.0118,,
+137,Pliocene_Quaternary,RANGE,,5.3330,0.0000,,
+461,Precambrian_Cambrian,RANGE,,4600.0000,485.4000,,
+182,Precambrian_Cretaceous,RANGE,,4600.0000,66.0000,,
+467,Precambrian_Devonian,RANGE,,4600.0000,358.9000,,
+460,Precambrian_Eocene,RANGE,,4600.0000,33.9000,,
+464,Precambrian_Holocene,RANGE,,4600.0000,0.0000,,
+416,Precambrian_Jurassic,RANGE,,4600.0000,145.0000,,
+211,Precambrian_LatePrecambrian,RANGE,,4600.0000,541.0000,,
+465,Precambrian_Mesozoic,RANGE,,4600.0000,66.0000,,
+468,Precambrian_Miocene,RANGE,,4600.0000,5.3330,,
+210,Precambrian_Ordovician,RANGE,,4600.0000,443.8000,,
+209,Precambrian_Paleozoic,RANGE,,4600.0000,251.9000,,
+462,Precambrian_Pennsylvanian,RANGE,,4600.0000,298.9000,,
+181,Precambrian_Permian,RANGE,,4600.0000,251.9000,,
+469,Precambrian_Pleistocene,RANGE,,4600.0000,0.0118,,
+417,Precambrian_Quaternary,RANGE,,4600.0000,0.0000,,
+415,Precambrian_Silurian,RANGE,,4600.0000,419.2000,,
+183,Precambrian_Tertiary,RANGE,,4600.0000,2.6000,,
+471,Silurian_Cretaceous,RANGE,,443.8000,66.0000,,
+136,Silurian_Devonian,RANGE,,443.8000,358.9000,,
+442,Silurian_Jurassic,RANGE,,443.8000,145.0000,,
+443,Silurian_Mesozoic,RANGE,,443.8000,66.0000,,
+444,Silurian_Mississippian,RANGE,,443.8000,323.2000,,
+445,Silurian_Tertiary,RANGE,,443.8000,2.6000,,
+145,Tertiary_Holocene,RANGE,,66.0000,0.0000,,
+447,Tertiary_Miocene,RANGE,,66.0000,5.3330,,
+143,Tertiary_Oligocene,RANGE,,66.0000,23.0000,,
+147,Tertiary_Pleistocene,RANGE,,66.0000,0.0118,,
+446,Tertiary_Pliocene,RANGE,,66.0000,2.6000,,
+132,Tertiary_Quaternary,RANGE,,66.0000,0.0000,,
+138,Triassic_Cretaceous,RANGE,,251.9000,66.0000,,
+152,Triassic_Eocene,RANGE,,251.9000,33.9000,,
+133,Triassic_Jurassic,RANGE,,251.9000,145.0000,,
+450,Triassic_Miocene,RANGE,,251.9000,5.3330,,
+452,Triassic_Pleistocene,RANGE,,251.9000,0.0118,,
+453,Triassic_Pliocene,RANGE,,251.9000,2.6000,,
+454,Triassic_Quaternary,RANGE,,251.9000,0.0000,,
+146,Triassic_Tertiary,RANGE,,251.9000,2.6000,,
+99,Cambrian Stage 2,STAGE,54,529.0000,521.0000,5,Global
+100,Cambrian Stage 3,STAGE,54,521.0000,514.0000,5,Global
+98,Cambrian Stage 5,STAGE,53,509.0000,504.5000,5,Global
+105,Köli Nappes,STRUCTURAL,6,512.0000,400.0000,,Scandinavia
+106,Seve Nappes,STRUCTURAL,6,541.0000,400.0000,,Scandinavia
+108,Anorogenic,TECTONIC,,,,,Global
+111,Late-orogenic,TECTONIC,,,,,Regional
+112,Post-orogenic,TECTONIC,,,,,Regional
+109,Pre-orogenic,TECTONIC,,,,,Regional
+110,Syn-orogenic,TECTONIC,,,,,Regional
