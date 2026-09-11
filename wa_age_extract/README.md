@@ -159,8 +159,25 @@ Literature: the 2 rows are created once and linked via `literature-2-package`
   instead of duplicating. `--no-precheck` for a known‑clean fast run.
 - Aborts on the first unexpected 4xx, printing the payload and the body it sent.
 
-## Still to do
+## Load status (2026‑09‑11, paused)
 
-- **First live `--limit 1`** to confirm the DTO round‑trips (not yet run — writes are permanent).
-- Then the full run.
-- Deposit load into `250875260` is separately paused at 3,309 / 5,418.
+Full run **paused ~88% through** — resume with `node load_ages.cjs --package 250875261`
+(picks up from `load_progress_250875261.jsonl`, next = `WA-AGE-S:uranium:51247`).
+
+| block | samples done | note |
+|---|---:|---|
+| argon | 1,302 | complete |
+| ft | 293 | complete |
+| other | 69 | complete |
+| uranium | 61 / ~287 | **~226 samples / ~725 datapoints left** |
+| **total** | **1,725 / 1,951** | 2,228 / 2,953 datapoints |
+
+One loader bug was found and fixed mid‑load (`ce1c105`): the age‑datapoint
+precheck used the wrong criteria path, so the first `--package` run made ~26
+orphan samples with no datapoints. Those are reused by `sourceId` on resume and
+get their datapoints — nothing to clean up.
+
+## Then
+
+- Finish the uranium block.
+- Verify: package counts vs 1,951 / 2,953, method mix, orphan‑sample check, spot‑check round‑tripped records.
