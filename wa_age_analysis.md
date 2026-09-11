@@ -281,7 +281,8 @@ carry U‑Pb/FT ages too) → only promote U‑Pb/FT/Ar‑Ar to their dedicated 
 endpoints if richer analytical data is sourced later. Keep radiocarbon,
 luminescence, 36Cl and fossil ages in `criticialmineralsexp` only.
 
-> **Extract built 2026‑09‑10** (`wa_age_extract/` Phase 2): `sample.jsonl` (1,951
-> samples, deduped by lab_sample_id+location), `age_datapoint.jsonl` (2,953),
-> `literature.jsonl` (2), for package **250875261**. Loader (`load_ages.cjs`) and
-> the live dry‑run are the remaining steps.
+> **Loaded and verified 2026‑09‑11** (`wa_age_extract/` Phase 2): all 1,951
+> samples + 2,953 age datapoints + 2 literature rows are live in package
+> **250875261** "WA‑DNR: USA, Washington State: Geochronology". Package counts,
+> method mix, dup/orphan checks, and spot‑checked records all confirmed against
+> the live API — see `wa_age_extract/README.md` for the full verification.

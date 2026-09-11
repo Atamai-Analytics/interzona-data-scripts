@@ -159,25 +159,35 @@ Literature: the 2 rows are created once and linked via `literature-2-package`
   instead of duplicating. `--no-precheck` for a known‑clean fast run.
 - Aborts on the first unexpected 4xx, printing the payload and the body it sent.
 
-## Load status (2026‑09‑11, paused)
+## Load status — DONE (2026‑09‑11)
 
-Full run **paused ~88% through** — resume with `node load_ages.cjs --package 250875261`
-(picks up from `load_progress_250875261.jsonl`, next = `WA-AGE-S:uranium:51247`).
+Full run complete, resumed once (paused overnight at ~88%, no data lost —
+`load_ages.cjs` is fully resumable). One loader bug was found and fixed
+mid‑load (`ce1c105`): the age‑datapoint precheck used the wrong criteria path,
+so the very first `--package` attempt made ~26 orphan samples with no
+datapoints; those were reused by `sourceId` on the next run and got their
+datapoints normally — nothing needed cleaning up.
 
-| block | samples done | note |
-|---|---:|---|
-| argon | 1,302 | complete |
-| ft | 293 | complete |
-| other | 69 | complete |
-| uranium | 61 / ~287 | **~226 samples / ~725 datapoints left** |
-| **total** | **1,725 / 1,951** | 2,228 / 2,953 datapoints |
+### Verified against the live API
 
-One loader bug was found and fixed mid‑load (`ce1c105`): the age‑datapoint
-precheck used the wrong criteria path, so the first `--package` run made ~26
-orphan samples with no datapoints. Those are reused by `sourceId` on resume and
-get their datapoints — nothing to clean up.
+| check | result |
+|---|---|
+| Samples in package `250875261` | **1,951 / 1,951** |
+| Age datapoints in package | **2,953 / 2,953** |
+| Duplicate sample/datapoint `sourceId`s | 0 |
+| Samples with 0 datapoints | 0 |
+| Literature created + linked to package | 2 / 2 |
 
-## Then
+Method mix (live count, matches `crosswalk_method.csv`):
+K‑Ar 1,476 · U‑Pb (all Pb‑ratio variants) 881 · Ar‑Ar (+isochron/Laser) 122 ·
+ZFT 258 · Other (Pb‑alpha + non‑standard FT minerals) 79 · AFT 57 · Rb‑Sr 62 ·
+TFT 8 · Sm‑Nd 10 = **2,953**.
 
-- Finish the uranium block.
-- Verify: package counts vs 1,951 / 2,953, method mix, orphan‑sample check, spot‑check round‑tripped records.
+Spot‑checked records across argon/uranium/FT round‑trip correctly (age, error,
+method name, geo‑event, sample/location linkage) — e.g. `WA-AGE:uranium:20000`
+→ U‑Pb, 73±5 Ma, "Inherited age".
+
+**The entire ~51%-ingestible radiometric subset of the WA‑DNR geochronology
+data (2,953 analyses / 1,951 samples) is live in LithoSurfer**, alongside the
+5,418 WA deposits (package `250875260`). Radiocarbon, luminescence, 36Cl and
+fossil ages stay in `criticialmineralsexp` only (declared out of scope).
