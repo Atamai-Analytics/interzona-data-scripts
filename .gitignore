@@ -105,3 +105,4 @@ wa_fossil_extract/build/*
 !wa_fossil_extract/build/*.py
 !wa_fossil_extract/build/*.json
 !wa_fossil_extract/build/*.csv
+wa_deposit_extract/backfill_run.log
