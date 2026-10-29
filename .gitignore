@@ -106,3 +106,23 @@ wa_fossil_extract/build/*
 !wa_fossil_extract/build/*.json
 !wa_fossil_extract/build/*.csv
 wa_deposit_extract/backfill_run.log
+
+# GEUS '<10000' placeholder -> ND (2026-10-29)
+!build_placeholder_plan.py
+!fix_placeholder_nd.py
+!verify_placeholder_sample.py
+
+# gold schema (interzona_cm): EU CRMA strategic projects load + factsheet embedding (2026-10-29)
+!gold_schema/
+gold_schema/*
+!gold_schema/load_eu_crma.py
+!gold_schema/embed_eu_crma_factsheets.py
+!gold_schema/rag_ingest.py
+!gold_schema/eu_crma/
+gold_schema/eu_crma/*
+!gold_schema/eu_crma/*.py
+!gold_schema/eu_crma/*.ps1
+!gold_schema/eu_crma/*.json
+!gold_schema/eu_crma/*.geojson
+!gold_schema/eu_crma/*.csv
+!gold_schema/eu_crma/dryrun/

@@ -1,0 +1,11 @@
+projects 106
+project_ownership 106 (company_id set: 6)
+project_designations 106
+documents 59
+sites 121: {'REVIEW': 7, 'LINK': 19, 'NEW': 95}
+occurrences_new 95 (deposits 31)
+occurrences_linked 26
+occurrence_commodities 164
+external_ids 201
+asset_type {'PROCESSING': 31, 'SUBSTITUTION': 2, 'MINE': 44, 'RECYCLING': 29}
+problems 0

@@ -1,0 +1,122 @@
+﻿proj_idx,site_idx,project,type,promoter,site,lat,lon,decision,occurrence_id,reason
+0,0,GePETO,Processing,Umicore,,51.139725,4.75296,REVIEW,446949,"Umicore Olen site? (Olen Smelter, Co-Cu) - GePETO is Ge refining at Olen"
+1,0,ReGAIN,Substitution,Umicore,,51.158677,4.939728,REVIEW,446949,Umicore Olen site? same as GePETO
+2,0,Chvaletice manganese Project,Integrated: Extraction and processing,Euro manganese Inc,,50.038069,15.444279,LINK,426311,"Chvaletice tailings, same site"
+3,0,Cínovec lithium project,Integrated: Extraction and processing,Geomet s.r.o.,Cinovec deposit,50.7171272,13.7912631,LINK,325354,Cinovec deposit (Sn-W-Li)
+3,1,Cínovec lithium project,Integrated: Extraction and processing,Geomet s.r.o.,processing plant,50.4163197,13.2815353,NEW,,
+4,0,CO2 Graphite,Processing,UP Catalyst,,59.45465,24.92546,NEW,,
+5,0,Sakatti Project,Integrated: Extraction and processing,Anglo American Services (UK) Ltd.,,67.548113,26.745259,LINK,3880,"Sakatti, 0.3 km, same name"
+6,0,KELIBER LITHIUM PROJECT,Integrated: Extraction and processing,KELIBER TECHNOLOGY OY,site 1,63.5,23.863012372518632,NEW,,
+6,1,KELIBER LITHIUM PROJECT,Integrated: Extraction and processing,KELIBER TECHNOLOGY OY,site 2,64.7,28.249373323488495,NEW,,
+6,2,KELIBER LITHIUM PROJECT,Integrated: Extraction and processing,KELIBER TECHNOLOGY OY,Kokkola chemical plant,63.6,23.051244778819424,NEW,,
+7,0,Kolmisoppi,Extraction,Terrafame Ltd,,64.013315,28.065673,LINK,3878,Kolmisoppi is a Talvivaara/Terrafame deposit
+8,0,Project Fortum Hydromet,Recycling,Fortum Battery Recycling Oy,,62.492028,23.532715,NEW,,
+9,0,Hycamite TCD Technologies Ltd,Processing,Hycamite TCD Technologies Ltd.,,63.8,23.6,NEW,,
+10,0,Jervois Finland Cobalt Refinery Expansion Project,Processing,Jervois Finland Oy,,63.86097,23.056,NEW,,Kokkola refinery ~6 km - Jervois builds a new refinery
+11,0,CAREMAG,Processing,CAREMAG SAS,Lacq,43.410718,-0.640825,NEW,,
+11,1,CAREMAG,Processing,CAREMAG SAS,Lyon area,45.894787,4.876556,NEW,,
+12,0,Emili,Integrated: Extraction and processing,IMERYS Ceramics France,Beauvoir mine,46.183098,2.954443,NEW,,
+12,1,Emili,Integrated: Extraction and processing,IMERYS Ceramics France,Montlucon conversion plant,46.397,2.588,NEW,,
+13,0,BAM4EVER (Phase I&II),Processing,Tokai COBEX savoie,site 1,45.5262762,6.450394,NEW,,
+13,1,BAM4EVER (Phase I&II),Processing,Tokai COBEX savoie,site 2,45.7125081,4.8795862,NEW,,
+14,0,MagFactory,Recycling,MagREEsource,,45.2667,5.6167,NEW,,
+15,0,GALLICAM,Processing,SIBANYE-STILLWATER SANDOUVILLE REFINERY,,49.47433041501457,0.28305683195158265,LINK,474857,Sandouville = former SLN Le Havre nickel refinery
+16,0,Hydrometallurgy,Recycling,ORANO Batteries,,51.023,2.10179,NEW,,
+17,0,Ageli,Integrated: Extraction and processing,Eramet,,48.9352508,7.8653015,NEW,,
+18,0,Viridian Lithium,Processing,Viridian Lithium,,48.95,8.1767,NEW,,
+19,0,European Initiative for Strategic and Sustainable Graphite Production,Processing,NGC Battery Materials GmbH,Germany site,50.021861,9.043422,NEW,,
+19,1,European Initiative for Strategic and Sustainable Graphite Production,Processing,NGC Battery Materials GmbH,France site (main),50.519389,2.847613,NEW,,
+19,2,European Initiative for Strategic and Sustainable Graphite Production,Processing,NGC Battery Materials GmbH,Namibia site,-20.5986111,16.616314,NEW,,
+20,0,Zero Carbon Lithium,Extraction,Vulcan Energie Ressourcen GmbH,,49.193531,8.11306,NEW,,
+21,0,ProHiPerSi,Substitution,PCC Thorion GmbH,,51.524339,6.803423,NEW,,
+22,0,Lithium Hydroxide Converter Guben,Processing,Rock Tech Guben GmbH,,51.923523,14.702897,NEW,,
+23,0,"Metlen BAUX-EU, GALLANT, LEADER",Integrated: Extraction and processing,Metlen Energy and Metals and European Bauxites,bauxite mines,38.48322222,22.29180556,NEW,,
+23,1,"Metlen BAUX-EU, GALLANT, LEADER",Integrated: Extraction and processing,Metlen Energy and Metals and European Bauxites,Agios Nikolaos alumina plant,38.37147222,22.68138889,NEW,,
+24,0,RECOVER-IT,Recycling,Circular Materials s.r.l.,,45.471036278711594,11.904462823744428,NEW,,
+25,0,Alpha Project,Recycling,Solvay Chimica Italia Spa,,43.38656885,10.4438212,NEW,,
+26,0,LIFE-22-ENV- IT- INSPIREE,Recycling,Itelyum Regeneration SpA,,41.60662,13.3006,NEW,,
+27,0,Portovesme CRM Hub,Recycling,Portovesme srl,,39.20658672317188,8.403523286317416,LINK,529868,Portovesme smelter
+28,0,Pulawy Rare Earths Separation Plant,Processing,Mkango Resources Ltd.,,51.458847,21.996157,NEW,,
+29,0,POLVOLT,Recycling,Elemental Battery Metals Sp. z o.o.,,50.496704,19.389985,NEW,,
+30,0,Romano Mine,Extraction,Lusorecursos Portugal Lithium S.A.Lithium (battery grade),,41.8,-7.8,NEW,,
+31,0,Barroso Lithium Project,Extraction,"Savannah Lithium Unipessoal, Lda",,41.5,-7.5,NEW,,
+32,0,Lift One,Processing,"Lifthium energy, S.A.",,40.77857320326985,-8.570266040486345,NEW,,Minal tungsten 4.7 km - unrelated
+33,0,"Neves Corvo - 3RD SILO, LOMBADOR, Semblana",Integrated: Extraction and processing,SOMINCOR,,37.573056,-7.970556,LINK,515877,Neves-Corvo
+34,0,SALROM Baia de Fier,Extraction,Societatea Națională a Sării S.A.,,45.26821,23.72204,LINK,325151,Baia de Fier graphite
+35,0,Rovina,Extraction,Euro Sun Mining Inc.,,46.141486,22.909903,NEW,,
+36,0,Verde Magnesium,Extraction,Verde Magnesium SRL.,,46.6747978,22.5005291,NEW,,
+37,0,MINA DOADE PROJECT,Extraction,"RECURSOS MINERALES DE GALICIA, S.A.",,42.46470758,-8.33418877,NEW,,
+38,0,LAS NAVAS,Extraction,"LITHIUM IBERIA, S.L.",,39.84207,-6.37444,NEW,,
+39,0,La Parrilla Mine (P6 Metals),Integrated: Extraction and processing,Iberian Resources Spain,,39.08077778,-6.08947222,REVIEW,354257,"La Parrilla W-Sn, 19 km apart"
+40,0,Mining project EL MOTO,Extraction,ABENÓJAR TUNGSTEN S.L.,,38.821841,-4.434403,NEW,,
+41,0,Aguablanca Project,Extraction,RIO NARCEA RECURSOS S.A.,,37.96564,-6.18021,NEW,,
+42,0,Polymetallic primary sulphite project PMR project,Integrated: Extraction and processing,Cobre las Cruces S.A.U.,,37.52597222,-6.15472222,NEW,,
+43,0,CirCular,Recycling,Atlantic Copper SLU,,37.22871873819697,-6.951296134777293,LINK,488000,Atlantic Copper Huelva smelter
+44,0,NorthCYCLE,Recycling,Northvolt Revolt AB,,64.73134082543206,21.095688799999998,NEW,,
+45,0,"ReeMAP Project: Malmberget, Lulea Industrial Park, Per Geijer",Integrated: Extraction and processing,LKAB (Luossavaara-Kirunavaara AB),Malmberget,67.17108333,20.65358333,LINK,403100,Malmberget Mine
+45,1,"ReeMAP Project: Malmberget, Lulea Industrial Park, Per Geijer",Integrated: Extraction and processing,LKAB (Luossavaara-Kirunavaara AB),Per Geijer,67.85286111,20.23416667,NEW,,Kirunavaara 3.2 km - Per Geijer is a separate deposit
+45,2,"ReeMAP Project: Malmberget, Lulea Industrial Park, Per Geijer",Integrated: Extraction and processing,LKAB (Luossavaara-Kirunavaara AB),Lulea Industrial Park,65.58191667,22.15008333,NEW,,
+46,0,Talga Natural Graphite ONE,Extraction,Talga AB,,67.71777,21.42745,NEW,,
+47,0,CUPIDON,Recycling,Comet Traitements,,50.490655,4.119044,NEW,,
+48,0,OREON (Optimal REcycling Of Nickel),Processing,Umicore,,51.16708,4.33678,REVIEW,447100,Umicore Hoboken plant? 2.2 km
+49,0,Tankhouse Expansion Pirdop,Processing,Aurubis Bulgaria AD,,42.715722,24.155138,LINK,488356,Georgi Damyanov = Aurubis Pirdop smelter
+50,0,Silmet 2.0,Processing,NPM Silmet OÜ,,59.401206,27.745449,NEW,,
+51,0,CoNiKo - Cobalt and Nickel refining in Kokkola,Processing,Umicore,,63.86649,23.04521,REVIEW,529199,Kokkola Co-Ni refinery (Umicore Kokkola?)
+52,0,Hautalampi Cobalt-Nickel-Copper Mine Project,Extraction,FinnCobalt Oy,,62.7151,28.973,NEW,,Vuonos Mine 1.9 km - Hautalampi is a separate deposit
+53,0,Project Arctial,Processing,Arctial Group Oy,,63.766667,23.066667,NEW,,
+54,0,Sokli,Extraction,Sokli Oy,,67.76667,29.23333,LINK,447396,Sokli
+55,0,Suhanko project,Extraction,Suhanko Arctic Platinum Oy,,66.208889,26.102778,NEW,,
+56,0,BREES (Best Rare Earth Element Separation),Recycling,Rhodia Operations,,46.166672,1.151139,NEW,,
+57,0,EMME,Integrated: Processing and recycling,ELECTRO MOBILITY MATERIALS EUROPE (EMME),,44.957119,-0.63333,NEW,,
+58,0,Lithium de France,Integrated: Extraction and processing,Lithium de France,,48.8987,7.902,NEW,,
+59,0,LUERN,Processing,Aubert & Duval SAS,,45.94,2.84,NEW,,
+60,0,NEOMAT-PCAM,Processing,NEOMAT PCAM,,51.004806,2.167667,NEW,,
+61,0,ALE - Altmark Lithium Extraction,Integrated: Extraction and processing,Neptune Energy Innovations GmbH,,52.845913,11.166916,NEW,,
+62,0,EU BEST STRAT: Battery Economical Sustainable (Recycling-) Technology,Recycling,cylib Production I GmbH,,50.771858,6.137409,NEW,,
+63,0,European Lithium Refining and Recycling Hub Bitterfeld: from primary raw materials via recycling to critical solid state battery components,Integrated: Processing and recycling,AMG Lithium GmbH,,51.654139,12.253506,NEW,,
+64,0,HyProMag GmbH,Recycling,HyProMag GmbH,,48.906016,8.708324,NEW,,
+65,0,Pure Battery Technologies pCAM plant Europe,Integrated: Processing and recycling,Pure Battery Technologies Ltd.,,51.2106,7.2604,NEW,,
+66,0,Second TBRC Lünen,Recycling,Aurubis AG,,51.60646,7.50755,LINK,570036,Aurubis Luenen smelter
+67,0,Titanium alloys made in Europe,Integrated: Processing and recycling,Isabellenhütte Heusler GmbH & Co. KG,,50.74114,8.28699,NEW,,
+68,0,Zinnwald Lithium Project,Integrated: Extraction and processing,Zinnwald Lithium Plc,,50.73696,13.763459,NEW,,"Cinovec 0.7 km - Zinnwald is the German side, separate project/promoter"
+69,0,ETEOCLES - Developing a recycling hub for low quality copper scrap,Recycling,ElvalHalcor Hellenic Copper and Aluminium industry S.A.,,38.31749,23.631482,NEW,,
+70,0,NEW ALUMINIUM RECYCLING HUB IN GREECE,Recycling,Aluminium Rolling Division of ELVALHALCOR (Hellenic Copper and Aluminium Industry S.A),,38.308333,23.608333,NEW,,
+71,0,Skouries Project,Extraction,Hellas Gold S.A.,,40.481313,23.712223,NEW,,
+72,0,9PV-up: Upcycling raw materials from end-of-life photovoltaic panels,Recycling,9-Tech,,45.435145,12.232413,NEW,,Porto Marghera Zn - different plant in the same industrial zone
+73,0,Alkeemia PureGraph,Processing,Alkeemia S.p.A.,,45.448333,12.223611,NEW,,Porto Marghera Zn - different plant in the same industrial zone
+74,0,"ReSuPLIR - Recovery and Supply of Platinum, Iridium and Ruthenium",Integrated: Processing and recycling,Italrecycling & Investment srl,,43.334949,11.741132,NEW,,
+75,0,REW-ITA green HUB: Recovery of Wolfram: Italian Technology Advanced green Hub,Recycling,OMCD TEK HUB S.p.A.,,46.004833,8.167278,NEW,,
+76,0,CRM4Defence – Byproducts and Recycling of CRM for Defence,Recycling,Leonardo S.p.A.,Italy site,40.9256,14.5328,NEW,,
+76,1,CRM4Defence – Byproducts and Recycling of CRM for Defence,Recycling,Leonardo S.p.A.,Poland site,51.2194,22.6964,NEW,,
+76,2,CRM4Defence – Byproducts and Recycling of CRM for Defence,Recycling,Leonardo S.p.A.,France site,45.5561,3.25574,NEW,,
+76,3,CRM4Defence – Byproducts and Recycling of CRM for Defence,Recycling,Leonardo S.p.A.,UK site,53.5229,-2.30997,NEW,,
+77,0,Refinis recycling plant (UAB Refinis),Recycling,Refinis,,54.795,24.683,NEW,,
+78,0,3ECYCLE,Recycling,Mitsubishi Materials Europe B.V,,51.4025,4.3408,NEW,,
+79,0,Myne Circular Metals Harderwijk,Recycling,Myne Circular Metals B.V,,52.362004,5.636642,NEW,,
+80,0,Enabling CRM production in Europe by recovering CRM from end-of-life batteries: A scalable battery black mass refining process that extracts critical raw materials from all types of Li-ion batteries in an environmental friendly way,Recycling,Back to Battery B.V.,,51.9909,4.3707,NEW,,
+81,0,Urban Mining Factory - Printed Circuit Boards,Recycling,CRITICAL. (owner of Circular Industries),,51.906661,4.428976,NEW,,Rotterdam/Pernis plants - different
+82,0,Development and extraction of the Retków-Grodziszcze Deposit in KGHM Polska Miedź S.A.,Extraction,KGHM Polska Miedź S.A.,,51.589444,16.203056,NEW,,
+83,0,Integrated Recycling Smelter,Recycling,KGHM Polska Miedź S.A.,,51.184656,16.113639,NEW,,
+84,0,Urban mining,Recycling,TDM Electronics Inc.,,51.964778,20.836111,NEW,,
+85,0,BORRALHA MINING PROJECT,Extraction,"MINERALIA - Minas, Geotecnia e Construções, Lda.",,41.656319,-7.983988,REVIEW,475155,Borralha W; existing points 14-15 km off the EC point
+86,0,"Establishment of electric battery recycling capacity, Racari city, Dambovita county",Recycling,ECO LIFE STYLE S.R.L.,,44.648414,25.730174,NEW,,
+87,0,Verde Magnesium Industries,Processing,Verde Magnesium Industries SRL,,46.683117,22.327195,NEW,,
+88,0,GaRefine - Gallium Recycling & Refining for Europe,Recycling,CMK s.r.o.,,48.468638,18.718744,NEW,,
+89,0,"Production of Primary Aluminium and Product Diversification in Slovalco, a.s.",Processing,"Slovalco, a.s.",,48.5578,18.8418,LINK,467533,Slovalco Ziar nad Hronom smelter
+90,0,EU APT Tungsten Plant,Processing,ABENÓJAR TUNGSTEN S.A.,,38.823875,-4.430137,NEW,,
+91,0,Cobre San Rafael Project,Extraction,"Cobre San Rafael, S.L.",,42.87767,-8.31382,NEW,,
+92,0,Viscaria Copper Project,Extraction,Gruvaktiebolaget Viscaria,,67.876537,20.158485,LINK,508294,Viscaria (by name; EC point is 6 km off)
+93,0,Balakhivka Graphite Deposit,Extraction,Pobuzhzhya’s Development LLC,,48.48083,33.2125,NEW,,
+94,0,CaledoNi project,Processing,Société Le Nickel,,-22.25575,166.44563888888888,REVIEW,447422,"SLN Doniambo smelter, 1.7 km"
+95,0,Integrated Dumont Nickel Project,Extraction,Magneto Investments Limited Partnership,,48.571911,-78.115982,LINK,339176,Dumont Nickel Mine
+96,0,Jadar,Extraction,Rio Tinto (Local entity: Rio Sava Exploration doo),,44.512,19.371,NEW,,
+97,0,Kobaloni Energy Zambia Ltd,Processing,Kobaloni Energy Zambia Limited,,-12.65,28.05,NEW,,Chambishi RLE plant 0.5 km - Kobaloni is a new cobalt plant
+98,0,Maniry Graphite Mine Project,Extraction,Evion Group NL,,-24.322872,44.5256,NEW,,
+99,0,Greenland Graphite a/s and Norgraph a/s,Integrated: Extraction and processing,GreenRoc Strategic Materials Plc,Amitsoq,60.2844,-45.127,LINK,3736,"Amitsoq Graphite Mine, 0.0 km"
+99,1,Greenland Graphite a/s and Norgraph a/s,Integrated: Extraction and processing,GreenRoc Strategic Materials Plc,Norgraph plant,58.5042194,8.79346,NEW,,
+100,0,Nussir,Extraction,Nussir ASA,,70.464,24.11041666666667,NEW,,
+101,0,São Miguel Paulista (SMP) Nickel and Cobalt Refinery Restart Project,Processing,Jervois Brasil Metalurgia Ltda.,,-23.483569107145424,-46.433914218249654,NEW,,
+102,0,Sarytogan Graphite Project,Extraction,Sarytogan Graphite Limited,,48.31,74.09,NEW,,
+103,0,Songwe Hill Rare Earths,Extraction,Mkango Resources Ltd.,,-15.68416667,35.7,NEW,,
+104,0,Tungsten West,Extraction,Tungsten West PLC,,50.415226902518526,-4.023903564881238,LINK,322551,Hemerdon Mine (Tungsten West)
+105,0,Zandkopsdrift,Extraction,Frontier Rare Earths Limited,,-30.86529,17.96748,LINK,3805,Zandkopsdrift (Frontier Rare Earths)

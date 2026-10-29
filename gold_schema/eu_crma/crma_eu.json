@@ -1,0 +1,839 @@
+[
+	{
+		"Year": 2025,
+		"Name": "GePETO",
+		"Type": "Processing",
+		"Promoter": "Umicore",
+		"Country": "Belgium",
+		"Strategic raw materials": "germanium",
+		"Factsheet": "6e23bb89-2960-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "ReGAIN",
+		"Type": "Substitution",
+		"Promoter": "Umicore",
+		"Country": "Belgium",
+		"Strategic raw materials": "germanium",
+		"Factsheet": "3ef47160-2633-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Chvaletice manganese Project",
+		"Type": "Integrated: Extraction and processing",
+		"Promoter": "Euro manganese Inc",
+		"Country": "Czechia",
+		"Strategic raw materials": "manganese (battery grade)",
+		"Factsheet": "a4ae906d-2963-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Cínovec lithium project",
+		"Type": "Integrated: Extraction and processing",
+		"Promoter": "Geomet s.r.o.",
+		"Country": "Czechia",
+		"Strategic raw materials": "lithium (battery grade)",
+		"Factsheet": "7b420d5f-2964-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "CO2 Graphite",
+		"Type": "Processing",
+		"Promoter": "UP Catalyst",
+		"Country": "Estonia",
+		"Strategic raw materials": "graphite (battery grade)",
+		"Factsheet": "d3c42971-2961-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Sakatti Project",
+		"Type": "Integrated: Extraction and processing",
+		"Promoter": "Anglo American Services (UK) Ltd.",
+		"Country": "Finland",
+		"Strategic raw materials": "cobalt, platinum group metals, copper, nickel (battery grade)",
+		"Factsheet": "bd1ceb56-2965-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "KELIBER LITHIUM PROJECT",
+		"Type": "Integrated: Extraction and processing",
+		"Promoter": "KELIBER TECHNOLOGY OY",
+		"Country": "Finland",
+		"Strategic raw materials": "lithium (battery grade)",
+		"Factsheet": "ea0b8b6f-2641-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Kolmisoppi",
+		"Type": "Extraction",
+		"Promoter": "Terrafame Ltd",
+		"Country": "Finland",
+		"Strategic raw materials": "nickel (battery grade), cobalt",
+		"Factsheet": "63afeab3-26fd-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Project Fortum Hydromet",
+		"Type": "Recycling",
+		"Promoter": "Fortum Battery Recycling Oy",
+		"Country": "Finland",
+		"Strategic raw materials": "lithium (battery grade), copper, nickel (battery grade), cobalt",
+		"Factsheet": "c47bf88b-263b-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Hycamite TCD Technologies Ltd",
+		"Type": "Processing",
+		"Promoter": "Hycamite TCD Technologies Ltd.",
+		"Country": "Finland",
+		"Strategic raw materials": "graphite (battery grade)",
+		"Factsheet": "b3a979c2-637f-11f0-bf4e-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Jervois Finland Cobalt Refinery Expansion Project",
+		"Type": "Processing",
+		"Promoter": "Jervois Finland Oy",
+		"Country": "Finland",
+		"Strategic raw materials": "cobalt",
+		"Factsheet": "62cf1e95-2962-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "CAREMAG",
+		"Type": "Processing",
+		"Promoter": "CAREMAG SAS",
+		"Country": "France",
+		"Strategic raw materials": "rare earth elements for permanent magnets, boron (metallurgy grade)",
+		"Factsheet": "91e4dead-2960-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Emili",
+		"Type": "Integrated: Extraction and processing",
+		"Promoter": "IMERYS Ceramics France",
+		"Country": "France",
+		"Strategic raw materials": "lithium (battery grade)",
+		"Factsheet": "3f0c26b4-2962-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "BAM4EVER (Phase I&II)",
+		"Type": "Processing",
+		"Promoter": "Tokai COBEX savoie",
+		"Country": "France",
+		"Strategic raw materials": "graphite (battery grade)",
+		"Factsheet": "9f050542-2964-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "MagFactory",
+		"Type": "Recycling",
+		"Promoter": "MagREEsource",
+		"Country": "France",
+		"Strategic raw materials": "rare earth elements for permanent magnets",
+		"Factsheet": "6fd3bf55-2637-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "GALLICAM",
+		"Type": "Processing",
+		"Promoter": "SIBANYE-STILLWATER SANDOUVILLE REFINERY",
+		"Country": "France",
+		"Strategic raw materials": "nickel (battery grade), cobalt, lithium (battery grade), graphite (battery grade), manganese (battery grade), copper",
+		"Factsheet": "04a6f9c8-2966-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Hydrometallurgy",
+		"Type": "Recycling",
+		"Promoter": "ORANO Batteries",
+		"Country": "France",
+		"Strategic raw materials": "lithium (battery grade), cobalt, nickel (battery grade), manganese (battery grade), graphite (battery grade)",
+		"Factsheet": "39624d69-2963-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Ageli",
+		"Type": "Integrated: Extraction and processing",
+		"Promoter": "Eramet",
+		"Country": "France",
+		"Strategic raw materials": "lithium (battery grade)",
+		"Factsheet": "15a214a8-2963-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Viridian Lithium",
+		"Type": "Processing",
+		"Promoter": "Viridian Lithium",
+		"Country": "France",
+		"Strategic raw materials": "lithium (battery grade)",
+		"Factsheet": "e68c7ba5-2964-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "European Initiative for Strategic and Sustainable Graphite Production",
+		"Type": "Processing",
+		"Promoter": "NGC Battery Materials GmbH",
+		"Country": "France (main location), Namibia, Germany",
+		"Strategic raw materials": "graphite (battery grade)",
+		"Factsheet": "22bf2dfa-2967-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Zero Carbon Lithium",
+		"Type": "Extraction",
+		"Promoter": "Vulcan Energie Ressourcen GmbH",
+		"Country": "Germany",
+		"Strategic raw materials": "lithium (battery grade)",
+		"Factsheet": "c2c935a3-2964-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "ProHiPerSi",
+		"Type": "Substitution",
+		"Promoter": "PCC Thorion GmbH",
+		"Country": "Germany",
+		"Strategic raw materials": "graphite (battery grade)",
+		"Factsheet": "db1e7bbb-2637-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Lithium Hydroxide Converter Guben",
+		"Type": "Processing",
+		"Promoter": "Rock Tech Guben GmbH",
+		"Country": "Germany",
+		"Strategic raw materials": "lithium (battery grade)",
+		"Factsheet": "9397c8a6-2637-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Metlen BAUX-EU, GALLANT, LEADER",
+		"Type": "Integrated: Extraction and processing",
+		"Promoter": "Metlen Energy and Metals and European Bauxites",
+		"Country": "Greece",
+		"Strategic raw materials": "bauxite/alumina/aluminium, gallium",
+		"Factsheet": "5eda5224-263a-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "RECOVER-IT",
+		"Type": "Recycling",
+		"Promoter": "Circular Materials s.r.l.",
+		"Country": "Italy",
+		"Strategic raw materials": "copper, nickel (battery grade), platinum group metals",
+		"Factsheet": "b1b6657f-2638-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Alpha Project",
+		"Type": "Recycling",
+		"Promoter": "Solvay Chimica Italia Spa",
+		"Country": "Italy",
+		"Strategic raw materials": "platinum group metals",
+		"Factsheet": "1b497cf3-2962-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "LIFE-22-ENV- IT- INSPIREE",
+		"Type": "Recycling",
+		"Promoter": "Itelyum Regeneration SpA",
+		"Country": "Italy",
+		"Strategic raw materials": "rare earth elements for permanent magnets",
+		"Factsheet": "7ec562eb-2641-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Portovesme CRM Hub",
+		"Type": "Recycling",
+		"Promoter": "Portovesme srl",
+		"Country": "Italy",
+		"Strategic raw materials": "lithium (battery grade), nickel (battery grade), cobalt, copper",
+		"Factsheet": "b75d5897-2637-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Pulawy Rare Earths Separation Plant",
+		"Type": "Processing",
+		"Promoter": "Mkango Resources Ltd.",
+		"Country": "Poland",
+		"Strategic raw materials": "rare earth elements for permanent magnets",
+		"Factsheet": "6a2b6cac-2638-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "POLVOLT",
+		"Type": "Recycling",
+		"Promoter": "Elemental Battery Metals Sp. z o.o.",
+		"Country": "Poland",
+		"Strategic raw materials": "nickel (battery grade), copper, cobalt, lithium (battery grade), platinum group metals, manganese (battery grade)",
+		"Factsheet": "80d17245-2634-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Romano Mine",
+		"Type": "Extraction",
+		"Promoter": "Lusorecursos Portugal Lithium S.A.Lithium (battery grade)",
+		"Country": "Portugal",
+		"Strategic raw materials": "lithium (battery grade)",
+		"Factsheet": "6bf8a3f3-263e-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Barroso Lithium Project",
+		"Type": "Extraction",
+		"Promoter": "Savannah Lithium Unipessoal, Lda",
+		"Country": "Portugal",
+		"Strategic raw materials": "lithium (battery grade)",
+		"Factsheet": "c87272ae-2963-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Lift One",
+		"Type": "Processing",
+		"Promoter": "Lifthium energy, S.A.",
+		"Country": "Portugal",
+		"Strategic raw materials": "lithium (battery grade)",
+		"Factsheet": "c647821e-2641-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Neves Corvo - 3RD SILO, LOMBADOR, Semblana",
+		"Type": "Integrated: Extraction and processing",
+		"Promoter": "SOMINCOR",
+		"Country": "Portugal",
+		"Strategic raw materials": "copper",
+		"Factsheet": "f5b99bf4-295b-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "SALROM Baia de Fier",
+		"Type": "Extraction",
+		"Promoter": "Societatea Națională a Sării S.A.",
+		"Country": "Romania",
+		"Strategic raw materials": "graphite (battery grade)",
+		"Factsheet": "80ebbf9c-2963-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Rovina",
+		"Type": "Extraction",
+		"Promoter": "Euro Sun Mining Inc.",
+		"Country": "Romania",
+		"Strategic raw materials": "copper",
+		"Factsheet": "e4be32e6-295e-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Verde Magnesium",
+		"Type": "Extraction",
+		"Promoter": "Verde Magnesium SRL.",
+		"Country": "Romania",
+		"Strategic raw materials": "magnesium metal",
+		"Factsheet": "f7894432-2961-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "MINA DOADE PROJECT",
+		"Type": "Extraction",
+		"Promoter": "RECURSOS MINERALES DE GALICIA, S.A.",
+		"Country": "Spain",
+		"Strategic raw materials": "lithium (battery grade)",
+		"Factsheet": "065772bf-263d-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "LAS NAVAS",
+		"Type": "Extraction",
+		"Promoter": "LITHIUM IBERIA, S.L.",
+		"Country": "Spain",
+		"Strategic raw materials": "lithium (battery grade)",
+		"Factsheet": "a284150d-2641-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "La Parrilla Mine (P6 Metals)",
+		"Type": "Integrated: Extraction and processing",
+		"Promoter": "Iberian Resources Spain",
+		"Country": "Spain",
+		"Strategic raw materials": "tungsten",
+		"Factsheet": "c293ca57-6389-11f0-bf4e-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Mining project EL MOTO",
+		"Type": "Extraction",
+		"Promoter": "ABENÓJAR TUNGSTEN S.L.",
+		"Country": "Spain",
+		"Strategic raw materials": "tungsten",
+		"Factsheet": "e672555e-2635-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Aguablanca Project",
+		"Type": "Extraction",
+		"Promoter": "RIO NARCEA RECURSOS S.A.",
+		"Country": "Spain",
+		"Strategic raw materials": "cobalt, platinum group metals, nickel (battery grade), copper",
+		"Factsheet": "f1dd6f16-2962-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Polymetallic primary sulphite project PMR project",
+		"Type": "Integrated: Extraction and processing",
+		"Promoter": "Cobre las Cruces S.A.U.",
+		"Country": "Spain",
+		"Strategic raw materials": "copper",
+		"Factsheet": "d5803b30-2638-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "CirCular",
+		"Type": "Recycling",
+		"Promoter": "Atlantic Copper SLU",
+		"Country": "Spain",
+		"Strategic raw materials": "copper, platinum group metals, nickel (battery grade)",
+		"Factsheet": "5d262faa-2963-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "NorthCYCLE",
+		"Type": "Recycling",
+		"Promoter": "Northvolt Revolt AB",
+		"Country": "Sweden",
+		"Strategic raw materials": "manganese (battery grade), lithium (battery grade), graphite (battery grade), nickel (battery grade), cobalt",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2025,
+		"Name": "ReeMAP Project: Malmberget, Lulea Industrial Park, Per Geijer",
+		"Type": "Integrated: Extraction and processing",
+		"Promoter": "LKAB (Luossavaara-Kirunavaara AB)",
+		"Country": "Sweden",
+		"Strategic raw materials": "rare earth elements for permanent magnets",
+		"Factsheet": "c0fb13f5-295e-11f0-8a44-01aa75ed71a1"
+	},
+	{
+		"Year": 2025,
+		"Name": "Talga Natural Graphite ONE",
+		"Type": "Extraction",
+		"Promoter": "Talga AB",
+		"Country": "Sweden",
+		"Strategic raw materials": "graphite (battery grade)",
+		"Factsheet": "286b2a29-2966-11f0-8a44-01aa75ed71a1"
+	},
+		{
+		"Year": 2026,
+		"Name": "CUPIDON",
+		"Type": "Recycling",
+		"Promoter": "Comet Traitements",
+		"Country": "Belgium",
+		"Strategic raw materials": "copper",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "OREON (Optimal REcycling Of Nickel)",
+		"Type": "Processing",
+		"Promoter": "Umicore",
+		"Country": "Belgium",
+		"Strategic raw materials": "copper, cobalt, nickel (battery grade), platinum group metals",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Tankhouse Expansion Pirdop",
+		"Type": "Processing",
+		"Promoter": "Aurubis Bulgaria AD",
+		"Country": "Bulgaria",
+		"Strategic raw materials": "copper",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Silmet 2.0",
+		"Type": "Processing",
+		"Promoter": "NPM Silmet OÜ",
+		"Country": "Estonia",
+		"Strategic raw materials": "rare earth elements for permanent magnets",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "CoNiKo - Cobalt and Nickel refining in Kokkola",
+		"Type": "Processing",
+		"Promoter": "Umicore",
+		"Country": "Finland",
+		"Strategic raw materials": "cobalt, nickel (battery grade)",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Hautalampi Cobalt-Nickel-Copper Mine Project",
+		"Type": "Extraction",
+		"Promoter": "FinnCobalt Oy",
+		"Country": "Finland",
+		"Strategic raw materials": "copper, cobalt, nickel (battery grade)",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Project Arctial",
+		"Type": "Processing",
+		"Promoter": "Arctial Group Oy",
+		"Country": "Finland",
+		"Strategic raw materials": "bauxite/alumina/aluminium",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Sokli",
+		"Type": "Extraction",
+		"Promoter": "Sokli Oy",
+		"Country": "Finland",
+		"Strategic raw materials": "rare earth elements for permanent magnets",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Suhanko project",
+		"Type": "Extraction",
+		"Promoter": "Suhanko Arctic Platinum Oy",
+		"Country": "Finland",
+		"Strategic raw materials": "copper, nickel (battery grade), platinum group metals",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "BREES (Best Rare Earth Element Separation)",
+		"Type": "Recycling",
+		"Promoter": "Rhodia Operations",
+		"Country": "France",
+		"Strategic raw materials": "rare earth elements for permanent magnets",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "EMME",
+		"Type": "Integrated: Processing and recycling",
+		"Promoter": "ELECTRO MOBILITY MATERIALS EUROPE (EMME)",
+		"Country": "France",
+		"Strategic raw materials": "cobalt, nickel (battery grade)",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Lithium de France",
+		"Type": "Integrated: Extraction and processing",
+		"Promoter": "Lithium de France",
+		"Country": "France",
+		"Strategic raw materials": "lithium (battery grade)",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "LUERN",
+		"Type": "Processing",
+		"Promoter": "Aubert & Duval SAS",
+		"Country": "France",
+		"Strategic raw materials": "titanium metal",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "NEOMAT-PCAM",
+		"Type": "Processing",
+		"Promoter": "NEOMAT PCAM",
+		"Country": "France",
+		"Strategic raw materials": "cobalt, manganese (battery grade), nickel (battery grade)",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "ALE - Altmark Lithium Extraction",
+		"Type": "Integrated: Extraction and processing",
+		"Promoter": "Neptune Energy Innovations GmbH",
+		"Country": "Germany",
+		"Strategic raw materials": "lithium (battery grade)",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "EU BEST STRAT: Battery Economical Sustainable (Recycling-) Technology",
+		"Type": "Recycling",
+		"Promoter": "cylib Production I GmbH",
+		"Country": "Germany",
+		"Strategic raw materials": "bauxite/alumina/aluminium, copper, cobalt, lithium (battery grade), manganese (battery grade), graphite (battery grade), nickel (battery grade)",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "European Lithium Refining and Recycling Hub Bitterfeld: from primary raw materials via recycling to critical solid state battery components",
+		"Type": "Integrated: Processing and recycling",
+		"Promoter": "AMG Lithium GmbH",
+		"Country": "Germany",
+		"Strategic raw materials": "lithium (battery grade)",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "HyProMag GmbH",
+		"Type": "Recycling",
+		"Promoter": "HyProMag GmbH",
+		"Country": "Germany",
+		"Strategic raw materials": "rare earth elements for permanent magnets",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Pure Battery Technologies pCAM plant Europe",
+		"Type": "Integrated: Processing and recycling",
+		"Promoter": "Pure Battery Technologies Ltd.",
+		"Country": "Germany",
+		"Strategic raw materials": "cobalt, manganese (battery grade), nickel (battery grade)",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Second TBRC Lünen",
+		"Type": "Recycling",
+		"Promoter": "Aurubis AG",
+		"Country": "Germany",
+		"Strategic raw materials": "copper",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Titanium alloys made in Europe",
+		"Type": "Integrated: Processing and recycling",
+		"Promoter": "Isabellenhütte Heusler GmbH & Co. KG",
+		"Country": "Germany",
+		"Strategic raw materials": "titanium metal",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Zinnwald Lithium Project",
+		"Type": "Integrated: Extraction and processing",
+		"Promoter": "Zinnwald Lithium Plc",
+		"Country": "Germany",
+		"Strategic raw materials": "lithium (battery grade)",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "ETEOCLES - Developing a recycling hub for low quality copper scrap",
+		"Type": "Recycling",
+		"Promoter": "ElvalHalcor Hellenic Copper and Aluminium industry S.A.",
+		"Country": "Greece",
+		"Strategic raw materials": "copper",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "NEW ALUMINIUM RECYCLING HUB IN GREECE",
+		"Type": "Recycling",
+		"Promoter": "Aluminium Rolling Division of ELVALHALCOR (Hellenic Copper and Aluminium Industry S.A)",
+		"Country": "Greece",
+		"Strategic raw materials": "bauxite/alumina/aluminium",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Skouries Project",
+		"Type": "Extraction",
+		"Promoter": "Hellas Gold S.A.",
+		"Country": "Greece",
+		"Strategic raw materials": "copper",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "9PV-up: Upcycling raw materials from end-of-life photovoltaic panels",
+		"Type": "Recycling",
+		"Promoter": "9-Tech",
+		"Country": "Italy",
+		"Strategic raw materials": "bauxite/alumina/aluminium, copper, silicon metal",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Alkeemia PureGraph",
+		"Type": "Processing",
+		"Promoter": "Alkeemia S.p.A.",
+		"Country": "Italy",
+		"Strategic raw materials": "graphite (battery grade)",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "ReSuPLIR - Recovery and Supply of Platinum, Iridium and Ruthenium",
+		"Type": "Integrated: Processing and recycling",
+		"Promoter": "Italrecycling & Investment srl",
+		"Country": "Italy",
+		"Strategic raw materials": "platinum group metals",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "REW-ITA green HUB: Recovery of Wolfram: Italian Technology Advanced green Hub",
+		"Type": "Recycling",
+		"Promoter": "OMCD TEK HUB S.p.A.",
+		"Country": "Italy",
+		"Strategic raw materials": "copper, cobalt, tungsten",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "CRM4Defence – Byproducts and Recycling of CRM for Defence",
+		"Type": "Recycling",
+		"Promoter": "Leonardo S.p.A.",
+		"Country": "Italy, Poland, France, UK",
+		"Strategic raw materials": "bauxite/alumina/aluminium, magnesium metal, titanium metal",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Refinis recycling plant (UAB Refinis)",
+		"Type": "Recycling",
+		"Promoter": "Refinis",
+		"Country": "Lithuania",
+		"Strategic raw materials": "platinum group metals",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "3ECYCLE",
+		"Type": "Recycling",
+		"Promoter": "Mitsubishi Materials Europe B.V",
+		"Country": "Netherlands",
+		"Strategic raw materials": "copper",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Myne Circular Metals Harderwijk",
+		"Type": "Recycling",
+		"Promoter": "Myne Circular Metals B.V",
+		"Country": "Netherlands",
+		"Strategic raw materials": "bauxite/alumina/aluminium, copper",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Enabling CRM production in Europe by recovering CRM from end-of-life batteries: A scalable battery black mass refining process that extracts critical raw materials from all types of Li-ion batteries in an environmental friendly way",
+		"Type": "Recycling",
+		"Promoter": "Back to Battery B.V.",
+		"Country": "Netherlands",
+		"Strategic raw materials": "cobalt, manganese (battery grade), graphite (battery grade), lithium (battery grade), nickel (battery grade)",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Urban Mining Factory - Printed Circuit Boards",
+		"Type": "Recycling",
+		"Promoter": "CRITICAL. (owner of Circular Industries)",
+		"Country": "Netherlands",
+		"Strategic raw materials": "bauxite/alumina/aluminium, copper, nickel (battery grade)",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Development and extraction of the Retków-Grodziszcze Deposit in KGHM Polska Miedź S.A.",
+		"Type": "Extraction",
+		"Promoter": "KGHM Polska Miedź S.A.",
+		"Country": "Poland",
+		"Strategic raw materials": "copper",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Integrated Recycling Smelter",
+		"Type": "Recycling",
+		"Promoter": "KGHM Polska Miedź S.A.",
+		"Country": "Poland",
+		"Strategic raw materials": "copper, nickel (battery grade)",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Urban mining",
+		"Type": "Recycling",
+		"Promoter": "TDM Electronics Inc.",
+		"Country": "Poland",
+		"Strategic raw materials": "bauxite/alumina/aluminium, copper, germanium, platinum group metals",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "BORRALHA MINING PROJECT",
+		"Type": "Extraction",
+		"Promoter": "MINERALIA - Minas, Geotecnia e Construções, Lda.",
+		"Country": "Portugal",
+		"Strategic raw materials": "tungsten",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Establishment of electric battery recycling capacity, Racari city, Dambovita county",
+		"Type": "Recycling",
+		"Promoter": "ECO LIFE STYLE S.R.L.",
+		"Country": "Romania",
+		"Strategic raw materials": "cobalt, lithium (battery grade), manganese (battery grade), graphite (battery grade), nickel (battery grade)",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Verde Magnesium Industries",
+		"Type": "Processing",
+		"Promoter": "Verde Magnesium Industries SRL",
+		"Country": "Romania",
+		"Strategic raw materials": "magnesium metal",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "GaRefine - Gallium Recycling & Refining for Europe",
+		"Type": "Recycling",
+		"Promoter": "CMK s.r.o.",
+		"Country": "Slovakia",
+		"Strategic raw materials": "gallium",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Production of Primary Aluminium and Product Diversification in Slovalco, a.s.",
+		"Type": "Processing",
+		"Promoter": "Slovalco, a.s.",
+		"Country": "Slovakia",
+		"Strategic raw materials": "bauxite/alumina/aluminium",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "EU APT Tungsten Plant ",
+		"Type": "Processing",
+		"Promoter": "ABENÓJAR TUNGSTEN S.A.",
+		"Country": "Spain",
+		"Strategic raw materials": "tungsten",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Cobre San Rafael Project",
+		"Type": "Extraction",
+		"Promoter": "Cobre San Rafael, S.L.",
+		"Country": "Spain",
+		"Strategic raw materials": "copper",
+		"Factsheet": ""
+	},
+	{
+		"Year": 2026,
+		"Name": "Viscaria Copper Project",
+		"Type": "Extraction",
+		"Promoter": "Gruvaktiebolaget Viscaria",
+		"Country": "Sweden",
+		"Strategic raw materials": "copper",
+		"Factsheet": ""
+	}
+]

@@ -1,0 +1,2057 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.113060,
+					49.193531
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Zero Carbon Lithium",
+				"type": "Extraction",
+				"promoter": "Vulcan Energie Ressourcen GmbH",
+				"materials": "lithium (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-8.33418877,
+					42.46470758
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "MINA DOADE PROJECT",
+				"type": "Extraction",
+				"promoter": "RECURSOS MINERALES DE GALICIA, S.A.",
+				"materials": "lithium (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-4.434403,
+					38.821841
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Mining project EL MOTO",
+				"type": "Extraction",
+				"promoter": "ABENÓJAR TUNGSTEN S.L.",
+				"materials": "tungsten"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.18021,
+					37.96564
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Aguablanca Project",
+				"type": "Extraction",
+				"promoter": "RIO NARCEA RECURSOS S.A.",
+				"materials": "cobalt, platinum group metals, nickel (battery grade), copper"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.37444,
+					39.84207
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "LAS NAVAS",
+				"type": "Extraction",
+				"promoter": "LITHIUM IBERIA, S.L.",
+				"materials": "lithium (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					28.065673,
+					64.013315
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Kolmisoppi",
+				"type": "Extraction",
+				"promoter": "Terrafame Ltd",
+				"materials": "nickel (battery grade), cobalt"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-7.5,
+					41.5
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Barroso Lithium Project",
+				"type": "Extraction",
+				"promoter": "Savannah Lithium Unipessoal, Lda",
+				"materials": "lithium (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-7.8,
+					41.8
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Romano Mine",
+				"type": "Extraction",
+				"promoter": "Lusorecursos Portugal Lithium S.A.",
+				"materials": "lithium (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					22.5005291,
+					46.6747978
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Verde Magnesium",
+				"type": "Extraction",
+				"promoter": "Verde Magnesium SRL.",
+				"materials": "magnesium metal"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					23.72204,
+					45.26821
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "SALROM Baia de Fier",
+				"type": "Extraction",
+				"promoter": "Societatea Națională a Sării S.A. ",
+				"materials": "graphite (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					22.909903,
+					46.141486
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Rovina",
+				"type": "Extraction",
+				"promoter": "Euro Sun Mining Inc.",
+				"materials": "copper"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					21.42745,
+					67.71777
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Talga Natural Graphite ONE",
+				"type": "Extraction ",
+				"promoter": "Talga AB",
+				"materials": "graphite (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					33.2125,
+					48.48083
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Balakhivka Graphite Deposit",
+				"type": "Extraction ",
+				"promoter": "Pobuzhzhya’s Development LLC",
+				"materials": "graphite (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-78.115982,
+					48.571911
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Integrated Dumont Nickel Project",
+				"type": "Extraction ",
+				"promoter": "Magneto Investments Limited Partnership",
+				"materials": "nickel (battery grade) + cobalt"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					19.371,
+					44.512
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Jadar",
+				"type": "Extraction ",
+				"promoter": "Rio Tinto (Local entity: Rio Sava Exploration doo)",
+				"materials": "lithium + boron"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					44.5256,
+					-24.322872
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Maniry Graphite Mine Project",
+				"type": "Extraction ",
+				"promoter": "EVION GROUP NL",
+				"materials": "graphite (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					24.11041666666667,
+					70.464
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Nussir",
+				"type": "Extraction ",
+				"promoter": "Nussir ASA",
+				"materials": "copper"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					74.09,
+					48.31
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Sarytogan Graphite Project",
+				"type": "Extraction ",
+				"promoter": "Sarytogan Graphite Limited",
+				"materials": "graphite (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					35.7,
+					-15.68416667
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Songwe Hill Rare Earths",
+				"type": "Extraction ",
+				"promoter": "Mkango Resources Ltd.",
+				"materials": "rare earth elements for magnets (nd, pr, tb, dy, gd, sm, and ce)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-4.023903564881238,
+					50.415226902518526
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Tungsten West",
+				"type": "Extraction ",
+				"promoter": "Tungsten West PLC",
+				"materials": "tungsten"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					17.96748,
+					-30.86529
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Zandkopsdrift",
+				"type": "Extraction ",
+				"promoter": "Frontier Rare Earths Limited",
+				"materials": "rare earth elements for magnets (nd, pr, tb, dy, gd, sm, and ce) + manganese (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					13.7912631,
+					50.7171272
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Cínovec lithium project",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "Geomet s.r.o.",
+				"materials": "lithium (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					13.2815353,
+					50.4163197
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Cínovec lithium project",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "Geomet s.r.o.",
+				"materials": "lithium (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					15.444279,
+					50.038069
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Chvaletice Manganese Project",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "Euro Manganese Inc",
+				"materials": "manganese (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					22.29180556,
+					38.48322222
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Metlen BAUX-EU, GALLANT, LEADER",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "Metlen Energy and Metals and European Bauxites",
+				"materials": "bauxite/alumina/aluminium, gallium"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					22.68138889,
+					38.37147222
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Metlen BAUX-EU, GALLANT, LEADER",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "Metlen Energy and Metals and European Bauxites",
+				"materials": "bauxite/alumina/aluminium, gallium"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.08947222,
+					39.08077778
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "La Parrilla Mine (P6 Metals)",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "Iberian Resources Spain",
+				"materials": "tungsten"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.15472222,
+					37.52597222
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Polymetallic primary sulphite project PMR project",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "Cobre las Cruces S.A.U.",
+				"materials": "copper"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					26.745259,
+					67.548113
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Sakatti Project ",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "Anglo American Services (UK) Ltd.",
+				"materials": "cobalt, platinum group metals, copper, nickel (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					23.863012372518632,
+					63.5
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "KELIBER LITHIUM PROJECT",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "KELIBER TECHNOLOGY OY ",
+				"materials": "lithium (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					28.249373323488495,
+					64.7
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "KELIBER LITHIUM PROJECT",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "KELIBER TECHNOLOGY OY ",
+				"materials": "lithium (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					23.051244778819424,
+					63.6
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "KELIBER LITHIUM PROJECT",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "KELIBER TECHNOLOGY OY ",
+				"materials": "lithium (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.8653015,
+					48.9352508
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Ageli",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "Eramet",
+				"materials": "lithium (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.954443,
+					46.183098
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Emili",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "IMERYS Ceramics France",
+				"materials": "lithium (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.588,
+					46.397
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Emili",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "IMERYS Ceramics France",
+				"materials": "lithium (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-7.970556,
+					37.573056
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Neves Corvo - 3RD SILO, LOMBADOR, Semblana",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "SOMINCOR",
+				"materials": "copper"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					20.65358333,
+					67.17108333
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "ReeMAP Project: Malmberget, Lulea Industrial Park, Per Geijer",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "LKAB (Luossavaara-Kirunavaara AB)",
+				"materials": "rare earth elements for magnets"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					20.23416667,
+					67.85286111
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "ReeMAP Project: Malmberget, Lulea Industrial Park, Per Geijer",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "LKAB (Luossavaara-Kirunavaara AB)",
+				"materials": "rare earth elements for magnets"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					22.15008333,
+					65.58191667
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "ReeMAP Project: Malmberget, Lulea Industrial Park, Per Geijer",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "LKAB (Luossavaara-Kirunavaara AB)",
+				"materials": "rare earth elements for magnets"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-45.127,
+					60.2844
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Greenland Graphite a/s",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "GreenRoc Strategic Materials Plc",
+				"materials": "graphite (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.793460,
+					58.5042194
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Norgraph a/s ",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "GreenRoc Strategic Materials Plc",
+				"materials": "graphite (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					4.75296,
+					51.139725
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "GePETO",
+				"type": "Processing",
+				"promoter": "Umicore",
+				"materials": "germanium"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					14.702897,
+					51.923523
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Lithium Hydroxide Converter Guben",
+				"type": "Processing",
+				"promoter": "Rock Tech Guben GmbH",
+				"materials": "lithium (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					24.925460,
+					59.454650
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "CO2 Graphite",
+				"type": "Processing",
+				"promoter": "UP Catalyst",
+				"materials": "graphite (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					23.6,
+					63.8
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Hycamite TCD Technologies Ltd",
+				"type": "Processing",
+				"promoter": "Hycamite TCD Technologies Ltd.",
+				"materials": "graphite (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					23.05600,
+					63.86097
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Jervois Finland Cobalt Refinery Expansion Project",
+				"type": "Processing",
+				"promoter": "Jervois Finland Oy",
+				"materials": "cobalt"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					0.28305683195158265,
+					49.47433041501457
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "GALLICAM",
+				"type": "Processing",
+				"promoter": "SIBANYE-STILLWATER SANDOUVILLE REFINERY",
+				"materials": "nickel (battery grade), cobalt (battery grade), lithium (battery grade), graphite (battery grade), manganese (battery grade), copper "
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.043422,
+					50.021861
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "European Initiative for Strategic and Sustainable Graphite Production",
+				"type": "Processing",
+				"promoter": "NGC Battery Materials GmbH",
+				"materials": "graphite (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.847613,
+					50.519389
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "European Initiative for Strategic and Sustainable Graphite Production",
+				"type": "Processing",
+				"promoter": "NGC Battery Materials GmbH",
+				"materials": "graphite (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					16.616314,
+					-20.5986111
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "European Initiative for Strategic and Sustainable Graphite Production",
+				"type": "Processing",
+				"promoter": "NGC Battery Materials GmbH",
+				"materials": "graphite (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.1767,
+					48.9500
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Viridian Lithium",
+				"type": "Processing",
+				"promoter": "Viridian Lithium",
+				"materials": "lithium (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-0.640825,
+					43.410718
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "CAREMAG",
+				"type": "Processing",
+				"promoter": "CAREMAG SAS",
+				"materials": "rare earth elements for magnets, boron (metallurgy grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					4.876556,
+					45.894787
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "CAREMAG",
+				"type": "Processing",
+				"promoter": "CAREMAG SAS",
+				"materials": "rare earth elements for magnets, boron (metallurgy grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.450394,
+					45.5262762
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "BAM4EVER (Phase I&II)",
+				"type": "Processing",
+				"promoter": "Tokai COBEX savoie",
+				"materials": "graphite (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					4.8795862,
+					45.7125081
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "BAM4EVER (Phase I&II)",
+				"type": "Processing",
+				"promoter": "Tokai COBEX savoie",
+				"materials": "graphite (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					21.996157,
+					51.458847
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Pulawy Rare Earths Separation Plant",
+				"type": "Processing",
+				"promoter": "Mkango Resources Ltd.",
+				"materials": "rare earth elements for magnets"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-8.570266040486345,
+					40.77857320326985
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Lift One",
+				"type": "Processing",
+				"promoter": "Lifthium energy, S.A.",
+				"materials": "lithium (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					166.44563888888888,
+					-22.25575
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "CaledoNi project",
+				"type": "Processing",
+				"promoter": "Société Le Nickel",
+				"materials": "nickel (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					28.05,
+					-12.65
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Kobaloni Energy Zambia Ltd ",
+				"type": "Processing",
+				"promoter": "Kobaloni Energy Zambia Limited",
+				"materials": "cobalt"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-46.433914218249654,
+					-23.483569107145424
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "São Miguel Paulista (SMP) Nickel and Cobalt Refinery Restart Project",
+				"type": "Processing",
+				"promoter": "Jervois Brasil Metalurgia Ltda.",
+				"materials": "nickel (battery grade) + cobalt"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.951296134777293,
+					37.22871873819697
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "CirCular",
+				"type": "Recycling",
+				"promoter": "Atlantic Copper SLU",
+				"materials": "copper, platinum group metals, nickel"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					23.532715,
+					62.492028
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Project Fortum Hydromet",
+				"type": "Recycling",
+				"promoter": "Fortum Battery Recycling Oy",
+				"materials": "lithium (battery grade), copper, nickel (battery grade), cobalt"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.10179,
+					51.023
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Hydrometallurgy",
+				"type": "recycling",
+				"promoter": "ORANO Batteries",
+				"materials": "lithium (battery grade), cobalt, nickel (battery grade), manganese, graphite (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					5.6167,
+					45.2667
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "MagFactory",
+				"type": "Recycling",
+				"promoter": "MagREEsource",
+				"materials": "rare earth elements for magnets"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.403523286317416,
+					39.20658672317188
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Portovesme CRM Hub",
+				"type": "Recycling",
+				"promoter": "Portovesme srl",
+				"materials": "lithium (battery grade), nickel, cobalt, copper"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.904462823744428,
+					45.471036278711594
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "RECOVER-IT",
+				"type": "Recycling",
+				"promoter": "Circular Materials s.r.l.",
+				"materials": "copper, nickel (battery grade), platinum group metals"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.44382120,
+					43.38656885
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "Alpha Project",
+				"type": "Recycling",
+				"promoter": "Solvay Chimica Italia Spa",
+				"materials": "platinum group metals"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					13.300600,
+					41.606620
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "LIFE-22-ENV- IT-  INSPIREE ",
+				"type": "Recycling",
+				"promoter": "Itelyum Regeneration SpA ",
+				"materials": "rare earth elements for magnets"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					19.389985,
+					50.496704
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "POLVOLT",
+				"type": "Recycling",
+				"promoter": "Elemental Battery Metals Sp. z o.o.",
+				"materials": "nickel (battery grade), copper, cobalt, lithium (battery grade), platinum group metals, manganese (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					21.095688799999998,
+					64.73134082543206
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "NorthCYCLE",
+				"type": "Recycling",
+				"promoter": "Northvolt Revolt AB",
+				"materials": "manganese (battery grade), lithium (battery grade), graphite (battery grade), nickel (battery grade), cobalt"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.803423,
+					51.524339
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "ProHiPerSi",
+				"type": "Substitution",
+				"promoter": "PCC Thorion GmbH",
+				"materials": "graphite (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					4.939728,
+					51.158677
+				]
+			},
+			"properties": {
+				"year": 2025,
+				"name": "ReGAIN",
+				"type": "Substitution",
+				"promoter": "Umicore",
+				"materials": "germanium"
+			}
+		},		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-7.983988,
+					41.656319
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "BORRALHA MINING PROJECT",
+				"type": "Extraction",
+				"promoter": "MINERALIA - Minas, Geotecnia e Construções, Lda.",
+				"materials": "tungsten"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-8.31382,
+					42.87767
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Cobre San Rafael Project",
+				"type": "Extraction",
+				"promoter": "Cobre San Rafael, S.L.",
+				"materials": "copper"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					16.203056,
+					51.589444
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Development and extraction of the Retków-Grodziszcze Deposit in KGHM Polska Miedź S.A.",
+				"type": "Extraction",
+				"promoter": "KGHM Polska Miedź S.A.",
+				"materials": "copper"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					28.973,
+					62.7151
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Hautalampi Cobalt-Nickel-Copper Mine Project",
+				"type": "Extraction",
+				"promoter": "FinnCobalt Oy",
+				"materials": "copper, cobalt, nickel (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					23.712223,
+					40.481313
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Skouries Project",
+				"type": "Extraction",
+				"promoter": "Hellas Gold S.A.",
+				"materials": "copper"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					29.23333,
+					67.76667
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Sokli",
+				"type": "Extraction",
+				"promoter": "Sokli Oy",
+				"materials": "rare earth elements for permanent magnets"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					26.102778,
+					66.208889
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Suhanko project",
+				"type": "Extraction",
+				"promoter": "Suhanko Arctic Platinum Oy",
+				"materials": "copper, nickel (battery grade), platinum group metals"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					20.158485,
+					67.876537
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Viscaria Copper Project",
+				"type": "Extraction",
+				"promoter": "Gruvaktiebolaget Viscaria",
+				"materials": "copper"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.166916,
+					52.845913
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "ALE - Altmark Lithium Extraction",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "Neptune Energy Innovations GmbH",
+				"materials": "lithium (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.902,
+					48.8987
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Lithium de France",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "Lithium de France",
+				"materials": "lithium (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					13.763459,
+					50.73696
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Zinnwald Lithium Project",
+				"type": "Integrated: Extraction and Processing",
+				"promoter": "Zinnwald Lithium Plc",
+				"materials": "lithium (battery grade)"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					4.3408,
+					51.4025
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "3ECYCLE",
+				"type": "Recycling",
+				"promoter": "Mitsubishi Materials Europe B.V",
+				"materials": "copper"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.232413,
+					45.435145
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "9PV-up: Upcycling raw materials from end-of-life photovoltaic panels",
+				"type": "Recycling",
+				"promoter": "9-Tech",
+				"materials": "bauxite/alumina/aluminium, copper, silicon metal"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					1.151139,
+					46.166672
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "BREES (Best Rare Earth Element Separation)",
+				"type": "Recycling",
+				"promoter": "Rhodia Operations",
+				"materials": "rare earth elements for permanent magnets"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					14.5328,
+					40.9256
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "CRM4Defence - Byproducts and Recycling of CRM for Defence",
+				"type": "Recycling",
+				"promoter": "Leonardo S.p.A.",
+				"materials": "bauxite/alumina/aluminium, magnesium metal, titanium metal"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					22.6964,
+					51.2194
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "CRM4Defence - Byproducts and Recycling of CRM for Defence",
+				"type": "Recycling",
+				"promoter": "Leonardo S.p.A.",
+				"materials": "bauxite/alumina/aluminium, magnesium metal, titanium metal"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					3.25574,
+					45.5561
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "CRM4Defence - Byproducts and Recycling of CRM for Defence",
+				"type": "Recycling",
+				"promoter": "Leonardo S.p.A.",
+				"materials": "bauxite/alumina/aluminium, magnesium metal, titanium metal"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.30997,
+					53.5229
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "CRM4Defence - Byproducts and Recycling of CRM for Defence",
+				"type": "Recycling",
+				"promoter": "Leonardo S.p.A.",
+				"materials": "bauxite/alumina/aluminium, magnesium metal, titanium metal"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					4.119044,
+					50.490655
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "CUPIDON",
+				"type": "Recycling",
+				"promoter": "Comet Traitements",
+				"materials": "copper"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					25.730174,
+					44.648414
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Establishment of electric battery recycling capacity, Racari city, Dambovita county",
+				"type": "Recycling",
+				"promoter": "ECO LIFE STYLE S.R.L.",
+				"materials": "cobalt, lithium (battery grade), manganese (battery grade), graphite (battery grade), nickel (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					23.631482,
+					38.31749
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "ETEOCLES - Developing a recycling hub for low quality copper scrap",
+				"type": "Recycling",
+				"promoter": "ElvalHalcor Hellenic Copper and Aluminium industry S.A.",
+				"materials": "copper"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.137409,
+					50.771858
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "EU BEST STRAT: Battery Economical Sustainable (Recycling-) Technology",
+				"type": "Recycling",
+				"promoter": "cylib Production I GmbH",
+				"materials": "bauxite/alumina/aluminium, copper, cobalt, lithium (battery grade), manganese (battery grade), graphite (battery grade), nickel (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					18.718744,
+					48.468638
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "GaRefine - Gallium Recycling & Refining for Europe",
+				"type": "Recycling",
+				"promoter": "CMK s.r.o.",
+				"materials": "gallium"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.708324,
+					48.906016
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "HyProMag GmbH",
+				"type": "Recycling",
+				"promoter": "HyProMag GmbH",
+				"materials": "rare earth elements for permanent magnets"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					5.636642,
+					52.362004
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Myne Circular Metals Harderwijk",
+				"type": "Recycling",
+				"promoter": "Myne Circular Metals B.V",
+				"materials": "bauxite/alumina/aluminium, copper"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					23.608333,
+					38.308333
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "NEW ALUMINIUM RECYCLING HUB IN GREECE",
+				"type": "Recycling",
+				"promoter": "Aluminium Rolling Division of ELVALHALCOR (Hellenic Copper and Aluminium Industry S.A)",
+				"materials": "bauxite/alumina/aluminium"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					16.113639,
+					51.184656
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Integrated Recycling Smelter",
+				"type": "Recycling",
+				"promoter": "KGHM Polska Miedź S.A.",
+				"materials": "copper, nickel (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					24.683,
+					54.795
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Refinis recycling plant (UAB Refinis)",
+				"type": "Recycling",
+				"promoter": "Refinis",
+				"materials": "platinum group metals"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.167278,
+					46.004833
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "REW-ITA green HUB: Recovery of Wolfram: Italian Technology Advanced green Hub",
+				"type": "Recycling",
+				"promoter": "OMCD TEK HUB S.p.A.",
+				"materials": "copper, cobalt, tungsten"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.50755,
+					51.60646
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Second TBRC Lünen",
+				"type": "Recycling",
+				"promoter": "Aurubis AG",
+				"materials": "copper"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					4.3707,
+					51.9909
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Enabling CRM production in Europe by recovering CRM from end-of-life batteries: A scalable battery black mass refining process that extracts critical raw materials from all types of Li-ion batteries in an environmental friendly way",
+				"type": "Recycling",
+				"promoter": "Back to Battery B.V.",
+				"materials": "cobalt, manganese (battery grade), graphite (battery grade), lithium (battery grade), nickel (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					20.836111,
+					51.964778
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Urban mining",
+				"type": "Recycling",
+				"promoter": "TDM Electronics Inc.",
+				"materials": "bauxite/alumina/aluminium, copper, germanium, platinum group metals"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					4.428976,
+					51.906661
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Urban Mining Factory - Printed Circuit Boards",
+				"type": "Recycling",
+				"promoter": "CRITICAL. (owner of Circular Industries)",
+				"materials": "bauxite/alumina/aluminium, copper, nickel (battery grade)"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.223611,
+					45.448333
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Alkeemia PureGraph",
+				"type": "Processing",
+				"promoter": "Alkeemia S.p.A.",
+				"materials": "graphite (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-4.430137,
+					38.823875
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "EU APT Tungsten Plant",
+				"type": "Processing",
+				"promoter": "ABENÓJAR TUNGSTEN S.A.",
+				"materials": "tungsten"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					23.04521,
+					63.86649
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "CoNiKo - Cobalt and Nickel refining in Kokkola",
+				"type": "Processing",
+				"promoter": "Umicore",
+				"materials": "cobalt, nickel (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.84,
+					45.94
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "LUERN",
+				"type": "Processing",
+				"promoter": "Aubert & Duval SAS",
+				"materials": "titanium metal"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.167667,
+					51.004806
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "NEOMAT-PCAM",
+				"type": "Processing",
+				"promoter": "NEOMAT PCAM",
+				"materials": "cobalt, manganese (battery grade), nickel (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					4.33678,
+					51.16708
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "OREON (Optimal REcycling Of Nickel)",
+				"type": "Processing",
+				"promoter": "Umicore",
+				"materials": "copper, cobalt, nickel (battery grade), platinum group metals"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					18.8418,
+					48.5578
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Production of Primary Aluminium and Product Diversification in Slovalco, a.s.",
+				"type": "Processing",
+				"promoter": "Slovalco, a.s.",
+				"materials": "bauxite/alumina/aluminium"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					23.066667,
+					63.766667
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Project Arctial",
+				"type": "Processing",
+				"promoter": "Arctial Group Oy",
+				"materials": "bauxite/alumina/aluminium"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					27.745449,
+					59.401206
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Silmet 2.0",
+				"type": "Processing",
+				"promoter": "NPM Silmet OÜ",
+				"materials": "rare earth elements for permanent magnets"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					24.155138,
+					42.715722
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Tankhouse Expansion Pirdop",
+				"type": "Processing",
+				"promoter": "Aurubis Bulgaria AD",
+				"materials": "copper"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					22.327195,
+					46.683117
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Verde Magnesium Industries",
+				"type": "Processing",
+				"promoter": "Verde Magnesium Industries SRL",
+				"materials": "magnesium metal"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-0.63333,
+					44.957119
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "EMME",
+				"type": "Integrated: Processing and Recycling",
+				"promoter": "Electro Mobility Materials Europe (EMME)",
+				"materials": "cobalt, nickel (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.2604,
+					51.2106
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Pure Battery Technologies pCAM plant Europe",
+				"type": "Integrated: Processing and Recycling",
+				"promoter": "Pure Battery Technologies Ltd.",
+				"materials": "cobalt, manganese (battery grade), nickel (battery grade)"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.741132,
+					43.334949
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "ReSuPLIR - Recovery and Supply of Platinum, Iridium and Ruthenium",
+				"type": "Integrated: Processing and Recycling",
+				"promoter": "Italrecycling & Investment srl",
+				"materials": "platinum group metals"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.28699,
+					50.74114
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "Titanium alloys made in Europe",
+				"type": "Integrated: Processing and Recycling",
+				"promoter": "Isabellenhütte Heusler GmbH & Co. KG",
+				"materials": "titanium metal"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.253506,
+					51.654139
+				]
+			},
+			"properties": {
+				"year": 2026,
+				"name": "European Lithium Refining and Recycling Hub Bitterfeld: from primary raw materials via recycling to critical solid state battery components",
+				"type": "Integrated: Processing and Recycling",
+				"promoter": "AMG Lithium GmbH",
+				"materials": "lithium (battery grade)"
+			}
+		}
+	]
+}

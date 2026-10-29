@@ -1,0 +1,107 @@
+﻿project,company_id,owner_name,share_pct,as_of_year,source_document,created_by
+EU-2025-gepeto,34,Umicore,,2025,doc:6e23bb89-2960-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-regain,34,Umicore,,2025,doc:3ef47160-2633-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-chvaleticemanganeseproject,,Euro manganese Inc,,2025,doc:a4ae906d-2963-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-cnoveclithiumproject,,Geomet s.r.o.,,2025,doc:7b420d5f-2964-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-co2graphite,,UP Catalyst,,2025,doc:d3c42971-2961-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-sakattiproject,,Anglo American Services (UK) Ltd.,,2025,doc:bd1ceb56-2965-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-keliberlithiumproject,,KELIBER TECHNOLOGY OY,,2025,doc:ea0b8b6f-2641-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-kolmisoppi,,Terrafame Ltd,,2025,doc:63afeab3-26fd-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-projectfortumhydromet,,Fortum Battery Recycling Oy,,2025,doc:c47bf88b-263b-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-hycamitetcdtechnologiesltd,,Hycamite TCD Technologies Ltd.,,2025,doc:b3a979c2-637f-11f0-bf4e-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-jervoisfinlandcobaltrefineryexpansionproject,,Jervois Finland Oy,,2025,doc:62cf1e95-2962-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-caremag,,CAREMAG SAS,,2025,doc:91e4dead-2960-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-emili,,IMERYS Ceramics France,,2025,doc:3f0c26b4-2962-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-bam4everphaseiii,,Tokai COBEX savoie,,2025,doc:9f050542-2964-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-magfactory,,MagREEsource,,2025,doc:6fd3bf55-2637-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-gallicam,33,SIBANYE-STILLWATER SANDOUVILLE REFINERY,,2025,doc:04a6f9c8-2966-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-hydrometallurgy,,ORANO Batteries,,2025,doc:39624d69-2963-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-ageli,,Eramet,,2025,doc:15a214a8-2963-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-viridianlithium,,Viridian Lithium,,2025,doc:e68c7ba5-2964-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-europeaninitiativeforstrategicandsustainablegraphiteproducti,,NGC Battery Materials GmbH,,2025,doc:22bf2dfa-2967-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-zerocarbonlithium,,Vulcan Energie Ressourcen GmbH,,2025,doc:c2c935a3-2964-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-prohipersi,,PCC Thorion GmbH,,2025,doc:db1e7bbb-2637-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-lithiumhydroxideconverterguben,,Rock Tech Guben GmbH,,2025,doc:9397c8a6-2637-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-metlenbauxeugallantleader,,Metlen Energy and Metals and European Bauxites,,2025,doc:5eda5224-263a-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-recoverit,,Circular Materials s.r.l.,,2025,doc:b1b6657f-2638-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-alphaproject,,Solvay Chimica Italia Spa,,2025,doc:1b497cf3-2962-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-life22envitinspiree,,Itelyum Regeneration SpA,,2025,doc:7ec562eb-2641-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-portovesmecrmhub,,Portovesme srl,,2025,doc:b75d5897-2637-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-pulawyrareearthsseparationplant,,Mkango Resources Ltd.,,2025,doc:6a2b6cac-2638-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-polvolt,,Elemental Battery Metals Sp. z o.o.,,2025,doc:80d17245-2634-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-romanomine,,Lusorecursos Portugal Lithium S.A.Lithium (battery grade),,2025,doc:6bf8a3f3-263e-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-barrosolithiumproject,,"Savannah Lithium Unipessoal, Lda",,2025,doc:c87272ae-2963-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-liftone,,"Lifthium energy, S.A.",,2025,doc:c647821e-2641-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-nevescorvo3rdsilolombadorsemblana,,SOMINCOR,,2025,doc:f5b99bf4-295b-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-salrombaiadefier,,Societatea Națională a Sării S.A.,,2025,doc:80ebbf9c-2963-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-rovina,,Euro Sun Mining Inc.,,2025,doc:e4be32e6-295e-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-verdemagnesium,,Verde Magnesium SRL.,,2025,doc:f7894432-2961-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-minadoadeproject,,"RECURSOS MINERALES DE GALICIA, S.A.",,2025,doc:065772bf-263d-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-lasnavas,,"LITHIUM IBERIA, S.L.",,2025,doc:a284150d-2641-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-laparrillaminep6metals,,Iberian Resources Spain,,2025,doc:c293ca57-6389-11f0-bf4e-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-miningprojectelmoto,,ABENÓJAR TUNGSTEN S.L.,,2025,doc:e672555e-2635-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-aguablancaproject,,RIO NARCEA RECURSOS S.A.,,2025,doc:f1dd6f16-2962-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-polymetallicprimarysulphiteprojectpmrproject,,Cobre las Cruces S.A.U.,,2025,doc:d5803b30-2638-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-circular,,Atlantic Copper SLU,,2025,doc:5d262faa-2963-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-northcycle,,Northvolt Revolt AB,,2025,,migration_eu_crma_20261029
+EU-2025-reemapprojectmalmbergetluleaindustrialparkpergeijer,,LKAB (Luossavaara-Kirunavaara AB),,2025,doc:c0fb13f5-295e-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2025-talganaturalgraphiteone,,Talga AB,,2025,doc:286b2a29-2966-11f0-8a44-01aa75ed71a1,migration_eu_crma_20261029
+EU-2026-cupidon,,Comet Traitements,,2026,,migration_eu_crma_20261029
+EU-2026-oreonoptimalrecyclingofnickel,34,Umicore,,2026,,migration_eu_crma_20261029
+EU-2026-tankhouseexpansionpirdop,,Aurubis Bulgaria AD,,2026,,migration_eu_crma_20261029
+EU-2026-silmet20,,NPM Silmet OÜ,,2026,,migration_eu_crma_20261029
+EU-2026-conikocobaltandnickelrefininginkokkola,34,Umicore,,2026,,migration_eu_crma_20261029
+EU-2026-hautalampicobaltnickelcoppermineproject,,FinnCobalt Oy,,2026,,migration_eu_crma_20261029
+EU-2026-projectarctial,,Arctial Group Oy,,2026,,migration_eu_crma_20261029
+EU-2026-sokli,,Sokli Oy,,2026,,migration_eu_crma_20261029
+EU-2026-suhankoproject,,Suhanko Arctic Platinum Oy,,2026,,migration_eu_crma_20261029
+EU-2026-breesbestrareearthelementseparation,,Rhodia Operations,,2026,,migration_eu_crma_20261029
+EU-2026-emme,,ELECTRO MOBILITY MATERIALS EUROPE (EMME),,2026,,migration_eu_crma_20261029
+EU-2026-lithiumdefrance,,Lithium de France,,2026,,migration_eu_crma_20261029
+EU-2026-luern,,Aubert & Duval SAS,,2026,,migration_eu_crma_20261029
+EU-2026-neomatpcam,,NEOMAT PCAM,,2026,,migration_eu_crma_20261029
+EU-2026-alealtmarklithiumextraction,,Neptune Energy Innovations GmbH,,2026,,migration_eu_crma_20261029
+EU-2026-eubeststratbatteryeconomicalsustainablerecyclingtechnology,,cylib Production I GmbH,,2026,,migration_eu_crma_20261029
+EU-2026-europeanlithiumrefiningandrecyclinghubbitterfeldfromprimaryr,,AMG Lithium GmbH,,2026,,migration_eu_crma_20261029
+EU-2026-hypromaggmbh,,HyProMag GmbH,,2026,,migration_eu_crma_20261029
+EU-2026-purebatterytechnologiespcamplanteurope,,Pure Battery Technologies Ltd.,,2026,,migration_eu_crma_20261029
+EU-2026-secondtbrclnen,,Aurubis AG,,2026,,migration_eu_crma_20261029
+EU-2026-titaniumalloysmadeineurope,,Isabellenhütte Heusler GmbH & Co. KG,,2026,,migration_eu_crma_20261029
+EU-2026-zinnwaldlithiumproject,,Zinnwald Lithium Plc,,2026,,migration_eu_crma_20261029
+EU-2026-eteoclesdevelopingarecyclinghubforlowqualitycopperscrap,,ElvalHalcor Hellenic Copper and Aluminium industry S.A.,,2026,,migration_eu_crma_20261029
+EU-2026-newaluminiumrecyclinghubingreece,,Aluminium Rolling Division of ELVALHALCOR (Hellenic Copper and Aluminium Industry S.A),,2026,,migration_eu_crma_20261029
+EU-2026-skouriesproject,,Hellas Gold S.A.,,2026,,migration_eu_crma_20261029
+EU-2026-9pvupupcyclingrawmaterialsfromendoflifephotovoltaicpanels,,9-Tech,,2026,,migration_eu_crma_20261029
+EU-2026-alkeemiapuregraph,,Alkeemia S.p.A.,,2026,,migration_eu_crma_20261029
+EU-2026-resuplirrecoveryandsupplyofplatinumiridiumandruthenium,,Italrecycling & Investment srl,,2026,,migration_eu_crma_20261029
+EU-2026-rewitagreenhubrecoveryofwolframitaliantechnologyadvancedgree,,OMCD TEK HUB S.p.A.,,2026,,migration_eu_crma_20261029
+EU-2026-crm4defencebyproductsandrecyclingofcrmfordefence,,Leonardo S.p.A.,,2026,,migration_eu_crma_20261029
+EU-2026-refinisrecyclingplantuabrefinis,,Refinis,,2026,,migration_eu_crma_20261029
+EU-2026-3ecycle,,Mitsubishi Materials Europe B.V,,2026,,migration_eu_crma_20261029
+EU-2026-mynecircularmetalsharderwijk,,Myne Circular Metals B.V,,2026,,migration_eu_crma_20261029
+EU-2026-enablingcrmproductionineuropebyrecoveringcrmfromendoflifebat,,Back to Battery B.V.,,2026,,migration_eu_crma_20261029
+EU-2026-urbanminingfactoryprintedcircuitboards,,CRITICAL. (owner of Circular Industries),,2026,,migration_eu_crma_20261029
+EU-2026-developmentandextractionoftheretkwgrodziszczedepositinkghmpo,,KGHM Polska Miedź S.A.,,2026,,migration_eu_crma_20261029
+EU-2026-integratedrecyclingsmelter,,KGHM Polska Miedź S.A.,,2026,,migration_eu_crma_20261029
+EU-2026-urbanmining,,TDM Electronics Inc.,,2026,,migration_eu_crma_20261029
+EU-2026-borralhaminingproject,,"MINERALIA - Minas, Geotecnia e Construções, Lda.",,2026,,migration_eu_crma_20261029
+EU-2026-establishmentofelectricbatteryrecyclingcapacityracaricitydam,,ECO LIFE STYLE S.R.L.,,2026,,migration_eu_crma_20261029
+EU-2026-verdemagnesiumindustries,,Verde Magnesium Industries SRL,,2026,,migration_eu_crma_20261029
+EU-2026-garefinegalliumrecyclingrefiningforeurope,,CMK s.r.o.,,2026,,migration_eu_crma_20261029
+EU-2026-productionofprimaryaluminiumandproductdiversificationinslova,,"Slovalco, a.s.",,2026,,migration_eu_crma_20261029
+EU-2026-euapttungstenplant,,ABENÓJAR TUNGSTEN S.A.,,2026,,migration_eu_crma_20261029
+EU-2026-cobresanrafaelproject,,"Cobre San Rafael, S.L.",,2026,,migration_eu_crma_20261029
+EU-2026-viscariacopperproject,,Gruvaktiebolaget Viscaria,,2026,,migration_eu_crma_20261029
+non-EU-2025-balakhivkagraphitedeposit,,Pobuzhzhya’s Development LLC,,2025,doc:bfdf36a9-65e8-11f0-bf4e-01aa75ed71a1,migration_eu_crma_20261029
+non-EU-2025-caledoniproject,,Société Le Nickel,,2025,doc:3c261f5b-65e6-11f0-bf4e-01aa75ed71a1,migration_eu_crma_20261029
+non-EU-2025-integrateddumontnickelproject,,Magneto Investments Limited Partnership,,2025,doc:367fef90-65e7-11f0-bf4e-01aa75ed71a1,migration_eu_crma_20261029
+non-EU-2025-jadar,32,Rio Tinto (Local entity: Rio Sava Exploration doo),,2025,doc:70eeb967-65e3-11f0-bf4e-01aa75ed71a1,migration_eu_crma_20261029
+non-EU-2025-kobalonienergyzambialtd,,Kobaloni Energy Zambia Limited,,2025,doc:e3a3b52b-65e8-11f0-bf4e-01aa75ed71a1,migration_eu_crma_20261029
+non-EU-2025-manirygraphitemineproject,,Evion Group NL,,2025,doc:659e1415-65e5-11f0-bf4e-01aa75ed71a1,migration_eu_crma_20261029
+non-EU-2025-greenlandgraphiteasandnorgraphas,,GreenRoc Strategic Materials Plc,,2025,doc:404b8c19-91e0-11f0-97c8-01aa75ed71a1,migration_eu_crma_20261029
+non-EU-2025-nussir,,Nussir ASA,,2025,doc:a1c554c4-65e7-11f0-bf4e-01aa75ed71a1,migration_eu_crma_20261029
+non-EU-2025-somiguelpaulistasmpnickelandcobaltrefineryrestartproject,,Jervois Brasil Metalurgia Ltda.,,2025,doc:6b3fd70c-65e4-11f0-bf4e-01aa75ed71a1,migration_eu_crma_20261029
+non-EU-2025-sarytogangraphiteproject,,Sarytogan Graphite Limited,,2025,doc:5fe82cdc-65e6-11f0-bf4e-01aa75ed71a1,migration_eu_crma_20261029
+non-EU-2025-songwehillrareearths,,Mkango Resources Ltd.,,2025,doc:ad170b88-65e5-11f0-bf4e-01aa75ed71a1,migration_eu_crma_20261029
+non-EU-2025-tungstenwest,,Tungsten West PLC,,2025,doc:83ac5d3d-65e6-11f0-bf4e-01aa75ed71a1,migration_eu_crma_20261029
+non-EU-2025-zandkopsdrift,,Frontier Rare Earths Limited,,2025,doc:94a61889-65e3-11f0-bf4e-01aa75ed71a1,migration_eu_crma_20261029

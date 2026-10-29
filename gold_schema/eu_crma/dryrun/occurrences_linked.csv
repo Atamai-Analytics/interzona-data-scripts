@@ -1,0 +1,27 @@
+﻿proj_idx,site_idx,occurrence_id,decision,set_project_id,add_commodities
+0,0,446949,REVIEW,"yes, if NULL",Ge
+1,0,446949,REVIEW,"yes, if NULL",Ge
+2,0,426311,LINK,"yes, if NULL",Mn
+3,0,325354,LINK,"yes, if NULL",Li
+5,0,3880,LINK,"yes, if NULL","Co,PGE,Cu,Ni"
+7,0,3878,LINK,"yes, if NULL","Ni,Co"
+15,0,474857,LINK,"yes, if NULL","Ni,Co,Li,Graphite,Mn,Cu"
+27,0,529868,LINK,"yes, if NULL","Li,Ni,Co,Cu"
+33,0,515877,LINK,"yes, if NULL",Cu
+34,0,325151,LINK,"yes, if NULL",Graphite
+39,0,354257,REVIEW,"yes, if NULL",W
+43,0,488000,LINK,"yes, if NULL","Cu,PGE,Ni"
+45,0,403100,LINK,"yes, if NULL",REE
+48,0,447100,REVIEW,"yes, if NULL","Cu,Co,Ni,PGE"
+49,0,488356,LINK,"yes, if NULL",Cu
+51,0,529199,REVIEW,"yes, if NULL","Co,Ni"
+54,0,447396,LINK,"yes, if NULL",REE
+66,0,570036,LINK,"yes, if NULL",Cu
+85,0,475155,REVIEW,"yes, if NULL",W
+89,0,467533,LINK,"yes, if NULL",Al
+92,0,508294,LINK,"yes, if NULL",Cu
+94,0,447422,REVIEW,"yes, if NULL",Ni
+95,0,339176,LINK,"yes, if NULL","Ni,Co"
+99,0,3736,LINK,"yes, if NULL",Graphite
+104,0,322551,LINK,"yes, if NULL",W
+105,0,3805,LINK,"yes, if NULL","REE,Mn"
