@@ -147,3 +147,4 @@ gold_schema/eu_crma/*
 *.pyc
 _*_before*.py
 *.bak*
+!gold_schema/rag_manifest_*.json
