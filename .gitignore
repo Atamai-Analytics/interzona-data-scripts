@@ -126,3 +126,24 @@ gold_schema/eu_crma/*
 !gold_schema/eu_crma/*.geojson
 !gold_schema/eu_crma/*.csv
 !gold_schema/eu_crma/dryrun/
+
+# 2026-11-01: also version every script and note anywhere in this folder (data files stay local unless re-included above).
+# These come last so they override the folder-level ignores above.
+!*.py
+!*.sql
+!*.R
+!*.r
+!*.cjs
+!*.js
+!*.mjs
+!*.md
+!*.ps1
+!*.cmd
+!*.sh
+!requirements*.txt
+# never versioned: credentials, caches, local backup copies of edited scripts
+.env*
+**/__pycache__/
+*.pyc
+_*_before*.py
+*.bak*
