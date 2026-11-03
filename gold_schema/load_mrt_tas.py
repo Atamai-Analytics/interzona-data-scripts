@@ -17,6 +17,7 @@ Usage: python load_mrt_tas.py [--dry]    (--dry = load + verify, then ROLLBACK)
 """
 import os, sys, io, csv, time, re, collections
 import psycopg2
+from lith_map_mrt import map_lithology
 
 csv.field_size_limit(10 ** 9)
 DRY = "--dry" in sys.argv
@@ -172,6 +173,7 @@ SKIP_FIELDS = {"206Pb", "207Pb", "208Pb", "Al2O3Avl", "C Graphitic", "Fe2O3+Al2O
 NEG_OK = {"LOI", "Sum"}
 UNIT = {"parts per million (ppm)": ("ppm", 1.0), "percent (%)": ("%", 1.0), "weight percent (wt %)": ("%", 1.0),
         "parts per billion (ppb)": ("ppb", 1.0), "troy ounces per long ton": ("ppm", 30.6122)}
+FRACTION_RE = re.compile(r"(?i)(?:[-+]\d+(?:[-+]\d+)?\s*#|sieve\s*[-+]?\d+\s*micron|[-+]\d+\s*micron|panned concentrate|size fraction|crushed sample|pulp)")
 META = {"Sample Status", "ID *", "Analysis Type", "Linked To Table *", "Linked To ID *", "Analysis Date", "Submitted Date", "Processed Mediums", "Treatments",
         "Treatment Comments", "Laboratory", "Lab Job No.", "User Analysis No", "Lab Analysis No.", "Repeat No.", "Analysis Comments", "Add Comment",
         "RM8 References", "Types", "Reg No.", "Field No.", "Raw X", "Raw Y", "Raw Datum", "Longitude (GDA94)", "Latitude (GDA94)", "mE (MGA94/Z55)",
@@ -227,6 +229,12 @@ with open(res_path, "w", newline="", encoding="utf-8") as fh:
                 stats["analysis with unknown sample"] += 1; continue
             treat = d.get("Treatments", "")
             conc = "panned concentrate" in treat.lower()
+            medium = d.get("Processed Mediums", "").strip()
+            meth_name = meth + (f" / {medium}" if medium else "")
+            digest = "; ".join(x for x in [treat.strip(), d.get("Treatment Comments", "").strip()] if x) or None
+            fraction = "; ".join(FRACTION_RE.findall(treat) + ([medium] if medium else [])) or None
+            a_comment = d.get("Analysis Comments", "").strip()
+            repeat = d.get("Repeat No.", "").strip()
             pkg = package(meth, treat)
             lab = d.get("Laboratory", "").strip().strip("-").strip() or None
             job = d.get("Lab Job No.", "").strip() or None
@@ -250,7 +258,10 @@ with open(res_path, "w", newline="", encoding="utf-8") as fh:
                 else:
                     q, val, ldl = None, x * fac, (dl * fac if dl is not None else None)
                 p = "MRT-CNONCARB" if k == "C NonCarb" else pkg
-                w.writerow([d["ID *"], sid, "C" if conc else "B", p, code, unit, out(q), out(val), out(ldl), out(lab), out(job), out(adate)])
+                comment = "; ".join(x for x in [d.get(k + " Comments", "").strip(), f"analysis: {a_comment}" if a_comment else "",
+                                                 f"repeat {repeat}" if repeat else "", f"MRT field {k}" if k != code else ""] if x) or None
+                w.writerow([d["ID *"], sid, "C" if conc else "B", p, code, unit, out(q), out(val), out(ldl), out(lab), out(job), out(adate),
+                            meth_name, out(digest), out(fraction), out(comment)])
                 n_vals += 1; stats["values"] += 1
             if n_vals:
                 (has_conc if conc else has_bulk).add(sid)
@@ -306,7 +317,7 @@ copy("st_survey", "did text, depth numeric, az numeric, dip numeric, azref text"
 copy("st_sample", """sid text, part text, grp text, stype text, stype_local text, ctx text, lat double precision, lon double precision, height numeric,
   sdate date, field_no text, sample_no text, sample_alt text, did text, dfrom numeric, dto numeric, comments text, lith text, lithostrat text, chronostrat text""", srows)
 c.execute("""CREATE TEMP TABLE st_result (aid text, sid text, part text, pkg text, analyte text, unit text, qual text, val numeric, ldl numeric,
-  lab text, job text, adate date) ON COMMIT DROP""")
+  lab text, job text, adate date, meth_name text, digest text, fraction text, comment text) ON COMMIT DROP""")
 with open(res_path, encoding="utf-8") as fh:
     c.copy_expert("COPY st_result FROM STDIN WITH (FORMAT csv, NULL '\\N')", fh)
 c.execute("SELECT count(*) FROM st_result"); nres = c.fetchone()[0]
@@ -400,21 +411,68 @@ c.execute("ALTER TABLE geochem.samples DROP COLUMN _mrt_key")
 c.execute("SELECT count(*), count(lat), count(drillhole_id) FROM geochem.samples WHERE source_system = %s", (SRC,))
 log("gold samples (total, with lat/lon, with drill hole)", c.fetchone())
 
-# lithology observations (MRT lithology text; matched to the lithology dictionary by name where it matches exactly)
+# lithology observations: every drill-hole record with a lithology or stratigraphic unit (downhole logs as well as analysed samples, linked to
+# the hole with depths and to the sample when it was loaded) plus the analysed surface samples. MRT text kept verbatim in lithology_local;
+# lithology_id from lith_map_mrt (exact name, synonym, base name, keyword; UNKNOWN when nothing fits); how it matched is in comments.
+c.execute("SELECT lower(lithology_name), lithology_code FROM geochem.lithology WHERE is_active ORDER BY lithology_id DESC")
+by_name = dict(c.fetchall())
+lith_rows, how_n = [], collections.Counter()
+loaded_keys = set()
+c.execute("SELECT k FROM st_map"); loaded_keys = {r[0] for r in c.fetchall()}
+for sid, (grp, d) in samples.items():
+    lith, ls, cs = d["Lithology"].strip(), d["Lithostratigraphy"].strip(), d["Chronostratigraphy"].strip()
+    if not (lith or ls): continue
+    key = f"{sid}:B" if f"{sid}:B" in loaded_keys else f"{sid}:C" if f"{sid}:C" in loaded_keys else None
+    did = d["Drill ID"].strip() if grp == "DH" else ""
+    if grp == "SURF" and key is None: continue          # surface observations with no analysed sample have nowhere to attach
+    code, how = map_lithology(lith, by_name) if lith else (None, "none")
+    how_n[how] += 1
+    note = "; ".join(x for x in [f"Chronostratigraphy: {cs}" if cs else "", f"lithology matched by {how}" if lith else "",
+                                 f"MRT record {sid} ({d['Types *']})"] if x)
+    lith_rows.append([key, did or None, num(d["Depth From"]) if grp == "DH" else None, num(d["Depth To"]) if grp == "DH" else None,
+                      code or "UNKNOWN", lith, ls, "DRILLHOLE_INTERVAL" if grp == "DH" else "SURFACE", note])
+assert all(r[4] in set(by_name.values()) for r in lith_rows), "lithology code not in dictionary"
+copy("st_lith", "k text, did text, dfrom numeric, dto numeric, code text, lith text, lithostrat text, ctx text, note text", lith_rows)
 c.execute(f"""
-INSERT INTO geochem.lithology_observations (lithology_id, lithology_local, observation_context, sample_id, depth_from_m, depth_to_m, strat_formation, comments,
-  is_active, created_by, created_date)
-SELECT coalesce(l.lithology_id, (SELECT lithology_id FROM geochem.lithology WHERE lithology_code = 'UNKNOWN')), nullif(s.lith, ''), s.ctx, m.sample_id, s.dfrom, s.dto, nullif(s.lithostrat, ''),
-  CASE WHEN s.chronostrat <> '' THEN 'Chronostratigraphy: ' || s.chronostrat END, true, '{TAG}', now()
-FROM st_sample s JOIN st_map m ON m.k = s.sid || ':' || s.part
-LEFT JOIN LATERAL (SELECT lithology_id FROM geochem.lithology
-                   WHERE s.lith <> '' AND lower(lithology_name) IN (lower(s.lith), lower(trim(split_part(s.lith, ',', 1))), lower(trim(split_part(s.lith, '(', 1))))
-                   ORDER BY (lower(lithology_name) = lower(s.lith)) DESC, lithology_id LIMIT 1) l ON true
-WHERE s.lith <> '' OR s.lithostrat <> ''""")
-c.execute(f"SELECT count(*), count(lithology_id) FROM geochem.lithology_observations WHERE created_by = '{TAG}'")
-log("lithology obs (total, matched to dictionary)", c.fetchone())
-c.execute(f"SELECT count(*) FROM geochem.lithology_observations o JOIN geochem.lithology l USING (lithology_id) WHERE o.created_by = '{TAG}' AND l.lithology_code <> 'UNKNOWN'")
-log("lithology obs matched to a named lithology", c.fetchone()[0])
+INSERT INTO geochem.lithology_observations (lithology_id, lithology_local, observation_context, sample_id, drillhole_id, depth_from_m, depth_to_m,
+  strat_formation, comments, is_active, created_by, created_date)
+SELECT l.lithology_id, nullif(s.lith, ''), s.ctx, m.sample_id, h.drillhole_id, s.dfrom, s.dto, nullif(s.lithostrat, ''), s.note, true, '{TAG}', now()
+FROM st_lith s JOIN geochem.lithology l ON l.lithology_code = s.code
+LEFT JOIN st_map m ON m.k = s.k
+LEFT JOIN drilling.drillholes h ON h.source_system = '{SRC}' AND h.source_hole_id = s.did
+WHERE m.sample_id IS NOT NULL OR h.drillhole_id IS NOT NULL""")
+log("lithology obs", c.rowcount, "of", len(lith_rows), "| match:", dict(how_n))
+c.execute(f"""SELECT count(*), count(drillhole_id), count(*) FILTER (WHERE drillhole_id IS NOT NULL AND sample_id IS NULL),
+                     count(*) FILTER (WHERE lithology_id <> (SELECT lithology_id FROM geochem.lithology WHERE lithology_code = 'UNKNOWN'))
+              FROM geochem.lithology_observations WHERE created_by = '{TAG}'""")
+log("lithology obs (total, on a drill hole, log-only intervals, with a named lithology)", c.fetchone())
+
+# interval QC (flags only): sample intervals and lithology-log intervals of each drill hole
+QC = "drilling.interval_qc (drillhole_id, sample_id, lithology_observation_id, issue, detail, created_by)"
+for label, src_sql, idcol in [
+        ("sample", f"""SELECT s.drillhole_id, s.sample_id AS sid, NULL::bigint AS lid, s.depth_from_m AS f, s.depth_to_m AS t, h.total_depth_m AS eoh
+                       FROM geochem.samples s JOIN drilling.drillholes h USING (drillhole_id)
+                       WHERE s.source_system = '{SRC}' AND s.sample_number NOT LIKE '% (panned concentrate)'""", "sid"),
+        ("lithology", f"""SELECT o.drillhole_id, o.sample_id AS sid, o.lithology_observation_id AS lid, o.depth_from_m AS f, o.depth_to_m AS t, h.total_depth_m AS eoh
+                          FROM geochem.lithology_observations o JOIN drilling.drillholes h USING (drillhole_id) WHERE o.created_by = '{TAG}'""", "lid")]:
+    c.execute(f"""INSERT INTO {QC}
+      SELECT drillhole_id, CASE WHEN '{label}' = 'sample' THEN sid END, lid, issue, detail, '{TAG}' FROM (
+        SELECT x.*, 'MISSING_DEPTH' AS issue, 'from or to depth not recorded' AS detail FROM ({src_sql}) x WHERE f IS NULL OR t IS NULL
+        UNION ALL SELECT x.*, 'FROM_GT_TO', format('from %s m > to %s m', f, t) FROM ({src_sql}) x WHERE f > t
+        UNION ALL SELECT x.*, 'ZERO_LENGTH', format('point sample at %s m (from = to)', f) FROM ({src_sql}) x WHERE f = t
+        UNION ALL SELECT x.*, 'BEYOND_EOH', format('to %s m is past the end of hole %s m', t, eoh) FROM ({src_sql}) x WHERE eoh IS NOT NULL AND t > eoh + 0.5
+      ) q""")
+    log(f"interval QC {label}: basic flags", c.rowcount)
+c.execute(f"""INSERT INTO {QC}
+  SELECT drillhole_id, sample_id, NULL, 'OVERLAP', format('%s-%s m overlaps an earlier interval reaching %s m', depth_from_m, depth_to_m, prev_max), '{TAG}'
+  FROM (SELECT s.drillhole_id, s.sample_id, s.depth_from_m, s.depth_to_m,
+               max(s.depth_to_m) OVER (PARTITION BY s.drillhole_id ORDER BY s.depth_from_m, s.depth_to_m, s.sample_id ROWS BETWEEN UNBOUNDED PRECEDING AND 1 PRECEDING) AS prev_max
+        FROM geochem.samples s WHERE s.source_system = '{SRC}' AND s.drillhole_id IS NOT NULL AND s.depth_from_m IS NOT NULL AND s.depth_to_m IS NOT NULL
+          AND s.sample_number NOT LIKE '% (panned concentrate)') x
+  WHERE prev_max IS NOT NULL AND depth_from_m < prev_max - 0.001""")
+log("interval QC sample overlaps", c.rowcount)
+c.execute(f"SELECT issue, count(*), count(DISTINCT drillhole_id) FROM drilling.interval_qc WHERE created_by = '{TAG}' GROUP BY 1 ORDER BY 2 DESC")
+log("interval QC (issue, flags, holes)", c.fetchall())
 
 # results
 c.execute("ALTER TABLE geochem.analytical_results DISABLE TRIGGER trg_resolve_analytical_result_labels")
@@ -422,9 +480,11 @@ t0 = time.time()
 c.execute(f"""
 INSERT INTO geochem.analytical_results (sample_id, occurrence_id, source_system, package_id, analyte_id, analyte_name, analyte_symbol,
   unit_id, unit_code, qualifier_id, qualifier_code, laboratory, method_code, method_name, digest_name,
-  value, lower_detection_limit, upper_detection_limit, report_number, date_analysed, reviewed, is_active, created_by, created_date)
+  value, lower_detection_limit, upper_detection_limit, report_number, date_analysed, reviewed, is_active, created_by, created_date,
+  source_result_id, fraction, result_comment)
 SELECT m.sample_id, NULL, '{SRC}', p.package_id, a.analyte_id, a.analyte_name, a.element_symbol, u.unit_id, u.unit_code, q.qualifier_id, q.qualifier_code,
-  r.lab, meth.method_code, NULL, NULL, r.val, r.ldl, NULL, r.job, r.adate, false, true, '{TAG}', now()
+  r.lab, meth.method_code, r.meth_name, r.digest, r.val, r.ldl, NULL, r.job, r.adate, false, true, '{TAG}', now(),
+  'MRT:' || r.aid, r.fraction, r.comment
 FROM st_result r
 JOIN st_map m ON m.k = r.sid || ':' || r.part
 JOIN geochem.analytes a ON a.analyte_code = r.analyte

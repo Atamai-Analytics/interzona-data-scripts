@@ -94,6 +94,33 @@ c.execute("""UPDATE geochem.sample_chemistry_wide w SET sample_context = s.sampl
              FROM geochem.samples s WHERE s.sample_id = w.sample_id AND w.sample_context IS NULL""")
 print("wide rows given sample_context:", c.rowcount)
 
+# downhole logs: lithology observations can sit on a drill hole (with depths) without belonging to an analysed sample
+c.execute("ALTER TABLE geochem.lithology_observations ADD COLUMN IF NOT EXISTS drillhole_id bigint REFERENCES drilling.drillholes (drillhole_id)")
+c.execute("CREATE INDEX IF NOT EXISTS idx_lithobs_drillhole ON geochem.lithology_observations (drillhole_id, depth_from_m) WHERE drillhole_id IS NOT NULL")
+# an observation needs a parent: an occurrence, a sample, a sampling line, or (new) a drill hole
+c.execute("ALTER TABLE geochem.lithology_observations DROP CONSTRAINT IF EXISTS chk_lithology_observations_parent")
+c.execute("""ALTER TABLE geochem.lithology_observations ADD CONSTRAINT chk_lithology_observations_parent
+             CHECK (occurrence_id IS NOT NULL OR sample_id IS NOT NULL OR sampling_line_id IS NOT NULL OR drillhole_id IS NOT NULL)""")
+
+# provenance kept per result (all sources; NULL where a source has nothing): the source's own result/analysis id, the size fraction or
+# medium analysed (e.g. '-80#', 'Panned Concentrate'), and free-text comments (element comment, analysis comment, repeat number)
+for col, typ in (("source_result_id", "varchar(60)"), ("fraction", "text"), ("result_comment", "text")):
+    c.execute(f"ALTER TABLE geochem.analytical_results ADD COLUMN IF NOT EXISTS {col} {typ}")
+
+# interval QC: problems found in a drill hole's sample or log intervals, flagged (never deleted)
+c.execute("""
+CREATE TABLE IF NOT EXISTS drilling.interval_qc (
+  interval_qc_id            bigserial PRIMARY KEY,
+  drillhole_id              bigint NOT NULL REFERENCES drilling.drillholes (drillhole_id) ON DELETE CASCADE,
+  sample_id                 bigint,
+  lithology_observation_id  bigint,
+  issue                     varchar(30) NOT NULL CHECK (issue IN ('FROM_GT_TO','ZERO_LENGTH','MISSING_DEPTH','BEYOND_EOH','OVERLAP')),
+  detail                    text,
+  created_by                varchar(60),
+  created_date              timestamptz DEFAULT now())""")
+c.execute("CREATE INDEX IF NOT EXISTS idx_interval_qc_hole ON drilling.interval_qc (drillhole_id)")
+c.execute("CREATE INDEX IF NOT EXISTS idx_interval_qc_sample ON drilling.interval_qc (sample_id) WHERE sample_id IS NOT NULL")
+
 # drill types used by MRT that geochem.drill_types lacks (Cable Tool -> existing PERCUSSION, Hollow Flight Auger -> AUGER, Rotary -> ROTARY)
 c.execute("SELECT coalesce(max(display_order), 0) FROM geochem.drill_types")
 nord = c.fetchone()[0]
