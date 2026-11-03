@@ -3,9 +3,11 @@
 Columns:  <analyte_code>_t = value from a TOTAL / no-digestion method (XRF pressed pellet, fusion ICP, LECO ...),
           <analyte_code>_p = value from a PARTIAL / selective leach (aqua regia, GFAAS leach ...). Never mixed.
 Units:    every non-oxide analyte in ppm, every oxide analyte (is_oxide) in wt%.  Carbon is kept as c_total_pct / c_noncarb_pct / c_carbonate_pct (wt%).
-Values:   DETECTED results only (result_classifications.use_in_statistics); censored (below detection) analytes are listed in bdl_codes (text[]).
+Values:   DETECTED results only (result_classifications.use_in_statistics); below-detection (BELOW_DL_*) analytes are listed in bdl_codes (text[]);
+          SUSPECT / SENTINEL / ABOVE_UDL / NULL results are in neither.
 Choice:   if a sample has several results for the same analyte+basis, the lowest package_wide_rules.priority wins (ICP-MS 1, ICP-OES/AES 2, XRF 3, other 5); ties go to the lowest package_id (one package only; duplicates within that package are averaged).
 Greenland (TECH_SOURCES) uses geochem.technique_rank: rank by technique family x element group (setup_greenland_priorities.py), total basis only.
+Context:  sample_context, drillhole_id and depth_from_m / depth_to_m are copied from geochem.samples (drill assays: sample_context DRILLHOLE_INTERVAL).
 Usage:    python build_chem_wide.py FINLAND_GTK_ROCK [--dry]
 """
 import os, re, sys, time
@@ -35,7 +37,8 @@ part = {"FINLAND_GTK_ROCK": ("analytical_results_finland_gtk_rock", "result_clas
         "GREENLAND_GEUS": ("analytical_results_greenland_geus", "result_classifications_greenland_geus"),
         "SWEDEN_SGU_LITHOGEOCHEMISTRY": ("analytical_results_sweden_sgu_lithogeochemistry", "result_classifications_sweden_sgu_lithogeochemistry"),
         "USA_USGS_NGDB": ("analytical_results_usa_usgs_ngdb", "result_classifications_usa_usgs_ngdb"),
-        "AUSTRALIA_VIC_GSV_GEOCHEMISTRY": ("analytical_results_australia_vic_gsv_geochemistry", "result_classifications_australia_vic_gsv_geochemistry")}[SRC]
+        "AUSTRALIA_VIC_GSV_GEOCHEMISTRY": ("analytical_results_australia_vic_gsv_geochemistry", "result_classifications_australia_vic_gsv_geochemistry"),
+        "AUSTRALIA_TAS_MRT": ("analytical_results_australia_tas_mrt", "result_classifications_australia_tas_mrt")}[SRC]
 
 # ---- package rules (basis + priority) for every package
 c.execute("""
@@ -137,11 +140,11 @@ piv AS (SELECT b.sample_id, count(*) AS n_values,
   {sel}
   FROM b GROUP BY b.sample_id),
 cen AS (SELECT x.sample_id, array_agg(DISTINCT lower(x.code) || '_' || lower(x.basis) ORDER BY lower(x.code) || '_' || lower(x.basis)) AS bdl
-  FROM r x WHERE NOT x.det AND x.v IS NOT NULL AND x.st <> 'ABOVE_UDL' AND NOT EXISTS (SELECT 1 FROM b WHERE b.sample_id = x.sample_id AND b.code = x.code AND b.basis = x.basis) GROUP BY x.sample_id)
+  FROM r x WHERE NOT x.det AND x.v IS NOT NULL AND x.st LIKE 'BELOW_DL%' AND NOT EXISTS (SELECT 1 FROM b WHERE b.sample_id = x.sample_id AND b.code = x.code AND b.basis = x.basis) GROUP BY x.sample_id)
 INSERT INTO geochem.sample_chemistry_wide (sample_id, source_system, occurrence_id, sample_type_name, lithology_code, lithology_name, lithology_category, lithology_local,
-  sample_date, lat, lon, geog, n_values, bdl_codes, {insert_cols})
+  sample_date, lat, lon, geog, sample_context, drillhole_id, depth_from_m, depth_to_m, n_values, bdl_codes, {insert_cols})
 SELECT s.sample_id, s.source_system, s.occurrence_id, st.sample_type_name, lit.lithology_code, lit.lithology_name, lit.category_code, lo.lithology_local,
-  s.sample_date, s.lat, s.lon, s.geog, coalesce(piv.n_values, 0), cen.bdl, {", ".join("piv." + cn for cn in cols)}
+  s.sample_date, s.lat, s.lon, s.geog, s.sample_context, s.drillhole_id, s.depth_from_m, s.depth_to_m, coalesce(piv.n_values, 0), cen.bdl, {", ".join("piv." + cn for cn in cols)}
 FROM geochem.samples s
 LEFT JOIN geochem.sample_types st ON st.sample_type_id = s.sample_type_id
 LEFT JOIN LATERAL (SELECT * FROM geochem.lithology_observations o WHERE o.sample_id = s.sample_id AND o.is_active ORDER BY o.lithology_observation_id LIMIT 1) lo ON true
