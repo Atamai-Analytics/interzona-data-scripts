@@ -38,7 +38,9 @@ part = {"FINLAND_GTK_ROCK": ("analytical_results_finland_gtk_rock", "result_clas
         "SWEDEN_SGU_LITHOGEOCHEMISTRY": ("analytical_results_sweden_sgu_lithogeochemistry", "result_classifications_sweden_sgu_lithogeochemistry"),
         "USA_USGS_NGDB": ("analytical_results_usa_usgs_ngdb", "result_classifications_usa_usgs_ngdb"),
         "AUSTRALIA_VIC_GSV_GEOCHEMISTRY": ("analytical_results_australia_vic_gsv_geochemistry", "result_classifications_australia_vic_gsv_geochemistry"),
-        "AUSTRALIA_TAS_MRT": ("analytical_results_australia_tas_mrt", "result_classifications_australia_tas_mrt")}[SRC]
+        "AUSTRALIA_TAS_MRT": ("analytical_results_australia_tas_mrt", "result_classifications_australia_tas_mrt"),
+        "CANADA_QC_SIGEOM": ("analytical_results_canada_qc_sigeom", "result_classifications_canada_qc_sigeom"),
+        "CANADA_SK_SGS": ("analytical_results_canada_sk_sgs", "result_classifications_canada_sk_sgs")}[SRC]
 
 # ---- package rules (basis + priority) for every package
 c.execute("""
@@ -124,9 +126,13 @@ for code, basis in pairs:
     assert cn not in cols, ("collision", cn)
     cols[cn] = (code, basis)
 log("analyte columns for", SRC, len(cols))
-for cn in cols:
-    c.execute(f"ALTER TABLE geochem.sample_chemistry_wide ADD COLUMN IF NOT EXISTS {cn} double precision")
-c.execute("ALTER TABLE geochem.sample_chemistry_wide ADD COLUMN IF NOT EXISTS c_carbonate_pct double precision")
+# only ALTER for columns that are really missing: ADD COLUMN IF NOT EXISTS still takes an exclusive lock that would block the app's reads of
+# the wide table until this transaction commits
+c.execute("SELECT column_name FROM information_schema.columns WHERE table_schema = 'geochem' AND table_name = 'sample_chemistry_wide'")
+have = {r[0] for r in c.fetchall()}
+for cn in [*cols, "c_carbonate_pct"]:
+    if cn not in have:
+        c.execute(f"ALTER TABLE geochem.sample_chemistry_wide ADD COLUMN {cn} double precision"); log("added wide column", cn)
 
 # ---- rebuild rows for this source
 c.execute("DELETE FROM geochem.sample_chemistry_wide WHERE source_system = %s", (SRC,))

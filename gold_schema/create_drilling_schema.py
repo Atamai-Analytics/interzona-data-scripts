@@ -121,6 +121,32 @@ CREATE TABLE IF NOT EXISTS drilling.interval_qc (
 c.execute("CREATE INDEX IF NOT EXISTS idx_interval_qc_hole ON drilling.interval_qc (drillhole_id)")
 c.execute("CREATE INDEX IF NOT EXISTS idx_interval_qc_sample ON drilling.interval_qc (sample_id) WHERE sample_id IS NOT NULL")
 
+# reported mineralised intercepts (a grade over a length, as published by the source; not a sample). Québec SIGÉOM gives each intercept inside a
+# logged lithology unit without its own depths: depth_from_m / depth_to_m are then the unit's bounds (position_basis = 'LITHOLOGY_UNIT').
+c.execute("""
+CREATE TABLE IF NOT EXISTS drilling.intercepts (
+  intercept_id              bigserial PRIMARY KEY,
+  drillhole_id              bigint NOT NULL REFERENCES drilling.drillholes (drillhole_id),
+  source_system             varchar(50) NOT NULL,
+  source_intercept_id       text,
+  lithology_observation_id  bigint REFERENCES geochem.lithology_observations (lithology_observation_id),
+  depth_from_m              numeric,
+  depth_to_m                numeric,
+  position_basis            varchar(30),
+  length_m                  numeric,
+  analyte_id                integer REFERENCES geochem.analytes (analyte_id),
+  analyte_local             text,
+  grade                     numeric,
+  unit_code                 varchar(20),
+  qualifier                 varchar(5),
+  mineral_local             text,
+  comments                  text,
+  is_active                 boolean NOT NULL DEFAULT true,
+  created_by                varchar(100),
+  created_date              timestamptz DEFAULT now())""")
+c.execute("CREATE INDEX IF NOT EXISTS idx_intercepts_hole ON drilling.intercepts (drillhole_id)")
+c.execute("CREATE INDEX IF NOT EXISTS idx_intercepts_analyte ON drilling.intercepts (analyte_id, grade)")
+
 # drill types used by MRT that geochem.drill_types lacks (Cable Tool -> existing PERCUSSION, Hollow Flight Auger -> AUGER, Rotary -> ROTARY)
 c.execute("SELECT coalesce(max(display_order), 0) FROM geochem.drill_types")
 nord = c.fetchone()[0]
