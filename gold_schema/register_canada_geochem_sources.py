@@ -21,6 +21,15 @@ ROWS = [
      "Compiled by the provincial survey from government work and company assessment reports; about 21,000 rock samples were extracted from PDF "
      "reports by AI (SIGÉOM source type I). Drill-core samples have a projected vertical depth only. Labs are not recorded.",
      "D:/CriticalMineralsDB/Documents/Licence_Evidence/CANADA_QUEBEC_SIGEOM_GEOCHEM_DRILLHOLES/"),
+    ("CANADA_QC_SIGEOM_SED", "Gouvernement du Québec, Ministère des Ressources naturelles et des Forêts (MRNF), Géologie Québec (SIGÉOM)",
+     "SIGÉOM Géochimie: secondary-environment samples (lake and stream sediment, soil, till) and analyses, GeoPackage dated 31 October 2026",
+     "CC BY 4.0", "https://www.donneesquebec.ca/licence/#cc-by",
+     "Ministère des Ressources naturelles et des Forêts, Québec. SIGÉOM: Géochimie, Données Québec, 2026. CC BY 4.0.",
+     "Cleared: CC BY 4.0 on the Données Québec dataset metadata (checked 2026-11-03). Loaded 2026-11-04: 522,453 sediment, soil and till samples, "
+     "about 20.5M results. Water samples (40,873) not loaded.",
+     "Compiled by the provincial survey from government surveys (many 1970s-80s lake and stream sediment programmes) and assessment reports. "
+     "Most analyses are partial or of unrecorded dissolution; labs are not recorded. Till heavy-mineral fractions are concentrates.",
+     "D:/CriticalMineralsDB/Documents/Licence_Evidence/CANADA_QUEBEC_SIGEOM_GEOCHEM_DRILLHOLES/"),
     ("CANADA_SK_SGS", "Government of Saskatchewan, Saskatchewan Geological Survey (with Geological Survey of Canada lake-sediment data)",
      "Saskatchewan Mining and Petroleum GeoAtlas: Minerals and Quaternary Drillhole Compilation, till geochemistry, GSC lake sediment analyses, "
      "1970s lake sediment geochemistry; map service retrieved 2026-11-03",

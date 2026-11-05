@@ -1,14 +1,17 @@
-"""Remove everything load_sigeom_qc.py (CANADA_QC_SIGEOM) or load_sask_sgs.py (CANADA_SK_SGS) loaded, so the source can be reloaded cleanly.
+"""Remove everything load_sigeom_qc.py (CANADA_QC_SIGEOM), load_sigeom_qc_sed.py (CANADA_QC_SIGEOM_SED) or load_sask_sgs.py (CANADA_SK_SGS) loaded, so the source can be reloaded cleanly.
 
 Removes: the source's wide-table rows, result and classification partitions, lithology observations, interval QC flags, intercepts, samples,
 external ids, drill-hole surveys and drill holes. Keeps: the SIGEOM-* / SKGS-* packages and their source_package_rules, the drilling schema.
-Usage: python unload_canada_geochem.py CANADA_QC_SIGEOM|CANADA_SK_SGS [--dry]   (--dry = delete, report, ROLLBACK)
+Usage: python unload_canada_geochem.py CANADA_QC_SIGEOM|CANADA_QC_SIGEOM_SED|CANADA_SK_SGS [--dry]   (--dry = delete, report, ROLLBACK)
 """
 import os, sys, time
 import psycopg2
 
 SRC = sys.argv[1]
-CFG = {"CANADA_QC_SIGEOM": ("canada_qc_sigeom", "SIGEOM", "migration_sigeom_qc_"), "CANADA_SK_SGS": ("canada_sk_sgs", "SASK_SGS", "migration_sask_sgs_")}
+# created_by prefixes; the rock one ends in '_2' (the date) so it never matches the sediment tag 'migration_sigeom_qc_sed_...'
+CFG = {"CANADA_QC_SIGEOM": ("canada_qc_sigeom", "SIGEOM", "migration_sigeom_qc_2"),
+       "CANADA_SK_SGS": ("canada_sk_sgs", "SASK_SGS", "migration_sask_sgs_"),
+       "CANADA_QC_SIGEOM_SED": ("canada_qc_sigeom_sed", "SIGEOM", "migration_sigeom_qc_sed_")}
 PART, XID, TAG = CFG[SRC]
 DRY = "--dry" in sys.argv
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -37,7 +40,7 @@ c.execute("DELETE FROM geochem.classification_batches WHERE source_system = %s",
 run("intercepts", "DELETE FROM drilling.intercepts WHERE source_system = %s", SRC)
 run("interval QC flags", "DELETE FROM drilling.interval_qc WHERE drillhole_id IN (SELECT drillhole_id FROM drilling.drillholes WHERE source_system = %s)", SRC)
 run("lithology observations", "DELETE FROM geochem.lithology_observations WHERE created_by LIKE %s", TAG + "%")
-run("external ids", "DELETE FROM core.external_ids WHERE source_system = %s", XID)
+run("external ids", "DELETE FROM core.external_ids WHERE source_system = %s AND created_by LIKE %s", XID, TAG + "%")
 run("samples", "DELETE FROM geochem.samples WHERE source_system = %s", SRC)
 run("surveys", "DELETE FROM drilling.surveys WHERE drillhole_id IN (SELECT drillhole_id FROM drilling.drillholes WHERE source_system = %s)", SRC)
 run("drill holes", "DELETE FROM drilling.drillholes WHERE source_system = %s", SRC)
