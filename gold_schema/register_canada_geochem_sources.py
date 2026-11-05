@@ -30,6 +30,18 @@ ROWS = [
      "Compiled by the provincial survey from government surveys (many 1970s-80s lake and stream sediment programmes) and assessment reports. "
      "Most analyses are partial or of unrecorded dissolution; labs are not recorded. Till heavy-mineral fractions are concentrates.",
      "D:/CriticalMineralsDB/Documents/Licence_Evidence/CANADA_QUEBEC_SIGEOM_GEOCHEM_DRILLHOLES/"),
+    ("CANADA_NRCAN_CDOGS", "Natural Resources Canada, Geological Survey of Canada",
+     "Canadian Database of Geochemical Surveys (CDoGS): federal lake-sediment, stream-sediment, till, soil and rock surveys; per-quantity analytical files "
+     "downloaded 2026-11-05 (database summary 2025-05-04)",
+     "Open Government Licence - Canada", "https://open.canada.ca/en/open-government-licence-canada",
+     "Contains information licensed under the Open Government Licence - Canada. Natural Resources Canada, Geological Survey of Canada, Canadian "
+     "Database of Geochemical Surveys (CDoGS).",
+     "Cleared: Open Government Licence - Canada on the Open Canada catalogue record (checked 2026-11-05). Loaded 2026-11-05: 233,875 samples, "
+     "8,417,797 results from federal surveys.",
+     "Federal surveys only (provincial-agency, company and US surveys in CDoGS are not loaded). Water, soil gas, vegetation, lab control samples, "
+     "duplicates, microprobe grain analyses and mineral-grain counts are not loaded. 18,879 samples already in gold via the Saskatchewan GeoAtlas or "
+     "Québec SIGÉOM were skipped. Many analyses are 1970s-90s partial (aqua regia AAS) or semi-quantitative (DC-arc) methods.",
+     "D:/CriticalMineralsDB/Documents/Licence_Evidence/CANADA_NRCAN_CDOGS/"),
     ("CANADA_SK_SGS", "Government of Saskatchewan, Saskatchewan Geological Survey (with Geological Survey of Canada lake-sediment data)",
      "Saskatchewan Mining and Petroleum GeoAtlas: Minerals and Quaternary Drillhole Compilation, till geochemistry, GSC lake sediment analyses, "
      "1970s lake sediment geochemistry; map service retrieved 2026-11-03",

@@ -11,7 +11,8 @@ SRC = sys.argv[1]
 # created_by prefixes; the rock one ends in '_2' (the date) so it never matches the sediment tag 'migration_sigeom_qc_sed_...'
 CFG = {"CANADA_QC_SIGEOM": ("canada_qc_sigeom", "SIGEOM", "migration_sigeom_qc_2"),
        "CANADA_SK_SGS": ("canada_sk_sgs", "SASK_SGS", "migration_sask_sgs_"),
-       "CANADA_QC_SIGEOM_SED": ("canada_qc_sigeom_sed", "SIGEOM", "migration_sigeom_qc_sed_")}
+       "CANADA_QC_SIGEOM_SED": ("canada_qc_sigeom_sed", "SIGEOM", "migration_sigeom_qc_sed_"),
+       "CANADA_NRCAN_CDOGS": ("canada_nrcan_cdogs", "CDOGS", "migration_cdogs_")}
 PART, XID, TAG = CFG[SRC]
 DRY = "--dry" in sys.argv
 HERE = os.path.dirname(os.path.abspath(__file__))
