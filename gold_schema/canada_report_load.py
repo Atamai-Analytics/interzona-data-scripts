@@ -133,6 +133,16 @@ P = [
 ]
 
 
+def study_name(title):
+    """The study name stored with each fact: the title up to the first colon, keeping the first date from the rest when the name has no year
+    (otherwise e.g. 'NAL Expansion PFS: ASX announcement 7 Sep 2026' lost its date and the assistant could not date the study)."""
+    study = re.sub(r"\s*:.*$", "", title)
+    if not re.search(r"\b(19|20)\d\d\b", study):
+        m = re.search(r"\b\d{1,2} [A-Z][a-z]{2,8} (19|20)\d\d\b|\b[A-Z][a-z]{2,8} (19|20)\d\d\b|\b(19|20)\d\d\b", title)
+        if m: study += f" ({m.group(0)})"
+    return study
+
+
 def embed(texts):
     for attempt in range(4):
         try:
@@ -189,7 +199,7 @@ for folder, pid, title, dtype, pdate, url, label, res, facts in P:
                      grade, grade_unit, contained_metal, contained_metal_unit, competent_person, source_document_id, is_active, created_by)
                      VALUES (%s,%s,%s,%s,%s,%s,'Mt',%s,%s,%s,%s,%s,%s,true,%s)""", (occ, cid, cls, NI, eff, t, gr, gu, cm, cmu, note or None, did, TAG))
         tot_r += 1
-    study = re.sub(r"\s*:.*$", "", title)
+    study = study_name(title)
     for (ft, num, unit, txt) in facts:
         c.execute("""INSERT INTO docs.extracted_facts (document_id, occurrence_id, project_id, company_id, fact_type, fact_value_text, fact_value_numeric, fact_value_unit,
                      fact_data, extraction_confidence) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,'HIGH')""",
