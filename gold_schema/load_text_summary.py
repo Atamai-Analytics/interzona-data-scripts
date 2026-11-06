@@ -3,7 +3,7 @@ docs.documents / docs.document_chunks, chunked and embedded exactly like rag_ing
 voyage-3-large). A file already registered (same file name) is skipped.
 
 Usage: python load_text_summary.py <file.txt> --title "..." --label "..." --by <created_by tag>
-         [--domain POLICY] [--dtype Summary] [--pdate YYYY-MM-DD] [--url https://...] [--dry]
+         [--domain POLICY] [--dtype Summary] [--pdate YYYY-MM-DD] [--url https://...] [--dry] [--replace]   (--replace reloads a copy this same --by tag registered)
 """
 import os, sys, time, psycopg2
 from rag_ingest_manifest import ENV, TARGET, OVERLAP, VERSION, embed, arg
@@ -29,7 +29,14 @@ def main():
                             user=ENV["PGUSER_WRITE"], password=ENV["PGPASSWORD_WRITE"])
     cur = conn.cursor()
     cur.execute("SELECT document_id FROM docs.documents WHERE file_path LIKE %s", ("%" + os.path.basename(path),))
-    if cur.fetchone(): sys.exit("SKIP (already registered)")
+    old = cur.fetchone()
+    if old and "--replace" not in sys.argv: sys.exit("SKIP (already registered)")
+    if old:
+        cur.execute("SELECT created_by FROM docs.documents WHERE document_id = %s", (old[0],))
+        if cur.fetchone()[0] != by: sys.exit(f"doc {old[0]} was created by another tag - not replacing")
+        cur.execute("DELETE FROM docs.document_chunks WHERE document_id = %s", (old[0],))
+        cur.execute("DELETE FROM docs.documents WHERE document_id = %s", (old[0],))
+        print(f"replacing doc {old[0]}")
     vecs = embed(chunks)
     cur.execute("""INSERT INTO docs.documents (title, domain, document_type, publication_date, source_url, file_path, page_count, language, created_by)
                    VALUES (%s,%s,%s,%s,%s,%s,NULL,'en',%s) RETURNING document_id""",
