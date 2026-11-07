@@ -5,6 +5,10 @@ Screen A (detection limit): a concentration labelled '%' whose lower detection l
 Screen B (same-sample disagreement): two or more usable results for the same analyte in the same sample whose values differ >= 300x after unit
   conversion (and the larger is >= 100 ppm), e.g. a ppb/ppm or ppm/% mix-up, or a mislabelled repeat. Only results in use (is_active, and
   classification use_in_statistics) are compared.
+Screen C (placeholder values): within one analyte and method, a single exact value that makes up >= 30 % of the usable detected results (>= 50 of
+  them) and is >= 100x that analyte's median across the source - typically a detection limit stored without its '<' (e.g. Québec Tl 500 ppm).
+  Reported as groups only (printed, and one row per group in the CSV with result_id empty).
+Called by qc_results.py after every QC run (report only: nothing is changed; fix a group only with source evidence and the user's OK).
 Writes unit_screen_<time>.csv (one row per flagged result) and prints counts per source / analyte. Usage: python unit_screen.py [SOURCE ...]
 """
 import os, sys, csv, datetime
@@ -48,9 +52,23 @@ for src in sources:
       SELECT 'B', %s, v.result_id, v.sample_id, v.analyte_symbol, v.value, v.unit_code, v.lower_detection_limit, v.package_id, grp.vals::text
       FROM v JOIN grp USING (sample_id, analyte_id)""", (src, src))
     b = c.fetchall()
-    w.writerows(a); w.writerows(b)
+    c.execute(f"""WITH v AS (
+        SELECT r.analyte_symbol, coalesce(r.method_name, r.method_code, '?') AS m, r.unit_code, r.value, {PPM} AS ppm
+        FROM geochem.analytical_results r LEFT JOIN geochem.result_classifications k ON k.result_id = r.result_id AND k.source_system = r.source_system
+        WHERE r.source_system = %s AND {USABLE} AND coalesce(k.result_status, 'DETECTED') = 'DETECTED' AND r.unit_code IN ('%%', 'ppm', 'ppb', 'mg/kg') AND r.value > 0),
+      med AS (SELECT analyte_symbol, percentile_cont(0.5) WITHIN GROUP (ORDER BY ppm) AS med FROM v GROUP BY 1),
+      grp AS (SELECT analyte_symbol, m, count(*) AS n FROM v GROUP BY 1, 2 HAVING count(*) >= 50),
+      top AS (SELECT DISTINCT ON (v.analyte_symbol, v.m) v.analyte_symbol, v.m, v.value, v.unit_code, v.ppm, count(*) OVER (PARTITION BY v.analyte_symbol, v.m, v.value, v.unit_code) AS k
+              FROM v ORDER BY v.analyte_symbol, v.m, count(*) OVER (PARTITION BY v.analyte_symbol, v.m, v.value, v.unit_code) DESC)
+      SELECT 'C', %s, NULL, NULL, top.analyte_symbol, top.value, top.unit_code, NULL, NULL,
+             format('%%s of %%s results by %%s; source median %%s ppm', top.k, grp.n, top.m, round(med.med::numeric, 3))
+      FROM top JOIN grp USING (analyte_symbol, m) JOIN med USING (analyte_symbol)
+      WHERE top.k >= 50 AND top.k >= 0.3 * grp.n AND top.ppm >= 100 * med.med""", (src, src))
+    cc = c.fetchall()
+    w.writerows(a); w.writerows(b); w.writerows(cc)
     f.flush()
-    print(f"{src}: A {len(a)} results, B {len(b)} results in {len({x[3] for x in b})} samples ({(datetime.datetime.now() - t0).seconds}s)", flush=True)
+    print(f"{src}: A {len(a)} results, B {len(b)} results in {len({x[3] for x in b})} samples, C {len(cc)} placeholder groups ({(datetime.datetime.now() - t0).seconds}s)", flush=True)
+    for x in cc: print(f"   C {x[4]} = {x[5]} {x[6]}: {x[9]}", flush=True)
     for scr, rows in (("A", a), ("B", b)):
         cnt = {}
         for x in rows: cnt[x[4]] = cnt.get(x[4], 0) + 1

@@ -7,6 +7,9 @@ Rules (values are never changed, only the classification or is_active):
   2. EXACT DUPLICATE -> is_active = false on all but the first: same sample, analyte, package, value, qualifier, report number and analysis date.
   3. VALUE BELOW ITS OWN DETECTION LIMIT -> BELOW_DL_PROBABLE (not used in statistics, dl_value = the reported limit).
   4. LOW OXIDE TOTAL -> the 'Sum' result only is SUSPECT when a whole-rock total is below 90 %.
+  6. UNIT / PLACEHOLDER SCREEN (report only, after the commit): runs unit_screen.py on the source - '%' results with ppm-sized detection limits,
+     same-sample results >= 300x apart, and one exact value repeated far above the element's median (a detection limit without its '<'). Nothing is
+     changed; review the groups (many are partial-vs-total method differences) and fix only with source evidence.
   5. IMPOSSIBLE INTERCEPT -> drilling.intercepts.is_active = false (comment says why): same tests as rule 1 on the grade, with Au, Ag and PGE allowed up
      to 5 % (50,000 g/t) instead of being exempt.
 Every rule writes the affected ids to qc_<source>_<rule>_<timestamp>.csv (rollback list). Rollback: rule 2 / 5 -> is_active = true; rules 1, 3, 4 ->
@@ -108,3 +111,9 @@ if DRY:
     g.rollback(); print("DRY RUN - rolled back")
 else:
     g.commit(); print("COMMITTED")
+g.close()
+# Rule 6: unit and placeholder screen, report only (reads the committed state; after --dry it shows the state before this run's rules).
+import subprocess
+print("6 unit / placeholder screen (report only):", flush=True)
+subprocess.run([sys.executable, os.path.join(HERE, "unit_screen.py"), SRC], check=False)
+print("   -> review any A, B or C groups above before building the wide rows; fix only with source evidence (see fix_mrt_unit_labels.py, fix_qc_tl_vic_mn.py).")
