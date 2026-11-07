@@ -42,6 +42,20 @@ ROWS = [
      "duplicates, microprobe grain analyses and mineral-grain counts are not loaded. 18,879 samples already in gold via the Saskatchewan GeoAtlas or "
      "Québec SIGÉOM were skipped. Many analyses are 1970s-90s partial (aqua regia AAS) or semi-quantitative (DC-arc) methods.",
      "D:/CriticalMineralsDB/Documents/Licence_Evidence/CANADA_NRCAN_CDOGS/"),
+    ("CANADA_ATHABASCA_OF7792", "Natural Resources Canada, Geological Survey of Canada",
+     "Athabasca Basin Uranium Geochemistry Database v.2 (Wright, Potter and Comeau, 2015; GSC Open File 7792, doi:10.4095/296461): drill-core and "
+     "outcrop geochemistry compiled from Saskatchewan assessment reports and data files, 2000-2011; downloaded 2026-11-06",
+     "Open Government Licence - Canada", "https://open.canada.ca/en/open-government-licence-canada",
+     "Contains information licensed under the Open Government Licence - Canada. Wright, D.M., Potter, E.G. and Comeau, J-S., 2015. Athabasca Basin "
+     "Uranium Geochemistry Database v.2; Geological Survey of Canada, Open File 7792. doi:10.4095/296461.",
+     "Cleared: Open Government Licence - Canada on the NRCan Open S&T Repository record (dc.rights.license, checked 2026-11-06). Loaded 2026-11-06: "
+     "40,373 samples (38,805 drill-core intervals, 1,568 outcrops), 1,843,773 results, 1,285 holes (1,040 linked to Saskatchewan GeoAtlas collars, "
+     "245 new).",
+     "Company assessment-report data (Cameco, Denison, AREVA, UEX and others) and Saskatchewan Geological Survey data files; lab QAQC removed by the "
+     "compilers. About 90% analysed at SRC Saskatoon: partial digest (9:1 HNO3:HCl), total (3-acid), boron by Na2O2 fusion, U by fluorimetry. Below "
+     "detection stored as negative values; zeros (some companies used 0 for below detection) not loaded. Major elements may mix oxide and element "
+     "reporting between labs. Drill-core samples are placed at the hole collar with from/to depths.",
+     "D:/CriticalMineralsDB/Documents/Licence_Evidence/CANADA_ATHABASCA_OF7792/"),
     ("CANADA_SK_SGS", "Government of Saskatchewan, Saskatchewan Geological Survey (with Geological Survey of Canada lake-sediment data)",
      "Saskatchewan Mining and Petroleum GeoAtlas: Minerals and Quaternary Drillhole Compilation, till geochemistry, GSC lake sediment analyses, "
      "1970s lake sediment geochemistry; map service retrieved 2026-11-03",

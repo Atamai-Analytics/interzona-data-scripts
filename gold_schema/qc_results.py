@@ -12,7 +12,9 @@ Rules (values are never changed, only the classification or is_active):
 Every rule writes the affected ids to qc_<source>_<rule>_<timestamp>.csv (rollback list). Rollback: rule 2 / 5 -> is_active = true; rules 1, 3, 4 ->
   result_status = 'DETECTED', use_in_statistics = true, dl_value = NULL, dl_source = NULL for the listed ids.
 Rebuild the wide rows afterwards: python build_chem_wide.py <source>
-Usage: python qc_results.py <SOURCE_SYSTEM> [--dry]
+Usage: python qc_results.py <SOURCE_SYSTEM> [--dry] [--max U=880000,U3O8=1000000]
+  --max replaces plausible_max_value (in ppm) for the listed analytes in rules 1 and 5, for this run only - for a source whose samples are ore by
+  design (e.g. Athabasca drill core through uranium ore, where 1 % U is not an error but the dictionary's regional-survey ceiling would call it one).
 """
 import os, sys, csv, datetime
 import psycopg2
@@ -33,6 +35,14 @@ c = g.cursor()
 c.execute("SET statement_timeout = 0")
 PPM = "CASE {u} WHEN '%' THEN 10000 WHEN 'ppb' THEN 0.001 ELSE 1 END"
 PRECIOUS = "('Au','Ag','Pt','Pd','Rh','Ru','Ir','Os')"
+OVERRIDE = {}
+if "--max" in sys.argv:
+    for part in sys.argv[sys.argv.index("--max") + 1].split(","):
+        k, v = part.split("="); OVERRIDE[k.strip()] = float(v)
+    print("plausible-max overrides for this run (ppm):", OVERRIDE, flush=True)
+# the ceiling in ppm: the per-run override if given, else the dictionary value
+CEIL = ("CASE a.analyte_code " + " ".join(f"WHEN '{k}' THEN {v}" for k, v in OVERRIDE.items())
+        + " ELSE a.plausible_max_value * " + PPM.format(u="a.plausible_max_unit") + " END") if OVERRIDE else "a.plausible_max_value * " + PPM.format(u="a.plausible_max_unit")
 
 
 def save(rule, sql):
@@ -51,7 +61,7 @@ WHERE r.is_active AND k.result_status = 'DETECTED' AND (
   (r.unit_code = '%' AND r.value > CASE WHEN a.analyte_code = 'Sum' THEN 110 ELSE 100 END) OR (r.unit_code = 'ppm' AND r.value > 1000000)
   OR (a.is_element AND r.value * {PPM.format(u='r.unit_code')} >= 990000)
   OR ((a.is_element OR a.is_oxide) AND a.plausible_max_value IS NOT NULL AND a.analyte_code NOT IN {PRECIOUS[:-1]},'Zr')
-      AND r.value * {PPM.format(u='r.unit_code')} > a.plausible_max_value * {PPM.format(u='a.plausible_max_unit')}))""")
+      AND r.value * {PPM.format(u='r.unit_code')} > {CEIL}))""")
 c.execute("UPDATE geochem.result_classifications SET result_status = 'SUSPECT', use_in_statistics = false WHERE source_system = %s AND result_id = ANY(%s)", (SRC, ids))
 print("1 impossible -> SUSPECT:", c.rowcount, path, flush=True)
 
@@ -86,7 +96,7 @@ WHERE i.source_system = '{SRC}' AND i.is_active AND i.grade IS NOT NULL AND (
   OR (a.is_element AND i.grade * {PPM.format(u='i.unit_code')} >= 990000)
   OR (a.analyte_code IN {PRECIOUS} AND i.grade * {PPM.format(u='i.unit_code')} > 50000)
   OR ((a.is_element OR a.is_oxide) AND a.plausible_max_value IS NOT NULL AND a.analyte_code NOT IN {PRECIOUS[:-1]},'Zr')
-      AND i.grade * {PPM.format(u='i.unit_code')} > a.plausible_max_value * {PPM.format(u='a.plausible_max_unit')}))""")
+      AND i.grade * {PPM.format(u='i.unit_code')} > {CEIL}))""")
 c.execute("""UPDATE drilling.intercepts SET is_active = false,
                comments = concat_ws('; ', comments, 'QC: grade physically implausible (likely a unit or element error in the source); not used')
              WHERE intercept_id = ANY(%s)""", (ids,))

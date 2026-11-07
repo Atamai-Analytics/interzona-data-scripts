@@ -12,7 +12,9 @@ SRC = sys.argv[1]
 CFG = {"CANADA_QC_SIGEOM": ("canada_qc_sigeom", "SIGEOM", "migration_sigeom_qc_2"),
        "CANADA_SK_SGS": ("canada_sk_sgs", "SASK_SGS", "migration_sask_sgs_"),
        "CANADA_QC_SIGEOM_SED": ("canada_qc_sigeom_sed", "SIGEOM", "migration_sigeom_qc_sed_"),
-       "CANADA_NRCAN_CDOGS": ("canada_nrcan_cdogs", "CDOGS", "migration_cdogs_")}
+       "CANADA_NRCAN_CDOGS": ("canada_nrcan_cdogs", "CDOGS", "migration_cdogs_"),
+       # drill holes are deleted by source_system, so only the holes this load created go; matched Saskatchewan collars stay
+       "CANADA_ATHABASCA_OF7792": ("canada_athabasca_of7792", "GSC_OF7792", "migration_athabasca_of7792_")}
 PART, XID, TAG = CFG[SRC]
 DRY = "--dry" in sys.argv
 HERE = os.path.dirname(os.path.abspath(__file__))
