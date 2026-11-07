@@ -129,8 +129,8 @@ def main():
         for i in range(0, len(chunks), 16):
             vecs += embed([c[2] for c in chunks[i:i + 16]]); time.sleep(0.2)
         cur.execute("""INSERT INTO docs.documents (title, domain, document_type, publication_date, source_url, file_path, page_count, language, created_by)
-                       VALUES (%s,%s,%s,%s,%s,%s,%s,'en',%s) RETURNING document_id""",
-                    (m["title"], m["domain"], m["dtype"], m.get("pdate"), m.get("url"), path, npages, by))
+                       VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s) RETURNING document_id""",
+                    (m["title"], m["domain"], m["dtype"], m.get("pdate"), m.get("url"), path, npages, m.get("language", "en"), by))
         doc_id = cur.fetchone()[0]
         for idx, ((pg, typ, txt), v) in enumerate(zip(chunks, vecs)):
             cur.execute("""INSERT INTO docs.document_chunks (document_id, domain, chunk_index, page_number, section_heading, content,
