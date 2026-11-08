@@ -1,0 +1,9 @@
+[
+  {"file": "LithiumDeepDive.pdf",
+   "title": "Internal summary - Lithium deposit types, lithology, locations and grades (AI-assisted synthesis of GeoScienceWorld literature, compiled by Atamai Analytics Nov 2026; claims not individually sourced; not a primary source)",
+   "domain": "RESEARCH", "dtype": "Internal Summary", "pdate": null, "url": null,
+   "label": "Lithium deposit types - internal synthesis (AI-assisted, not a primary source)", "language": "en",
+   "ocr": "lithium_deep_dive_20261108",
+   "types": {"REFERENCES": [[11, 19]]},
+   "note": "Text = cleaned PDF text layer + corrections note on page 1 + LithiumDeepDiveReferences.pdf appended as pages 11-19 (built by build_lithium_pages.py, 2026-11-08)."}
+]
