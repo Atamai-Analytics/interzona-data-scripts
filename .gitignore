@@ -148,3 +148,6 @@ gold_schema/eu_crma/*
 _*_before*.py
 *.bak*
 !gold_schema/rag_manifest_*.json
+
+# curated lithium table (own compilation of cited public facts, 2026-11-08)
+!gold_schema/curated_lithium_*.csv
