@@ -23,6 +23,7 @@ FIX = {
     378288: ("Kamativi Mine", "Kamativi reopened as a lithium (spodumene) mine; spodumene processing plant commissioned April 2024 (Mining Index Zimbabwe / ZBC News); https://www.miningindex.co.zw/?p=25890"),
     396703: ("Zhabuye Salt Lake", "Tibet Mineral Development (000762.SZ) 10,000 t/y battery-grade lithium carbonate line at Zhabuye salt lake, commercial production from September 2025 (SMM); https://news.metal.com/en/newscontent/102829881"),
     576217: ("Qaidam Basin", "Qarhan salt lake brines (Qaidam Basin) are processed for lithium carbonate: Qinghai Salt Lake Industry 20,000 t/y battery-grade plant at full load June 2022 (Yicai Global); https://yicaiglobal.com/news/china-qinghai-salt-lake-jumps-as-new-lithium-carbonate-factory-comes-online"),
+    316017: ("Willcox Playa", "USGS, 'Lithologic log and lithium content of sediments penetrated in a test boring drilled in Willcox Playa, Cochise County, Arizona' (USGS Open-File Report); clay intervals of about 500-850 ppm Li reported in the literature; https://www.usgs.gov/publications/lithologic-log-and-lithium-content-sediments-penetrated-a-test-boring-drilled-wilcox"),
 }
 
 g = psycopg2.connect(host=ENV["LITHODAT_DB_HOST"], port=ENV["LITHODAT_DB_PORT"], dbname="interzona_cm", user=ENV["LITHODAT_DB_USER"], password=ENV["LITHODAT_DB_PASSWORD"])
