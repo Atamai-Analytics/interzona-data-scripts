@@ -45,7 +45,8 @@ part = {"FINLAND_GTK_ROCK": ("analytical_results_finland_gtk_rock", "result_clas
         "CANADA_NRCAN_CDOGS": ("analytical_results_canada_nrcan_cdogs", "result_classifications_canada_nrcan_cdogs"),
         "CANADA_ATHABASCA_OF7792": ("analytical_results_canada_athabasca_of7792", "result_classifications_canada_athabasca_of7792"),
         "SWEDEN_SGU_MARKGEOKEMI": ("analytical_results_sweden_sgu_markgeokemi", "result_classifications_sweden_sgu_markgeokemi"),
-        "SWEDEN_SGU_BIOGEOKEMI": ("analytical_results_sweden_sgu_biogeokemi", "result_classifications_sweden_sgu_biogeokemi")}[SRC]
+        "SWEDEN_SGU_BIOGEOKEMI": ("analytical_results_sweden_sgu_biogeokemi", "result_classifications_sweden_sgu_biogeokemi"),
+            "SPAIN_IGME_GEOCHEMISTRY": ("analytical_results_spain_igme_geochemistry", "result_classifications_spain_igme_geochemistry")}[SRC]
 
 # ---- package rules (basis + priority) for every package
 c.execute("""
@@ -113,7 +114,7 @@ c.execute(f"SELECT DISTINCT code, basis FROM ({ROWS}) x ORDER BY 1, 2")
 pairs = c.fetchall()
 c.execute(f"SELECT u, count(*) FROM ({ROWS}) x WHERE v IS NULL GROUP BY u")
 _skipped = c.fetchall()
-SKIP_UNITS = {"unitless", "Mole%", "pH", "g/m³"}   # not concentrations: left out of the wide table (still in analytical_results)
+SKIP_UNITS = {"unitless", "Mole%", "pH", "g/m³", "µg/L", "mg/L"}   # not solid concentrations (pH, ratios, dissolved water values): left out of the wide table (still in analytical_results)
 assert all(u in SKIP_UNITS for u, _ in _skipped), ("unit not handled", _skipped)
 log("rows left out (non-concentration units)", _skipped)
 
