@@ -4,6 +4,9 @@ Found 2026-11-08 by matching the deposits named in library doc 444 to core.occur
 these as tin, boron/potash or salt only. Each change appends a dated note with the source to comments; log fix_mrds_lithium_<ts>.csv for rollback
 (delete the occurrence_commodities rows created_by TAG and remove the appended note).
 Usage: python fix_mrds_lithium_20261108.py [--dry]
+Follow-up applied by SQL on 2026-11-08 (so the app cites them reliably): each note was restructured to
+'Lithium added 2026-11-08 (not in MRDS). Reference: <url> (dated <date>): <text>' with dates Uis 2025-02-06, Kamativi 2024-04,
+Zhabuye 2025-09, Qaidam 2022-06, Willcox '(USGS Open-File Report, date as listed by USGS)'.
 """
 import csv, os, sys, datetime
 import psycopg2

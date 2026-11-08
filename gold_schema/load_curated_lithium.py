@@ -34,11 +34,11 @@ for r in rows:
     dup = [x for x in c.fetchall() if norm(x[1]) and norm(x[1]) == norm(r["name"])]
     if dup: print("SKIP duplicate", r["name"], dup); continue
     comments = "; ".join(p for p in [
-        "Source: compiled by Interzona from public sources (curated lithium table, 8 Nov 2026)",
+        f"Reference: {r['source_url']} (dated {r['source_date']})",
         f"Operator / owner: {r['operator']}" if r["operator"] else None, f"Status note: {r['status_note']}",
-        f"Source: {r['source_url']} ({r['source_date']})",
         f"APPROXIMATE position: locality '{r['locality_query']}'" + (f" plus {r['offset_km']} km at {r['bearing_deg']} deg" if float(r['offset_km'] or 0) else "")
-        + " geocoded with OpenStreetMap Nominatim; not the mine site"] if p)
+        + " geocoded with OpenStreetMap Nominatim; not the mine site",
+        "Compiled by Interzona from that public source (curated lithium table, 8 Nov 2026)"] if p)
     c.execute("""INSERT INTO core.occurrences (name, is_deposit, jurisdiction_id, geom, status, comments, is_active, created_by, created_date, position_accuracy)
                  VALUES (%s,%s,%s,ST_SetSRID(ST_MakePoint(%s,%s),4326),%s,%s,true,%s,now(),'AREA_CENTROID') RETURNING occurrence_id""",
               (r["name"], r["is_deposit"] == "true", j[0], float(r["lon"]), float(r["lat"]), r["status"], comments, TAG))
