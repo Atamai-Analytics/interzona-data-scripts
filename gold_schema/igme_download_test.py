@@ -37,7 +37,7 @@ def wkt(b):
     return json.dumps(f"POLYGON(({x0} {y0},{x1} {y0},{x1} {y1},{x0} {y1},{x0} {y0}))").encode()
 
 
-MAX_REQUESTS, MIN_BOX = 1500, 1e-4       # safety caps (the first run recursed ~975 levels on one unsplittable spot)
+MAX_REQUESTS, MIN_BOX = 2500, 0.002      # caps: stop splitting at ~200 m (co-located sample pairs can never be separated; copper lost 2 of 8,686 that way)
 unresolved = []
 
 
@@ -48,7 +48,10 @@ def fetch(camp, sub, box=None, depth=0):
     if total <= len(rows): return rows
     if box is None: box = BBOX
     x0, y0, x1, y1 = box
-    if x1 - x0 < MIN_BOX or y1 - y0 < MIN_BOX:  # same-coordinate cluster larger than the page: keep what we got, log the shortfall
+    # Split ONLY when the page is full. IGME's API counts some samples it never returns (total 2 / returned 1, total 1 / returned 0, at any
+    # box size - the tungsten run spent ~10 requests per such sample before this rule); a short page means those, not a full page.
+    page_full = len(rows) >= LIMIT - 10
+    if not page_full or x1 - x0 < MIN_BOX or y1 - y0 < MIN_BOX:  # keep what we got, log the shortfall
         unresolved.append({"camp": camp, "box": box, "total": total, "returned": len(rows)}); print("  UNRESOLVED", unresolved[-1], flush=True)
         return rows
     xm, ym = (x0 + x1) / 2, (y0 + y1) / 2
