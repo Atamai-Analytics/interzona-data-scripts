@@ -101,7 +101,10 @@ def comment(p, grp):
         else:
             how = {"NEW_TOWN": f"centre of {p['gaz_place'] or p['town_text']} (Census 2026 Gazetteer place)", "NEW_AREA": f"centre of the Census county subdivision {p['gaz_place']}",
                    "NEW_COUNTY": "centre of the MRDS sites recorded for that county"}[p["action"]]
-        parts.append(f"POSITION IS APPROXIMATE ({p['position_accuracy']}): {how}; the source gives only town and state")
+        if p["position_accuracy"]:
+            parts.append(f"POSITION IS APPROXIMATE ({p['position_accuracy']}): {how}; the source gives only town and state")
+        else:  # round 4: a site-specific point (permit, EPA facility record or geocoded street address)
+            parts.append(f"Position: {how}")
     parts.append("Feature type: " + f["Feature Type"])
     types = sorted({x for x in grp["Level 3 (Type)"] if x})
     if types: parts.append("Facility type: " + ", ".join(types))
@@ -122,7 +125,7 @@ for _, p in placed.iterrows():
     f = grp.iloc[0]
     st = STATUS.get(f["Facility Status"].strip().lower(), "UNKNOWN")
     work = "Processing plant" if f["Feature Type"] == "Mineral Processing Plant" else None
-    new_rows.append((f["Facility Name"].strip()[:300], False, US_JID, float(p["lon"]), float(p["lat"]), st, work, comment(p, grp), p["position_accuracy"]))
+    new_rows.append((f["Facility Name"].strip()[:300], False, US_JID, float(p["lon"]), float(p["lat"]), st, work, comment(p, grp), p["position_accuracy"] or None))
     new_meta.append(p)
 tmpl = "(%s, %s, %s, ST_SetSRID(ST_MakePoint(%s, %s), 4326), %s, 'UNKNOWN', %s, %s, true, '" + TAG + "', now(), %s)"
 ids = execute_values(c, "INSERT INTO core.occurrences (name, is_deposit, jurisdiction_id, geom, status, size_category, workings_type, comments, is_active, created_by, created_date, position_accuracy) VALUES %s RETURNING occurrence_id",
