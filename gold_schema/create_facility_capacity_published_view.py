@@ -26,10 +26,14 @@ DROP VIEW IF EXISTS core.facility_capacity_published;
 CREATE VIEW core.facility_capacity_published AS
 SELECT fc.*,
        CASE WHEN fc.source_system = 'USGS_US_FACILITIES' THEN 'US-site-' || fc.occurrence_id  -- US ids are per metal row, so the site is the facility
+            WHEN fc.source_system = 'USGS_MYB2024' THEN regexp_replace(fc.source_row_id, '^FAC_|_[0-9]+$', '', 'g')   -- FAC_CHL0041_02 -> CHL0041
             ELSE split_part(fc.source_row_id, '-', 1) END AS usgs_facility_id,
+       -- Newest data year for this site and commodity: a site can hold both an older regional-release figure and the 2024 yearbook figure.
+       (fc.data_year = max(fc.data_year) OVER (PARTITION BY fc.occurrence_id, lower(fc.commodity_name))) AS is_latest_year,
        -- The unit to list and count: one USGS facility at one site. Several USGS facilities can share a site (three Baotou separation plants)
        -- and one USGS facility id can cover several named points (Nkana open pits A and E), so neither the site nor the id alone works.
        CASE WHEN fc.source_system = 'USGS_US_FACILITIES' THEN 'US:' || fc.occurrence_id
+            WHEN fc.source_system = 'USGS_MYB2024' THEN regexp_replace(fc.source_row_id, '^FAC_|_[0-9]+$', '', 'g') || ':' || fc.occurrence_id
             ELSE split_part(fc.source_row_id, '-', 1) || ':' || fc.occurrence_id END AS facility_key,
        coalesce(nullif(trim(concat_ws(' ', fc.product_form, fc.product_descriptor)), ''), 'product not stated') AS published_product,
        CASE WHEN fc.feature_type ILIKE 'Brine%' OR fc.feature_type = 'B' THEN 'Brine operation'
@@ -60,6 +64,7 @@ SELECT fc.*,
          WHEN 'USGS_CHINA_GIS' THEN 'USGS China mineral-industry GIS compilation'
          WHEN 'USGS_AFRICA_GIS' THEN 'USGS Africa mineral-industry GIS compilation'
          WHEN 'USGS_US_FACILITIES' THEN 'USGS U.S. mineral facilities'
+         WHEN 'USGS_MYB2024' THEN 'USGS 2024 Minerals Yearbook global facilities table'
          ELSE fc.source_system
        END || CASE WHEN fc.source_system = 'USGS_US_FACILITIES' THEN '' ELSE coalesce(' (Minerals Yearbook ' || fc.data_year || ' data)', '') END AS release
 FROM core.facility_capacity fc
