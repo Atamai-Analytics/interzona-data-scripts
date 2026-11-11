@@ -24,13 +24,12 @@ for line in open(r"C:\Users\dean\claude_lithosurfer\lithosurfer-work\.env", enco
 SQL = r"""
 DROP VIEW IF EXISTS core.facility_capacity_published;
 CREATE VIEW core.facility_capacity_published AS
--- is_latest_year: a 2024 Minerals Yearbook row supersedes older-release rows of the SAME commodity and SAME stage anywhere in the same complex
--- (core.facility_site_clusters: USGS facility sites within ~3 km, built by build_facility_clusters.py), because one complex is often several
--- points (Sorowako mine and processing plant 200 m apart). 2024 rows placed only at a town point (TOWN_CENTROID) supersede nothing. Older
--- releases never supersede each other.
+-- is_latest_year: false for older-release rows listed in core.facility_superseded (built by build_facility_supersede.py: a 2024 Minerals
+-- Yearbook row of the same commodity and a compatible stage in the same complex - core.facility_site_clusters, sites within ~3 km - or within
+-- 10 km of an area-centroid point with a shared name word). 2024 rows placed only at a town point supersede nothing; older releases never
+-- supersede each other.
 SELECT v.*,
-       (v.source_system = 'USGS_MYB2024' OR NOT coalesce(bool_or(v.is_2024_anchor) OVER (PARTITION BY coalesce(v.cluster_id, -v.occurrence_id),
-            lower(v.commodity_name), v.stage_group), false)) AS is_latest_year
+       NOT EXISTS (SELECT 1 FROM core.facility_superseded s WHERE s.facility_capacity_id = v.facility_capacity_id) AS is_latest_year
 FROM (
 SELECT fc.*, cl.cluster_id,
        (fc.source_system = 'USGS_MYB2024' AND o.position_accuracy IS DISTINCT FROM 'TOWN_CENTROID') AS is_2024_anchor,

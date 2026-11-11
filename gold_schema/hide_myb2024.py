@@ -1,4 +1,4 @@
-"""Hide (or restore) the USGS 2024 Minerals Yearbook load (source USGS_MYB2024, tag migration_usgs_myb2024_20261111) from answers.
+﻿"""Hide (or restore) the USGS 2024 Minerals Yearbook load (source USGS_MYB2024, tag migration_usgs_myb2024_20261111) from answers.
 Hidden 2026-11-11 on the user's OK because answers listed the same plant twice (older regional row + 2024 row on different sites) until a
 'superseded by' link is built. Hide = move the capacity and ownership rows into holding tables core.hold_myb2024_facility_capacity /
 core.hold_myb2024_occurrence_ownership (the app's SQL never sees them), deactivate the 2024-only sites and the commodities the load added.
@@ -25,7 +25,11 @@ if MODE == "hide":
     assert a == b and d == e, (a, b, d, e)
     c.execute("UPDATE core.occurrence_commodities SET is_active = false WHERE created_by IN (%s, %s) AND is_active", (TAG, TAG + "_dedupe")); f = c.rowcount
     c.execute("UPDATE core.occurrences SET is_active = false WHERE created_by = %s AND is_active", (TAG,)); h = c.rowcount
-    print(f"held capacity rows {a}, owner rows {d}; commodities deactivated {f}; 2024-only sites deactivated {h}")
+    # older rows must not stay superseded by 2024 rows nobody can see
+    c.execute("SELECT to_regclass('core.facility_superseded')")
+    if c.fetchone()[0]:
+        c.execute("TRUNCATE core.facility_superseded")
+    print(f"held capacity rows {a}, owner rows {d}; commodities deactivated {f}; 2024-only sites deactivated {h}; supersede list cleared")
 elif MODE == "restore":
     # identity columns are GENERATED ALWAYS: keep the original ids
     c.execute("INSERT INTO core.facility_capacity OVERRIDING SYSTEM VALUE SELECT * FROM core.hold_myb2024_facility_capacity"); a = c.rowcount
@@ -38,3 +42,7 @@ elif MODE == "restore":
 else:
     sys.exit("hide|restore")
 g.commit()
+if MODE == "restore":
+    import subprocess
+    for s in ("build_facility_clusters.py", "build_facility_supersede.py"):
+        subprocess.run([sys.executable, os.path.join(HERE, s)], check=True)
