@@ -2,6 +2,8 @@
 figure is, so answers cannot relabel ore tonnage as metal or add up a figure USGS repeats across several facilities of one complex.
 
 Added columns:
+  usgs_facility_id       the USGS facility id (source_row_id before the '-'; for the US the site)
+  facility_key           usgs_facility_id + site: the unit to list and count (one line each)
   stage_group            Mine / Concentrator / Smelter / Refinery / Brine operation / Other processing plant (for counting per stage)
   published_product      product_form + product_descriptor as published, or 'product not stated'
   measure                what the tonnage measures: contained metal / compound weight / gross weight / ore or concentrate / metal or refined
@@ -23,6 +25,12 @@ SQL = r"""
 DROP VIEW IF EXISTS core.facility_capacity_published;
 CREATE VIEW core.facility_capacity_published AS
 SELECT fc.*,
+       CASE WHEN fc.source_system = 'USGS_US_FACILITIES' THEN 'US-site-' || fc.occurrence_id  -- US ids are per metal row, so the site is the facility
+            ELSE split_part(fc.source_row_id, '-', 1) END AS usgs_facility_id,
+       -- The unit to list and count: one USGS facility at one site. Several USGS facilities can share a site (three Baotou separation plants)
+       -- and one USGS facility id can cover several named points (Nkana open pits A and E), so neither the site nor the id alone works.
+       CASE WHEN fc.source_system = 'USGS_US_FACILITIES' THEN 'US:' || fc.occurrence_id
+            ELSE split_part(fc.source_row_id, '-', 1) || ':' || fc.occurrence_id END AS facility_key,
        coalesce(nullif(trim(concat_ws(' ', fc.product_form, fc.product_descriptor)), ''), 'product not stated') AS published_product,
        CASE WHEN fc.feature_type ILIKE 'Brine%' OR fc.feature_type = 'B' THEN 'Brine operation'
             WHEN fc.facility_stage = 'Mine' OR (fc.facility_stage IS NULL AND (fc.feature_type ILIKE 'Mines%' OR fc.feature_type = 'M')) THEN 'Mine'
