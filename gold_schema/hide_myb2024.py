@@ -27,8 +27,9 @@ if MODE == "hide":
     c.execute("UPDATE core.occurrences SET is_active = false WHERE created_by = %s AND is_active", (TAG,)); h = c.rowcount
     print(f"held capacity rows {a}, owner rows {d}; commodities deactivated {f}; 2024-only sites deactivated {h}")
 elif MODE == "restore":
-    c.execute("INSERT INTO core.facility_capacity SELECT * FROM core.hold_myb2024_facility_capacity"); a = c.rowcount
-    c.execute("INSERT INTO core.occurrence_ownership SELECT * FROM core.hold_myb2024_occurrence_ownership"); d = c.rowcount
+    # identity columns are GENERATED ALWAYS: keep the original ids
+    c.execute("INSERT INTO core.facility_capacity OVERRIDING SYSTEM VALUE SELECT * FROM core.hold_myb2024_facility_capacity"); a = c.rowcount
+    c.execute("INSERT INTO core.occurrence_ownership OVERRIDING SYSTEM VALUE SELECT * FROM core.hold_myb2024_occurrence_ownership"); d = c.rowcount
     c.execute("TRUNCATE core.hold_myb2024_facility_capacity, core.hold_myb2024_occurrence_ownership")
     c.execute("UPDATE core.occurrence_commodities SET is_active = true WHERE created_by IN (%s, %s) AND NOT is_active", (TAG, TAG + "_dedupe")); f = c.rowcount
     # 2024-only sites that were NOT merged into another site (merged ones stay inactive)

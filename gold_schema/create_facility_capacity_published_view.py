@@ -24,12 +24,19 @@ for line in open(r"C:\Users\dean\claude_lithosurfer\lithosurfer-work\.env", enco
 SQL = r"""
 DROP VIEW IF EXISTS core.facility_capacity_published;
 CREATE VIEW core.facility_capacity_published AS
-SELECT fc.*,
+-- is_latest_year: a 2024 Minerals Yearbook row supersedes older-release rows of the SAME commodity and SAME stage anywhere in the same complex
+-- (core.facility_site_clusters: USGS facility sites within ~3 km, built by build_facility_clusters.py), because one complex is often several
+-- points (Sorowako mine and processing plant 200 m apart). 2024 rows placed only at a town point (TOWN_CENTROID) supersede nothing. Older
+-- releases never supersede each other.
+SELECT v.*,
+       (v.source_system = 'USGS_MYB2024' OR NOT coalesce(bool_or(v.is_2024_anchor) OVER (PARTITION BY coalesce(v.cluster_id, -v.occurrence_id),
+            lower(v.commodity_name), v.stage_group), false)) AS is_latest_year
+FROM (
+SELECT fc.*, cl.cluster_id,
+       (fc.source_system = 'USGS_MYB2024' AND o.position_accuracy IS DISTINCT FROM 'TOWN_CENTROID') AS is_2024_anchor,
        CASE WHEN fc.source_system = 'USGS_US_FACILITIES' THEN 'US-site-' || fc.occurrence_id  -- US ids are per metal row, so the site is the facility
             WHEN fc.source_system = 'USGS_MYB2024' THEN regexp_replace(fc.source_row_id, '^FAC_|_[0-9]+$', '', 'g')   -- FAC_CHL0041_02 -> CHL0041
             ELSE split_part(fc.source_row_id, '-', 1) END AS usgs_facility_id,
-       -- Newest data year for this site and commodity: a site can hold both an older regional-release figure and the 2024 yearbook figure.
-       (fc.data_year = max(fc.data_year) OVER (PARTITION BY fc.occurrence_id, lower(fc.commodity_name))) AS is_latest_year,
        -- The unit to list and count: one USGS facility at one site. Several USGS facilities can share a site (three Baotou separation plants)
        -- and one USGS facility id can cover several named points (Nkana open pits A and E), so neither the site nor the id alone works.
        CASE WHEN fc.source_system = 'USGS_US_FACILITIES' THEN 'US:' || fc.occurrence_id
@@ -68,7 +75,10 @@ SELECT fc.*,
          ELSE fc.source_system
        END || CASE WHEN fc.source_system = 'USGS_US_FACILITIES' THEN '' ELSE coalesce(' (Minerals Yearbook ' || fc.data_year || ' data)', '') END AS release
 FROM core.facility_capacity fc
-WHERE fc.is_active IS DISTINCT FROM false;
+JOIN core.occurrences o ON o.occurrence_id = fc.occurrence_id
+LEFT JOIN core.facility_site_clusters cl ON cl.occurrence_id = fc.occurrence_id
+WHERE fc.is_active IS DISTINCT FROM false
+) v;
 COMMENT ON VIEW core.facility_capacity_published IS 'facility_capacity with published_product, measure, capacity_as_published, shared_capacity_note and release text columns; use for any capacity answer.';
 GRANT SELECT ON core.facility_capacity_published TO cm_app_readonly;
 """
