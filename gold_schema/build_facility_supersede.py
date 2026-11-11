@@ -20,6 +20,10 @@ DRY = "--dry" in sys.argv
 MANUAL = [
     ("USGS_SWASIA_GIS", "IDN218", "IDN0043", "Obi Island HPAL: 2018 'HPAL Plant' (7.6 km from the 2024 area point); both owned by "
                                              "PT Halmahera Persada Lygend (Harita/Lygend); 2024 = MHP + sulfate, 2018 = nickel + cobalt sulphate"),
+    ("USGS_SWASIA_GIS", "AFG029", "AFG0026", "Bakhut/Bakhud fluorspar mine: same owner Amania Mining Co., 10,812 t vs 10,800 t, 9.5 km apart"),
+    ("USGS_CHINA_GIS", "CHN0154", "CHN0267", "Yongdeng/Yondeng ferrosilicon plant: same owner Tengda Xibei Ferroalloy, 250,000 t both, ~6 km "
+                                            "(CHN0153 Dragon Northwest ferrochromium in the same county is a different plant - not paired)"),
+    ("USGS_AFRICA_GIS", "ZAF179", "ZAF0235", "Daniëlskuil/Danielskuil lime plant: same owner Idwala Lime, 1,000,000 t both, ~6 km"),
 ]
 HERE = os.path.dirname(os.path.abspath(__file__))
 ENV = {}
