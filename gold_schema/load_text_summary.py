@@ -3,18 +3,19 @@ docs.documents / docs.document_chunks, chunked and embedded exactly like rag_ing
 voyage-3-large). A file already registered (same file name) is skipped.
 
 Usage: python load_text_summary.py <file.txt> --title "..." --label "..." --by <created_by tag>
-         [--domain POLICY] [--dtype Summary] [--pdate YYYY-MM-DD] [--url https://...] [--dry] [--replace]   (--replace reloads a copy this same --by tag registered)
+         [--domain POLICY] [--dtype Summary] [--pdate YYYY-MM-DD] [--url https://...] [--target N] [--dry] [--replace]   (--replace reloads a copy this same --by tag registered)
 """
 import os, sys, time, psycopg2
 from rag_ingest_manifest import ENV, TARGET, OVERLAP, VERSION, embed, arg
 
 
-def chunks_of(text, label):
+def chunks_of(text, label, target=TARGET):
     words, out, i = text.split(), [], 0
+    overlap = min(OVERLAP, target // 5)
     while True:
-        out.append(f"[{label}] " + " ".join(words[i:i + TARGET]))
-        if i + TARGET >= len(words): break
-        i += TARGET - OVERLAP
+        out.append(f"[{label}] " + " ".join(words[i:i + target]))
+        if i + target >= len(words): break
+        i += target - overlap
     return out
 
 
@@ -22,7 +23,7 @@ def main():
     path, title, label, by = sys.argv[1], arg("--title"), arg("--label"), arg("--by")
     if not (title and label and by): sys.exit("need --title, --label and --by")
     domain, dtype = arg("--domain", "POLICY"), arg("--dtype", "Summary")
-    chunks = chunks_of(open(path, encoding="utf-8").read(), label)
+    chunks = chunks_of(open(path, encoding="utf-8").read(), label, int(arg("--target", str(TARGET))))   # smaller chunks for dense summaries
     print(f"{len(chunks)} chunks, words per chunk {[len(c.split()) for c in chunks]}")
     if "--dry" in sys.argv: return
     conn = psycopg2.connect(host=ENV["PGHOST"], port=ENV["PGPORT"], dbname=ENV["PGDATABASE"],
