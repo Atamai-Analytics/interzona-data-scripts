@@ -24,6 +24,15 @@ MANUAL = [
     ("USGS_CHINA_GIS", "CHN0154", "CHN0267", "Yongdeng/Yondeng ferrosilicon plant: same owner Tengda Xibei Ferroalloy, 250,000 t both, ~6 km "
                                             "(CHN0153 Dragon Northwest ferrochromium in the same county is a different plant - not paired)"),
     ("USGS_AFRICA_GIS", "ZAF179", "ZAF0235", "Daniëlskuil/Danielskuil lime plant: same owner Idwala Lime, 1,000,000 t both, ~6 km"),
+    # Puerto Ordaz (Ciudad Guayana) complex, 2026-11-12: 2014 LAC points vs 2024 lines (town-placed or on another LAC point), same operator and
+    # capacity; the releases name the commodity differently ('Iron and steel' vs 'Direct-reduced iron' / 'Iron ore'), so these pair any commodity.
+    ("USGS_LAC_GIS", "VE43", "VEN0002", "Alcasa aluminium smelter, 170,000 t both", True),
+    ("USGS_LAC_GIS", "VE44", "VEN0006", "Venalum aluminium smelter, 430,000 t (2014) / 440,000 t (2024)", True),
+    ("USGS_LAC_GIS", "VE45", "VEN0029", "FerroAtlantica ferrosilicon plant, 96,000 t both", True),
+    ("USGS_LAC_GIS", "VE49", "VEN0049", "SIDOR pellet plant, 4,250,000 t both", True),
+    ("USGS_LAC_GIS", "VE46", "VEN0022", "Orinoco Iron / Briquetera del Orinoco HBI plant, 2,200,000 t both", True),
+    ("USGS_LAC_GIS", "VE47", "VEN0025", "Ferrominera HBI plant, 1,000,000 t (2014 also 1,100,000 t line) / 1,000,000 t", True),
+    ("USGS_LAC_GIS", "VE48", "VEN0024", "Comsigua HBI plant, 1,000,000 t both", True),
 ]
 HERE = os.path.dirname(os.path.abspath(__file__))
 ENV = {}
@@ -79,9 +88,11 @@ if area:
     rows = [r for r in rows if not (r[2] == "area 10 km" and r[1] in many)]
     print("area-rule rows dropped (one 2024 row would replace several older facilities):", len(dropped))
 done = {r[0] for r in rows}
-for src, old_id, new_id, why in MANUAL:
-    c.execute("""SELECT DISTINCT ON (o.facility_capacity_id) o.facility_capacity_id, n.facility_capacity_id
-                 FROM core.facility_capacity o JOIN core.facility_capacity n ON lower(n.commodity_name) = lower(o.commodity_name)
+for entry in MANUAL:
+    src, old_id, new_id, why = entry[:4]
+    any_commodity = len(entry) > 4 and entry[4]
+    c.execute(f"""SELECT DISTINCT ON (o.facility_capacity_id) o.facility_capacity_id, n.facility_capacity_id
+                 FROM core.facility_capacity o JOIN core.facility_capacity n ON {"true" if any_commodity else "lower(n.commodity_name) = lower(o.commodity_name)"}
                  WHERE o.source_system = %s AND split_part(o.source_row_id, '-', 1) = %s AND o.is_active IS DISTINCT FROM false
                    AND n.source_system = 'USGS_MYB2024' AND regexp_replace(n.source_row_id, '^FAC_|_[0-9]+$', '', 'g') = %s
                    AND n.is_active IS DISTINCT FROM false
