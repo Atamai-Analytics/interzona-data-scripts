@@ -51,6 +51,9 @@ SELECT fc.*, cl.cluster_id,
          WHEN fc.capacity_basis = 'ELEMENTAL_CONTENT' THEN 'contained metal/element content'
          WHEN fc.capacity_basis = 'COMPOUND_WEIGHT' THEN 'weight of the compound'
          WHEN fc.capacity_basis = 'GROSS_WEIGHT' THEN 'gross weight of the product, not metal content'
+         -- 'Ore, Cu content', 'Concentrate | Au content', 'Iron ore (Fe content)': the published figure IS the metal content (fixed 2026-11-12;
+         -- these 231 rows were labelled ore tonnage because the ore/concentrate test ran first)
+         WHEN concat_ws(' ', fc.product_form, fc.product_descriptor) ~* '\mcontent\M' THEN 'contained metal/element content'
          WHEN fc.product_form ~* '(ore|concentrat|\mmine\M|crude|run.of.mine)' THEN 'ore or concentrate tonnage, not metal content'
          WHEN fc.product_form ~* '(metal|cathode|refined|ingot|blister|anode|bullion|pig iron|ferro|steel|content|matte)' THEN 'metal, alloy, matte or refined product'
          WHEN fc.product_form IS NULL THEN 'measure not stated by USGS'

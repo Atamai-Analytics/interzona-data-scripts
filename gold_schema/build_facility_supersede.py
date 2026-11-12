@@ -66,6 +66,18 @@ ORDER BY old.facility_capacity_id, (old.cluster_id = a.cluster_id) DESC
 g = psycopg2.connect(host=ENV["LITHODAT_DB_HOST"], port=ENV["LITHODAT_DB_PORT"], dbname="interzona_cm", user=ENV["LITHODAT_DB_USER"], password=ENV["LITHODAT_DB_PASSWORD"])
 c = g.cursor(); c.execute("SET statement_timeout = 0")
 c.execute(SQL); rows = c.fetchall()
+# One-for-one for the 10 km area rule (2026-11-12): a single 2024 row may not replace rows of SEVERAL older USGS facilities - that hid the
+# three Baotou separation plants (CHN1155-1157) behind one 2024 'Mine in Baotou' row on a shared town name.
+area = [r for r in rows if r[2] == "area 10 km"]
+if area:
+    c.execute("SELECT facility_capacity_id, split_part(source_row_id, '-', 1) FROM core.facility_capacity WHERE facility_capacity_id = ANY(%s)", ([r[0] for r in area],))
+    old_fac = dict(c.fetchall())
+    per_new = {}
+    for r in area: per_new.setdefault(r[1], set()).add(old_fac[r[0]])
+    many = {n for n, s in per_new.items() if len(s) > 1}
+    dropped = [r for r in area if r[1] in many]
+    rows = [r for r in rows if not (r[2] == "area 10 km" and r[1] in many)]
+    print("area-rule rows dropped (one 2024 row would replace several older facilities):", len(dropped))
 done = {r[0] for r in rows}
 for src, old_id, new_id, why in MANUAL:
     c.execute("""SELECT DISTINCT ON (o.facility_capacity_id) o.facility_capacity_id, n.facility_capacity_id
