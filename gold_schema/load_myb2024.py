@@ -92,13 +92,19 @@ def cid_of(name):
     return GN.get(nm.lower())
 
 
-def match(name, lon, lat):
+def match(name, lon, lat, town=""):
     c.execute("""SELECT occurrence_id, name, ST_Distance(geog, ST_SetSRID(ST_MakePoint(%s,%s),4326)::geography) d FROM core.occurrences
                  WHERE is_active AND created_by <> %s AND ST_DWithin(geog, ST_SetSRID(ST_MakePoint(%s,%s),4326)::geography, 5000) ORDER BY d LIMIT 8""",
               (lon, lat, TAG, lon, lat))
-    near = c.fetchall(); nm = norm(name)
+    near = c.fetchall()
+    # 2026-11-12: drop the town's own name before comparing - otherwise 'Primary smelter near Hamburg' matched an MRDS record named just
+    # 'Hamburg' (all 11 Hamburg plants would have been merged into one aluminium site). A match now needs a shared name beyond the town.
+    tw = norm(town)
+    strip = lambda v: re.sub(r"\s+", " ", (" " + v + " ").replace(" " + tw + " ", " ")).strip() if tw else v
+    nm = strip(norm(name))
+    near = [(oid, n2, d) for oid, n2, d in near if strip(norm(n2))]
     for oid, n2, d in near:
-        n2n = norm(n2)
+        n2n = strip(norm(n2))
         if nm and n2n and (difflib.SequenceMatcher(None, nm, n2n).ratio() > 0.85 or (len(nm) > 5 and len(n2n) > 5 and (nm in n2n or n2n in nm))):
             return oid, n2, round(d)
     return None, (near[0][1] if near else None), (round(near[0][2]) if near else None)
@@ -127,7 +133,8 @@ for fid, grp in f.groupby("USGS Facility ID", sort=False):
     oid = int(p["occurrence_id"]) if method in ("OCC", "REG") else None
     near = dist = None
     if oid is None:
-        oid, near, dist = match(name, float(p["lon"]), float(p["lat"]))
+        town = re.sub(r"\b(State|Province|District|Region|County)\b", "", str(p["location"]).split(",")[0]).strip()
+        oid, near, dist = match(name, float(p["lon"]), float(p["lat"]), town)
         if oid: method = "TOWN+NAME"
     status_pub = (r0["Facility Status"] or "").strip()
     if oid:
