@@ -61,6 +61,9 @@ KEYWORDS = [("lithium", "Lithium"), ("cobalt", "Cobalt"), ("nickel", "Nickel"), 
             ("phosph", "Phosphate rock"), ("fluor", "Fluorspar"), ("barium", "Barite")]
 
 
+NAME_FIX = {"TUR": "Türkiye"}  # OECD's file has a broken character in this country name
+
+
 def commodity(hs6, desc):
     if hs6 in CODE: return CODE[hs6]
     if hs6[:4] in HEADING: return HEADING[hs6[:4]]
@@ -92,7 +95,7 @@ df = pd.read_excel(FILE, header=1, dtype=str, keep_default_na=False)
 print("rows read", len(df))
 rows = []
 for i, r in enumerate(df.itertuples(index=False), start=3):  # spreadsheet row number (2 header rows)
-    rows.append((r.Cou.strip(), r.Country.strip(), r.HS6.strip(), r.HS6.strip()[:4], r.HS_description.strip(), commodity(r.HS6.strip(), r.HS_description),
+    rows.append((r.Cou.strip(), NAME_FIX.get(r.Cou.strip(), r.Country.strip()),r.HS6.strip(), r.HS6.strip()[:4], r.HS_description.strip(), commodity(r.HS6.strip(), r.HS_description),
                  r.HS8.strip() or None, r.orig_leg_prod.strip() or None, r.type.strip(), r.tomx.strip() or None, int(r.year),
                  r.val.strip() or None, num(r.val), r.val_unit.strip() or None, r.val_condition.strip() or None, r.val_shared.strip() or None,
                  r.val_shared_products.strip() or None, r.dir.strip().lower() or None, r.dati.strip() or None, dt(r.dati), r.end.strip() or None,
