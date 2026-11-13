@@ -1,6 +1,7 @@
 """USGS NGDB wide-table assumptions (Option A, agreed 2026-10-13).
 
-geochem.source_package_rules  per-source basis/priority for the USGS 'UNK-*' packages (shared packages elsewhere are untouched)
+geochem.source_package_rules  per-source basis/priority for the USGS 'UNK-*' packages (shared packages elsewhere are untouched) and, since
+                              2026-11-13, the 'USGS-NGDB-*' sediment/soil packages (one per USGS method; load_usgs_ngdb_sedsoil.py)
 geochem.package_technique     + USGS_* technique per package
 geochem.technique_rank        + USGS_* ranks per element group (emission spectrography always last)
 Basis: the NGDB names partial digestions with a P suffix (AES_AR_P ...), so non-P instrumental packages are treated as total/near-total.
@@ -55,6 +56,27 @@ for code, (basis, prio, tech, note) in PKG.items():
     c.execute("INSERT INTO geochem.source_package_rules (source_system, package_id, basis, priority, note) VALUES (%s,%s,%s,%s,%s)", (SRC, pid, basis, prio, note))
     if tech:
         c.execute("INSERT INTO geochem.package_technique (package_id, technique, note) VALUES (%s,%s,%s) ON CONFLICT (package_id) DO UPDATE SET technique = EXCLUDED.technique, note = EXCLUDED.note", (pid, tech, "USGS NGDB assumptions 2026-10-13"))
+# Sediment / soil packages (load_usgs_ngdb_sedsoil.py, one per USGS method 'USGS-NGDB-<amethod>'): basis by the _P rule, priority from the
+# package's package_wide_rules row (set by the loader), technique family from the method code.
+def technique(am):
+    if am.startswith("MS_"): return "USGS_ICP_MS"
+    if am.startswith("AES_"): return "USGS_ICP_AES"
+    if am.startswith(("WDX", "EDX")): return "USGS_XRF"
+    if am.startswith("NA_"): return "USGS_INAA"
+    if am == "DN": return "USGS_DNA"
+    if am.startswith("FA_"): return "USGS_FIRE_ASSAY"
+    if am.startswith("ES_"): return "USGS_ES"
+    if am.startswith(("AA_", "TC_")): return "USGS_AAS"
+    return "USGS_WET"   # colorimetry, ISE, titration, fluorometry, combustion, gravimetry, ion chromatography
+c.execute("""SELECT p.package_id, p.package_code, w.priority FROM geochem.analytical_packages p JOIN geochem.package_wide_rules w USING (package_id)
+             WHERE p.package_code LIKE 'USGS-NGDB-%'""")
+for pid, code, prio in c.fetchall():
+    am = code[len("USGS-NGDB-"):]
+    basis = "P" if am.endswith("_P") else "T"
+    c.execute("INSERT INTO geochem.source_package_rules (source_system, package_id, basis, priority, note) VALUES (%s,%s,%s,%s,%s)",
+              (SRC, pid, basis, prio, "USGS NGDB sediment/soil method " + am))
+    c.execute("INSERT INTO geochem.package_technique (package_id, technique, note) VALUES (%s,%s,%s) ON CONFLICT (package_id) DO UPDATE SET technique = EXCLUDED.technique, note = EXCLUDED.note",
+              (pid, technique(am), "USGS NGDB sediment/soil 2026-11-13"))
 for grp, lst in RANK.items():
     for i, t in enumerate(lst, 1):
         c.execute("INSERT INTO geochem.technique_rank VALUES (%s,%s,%s)", (grp, t, i))
