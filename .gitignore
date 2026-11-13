@@ -151,3 +151,8 @@ _*_before*.py
 
 # curated lithium table (own compilation of cited public facts, 2026-11-08)
 !gold_schema/curated_lithium_*.csv
+
+# Stream-sediment catchment pipeline (2026-11-13): scripts only; data/ (DEM, WorldCover) and out/ stay out
+!catchments/
+catchments/*
+!catchments/*.py
