@@ -196,7 +196,8 @@ for fid, grp in f.groupby("USGS Facility ID", sort=False):
             if (role, nm_) in seen: continue
             seen.add((role, nm_)); own.append((oid, nm_[:300], role, sh if sh is not None and sh <= 100 else None, 2024, SRC, None, TAG))
 
-with open(os.path.join(HERE, f"myb2024_load_log_20261111{'_DRY' if DRY else ''}.csv"), "w", newline="", encoding="utf-8") as fh:
+LOGTAG = next((a.split("=", 1)[1] for a in sys.argv if a.startswith("--log=")), "20261111")  # e.g. --log=20261113_gazetteer
+with open(os.path.join(HERE, f"myb2024_load_log_{LOGTAG}{'_DRY' if DRY else ''}.csv"), "w", newline="", encoding="utf-8") as fh:
     w = csv.writer(fh); w.writerow(["fid", "name", "country", "method", "action", "occurrence_id", "nearest_existing", "distance_m"]); w.writerows(logrows)
 log(dict(stats)); log("capacity rows", len(cap), "| ownership rows", len(own), "| unmapped commodity names (top 25)", dict(unmapped.most_common(25)))
 log("by country (top 25):", collections.Counter(r[2] for r in logrows).most_common(25))
