@@ -47,7 +47,8 @@ part = {"FINLAND_GTK_ROCK": ("analytical_results_finland_gtk_rock", "result_clas
         "SWEDEN_SGU_MARKGEOKEMI": ("analytical_results_sweden_sgu_markgeokemi", "result_classifications_sweden_sgu_markgeokemi"),
         "SWEDEN_SGU_BIOGEOKEMI": ("analytical_results_sweden_sgu_biogeokemi", "result_classifications_sweden_sgu_biogeokemi"),
             "SPAIN_IGME_GEOCHEMISTRY": ("analytical_results_spain_igme_geochemistry", "result_classifications_spain_igme_geochemistry"),
-        "GERMANY_GFZ_ERZGEBIRGE": ("analytical_results_germany_gfz_erzgebirge", "result_classifications_germany_gfz_erzgebirge")}[SRC]
+        "GERMANY_GFZ_ERZGEBIRGE": ("analytical_results_germany_gfz_erzgebirge", "result_classifications_germany_gfz_erzgebirge"),
+        "USA_NURE_HSSR": ("analytical_results_usa_nure_hssr", "result_classifications_usa_nure_hssr")}[SRC]
 
 # ---- package rules (basis + priority) for every package
 c.execute("""
