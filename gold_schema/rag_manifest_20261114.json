@@ -1,0 +1,10 @@
+[
+  {"file": "US_Battery_Strategy.pdf",
+   "title": "U.S. Department of Energy - A National Strategy for American Leadership in Batteries (DOE/CM-3133, October 2026)",
+   "domain": "POLICY", "dtype": "Government Report", "pdate": "2026-10-01", "url": "https://www.energy.gov",
+   "label": "US DOE National Strategy for American Leadership in Batteries (Oct 2026)"},
+  {"file": "WorldMineralsOutlook_SIR2026-5081.pdf",
+   "title": "Stewart, Padilla, Flanagan, Hartingh, Friedline, Trimmer, Moon & Gans (USGS) - World Minerals Outlook: Antimony, Copper, Graphite, Niobium, Potash, Silicon, Silver, and Tungsten Through 2030 (Scientific Investigations Report 2026-5081)",
+   "domain": "SUPPLY_CHAIN", "dtype": "Government Report", "pdate": "2026-11-01", "url": "https://doi.org/10.3133/sir20265081",
+   "label": "USGS World Minerals Outlook - Sb, Cu, graphite, Nb, potash, Si, Ag, W through 2030 (SIR 2026-5081)"}
+]
