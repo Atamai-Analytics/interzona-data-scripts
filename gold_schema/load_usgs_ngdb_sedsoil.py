@@ -4,7 +4,7 @@
 Input: D:/CriticalMineralsDB/USA/<ngdbsed|ngdbsoil>/main.csv (one row per sample) and chemistry.csv (all analyses, long format), extracted from
 ngdbsed-csv.zip / ngdbsoil-csv.zip. Field meanings from the release metadata (ngdbsed.met, datadxny.csv):
   qvalue < 0 = below the lower limit of determination (|value| = the limit; qualifiers L, N or <); qualifiers G / > = above the upper limit
-  (the limit with a ".1111" suffix). Stored as qualifier '<' / '>' with the limit, the USGS letter kept in result_comment.
+  (the limit with a ".1111" suffix, rounded in the CSV to e.g. "2000.11" / "0.51"; trailing 1s of the decimal part are stripped, keeping one when the limit would be 0 - fixed 2026-11-14). Stored as qualifier '<' / '>' with the limit, the USGS letter kept in result_comment.
 What is loaded
   - every sample with a position; lab ids already in gold as USA_USGS_NGDB samples (through the rock load) are skipped
   - each lab id is one sample (USGS gives separate lab ids to separate size fractions); mesh size = result fraction
@@ -13,15 +13,17 @@ What is loaded
   - left out: computed values (CP), sample weights (GV, unit g), organic / carbonate carbon and nitrogen (no gold analyte), zero values
 Sample types: stream/river + alluvium -> SED_STREAM, lake -> SED_LAKE, wetland/bog -> SED_BOG, glacial -> TILL_SAMPLE, other sediment contexts
 (marine, surface, unknown...) -> SEDIMENT_SAMPLE; soils by recorded zone (A/Ap, B, C horizon) else SOIL_SAMPLE; mine waste / tailings -> TAILINGS_GENERAL.
-Usage: python load_usgs_ngdb_sedsoil.py --dataset sed|soil [--check]   (--check = stage, insert samples, ROLLBACK before the result rows)
+CONCENTRATE release (ngdbconc, --dataset conc, loaded 2026-11-14): every sample is SED_HMC (USGS secondary class "concentrate"); the concentrate
+type (C1/C2/C3 magnetic fraction, pan concentrate...) and mesh size together form the result fraction; species "TI" (340 ES_SQ rows) = Ti.
+Usage: python load_usgs_ngdb_sedsoil.py --dataset sed|soil|conc [--check]   (--check = stage, insert samples, ROLLBACK before the result rows)
 """
 import os, sys, io, csv, re, time, collections, datetime
 import psycopg2
 
 DATASET = sys.argv[sys.argv.index("--dataset") + 1]
-assert DATASET in ("sed", "soil")
+assert DATASET in ("sed", "soil", "conc")
 CHECK = "--check" in sys.argv
-TAG = f"migration_usgs_ngdb_{DATASET}_20261113"
+TAG = f"migration_usgs_ngdb_{DATASET}_" + ("20261114" if DATASET == "conc" else "20261113")
 SRC = "USA_USGS_NGDB"
 PART = "usa_usgs_ngdb"
 XID = "USGS_NGDB_LAB_ID"
@@ -90,12 +92,14 @@ NEW_METHODS = {
     "NONE-EDXRF": ("No digestion / energy-dispersive XRF", "None", "No Digestion", "ED-XRF", "Energy-Dispersive X-Ray Fluorescence"),
     "NONE-ESQ": ("No digestion / quantitative emission spectrography", "None", "No Digestion", "DC-ARC", "DC Arc Atomic Emission Spectrometry"),
 }
-SPECIES = {"C_tot": "C"}
+SPECIES = {"C_tot": "C", "TI": "Ti"}
 SKIP_SPECIES = {"C_org", "C_crb", "N", "SplWtAu", "SplWtFA"}
 UNIT = {"ppm": "ppm", "pct": "%"}
 
 
 def stype(r):
+    if DATASET == "conc":
+        return "SED_HMC"
     if DATASET == "sed":
         src = r["sample_source"]
         if src in ("stream/river", "alluvium"): return "SED_STREAM"
@@ -147,14 +151,17 @@ with open(R + "main.csv", encoding="utf-8-sig", errors="replace", newline="") as
         if not (-90 <= lat <= 90 and -180 <= lon <= 180) or (lat == 0 and lon == 0): stats["bad position"] += 1; continue
         st = stype(r)
         frac = r["mesh_size"].strip() or None
-        local = f"USGS NGDB {'sediment' if DATASET == 'sed' else 'soil'}: " + " / ".join(x for x in [r["sample_source"], r["primary_class"], r["specific_name"],
+        if DATASET == "conc":
+            frac = ", ".join(x for x in [r["specific_name"].strip(), r["mesh_size"].strip()] if x) or None
+        kind = {"sed": "sediment", "soil": "soil", "conc": "heavy-mineral concentrate"}[DATASET]
+        local = f"USGS NGDB {kind}: " + " / ".join(x for x in [r["sample_source"], r["primary_class"], r["specific_name"],
                                                                                                     r.get("sample_zone", "")] if x)
         note = "; ".join(x for x in [
             f"USGS NGDB lab id {lab}", f"job {r['job_id']}" if r["job_id"] else "", f"project {r['project_name']}" if r["project_name"] else "",
             f"submitter {r['submitter']}" if r["submitter"] else "", f"{r['state']}, {r['country']}".strip(", "),
             f"coordinate precision {r['coord_prec_est']}" if r["coord_prec_est"] else "", f"depth {r['depth']}" if r["depth"] else "",
-            f"mesh {frac}" if frac else "", f"preparation {r['prep']}" if r["prep"] else "", r["locate_desc"][:200]] if x)
-        samples[lab] = [lab, st, local[:250], lat, lon, r["field_id"] or None, lab, note, "SURFACE", date(r["date_collect"]), frac]
+            f"mesh {r['mesh_size']}" if r["mesh_size"] else "", f"preparation {r['prep']}" if r["prep"] else "", r["locate_desc"][:200]] if x)
+        samples[lab] = [lab, st, local[:100], lat, lon, r["field_id"] or None, lab, note, "SURFACE", date(r["date_collect"]), frac]
         stats["samples " + st] += 1
 log("samples staged", len(samples), dict(stats))
 
@@ -178,7 +185,12 @@ with open(R + "chemistry.csv", encoding="utf-8-sig", errors="replace", newline="
         try: v = float(txt)
         except ValueError: stats["bad value"] += 1; continue
         if q in ("G", ">"):
-            t = txt[:-4] if txt.endswith("1111") else txt
+            # the ".1111" marker is rounded in the CSV ("2000.11", "2.11", "0.51" = limit 0.5): strip trailing 1s of the decimal part
+            # ("0.11" = limit 0.1, "0.000111" = 0.0001: if stripping leaves zero, the limit itself ended in 1)
+            t = txt
+            if re.search(r"\.\d*\d1$", txt):   # 2+ decimals ending in 1 = marker (0.32, 1.47 have none)
+                t = re.sub(r"1+$", "", txt)
+                if float(t.rstrip(".") or 0) == 0: t += "1"
             try: v = float(t.rstrip(".")) if t.rstrip(".") else v
             except ValueError: pass
             qual, val, ldl, udl = ">", v, None, v; stats["above upper limit"] += 1
@@ -207,7 +219,7 @@ for code, (name, dcode, dname, icode, iname) in NEW_METHODS.items():
                    notes, is_active, created_by, created_date)
                  SELECT %s, %s, %s, %s, %s, %s, %s, true, %s, now()
                  WHERE NOT EXISTS (SELECT 1 FROM geochem.analytical_methods WHERE method_code = %s)""",
-              (code, name, dcode, dname, icode, iname, "Added for the USGS NGDB sediment/soil load (USGS method families)", TAG, code))
+              (code, name, dcode, dname, icode, iname, "Added for the USGS NGDB sediment/soil/concentrate load (USGS method families)", TAG, code))
 c.execute("SELECT method_code, method_id FROM geochem.analytical_methods")
 mid = dict(c.fetchall())
 for am in used_methods:
