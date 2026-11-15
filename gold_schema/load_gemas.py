@@ -16,6 +16,7 @@ Usage: python load_gemas.py [--check]
 """
 import os, sys, io, csv, json, time, collections
 import psycopg2
+from fix_gemas_country_names import GEMAS_COUNTRY   # GEMAS codes -> country names (AUS = Austria)
 
 CHECK = "--check" in sys.argv
 TAG = "migration_gemas_20261114"
@@ -66,7 +67,8 @@ for fn, layer in [("gemas_layer15_Ap_AR_XRF.json", "Ap"), ("gemas_layer69_Gr_AR_
             lat, lon = a["YCOO"], a["XCOO"]
             assert 25 < lat < 82 and -32 < lon < 45, (k, lat, lon)
             depth = "0-20 cm (ploughed agricultural soil)" if typ == "Ap" else "0-10 cm (grazing land soil)"
-            note = "; ".join(x for x in [f"GEMAS {typ} {a.get('COUNTRY') or 'unknown'}", depth, f"site {int(a['ID'])}",
+            cc = a.get("COUNTRY") or "unknown"
+            note = "; ".join(x for x in [f"GEMAS {typ} {cc}", f"country {GEMAS_COUNTRY[cc]}" if cc in GEMAS_COUNTRY else "", depth, f"site {int(a['ID'])}",
                                          f"soil class {a['SOILCLASS']}" if a.get("SOILCLASS") else "", f"parent material {a['PM']}" if a.get("PM") else "",
                                          f"pH(CaCl2) {a['PH_CACL2']}" if a.get("PH_CACL2") is not None else "", f"TOC {a['TOC']} %" if a.get("TOC") is not None else "",
                                          f"climate {a['CLIMATE']}" if a.get("CLIMATE") else "", "sampled 2008-2009"] if x)
