@@ -56,7 +56,8 @@ part = {"FINLAND_GTK_ROCK": ("analytical_results_finland_gtk_rock", "result_clas
         "IRELAND_GSI_TELLUS": ("analytical_results_ireland_gsi_tellus", "result_classifications_ireland_gsi_tellus"),
         "NI_GSNI_TELLUS": ("analytical_results_ni_gsni_tellus", "result_classifications_ni_gsni_tellus"),
         "IRELAND_GSI_MPM_HISTORIC": ("analytical_results_ireland_gsi_mpm_historic", "result_classifications_ireland_gsi_mpm_historic"),
-        "YUKON_YGS_RGS": ("analytical_results_yukon_ygs_rgs", "result_classifications_yukon_ygs_rgs")}[SRC]
+        "YUKON_YGS_RGS": ("analytical_results_yukon_ygs_rgs", "result_classifications_yukon_ygs_rgs"),
+        "ALASKA_AGDB3": ("analytical_results_alaska_agdb3", "result_classifications_alaska_agdb3")}[SRC]
 
 # ---- package rules (basis + priority) for every package
 c.execute("""
