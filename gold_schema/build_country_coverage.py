@@ -71,7 +71,7 @@ def assign(table, idcol, where):
     return out
 
 
-sc = assign("geochem.samples", "sample_id", "true")
+sc = assign("geochem.samples", "sample_id", "is_active")  # superseded copies (e.g. CDoGS Yukon) are inactive
 oc = assign("core.occurrences", "occurrence_id", "is_active")
 dc = assign("drilling.drillholes", "drillhole_id", "coalesce(is_active, true)")
 # active analyses per country: each results partition joined to the sample assignment
