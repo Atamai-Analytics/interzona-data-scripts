@@ -156,3 +156,8 @@ _*_before*.py
 !catchments/
 catchments/*
 !catchments/*.py
+
+# NSW method mapping (recovered from bronze + auto assignments + review workbook), 2026-11-17
+!gold_schema/nsw_mapping/
+!gold_schema/nsw_mapping/*.csv
+!gold_schema/nsw_mapping/*.xlsx
