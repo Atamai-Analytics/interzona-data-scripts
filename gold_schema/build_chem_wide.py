@@ -6,6 +6,7 @@ Units:    every non-oxide analyte in ppm, every oxide analyte (is_oxide) in wt%.
 Values:   DETECTED results only (result_classifications.use_in_statistics); below-detection (BELOW_DL_*) analytes are listed in bdl_codes (text[]);
           SUSPECT / SENTINEL / ABOVE_UDL / NULL results are in neither.
 Choice:   if a sample has several results for the same analyte+basis, the lowest package_wide_rules.priority wins (ICP-MS 1, ICP-OES/AES 2, XRF 3, other 5); ties go to the lowest package_id (one package only; duplicates within that package are averaged).
+          FA_FIRST sources: Au / Pt / Pd from fire-assay packages first.
 Greenland (TECH_SOURCES) uses geochem.technique_rank: rank by technique family x element group (setup_greenland_priorities.py), total basis only.
 Context:  sample_context, drillhole_id and depth_from_m / depth_to_m are copied from geochem.samples (drill assays: sample_context DRILLHOLE_INTERVAL).
 Usage:    python build_chem_wide.py FINLAND_GTK_ROCK [--dry]
@@ -102,6 +103,11 @@ if TUNED:
              "LEFT JOIN geochem.technique_rank tr ON tr.analyte_group = CASE WHEN a.is_oxide THEN 'MAJOR' ELSE ag.analyte_group END AND tr.technique = pt.technique")
 else:
     PRIO, TJOIN = "coalesce(so.priority, w.priority)", ""
+# sources where gold and platinum-group values come from a fire-assay package first (fire assay is the reference method; a four-acid / fusion / XRF
+# value of the same sample otherwise wins on ICP-MS priority or package_id). value = package_code LIKE pattern for that source's fire-assay packages
+FA_FIRST = {"AUSTRALIA_SA_SARIG": "SA-FA-%"}
+if SRC in FA_FIRST:
+    PRIO = f"CASE WHEN a.element_symbol IN ('Au', 'Pt', 'Pd') AND p.package_code LIKE '{FA_FIRST[SRC]}' THEN ({PRIO}) - 10 ELSE {PRIO} END"
 ROWS = f"""
 SELECT r.sample_id, r.result_id, r.package_id,
   CASE WHEN a.analyte_code = 'C' AND p.package_name ILIKE 'Non-Carbonate%' THEN 'C_NONCARB'
