@@ -188,3 +188,9 @@ if DRY:
     g.rollback(); log("DRY RUN - rolled back")
 else:
     g.commit(); log("COMMITTED")
+    # the drill-intercepts tool reads drilling.hole_grade_max: refresh it whenever a source with downhole intervals is rebuilt
+    c.execute("SELECT EXISTS (SELECT 1 FROM geochem.sample_chemistry_wide WHERE source_system = %s AND drillhole_id IS NOT NULL AND depth_to_m > depth_from_m)", (SRC,))
+    if c.fetchone()[0]:
+        import subprocess
+        log("refreshing per-hole grade summary (build_hole_grade_summary.py)")
+        subprocess.run([sys.executable, "-P", os.path.join(os.path.dirname(os.path.abspath(__file__)), "build_hole_grade_summary.py"), SRC], check=True)
