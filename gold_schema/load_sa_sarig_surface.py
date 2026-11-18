@@ -64,6 +64,9 @@ def family(code, desc, dig, det):
     elif "bleg" in t or "bulk leach" in t or "cyanide" in t: d = "CN"
     elif "water leach" in t or re.search(r"\bwl\b", c): d = "WATER"
     elif re.search(r"partial|selective|weak|buffered|ionic|enzyme|neutral", t): d = "LEACH"
+    # 2026-11-18 fix (fix_sa_method_family.py): the method's own description wins over code patterns
+    elif re.search(r"four acid|4 acid|four-acid|multi.?acid|mixed acid", t) and "aqua" not in t and "fire assay" not in t: d = "4A"
+    elif re.search(r"aqua.?regia", t) and not re.search(r"fire.?assay|lead collection", t): d = "AR"
     elif "fire assay" in t or c.startswith(("fa", "pgm", "au-")) or "fa/" in c or c.startswith("au"): d = "FA"
     elif re.search(r"aqua regia|\bar\b|ar/|arm\d|b/oes|b/eoes|b/ms|bt/oes|bveg|me-icp41|me-ms41|aqua", t): d = "AR"
     elif re.search(r"four acid|4 acid|4a|four-acid|hf|multi.?acid|mixed acid|near total|me-icp61|me-ms61|ic3|ic4r", t): d = "4A"
