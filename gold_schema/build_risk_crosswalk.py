@@ -66,6 +66,13 @@ M = {
  "zirconium":  ("Zirconium", ["Zirconium"], None, 233, 296, ["Zirconium"], None),
 }
 
+# project commodity codes (core.commodities.commodity_name used by core.projects.primary_commodity_id)
+PROJ = {"aluminium": ["Al", "Alumina", "Bauxite"], "antimony": ["Sb"], "bismuth": ["Bi"], "chromium": ["Chrome"], "cobalt": ["Co"], "copper": ["Cu"],
+        "fluorspar": ["Fluorite"], "gallium": ["Ga"], "germanium": ["Ge"], "graphite": ["Graphite"], "lead": ["Pb"], "lithium": ["Li"], "magnesium": ["Mg"],
+        "manganese": ["Mn", "Manganese Ore"], "nickel": ["Ni"], "niobium": ["Nb"], "palladium": ["Pd", "PGE"], "platinum": ["PGE"], "phosphate": ["Phosphate Rock"],
+        "potash": ["Potash"], "rare_earths": ["REE"], "silver": ["Ag"], "tin": ["Sn"], "titanium": ["Ti", "Heavy Mineral Sand"], "tungsten": ["W"], "vanadium": ["V"],
+        "zinc": ["Zn"], "zirconium": ["Zircon", "Heavy Mineral Sand"]}
+
 # mineral, USGS commodity, USGS stage (None = trade-only stage), trade form, HS6 list, facility stages, flag
 S = [
  ("aluminium", "Bauxite", "mine_production", "ore", ["260600"], ["Mine"], None),
@@ -79,7 +86,7 @@ S = [
  ("bismuth", "Bismuth", "refinery_production", "refined", ["810600"], ["Refinery"], "HS 8106.00 includes scrap and articles."),
  ("chromium", "Chromium", "mine_production", "ore", ["261000"], ["Mine"], None),
  ("chromium", None, None, "intermediate", ["720241", "720249"], ["Smelter"], "Ferrochrome: no USGS production table; trade only."),
- ("cobalt", "Cobalt", "mine_production", "intermediate", ["260500", "282200", "810520"], ["Mine", "Concentrator"], "Mining countries ship cobalt hydroxide and intermediates (HS 2822.00, 8105.20), not ore; 8105.20 also holds unwrought metal."),
+ ("cobalt", "Cobalt", "mine_production", "intermediate", ["260500", "282200", "810520"], ["Mine", "Concentrator", "Other processing plant"], "Mining countries ship cobalt hydroxide and intermediates (HS 2822.00, 8105.20), not ore; 8105.20 also holds unwrought metal."),
  ("copper", "Copper", "mine_production", "ore", ["260300"], ["Mine", "Concentrator"], None),
  ("copper", "Copper", "refinery_production", "refined", ["740311", "740312", "740313", "740319"], ["Refinery", "Smelter, Refinery"], None),
  ("copper", None, None, "intermediate", ["740100", "740200"], ["Smelter"], "Matte and anodes/blister: no separate USGS smelter table; trade only."),
@@ -90,18 +97,18 @@ S = [
  ("indium", "Indium", "refinery_production", "refined", ["811292", "811299"], ["Refinery"], "Grouped HS code (seven metals)."),
  ("lead", "Lead", "mine_production", "ore", ["260700"], ["Mine", "Concentrator"], None),
  ("lead", None, None, "refined", ["780110"], ["Smelter", "Refinery"], "No USGS refinery table in the loaded tables: trade only."),
- ("lithium", "Lithium", "mine_production", "refined", ["283691", "282520"], ["Mine"], "Mine-stage share, but trade is chemicals only (no spodumene code)."),
+ ("lithium", "Lithium", "mine_production", "refined", ["283691", "282520"], ["Mine", "Brine operation", "Other processing plant"], "Mine-stage share, but trade is chemicals only (no spodumene code)."),
  ("magnesium", "Magnesium Metal", "smelter_production", "refined", ["810411", "810419"], ["Smelter"], None),
  ("manganese", "Manganese", "mine_production", "ore", ["260200"], ["Mine"], None),
  ("manganese", None, None, "intermediate", ["720211", "720219", "720230"], ["Smelter"], "Ferromanganese and silicomanganese: trade only."),
- ("nickel", "Nickel", "mine_production", "intermediate", ["260400", "750110", "750120", "720260"], ["Mine", "Smelter"], "Ore plus what ore-ban countries export instead (NPI/ferronickel, matte, MHP)."),
+ ("nickel", "Nickel", "mine_production", "intermediate", ["260400", "750110", "750120", "720260"], ["Mine", "Smelter", "Other processing plant"], "Ore plus what ore-ban countries export instead (NPI/ferronickel, matte, MHP)."),
  ("nickel", None, None, "refined", ["750210"], ["Refinery", "Smelter, Refinery"], "No USGS refined-nickel table: trade only."),
  ("niobium", "Niobium (Columbium)", "mine_production", "intermediate", ["720293", "261590"], ["Mine"], "Ferroniobium plus grouped Nb-Ta-V ores."),
  ("palladium", "Palladium", "mine_production", "refined", ["711021"], ["Mine", "Refinery"], "Mine-stage share; trade is unwrought palladium."),
  ("platinum", "Platinum", "mine_production", "refined", ["711011"], ["Mine", "Refinery"], "Mine-stage share; trade is unwrought platinum."),
  ("phosphate", "Phosphate Rock", "mine_production", "ore", ["251010", "251020"], ["Mine"], None),
- ("potash", "Potash", "mine_production", "ore", [], ["Mine"], "No potash trade codes loaded."),
- ("rare_earths", "Rare Earths", "mine_production", "refined", ["284610", "284690", "280530"], ["Mine"], "Mine-stage share; trade is compounds and metals (no concentrate code)."),
+ ("potash", "Potash", "mine_production", "ore", [], ["Mine", "Brine operation"], "No potash trade codes loaded."),
+ ("rare_earths", "Rare Earths", "mine_production", "refined", ["284610", "284690", "280530"], ["Mine", "Other processing plant"], "Mine-stage share; trade is compounds and metals (no concentrate code)."),
  ("rare_earths", None, None, "refined", ["850511"], [], "Permanent magnets (all types): trade only."),
  ("rhenium", "Rhenium", "mine_production", "refined", ["811292", "811299"], ["Refinery"], "Grouped HS code (seven metals)."),
  ("silver", "Silver", "mine_production", "refined", ["710691", "710692"], ["Mine", "Refinery"], "Mine-stage share; trade is silver metal."),
@@ -129,7 +136,12 @@ c.execute("SELECT DISTINCT commodity, stage FROM markets.supply_concentration WH
 c.execute("SELECT DISTINCT commodity FROM markets.export_restrictions"); EXR = {r[0] for r in c.fetchall()}
 c.execute("SELECT series_id, frequency FROM markets.price_series WHERE is_active"); PS = dict(c.fetchall())
 c.execute("SELECT commodity_name, count(*) FROM core.facility_capacity WHERE is_active GROUP BY 1"); FAC = dict(c.fetchall())
-c.execute("SELECT DISTINCT facility_stage FROM core.facility_capacity WHERE is_active"); FST = {r[0] for r in c.fetchall()}
+c.execute("SELECT DISTINCT stage_group FROM core.facility_list(NULL, NULL, NULL, false)"); FST = {r[0] for r in c.fetchall()} | {"Smelter, Refinery"}
+c.execute("SELECT commodity_name FROM core.commodities"); CM = {r[0] for r in c.fetchall()}
+for k, v in PROJ.items():
+    if k not in M: problems.append(f"project codes for unknown mineral {k}")
+    for x in v:
+        if x not in CM: problems.append(f"{k}: project commodity '{x}' not in core.commodities")
 for k, (lab, exr, pm, pa, ph, fac, note) in M.items():
     for e in exr:
         if e not in EXR: problems.append(f"{k}: restriction commodity '{e}' not found")
@@ -153,14 +165,15 @@ if problems:
 if "--dry" in sys.argv: sys.exit()
 
 c.execute("""CREATE TABLE IF NOT EXISTS markets.risk_minerals (mineral text PRIMARY KEY, label text NOT NULL, restriction_commodities text[] NOT NULL,
-             price_series_monthly int, price_series_annual int, price_series_historical int, facility_commodities text[] NOT NULL, notes text,
+             price_series_monthly int, price_series_annual int, price_series_historical int, facility_commodities text[] NOT NULL, notes text, project_commodities text[] NOT NULL DEFAULT '{}',
              created_date timestamptz DEFAULT now())""")
 c.execute("""CREATE TABLE IF NOT EXISTS markets.risk_mineral_stages (id serial PRIMARY KEY, mineral text NOT NULL REFERENCES markets.risk_minerals(mineral),
              usgs_commodity text, usgs_stage text, trade_form text NOT NULL CHECK (trade_form IN ('ore','intermediate','refined')),
              hs6 text[] NOT NULL, facility_stages text[] NOT NULL, flag text, created_date timestamptz DEFAULT now())""")
 c.execute("TRUNCATE markets.risk_mineral_stages, markets.risk_minerals")
-c.executemany("INSERT INTO markets.risk_minerals (mineral, label, restriction_commodities, price_series_monthly, price_series_annual, price_series_historical, facility_commodities, notes) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)",
-              [(k, *v) for k, v in M.items()])
+c.execute("ALTER TABLE markets.risk_minerals ADD COLUMN IF NOT EXISTS project_commodities text[] NOT NULL DEFAULT '{}'")
+c.executemany("INSERT INTO markets.risk_minerals (mineral, label, restriction_commodities, price_series_monthly, price_series_annual, price_series_historical, facility_commodities, notes, project_commodities) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)",
+              [(k, *v, PROJ.get(k, [])) for k, v in M.items()])
 c.executemany("INSERT INTO markets.risk_mineral_stages (mineral, usgs_commodity, usgs_stage, trade_form, hs6, facility_stages, flag) VALUES (%s,%s,%s,%s,%s,%s,%s)", S)
 for t in ("markets.risk_minerals", "markets.risk_mineral_stages"):
     c.execute(f"GRANT SELECT ON {t} TO cm_app_readonly")
