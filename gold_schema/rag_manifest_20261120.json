@@ -1,0 +1,22 @@
+[
+  {"file": "AdvancedMaterialsToReduceCM.pdf",
+   "title": "Coelho, F. & Pennington, D. (European Commission Joint Research Centre) - Advanced materials to reduce critical raw material dependencies in European industry: research and innovation needs across electronics, passenger vehicles, construction and clean energy (JRC Science for Policy Brief JRC149071, 2026)",
+   "domain": "TECHNOLOGY", "dtype": "Policy Brief", "pdate": null, "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC149071",
+   "label": "JRC brief - advanced materials to reduce CRM dependencies (2026)"},
+  {"file": "CriticalMineralsInSEAsia.pdf",
+   "title": "OECD - Critical minerals in Southeast Asia and India: a regional overview (OECD Global Relations Policy Papers, Volume 2026, Issue 8)",
+   "domain": "SUPPLY_CHAIN", "dtype": "Policy Paper", "pdate": null, "url": "https://www.oecd.org",
+   "label": "OECD - Critical minerals in Southeast Asia and India (2026)"},
+  {"file": "EPRS_BRI(2026)791531_EN.pdf",
+   "title": "Ragonnaud, G. with Wainstain, R. & Breviere, E. (EPRS, European Parliamentary Research Service) - Advanced materials act (Briefing, Commission initiative in preparation, PE 791.531, October 2026)",
+   "domain": "POLICY", "dtype": "Briefing", "pdate": "2026-10-01", "url": "https://www.europarl.europa.eu/thinktank",
+   "label": "EPRS briefing - EU Advanced Materials Act (Oct 2026)"},
+  {"file": "SecuringRawMineralsForSteel.pdf",
+   "title": "Rimini, M. (OECD Steel Secretariat) - Securing raw materials for the steel value chain amidst competing policy priorities (OECD Science, Technology and Industry Policy Papers No. 196, May 2026)",
+   "domain": "SUPPLY_CHAIN", "dtype": "Policy Paper", "pdate": "2026-05-01", "url": "https://www.oecd.org",
+   "label": "OECD - Securing raw materials for the steel value chain (STI Policy Paper 196, 2026)"},
+  {"file": "TheBottlenecksOfAISemiconductor.pdf",
+   "title": "Kim, J. (Deerfield Academy, secondary-school student author) - The Real Bottlenecks of the AI Semiconductor Race: Advanced Manufacturing, HBM, and Critical Mineral Supply Chains (review article, American Research Journal of Business and Management 12(1), August 2026, doi:10.21694/2379-1047.26005)",
+   "domain": "SUPPLY_CHAIN", "dtype": "Journal Article", "pdate": "2026-08-25", "url": "https://doi.org/10.21694/2379-1047.26005",
+   "label": "Kim (2026) review - AI semiconductor bottlenecks, HBM and critical minerals (student article)"}
+]
