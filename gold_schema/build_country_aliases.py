@@ -20,7 +20,7 @@ MANUAL = {
     "Bolivia": "BOL", "Burma": "MMR", "Congo (Kinshasa)": "COD", "Congo (Brazzaville)": "COG", "Côte d’Ivoire": "CIV", "Côte d'Ivoire": "CIV",
     "Korea, North": "PRK", "Korea, Republic of": "KOR", "Laos": "LAO", "Russia": "RUS", "Tanzania": "TZA", "Turkey": "TUR", "Türkiye": "TUR",
     "United States": "USA", "Vietnam": "VNM", "DRC": "COD", "DR Congo": "COD", "South Korea": "KOR", "North Korea": "PRK", "Iran": "IRN",
-    "Syria": "SYR", "Venezuela": "VEN", "Moldova": "MDA", "Macedonia": "MKD", "Swaziland": "SWZ", "Eswatini": "SWZ", "Czech Republic": "CZE",
+    "Syria": "SYR", "Venezuela": "VEN", "Moldova": "MDA", "Macedonia": "MKD", "Swaziland": "SWZ", "Eswatini": "SWZ", "Czech Republic": "CZE", "Democratic Republic of Congo": "COD", "Korea": "KOR",  # IEA spellings (2026-11-21)
 }
 
 g = psycopg2.connect(host=ENV["LITHODAT_DB_HOST"], port=ENV["LITHODAT_DB_PORT"], dbname="interzona_cm", user=ENV["LITHODAT_DB_USER"],
