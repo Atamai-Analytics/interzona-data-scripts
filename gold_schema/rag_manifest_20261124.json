@@ -1,0 +1,21 @@
+[
+  {
+    "file": "CriticalMineralsInLatinAmericaAndCarribean.pdf",
+    "title": "OECD - Critical minerals in Latin America and the Caribbean: A regional overview (OECD Global Relations Policy Papers, Volume 2026, Issue 9; CC BY 4.0, cover photo excluded)",
+    "domain": "SUPPLY_CHAIN",
+    "dtype": "Policy Paper",
+    "pdate": "2026-11-01",
+    "url": "https://www.oecd.org",
+    "label": "OECD 2026 - Critical minerals in Latin America and the Caribbean",
+    "types": {"TABLE_OF_CONTENTS": [[7, 8]], "REFERENCES": [[55, 61]]}
+  },
+  {
+    "file": "EURegulations.pdf",
+    "title": "European Union - Regulation (EU) 2024/1252 of the European Parliament and of the Council of 11 April 2024 establishing a framework for ensuring a secure and sustainable supply of critical raw materials (Critical Raw Materials Act), OJ L 2024/1252, 3 May 2024 - original text as adopted, not consolidated (later amendments not included; reuse under Commission Decision 2011/833/EU)",
+    "domain": "POLICY",
+    "dtype": "Legislation",
+    "pdate": "2024-05-03",
+    "url": "http://data.europa.eu/eli/reg/2024/1252/oj",
+    "label": "EU Critical Raw Materials Act - Regulation (EU) 2024/1252"
+  }
+]
