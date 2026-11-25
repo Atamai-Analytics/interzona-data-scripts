@@ -77,3 +77,6 @@ INSERT INTO core.data_sources (source_system, publisher, dataset_name, licence, 
  true, 'Own compilation of facts from cited sources; Mindat-derived positions removed 25 Nov 2026.',
  'Positions often approximate (see position_accuracy and comments).', NULL, '2026-11-25', true, 'claude_licences_20261125');
 COMMIT;
+
+-- Also applied 25 Nov 2026: the SAUDI_SGS_NGD row now shows its hold.
+-- UPDATE core.data_sources SET is_active = false, licence_status = 'HELD since 25 Nov 2026 (data in licence_hold, app flag SGS_SAUDI_ENABLED = false) pending SGS reply on client-facing display. Earlier: ' || licence_status WHERE source_system = 'SAUDI_SGS_NGD' AND is_active;
