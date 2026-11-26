@@ -19,7 +19,7 @@ from psycopg2.extras import execute_values
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 BASE = r"D:\CriticalMineralsDB\Documents\Market data\prices"
 ap = argparse.ArgumentParser()
-ap.add_argument("--imf", default=os.path.join(BASE, "IMF_PCPS_external_data.xlsx"))
+ap.add_argument("--imf", default=os.path.join(BASE, "IMF_PCPS_external_data.xlsx"), help="IMF workbook; skipped automatically while the IMF series are held back (no active IMF_PCPS rows)")
 ap.add_argument("--wb", default=os.path.join(BASE, "WB_CMO_Historical_Monthly.xlsx"))
 ap.add_argument("--run", action="store_true")
 args = ap.parse_args()
@@ -80,7 +80,13 @@ def parse_imf(path):
     return out
 
 
-fresh = {**parse_wb(args.wb), **parse_imf(args.imf)}
+# The IMF series were moved to licence_hold on 25 Nov 2026 (IMF terms need permission for commercial reuse); skip them while held.
+_c = psycopg2.connect(host=ENV["PGHOST"], port=ENV["PGPORT"], dbname=ENV["PGDATABASE"], user=ENV["PGUSER"], password=ENV["PGPASSWORD"], connect_timeout=30)
+_cur = _c.cursor(); _cur.execute("SELECT count(*) FROM markets.price_series WHERE source = 'IMF_PCPS' AND is_active"); IMF_LIVE = _cur.fetchone()[0] > 0; _c.close()
+if not IMF_LIVE:
+    IMF_CODES = []
+    print("IMF_PCPS series are held back (licence) - IMF workbook skipped")
+fresh = {**parse_wb(args.wb), **(parse_imf(args.imf) if IMF_LIVE else {})}
 missing = [k for k in [("WORLD_BANK_PINK_SHEET", c) for c in WB_CODES] + [("IMF_PCPS", c) for c in IMF_CODES] if k not in fresh]
 if missing: sys.exit(f"columns not found in the workbooks (layout changed?): {missing}")
 
@@ -102,12 +108,12 @@ for (source, code), vals in sorted(fresh.items()):
     last = max(e for (s, e) in vals) if vals else None
     summary.append((sid, source, code, len(add), last, len(set(have) | {s for (s, _) in vals})))
 
-print(f"workbooks: IMF {os.path.basename(args.imf)} | WB {os.path.basename(args.wb)}")
+print(f"workbooks: IMF {os.path.basename(args.imf) if IMF_LIVE else '(held, skipped)'} | WB {os.path.basename(args.wb)}")
 for sid, source, code, n_add, last, n_total in summary:
     print(f"  {source:22} {code:20} new months {n_add:3}  latest {last}  total {n_total}")
 print(f"new monthly rows: {len(new_rows)}; revised values (reported, not applied): {len(revisions)}")
 for r in revisions[:40]: print("  revision", r)
-latest = {src: max(l for _, s, _, _, l, _ in summary if s == src) for src in ("IMF_PCPS", "WORLD_BANK_PINK_SHEET")}
+latest = {src: max(l for _, s, _, _, l, _ in summary if s == src) for src in ("IMF_PCPS", "WORLD_BANK_PINK_SHEET") if any(s == src for _, s, _, _, _, _ in summary)}
 print("latest month by source:", {k: str(v) for k, v in latest.items()})
 
 if args.run and new_rows:
