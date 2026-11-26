@@ -41,8 +41,21 @@ todo = []
 
 
 def run(cmd, cwd, timeout=3600):
-    p = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=timeout)
+    p = subprocess.run(cmd, cwd=cwd, env=CHILD_ENV, capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=timeout)
     return p.returncode, (p.stdout or "") + (p.stderr or "")
+
+
+# Child scripts get this process's library folders explicitly: under Task Scheduler the user site-packages folder was not on the child's
+# path (25 Nov 2026: refresh_prices.py could not import openpyxl when started by the scheduled task, though this process could).
+import site
+_paths = [p for p in sys.path if p and "site-packages" in p] + [site.getusersitepackages(), os.path.join(os.path.expanduser("~"), "AppData", "Roaming", "Python", "Python314", "site-packages")]
+_paths += [x for x in os.environ.get("PYTHONPATH", "").split(os.pathsep) if x]
+CHILD_ENV = dict(os.environ, PYTHONPATH=os.pathsep.join(dict.fromkeys(p for p in _paths if os.path.isdir(p))), PYTHONIOENCODING="utf-8")
+
+if "--selftest" in sys.argv:   # quick check that child scripts can import what they need (used to test the scheduled task)
+    t = subprocess.run([PY, "-c", "import openpyxl, psycopg2, numpy; print('child imports ok')"], env=CHILD_ENV, capture_output=True, text=True)
+    print(f"{TODAY} selftest: parent {PY} | child: {(t.stdout or t.stderr).strip()[-300:]} | PYTHONPATH={CHILD_ENV['PYTHONPATH']}")
+    sys.exit(t.returncode)
 
 
 # ---- 1. prices -------------------------------------------------------------------------------------------------------------------
